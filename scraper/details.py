@@ -231,10 +231,13 @@ def _fetch_talentbrew(job_url: str) -> dict[str, str | None]:
 
 
 def _fetch_smartrecruiters(job_url: str) -> dict[str, str | None]:
+    from .smartrecruiters import posting_id_from_url
+
     m = re.search(r"smartrecruiters\.com/([^/]+)/([^/?#]+)", job_url, re.I)
     if not m:
-        return None
-    slug, posting_id = m.group(1), m.group(2)
+        return _detail_result()
+    slug = m.group(1)
+    posting_id = posting_id_from_url(job_url) or m.group(2).split("-")[0]
     api = f"https://api.smartrecruiters.com/v1/companies/{slug}/postings/{posting_id}"
     try:
         r = transport_fetch(
