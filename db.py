@@ -719,16 +719,19 @@ def fetch_jobs(category: Optional[str] = None,
 
     if search:
         s = search.strip()
-        like = f"%{s}%"
+        like = f"%{s.lower()}%"
         if s.isdigit():
             sql += (
-                " AND (title LIKE ? OR location LIKE ? OR CAST(id AS TEXT) LIKE ?"
-                " OR COALESCE(posting_id, '') LIKE ?)"
+                " AND (LOWER(title) LIKE ? OR LOWER(location) LIKE ? OR LOWER(company) LIKE ?"
+                " OR CAST(id AS TEXT) LIKE ? OR LOWER(COALESCE(posting_id, '')) LIKE ?)"
+            )
+            params += [like, like, like, f"%{s}%", like]
+        else:
+            sql += (
+                " AND (LOWER(title) LIKE ? OR LOWER(location) LIKE ? OR LOWER(company) LIKE ?"
+                " OR LOWER(COALESCE(posting_id, '')) LIKE ?)"
             )
             params += [like, like, like, like]
-        else:
-            sql += " AND (title LIKE ? OR location LIKE ? OR COALESCE(posting_id, '') LIKE ?)"
-            params += [like, like, like]
     if category:
         sql += " AND primary_category = ?"
         params.append(category)
