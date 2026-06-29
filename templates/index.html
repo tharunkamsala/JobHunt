@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HireView · US software roles</title>
-  <link rel="preconnect" href="https://rsms.me/" />
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <title>Geetha · CS job tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-  <meta name="theme-color" content="#ffffff" />
+  <meta name="theme-color" content="#0c1222" />
   <meta name="color-scheme" content="light" />
   <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
 </head>
@@ -16,10 +17,10 @@
   <div class="app">
     <aside class="sidebar">
       <div class="brand">
-        <div class="brand-mark" aria-hidden="true">HV</div>
+        <div class="brand-mark" aria-hidden="true">G</div>
         <div class="brand-text">
-          <div class="brand-title">HireView</div>
-          <div class="brand-sub">US internships · co-ops · CS roles</div>
+          <div class="brand-title">Geetha</div>
+          <div class="brand-sub">Early-career CS · H1B sponsors</div>
         </div>
         <button class="sidebar-close" type="button" id="closeFilters" aria-label="Close filters">×</button>
       </div>
@@ -140,7 +141,7 @@
         <div class="topbar-main">
           <div class="topbar-titles">
             <h1 class="page-title">Open roles</h1>
-            <p class="page-sub">United States · internships, co-ops, and early-career CS roles</p>
+            <p class="page-sub">Live feed from 99 sponsor companies · scraped every 15 min</p>
           </div>
           <div class="search-wrap" role="search">
             <label class="visually-hidden" for="searchInput">Search</label>
@@ -225,7 +226,7 @@
 
       <footer class="footer">
         <div class="footer-left">
-          <span class="footer-brand">HireView</span>
+          <span class="footer-brand">geetha.dev</span>
           <span class="footer-sep">·</span>
           <span class="ws-indicator" id="wsIndicator" title="WebSocket disconnected">
             <span class="ws-dot ws-disconnected" id="wsDot"></span>
@@ -450,7 +451,7 @@
               body: head.map(j => `${j.posting_id || "ref#"+j.id} — ${j.title} — ${j.company}`).join("\n")
                     + (more > 0 ? `\n+${more} more` : ""),
               tag: "jt-" + head[0].id,
-              icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='10' fill='%235b75ff'/><text x='50%' y='56%' font-size='22' font-family='Inter,sans-serif' font-weight='700' fill='white' text-anchor='middle'>JT</text></svg>",
+              icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='12' fill='%230d9488'/><text x='50%' y='56%' font-size='24' font-family='DM Sans,sans-serif' font-weight='700' fill='white' text-anchor='middle'>G</text></svg>",
             }
           );
           if (newOnes.length === 1 && newOnes[0].url) {
