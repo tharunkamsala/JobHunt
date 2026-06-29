@@ -148,9 +148,9 @@ def primary_category(title: str) -> str | None:
         # Keep explicit New Grad roles even when internship mode is enabled.
         if matched != "New Grad" and not is_internship_like(title):
             return None
-    # All kept roles must be CS/CSE-related (not just internships).
-    if matched and not is_cs_domain(t):
-        return None
+    # Catch-all: CS-domain title that passed seniority/field gates but no bucket.
+    if not matched and is_cs_domain(t):
+        matched = "SDE 1"
     return matched
 
 

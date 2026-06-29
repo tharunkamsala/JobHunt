@@ -220,7 +220,8 @@ def _playwright_cards(page_url: str, link_selector: str, *, wait_ms: int = 7000)
 def amazon(_: str = "") -> list[dict]:
     out: list[dict] = []
     queries = ["software development engineer", "SDE", "machine learning",
-               "data engineer", "new grad"]
+               "data engineer", "new grad", "software engineer intern",
+               "SDE intern", "cloud engineer", "systems engineer"]
     seen: set[str] = set()
     for q in queries:
         offset = 0

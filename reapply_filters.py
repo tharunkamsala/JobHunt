@@ -4,13 +4,15 @@ from __future__ import annotations
 
 import json
 
-from config import EXCLUDED_COMPANIES
-from db import connect, init_db
+from config import EXCLUDED_COMPANIES, ROLE_FILTERS
+from db import connect, init_db, set_enabled_scrape_categories
 from scraper.filters import match_categories
 
 
 def main() -> None:
     init_db()
+    # Keep all CS role buckets enabled for scraping (SDE, intern, ML, etc.).
+    set_enabled_scrape_categories(list(ROLE_FILTERS.keys()))
     deactivated = 0
     excluded = 0
     updated = 0
