@@ -300,7 +300,7 @@ def _job_description(raw: dict) -> str | None:
 
 def _normalize_and_filter(raw: list[dict], company: dict | None = None) -> list[dict]:
     normalized: list[dict] = []
-    seen_titles: set[tuple[str, str]] = set()
+    seen_keys: set[str] = set()
     try:
         enabled = set(get_enabled_scrape_categories())
     except Exception:
@@ -320,16 +320,18 @@ def _normalize_and_filter(raw: list[dict], company: dict | None = None) -> list[
         loc = (j.get("location") or "").strip() or None
         if not is_usa(loc):
             continue
-        key = (title.lower(), (loc or "").lower())
-        if key in seen_titles:
+        url_raw = (j.get("url") or "").strip()
+        posting_id = _coalesce_posting_id(j.get("posting_id"), url_raw or None)
+        dedupe_key = posting_id or url_raw.lower().split("?")[0].rstrip("/") or f"{title.lower()}|{(loc or '').lower()}"
+        if dedupe_key in seen_keys:
             continue
-        seen_titles.add(key)
+        seen_keys.add(dedupe_key)
         row = {
             "title": title,
             "location": loc,
-            "url": j.get("url"),
+            "url": url_raw or None,
             "posted_at": j.get("posted_at"),
-            "posting_id": _coalesce_posting_id(j.get("posting_id"), j.get("url")),
+            "posting_id": posting_id,
             "categories": cats,
             "description": _job_description(j),
         }

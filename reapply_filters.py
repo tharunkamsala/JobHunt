@@ -7,6 +7,7 @@ import json
 from config import EXCLUDED_COMPANIES, DEFAULT_SCRAPE_CATEGORIES
 from db import connect, init_db, set_enabled_scrape_categories
 from scraper.filters import match_categories
+from scraper.html_text import strip_html
 
 
 def main() -> None:
@@ -16,9 +17,10 @@ def main() -> None:
     deactivated = 0
     excluded = 0
     updated = 0
+    desc_cleaned = 0
     with connect() as conn:
         rows = conn.execute(
-            "SELECT id, title, company, categories FROM jobs WHERE is_active = 1"
+            "SELECT id, title, company, categories, description FROM jobs WHERE is_active = 1"
         ).fetchall()
         for row in rows:
             company = (row["company"] or "").strip()
@@ -43,7 +45,19 @@ def main() -> None:
                     (json.dumps(cats), cats[0], row["id"]),
                 )
                 updated += 1
-    print(f"Done. Deactivated {deactivated} non-CSE jobs, {excluded} excluded companies, recategorized {updated}.")
+            raw_desc = row["description"] or ""
+            if raw_desc and ("<" in raw_desc or "&lt;" in raw_desc):
+                clean = strip_html(raw_desc)
+                if clean != raw_desc:
+                    conn.execute(
+                        "UPDATE jobs SET description = ? WHERE id = ?",
+                        (clean, row["id"]),
+                    )
+                    desc_cleaned += 1
+    print(
+        f"Done. Deactivated {deactivated} non-CSE jobs, {excluded} excluded companies, "
+        f"recategorized {updated}, cleaned {desc_cleaned} descriptions."
+    )
 
 
 if __name__ == "__main__":

@@ -24,10 +24,17 @@ def fetch(slug: str) -> list[dict]:
             loc = j.get("location") or {}
             loc_str = ", ".join(filter(None, [loc.get("city"), loc.get("region"), loc.get("country")]))
             sr_id = j.get("id")
+            ref = (j.get("ref") or "").strip()
+            if ref.startswith("http"):
+                job_url = ref
+            elif sr_id:
+                job_url = f"https://jobs.smartrecruiters.com/{slug}/{sr_id}"
+            else:
+                job_url = None
             jobs.append({
                 "title": j.get("name"),
                 "location": loc_str or None,
-                "url": (j.get("ref") and f"https://jobs.smartrecruiters.com/{slug}/{j.get('id')}") or None,
+                "url": job_url,
                 "posting_id": str(sr_id) if sr_id is not None else None,
                 "posted_at": j.get("releasedDate") or j.get("createdOn"),
             })

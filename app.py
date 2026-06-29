@@ -113,6 +113,10 @@ def _companies() -> list[dict]:
     return [c for c in companies if (c.get("name") or "").strip() not in EXCLUDED_COMPANIES]
 
 
+def _company_index() -> dict[str, dict]:
+    return {c["name"]: c for c in _companies() if c.get("name")}
+
+
 @app.route("/")
 def index():
     import re as _re
@@ -194,6 +198,28 @@ def api_jobs():
     return jsonify({"jobs": jobs, "count": len(jobs)})
 
 
+@app.get("/api/jobs/<int:job_id>")
+def api_job_detail(job_id: int):
+    job = get_job(job_id)
+    if not job:
+        return jsonify({"ok": False, "reason": "not found"}), 404
+    meta = _company_index().get(job.get("company") or "", {})
+    job["company_meta"] = {
+        "h1b_level": meta.get("h1b_level"),
+        "careers_url": meta.get("url"),
+        "industry": meta.get("industry"),
+        "common_roles": meta.get("common_roles"),
+    }
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+    try:
+        ref = job.get("posted_at") or job.get("first_seen_at")
+        job["is_new"] = datetime.fromisoformat(ref) >= cutoff
+    except Exception:
+        job["is_new"] = False
+    return jsonify({"ok": True, "job": job})
+
+
 @app.get("/api/stats")
 def api_stats():
     return jsonify({**stats(), "scheduler": sched_status()})
@@ -212,12 +238,16 @@ def api_companies():
 
     health = company_run_health()
     watchlist = set(get_watchlist_companies())
+    meta_by_name = _company_index()
     all_names = sorted({c["name"] for c in _companies()})
     rows = [
         {
             "name": n,
             "count": counts.get(n, 0),
             "watchlist": n in watchlist,
+            "h1b_level": (meta_by_name.get(n) or {}).get("h1b_level"),
+            "careers_url": (meta_by_name.get(n) or {}).get("url"),
+            "industry": (meta_by_name.get(n) or {}).get("industry"),
             **health.get(n, {"status": "unknown", "finished_at": None, "age_min": None,
                              "jobs_new": 0, "success": None}),
         }

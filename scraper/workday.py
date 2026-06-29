@@ -305,14 +305,25 @@ def _anchor_fallback_jobs(html: str, page_url: str, base: str | None = None,
 
 def _derive_api(url: str) -> tuple[str, str, str] | None:
     # e.g. https://company.wd5.myworkdayjobs.com/en-US/External
-    u = (url or "").strip()
-    m = re.match(r"(https?://[^/]+)/([^/]+)/([^/?#]+)", u)
+    # or   https://company.wd5.myworkdayjobs.com/External
+    u = (url or "").strip().rstrip("/")
+    m = re.match(r"(https?://[^/]+)(?:/([^/?#]+))?(?:/([^/?#]+))?", u)
     if not m:
         return None
-    base, _lang, site = m.group(1), m.group(2), m.group(3)
-    # tenant is the subdomain before first dot (company.wd5.myworkdayjobs.com → company)
-    host = re.match(r"https?://([^.]+)\.", base).group(1)
-    return base, host, site
+    base = m.group(1)
+    seg1 = (m.group(2) or "").strip()
+    seg2 = (m.group(3) or "").strip()
+    if not seg1:
+        return None
+    if re.match(r"^[a-z]{2}(?:-[A-Z]{2})?$", seg1):
+        site = seg2 or seg1
+    else:
+        site = seg1
+    host_m = re.match(r"https?://([^.]+)\.", base)
+    if not host_m:
+        return None
+    tenant = host_m.group(1)
+    return base, tenant, site
 
 
 def _post_page(api: str, offset: int, limit: int) -> tuple[int, list[Mapping[str, Any]], int | None]:

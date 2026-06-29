@@ -201,6 +201,10 @@
               <div class="status-dot" id="statusDot" aria-hidden="true"></div>
               <div class="status-text" id="statusText">Up to date</div>
             </div>
+            <div class="ws-indicator" id="wsIndicator" title="Real-time connection">
+              <div class="ws-dot" id="wsDot" aria-hidden="true"></div>
+              <span class="ws-label" id="wsLabel">Live</span>
+            </div>
             <button type="button" id="refreshBtn" class="btn primary" title="Check all companies for new listings" aria-label="Refresh all jobs">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
               <span class="btn-label">Refresh</span>
@@ -302,6 +306,29 @@
 
   <div id="toasts" class="toasts" aria-live="polite"></div>
 
+  <div id="jobModal" class="job-modal hidden" role="dialog" aria-modal="true" aria-labelledby="jobModalTitle" hidden>
+    <div class="job-modal-backdrop" data-close-modal tabindex="-1" aria-hidden="true"></div>
+    <div class="job-modal-panel" role="document">
+      <header class="job-modal-header">
+        <div class="job-modal-heading">
+          <h2 id="jobModalTitle" class="job-modal-title"></h2>
+          <p id="jobModalMeta" class="job-modal-meta"></p>
+        </div>
+        <button type="button" class="job-modal-close" data-close-modal aria-label="Close job details">×</button>
+      </header>
+      <div id="jobModalChips" class="job-modal-chips"></div>
+      <div id="jobModalBody" class="job-modal-body"></div>
+      <footer class="job-modal-footer">
+        <button type="button" id="jobModalCopy" class="btn btn-ghost job-modal-secondary">Copy link</button>
+        <a id="jobModalCareers" class="btn btn-ghost job-modal-secondary hidden" href="#" target="_blank" rel="noopener noreferrer">Company careers</a>
+        <a id="jobModalOpen" class="btn primary job-modal-cta" href="#" target="_blank" rel="noopener noreferrer">
+          View job posting
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+        </a>
+      </footer>
+    </div>
+  </div>
+
   <script>
     const LS = {
       companies: "jt.companies",
@@ -338,12 +365,13 @@
       gradStrict: localStorage.getItem(LS.gradStrict) === "1",
     };
     let allJobs = [];
-    let expandedJobIds = new Set();
     // Unfiltered job list used ONLY to compute saved-view counts so that
     // clicking e.g. "Summer" doesn't collapse every other tab's count to 0.
     let jobsUniverse = [];
     let companyList = [];
+    let companyByName = {};
     let companyMeta = { with_jobs: 0, universe: 0 };
+    let highlightJobIds = new Set();
     const previousVisitAt = localStorage.getItem(LS.lastVisit) || "";
     const previousVisitMs = previousVisitAt ? Date.parse(previousVisitAt) : NaN;
     // Track which job IDs we've already shown so we can fire alerts on new ones.
@@ -354,6 +382,154 @@
     const esc = (s) => (s ?? "").toString().replace(/[&<>"']/g, c => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
     }[c]));
+    /** Strip leftover HTML from descriptions (legacy rows or partial scrapes). */
+    function plainDescription(raw) {
+      if (!raw) return "";
+      let t = String(raw).trim();
+      if (!t) return "";
+      if (/<[a-z][\s\S]*>/i.test(t)) {
+        try {
+          t = (new DOMParser().parseFromString(t, "text/html").body.textContent || "").trim();
+        } catch (e) { /* keep original */ }
+      }
+      return t
+        .replace(/\u00a0/g, " ")
+        .replace(/[ \t]+\n/g, "\n")
+        .replace(/\n{3,}/g, "\n\n")
+        .replace(/[ \t]{2,}/g, " ")
+        .trim();
+    }
+    const ATS_LABELS = {
+      greenhouse: "Greenhouse", lever: "Lever", ashby: "Ashby", workday: "Workday",
+      smartrecruiters: "SmartRecruiters", talentbrew: "TalentBrew", eightfold: "Eightfold",
+      oraclehcm: "Oracle HCM", workable: "Workable", icims: "iCIMS", jobvite: "Jobvite",
+      successfactors: "SAP SuccessFactors", generic: "Company site",
+    };
+    function atsLabel(source) {
+      if (!source) return "Company site";
+      const raw = String(source).replace(/^(override|bigtech):/i, "");
+      return ATS_LABELS[raw] || raw.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    }
+    function formatDescriptionBlocks(raw, bodyEl) {
+      const text = plainDescription(raw);
+      bodyEl.innerHTML = "";
+      if (!text) {
+        const p = document.createElement("p");
+        p.className = "job-modal-empty";
+        p.textContent = "Full description is not available yet. Open the company posting for requirements and how to apply.";
+        bodyEl.appendChild(p);
+        return;
+      }
+      for (const block of text.split(/\n\n+/).filter(Boolean)) {
+        const p = document.createElement("p");
+        p.textContent = block.replace(/\n/g, " ").trim();
+        bodyEl.appendChild(p);
+      }
+    }
+    function jobFitBadge(j) {
+      const cat = (j.categories || [])[0] || "";
+      const title = (j.title || "").toLowerCase();
+      const yr = state.gradYear ? String(state.gradYear).slice(-2) : "27";
+      const isTargetYear = title.includes(yr) || title.includes(`'${yr}`) || title.includes(`20${yr}`);
+      if (state.view === "newgrad27" || state.gradYear === "2027") {
+        if (cat === "New Grad" || (cat === "SDE 1" && isTargetYear)) return `<span class="badge fit" title="Strong match for Class of ${yr}">Good fit</span>`;
+        if (cat === "Spring Intern") return `<span class="badge fit" title="Spring internship for your timeline">Good fit</span>`;
+      }
+      if (cat === "New Grad" || cat === "Spring Intern") {
+        return `<span class="badge fit-soft" title="Early-career role">Early career</span>`;
+      }
+      return "";
+    }
+    function h1bBadge(companyName) {
+      const co = companyByName[companyName];
+      const level = co?.h1b_level;
+      if (!level || level === "Unknown / not H1B-listed") return "";
+      const short = /very high/i.test(level) ? "Top H1B" : "H1B";
+      return `<span class="badge h1b" title="${esc(level)}">${short}</span>`;
+    }
+    function renderModalChips(j, meta) {
+      const chips = [];
+      const cat = (j.categories || [])[0];
+      if (cat) chips.push(`<span class="modal-chip">${esc(cat)}</span>`);
+      if (j.location) chips.push(`<span class="modal-chip">${esc(j.location)}</span>`);
+      if (meta?.h1b_level && meta.h1b_level !== "Unknown / not H1B-listed") {
+        chips.push(`<span class="modal-chip modal-chip-h1b" title="${esc(meta.h1b_level)}">${esc(meta.h1b_level)}</span>`);
+      }
+      if (meta?.industry) chips.push(`<span class="modal-chip modal-chip-muted">${esc(meta.industry)}</span>`);
+      if (j.source) chips.push(`<span class="modal-chip modal-chip-muted">via ${esc(atsLabel(j.source))}</span>`);
+      if (j.posted_at) chips.push(`<span class="modal-chip modal-chip-muted">Posted ${esc(fmtRel(j.posted_at))}</span>`);
+      else if (j.first_seen_at) chips.push(`<span class="modal-chip modal-chip-muted">Added ${esc(fmtRel(j.first_seen_at))}</span>`);
+      if (j.posting_id) chips.push(`<span class="modal-chip modal-chip-id" title="Posting ID">#${esc(j.posting_id)}</span>`);
+      el("#jobModalChips").innerHTML = chips.join("");
+    }
+    async function openJobModal(jobId) {
+      let j = allJobs.find((x) => x.id === jobId);
+      if (!j) return;
+      const modal = el("#jobModal");
+      const titleEl = el("#jobModalTitle");
+      const metaEl = el("#jobModalMeta");
+      const bodyEl = el("#jobModalBody");
+      const linkEl = el("#jobModalOpen");
+      const careersEl = el("#jobModalCareers");
+      const copyBtn = el("#jobModalCopy");
+      titleEl.textContent = j.title || "Job details";
+      metaEl.textContent = [j.company, j.location].filter(Boolean).join(" · ");
+      formatDescriptionBlocks(j.description, bodyEl);
+      renderModalChips(j, companyByName[j.company]);
+      if (j.url) {
+        linkEl.href = j.url;
+        linkEl.classList.remove("hidden");
+        copyBtn.disabled = false;
+      } else {
+        linkEl.classList.add("hidden");
+        copyBtn.disabled = true;
+      }
+      const careers = companyByName[j.company]?.careers_url;
+      if (careers) {
+        careersEl.href = careers;
+        careersEl.classList.remove("hidden");
+      } else {
+        careersEl.classList.add("hidden");
+      }
+      modal.classList.remove("hidden");
+      modal.removeAttribute("hidden");
+      document.body.classList.add("modal-open");
+      el(".job-modal-close")?.focus();
+      bodyEl.classList.add("loading");
+      try {
+        const r = await fetch(`/api/jobs/${jobId}`);
+        const d = await r.json();
+        if (d.ok && d.job) {
+          j = { ...j, ...d.job };
+          const idx = allJobs.findIndex((x) => x.id === jobId);
+          if (idx >= 0) allJobs[idx] = { ...allJobs[idx], ...d.job };
+          titleEl.textContent = j.title || "Job details";
+          metaEl.textContent = [j.company, j.location].filter(Boolean).join(" · ");
+          formatDescriptionBlocks(j.description, bodyEl);
+          renderModalChips(j, d.job.company_meta || companyByName[j.company]);
+          if (j.url) {
+            linkEl.href = j.url;
+            linkEl.classList.remove("hidden");
+            copyBtn.disabled = false;
+          }
+          const cm = d.job.company_meta || {};
+          if (cm.careers_url) {
+            careersEl.href = cm.careers_url;
+            careersEl.classList.remove("hidden");
+          }
+        }
+      } catch (e) { /* cached row is fine */ }
+      finally {
+        bodyEl.classList.remove("loading");
+      }
+    }
+    function closeJobModal() {
+      const modal = el("#jobModal");
+      if (!modal || modal.classList.contains("hidden")) return;
+      modal.classList.add("hidden");
+      modal.setAttribute("hidden", "");
+      document.body.classList.remove("modal-open");
+    }
     const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
     /** Backend uses Python datetime.isoformat() → often ends with +00:00. Never append "Z" on top of an offset — that yields Invalid Date. */
     function parseIsoMs(iso) {
@@ -449,6 +625,14 @@
 
     // --- Jobs -------------------------------------------------------------
     async function loadJobs() {
+      const jobsEl = el("#jobs");
+      const wasEmpty = jobsEl?.classList.contains("hidden");
+      if (jobsEl && !wasEmpty) {
+        jobsEl.innerHTML = Array.from({ length: 6 }, () =>
+          `<li class="row-job skeleton-row" aria-hidden="true"><div class="skeleton avatar"></div><div class="skeleton-body"><div class="skeleton line w70"></div><div class="skeleton line w45"></div><div class="skeleton line w30"></div></div></li>`
+        ).join("");
+        jobsEl.setAttribute("aria-busy", "true");
+      }
       const p = new URLSearchParams();
       if (state.category) p.set("category", state.category);
       for (const c of state.companies) p.append("company", c);
@@ -477,6 +661,8 @@
       renderJobs();
       renderSavedViews();
       renderVisitSummary();
+      jobsEl?.removeAttribute("aria-busy");
+      pushUrlState();
     }
 
     function detectNewJobs(jobs) {
@@ -752,6 +938,9 @@
         const isFresh = j.is_new || isSinceLastVisit(j);
         const newBadge = isFresh ? `<span class="badge new">NEW</span>` : "";
         const appliedBadge = j.applied_at ? `<span class="badge applied" title="Applied ${esc(fmtDate(j.applied_at))}">APPLIED</span>` : "";
+        const fitBadge = jobFitBadge(j);
+        const sponsorBadge = h1bBadge(j.company);
+        const wsClass = highlightJobIds.has(j.id) ? " ws-new" : "";
 
         const metaBits = [];
         metaBits.push(`<span class="row-meta" title="Added to tracker: ${esc(fmtDate(j.first_seen_at))}">Added ${esc(fmtRel(j.first_seen_at))}</span>`);
@@ -772,23 +961,17 @@
           ? `Applied ${fmtDate(j.applied_at)} · click to undo`
           : `Mark this job as applied to track it later`;
 
-        const descText = (j.description || "").trim();
-        const hasDesc = descText.length > 0;
-        const isOpen = expandedJobIds.has(j.id);
-        const detailsBtn = hasDesc
-          ? `<button class="row-details-btn" data-id="${j.id}" type="button" aria-expanded="${isOpen ? "true" : "false"}">${isOpen ? "Hide" : "Details"}</button>`
-          : "";
-        const detailsBlock = hasDesc
-          ? `<div class="row-details${isOpen ? "" : " hidden"}" data-details-for="${j.id}"><div class="row-details-text">${esc(descText)}</div></div>`
-          : "";
+        const detailsBtn = `<button class="row-details-btn" data-id="${j.id}" type="button" aria-haspopup="dialog">Details</button>`;
 
         return `
-          <li class="row-job ${j.applied_at ? "is-applied" : ""}${isOpen ? " is-expanded" : ""}" data-id="${j.id}" data-url="${esc(j.url || "")}">
+          <li class="row-job ${j.applied_at ? "is-applied" : ""}${wsClass}" data-id="${j.id}" data-url="${esc(j.url || "")}">
             <div class="avatar" data-letter="${esc(initial)}" style="background: ${colorFor(j.company)};">${esc(initial)}</div>
             <div class="row-body">
               <div class="row-line1">
                 ${titleControl}
                 ${newBadge}
+                ${fitBadge}
+                ${sponsorBadge}
                 ${appliedBadge}
               </div>
               <div class="row-line2">
@@ -797,7 +980,6 @@
                 <span class="row-loc" title="${locationText}">${locationText}</span>
               </div>
               <div class="row-line3">${catTag}${metaBits.join('<span class="row-meta-dot">·</span>')}</div>
-              ${detailsBlock}
             </div>
             <div class="row-actions">
               <button class="${applyClass}" data-id="${j.id}" data-applied="${j.applied_at ? "1" : "0"}" title="${esc(applyTitle)}" type="button">${applyLabel}</button>
@@ -990,6 +1172,7 @@
       const r = await fetch("/api/companies?" + p.toString());
       const d = await r.json();
       companyList = d.companies || [];
+      companyByName = Object.fromEntries(companyList.map((c) => [c.name, c]));
       state.watchlist = new Set(d.watchlist || companyList.filter(c => c.watchlist).map(c => c.name));
       companyMeta = { with_jobs: d.with_jobs || 0, universe: d.universe || companyList.length };
       renderCompanies();
@@ -1012,9 +1195,10 @@
         const checked = state.companies.has(c.name);
         const healthText = companyHealthText(c);
         const watched = state.watchlist.has(c.name) || !!c.watchlist;
+        const h1bHint = c.h1b_level && c.h1b_level !== "Unknown / not H1B-listed" ? ` · ${c.h1b_level}` : "";
         return `
           <label class="co-item ${checked ? "active" : ""} ${c.count === 0 ? "no-jobs" : ""}"
-                 title="${c.count === 0 ? "No matching jobs right now" : c.count + " job(s)"} · ${healthText}">
+                 title="${c.count === 0 ? "No matching jobs right now" : c.count + " job(s)"} · ${healthText}${h1bHint}">
             <input type="checkbox" class="co-cb" value="${esc(c.name)}" ${checked ? "checked" : ""} />
             <span class="co-dot" style="background:${colorFor(c.name)}"></span>
             <span class="co-name-wrap">
@@ -1380,10 +1564,24 @@
     el("#jobs").addEventListener("click", (e) => {
       const btn = e.target.closest(".row-details-btn"); if (!btn) return;
       e.preventDefault(); e.stopPropagation();
-      const id = parseInt(btn.dataset.id, 10);
-      if (expandedJobIds.has(id)) expandedJobIds.delete(id);
-      else expandedJobIds.add(id);
-      renderJobs();
+      openJobModal(parseInt(btn.dataset.id, 10));
+    });
+
+    el("#jobModal")?.addEventListener("click", (e) => {
+      if (e.target.closest("[data-close-modal]")) closeJobModal();
+    });
+    el("#jobModalCopy")?.addEventListener("click", async () => {
+      const url = el("#jobModalOpen")?.href;
+      if (!url || url === "#") return;
+      try {
+        await navigator.clipboard.writeText(url);
+        showToast("Link copied", "Posting URL copied to clipboard", url);
+      } catch (e) {
+        showToast("Could not copy", "Copy the link from View job posting", url);
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeJobModal();
     });
 
     el("#jobs").addEventListener("click", async (e) => {
@@ -1392,6 +1590,7 @@
       const id = parseInt(btn.dataset.id, 10);
       const row = allJobs.find(x => x.id === id);
       const label = row ? `${row.company} — ${row.title}` : `job #${id}`;
+      if (!confirm(`Remove this role from your tracker?\n\n${label}`)) return;
       btn.disabled = true;
       try {
         const r = await fetch(`/api/jobs/${id}`, { method: "DELETE" });
@@ -1506,6 +1705,8 @@
             if (!dup) {
               allJobs.unshift(fakeJob);
               jobsUniverse.unshift(fakeJob);
+              highlightJobIds.add(fakeJob.id);
+              setTimeout(() => highlightJobIds.delete(fakeJob.id), 6000);
               addedCount++;
             }
           }
@@ -1585,9 +1786,35 @@
       setTimeout(stop, 30_000);
     }
 
+    function pushUrlState() {
+      const p = new URLSearchParams();
+      if (state.view && state.view !== "newgrad27") p.set("view", state.view);
+      if (state.q) p.set("q", state.q);
+      if (state.category) p.set("category", state.category);
+      if (state.gradYear) p.set("grad_year", state.gradYear);
+      if (state.gradStrict) p.set("grad_strict", "1");
+      if (state.window) p.set("window", state.window);
+      const qs = p.toString();
+      history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+    }
+    function readUrlParams() {
+      const p = new URLSearchParams(location.search);
+      if (p.has("view")) state.view = p.get("view") || "all";
+      if (p.has("q")) {
+        state.q = p.get("q") || "";
+        const si = el("#searchInput");
+        if (si) si.value = state.q;
+      }
+      if (p.has("category")) state.category = p.get("category") || "";
+      if (p.has("grad_year")) state.gradYear = p.get("grad_year") || "";
+      if (p.get("grad_strict") === "1") state.gradStrict = true;
+      if (p.has("window")) state.window = p.get("window") || "";
+    }
+
     // -----------------------------------------------------------------------
     // Boot
     // -----------------------------------------------------------------------
+    readUrlParams();
     loadScrapeBuckets();
     loadStats();
     loadDbSummary();

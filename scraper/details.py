@@ -44,6 +44,12 @@ def _source_kind(source: str, url: str) -> str | None:
         return "talentbrew"
     if "smartrecruiters" in s or "smartrecruiters.com" in u:
         return "smartrecruiters"
+    if "greenhouse" in s or "greenhouse.io" in u:
+        return "greenhouse"
+    if "lever" in s or "lever.co" in u:
+        return "lever"
+    if "ashby" in s or "ashbyhq.com" in u:
+        return "ashby"
     return None
 
 
@@ -157,6 +163,84 @@ def _fetch_smartrecruiters(job_url: str) -> str | None:
         return None
 
 
+def _fetch_greenhouse(job_url: str) -> str | None:
+    m = re.search(r"(?:boards|job-boards)\.greenhouse\.io/([^/]+)/jobs/(\d+)", job_url, re.I)
+    if not m:
+        return None
+    slug, jid = m.group(1), m.group(2)
+    api = f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs/{jid}"
+    try:
+        r = transport_fetch(
+            api,
+            headers=_JSON_HEADERS,
+            timeout=REQUEST_TIMEOUT,
+            expect="json",
+            strategy=FetchStrategy.REQUESTS,
+            auto_escalate=False,
+        )
+        if r.status_code != 200:
+            return None
+        html = (r.json() or {}).get("content") or ""
+        return strip_html(html) if html else None
+    except Exception:
+        log.debug("greenhouse detail fetch failed for %s", job_url, exc_info=True)
+        return None
+
+
+def _fetch_lever(job_url: str) -> str | None:
+    m = re.search(r"jobs\.lever\.co/([^/]+)/([^/?#]+)", job_url, re.I)
+    if not m:
+        return None
+    slug, posting = m.group(1), m.group(2)
+    api = f"https://api.lever.co/v0/postings/{slug}/{posting}?mode=json"
+    try:
+        r = transport_fetch(
+            api,
+            headers=_JSON_HEADERS,
+            timeout=REQUEST_TIMEOUT,
+            expect="json",
+            strategy=FetchStrategy.REQUESTS,
+            auto_escalate=False,
+        )
+        if r.status_code != 200:
+            return None
+        data = r.json() or {}
+        plain = (data.get("descriptionPlain") or "").strip()
+        if plain:
+            return plain
+        html = data.get("description") or ""
+        return strip_html(html) if html else None
+    except Exception:
+        log.debug("lever detail fetch failed for %s", job_url, exc_info=True)
+        return None
+
+
+def _fetch_ashby(job_url: str) -> str | None:
+    m = re.search(r"jobs\.ashbyhq\.com/([^/]+)/([a-f0-9-]+)", job_url, re.I)
+    if not m:
+        return None
+    slug, jid = m.group(1), m.group(2)
+    api = f"https://api.ashbyhq.com/posting-api/job-board/{slug}"
+    try:
+        r = transport_fetch(
+            api,
+            headers=_JSON_HEADERS,
+            timeout=REQUEST_TIMEOUT,
+            expect="json",
+            strategy=FetchStrategy.REQUESTS,
+            auto_escalate=False,
+        )
+        if r.status_code != 200:
+            return None
+        for job in (r.json() or {}).get("jobs") or []:
+            if str(job.get("id")) == jid or (job.get("jobUrl") or "") == job_url:
+                html = job.get("descriptionHtml") or ""
+                return strip_html(html) if html else None
+    except Exception:
+        log.debug("ashby detail fetch failed for %s", job_url, exc_info=True)
+    return None
+
+
 def enrich_descriptions(
     jobs: list[dict],
     *,
@@ -188,6 +272,12 @@ def enrich_descriptions(
             desc = _fetch_talentbrew(url)
         elif kind == "smartrecruiters":
             desc = _fetch_smartrecruiters(url)
+        elif kind == "greenhouse":
+            desc = _fetch_greenhouse(url)
+        elif kind == "lever":
+            desc = _fetch_lever(url)
+        elif kind == "ashby":
+            desc = _fetch_ashby(url)
 
         if desc and len(desc) >= DETAIL_FETCH_MIN_CHARS:
             job["description"] = desc
