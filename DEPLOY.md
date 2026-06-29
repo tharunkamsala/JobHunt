@@ -111,3 +111,23 @@ ufw enable
 | Supabase          | $0      | $0       |
 | Domain (year 1)   | $0      | $0       |
 | **Total**         |         | **$192** (within $200 credit) |
+
+## 9. Redeploy after pushing to GitHub
+
+After `git push`, update the droplet. Use **fetch + reset** (not `git pull`) — a force-pushed history will make `git pull` fail with “divergent branches”.
+
+```bash
+cd job_tracker
+export DO_PASSWORD='your-droplet-root-password'
+
+sshpass -p "$DO_PASSWORD" ssh root@67.205.130.17 \
+  'cd /opt/JobHunt && git fetch origin && git reset --hard origin/main && source .venv/bin/activate && python reapply_filters.py && systemctl restart job-tracker'
+```
+
+Or run the helper script:
+
+```bash
+bash deploy/update.sh
+```
+
+Check logs: `ssh root@67.205.130.17 'journalctl -u job-tracker -f'`

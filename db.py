@@ -18,6 +18,10 @@ from config import (
     DEFAULT_SCRAPE_CATEGORIES,
     JOB_MISS_DEACTIVATE_THRESHOLD,
     DEFAULT_WATCHLIST_COMPANIES,
+    JOB_PURGE_INACTIVE_AFTER_DAYS,
+    JOB_PURGE_STALE_AFTER_DAYS,
+    RUNS_RETENTION_DAYS,
+    BLOCK_DISMISSED_REIMPORTS_DEFAULT,
 )
 
 IS_POSTGRES = DATABASE_URL is not None and DATABASE_URL.startswith("postgres")
@@ -170,6 +174,27 @@ CREATE TABLE IF NOT EXISTS scrape_state (
     consecutive_failures  INTEGER DEFAULT 0,
     priority_score        REAL DEFAULT 0
 );
+
+CREATE TABLE IF NOT EXISTS job_dismissals (
+    fingerprint    TEXT PRIMARY KEY,
+    company        TEXT NOT NULL,
+    posting_id     TEXT,
+    dismissed_at   TEXT NOT NULL,
+    reason         TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_dismissals_company_posting ON job_dismissals(company, posting_id);
+"""
+
+DISMISSALS_DDL = """
+CREATE TABLE IF NOT EXISTS job_dismissals (
+    fingerprint    TEXT PRIMARY KEY,
+    company        TEXT NOT NULL,
+    posting_id     TEXT,
+    dismissed_at   TEXT NOT NULL,
+    reason         TEXT NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_dismissals_company_posting ON job_dismissals(company, posting_id);
 """
 
 POSTGRES_SCHEMA = """
@@ -234,12 +259,24 @@ CREATE TABLE IF NOT EXISTS scrape_state (
     consecutive_zero_results INTEGER DEFAULT 0,
     priority_score        DOUBLE PRECISION DEFAULT 0
 );
+
+CREATE TABLE IF NOT EXISTS job_dismissals (
+    fingerprint    TEXT PRIMARY KEY,
+    company        TEXT NOT NULL,
+    posting_id     TEXT,
+    dismissed_at   TEXT NOT NULL,
+    reason         TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_dismissals_company_posting ON job_dismissals(company, posting_id);
 """
 
 # Bump when category rules change so we re-label existing rows.
 _CATEGORY_RULES_VERSION = "12"
 _SCRAPE_ENABLED_CATEGORIES_KEY = "scrape_enabled_categories"
 _WATCHLIST_COMPANIES_KEY = "watchlist_companies"
+_BLOCK_DISMISSED_KEY = "block_dismissed_reimports"
+_LAST_PURGE_AT_KEY = "last_purge_at"
 _CATEGORY_ALIASES = {
     "Summer 2026 Intern": "Spring Intern",
     "Summer Intern": "Spring Intern",
@@ -375,6 +412,7 @@ def init_db() -> None:
             ss_cols = [r["name"] for r in conn.execute("PRAGMA table_info(scrape_state)").fetchall()]
             if "consecutive_zero_results" not in ss_cols:
                 conn.execute("ALTER TABLE scrape_state ADD COLUMN consecutive_zero_results INTEGER DEFAULT 0")
+            conn.executescript(DISMISSALS_DDL)
         
         cur = conn.execute("SELECT v FROM app_meta WHERE k = 'category_rules'").fetchone()
         if not cur or (cur[0] or "") != _CATEGORY_RULES_VERSION:
@@ -413,6 +451,182 @@ def init_db() -> None:
             set_enabled_scrape_categories(list(DEFAULT_SCRAPE_CATEGORIES))
             sql = "INSERT INTO app_meta (k, v) VALUES (?, ?) ON CONFLICT (k) DO UPDATE SET v = EXCLUDED.v" if IS_POSTGRES else "INSERT OR REPLACE INTO app_meta (k, v) VALUES (?, ?)"
             conn.execute(sql, ("scrape_focus_version", "spring_newgrad_sde1_1"))
+
+        block_row = conn.execute(
+            "SELECT v FROM app_meta WHERE k = ?", (_BLOCK_DISMISSED_KEY,)
+        ).fetchone()
+        if not block_row:
+            sql = (
+                "INSERT INTO app_meta (k, v) VALUES (?, ?) ON CONFLICT (k) DO NOTHING"
+                if IS_POSTGRES
+                else "INSERT OR IGNORE INTO app_meta (k, v) VALUES (?, ?)"
+            )
+            conn.execute(
+                sql,
+                (_BLOCK_DISMISSED_KEY, "1" if BLOCK_DISMISSED_REIMPORTS_DEFAULT else "0"),
+            )
+
+
+def get_block_dismissed_reimports() -> bool:
+    with connect() as conn:
+        row = conn.execute(
+            "SELECT v FROM app_meta WHERE k = ?", (_BLOCK_DISMISSED_KEY,)
+        ).fetchone()
+    if not row:
+        return BLOCK_DISMISSED_REIMPORTS_DEFAULT
+    return (row["v"] if isinstance(row, dict) else row[0]) in ("1", "true", "yes")
+
+
+def set_block_dismissed_reimports(enabled: bool) -> bool:
+    val = "1" if enabled else "0"
+    with connect() as conn:
+        sql = (
+            "INSERT INTO app_meta (k, v) VALUES (?, ?) ON CONFLICT (k) DO UPDATE SET v = EXCLUDED.v"
+            if IS_POSTGRES
+            else "INSERT OR REPLACE INTO app_meta (k, v) VALUES (?, ?)"
+        )
+        conn.execute(sql, (_BLOCK_DISMISSED_KEY, val))
+    return enabled
+
+
+def _record_dismissal(
+    conn,
+    *,
+    fingerprint_value: str,
+    company: str,
+    posting_id: str | None,
+    reason: str,
+) -> None:
+    now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    sql = (
+        "INSERT INTO job_dismissals (fingerprint, company, posting_id, dismissed_at, reason) "
+        "VALUES (?, ?, ?, ?, ?) ON CONFLICT (fingerprint) DO NOTHING"
+        if IS_POSTGRES
+        else "INSERT OR IGNORE INTO job_dismissals (fingerprint, company, posting_id, dismissed_at, reason) VALUES (?, ?, ?, ?, ?)"
+    )
+    conn.execute(
+        sql,
+        (fingerprint_value, company, posting_id, now, reason),
+    )
+
+
+def _is_job_dismissed(
+    conn,
+    company: str,
+    fingerprint_value: str,
+    posting_id: str | None,
+    *,
+    block: bool | None = None,
+) -> bool:
+    if block is None:
+        block = get_block_dismissed_reimports()
+    if not block:
+        return False
+    row = conn.execute(
+        "SELECT 1 FROM job_dismissals WHERE fingerprint = ? LIMIT 1",
+        (fingerprint_value,),
+    ).fetchone()
+    if row:
+        return True
+    pid = (posting_id or "").strip()
+    if not pid:
+        return False
+    row = conn.execute(
+        "SELECT 1 FROM job_dismissals WHERE company = ? AND posting_id = ? LIMIT 1",
+        (company, pid),
+    ).fetchone()
+    return row is not None
+
+
+def _dismiss_jobs_rows(conn, rows: list, reason: str) -> None:
+    for row in rows:
+        posting_id = row["posting_id"] if row["posting_id"] else None
+        _record_dismissal(
+            conn,
+            fingerprint_value=row["fingerprint"],
+            company=row["company"],
+            posting_id=posting_id,
+            reason=reason,
+        )
+
+
+def purge_stale_jobs(
+    *,
+    inactive_after_days: int | None = None,
+    stale_after_days: int | None = None,
+    runs_after_days: int | None = None,
+) -> dict:
+    """Delete non-applied stale/inactive jobs; applied rows are never removed."""
+    inactive_days = inactive_after_days if inactive_after_days is not None else JOB_PURGE_INACTIVE_AFTER_DAYS
+    stale_days = stale_after_days if stale_after_days is not None else JOB_PURGE_STALE_AFTER_DAYS
+    run_days = runs_after_days if runs_after_days is not None else RUNS_RETENTION_DAYS
+    now = datetime.now(timezone.utc)
+    inactive_cutoff = (now - timedelta(days=max(1, inactive_days))).isoformat(timespec="seconds")
+    stale_cutoff = (now - timedelta(days=max(7, stale_days))).isoformat(timespec="seconds")
+    runs_cutoff = (now - timedelta(days=max(14, run_days))).isoformat(timespec="seconds")
+
+    deleted_jobs = 0
+    deleted_runs = 0
+    with connect() as conn:
+        rows = conn.execute(
+            """
+            SELECT id, fingerprint, company, posting_id FROM jobs
+            WHERE applied_at IS NULL
+              AND (
+                    (is_active = 0 AND last_seen_at < ?)
+                 OR (last_seen_at < ?)
+              )
+            """,
+            (inactive_cutoff, stale_cutoff),
+        ).fetchall()
+        if rows:
+            _dismiss_jobs_rows(conn, rows, "purge")
+            ids = [r["id"] for r in rows]
+            placeholders = ",".join("?" for _ in ids)
+            cur = conn.execute(
+                f"DELETE FROM jobs WHERE id IN ({placeholders})",
+                ids,
+            )
+            deleted_jobs = cur.rowcount
+
+        cur_runs = conn.execute(
+            "DELETE FROM runs WHERE finished_at IS NOT NULL AND finished_at < ?",
+            (runs_cutoff,),
+        )
+        deleted_runs = cur_runs.rowcount
+
+        now_iso = now.isoformat(timespec="seconds")
+        sql = (
+            "INSERT INTO app_meta (k, v) VALUES (?, ?) ON CONFLICT (k) DO UPDATE SET v = EXCLUDED.v"
+            if IS_POSTGRES
+            else "INSERT OR REPLACE INTO app_meta (k, v) VALUES (?, ?)"
+        )
+        conn.execute(sql, (_LAST_PURGE_AT_KEY, now_iso))
+
+    return {
+        "deleted_jobs": deleted_jobs,
+        "deleted_runs": deleted_runs,
+        "inactive_cutoff": inactive_cutoff,
+        "stale_cutoff": stale_cutoff,
+        "purged_at": now.isoformat(timespec="seconds"),
+    }
+
+
+def retention_settings() -> dict:
+    with connect() as conn:
+        last = conn.execute(
+            "SELECT v FROM app_meta WHERE k = ?", (_LAST_PURGE_AT_KEY,)
+        ).fetchone()
+        dismissed = conn.execute("SELECT COUNT(*) AS c FROM job_dismissals").fetchone()
+    return {
+        "block_dismissed_reimports": get_block_dismissed_reimports(),
+        "purge_inactive_after_days": JOB_PURGE_INACTIVE_AFTER_DAYS,
+        "purge_stale_after_days": JOB_PURGE_STALE_AFTER_DAYS,
+        "runs_retention_days": RUNS_RETENTION_DAYS,
+        "purge_interval_days": 7,
+        "last_purge_at": (last["v"] if last else None),
+        "dismissed_count": int(dismissed["c"] if dismissed else 0),
+    }
 
 
 def get_enabled_scrape_categories() -> list[str]:
@@ -617,6 +831,7 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
     new_rows: list[dict] = []
     seen_fingerprints: set[str] = set()
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    block_dismissed = get_block_dismissed_reimports()
     with connect() as conn:
         for j in jobs:
             total += 1
@@ -653,6 +868,8 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
                 )
                 seen_fingerprints.add(fp)
             else:
+                if _is_job_dismissed(conn, company, fp, ext_id, block=block_dismissed):
+                    continue
                 primary = (j.get("categories") or [None])[0]
                 conn.execute(
                     """
@@ -1076,6 +1293,19 @@ def update_job(job_id: int, payload: dict) -> Optional[dict]:
 
 def delete_job(job_id: int) -> bool:
     with connect() as conn:
+        row = conn.execute(
+            "SELECT fingerprint, company, posting_id FROM jobs WHERE id = ?",
+            (job_id,),
+        ).fetchone()
+        if row is None:
+            return False
+        _record_dismissal(
+            conn,
+            fingerprint_value=row["fingerprint"],
+            company=row["company"],
+            posting_id=row["posting_id"],
+            reason="user",
+        )
         cur = conn.execute("DELETE FROM jobs WHERE id = ?", (job_id,))
         return cur.rowcount > 0
 
@@ -1098,7 +1328,11 @@ def clear_jobs(category: str | None = None,
         sql += " AND is_active = 1"
     elif active_only is False:
         sql += " AND is_active = 0"
+    sql_select = sql.replace("DELETE FROM jobs", "SELECT id, fingerprint, company, posting_id FROM jobs", 1)
     with connect() as conn:
+        rows = conn.execute(sql_select, params).fetchall()
+        if rows:
+            _dismiss_jobs_rows(conn, rows, "user_bulk")
         cur = conn.execute(sql, params)
         return cur.rowcount
 

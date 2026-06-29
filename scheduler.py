@@ -19,11 +19,14 @@ from config import (
     SCRAPE_INTERVAL_MIN,
     SCRAPE_MAX_WORKERS,
     EXCLUDED_COMPANIES,
+    JOB_WEEKLY_PURGE_ENABLED,
+    JOB_PURGE_INTERVAL_DAYS,
 )
 from db import (
     get_watchlist_companies,
     init_db,
     prioritized_company_names,
+    purge_stale_jobs,
     reconcile_company_jobs,
     record_run,
     record_scrape_state,
@@ -333,6 +336,18 @@ def run_subset(names: list[str]) -> dict:
 _scheduler: BackgroundScheduler | None = None
 
 
+def run_weekly_maintenance() -> dict:
+    """Purge stale non-applied jobs and old scrape runs."""
+    log.info("Weekly maintenance: purging stale jobs and old runs")
+    result = purge_stale_jobs()
+    log.info(
+        "Weekly maintenance done: deleted_jobs=%s deleted_runs=%s",
+        result.get("deleted_jobs"),
+        result.get("deleted_runs"),
+    )
+    return result
+
+
 def start_background_scheduler() -> None:
     """Start APScheduler. Called by the Flask app at boot."""
     global _scheduler
@@ -354,6 +369,13 @@ def start_background_scheduler() -> None:
         id="scrape_watchlist",
         next_run_time=datetime.utcnow(),
     )
+    if JOB_WEEKLY_PURGE_ENABLED:
+        _scheduler.add_job(
+            run_weekly_maintenance,
+            "interval",
+            days=JOB_PURGE_INTERVAL_DAYS,
+            id="weekly_purge",
+        )
     _scheduler.start()
     log.info(
         "Scheduler started; full_interval=%smin fast_interval=%smin",

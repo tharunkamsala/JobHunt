@@ -28,6 +28,7 @@ from db import (init_db, fetch_jobs, stats, recent_runs, set_applied,
                 get_watchlist_companies, set_watchlist_companies,
                 get_job, create_job, update_job, delete_job,
                 clear_jobs, clear_runs, count_runs, company_run_health,
+                purge_stale_jobs, retention_settings, set_block_dismissed_reimports,
                 coverage_alerts)
 from scheduler import (run_once, run_subset, start_background_scheduler,
                        run_fast_watchlist, status as sched_status, subset_status)
@@ -390,6 +391,26 @@ def api_jobs_delete(job_id: int):
     if not ok:
         return jsonify({"ok": False, "reason": "not found"}), 404
     return jsonify({"ok": True})
+
+
+@app.get("/api/retention")
+def api_retention_get():
+    return jsonify(retention_settings())
+
+
+@app.post("/api/retention")
+def api_retention_set():
+    body = request.get_json(silent=True) or {}
+    if "block_dismissed_reimports" in body:
+        set_block_dismissed_reimports(bool(body.get("block_dismissed_reimports")))
+    return jsonify({"ok": True, **retention_settings()})
+
+
+@app.post("/api/db/purge")
+def api_db_purge():
+    """Manually run the same stale-job cleanup as the weekly scheduler."""
+    result = purge_stale_jobs()
+    return jsonify({"ok": True, **result})
 
 
 @app.get("/api/db/summary")

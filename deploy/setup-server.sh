@@ -31,7 +31,7 @@ apt-get install -y -qq git python3 python3-venv python3-pip caddy ufw \
   libasound2t64 libxcomposite1 libxdamage1 libxfixes3
 
 if [[ -d "$APP_DIR/.git" ]]; then
-  cd "$APP_DIR" && git pull
+  cd "$APP_DIR" && git fetch origin && git reset --hard origin/main
 else
   git clone "$REPO" "$APP_DIR"
   cd "$APP_DIR"
