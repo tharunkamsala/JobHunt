@@ -1162,8 +1162,6 @@
       state.hideEmpty = e.target.checked; renderCompanies();
     });
     el("#clearFilteredJobs").addEventListener("click", async () => {
-      const msg = "Delete currently filtered jobs from database? This cannot be undone.";
-      if (!window.confirm(msg)) return;
       const companies = Array.from(state.companies);
       await clearDb("jobs", {
         category: state.category || null,
@@ -1171,15 +1169,12 @@
       });
     });
     el("#clearAllJobs").addEventListener("click", async () => {
-      if (!window.confirm("Delete ALL jobs from database?")) return;
       await clearDb("jobs");
     });
     el("#clearRuns").addEventListener("click", async () => {
-      if (!window.confirm("Delete scrape run history?")) return;
       await clearDb("runs");
     });
     el("#clearAllData").addEventListener("click", async () => {
-      if (!window.confirm("Delete ALL jobs and ALL run history?")) return;
       await clearDb("all");
     });
     el("#scrapeBucketToggles").addEventListener("change", (e) => {
@@ -1296,7 +1291,6 @@
       const id = parseInt(btn.dataset.id, 10);
       const row = allJobs.find(x => x.id === id);
       const label = row ? `${row.company} — ${row.title}` : `job #${id}`;
-      if (!window.confirm(`Delete ${label}?`)) return;
       btn.disabled = true;
       try {
         const r = await fetch(`/api/jobs/${id}`, { method: "DELETE" });
