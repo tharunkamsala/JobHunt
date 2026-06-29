@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Geetha · CS job tracker</title>
+  <title>Geetha · CS job board</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
@@ -20,15 +20,15 @@
         <div class="brand-mark" aria-hidden="true">G</div>
         <div class="brand-text">
           <div class="brand-title">Geetha</div>
-          <div class="brand-sub">Early-career CS · H1B sponsors</div>
+          <div class="brand-sub">CS &amp; CSE roles · H1B sponsors</div>
         </div>
         <button class="sidebar-close" type="button" id="closeFilters" aria-label="Close filters">×</button>
       </div>
 
       <nav class="side-section">
         <div class="side-heading">
-          <span>Role filters</span>
-          <span class="heading-sub">What to show</span>
+          <span>Role type</span>
+          <span class="heading-sub">AI · ML · data · DevOps included</span>
         </div>
         <div class="pill-list" id="categoryChips">
           <button class="pill-item active" data-cat="">
@@ -58,14 +58,14 @@
           <button class="mini-btn" id="clearCompanies" type="button">Clear</button>
           <button class="mini-btn" id="selectVisibleCompanies" type="button">Only with jobs</button>
         </div>
+        <div class="pill-actions pill-actions-primary">
+          <button class="mini-btn primary" id="scrapeSelected" type="button" title="Refresh listings for selected companies">↻ Refresh selected</button>
+          <button class="mini-btn" id="fastRefreshBtn" type="button" title="Refresh your watchlist companies">Update watchlist</button>
+          <span class="mini-status" id="subsetStatus"></span>
+        </div>
         <div class="pill-actions">
           <button class="mini-btn" id="watchSelectedCompanies" type="button">Watch selected</button>
           <button class="mini-btn" id="clearWatchlist" type="button">Clear watchlist</button>
-        </div>
-        <div class="pill-actions">
-          <button class="mini-btn primary" id="scrapeSelected" type="button" title="Scrape the currently selected companies now (background scheduler keeps running)">↻ Scrape selected</button>
-          <button class="mini-btn" id="fastRefreshBtn" type="button" title="Run the fast watchlist sweep now">Fast watchlist</button>
-          <span class="mini-status" id="subsetStatus"></span>
         </div>
         <label class="check-row">
           <input type="checkbox" id="hideEmptyCompanies" />
@@ -138,74 +138,80 @@
 
     <main class="main" id="main-content" tabindex="-1">
       <header class="topbar">
-        <div class="topbar-main">
-          <div class="topbar-titles">
-            <h1 class="page-title">Open roles</h1>
-            <p class="page-sub">Live feed from 99 sponsor companies · scraped every 15 min</p>
+        <div class="topbar-row">
+          <div class="topbar-intro">
+            <div class="topbar-mark" aria-hidden="true">G</div>
+            <div class="topbar-titles">
+              <h1 class="page-title">Jobs</h1>
+              <p class="page-sub">Live listings from sponsor companies · refreshed every 15 min</p>
+            </div>
           </div>
           <div class="search-wrap" role="search">
-            <label class="visually-hidden" for="searchInput">Search</label>
+            <label class="visually-hidden" for="searchInput">Search jobs</label>
             <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-            <input id="searchInput" type="search" enterkeyhint="search" placeholder="Search title, company, or location…" autocomplete="off" />
+            <input id="searchInput" type="search" enterkeyhint="search" placeholder="Title, company, or city…" autocomplete="off" />
             <kbd>⌘K</kbd>
           </div>
           <div class="top-actions">
-            <button type="button" id="filtersBtn" class="btn" title="Open filters and company controls">Filters</button>
-            <div class="status-pill" title="Scraper state">
+            <button type="button" id="filtersBtn" class="btn btn-ghost" title="Filters and companies">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+              <span class="btn-label">Filters</span>
+            </button>
+            <div class="status-pill" title="Update status">
               <div class="status-dot" id="statusDot" aria-hidden="true"></div>
-              <div class="status-text" id="statusText">Idle</div>
+              <div class="status-text" id="statusText">Up to date</div>
             </div>
-            <button type="button" id="refreshBtn" class="btn primary" title="Re-run the full company sweep" aria-label="Scrape all companies now">
+            <button type="button" id="refreshBtn" class="btn primary" title="Check all companies for new listings" aria-label="Refresh all jobs">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
-              <span class="btn-label">Scrape now</span>
+              <span class="btn-label">Refresh</span>
             </button>
           </div>
         </div>
-        <div class="topbar-quick">
-          <div class="quick-card quick-card-views">
-            <div class="quick-label">Saved views</div>
-            <div class="saved-views" id="savedViews"></div>
-          </div>
-          <div class="quick-card quick-card-summary">
-            <div class="quick-label">Right now</div>
-            <div class="visit-summary" id="visitSummary"></div>
-          </div>
-        </div>
+
+        <div class="insight-bar" id="visitSummary" aria-live="polite"></div>
+
+        <section class="browse-bar" aria-label="Quick browse">
+          <span class="browse-label">Browse</span>
+          <div class="saved-views scroll-x" id="savedViews"></div>
+        </section>
       </header>
 
-      <section class="stats" id="statsBar"></section>
+      <section class="stats kpi-strip" id="statsBar" aria-label="Overview"></section>
 
       <section class="toolbar">
-        <div class="result-count">
-          <span id="resultCount">0</span>
-          <span class="result-sub" id="resultLabel">results</span>
-          <span class="chips-inline" id="activeFilters"></span>
+        <div class="toolbar-left">
+          <div class="result-count">
+            <span id="resultCount">0</span>
+            <span class="result-sub" id="resultLabel">roles</span>
+          </div>
+          <div class="chips-inline" id="activeFilters"></div>
         </div>
-        <div class="time-wrap" id="timeChips" role="tablist" aria-label="Time window">
-          <button class="time-chip active" data-win="">Any time</button>
-          <button class="time-chip" data-win="30m">Past 30 min</button>
-          <button class="time-chip" data-win="1h">Past 1 hr</button>
-          <button class="time-chip" data-win="6h">Past 6 hrs</button>
-          <button class="time-chip" data-win="24h">Past 24 hrs</button>
-          <button class="time-chip" data-win="3d">Past 3 days</button>
-          <button class="time-chip" data-win="7d">Past 7 days</button>
+        <div class="toolbar-right">
+          <div class="time-wrap scroll-x" id="timeChips" role="tablist" aria-label="Posted within">
+            <button class="time-chip active" data-win="">Any time</button>
+            <button class="time-chip" data-win="30m">30 min</button>
+            <button class="time-chip" data-win="1h">1 hr</button>
+            <button class="time-chip" data-win="6h">6 hrs</button>
+            <button class="time-chip" data-win="24h">24 hrs</button>
+            <button class="time-chip" data-win="3d">3 days</button>
+            <button class="time-chip" data-win="7d">7 days</button>
+          </div>
+          <div class="toolbar-controls">
+            <label class="sort-wrap">Sort
+              <select id="sortSelect">
+                <option value="newest">Newest</option>
+                <option value="company">Company</option>
+                <option value="title">Title</option>
+              </select>
+            </label>
+            <button type="button" class="density-toggle" id="densityToggle" aria-pressed="false" title="Toggle list density">
+              Compact
+            </button>
+          </div>
         </div>
-        <div class="sort-wrap">
-          <label>Sort
-            <select id="sortSelect">
-              <option value="newest">Newest first</option>
-              <option value="company">By company</option>
-              <option value="title">By title</option>
-            </select>
-          </label>
-        </div>
-        <button type="button" class="density-toggle" id="densityToggle" aria-pressed="false" title="Toggle compact triage mode">
-          Compact mode
-        </button>
       </section>
 
-      <section class="results" aria-label="Search results">
-        <p class="results-hint" id="resultsHint">Use saved views for fast triage, then narrow with filters when you need precision.</p>
+      <section class="results" aria-label="Job listings">
         <div id="empty" class="empty hidden">
           <div class="empty-illus" aria-hidden="true">
             <svg class="empty-svg" viewBox="0 0 120 80" fill="none" stroke="var(--line-2)" stroke-width="1.2">
@@ -213,8 +219,12 @@
               <path d="M28 32h64M28 44h40M28 56h48" />
             </svg>
           </div>
-          <h3>No open roles match</h3>
-          <p>Try another <b>role</b> chip, widen the <b>time</b> filter, pick different <b>companies</b>, or start a <b>Scrape now</b> run.</p>
+          <h3>No jobs match</h3>
+          <p id="emptyBody">Try a different browse tab, widen the time range, or refresh listings.</p>
+          <div class="empty-actions">
+            <button type="button" class="btn primary" id="emptyRefreshBtn">Refresh jobs</button>
+            <button type="button" class="btn btn-ghost" id="emptyFiltersBtn">Open filters</button>
+          </div>
         </div>
         <div class="list-header" id="listHeader" aria-hidden="true">
           <span class="col-av" />
@@ -228,12 +238,7 @@
         <div class="footer-left">
           <span class="footer-brand">geetha.dev</span>
           <span class="footer-sep">·</span>
-          <span class="ws-indicator" id="wsIndicator" title="WebSocket disconnected">
-            <span class="ws-dot ws-disconnected" id="wsDot"></span>
-            <span class="ws-label" id="wsLabel">Connecting…</span>
-          </span>
-          <span class="footer-sep footer-sep-meta">·</span>
-          <span class="footer-meta">30s fallback · 15 min scrape</span>
+          <span class="footer-tagline">CS job board for students &amp; new grads</span>
         </div>
         <span class="footer-run" id="lastRun"></span>
       </footer>
@@ -249,9 +254,9 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
       <span>Search</span>
     </button>
-    <button type="button" class="mobile-nav-btn mobile-nav-btn-accent" id="mobileRefreshBtn" aria-label="Scrape now">
+    <button type="button" class="mobile-nav-btn mobile-nav-btn-accent" id="mobileRefreshBtn" aria-label="Refresh jobs">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
-      <span>Scrape</span>
+      <span>Refresh</span>
     </button>
   </nav>
 
@@ -352,13 +357,13 @@
       if (state.q) reasons.push(`search is "${state.q}"`);
       if (!reasons.length) {
         return {
-          title: "No open roles match",
-          body: "Try another role chip, widen the time filter, pick different companies, or start a Scrape now run.",
+          title: "No jobs match",
+          body: "Try another browse tab, widen the time range, or refresh listings.",
         };
       }
       return {
-        title: "No roles match these filters",
-        body: `Nothing is showing because ${reasons.join(", ")}. Clear one or two filters to widen the list.`,
+        title: "No jobs match these filters",
+        body: `Nothing is showing because ${reasons.join(", ")}. Clear a filter or tap Refresh.`,
       };
     };
     const PRESET_VIEWS = [
@@ -395,7 +400,7 @@
       if (btn) {
         btn.classList.toggle("active", state.compact);
         btn.setAttribute("aria-pressed", state.compact ? "true" : "false");
-        btn.textContent = state.compact ? "Comfortable mode" : "Compact mode";
+        btn.textContent = state.compact ? "Comfortable" : "Compact";
       }
     }
 
@@ -580,14 +585,15 @@
       const newCount = jobsUniverse.filter(isSinceLastVisit).length;
       const companyCount = new Set(jobsUniverse.map(j => j.company).filter(Boolean)).size;
       const summary = previousVisitAt
-        ? `${newCount.toLocaleString()} new since ${esc(fmtVisit(previousVisitAt))}`
-        : `Tracking ${jobsUniverse.length.toLocaleString()} roles across ${companyCount.toLocaleString()} companies`;
+        ? `<strong>${newCount.toLocaleString()}</strong> new since your last visit`
+        : `<strong>${jobsUniverse.length.toLocaleString()}</strong> open roles across <strong>${companyCount.toLocaleString()}</strong> companies`;
       const detail = state.companies.size
-        ? `${state.companies.size} selected companies`
-        : `${companyCount.toLocaleString()} companies visible`;
+        ? `${state.companies.size} companies selected`
+        : `AI · ML · data · DevOps · software engineering`;
       el("#visitSummary").innerHTML = `
-        <div class="visit-summary-main">${summary}</div>
-        <div class="visit-summary-sub">${detail}</div>`;
+        <span class="insight-main">${summary}</span>
+        <span class="insight-sep" aria-hidden="true">·</span>
+        <span class="insight-sub">${detail}</span>`;
     }
 
     async function applySavedView(view) {
@@ -650,16 +656,11 @@
       const jobs = getVisibleJobs();
       el("#resultCount").textContent = jobs.length.toLocaleString();
       el("#resultLabel").textContent = jobs.length === 1 ? "role" : "roles";
-      el("#resultsHint").textContent = state.view === "new"
-        ? (previousVisitAt
-          ? `Showing roles first seen after ${fmtVisit(previousVisitAt)}.`
-          : "Saved after your next visit: this view highlights roles first seen since the previous session.")
-        : "Use saved views for fast triage, then narrow with filters when you need precision.";
       const empty = jobs.length === 0;
       const emptyState = emptyStateMessage();
       if (empty) {
         const titleEl = el("#empty h3");
-        const bodyEl = el("#empty p");
+        const bodyEl = el("#emptyBody");
         if (titleEl) titleEl.textContent = emptyState.title;
         if (bodyEl) bodyEl.textContent = emptyState.body;
       }
@@ -684,16 +685,14 @@
           ? `<a class="row-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>`
           : `<span class="row-title no-link" title="Posting link unavailable for this source">${esc(j.title)}</span>`;
         const openControl = j.url
-          ? `<a class="row-open" href="${esc(j.url)}" target="_blank" rel="noopener" title="Open posting">
-              <span>Open role</span>
+          ? `<a class="row-open primary-cta" href="${esc(j.url)}" target="_blank" rel="noopener" title="View job posting">
+              <span>View job</span>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
             </a>`
-          : `<span class="row-open disabled" title="Posting link unavailable for this source"><span>No link</span></span>`;
+          : `<span class="row-open disabled" title="Posting link unavailable"><span>No link</span></span>`;
 
         const applyClass = j.applied_at ? "row-apply applied" : "row-apply";
-        const applyLabel = j.applied_at
-          ? `✓ Applied`
-          : `Mark applied`;
+        const applyLabel = j.applied_at ? `Applied` : `Applied?`;
         const applyTitle = j.applied_at
           ? `Applied ${fmtDate(j.applied_at)} · click to undo`
           : `Mark this job as applied to track it later`;
@@ -937,18 +936,18 @@
       const by = s.by_category || {};
       const total = s.total || 0;
       el("#statsBar").innerHTML = `
-        <div class="stat stat-hero">
-          <div class="stat-k">Open roles</div>
-          <div class="stat-v">${total.toLocaleString()}</div>
+        <div class="kpi kpi-hero">
+          <span class="kpi-label">Open roles</span>
+          <span class="kpi-value">${total.toLocaleString()}</span>
         </div>
-        <div class="stat">
-          <div class="stat-k">Sources touched</div>
-          <div class="stat-v">${s.companies_scraped || 0}</div>
+        <div class="kpi">
+          <span class="kpi-label">Companies</span>
+          <span class="kpi-value">${s.companies_scraped || 0}</span>
         </div>
         ${Object.keys(by).sort().map(k => `
-          <div class="stat">
-            <div class="stat-k"><span class="dot dot-${slug(k)}"></span><span class="stat-label">${esc(k)}</span></div>
-            <div class="stat-v">${(by[k]||0).toLocaleString()}</div>
+          <div class="kpi">
+            <span class="kpi-label"><span class="dot dot-${slug(k)}"></span>${esc(k)}</span>
+            <span class="kpi-value">${(by[k]||0).toLocaleString()}</span>
           </div>`).join("")}
       `;
       const appliedN = s.applied || 0;
@@ -966,17 +965,17 @@
       const fastRunning = s.scheduler?.fast_running;
       el("#statusDot").classList.toggle("running", !!running || !!fastRunning);
       el("#statusText").textContent = running
-        ? `Full sweep ${s.scheduler.current || "…"}`
+        ? `Updating · ${s.scheduler.current || "…"}`
         : fastRunning
-          ? `Fast sweep ${s.scheduler.fast_current || "…"}`
-          : (s.scheduler?.last_full_run || s.scheduler?.last_fast_run ? "Idle" : "Never run");
+          ? `Watchlist · ${s.scheduler.fast_current || "…"}`
+          : (s.scheduler?.last_full_run || s.scheduler?.last_fast_run ? "Up to date" : "Not refreshed yet");
       if (s.scheduler?.last_full_run) {
         const fastPart = s.scheduler?.last_fast_run
-          ? ` · fast ${fmtDate(s.scheduler.last_fast_run)} (+${s.scheduler.last_fast_new_jobs || 0})`
+          ? ` · watchlist ${fmtRel(s.scheduler.last_fast_run)}`
           : "";
-        el("#lastRun").textContent = `Full ${fmtDate(s.scheduler.last_full_run)} · +${s.scheduler.last_full_new_jobs} new${fastPart}`;
+        el("#lastRun").textContent = `Last refresh ${fmtRel(s.scheduler.last_full_run)} · +${s.scheduler.last_full_new_jobs} new${fastPart}`;
       } else if (s.scheduler?.last_fast_run) {
-        el("#lastRun").textContent = `Fast ${fmtDate(s.scheduler.last_fast_run)} · +${s.scheduler.last_fast_new_jobs || 0} new`;
+        el("#lastRun").textContent = `Watchlist updated ${fmtRel(s.scheduler.last_fast_run)} · +${s.scheduler.last_fast_new_jobs || 0} new`;
       }
     }
 
@@ -990,10 +989,10 @@
       const r = await fetch("/api/refresh/fast", { method: "POST" });
       const d = await r.json().catch(() => ({}));
       if (r.status === 409) {
-        showToast("Fast sweep already running", d.reason || "Watchlist scrape is already in progress.", null);
+        showToast("Watchlist update running", d.reason || "Already refreshing your watchlist.", null);
       } else if (d.started) {
         const names = d.watchlist || [];
-        showToast("Fast watchlist sweep started", names.length ? names.join(", ") : "Watchlist is empty.", null);
+        showToast("Updating watchlist", names.length ? names.join(", ") : "Add companies to your watchlist first.", null);
       }
       loadStats();
     });
@@ -1006,6 +1005,8 @@
       el("#searchInput")?.scrollIntoView({ behavior: "smooth", block: "center" });
     });
     el("#mobileRefreshBtn")?.addEventListener("click", () => el("#refreshBtn")?.click());
+    el("#emptyRefreshBtn")?.addEventListener("click", () => el("#refreshBtn")?.click());
+    el("#emptyFiltersBtn")?.addEventListener("click", () => setFiltersOpen(true));
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && state.filtersOpen) setFiltersOpen(false);
     });
