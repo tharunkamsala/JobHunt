@@ -183,13 +183,13 @@
                 <span class="page-domain">geetha.dev</span>
               </div>
               <p class="page-sub page-sub-mobile">CS jobs · live from H1B sponsors</p>
-              <p class="page-sub page-sub-desktop">Live listings · refreshed every 15 min</p>
+              <p class="page-sub page-sub-desktop">Spring intern + Class of '27 · watchlist every 3 min</p>
             </div>
           </div>
           <div class="search-wrap" role="search">
             <label class="visually-hidden" for="searchInput">Search jobs</label>
             <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-            <input id="searchInput" type="search" enterkeyhint="search" placeholder="Title, company, or city…" autocomplete="off" />
+            <input id="searchInput" type="search" enterkeyhint="search" placeholder="Title, company, city, or keywords…" autocomplete="off" />
             <kbd>⌘K</kbd>
           </div>
           <div class="top-actions">
@@ -324,7 +324,7 @@
       q: "",
       window: localStorage.getItem(LS.window) || "",
       appliedOnly: localStorage.getItem(LS.appliedOnly) === "1",
-      view: localStorage.getItem(LS.view) || "all",
+      view: localStorage.getItem(LS.view) || "newgrad27",
       compact: localStorage.getItem(LS.compact) === "1",
       hideEmpty: false,
       sort: "newest",
@@ -334,10 +334,11 @@
       scrapeEnabled: new Set(),
       scrapeAll: [],
       filtersOpen: false,
-      gradYear: localStorage.getItem(LS.gradYear) || "",
+      gradYear: localStorage.getItem(LS.gradYear) || "2027",
       gradStrict: localStorage.getItem(LS.gradStrict) === "1",
     };
     let allJobs = [];
+    let expandedJobIds = new Set();
     // Unfiltered job list used ONLY to compute saved-view counts so that
     // clicking e.g. "Summer" doesn't collapse every other tab's count to 0.
     let jobsUniverse = [];
@@ -411,14 +412,11 @@
       };
     };
     const PRESET_VIEWS = [
-      { id: "all", label: "All roles" },
-      { id: "new", label: "New since last visit" },
-      { id: "internships", label: "Internships" },
-      { id: "summer", label: "Summer" },
-      { id: "fall", label: "Fall" },
-      { id: "spring", label: "Spring" },
-      { id: "newgrad", label: "New Grad" },
       { id: "newgrad27", label: "Class of '27" },
+      { id: "spring", label: "Spring intern" },
+      { id: "newgrad", label: "New Grad" },
+      { id: "new", label: "New since last visit" },
+      { id: "all", label: "All roles" },
       { id: "applied", label: "Applied" },
     ];
 
@@ -607,32 +605,25 @@
       return !Number.isNaN(ms) && ms > previousVisitMs;
     }
 
+    function isSpringInternJob(job) {
+      const cat = (job?.categories || [])[0] || job?.primary_category || "";
+      return cat === "Spring Intern";
+    }
+
     function getVisibleJobs() {
       let jobs = [...allJobs];
       if (state.view === "new") jobs = jobs.filter(isSinceLastVisit);
-      if (state.view === "internships") jobs = jobs.filter(isInternshipJob);
+      if (state.view === "spring") jobs = jobs.filter(isSpringInternJob);
       if (state.sort === "company") jobs.sort((a, b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
       else if (state.sort === "title") jobs.sort((a, b) => a.title.localeCompare(b.title));
       return jobs;
     }
 
-    function isInternshipJob(job) {
-      const title = (job?.title || "").toLowerCase();
-      const cat = (job?.categories || [])[0] || "";
-      return ["Summer Intern", "Fall Co-op / Intern", "Spring Intern"].includes(cat)
-        || /\b(intern(ship)?|co[-\s]?op|coop)\b/.test(title);
-    }
-
     function presetCount(id) {
-      // Always count against the unfiltered universe so that switching
-      // between saved views never makes the other tabs read "0".
       const pool = jobsUniverse;
       if (id === "all") return pool.length;
       if (id === "new") return pool.filter(isSinceLastVisit).length;
-      if (id === "internships") return pool.filter(isInternshipJob).length;
-      if (id === "summer") return pool.filter(j => (j.categories || [])[0] === "Summer Intern").length;
-      if (id === "fall") return pool.filter(j => (j.categories || [])[0] === "Fall Co-op / Intern").length;
-      if (id === "spring") return pool.filter(j => (j.categories || [])[0] === "Spring Intern").length;
+      if (id === "spring") return pool.filter(isSpringInternJob).length;
       if (id === "newgrad") {
         return pool.filter(
           (j) => j.primary_category === "New Grad" || (j.categories || [])[0] === "New Grad",
@@ -681,23 +672,13 @@
       persistCompanies();
       state.q = "";
       el("#searchInput").value = "";
-      if (view === "all" || view === "new" || view === "internships") {
+      if (view === "all" || view === "new") {
         state.category = "";
         state.appliedOnly = false;
-        setGradYear("");
-        setGradStrict(false);
-        setWindow("");
-      } else if (view === "summer") {
-        state.category = "Summer Intern";
-        state.appliedOnly = false;
-        setGradYear("");
-        setGradStrict(false);
-        setWindow("");
-      } else if (view === "fall") {
-        state.category = "Fall Co-op / Intern";
-        state.appliedOnly = false;
-        setGradYear("");
-        setGradStrict(false);
+        if (view === "all") {
+          setGradYear("");
+          setGradStrict(false);
+        }
         setWindow("");
       } else if (view === "spring") {
         state.category = "Spring Intern";
@@ -791,8 +772,18 @@
           ? `Applied ${fmtDate(j.applied_at)} · click to undo`
           : `Mark this job as applied to track it later`;
 
+        const descText = (j.description || "").trim();
+        const hasDesc = descText.length > 0;
+        const isOpen = expandedJobIds.has(j.id);
+        const detailsBtn = hasDesc
+          ? `<button class="row-details-btn" data-id="${j.id}" type="button" aria-expanded="${isOpen ? "true" : "false"}">${isOpen ? "Hide" : "Details"}</button>`
+          : "";
+        const detailsBlock = hasDesc
+          ? `<div class="row-details${isOpen ? "" : " hidden"}" data-details-for="${j.id}"><div class="row-details-text">${esc(descText)}</div></div>`
+          : "";
+
         return `
-          <li class="row-job ${j.applied_at ? "is-applied" : ""}" data-id="${j.id}" data-url="${esc(j.url || "")}">
+          <li class="row-job ${j.applied_at ? "is-applied" : ""}${isOpen ? " is-expanded" : ""}" data-id="${j.id}" data-url="${esc(j.url || "")}">
             <div class="avatar" data-letter="${esc(initial)}" style="background: ${colorFor(j.company)};">${esc(initial)}</div>
             <div class="row-body">
               <div class="row-line1">
@@ -806,9 +797,11 @@
                 <span class="row-loc" title="${locationText}">${locationText}</span>
               </div>
               <div class="row-line3">${catTag}${metaBits.join('<span class="row-meta-dot">·</span>')}</div>
+              ${detailsBlock}
             </div>
             <div class="row-actions">
               <button class="${applyClass}" data-id="${j.id}" data-applied="${j.applied_at ? "1" : "0"}" title="${esc(applyTitle)}" type="button">${applyLabel}</button>
+              ${detailsBtn}
               <button class="row-delete" data-id="${j.id}" type="button" title="Delete this row from tracker">×</button>
               ${openControl}
             </div>
@@ -1384,6 +1377,15 @@
       }
     });
 
+    el("#jobs").addEventListener("click", (e) => {
+      const btn = e.target.closest(".row-details-btn"); if (!btn) return;
+      e.preventDefault(); e.stopPropagation();
+      const id = parseInt(btn.dataset.id, 10);
+      if (expandedJobIds.has(id)) expandedJobIds.delete(id);
+      else expandedJobIds.add(id);
+      renderJobs();
+    });
+
     el("#jobs").addEventListener("click", async (e) => {
       const btn = e.target.closest(".row-delete"); if (!btn) return;
       e.preventDefault(); e.stopPropagation();
@@ -1595,6 +1597,8 @@
     if (state.view !== "all") {
       applySavedView(state.view);
     } else {
+      setGradYear("2027");
+      syncGradYearChips();
       loadCompanies();
       loadJobs();
     }

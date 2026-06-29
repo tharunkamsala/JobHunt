@@ -1,7 +1,7 @@
 /** Graduation cohort matching — keep in sync with scraper/grad_cohort.py */
 (function (global) {
   const SUPPORTED = [2026, 2027, 2028, 2029];
-  const INTERNSHIP_CAT = new Set(["Summer Intern", "Fall Co-op / Intern", "Spring Intern"]);
+  const INTERNSHIP_CAT = new Set(["Fall Co-op / Intern", "Spring Intern"]);
 
   const CLASS_OF = /class\s+of\s*['\-]?\s*(20)?(\d{2})\b/i;
   const NEW_GRAD_YEAR = /new\s*grad(?:uate)?\s*['\-]?\s*(20)?(\d{2})\b/i;

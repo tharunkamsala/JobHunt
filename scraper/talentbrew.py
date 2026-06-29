@@ -17,6 +17,21 @@ from .transport import FetchStrategy, fetch as transport_fetch
 
 HEADERS = {"User-Agent": USER_AGENT, "Accept": "text/html,*/*"}
 _CITY_STATE_RE = re.compile(r"\b([A-Z][A-Za-z .'-]+,\s*[A-Z]{2})\b")
+# "Mountain View, California" / "New York, New York" at end of TalentBrew card titles.
+_TRAILING_REGION_RE = re.compile(
+    r"\s+(?:Multiple\s+Locations|Remote\b.*|"
+    r"[A-Z][A-Za-z .'-]+,\s*(?:[A-Z]{2}|[A-Z][a-z]+(?:\s+[A-Z][a-z]+)?))\s*$"
+)
+
+
+def _title_from_card_text(text: str, href: str) -> str | None:
+    """Prefer the visible card link text; fall back to URL slug."""
+    raw = re.sub(r"\s+", " ", (text or "").strip())
+    if len(raw) >= 6:
+        title = _TRAILING_REGION_RE.sub("", raw).strip()
+        if len(title) >= 4:
+            return title[:220]
+    return _title_from_href(href)
 
 
 def _normalize_search_url(url: str) -> str:
@@ -85,15 +100,16 @@ def _extract_jobs_from_page(html: str, page_url: str) -> list[dict]:
         pid = _posting_id(href) or href
         if pid in seen:
             continue
-        title = _title_from_href(href)
+        card_text = a.get_text(" ", strip=True)
+        title = _title_from_card_text(card_text, href)
         if not title:
             continue
         seen.add(pid)
         card = a.find_parent(["li", "article", "div"]) or a
-        card_text = card.get_text(" ", strip=True) if card else a.get_text(" ", strip=True)
+        full_card_text = card.get_text(" ", strip=True) if card else card_text
         jobs.append({
             "title": title,
-            "location": _location_from_card(card_text, href),
+            "location": _location_from_card(full_card_text, href),
             "url": href,
             "posting_id": pid if pid != href else None,
             "posted_at": None,

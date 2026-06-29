@@ -17,6 +17,7 @@ from db import get_enabled_scrape_categories
 from . import greenhouse, lever, ashby, smartrecruiters, workday, generic, bigtech, eightfold, oraclehcm, talentbrew, workable, icims, jobvite, successfactors
 from . import overrides as ats_overrides
 from .filters import match_categories
+from .html_text import strip_html
 from .location import is_usa
 from .posting_id import coalesce as _coalesce_posting_id
 from .posting_validation import job_has_posting_identity
@@ -256,6 +257,21 @@ def _dispatch(ats: str, handle: str) -> list[dict]:
     return []
 
 
+def _job_description(raw: dict) -> str | None:
+    for key in (
+        "description",
+        "description_plain",
+        "descriptionPlain",
+        "descriptionHtml",
+        "content",
+        "summary",
+    ):
+        val = raw.get(key)
+        if isinstance(val, str) and val.strip():
+            return strip_html(val)
+    return None
+
+
 def _normalize_and_filter(raw: list[dict], company: dict | None = None) -> list[dict]:
     normalized: list[dict] = []
     seen_titles: set[tuple[str, str]] = set()
@@ -289,6 +305,7 @@ def _normalize_and_filter(raw: list[dict], company: dict | None = None) -> list[
             "posted_at": j.get("posted_at"),
             "posting_id": _coalesce_posting_id(j.get("posting_id"), j.get("url")),
             "categories": cats,
+            "description": _job_description(j),
         }
         if not job_has_posting_identity(row):
             continue

@@ -221,7 +221,7 @@
     "name": "Intuit",
     "industry": "Fintech / Tax / Accounting",
     "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
-    "url": "https://www.intuit.com/careers/",
+    "url": "https://jobs.intuit.com/search-jobs",
     "h1b_level": "High",
     "notes": "TurboTax, QuickBooks, Mint, Credit Karma"
   },
@@ -755,15 +755,6 @@
     "url": "https://www.affirm.com/careers",
     "h1b_level": "High",
     "notes": "Buy-now-pay-later platform"
-  },
-  {
-    "category": "Unicorns & High-Growth Startups",
-    "name": "Shield AI",
-    "industry": "Defense / Autonomous Drones",
-    "common_roles": "SWE, ML Engineer, Robotics, Firmware",
-    "url": "https://jobs.lever.co/shieldai",
-    "h1b_level": "Case-by-Case",
-    "notes": "\u26a0\ufe0f Defense AI; some roles need clearance"
   },
   {
     "category": "Unicorns & High-Growth Startups",

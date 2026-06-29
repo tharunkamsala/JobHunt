@@ -15,6 +15,7 @@ from config import (
     DB_PATH,
     DATABASE_URL,
     ROLE_FILTERS,
+    DEFAULT_SCRAPE_CATEGORIES,
     JOB_MISS_DEACTIVATE_THRESHOLD,
     DEFAULT_WATCHLIST_COMPANIES,
 )
@@ -132,7 +133,8 @@ CREATE TABLE IF NOT EXISTS jobs (
     posted_at      TEXT,  -- ISO 8601 when the company posted the role (best-effort from ATS)
     first_seen_at  TEXT NOT NULL,
     last_seen_at   TEXT NOT NULL,
-    is_active      INTEGER DEFAULT 1
+    is_active      INTEGER DEFAULT 1,
+    description    TEXT
 );
 
 CREATE INDEX IF NOT EXISTS idx_jobs_company    ON jobs(company);
@@ -188,7 +190,8 @@ CREATE TABLE IF NOT EXISTS jobs (
     applied_at     TEXT,
     applied_notes  TEXT,
     posting_id     TEXT,
-    missed_runs    INTEGER DEFAULT 0
+    missed_runs    INTEGER DEFAULT 0,
+    description    TEXT
 );
 
 CREATE INDEX IF NOT EXISTS idx_jobs_company    ON jobs(company);
@@ -234,11 +237,12 @@ CREATE TABLE IF NOT EXISTS scrape_state (
 """
 
 # Bump when category rules change so we re-label existing rows.
-_CATEGORY_RULES_VERSION = "11"
+_CATEGORY_RULES_VERSION = "12"
 _SCRAPE_ENABLED_CATEGORIES_KEY = "scrape_enabled_categories"
 _WATCHLIST_COMPANIES_KEY = "watchlist_companies"
 _CATEGORY_ALIASES = {
-    "Summer 2026 Intern": "Summer Intern",
+    "Summer 2026 Intern": "Spring Intern",
+    "Summer Intern": "Spring Intern",
     "Fall 2026 Co-op / Intern": "Fall Co-op / Intern",
     "Spring 2027 Intern": "Spring Intern",
     "New Grad 2027": "New Grad",
@@ -306,6 +310,10 @@ def init_db() -> None:
     with connect() as conn:
         if IS_POSTGRES:
             conn.executescript(POSTGRES_SCHEMA)
+            try:
+                conn.execute("ALTER TABLE jobs ADD COLUMN IF NOT EXISTS description TEXT")
+            except Exception:
+                pass
         else:
             conn.executescript(SCHEMA)
             # Additive migrations for older DBs.
@@ -323,6 +331,8 @@ def init_db() -> None:
                 conn.execute("CREATE INDEX IF NOT EXISTS idx_jobs_posting_id ON jobs(posting_id)")
             if "missed_runs" not in cols:
                 conn.execute("ALTER TABLE jobs ADD COLUMN missed_runs INTEGER DEFAULT 0")
+            if "description" not in cols:
+                conn.execute("ALTER TABLE jobs ADD COLUMN description TEXT")
             if "primary_category" not in cols:
                 conn.execute("ALTER TABLE jobs ADD COLUMN primary_category TEXT")
                 conn.execute("CREATE INDEX IF NOT EXISTS idx_jobs_primary_category ON jobs(primary_category)")
@@ -393,10 +403,21 @@ def init_db() -> None:
             sql = "INSERT INTO scrape_state (company, watchlist) VALUES (?, 1) ON CONFLICT(company) DO UPDATE SET watchlist = 1"
             conn.execute(sql, (name,))
 
+        cat_row = conn.execute(
+            "SELECT v FROM app_meta WHERE k = ?", (_SCRAPE_ENABLED_CATEGORIES_KEY,)
+        ).fetchone()
+        focus_row = conn.execute(
+            "SELECT v FROM app_meta WHERE k = ?", ("scrape_focus_version",)
+        ).fetchone()
+        if not cat_row or not focus_row or (focus_row[0] or "") != "spring_newgrad_sde1_1":
+            set_enabled_scrape_categories(list(DEFAULT_SCRAPE_CATEGORIES))
+            sql = "INSERT INTO app_meta (k, v) VALUES (?, ?) ON CONFLICT (k) DO UPDATE SET v = EXCLUDED.v" if IS_POSTGRES else "INSERT OR REPLACE INTO app_meta (k, v) VALUES (?, ?)"
+            conn.execute(sql, ("scrape_focus_version", "spring_newgrad_sde1_1"))
+
 
 def get_enabled_scrape_categories() -> list[str]:
-    """Return scrape-enabled category names. Defaults to all ROLE_FILTERS keys."""
-    default = list(ROLE_FILTERS.keys())
+    """Return scrape-enabled category names. Defaults to Spring + New Grad."""
+    default = list(DEFAULT_SCRAPE_CATEGORIES)
     with connect() as conn:
         row = conn.execute(
             "SELECT v FROM app_meta WHERE k = ?",
@@ -603,6 +624,7 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
             cats = json.dumps(j.get("categories", []))
             posted_at = j.get("posted_at") or None
             ext_id = (j.get("posting_id") or "").strip() or None
+            desc = j.get("description") or None
             row = None
             if ext_id:
                 row = conn.execute(
@@ -623,10 +645,11 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
                         primary_category = ?, posted_at = ?,
                         posting_id = COALESCE(?, posting_id), source = COALESCE(?, source),
                         fingerprint = ?, missed_runs = 0, url = COALESCE(?, url),
-                        location = COALESCE(?, location), title = ?
+                        location = COALESCE(?, location), title = ?,
+                        description = COALESCE(?, description)
                         WHERE id = ?""",
                     (now, cats, primary, new_posted, ext_id, source, fp,
-                     j.get("url"), j.get("location"), j["title"], row["id"]),
+                     j.get("url"), j.get("location"), j["title"], desc, row["id"]),
                 )
                 seen_fingerprints.add(fp)
             else:
@@ -635,8 +658,8 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
                     """
                     INSERT INTO jobs (fingerprint, company, title, location, url,
                                       categories, primary_category, source, posted_at, posting_id,
-                                      first_seen_at, last_seen_at, is_active, missed_runs)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, 0)
+                                      description, first_seen_at, last_seen_at, is_active, missed_runs)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 1, 0)
                     """,
                     (
                         fp,
@@ -649,6 +672,7 @@ def upsert_jobs(company: str, source: str, jobs: Iterable[dict]) -> tuple[int, i
                         source,
                         posted_at,
                         ext_id,
+                        desc,
                         now,
                         now,
                     ),
@@ -723,15 +747,16 @@ def fetch_jobs(category: Optional[str] = None,
         if s.isdigit():
             sql += (
                 " AND (LOWER(title) LIKE ? OR LOWER(location) LIKE ? OR LOWER(company) LIKE ?"
-                " OR CAST(id AS TEXT) LIKE ? OR LOWER(COALESCE(posting_id, '')) LIKE ?)"
+                " OR CAST(id AS TEXT) LIKE ? OR LOWER(COALESCE(posting_id, '')) LIKE ?"
+                " OR LOWER(COALESCE(description, '')) LIKE ?)"
             )
-            params += [like, like, like, f"%{s}%", like]
+            params += [like, like, like, f"%{s}%", like, like]
         else:
             sql += (
                 " AND (LOWER(title) LIKE ? OR LOWER(location) LIKE ? OR LOWER(company) LIKE ?"
-                " OR LOWER(COALESCE(posting_id, '')) LIKE ?)"
+                " OR LOWER(COALESCE(posting_id, '')) LIKE ? OR LOWER(COALESCE(description, '')) LIKE ?)"
             )
-            params += [like, like, like, like]
+            params += [like, like, like, like, like]
     if category:
         sql += " AND primary_category = ?"
         params.append(category)

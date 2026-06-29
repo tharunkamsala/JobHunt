@@ -762,6 +762,31 @@ kbd {
   background: color-mix(in srgb, var(--accent) 4%, var(--panel));
   border-color: color-mix(in srgb, var(--accent) 12%, var(--line));
 }
+.row-details-btn {
+  appearance: none; border: 1px solid var(--line);
+  background: var(--panel); color: var(--text-mute);
+  font-size: 12px; font-weight: 600;
+  padding: 8px 12px; border-radius: var(--radius-sm);
+  white-space: nowrap;
+}
+.row-details-btn:hover {
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+  color: var(--accent-deep); background: var(--accent-glow);
+}
+.row-details {
+  margin-top: 10px; padding: 12px 14px;
+  background: var(--panel-2); border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  max-height: 280px; overflow: auto;
+}
+.row-details-text {
+  font-size: 12.5px; line-height: 1.55; color: var(--text-dim);
+  white-space: pre-wrap; word-break: break-word;
+}
+.row-job.is-expanded .row-body { grid-column: 1 / -1; }
+@media (min-width: 721px) {
+  .row-job.is-expanded { grid-template-columns: 44px 1fr auto; }
+}
 
 body.compact-mode .row-job { padding: 11px 14px; grid-template-columns: 36px 1fr auto; gap: 10px; }
 body.compact-mode .avatar { width: 36px; height: 36px; font-size: 13px; border-radius: 9px; }

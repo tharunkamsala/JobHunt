@@ -86,5 +86,6 @@ def fetch(slug: str) -> list[dict]:
             "posting_id": str(jid) if jid is not None else None,
             # Greenhouse gives an ISO string directly.
             "posted_at":  j.get("first_published") or j.get("updated_at"),
+            "content":    j.get("content"),
         })
     return jobs

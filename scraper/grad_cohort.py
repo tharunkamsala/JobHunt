@@ -38,7 +38,6 @@ _NEW_GRAD_TITLE_SIGNALS = re.compile(
 )
 
 _INTERNSHIP_CAT = frozenset({
-    "Summer Intern",
     "Fall Co-op / Intern",
     "Spring Intern",
 })

@@ -15,6 +15,7 @@ from config import (
     INTERNSHIP_ONLY_MODE,
     INTERNSHIP_TITLE_PATTERNS,
     CS_DOMAIN_PATTERNS,
+    CS_TECH_SIGNAL_PATTERNS,
     SEASONAL_TECH_INTERNSHIP_PATTERNS,
 )
 
@@ -27,11 +28,11 @@ _NON_ENG = [re.compile(p, re.IGNORECASE) for p in NON_ENGINEERING_EXCLUDES]
 _NON_CS_FIELD = [re.compile(p, re.IGNORECASE) for p in NON_CS_FIELD_EXCLUDES]
 _INTERNSHIP = [re.compile(p, re.IGNORECASE) for p in INTERNSHIP_TITLE_PATTERNS]
 _CS_DOMAIN = [re.compile(p, re.IGNORECASE) for p in CS_DOMAIN_PATTERNS]
+_TECH_SIGNALS = [re.compile(p, re.IGNORECASE) for p in CS_TECH_SIGNAL_PATTERNS]
 _SEASONAL_TECH = [re.compile(p, re.IGNORECASE) for p in SEASONAL_TECH_INTERNSHIP_PATTERNS]
 
 # First matching category wins (most specific / seasonal first).
 CATEGORY_PRIORITY: tuple[str, ...] = (
-    "Summer Intern",
     "Fall Co-op / Intern",
     "Spring Intern",
     "New Grad",
@@ -54,7 +55,10 @@ def is_cs_domain(title: str) -> bool:
     if not title:
         return False
     t = title.strip()
-    return any(rx.search(t) for rx in _CS_DOMAIN)
+    return (
+        any(rx.search(t) for rx in _CS_DOMAIN)
+        or any(rx.search(t) for rx in _TECH_SIGNALS)
+    )
 
 
 def is_seasonal_tech_internship(title: str) -> bool:
@@ -113,36 +117,37 @@ def primary_category(title: str) -> str | None:
     # Database / AI-ML and then get dropped when those categories are off.
     # We pick the most specific season the title names; otherwise default to
     # Summer Intern as the catch-all bucket for season-less internships.
+    # Summer internships are out of scope — drop them explicitly.
+    if is_internship_like(t) and re.search(r"\bsummer\b", t, re.IGNORECASE):
+        return None
+
     if is_internship_like(t):
         # Require a tech-domain keyword (or seasonal-tech pattern) so we
         # don't pull in HR / marketing / legal internships that share the
         # word "intern".
         if not (is_cs_domain(t) or is_seasonal_tech_internship(t)):
             return None
-        # Season detection — explicit season name OR adjacent year hint.
-        # Fall and co-op programs are typically autumn/year-long, so any
-        # "co-op" with no other season specified routes to Fall Co-op.
         is_fall   = bool(re.search(r"\b(fall|autumn)\b",   t, re.IGNORECASE))
         is_spring = bool(re.search(r"\b(spring|winter)\b", t, re.IGNORECASE))
-        is_summer = bool(re.search(r"\bsummer\b",          t, re.IGNORECASE))
         is_coop   = bool(re.search(r"\bco[-\s]?op\b|\bcoop\b", t, re.IGNORECASE))
         if is_fall:
             return "Fall Co-op / Intern"
         if is_spring:
             return "Spring Intern"
-        if is_summer:
-            return "Summer Intern"
         if is_coop:
             return "Fall Co-op / Intern"
-        # Plain "Intern" / "Internship" / "Student Worker" with no season
-        # named — default to the Summer bucket which is the largest cohort.
-        return "Summer Intern"
+        # Season-less intern/co-op — default to Spring (current recruiting focus).
+        return "Spring Intern"
 
     matched = _first_matching_category(t)
-    if matched in {"Summer Intern", "Fall Co-op / Intern", "Spring Intern"}:
+    if matched in {"Fall Co-op / Intern", "Spring Intern"}:
         # Reached here only via non-intern-like titles like "Fall 2026
         # Software Engineer". Still require a tech keyword.
         if not is_seasonal_tech_internship(title):
+            return None
+    if matched == "New Grad":
+        # Same gate as internships — "New Grad" / "Early Career" alone is not CS.
+        if not (is_cs_domain(t) or is_seasonal_tech_internship(t)):
             return None
     if INTERNSHIP_ONLY_MODE:
         # Keep explicit New Grad roles even when internship mode is enabled.

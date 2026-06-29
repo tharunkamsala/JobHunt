@@ -34,5 +34,7 @@ def fetch(slug: str) -> list[dict]:
             "url": j.get("hostedUrl") or j.get("applyUrl"),
             "posting_id": str(lid) if lid is not None else None,
             "posted_at": posted_iso,
+            "descriptionPlain": j.get("descriptionPlain"),
+            "description": j.get("description"),
         })
     return jobs
