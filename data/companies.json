@@ -758,15 +758,6 @@
   },
   {
     "category": "Unicorns & High-Growth Startups",
-    "name": "Anduril",
-    "industry": "Defense Tech / Autonomy",
-    "common_roles": "SWE, SRE, Robotics Engineer, Systems Engineer",
-    "url": "https://www.anduril.com/careers/",
-    "h1b_level": "Case-by-Case",
-    "notes": "\u26a0\ufe0f Many roles require US citizenship (clearance)"
-  },
-  {
-    "category": "Unicorns & High-Growth Startups",
     "name": "Shield AI",
     "industry": "Defense / Autonomous Drones",
     "common_roles": "SWE, ML Engineer, Robotics, Firmware",

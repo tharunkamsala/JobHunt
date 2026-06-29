@@ -27,7 +27,7 @@ EXTRA_COMPANIES_JSON = DATA_DIR / "extra_companies.json"
 EXCEL_PATH = BASE_DIR.parent / "H1B_Visa_Sponsor_Companies_CS.xlsx"
 
 # Companies to skip entirely (no scrape, hidden from UI company list).
-EXCLUDED_COMPANIES = frozenset({"SpaceX"})
+EXCLUDED_COMPANIES = frozenset({"SpaceX", "Anduril"})
 
 # How often (minutes) the scheduler re-scrapes every company's career page.
 SCRAPE_INTERVAL_MIN = 15
