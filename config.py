@@ -143,7 +143,7 @@ CS_DOMAIN_PATTERNS = [
     r"\bqa\b",
     r"\btest\s+automation\b",
     r"\bsoftware\s+(engineer|developer|architect|intern)\b",
-    r"\bcomputer\s+(engineer|scientist)\b",
+    r"\bcomputer\s+(engineer|scientist|engineering)\b",
     r"\b(?:machine\s+learning|ml|ai)\s+(engineer|scientist|intern|researcher)\b",
     r"\b(?:cloud|platform|security|network|infrastructure|devops|sre)\s+(engineer|architect|developer|intern)\b",
     r"\b(?:site\s+reliability|software\s+development)\s+engineer\b",
@@ -174,7 +174,12 @@ CS_DOMAIN_PATTERNS = [
 ]
 
 SEASONAL_TECH_INTERNSHIP_PATTERNS = [
-    r"\b(software|sde|swe|developer|engineer|engineering|technology|tech|data|database|ml|machine\s+learning|ai|artificial\s+intelligence|platform|cloud|security|cyber|infrastructure|devops|sre|systems?|research|scientist|applied\s+scientist|robotics|perception|visualization|analytics)\b",
+    # Do not use bare "engineer" / "engineering" — that admits mechanical, electrical, etc.
+    r"\b(software|sde|swe|developer|programmer|computer\s+science|computational)\b",
+    r"\b(technology|tech|data|database|ml|machine\s+learning|ai|artificial\s+intelligence)\b",
+    r"\b(platform|cloud|security|cyber|infrastructure|devops|sre|networking)\b",
+    r"\b(systems?\s+software|software\s+systems|embedded|firmware|computer\s+engineering)\b",
+    r"\b(research|scientist|applied\s+scientist|robotics|perception|visualization|analytics)\b",
 ]
 
 # Non-engineering roles that sometimes match our keywords (e.g. "Account
@@ -238,10 +243,18 @@ NON_ENGINEERING_EXCLUDES = [
 # Non-CS engineering / science fields (mechanical, civil, etc.) — not CSE roles.
 NON_CS_FIELD_EXCLUDES = [
     r"\bmechanical\b",
+    r"\belectrical\b",
+    r"\belectronics?\b",
+    r"\bee\s+(intern|co[-\s]?op|engineer|student|analyst)\b",
+    r"\bpower\s+systems?\b",
+    r"\brf\s+engineer",
+    r"\banalog\s+(design|engineer)",
+    r"\boptical\s+engineer",
     r"\bcivil\b",
     r"\bchemical\b",
     r"\bbiomedical\b",
     r"\bindustrial\s+engineer",
+    r"\bindustrial\s+engineering\b",
     r"\bmanufacturing\b",
     r"\baerospace\b",
     r"\bautomotive\b",
