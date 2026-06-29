@@ -11,6 +11,7 @@ from config import (
     ROLE_FILTERS,
     SENIORITY_EXCLUDES,
     NON_ENGINEERING_EXCLUDES,
+    NON_CS_FIELD_EXCLUDES,
     INTERNSHIP_ONLY_MODE,
     INTERNSHIP_TITLE_PATTERNS,
     CS_DOMAIN_PATTERNS,
@@ -23,6 +24,7 @@ _COMPILED = {
 }
 _EXCLUDES = [re.compile(p, re.IGNORECASE) for p in SENIORITY_EXCLUDES]
 _NON_ENG = [re.compile(p, re.IGNORECASE) for p in NON_ENGINEERING_EXCLUDES]
+_NON_CS_FIELD = [re.compile(p, re.IGNORECASE) for p in NON_CS_FIELD_EXCLUDES]
 _INTERNSHIP = [re.compile(p, re.IGNORECASE) for p in INTERNSHIP_TITLE_PATTERNS]
 _CS_DOMAIN = [re.compile(p, re.IGNORECASE) for p in CS_DOMAIN_PATTERNS]
 _SEASONAL_TECH = [re.compile(p, re.IGNORECASE) for p in SEASONAL_TECH_INTERNSHIP_PATTERNS]
@@ -80,6 +82,14 @@ def is_non_engineering(title: str) -> bool:
     return any(rx.search(t) for rx in _NON_ENG)
 
 
+def is_non_cs_field(title: str) -> bool:
+    """Return True for engineering/science disciplines outside CS/CSE."""
+    if not title:
+        return False
+    t = title.strip()
+    return any(rx.search(t) for rx in _NON_CS_FIELD)
+
+
 def _first_matching_category(title: str) -> str | None:
     t = title.strip()
     for cat in CATEGORY_PRIORITY:
@@ -93,9 +103,7 @@ def primary_category(title: str) -> str | None:
     """Return a single best-fit category name, or None."""
     if not title:
         return None
-    # Temporarily disable seniority filter
-    # if is_too_senior(title) or is_non_engineering(title):
-    if is_non_engineering(title):
+    if is_too_senior(title) or is_non_engineering(title) or is_non_cs_field(title):
         return None
     t = title.strip()
 
@@ -140,8 +148,9 @@ def primary_category(title: str) -> str | None:
         # Keep explicit New Grad roles even when internship mode is enabled.
         if matched != "New Grad" and not is_internship_like(title):
             return None
-        if not is_cs_domain(title):
-            return None
+    # All kept roles must be CS/CSE-related (not just internships).
+    if matched and not is_cs_domain(t):
+        return None
     return matched
 
 
