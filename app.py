@@ -15,7 +15,14 @@ try:
 except ImportError:
     _HAS_SOCKETIO = False
 
-from config import COMPANIES_JSON, EXTRA_COMPANIES_JSON, ROLE_FILTERS, EXCLUDED_COMPANIES
+from config import (
+    COMPANIES_JSON,
+    EXTRA_COMPANIES_JSON,
+    ROLE_FILTERS,
+    EXCLUDED_COMPANIES,
+    DEFAULT_GRAD_COHORT_YEAR,
+    SUPPORTED_GRAD_COHORT_YEARS,
+)
 from db import (init_db, fetch_jobs, stats, recent_runs, set_applied,
                 get_enabled_scrape_categories, set_enabled_scrape_categories,
                 get_watchlist_companies, set_watchlist_companies,
@@ -116,7 +123,15 @@ def index():
         "index.html",
         categories=cats,
         companies=sorted({c["name"] for c in _companies()}),
+        default_grad_year=DEFAULT_GRAD_COHORT_YEAR,
+        grad_years=list(SUPPORTED_GRAD_COHORT_YEARS),
     )
+
+
+@app.get("/api/grad-cohort")
+def api_grad_cohort():
+    from scraper.grad_cohort import grad_cohort_config
+    return jsonify(grad_cohort_config())
 
 
 @app.get("/api/jobs")
@@ -149,6 +164,25 @@ def api_jobs():
     jobs = fetch_jobs(category=category, companies=multi_companies or None,
                       search=search, since_minutes=since_minutes,
                       applied_only=applied_only, limit=limit)
+
+    grad_year_raw = request.args.get("grad_year") or request.args.get("grad_cohort")
+    grad_strict = request.args.get("grad_strict") in ("1", "true", "yes")
+    if grad_year_raw:
+        from scraper.grad_cohort import matches_grad_cohort
+        try:
+            gy = int(grad_year_raw)
+            jobs = [
+                j for j in jobs
+                if matches_grad_cohort(
+                    j.get("title") or "",
+                    gy,
+                    strict=grad_strict,
+                    primary_category=j.get("primary_category"),
+                )
+            ]
+        except ValueError:
+            pass
+
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
     for j in jobs:

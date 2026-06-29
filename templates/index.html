@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script src="{{ url_for('static', filename='grad-cohort.js') }}"></script>
   <meta name="theme-color" content="#0f766e" />
   <meta name="color-scheme" content="light" />
   <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
@@ -56,6 +57,24 @@
           </button>
           {% endfor %}
         </div>
+      </nav>
+
+      <nav class="side-section">
+        <div class="side-heading">
+          <span>Graduation target</span>
+          <span class="heading-sub">New grad &amp; entry-level</span>
+        </div>
+        <p class="section-note">For full-time roles after you finish school. Picks university hire, campus, entry-level SWE — drops other class years.</p>
+        <div class="grad-year-wrap" id="gradYearChips" role="tablist" aria-label="Graduation year">
+          <button type="button" class="grad-year-chip active" data-year="">Any</button>
+          {% for y in grad_years %}
+          <button type="button" class="grad-year-chip" data-year="{{ y }}">Class of '{{ y % 100 }}</button>
+          {% endfor %}
+        </div>
+        <label class="check-row">
+          <input type="checkbox" id="gradStrict" />
+          <span>Title must name my class year (e.g. 2027 or ’27)</span>
+        </label>
       </nav>
 
       <nav class="side-section">
@@ -295,6 +314,8 @@
       window: "jt.timeWindow",
       appliedOnly: "jt.appliedOnly",
       filtersOpen: "jt.filtersOpen",
+      gradYear: "jt.gradYear",
+      gradStrict: "jt.gradStrict",
     };
     const state = {
       category: "",
@@ -313,6 +334,8 @@
       scrapeEnabled: new Set(),
       scrapeAll: [],
       filtersOpen: false,
+      gradYear: localStorage.getItem(LS.gradYear) || "",
+      gradStrict: localStorage.getItem(LS.gradStrict) === "1",
     };
     let allJobs = [];
     // Unfiltered job list used ONLY to compute saved-view counts so that
@@ -375,7 +398,7 @@
       if (state.category) reasons.push(`role filter is ${state.category}`);
       if (state.window) reasons.push(`time window is ${WINDOW_LABELS[state.window] || state.window}`);
       if (state.companies.size) reasons.push(`${state.companies.size} compan${state.companies.size === 1 ? "y is" : "ies are"} selected`);
-      if (state.q) reasons.push(`search is "${state.q}"`);
+      if (state.gradYear) reasons.push(`class of ${state.gradYear}${state.gradStrict ? " (strict)" : ""}`);
       if (!reasons.length) {
         return {
           title: "No jobs match",
@@ -395,6 +418,7 @@
       { id: "fall", label: "Fall" },
       { id: "spring", label: "Spring" },
       { id: "newgrad", label: "New Grad" },
+      { id: "newgrad27", label: "Class of '27" },
       { id: "applied", label: "Applied" },
     ];
 
@@ -433,11 +457,12 @@
       if (state.q)        p.set("q",        state.q);
       if (state.window)   p.set("window",   state.window);
       if (state.appliedOnly) p.set("applied", "1");
-      // If no UI filters are active, the filtered fetch IS the universe —
-      // skip the second request. Otherwise fetch the unfiltered universe in
-      // parallel so saved-view counts stay accurate.
+      if (state.gradYear) {
+        p.set("grad_year", state.gradYear);
+        if (state.gradStrict) p.set("grad_strict", "1");
+      }
       const hasFilters = state.category || state.companies.size > 0 ||
-                         state.q || state.window || state.appliedOnly;
+                         state.q || state.window || state.appliedOnly || state.gradYear;
       const [r, ru] = await Promise.all([
         fetch("/api/jobs?" + p.toString()),
         hasFilters ? fetch("/api/jobs") : null,
@@ -536,6 +561,29 @@
       });
     }
 
+    function matchesGradJob(job) {
+      if (!state.gradYear || !window.GradCohort) return true;
+      return GradCohort.matchesJob(job, state.gradYear, state.gradStrict);
+    }
+
+    function setGradYear(year) {
+      state.gradYear = year || "";
+      localStorage.setItem(LS.gradYear, state.gradYear);
+      syncGradYearChips();
+    }
+
+    function setGradStrict(on) {
+      state.gradStrict = !!on;
+      localStorage.setItem(LS.gradStrict, state.gradStrict ? "1" : "0");
+      el("#gradStrict").checked = state.gradStrict;
+    }
+
+    function syncGradYearChips() {
+      document.querySelectorAll("#gradYearChips .grad-year-chip").forEach((btn) => {
+        btn.classList.toggle("active", (btn.dataset.year || "") === (state.gradYear || ""));
+      });
+    }
+
     function clearSavedView() {
       if (state.view === "all") return;
       const prevView = state.view;
@@ -545,6 +593,10 @@
         state.appliedOnly = false;
         localStorage.setItem(LS.appliedOnly, "0");
         el("#appliedOnly").checked = false;
+      }
+      if (prevView === "newgrad27") {
+        setGradYear("");
+        setGradStrict(false);
       }
       renderSavedViews();
     }
@@ -585,6 +637,9 @@
         return pool.filter(
           (j) => j.primary_category === "New Grad" || (j.categories || [])[0] === "New Grad",
         ).length;
+      }
+      if (id === "newgrad27" && window.GradCohort) {
+        return pool.filter((j) => GradCohort.matchesJob(j, 2027, false)).length;
       }
       if (id === "applied") return pool.filter(j => !!j.applied_at).length;
       return 0;
@@ -629,26 +684,44 @@
       if (view === "all" || view === "new" || view === "internships") {
         state.category = "";
         state.appliedOnly = false;
+        setGradYear("");
+        setGradStrict(false);
         setWindow("");
       } else if (view === "summer") {
         state.category = "Summer Intern";
         state.appliedOnly = false;
+        setGradYear("");
+        setGradStrict(false);
         setWindow("");
       } else if (view === "fall") {
         state.category = "Fall Co-op / Intern";
         state.appliedOnly = false;
+        setGradYear("");
+        setGradStrict(false);
         setWindow("");
       } else if (view === "spring") {
         state.category = "Spring Intern";
         state.appliedOnly = false;
+        setGradYear("");
+        setGradStrict(false);
         setWindow("");
       } else if (view === "newgrad") {
         state.category = "New Grad";
         state.appliedOnly = false;
+        setGradYear("");
+        setGradStrict(false);
+        setWindow("");
+      } else if (view === "newgrad27") {
+        state.category = "";
+        state.appliedOnly = false;
+        setGradYear("2027");
+        setGradStrict(false);
         setWindow("");
       } else if (view === "applied") {
         state.category = "";
         state.appliedOnly = true;
+        setGradYear("");
+        setGradStrict(false);
         setWindow("");
       }
       localStorage.setItem(LS.appliedOnly, state.appliedOnly ? "1" : "0");
@@ -767,7 +840,12 @@
       if (state.q)        pills.push(`<span class="inline-filter">Search: <b>${esc(state.q)}</b><a data-clear="q">×</a></span>`);
       if (state.window)   pills.push(`<span class="inline-filter">${esc(WINDOW_LABELS[state.window] || state.window)}<a data-clear="window">×</a></span>`);
       if (state.appliedOnly) pills.push(`<span class="inline-filter">Applied only<a data-clear="applied">×</a></span>`);
+      if (state.gradYear) {
+        const strict = state.gradStrict ? " · year in title" : "";
+        pills.push(`<span class="inline-filter">Class of '${state.gradYear.slice(-2)}${strict}<a data-clear="grad">×</a></span>`);
+      }
       if (state.view === "new") pills.push(`<span class="inline-filter">View: <b>New since last visit</b><a data-clear="view">×</a></span>`);
+      if (state.view === "newgrad27") pills.push(`<span class="inline-filter">View: <b>Class of '27</b><a data-clear="view">×</a></span>`);
       el("#activeFilters").innerHTML = pills.join("");
     }
     el("#activeFilters").addEventListener("click", (e) => {
@@ -784,7 +862,18 @@
       else if (k === "view") {
         state.view = "all";
         localStorage.setItem(LS.view, state.view);
+        setGradYear("");
+        setGradStrict(false);
         renderSavedViews();
+      }
+      else if (k === "grad") {
+        setGradYear("");
+        setGradStrict(false);
+        if (state.view === "newgrad27") {
+          state.view = "all";
+          localStorage.setItem(LS.view, "all");
+          renderSavedViews();
+        }
       }
       else if (k === "category") {
         state.category = "";
@@ -1037,6 +1126,16 @@
       state.category = b.dataset.cat || "";
       syncCategoryChips();
       loadCompanies(); loadJobs();
+    });
+    el("#gradYearChips").addEventListener("click", (e) => {
+      const b = e.target.closest(".grad-year-chip"); if (!b) return;
+      clearSavedView();
+      setGradYear(b.dataset.year || "");
+      loadJobs();
+    });
+    el("#gradStrict").addEventListener("change", (e) => {
+      setGradStrict(e.target.checked);
+      loadJobs();
     });
     el("#savedViews").addEventListener("click", (e) => {
       const b = e.target.closest(".saved-view"); if (!b) return;
@@ -1491,6 +1590,8 @@
     loadStats();
     loadDbSummary();
     loadCoverageAlerts();
+    syncGradYearChips();
+    el("#gradStrict").checked = state.gradStrict;
     if (state.view !== "all") {
       applySavedView(state.view);
     } else {

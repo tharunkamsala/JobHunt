@@ -102,6 +102,10 @@ USER_AGENT = (
 # that match the configured early-career / CS categories.
 INTERNSHIP_ONLY_MODE = False
 
+# Graduation cohort filter (UI + API). May 2027 is the primary student audience.
+DEFAULT_GRAD_COHORT_YEAR = 2027
+SUPPORTED_GRAD_COHORT_YEARS = (2026, 2027, 2028, 2029)
+
 INTERNSHIP_TITLE_PATTERNS = [
     r"\bintern(ship)?s?\b",
     r"\bco[-\s]?op\b",
@@ -382,7 +386,31 @@ ROLE_FILTERS = {
         r"\bgraduate\s+(software|engineer|program|developer|rotation)",
         r"\bgraduate\s+software\s+engineer\b",
         r"\bgraduate\s+engineer\b",
-        r"class\s+of\s+20(25|26|27|28)",
+        r"class\s+of\s+20(25|26|27|28|29)",
+        r"\b20(26|27|28|29)\s+new\s*grad",
+        r"\bnew\s*grad\w*\s*['\-]?\s*20(26|27|28|29)\b",
+        r"\b20(26|27|28|29)\s+graduate",
+        r"\bgraduate\s+['\-]?\s*20(26|27|28|29)\b",
+        r"\bmay\s*['\-]?\s*20(26|27|28|29)\b",
+        r"\bspring\s*['\-]?\s*20(26|27|28|29)\s+grad",
+        r"\bstart\s+(date\s+)?['\-]?(january|february|march|april|may|june|july|august|september|fall|summer)\s*['\-]?\s*20(26|27|28|29)\b",
+        r"\b(january|june|july|august|september|fall|summer)\s*['\-]?\s*20(26|27|28|29)\s+start\b",
+        r"\bcampus\s+(hire|recruit|recruiting|recruitment)\b",
+        r"\buniversity\s+recruit",
+        r"\brecent\s+graduate\b",
+        r"\b0\s*[-–]?\s*1\s+years?\b",
+        r"\b0\s+years?\s+(of\s+)?experience\b",
+        r"\bfte\s+university\b",
+        r"\bfull[-\s]?time\s+university\b",
+        r"\buniversity\s+programs?\b",
+        r"\bengineering\s+university\b",
+        r"\b(university|campus)\s+software\b",
+        r"\b(software|swe|sde|ml|data|cloud|platform|security)\s+engineer.{0,35}\b(2027|'27|2028|'28)\b",
+        r"\b(2027|'27|2028|'28).{0,35}\b(software|swe|sde|engineer|developer)\b",
+        r"\b(ignite|accelerate|propel|emerging|futureforce|ascend)\s+program\b",
+        r"\bdevelopment\s+program\b",
+        r"\buniversity\s+relations\b",
+        r"\bcollege\s+relations\b",
         r"campus\s+hire",
         r"intern.*full[-\s]*time\s+conversion",
         r"\bassociate,?\s+(software|ml|machine|data|cloud|security|research)\s+engineer",

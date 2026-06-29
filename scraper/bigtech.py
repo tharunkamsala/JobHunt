@@ -221,7 +221,8 @@ def amazon(_: str = "") -> list[dict]:
     out: list[dict] = []
     queries = ["software development engineer", "SDE", "machine learning",
                "data engineer", "new grad", "software engineer intern",
-               "SDE intern", "cloud engineer", "systems engineer"]
+               "SDE intern", "cloud engineer", "systems engineer",
+               "university hire", "class of 2027", "campus hire"]
     seen: set[str] = set()
     for q in queries:
         offset = 0
