@@ -4,11 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <title>Geetha · CS job board</title>
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="{{ url_for('static', filename='favicon.svg') }}" />
+  <meta name="description" content="Geetha — live CS &amp; CSE job board for H1B sponsors. Software, AI/ML, data, and DevOps roles." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
-  <meta name="theme-color" content="#0c1222" />
+  <meta name="theme-color" content="#0f766e" />
   <meta name="color-scheme" content="light" />
   <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
 </head>
@@ -16,13 +19,24 @@
   <a class="skip-link" href="#main-content">Skip to open roles</a>
   <div class="app">
     <aside class="sidebar">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">G</div>
-        <div class="brand-text">
-          <div class="brand-title">Geetha</div>
-          <div class="brand-sub">CS &amp; CSE roles · H1B sponsors</div>
+      <div class="brand-card">
+        <div class="brand">
+          <img class="brand-logo" src="{{ url_for('static', filename='logo-mark.svg') }}" width="40" height="40" alt="" />
+          <div class="brand-text">
+            <div class="brand-title-row">
+              <span class="brand-title">Geetha</span>
+              <span class="brand-domain">geetha.dev</span>
+            </div>
+            <div class="brand-sub">CS job board · H1B sponsors</div>
+          </div>
+          <button class="sidebar-close" type="button" id="closeFilters" aria-label="Close filters">×</button>
         </div>
-        <button class="sidebar-close" type="button" id="closeFilters" aria-label="Close filters">×</button>
+        <div class="brand-chips" aria-label="Role focus">
+          <span class="brand-chip">SWE</span>
+          <span class="brand-chip">AI / ML</span>
+          <span class="brand-chip">Data</span>
+          <span class="brand-chip">DevOps</span>
+        </div>
       </div>
 
       <nav class="side-section">
@@ -140,10 +154,17 @@
       <header class="topbar">
         <div class="topbar-row">
           <div class="topbar-intro">
-            <div class="topbar-mark" aria-hidden="true">G</div>
+            <img class="topbar-logo" src="{{ url_for('static', filename='logo-mark.svg') }}" width="36" height="36" alt="" />
             <div class="topbar-titles">
-              <h1 class="page-title">Jobs</h1>
-              <p class="page-sub">Live listings from sponsor companies · refreshed every 15 min</p>
+              <div class="page-title-row">
+                <h1 class="page-title">
+                  <span class="page-title-mobile">Geetha</span>
+                  <span class="page-title-desktop">Jobs</span>
+                </h1>
+                <span class="page-domain">geetha.dev</span>
+              </div>
+              <p class="page-sub page-sub-mobile">CS jobs · live from H1B sponsors</p>
+              <p class="page-sub page-sub-desktop">Live listings · refreshed every 15 min</p>
             </div>
           </div>
           <div class="search-wrap" role="search">
