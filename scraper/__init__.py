@@ -16,6 +16,7 @@ from config import (
 from db import get_enabled_scrape_categories
 from . import greenhouse, lever, ashby, smartrecruiters, workday, generic, bigtech, eightfold, oraclehcm, talentbrew, workable, icims, jobvite, successfactors
 from . import overrides as ats_overrides
+from .details import enrich_descriptions
 from .filters import match_categories
 from .html_text import strip_html
 from .location import is_usa
@@ -166,6 +167,26 @@ def _infer_slug(company_name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", company_name.lower())
 
 
+def _finish_scrape(
+    source: str,
+    raw: list[dict],
+    company: dict | None,
+    careers_url: str | None = None,
+) -> list[dict]:
+    """Filter/normalize jobs, then optionally enrich descriptions."""
+    normalized = _normalize_and_filter(raw, company)
+    if normalized:
+        try:
+            enrich_descriptions(
+                normalized,
+                source=source,
+                careers_url=careers_url or (company or {}).get("url") or "",
+            )
+        except Exception:
+            log.exception("description enrichment failed for %s", source)
+    return normalized
+
+
 def scrape_company(company: dict) -> tuple[str, list[dict]]:
     """Returns (ats_source, list of normalized jobs).
     Each job: {title, location, url, categories}
@@ -176,13 +197,13 @@ def scrape_company(company: dict) -> tuple[str, list[dict]]:
     # 1) Company-specific handler (Amazon, Google, Microsoft, Meta, Apple, ...).
     custom = bigtech.get_handler(name)
     if custom is not None:
+        source = f"bigtech:{name.lower().split()[0]}"
         try:
             raw = custom(url)
         except Exception:
             raw = []
-        normalized = _normalize_and_filter(raw, company)
+        normalized = _finish_scrape(source, raw, company)
         time.sleep(POLITE_DELAY_SEC)
-        source = f"bigtech:{name.lower().split()[0]}"
         if normalized:
             return source, normalized
         if raw:
@@ -195,18 +216,22 @@ def scrape_company(company: dict) -> tuple[str, list[dict]]:
     override = ats_overrides.lookup(name)
     if override is not None:
         ats, handle = override
+        source = f"override:{ats}"
         try:
             raw = _dispatch(ats, handle)
         except Exception:
             raw = []
-        normalized = _normalize_and_filter(raw, company)
+        normalized = _finish_scrape(
+            source, raw, company,
+            careers_url=handle if ats in {"workday", "talentbrew", "smartrecruiters"} else None,
+        )
         time.sleep(POLITE_DELAY_SEC)
         if normalized:
-            return f"override:{ats}", normalized
+            return source, normalized
         if ats == "workday":
             try:
                 generic_raw = generic.fetch(url)
-                generic_norm = _normalize_and_filter(generic_raw, company)
+                generic_norm = _finish_scrape("override:workday->generic", generic_raw, company)
                 if generic_norm:
                     return "override:workday->generic", generic_norm
             except Exception:
@@ -214,7 +239,7 @@ def scrape_company(company: dict) -> tuple[str, list[dict]]:
         # If the override ATS responded with jobs but filters removed all of
         # them, still report the override source — do not re-sniff a vanity URL.
         if raw:
-            return f"override:{ats}", normalized
+            return source, normalized
         # Fall back to sniffing when the override ATS returned no rows at all.
 
     # 3) Auto-sniff the ATS from the URL / careers page / slug probes.
@@ -225,13 +250,14 @@ def scrape_company(company: dict) -> tuple[str, list[dict]]:
     finally:
         time.sleep(POLITE_DELAY_SEC)
 
-    normalized = _normalize_and_filter(raw, company)
+    sniff_careers = handle if ats in {"workday", "talentbrew", "smartrecruiters"} and isinstance(handle, str) and handle.startswith("http") else url
+    normalized = _finish_scrape(ats, raw, company, careers_url=sniff_careers)
     if normalized:
         return ats, normalized
     if ats == "workday":
         try:
             generic_raw = generic.fetch(url)
-            generic_norm = _normalize_and_filter(generic_raw, company)
+            generic_norm = _finish_scrape("workday->generic", generic_raw, company)
             if generic_norm:
                 return "workday->generic", generic_norm
         except Exception:
