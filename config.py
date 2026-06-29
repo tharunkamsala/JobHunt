@@ -1,0 +1,367 @@
+"""Central configuration for the job tracker."""
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_DIR = BASE_DIR / "data"
+DATA_DIR.mkdir(exist_ok=True)
+
+# Pin Playwright's browser cache to the project so it survives across shells
+# and machines that mount the workspace (avoids "Executable doesn't exist"
+# errors when the per-process temp dir gets recycled). Importing config.py
+# anywhere in the app forces this before any Playwright launch — we
+# intentionally override any pre-existing value, because some sandboxed
+# shells inject an ephemeral temp path that won't have the binaries.
+_PW_BROWSERS = BASE_DIR / ".venv" / "playwright-browsers"
+if _PW_BROWSERS.exists():
+    os.environ["PLAYWRIGHT_BROWSERS_PATH"] = str(_PW_BROWSERS)
+
+DB_PATH = DATA_DIR / "jobs.db"
+DATABASE_URL = os.environ.get("DATABASE_URL")
+
+COMPANIES_JSON = DATA_DIR / "companies.json"
+EXTRA_COMPANIES_JSON = DATA_DIR / "extra_companies.json"
+EXCEL_PATH = BASE_DIR.parent / "H1B_Visa_Sponsor_Companies_CS.xlsx"
+
+# How often (minutes) the scheduler re-scrapes every company's career page.
+SCRAPE_INTERVAL_MIN = 15
+
+# Fast watchlist refresh cadence for near-real-time checking of selected
+# companies. Empty / disabled watchlists simply skip these runs.
+FAST_SCRAPE_INTERVAL_MIN = 5
+FAST_WATCHLIST_MAX_COMPANIES = 25
+
+# Seed a sensible early-cycle watchlist if the user has not chosen one yet.
+# These are large or historically early-opening employers for new-grad /
+# internship CS roles. Users can still override this list from the UI.
+DEFAULT_WATCHLIST_COMPANIES = (
+    "Adobe",
+    "Amazon",
+    "Apple",
+    "Capital One",
+    "Goldman Sachs",
+    "Google (Alphabet)",
+    "JPMorgan Chase",
+    "Meta (Facebook)",
+    "Microsoft",
+    "NVIDIA",
+    "OpenAI",
+    "Oracle",
+    "Pinterest",
+    "Roblox",
+    "ServiceNow",
+    "Snowflake",
+    "Stripe",
+    "Waymo",
+)
+
+INTERNSHIP_CATEGORIES = (
+    "Summer Intern",
+    "Fall Co-op / Intern",
+    "Spring Intern",
+)
+
+# Full-sweep concurrency. We deliberately run sequentially (1 worker) because
+# parallel sweeps were causing Playwright-based scrapers (Microsoft, Meta) to
+# step on each other and hang the entire run. Reliability > speed: a sequential
+# sweep takes ~15 min but actually finishes and returns jobs from every source.
+SCRAPE_MAX_WORKERS = 1
+
+# Only deactivate a job after it has been missed in multiple successful
+# company scrapes. This avoids transient scraper/API failures hiding real jobs.
+JOB_MISS_DEACTIVATE_THRESHOLD = 2
+
+# Per-request timeout (seconds) and polite delay between requests to the same host.
+# POLITE_DELAY_SEC is applied per-company (after each scrape), but each worker
+# is on a different host, so a long delay here just slows wall-clock without
+# any politeness benefit. 0.3s is a safe nudge that still spaces out bursts.
+REQUEST_TIMEOUT = 20
+POLITE_DELAY_SEC = 0.3
+
+PLAYWRIGHT_ENABLED = True
+PLAYWRIGHT_HEADLESS = True
+PLAYWRIGHT_TIMEOUT_MS = 30_000
+PLAYWRIGHT_WAIT_UNTIL = "domcontentloaded"
+PLAYWRIGHT_ESCALATE_ON_BLOCK = False
+PLAYWRIGHT_USE_STEALTH = False
+PLAYWRIGHT_USE_PROXY = False
+PLAYWRIGHT_PROXY_URL = os.getenv("JOB_SCRAPER_PROXY_URL", "").strip() or None
+
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+)
+
+# Keep internships and co-ops broadly, but also allow non-internship H1B roles
+# that match the configured early-career / CS categories.
+INTERNSHIP_ONLY_MODE = False
+
+INTERNSHIP_TITLE_PATTERNS = [
+    r"\bintern(ship)?s?\b",
+    r"\bco[-\s]?op\b",
+    r"\bcoop\b",
+    r"\buniversity\s+intern\b",
+    r"\bstudent\s+(intern|program|worker|trainee|associate|assistant)\b",
+    r"\bstudent\s+software\b",
+    r"\bapprentice(ship)?\b",
+    r"\bsummer\s+associate\b",
+    r"\bsummer\s+analyst\b",
+    r"\bworking\s+student\b",
+]
+
+CS_DOMAIN_PATTERNS = [
+    r"\bsoftware\b",
+    r"\b(sde|swe)\b",
+    r"\bdeveloper\b",
+    r"\bengineer(ing)?\b",
+    r"\bbackend\b",
+    r"\bfrontend\b",
+    r"\bfront[-\s]?end\b",
+    r"\bback[-\s]?end\b",
+    r"\bfull\s*stack\b",
+    r"\bplatform\b",
+    r"\bdev[\s-]?ops\b",
+    r"\binfrastructure\b",
+    r"\bcloud\b",
+    r"\bdatabase\b",
+    r"\bdata\b",
+    r"\bml\b",
+    r"\bai\b",
+    r"machine\s+learning",
+    r"\bsecurity\b",
+    r"\bsite\s+reliability\b",
+    r"\bsre\b",
+    r"\bqa\b",
+    r"\btest\s+automation\b",
+    r"\bproduct\s+development\b",
+    # Hardware / systems / silicon roles that big-tech (NVIDIA, Intel, AMD,
+    # Apple, Qualcomm, Samsung) post a lot of intern / new-grad positions for.
+    r"\balgorithms?\b",
+    r"\bfpga\b",
+    r"\basic\b",
+    r"\bsoc\b",
+    r"\bvlsi\b",
+    r"\bverification\b",
+    r"\bvalidation\b",
+    r"\bfirmware\b",
+    r"\bembedded\b",
+    r"\bgpu\b",
+    r"\bcompiler\b",
+    r"\brobotics\b",
+    r"\bperception\b",
+    r"\bcomputer\s+vision\b",
+    r"\bsignal\s+processing\b",
+    r"\bnetworking\b",
+    r"\bsystems?\b",
+    r"\bresearch\b",
+    r"\bscientist\b",
+    r"\banalytics?\b",
+    r"\btechnical\b",
+    r"\btechnology\b",
+    r"\binformation\s+technology\b",
+    r"\b(it|tech)\s+(intern|associate|analyst)\b",
+    r"\bautomation\b",
+    r"\bquant(itative)?\b",
+]
+
+SEASONAL_TECH_INTERNSHIP_PATTERNS = [
+    r"\b(software|sde|swe|developer|engineer|engineering|technology|tech|data|database|ml|machine\s+learning|ai|artificial\s+intelligence|platform|cloud|security|cyber|infrastructure|devops|sre|systems?|research|scientist|applied\s+scientist|robotics|perception|visualization|analytics)\b",
+]
+
+# Non-engineering roles that sometimes match our keywords (e.g. "Account
+# Executive - Observability", "Recruiter, ML Platform"). A title that trips
+# ANY of these is dropped before we even check role categories.
+NON_ENGINEERING_EXCLUDES = [
+    # "Exective" is a typo that appears in real postings (e.g. Snowflake).
+    r"\baccount\s+(executive|exective|manager|director|representative)\b",
+    r"\bsales(\s+(engineer|manager|director|representative))?\b",
+    r"\bcustomer\s+success\b",
+    r"\brecruit(er|ing)\b",
+    r"\bmarketing\b",
+    r"\b(business|partner)\s+development\b",
+    r"\b(product|program|project)\s+manager\b",  # PM, TPM, etc.
+    r"\bux\s+(designer|researcher)\b",
+    r"\bgraphic\s+designer\b",
+    r"\bcontent\s+(writer|strategist)\b",
+    r"\btechnical\s+writer\b",
+    r"\blegal\s+counsel\b",
+    r"\bfinance\s+analyst\b",
+    r"\b(solutions|sales)\s+engineer\b",  # pre-sales, not building
+    r"\bgo[-\s]?to[-\s]?market\b",        # GTM / strategy-ops interns
+    r"\b(community|communications|comms)\s+manager\b",
+]
+
+# Experience filter: reject titles that clearly imply >3 years of experience.
+# A job is only kept if it matches a category AND does NOT match any of these.
+SENIORITY_EXCLUDES = [
+    # Senior/lead/staff/principal/fellow/etc.
+    r"\b(senior|sr\.?)\b",
+    r"\b(staff|principal|lead|leader|distinguished|fellow|expert)\b",
+    # Management / executive
+    r"\b(manager|director|head\s+of|vp|vice\s+president|chief|cto|ceo|cio|founding)\b",
+    r"\btechnical\s+leadership\b",
+    # Architect-level titles (almost always senior).
+    r"\b(architect|solutions\s+architect)\b",
+    # Roman-numeral seniority: III, IV, V, VI, VII (avoid matching II).
+    r"\b(iii|iv|vi|vii|viii|ix)\b",
+    r"[-\s,]\s*(iii|iv|v|vi|vii|viii|ix)\s*$",
+    r"\b(engineer|scientist|developer|researcher|programmer|analyst)\s+(iii|iv|v|vi|vii|viii|ix|3|4|5|6|7|8)\b",
+    # Internal level codes: L5+ / E5+ / P5+ / SDE-3+.
+    r"\bl(5|6|7|8|9|10|11|12)\b",
+    r"\be(5|6|7|8|9)\b",
+    r"\bp(5|6|7|8|9)\b",
+    r"\bsde\s*[-\s]?\s*(3|4|5|iii|iv|v)\b",
+    r"\bswe\s*[-\s]?\s*(3|4|5|iii|iv|v)\b",
+    r"\blevel\s*[5-9]\b",
+    # Year requirements embedded in the title (rare but appears).
+    r"\b([4-9]|1[0-9])\s*\+?\s*(years|yrs)\b",
+    r"\b([4-9]|1[0-9])\s*\+\s*(years|yrs)\s+of\s+experience\b",
+    # Tenure / grade keywords.
+    r"\b(experienced|seasoned|tenured)\b",
+]
+
+# Role filter definitions. Each category has a list of regex patterns (case-insensitive).
+# A job title is considered matching a category if ANY pattern matches.
+ROLE_FILTERS = {
+    "Summer Intern": [
+        r"summer.{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}summer\b",
+        r"(software|technology|tech|data|ml|machine\s+learning|ai|platform|cloud|security|cyber).{0,80}summer\s+analyst\b",
+        r"summer\s+analyst.{0,80}(software|technology|tech|data|ml|machine\s+learning|ai|platform|cloud|security|cyber)\b",
+    ],
+    "SDE 1": [
+        r"\bsde\s*[i1]\b",
+        r"\bsde\s*-?\s*1\b",
+        r"software\s+(development\s+)?engineer\s+(i|1|l3)\b",
+        r"software\s+(development\s+)?engineer\b",
+        r"software\s+developer\b",
+        r"\bswe\s*[i1]\b",
+        r"software\s+engineer\s+i\b",
+        r"\blevel\s*3\s+engineer\b",
+    ],
+    "SDE 2": [
+        r"\bsde\s*ii\b",
+        r"\bsde\s*-?\s*2\b",
+        r"software\s+(development\s+)?engineer\s+(ii|2|l4)\b",
+        r"\bswe\s*ii\b",
+        r"software\s+engineer\s+ii\b",
+        r"\blevel\s*4\s+engineer\b",
+    ],
+    "New Grad": [
+        r"new\s*grad",
+        r"new\s*graduate",
+        r"university\s*grad",
+        r"university\s+graduate",
+        r"university\s+hire",
+        r"college\s+(grad(uate)?|hire)",
+        r"early\s*career",
+        r"early\s+careers",
+        r"emerging\s+talent",
+        r"entry[-\s]*level",
+        r"\bgraduate\s+(software|engineer|program|developer|rotation)",
+        r"\bgraduate\s+software\s+engineer\b",
+        r"\bgraduate\s+engineer\b",
+        r"class\s+of\s+20(25|26|27|28)",
+        r"campus\s+hire",
+        r"intern.*full[-\s]*time\s+conversion",
+        r"\bassociate,?\s+(software|ml|machine|data|cloud|security|research)\s+engineer",
+        r"\bassociate\s+(software|ml|machine|data|cloud|security|research)\s+engineer",
+        r"\bjunior\s+(software|ml|machine|data|cloud|security|engineer|developer)\b",
+        r"\b(graduate|grad)\s+(engineer|developer|program)",
+        r"rotational\s+(engineer|program|development)",
+        r"\bsoftware\s+engineer\s+program\b",
+        r"\btechnology\s+analyst\b",
+        r"\bnew\s+analyst\b.{0,40}(software|technology|engineering|data|platform|cloud|security|ml|ai)\b",
+        r"(software|technology|engineering|data|platform|cloud|security|ml|ai).{0,40}\bnew\s+analyst\b",
+        r"\btechnology\s+development\s+program\b",
+        r"\binnovation\s+development\b",
+        r"\bsoftware\s+engineer.{0,25}(new\s*grad|new\s*graduate|university|graduate|early\s*career)\b",
+        r"\b(engineer|developer).{0,25}(new\s*grad|new\s*graduate|university|graduate|early\s*career)\b",
+        # "University Software Engineer" / "University ML Engineer" — Uber, Google, etc.
+        r"\buniversity\s+(software|ml|ai|data|cloud|platform|backend|frontend|full[\s-]?stack)\s+(engineer|developer)\b",
+        # "University SWE" / "University SDE" — abbreviations already imply engineer
+        r"\buniversity\s+(sde|swe)\b",
+    ],
+    "AI / ML": [
+        r"\bml\s+engineer",
+        r"\bml\b.{0,15}\bengineer",  # ML Framework Engineer, ML Platform Engineer, etc.
+        r"machine\s+learning",
+        r"\bai\s+engineer",
+        r"applied\s+scientist",
+        r"research\s+scientist",
+        r"\bresearch\s+engineer",    # Research Engineer (OpenAI, Anthropic, DeepMind, etc.)
+        r"\bdistributed\s+training\s+engineer",
+        r"deep\s+learning",
+        r"computer\s+vision",
+        r"\bnlp\b",
+        r"\bllm\b",
+        r"generative\s+ai",
+        r"ml\s+ops|mlops",
+        r"\bai\s*/\s*ml\b",
+        r"artificial\s+intelligence",
+    ],
+    "Database": [
+        r"database\s+engineer",
+        r"\bdba\b",
+        r"database\s+administrator",
+        r"data\s+engineer",
+        r"data\s+infrastructure",
+        r"data\s+platform",
+        r"storage\s+engineer",
+        r"\bsql\s+engineer",
+        r"database\s+developer",
+        r"\bdb\s+engineer",
+    ],
+    "Infrastructure / DevOps": [
+        r"\bdev[\s-]?ops\b",
+        r"\bsre\b",
+        r"site\s+reliability",
+        r"reliability\s+engineer",
+        r"platform\s+engineer(ing)?",
+        r"infrastructure\s+engineer",
+        r"\binfra\s+engineer",
+        r"cloud\s+engineer",
+        r"cloud\s+infrastructure",
+        r"systems?\s+engineer",
+        r"\bkubernetes\b",
+        r"\bk8s\b",
+        r"observability",
+        r"build\s+(&|and)\s+release",
+        r"release\s+engineer",
+        r"network\s+engineer",
+        r"production\s+engineer",
+        r"\bci\s*/\s*cd\b",
+    ],
+    # Seasonal internship buckets (kept ahead of role buckets in priority).
+    # We accept either explicit year markers (2026/2027, '26/'27) or clear
+    # seasonal intern/co-op phrasing to avoid missing real student roles.
+    "Fall Co-op / Intern": [
+        r"\bfall\s*['\-]?\s*20(26|27|28)\b",
+        r"\b20(26|27|28)\s*fall\b",
+        r"\bfall\s*['\-]?\s*(26|27|28)\b",
+        r"\b(26|27|28)\s*fall\b",
+        r"\bautumn\s*['\-]?\s*20(26|27|28)\b",
+        r"\bautumn\s*['\-]?\s*(26|27|28)\b",
+        r"fall.{0,40}20(26|27|28).{0,50}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,50}fall.{0,40}20(26|27|28)",
+        r"fall.{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}fall\b",
+        r"autumn.{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}autumn\b",
+    ],
+    "Spring Intern": [
+        r"\bspring\s*['\-]?\s*20(26|27|28)\b",
+        r"\bwinter\s*['\-]?\s*20(26|27|28)\b",
+        r"\bspring\s*['\-]?\s*(26|27|28)\b",
+        r"\bwinter\s*['\-]?\s*(26|27|28)\b",
+        r"spring.{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}spring\b",
+        r"winter.{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}winter\b",
+        r"(january|jan)\s*['\-]?\s*20(26|27|28).{0,60}(co[-\s]?op|intern(ship)?|analyst\s+program)\b",
+        r"(co[-\s]?op|intern(ship)?|analyst\s+program).{0,60}(january|jan)\s*['\-]?\s*20(26|27|28)\b",
+    ],
+}

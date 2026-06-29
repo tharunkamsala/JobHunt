@@ -1,0 +1,885 @@
+[
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Amazon",
+    "industry": "E-Commerce / Cloud (AWS)",
+    "common_roles": "SDE, SRE, Data Engineer, ML Engineer, Solutions Architect",
+    "url": "https://www.amazon.jobs",
+    "h1b_level": "Very High (Top Sponsor)",
+    "notes": "Consistently #1 H1B sponsor in the US"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Google (Alphabet)",
+    "industry": "Search / Cloud / AI",
+    "common_roles": "SWE, SRE, ML Engineer, Data Scientist, Cloud Engineer",
+    "url": "https://careers.google.com",
+    "h1b_level": "Very High",
+    "notes": "Pioneered the SRE discipline; strong AI/ML hiring"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Microsoft",
+    "industry": "Cloud / Enterprise / AI",
+    "common_roles": "SDE, SRE, PM, Data Scientist, ML Engineer",
+    "url": "https://careers.microsoft.com",
+    "h1b_level": "Very High",
+    "notes": "Azure, Office 365, Windows, LinkedIn, GitHub"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Meta (Facebook)",
+    "industry": "Social Media / VR / AI",
+    "common_roles": "SWE, Production Engineer, ML Engineer, Research Scientist",
+    "url": "https://www.metacareers.com",
+    "h1b_level": "Very High",
+    "notes": "Instagram, WhatsApp, Oculus, Reality Labs"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Apple",
+    "industry": "Consumer Electronics / Software",
+    "common_roles": "SWE, SRE, ML/AI Engineer, Hardware Engineer",
+    "url": "https://www.apple.com/careers",
+    "h1b_level": "Very High",
+    "notes": "iOS, macOS, hardware, services, Apple Intelligence"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "Netflix",
+    "industry": "Streaming / Entertainment",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://jobs.netflix.com",
+    "h1b_level": "High",
+    "notes": "Selective hiring; strong compensation packages"
+  },
+  {
+    "category": "Big Tech (FAANG+)",
+    "name": "NVIDIA",
+    "industry": "GPU / AI Hardware / Software",
+    "common_roles": "SWE, CUDA Engineer, ML Infra, SRE",
+    "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "h1b_level": "High",
+    "notes": "Leading AI chip maker; booming AI demand"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Oracle",
+    "industry": "Enterprise Software / Cloud",
+    "common_roles": "SDE, SRE, Cloud Engineer, DB Engineer",
+    "url": "https://www.oracle.com/careers/",
+    "h1b_level": "High",
+    "notes": "OCI, Database, ERP, cloud infrastructure"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Salesforce",
+    "industry": "CRM / Cloud / Enterprise",
+    "common_roles": "SWE, SRE, Platform Engineer, Data Engineer",
+    "url": "https://careers.salesforce.com",
+    "h1b_level": "High",
+    "notes": "Slack, Tableau, MuleSoft also under Salesforce"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Adobe",
+    "industry": "Creative / Document / Marketing",
+    "common_roles": "SWE, SRE, ML Engineer, Full Stack",
+    "url": "https://www.adobe.com/careers.html",
+    "h1b_level": "High",
+    "notes": "Creative Cloud, Document Cloud, Firefly AI"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Uber",
+    "industry": "Ride-Sharing / Delivery",
+    "common_roles": "SWE, SRE, Backend Engineer, ML Engineer",
+    "url": "https://jobs.uber.com/en/search",
+    "h1b_level": "High",
+    "notes": "Uber Eats, Freight; strong infra teams. Career site: jobs.uber.com (Phenom People, JS-rendered — requires Playwright)"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Airbnb",
+    "industry": "Travel / Hospitality Tech",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://careers.airbnb.com",
+    "h1b_level": "High",
+    "notes": "Known for remote-friendly culture"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "LinkedIn",
+    "industry": "Professional Networking",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://careers.linkedin.com",
+    "h1b_level": "High",
+    "notes": "Owned by Microsoft; separate hiring"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Stripe",
+    "industry": "Fintech / Payments",
+    "common_roles": "SWE, SRE, Infra Engineer, ML Engineer",
+    "url": "https://stripe.com/jobs",
+    "h1b_level": "High",
+    "notes": "Payment infrastructure leader"
+  },
+
+  {
+    "category": "Other Major Tech",
+    "name": "Snap Inc.",
+    "industry": "Social Media / AR",
+    "common_roles": "SWE, SRE, ML Engineer, AR Engineer",
+    "url": "https://www.snap.com/en-US/jobs",
+    "h1b_level": "Moderate-High",
+    "notes": "Snapchat, Spectacles, AR technology"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Lyft",
+    "industry": "Ride-Sharing / Mobility",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://www.lyft.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Strong maps & autonomous vehicle teams"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Pinterest",
+    "industry": "Social Media / Discovery",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://www.pinterestcareers.com",
+    "h1b_level": "Moderate-High",
+    "notes": "Visual search & recommendation systems"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Twitter / X",
+    "industry": "Social Media",
+    "common_roles": "SWE, SRE, Backend Engineer, ML Engineer",
+    "url": "https://twitter.com/careers (or x.com/careers)",
+    "h1b_level": "Moderate",
+    "notes": "Restructured under new leadership"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Databricks",
+    "industry": "Data & AI Platform",
+    "common_roles": "SWE, SRE, Solutions Architect, ML Engineer",
+    "url": "https://www.databricks.com/company/careers",
+    "h1b_level": "High",
+    "notes": "Lakehouse architecture; fast-growing unicorn"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Snowflake",
+    "industry": "Cloud Data Warehouse",
+    "common_roles": "SWE, SRE, Data Engineer, Cloud Engineer",
+    "url": "https://careers.snowflake.com",
+    "h1b_level": "High",
+    "notes": "Data Cloud platform leader"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "ServiceNow",
+    "industry": "Enterprise IT / Workflow",
+    "common_roles": "SWE, SRE, Platform Developer, Cloud Engineer",
+    "url": "https://www.servicenow.com/careers.html",
+    "h1b_level": "Moderate-High",
+    "notes": "IT service management & digital workflows"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Workday",
+    "industry": "HR / Finance Enterprise Software",
+    "common_roles": "SWE, SRE, Cloud Engineer, QA Engineer",
+    "url": "https://www.workday.com/en-us/company/careers.html",
+    "h1b_level": "Moderate-High",
+    "notes": "HR and finance cloud ERP"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "VMware (Broadcom)",
+    "industry": "Virtualization / Cloud",
+    "common_roles": "SWE, SRE, Cloud Engineer, DevOps",
+    "url": "https://jobs.broadcom.com",
+    "h1b_level": "Moderate-High",
+    "notes": "Now under Broadcom; virtualization leader"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "PayPal",
+    "industry": "Fintech / Payments",
+    "common_roles": "SWE, SRE, Data Engineer, Security Engineer",
+    "url": "https://careers.pypl.com/home/",
+    "h1b_level": "High",
+    "notes": "Venmo, Braintree, Xoom also under PayPal"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Intuit",
+    "industry": "Fintech / Tax / Accounting",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://www.intuit.com/careers/",
+    "h1b_level": "High",
+    "notes": "TurboTax, QuickBooks, Mint, Credit Karma"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Cisco Systems",
+    "industry": "Networking / Security",
+    "common_roles": "SWE, SRE, Network Engineer, Security Engineer",
+    "url": "https://jobs.cisco.com",
+    "h1b_level": "High",
+    "notes": "Networking infrastructure leader"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Intel",
+    "industry": "Semiconductor / Hardware",
+    "common_roles": "SWE, SRE, Hardware/Firmware Engineer",
+    "url": "https://jobs.intel.com",
+    "h1b_level": "High",
+    "notes": "Chips, foundry, accelerators"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Qualcomm",
+    "industry": "Semiconductor / Mobile",
+    "common_roles": "SWE, SRE, Firmware Engineer, ML Engineer",
+    "url": "https://www.qualcomm.com/company/careers",
+    "h1b_level": "High",
+    "notes": "Snapdragon, 5G, edge AI"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Samsung (US R&D)",
+    "industry": "Electronics / Semiconductor",
+    "common_roles": "SWE, SRE, Research Engineer, ML Engineer",
+    "url": "https://www.samsung.com/us/careers/",
+    "h1b_level": "High",
+    "notes": "Samsung Research America, Austin semiconductor"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "IBM",
+    "industry": "Enterprise / Cloud / AI",
+    "common_roles": "SWE, SRE, Cloud Engineer, Data Scientist",
+    "url": "https://www.ibm.com/careers",
+    "h1b_level": "High",
+    "notes": "Watson, Red Hat, consulting, mainframes"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Dropbox",
+    "industry": "Cloud Storage / Productivity",
+    "common_roles": "SWE, SRE, Infra Engineer, ML Engineer",
+    "url": "https://www.dropbox.com/jobs",
+    "h1b_level": "Moderate-High",
+    "notes": "Remote-first company"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Spotify",
+    "industry": "Music Streaming",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://www.lifeatspotify.com/jobs",
+    "h1b_level": "Moderate-High",
+    "notes": "Stockholm HQ; major US engineering presence"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Twilio",
+    "industry": "Cloud Communications / APIs",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://www.twilio.com/en-us/company/jobs",
+    "h1b_level": "Moderate-High",
+    "notes": "Communications platform market leader"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Block (Square/Cash App)",
+    "industry": "Fintech / Payments",
+    "common_roles": "SWE, SRE, ML Engineer, Backend Engineer",
+    "url": "https://block.xyz/careers",
+    "h1b_level": "High",
+    "notes": "Square, Cash App, TIDAL, TBD"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "DoorDash",
+    "industry": "Food Delivery / Logistics",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://careers.doordash.com",
+    "h1b_level": "High",
+    "notes": "Growing engineering org; logistics focus"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Robinhood",
+    "industry": "Fintech / Trading",
+    "common_roles": "SWE, SRE, Backend Engineer, ML Engineer",
+    "url": "https://robinhood.com/careers/",
+    "h1b_level": "Moderate-High",
+    "notes": "Commission-free trading platform"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Coinbase",
+    "industry": "Crypto / Web3",
+    "common_roles": "SWE, SRE, Security Engineer, Backend Engineer",
+    "url": "https://www.coinbase.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Leading US crypto exchange"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Reddit",
+    "industry": "Social Media / Community",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://www.redditinc.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Rapidly growing; recently went public"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Roblox",
+    "industry": "Gaming / Metaverse",
+    "common_roles": "SWE, SRE, Game Engine Engineer, Infra",
+    "url": "https://careers.roblox.com",
+    "h1b_level": "Moderate-High",
+    "notes": "Gaming platform; strong infra needs"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Atlassian",
+    "industry": "Developer Tools / Collaboration",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://www.atlassian.com/company/careers",
+    "h1b_level": "High",
+    "notes": "Jira, Confluence, Bitbucket; remote-friendly"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "GitHub",
+    "industry": "Developer Platform",
+    "common_roles": "SWE, SRE, Platform Engineer, ML (Copilot)",
+    "url": "https://github.com/about/careers",
+    "h1b_level": "High",
+    "notes": "Owned by Microsoft; Copilot AI"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Cloudflare",
+    "industry": "CDN / Security / Edge",
+    "common_roles": "SWE, SRE, Network Engineer, Security",
+    "url": "https://www.cloudflare.com/careers/",
+    "h1b_level": "Moderate-High",
+    "notes": "Edge computing & security leader"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "Palo Alto Networks",
+    "industry": "Cybersecurity",
+    "common_roles": "SWE, SRE, Security Engineer, Cloud Engineer",
+    "url": "https://jobs.paloaltonetworks.com",
+    "h1b_level": "High",
+    "notes": "Top cybersecurity company"
+  },
+  {
+    "category": "Other Major Tech",
+    "name": "CrowdStrike",
+    "industry": "Cybersecurity / Endpoint",
+    "common_roles": "SWE, SRE, Cloud Engineer, Threat Analyst",
+    "url": "https://www.crowdstrike.com/careers/",
+    "h1b_level": "Moderate-High",
+    "notes": "Cloud-native security platform"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "JPMorgan Chase",
+    "industry": "Banking / Finance",
+    "common_roles": "SWE, SRE, Data Engineer, Cloud Engineer",
+    "url": "https://careers.jpmorgan.com",
+    "h1b_level": "Very High",
+    "notes": "Largest US bank; massive tech org"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Goldman Sachs",
+    "industry": "Investment Banking / Finance",
+    "common_roles": "SWE, SRE, Platform Engineer, Data Engineer",
+    "url": "https://www.goldmansachs.com/careers/",
+    "h1b_level": "Very High",
+    "notes": "Marcus, GS engineering division"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Morgan Stanley",
+    "industry": "Investment Banking / Wealth",
+    "common_roles": "SWE, SRE, Data Engineer, Quant Developer",
+    "url": "https://www.morganstanley.com/careers",
+    "h1b_level": "High",
+    "notes": "Tech modernization focus"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Capital One",
+    "industry": "Banking / Fintech",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://www.capitalonecareers.com",
+    "h1b_level": "Very High",
+    "notes": "Cloud-first bank; heavy AWS adoption"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Bloomberg LP",
+    "industry": "Financial Data / Media",
+    "common_roles": "SWE, SRE, Infra Engineer, Data Engineer",
+    "url": "https://www.bloomberg.com/careers",
+    "h1b_level": "Very High",
+    "notes": "Bloomberg Terminal; strong engineering culture"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Citadel / Citadel Securities",
+    "industry": "Hedge Fund / Market Making",
+    "common_roles": "SWE, SRE, Quant Developer, Infra Engineer",
+    "url": "https://www.citadel.com/careers/",
+    "h1b_level": "High",
+    "notes": "Elite compensation; competitive hiring"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Two Sigma",
+    "industry": "Hedge Fund / Data Science",
+    "common_roles": "SWE, SRE, Data Engineer, Quant Researcher",
+    "url": "https://www.twosigma.com/careers/",
+    "h1b_level": "High",
+    "notes": "Data-driven investment; strong tech culture"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "DE Shaw",
+    "industry": "Hedge Fund / Quant",
+    "common_roles": "SWE, SRE, Quant Developer, Systems Engineer",
+    "url": "https://www.deshaw.com/careers",
+    "h1b_level": "High",
+    "notes": "Founded by CS professor; tech-first"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Visa Inc.",
+    "industry": "Payments / Fintech",
+    "common_roles": "SWE, SRE, Data Engineer, Security Engineer",
+    "url": "https://corporate.visa.com/en/careers.html",
+    "h1b_level": "High",
+    "notes": "Global payments network"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Mastercard",
+    "industry": "Payments / Fintech",
+    "common_roles": "SWE, SRE, Data Scientist, Cloud Engineer",
+    "url": "https://careers.mastercard.com",
+    "h1b_level": "High",
+    "notes": "Payment technology & services"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "American Express",
+    "industry": "Payments / Finance",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://aexp.eightfold.ai/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Digital payments & member services"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Deloitte",
+    "industry": "Consulting / Tech Advisory",
+    "common_roles": "SWE, SRE, Cloud Consultant, Data Engineer",
+    "url": "https://apply.deloitte.com",
+    "h1b_level": "High",
+    "notes": "Consulting + technology practice"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "McKinsey & Company",
+    "industry": "Management Consulting",
+    "common_roles": "SWE, Data Engineer, Digital Practice",
+    "url": "https://www.mckinsey.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "QuantumBlack AI division"
+  },
+  {
+    "category": "Finance & Consulting",
+    "name": "Accenture",
+    "industry": "IT Consulting / Services",
+    "common_roles": "SWE, SRE, Cloud Engineer, Data Engineer",
+    "url": "https://www.accenture.com/us-en/careers",
+    "h1b_level": "High",
+    "notes": "Large-scale IT consulting & delivery"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "OpenAI",
+    "industry": "AI / AGI Research",
+    "common_roles": "SWE, ML Engineer, Research Scientist, Infra Engineer",
+    "url": "https://openai.com/careers",
+    "h1b_level": "Very High",
+    "notes": "ChatGPT maker; massive AI talent demand"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Anthropic",
+    "industry": "AI Safety / Research",
+    "common_roles": "SWE, ML Engineer, Research Scientist, Policy",
+    "url": "https://www.anthropic.com/careers",
+    "h1b_level": "Very High",
+    "notes": "Claude AI; founded by ex-OpenAI researchers"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Scale AI",
+    "industry": "AI / Data Platform",
+    "common_roles": "SWE, ML Engineer, Data Infra, Solutions Engineer",
+    "url": "https://scale.com/careers",
+    "h1b_level": "High",
+    "notes": "AI data labeling & platform; defense contracts"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Cohere",
+    "industry": "AI / NLP",
+    "common_roles": "SWE, ML Engineer, Research Scientist",
+    "url": "https://cohere.com/careers",
+    "h1b_level": "High",
+    "notes": "Enterprise LLM platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Hugging Face",
+    "industry": "AI / Open Source ML",
+    "common_roles": "SWE, ML Engineer, Research Engineer",
+    "url": "https://apply.workable.com/huggingface/",
+    "h1b_level": "High",
+    "notes": "Leading open-source AI model hub"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Mistral AI",
+    "industry": "AI / LLM",
+    "common_roles": "SWE, ML Engineer, Research Scientist",
+    "url": "https://mistral.ai/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Paris-based; growing US presence"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Databricks",
+    "industry": "Data & AI Platform",
+    "common_roles": "SWE, SRE, Solutions Architect, ML Engineer",
+    "url": "https://www.databricks.com/company/careers",
+    "h1b_level": "Very High",
+    "notes": "$62B valuation; lakehouse architecture"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Perplexity AI",
+    "industry": "AI Search",
+    "common_roles": "SWE, ML Engineer, Infra Engineer",
+    "url": "https://www.perplexity.ai/hub/careers",
+    "h1b_level": "High",
+    "notes": "AI-powered search engine; fast-growing"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Figma",
+    "industry": "Design / Collaboration",
+    "common_roles": "SWE, SRE, Infra Engineer, ML Engineer",
+    "url": "https://www.figma.com/careers/",
+    "h1b_level": "High",
+    "notes": "Collaborative design tool; high approval rate"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Notion",
+    "industry": "Productivity / Collaboration",
+    "common_roles": "SWE, Data Engineer, ML Engineer",
+    "url": "https://www.notion.so/careers",
+    "h1b_level": "High",
+    "notes": "All-in-one workspace; growing AI features"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Canva",
+    "industry": "Design / Creative Tech",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://www.canva.com/careers/",
+    "h1b_level": "High",
+    "notes": "Australian HQ; major US engineering office"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Vercel",
+    "industry": "Frontend Cloud / DevTools",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://vercel.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Next.js creators; developer platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Hashicorp (IBM)",
+    "industry": "Infrastructure / DevOps",
+    "common_roles": "SWE, SRE, Cloud Engineer, Platform Engineer",
+    "url": "https://www.hashicorp.com/en/careers",
+    "h1b_level": "High",
+    "notes": "Terraform, Vault, Consul; acquired by IBM"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Datadog",
+    "industry": "Observability / Monitoring",
+    "common_roles": "SWE, SRE, Data Engineer, Platform Engineer",
+    "url": "https://careers.datadoghq.com",
+    "h1b_level": "High",
+    "notes": "Cloud monitoring leader; public company"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Grafana Labs",
+    "industry": "Observability / Open Source",
+    "common_roles": "SWE, SRE, Backend Engineer",
+    "url": "https://grafana.com/about/careers/",
+    "h1b_level": "High",
+    "notes": "Grafana, Loki, Tempo; remote-first"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Confluent",
+    "industry": "Data Streaming (Kafka)",
+    "common_roles": "SWE, SRE, Cloud Engineer, Solutions Architect",
+    "url": "https://www.confluent.io/careers/",
+    "h1b_level": "High",
+    "notes": "Apache Kafka creators; data streaming"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "MongoDB",
+    "industry": "Database / Cloud",
+    "common_roles": "SWE, SRE, Cloud Engineer, Solutions Architect",
+    "url": "https://www.mongodb.com/company/careers",
+    "h1b_level": "High",
+    "notes": "Leading NoSQL database; Atlas cloud"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Elastic",
+    "industry": "Search / Observability",
+    "common_roles": "SWE, SRE, Cloud Engineer, Solutions Architect",
+    "url": "https://www.elastic.co/careers/",
+    "h1b_level": "High",
+    "notes": "Elasticsearch creators; security & observability"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Supabase",
+    "industry": "Backend-as-a-Service",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://supabase.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Open-source Firebase alternative"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "GitLab",
+    "industry": "DevOps Platform",
+    "common_roles": "SWE, SRE, Backend Engineer, Fullstack",
+    "url": "https://about.gitlab.com/jobs/",
+    "h1b_level": "High",
+    "notes": "All-remote company; CI/CD platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Plaid",
+    "industry": "Fintech / Banking APIs",
+    "common_roles": "SWE, SRE, Data Engineer, Infra Engineer",
+    "url": "https://plaid.com/careers/",
+    "h1b_level": "High",
+    "notes": "Financial data connectivity platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Rippling",
+    "industry": "HR Tech / Fintech",
+    "common_roles": "SWE, SRE, Full Stack, Data Engineer",
+    "url": "https://www.rippling.com/careers",
+    "h1b_level": "High",
+    "notes": "HR, payroll & IT platform; fast-growing"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Brex",
+    "industry": "Fintech / Corporate Cards",
+    "common_roles": "SWE, SRE, Backend Engineer, Data Engineer",
+    "url": "https://www.brex.com/careers",
+    "h1b_level": "High",
+    "notes": "Corporate finance platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Ramp",
+    "industry": "Fintech / Expense Management",
+    "common_roles": "SWE, SRE, Data Engineer, ML Engineer",
+    "url": "https://ramp.com/careers",
+    "h1b_level": "High",
+    "notes": "Fastest-growing corporate card company"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Chime",
+    "industry": "Fintech / Neobank",
+    "common_roles": "SWE, SRE, Data Engineer, Mobile Engineer",
+    "url": "https://www.chime.com/careers/",
+    "h1b_level": "Moderate-High",
+    "notes": "Digital banking; consumer fintech"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Affirm",
+    "industry": "Fintech / BNPL",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://www.affirm.com/careers",
+    "h1b_level": "High",
+    "notes": "Buy-now-pay-later platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Anduril",
+    "industry": "Defense Tech / Autonomy",
+    "common_roles": "SWE, SRE, Robotics Engineer, Systems Engineer",
+    "url": "https://www.anduril.com/careers/",
+    "h1b_level": "Case-by-Case",
+    "notes": "\u26a0\ufe0f Many roles require US citizenship (clearance)"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Shield AI",
+    "industry": "Defense / Autonomous Drones",
+    "common_roles": "SWE, ML Engineer, Robotics, Firmware",
+    "url": "https://jobs.lever.co/shieldai",
+    "h1b_level": "Case-by-Case",
+    "notes": "\u26a0\ufe0f Defense AI; some roles need clearance"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "SpaceX",
+    "industry": "Aerospace / Space Tech",
+    "common_roles": "SWE, SRE, Embedded, Firmware Engineer",
+    "url": "https://www.spacex.com/careers/",
+    "h1b_level": "Case-by-Case",
+    "notes": "\u26a0\ufe0f ITAR restrictions; US person often required"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Tempus AI",
+    "industry": "Health Tech / AI",
+    "common_roles": "SWE, ML Engineer, Data Engineer, Bioinformatics",
+    "url": "https://www.tempus.com/careers/",
+    "h1b_level": "High",
+    "notes": "AI-driven precision medicine"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Nuro",
+    "industry": "Autonomous Delivery / Robotics",
+    "common_roles": "SWE, ML Engineer, Robotics Engineer",
+    "url": "https://www.nuro.ai/careersoverview",
+    "h1b_level": "High",
+    "notes": "Autonomous delivery vehicles"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Waymo",
+    "industry": "Autonomous Vehicles",
+    "common_roles": "SWE, SRE, ML Engineer, Perception Engineer",
+    "url": "https://waymo.com/careers/",
+    "h1b_level": "Very High",
+    "notes": "Alphabet subsidiary; self-driving"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Discord",
+    "industry": "Communication / Gaming",
+    "common_roles": "SWE, SRE, Infra Engineer, ML Engineer",
+    "url": "https://discord.com/careers",
+    "h1b_level": "High",
+    "notes": "200M+ monthly active users"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Instacart",
+    "industry": "Grocery / Delivery Tech",
+    "common_roles": "SWE, SRE, ML Engineer, Data Engineer",
+    "url": "https://instacart.careers",
+    "h1b_level": "High",
+    "notes": "Grocery delivery; Maplebear Inc."
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Airtable",
+    "industry": "Productivity / Low-Code",
+    "common_roles": "SWE, SRE, Platform Engineer, Data Engineer",
+    "url": "https://airtable.com/careers",
+    "h1b_level": "Moderate-High",
+    "notes": "Spreadsheet-database hybrid platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Zapier",
+    "industry": "Automation / Integration",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://zapier.com/jobs",
+    "h1b_level": "Moderate-High",
+    "notes": "Workflow automation; fully remote"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Retool",
+    "industry": "Internal Tools / Low-Code",
+    "common_roles": "SWE, Frontend Engineer, Platform Engineer",
+    "url": "https://retool.com/careers",
+    "h1b_level": "High",
+    "notes": "Internal tool builder for engineering teams"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Wiz",
+    "industry": "Cloud Security",
+    "common_roles": "SWE, SRE, Security Engineer, Cloud Engineer",
+    "url": "https://www.wiz.io/careers",
+    "h1b_level": "Very High",
+    "notes": "$12B+ valuation; cloud security unicorn"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Snyk",
+    "industry": "Developer Security",
+    "common_roles": "SWE, SRE, Security Engineer, DevSecOps",
+    "url": "https://snyk.io/careers/",
+    "h1b_level": "High",
+    "notes": "Developer-first security platform"
+  },
+  {
+    "category": "Unicorns & High-Growth Startups",
+    "name": "Miro",
+    "industry": "Collaboration / Whiteboard",
+    "common_roles": "SWE, SRE, Platform Engineer",
+    "url": "https://miro.com/careers/",
+    "h1b_level": "Moderate-High",
+    "notes": "Digital whiteboard for teams"
+  }
+]

@@ -1,0 +1,1471 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HireView · US software roles</title>
+  <link rel="preconnect" href="https://rsms.me/" />
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="color-scheme" content="light" />
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to open roles</a>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">HV</div>
+        <div class="brand-text">
+          <div class="brand-title">HireView</div>
+          <div class="brand-sub">US internships · co-ops · CS roles</div>
+        </div>
+        <button class="sidebar-close" type="button" id="closeFilters" aria-label="Close filters">×</button>
+      </div>
+
+      <nav class="side-section">
+        <div class="side-heading">
+          <span>Role filters</span>
+          <span class="heading-sub">What to show</span>
+        </div>
+        <div class="pill-list" id="categoryChips">
+          <button class="pill-item active" data-cat="">
+            <span class="dot dot-all"></span><span class="pill-label">All roles</span><span class="pill-count" id="cat-count-all">–</span>
+          </button>
+          {% for c in categories %}
+          <button class="pill-item" data-cat="{{ c.name }}">
+            <span class="dot dot-{{ c.slug }}"></span>
+            <span class="pill-label">{{ c.name }}</span>
+            <span class="pill-count" id="cat-count-{{ loop.index0 }}">–</span>
+          </button>
+          {% endfor %}
+        </div>
+      </nav>
+
+      <nav class="side-section">
+        <div class="side-heading">
+          <span>Companies</span>
+          <span class="heading-sub" id="companyCountLabel"></span>
+        </div>
+        <div class="input-wrap compact">
+          <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input id="companySearch" type="search" placeholder="Search companies" autocomplete="off" />
+        </div>
+        <div class="pill-actions">
+          <button class="mini-btn" id="selectAllCompanies" type="button">Select all</button>
+          <button class="mini-btn" id="clearCompanies" type="button">Clear</button>
+          <button class="mini-btn" id="selectVisibleCompanies" type="button">Only with jobs</button>
+        </div>
+        <div class="pill-actions">
+          <button class="mini-btn" id="watchSelectedCompanies" type="button">Watch selected</button>
+          <button class="mini-btn" id="clearWatchlist" type="button">Clear watchlist</button>
+        </div>
+        <div class="pill-actions">
+          <button class="mini-btn primary" id="scrapeSelected" type="button" title="Scrape the currently selected companies now (background scheduler keeps running)">↻ Scrape selected</button>
+          <button class="mini-btn" id="fastRefreshBtn" type="button" title="Run the fast watchlist sweep now">Fast watchlist</button>
+          <span class="mini-status" id="subsetStatus"></span>
+        </div>
+        <label class="check-row">
+          <input type="checkbox" id="hideEmptyCompanies" />
+          <span>Hide companies with 0 jobs</span>
+        </label>
+        <div class="company-list" id="companyChips"></div>
+      </nav>
+
+      <details class="side-section side-advanced">
+        <summary>
+          <span>Advanced</span>
+          <span class="heading-sub" id="dbSummaryLabel"></span>
+        </summary>
+        <div class="advanced-stack">
+          <section class="advanced-block">
+            <div class="side-heading">
+              <span>Scrape filters</span>
+              <span class="heading-sub" id="scrapeBucketCount"></span>
+            </div>
+            <p class="section-note">Turn role buckets on/off for future scrapes.</p>
+            <div class="pill-actions">
+              <button class="mini-btn" id="enableAllScrapeBuckets" type="button">Enable all</button>
+              <button class="mini-btn" id="disableAllScrapeBuckets" type="button">Disable all</button>
+            </div>
+            <div class="pill-list" id="scrapeBucketToggles"></div>
+          </section>
+          <section class="advanced-block">
+            <div class="side-heading">
+              <span>Tracking</span>
+              <span class="heading-sub" id="appliedCountLabel"></span>
+            </div>
+            <label class="check-row">
+              <input type="checkbox" id="appliedOnly" />
+              <span>Show only jobs I’ve applied to</span>
+            </label>
+          </section>
+          <section class="advanced-block">
+            <div class="side-heading">Alerts</div>
+            <label class="check-row">
+              <input type="checkbox" id="alertsEnabled" />
+              <span>Desktop notifications on new jobs</span>
+            </label>
+            <label class="check-row">
+              <input type="checkbox" id="alertsSoundEnabled" />
+              <span>Play a sound on new jobs</span>
+            </label>
+            <div class="alerts-hint" id="alertsHint"></div>
+          </section>
+          <section class="advanced-block">
+            <div class="side-heading">Coverage Alerts</div>
+            <div id="coverageAlertsBox" class="coverage-alerts-box">
+              <span class="coverage-loading">Loading…</span>
+            </div>
+          </section>
+          <section class="advanced-block">
+            <div class="side-heading">Database</div>
+            <div class="pill-actions">
+              <button class="mini-btn" id="clearFilteredJobs" type="button" title="Delete jobs matching current role/company filters">Clear filtered jobs</button>
+              <button class="mini-btn" id="clearRuns" type="button" title="Delete scrape run history">Clear runs</button>
+            </div>
+            <div class="pill-actions">
+              <button class="mini-btn danger" id="clearAllJobs" type="button" title="Delete all jobs from database">Clear all jobs</button>
+              <button class="mini-btn danger" id="clearAllData" type="button" title="Delete all jobs and scrape runs">Clear all data</button>
+            </div>
+          </section>
+        </div>
+      </details>
+    </aside>
+    <div id="sidebarBackdrop" class="sidebar-backdrop hidden" aria-hidden="true"></div>
+
+    <main class="main" id="main-content" tabindex="-1">
+      <header class="topbar">
+        <div class="topbar-main">
+          <div class="topbar-titles">
+            <h1 class="page-title">Open roles</h1>
+            <p class="page-sub">United States · internships, co-ops, and early-career CS roles</p>
+          </div>
+          <div class="search-wrap" role="search">
+            <label class="visually-hidden" for="searchInput">Search</label>
+            <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            <input id="searchInput" type="search" enterkeyhint="search" placeholder="Search title, company, or location…" autocomplete="off" />
+            <kbd>⌘K</kbd>
+          </div>
+          <div class="top-actions">
+            <button type="button" id="filtersBtn" class="btn" title="Open filters and company controls">Filters</button>
+            <div class="status-pill" title="Scraper state">
+              <div class="status-dot" id="statusDot" aria-hidden="true"></div>
+              <div class="status-text" id="statusText">Idle</div>
+            </div>
+            <button type="button" id="refreshBtn" class="btn primary" title="Re-run the full company sweep">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a9 9 0 1 1-3-6.7"/><path d="M21 3v6h-6"/></svg>
+              Scrape now
+            </button>
+          </div>
+        </div>
+        <div class="topbar-quick">
+          <div class="quick-card quick-card-views">
+            <div class="quick-label">Saved views</div>
+            <div class="saved-views" id="savedViews"></div>
+          </div>
+          <div class="quick-card quick-card-summary">
+            <div class="quick-label">Right now</div>
+            <div class="visit-summary" id="visitSummary"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="stats" id="statsBar"></section>
+
+      <section class="toolbar">
+        <div class="result-count">
+          <span id="resultCount">0</span>
+          <span class="result-sub" id="resultLabel">results</span>
+          <span class="chips-inline" id="activeFilters"></span>
+        </div>
+        <div class="time-wrap" id="timeChips" role="tablist" aria-label="Time window">
+          <button class="time-chip active" data-win="">Any time</button>
+          <button class="time-chip" data-win="30m">Past 30 min</button>
+          <button class="time-chip" data-win="1h">Past 1 hr</button>
+          <button class="time-chip" data-win="6h">Past 6 hrs</button>
+          <button class="time-chip" data-win="24h">Past 24 hrs</button>
+          <button class="time-chip" data-win="3d">Past 3 days</button>
+          <button class="time-chip" data-win="7d">Past 7 days</button>
+        </div>
+        <div class="sort-wrap">
+          <label>Sort
+            <select id="sortSelect">
+              <option value="newest">Newest first</option>
+              <option value="company">By company</option>
+              <option value="title">By title</option>
+            </select>
+          </label>
+        </div>
+        <button type="button" class="density-toggle" id="densityToggle" aria-pressed="false" title="Toggle compact triage mode">
+          Compact mode
+        </button>
+      </section>
+
+      <section class="results" aria-label="Search results">
+        <p class="results-hint" id="resultsHint">Use saved views for fast triage, then narrow with filters when you need precision.</p>
+        <div id="empty" class="empty hidden">
+          <div class="empty-illus" aria-hidden="true">
+            <svg class="empty-svg" viewBox="0 0 120 80" fill="none" stroke="var(--line-2)" stroke-width="1.2">
+              <rect x="8" y="12" width="104" height="56" rx="6" />
+              <path d="M28 32h64M28 44h40M28 56h48" />
+            </svg>
+          </div>
+          <h3>No open roles match</h3>
+          <p>Try another <b>role</b> chip, widen the <b>time</b> filter, pick different <b>companies</b>, or start a <b>Scrape now</b> run.</p>
+        </div>
+        <div class="list-header" id="listHeader" aria-hidden="true">
+          <span class="col-av" />
+          <div class="col-main">Position &amp; team</div>
+          <div class="col-actions"> </div>
+        </div>
+        <ul id="jobs" class="job-list" aria-busy="false"></ul>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <span class="footer-brand">HireView</span>
+          <span class="footer-sep">·</span>
+          <span class="ws-indicator" id="wsIndicator" title="WebSocket disconnected">
+            <span class="ws-dot ws-disconnected" id="wsDot"></span>
+            <span class="ws-label" id="wsLabel">Connecting…</span>
+          </span>
+          <span class="footer-sep">·</span>
+          <span>30s fallback · 15 min scrape</span>
+        </div>
+        <span class="footer-run" id="lastRun"></span>
+      </footer>
+    </main>
+  </div>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <script>
+    const LS = {
+      companies: "jt.companies",
+      alerts: "jt.alertsEnabled",
+      sound: "jt.alertsSoundEnabled",
+      seen:  "jt.seenJobIds",
+      view: "jt.savedView",
+      lastVisit: "jt.lastVisitAt",
+      compact: "jt.compactMode",
+      window: "jt.timeWindow",
+      appliedOnly: "jt.appliedOnly",
+      filtersOpen: "jt.filtersOpen",
+    };
+    const state = {
+      category: "",
+      companies: new Set(JSON.parse(localStorage.getItem(LS.companies) || "[]")),
+      companyQuery: "",
+      q: "",
+      window: localStorage.getItem(LS.window) || "",
+      appliedOnly: localStorage.getItem(LS.appliedOnly) === "1",
+      view: localStorage.getItem(LS.view) || "all",
+      compact: localStorage.getItem(LS.compact) === "1",
+      hideEmpty: false,
+      sort: "newest",
+      alertsEnabled: localStorage.getItem(LS.alerts) === "1",
+      alertsSound:   localStorage.getItem(LS.sound)  === "1",
+      watchlist: new Set(),
+      scrapeEnabled: new Set(),
+      scrapeAll: [],
+      filtersOpen: false,
+    };
+    let allJobs = [];
+    // Unfiltered job list used ONLY to compute saved-view counts so that
+    // clicking e.g. "Summer" doesn't collapse every other tab's count to 0.
+    let jobsUniverse = [];
+    let companyList = [];
+    let companyMeta = { with_jobs: 0, universe: 0 };
+    const previousVisitAt = localStorage.getItem(LS.lastVisit) || "";
+    const previousVisitMs = previousVisitAt ? Date.parse(previousVisitAt) : NaN;
+    // Track which job IDs we've already shown so we can fire alerts on new ones.
+    let seenIds = new Set(JSON.parse(localStorage.getItem(LS.seen) || "[]"));
+    let firstLoadComplete = false;
+
+    const el = (s, p = document) => p.querySelector(s);
+    const esc = (s) => (s ?? "").toString().replace(/[&<>"']/g, c => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+    const slug = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    /** Backend uses Python datetime.isoformat() → often ends with +00:00. Never append "Z" on top of an offset — that yields Invalid Date. */
+    function parseIsoMs(iso) {
+      if (!iso) return NaN;
+      const s = String(iso).trim();
+      let ms = Date.parse(s);
+      if (!Number.isNaN(ms)) return ms;
+      // Legacy naive UTC (no zone suffix)
+      if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d+)?)?$/.test(s)) return Date.parse(s + "Z");
+      return NaN;
+    }
+    const fmtRel = (iso) => {
+      const ms = parseIsoMs(iso);
+      if (Number.isNaN(ms)) return "";
+      const d = new Date(ms), now = Date.now();
+      const sec = Math.max(0, Math.floor((now - ms) / 1000));
+      if (sec < 60) return "just now";
+      if (sec < 3600) return Math.floor(sec/60) + "m ago";
+      if (sec < 86400) return Math.floor(sec/3600) + "h ago";
+      if (sec < 604800) return Math.floor(sec/86400) + "d ago";
+      return d.toLocaleDateString(undefined, { month: "short", day: "numeric" });
+    };
+    const fmtDate = (iso) => {
+      const ms = parseIsoMs(iso);
+      return Number.isNaN(ms) ? "" : new Date(ms).toLocaleString();
+    };
+    const fmtVisit = (iso) => {
+      if (!iso) return "your previous visit";
+      const d = new Date(iso);
+      if (Number.isNaN(d.getTime())) return "your previous visit";
+      return d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+    };
+    const companyHealthText = (c) => {
+      if (c.status === "failed") return "Last scrape failed";
+      if (c.status === "fresh") return c.jobs_new > 0 ? `Fresh · +${c.jobs_new} new` : "Fresh";
+      if (c.status === "stale") return "Stale";
+      return "No recent scrape";
+    };
+    const emptyStateMessage = () => {
+      const reasons = [];
+      if (state.view === "new") reasons.push("new-since-last-visit is on");
+      if (state.appliedOnly) reasons.push("applied-only is on");
+      if (state.category) reasons.push(`role filter is ${state.category}`);
+      if (state.window) reasons.push(`time window is ${WINDOW_LABELS[state.window] || state.window}`);
+      if (state.companies.size) reasons.push(`${state.companies.size} compan${state.companies.size === 1 ? "y is" : "ies are"} selected`);
+      if (state.q) reasons.push(`search is "${state.q}"`);
+      if (!reasons.length) {
+        return {
+          title: "No open roles match",
+          body: "Try another role chip, widen the time filter, pick different companies, or start a Scrape now run.",
+        };
+      }
+      return {
+        title: "No roles match these filters",
+        body: `Nothing is showing because ${reasons.join(", ")}. Clear one or two filters to widen the list.`,
+      };
+    };
+    const PRESET_VIEWS = [
+      { id: "all", label: "All roles" },
+      { id: "new", label: "New since last visit" },
+      { id: "internships", label: "Internships" },
+      { id: "summer", label: "Summer" },
+      { id: "fall", label: "Fall" },
+      { id: "spring", label: "Spring" },
+      { id: "newgrad", label: "New Grad" },
+      { id: "applied", label: "Applied" },
+    ];
+
+    function setFiltersOpen(on) {
+      state.filtersOpen = !!on;
+      localStorage.setItem(LS.filtersOpen, state.filtersOpen ? "1" : "0");
+      document.body.classList.toggle("filters-open", state.filtersOpen);
+      el("#sidebarBackdrop").classList.toggle("hidden", !state.filtersOpen);
+      el("#filtersBtn").textContent = state.filtersOpen ? "Close filters" : "Filters";
+    }
+
+    function setCompactMode(on) {
+      state.compact = !!on;
+      localStorage.setItem(LS.compact, state.compact ? "1" : "0");
+      document.body.classList.toggle("compact-mode", state.compact);
+      const btn = el("#densityToggle");
+      if (btn) {
+        btn.classList.toggle("active", state.compact);
+        btn.setAttribute("aria-pressed", state.compact ? "true" : "false");
+        btn.textContent = state.compact ? "Comfortable mode" : "Compact mode";
+      }
+    }
+
+    // --- Jobs -------------------------------------------------------------
+    async function loadJobs() {
+      const p = new URLSearchParams();
+      if (state.category) p.set("category", state.category);
+      for (const c of state.companies) p.append("company", c);
+      if (state.q)        p.set("q",        state.q);
+      if (state.window)   p.set("window",   state.window);
+      if (state.appliedOnly) p.set("applied", "1");
+      // If no UI filters are active, the filtered fetch IS the universe —
+      // skip the second request. Otherwise fetch the unfiltered universe in
+      // parallel so saved-view counts stay accurate.
+      const hasFilters = state.category || state.companies.size > 0 ||
+                         state.q || state.window || state.appliedOnly;
+      const [r, ru] = await Promise.all([
+        fetch("/api/jobs?" + p.toString()),
+        hasFilters ? fetch("/api/jobs") : null,
+      ]);
+      const d = await r.json();
+      allJobs = d.jobs || [];
+      if (hasFilters && ru) {
+        const du = await ru.json();
+        jobsUniverse = du.jobs || [];
+      } else {
+        jobsUniverse = allJobs;
+      }
+      detectNewJobs(allJobs);
+      renderJobs();
+      renderSavedViews();
+      renderVisitSummary();
+    }
+
+    function detectNewJobs(jobs) {
+      const now = Date.now();
+      // Only consider jobs first seen in the last 48 h to avoid alerting
+      // on pre-existing history the very first time the page is opened.
+      const recent = jobs.filter(j => {
+        const ms = parseIsoMs(j.first_seen_at);
+        return !Number.isNaN(ms) && (now - ms) < 48 * 3600 * 1000;
+      });
+      const newOnes = recent.filter(j => !seenIds.has(j.id));
+      // Mark everything as seen so next poll only surfaces actual new postings.
+      for (const j of jobs) seenIds.add(j.id);
+      if (seenIds.size > 4000) {
+        seenIds = new Set(Array.from(seenIds).slice(-3500));
+      }
+      localStorage.setItem(LS.seen, JSON.stringify(Array.from(seenIds)));
+      if (firstLoadComplete && newOnes.length > 0) {
+        fireAlerts(newOnes);
+      }
+      firstLoadComplete = true;
+    }
+
+    function fireAlerts(newOnes) {
+      const head = newOnes.slice(0, 4);
+      const more = newOnes.length - head.length;
+      // In-page toast (always shown, respects no permissions).
+      const bodyLines = head.map(j => {
+        const pid = j.posting_id ? String(j.posting_id) : `ref#${j.id}`;
+        return `• ${pid} — ${j.title} — ${j.company}`;
+      }).join("\n");
+      showToast(
+        `${newOnes.length} new posting${newOnes.length > 1 ? "s" : ""}`,
+        bodyLines + (more > 0 ? `\n+${more} more` : ""),
+        newOnes.length === 1 ? newOnes[0].url : null,
+      );
+      // Browser desktop notification.
+      if (state.alertsEnabled && "Notification" in window && Notification.permission === "granted") {
+        try {
+          const n = new Notification(
+            `${newOnes.length} new posting${newOnes.length > 1 ? "s" : ""}`,
+            {
+              body: head.map(j => `${j.posting_id || "ref#"+j.id} — ${j.title} — ${j.company}`).join("\n")
+                    + (more > 0 ? `\n+${more} more` : ""),
+              tag: "jt-" + head[0].id,
+              icon: "data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><rect width='48' height='48' rx='10' fill='%235b75ff'/><text x='50%' y='56%' font-size='22' font-family='Inter,sans-serif' font-weight='700' fill='white' text-anchor='middle'>JT</text></svg>",
+            }
+          );
+          if (newOnes.length === 1 && newOnes[0].url) {
+            n.onclick = () => { window.open(newOnes[0].url, "_blank"); n.close(); };
+          }
+        } catch (e) {}
+      }
+      if (state.alertsSound) playDing();
+    }
+
+    // Toast system ---------------------------------------------------------
+    function showToast(title, body, href) {
+      const toasts = el("#toasts");
+      const div = document.createElement("div");
+      div.className = "toast";
+      div.innerHTML = `
+        <div class="toast-title">${esc(title)}</div>
+        <pre class="toast-body">${esc(body)}</pre>
+        ${href ? `<a class="toast-link" href="${esc(href)}" target="_blank" rel="noopener">Open posting ↗</a>` : ""}
+        <button class="toast-close" aria-label="Close">×</button>
+      `;
+      div.querySelector(".toast-close").onclick = () => div.remove();
+      toasts.appendChild(div);
+      setTimeout(() => { div.classList.add("leaving"); setTimeout(() => div.remove(), 300); }, 8000);
+    }
+
+    function markVisitNow() {
+      localStorage.setItem(LS.lastVisit, new Date().toISOString());
+    }
+
+    function syncCategoryChips() {
+      document.querySelectorAll("#categoryChips .pill-item").forEach((btn) => {
+        btn.classList.toggle("active", (btn.dataset.cat || "") === (state.category || ""));
+      });
+    }
+
+    function clearSavedView() {
+      if (state.view === "all") return;
+      const prevView = state.view;
+      state.view = "all";
+      localStorage.setItem(LS.view, state.view);
+      if (prevView === "applied" && state.appliedOnly) {
+        state.appliedOnly = false;
+        localStorage.setItem(LS.appliedOnly, "0");
+        el("#appliedOnly").checked = false;
+      }
+      renderSavedViews();
+    }
+
+    function isSinceLastVisit(job) {
+      if (!previousVisitAt || Number.isNaN(previousVisitMs) || !job?.first_seen_at) return false;
+      const ms = parseIsoMs(job.first_seen_at);
+      return !Number.isNaN(ms) && ms > previousVisitMs;
+    }
+
+    function getVisibleJobs() {
+      let jobs = [...allJobs];
+      if (state.view === "new") jobs = jobs.filter(isSinceLastVisit);
+      if (state.view === "internships") jobs = jobs.filter(isInternshipJob);
+      if (state.sort === "company") jobs.sort((a, b) => a.company.localeCompare(b.company) || a.title.localeCompare(b.title));
+      else if (state.sort === "title") jobs.sort((a, b) => a.title.localeCompare(b.title));
+      return jobs;
+    }
+
+    function isInternshipJob(job) {
+      const title = (job?.title || "").toLowerCase();
+      const cat = (job?.categories || [])[0] || "";
+      return ["Summer Intern", "Fall Co-op / Intern", "Spring Intern"].includes(cat)
+        || /\b(intern(ship)?|co[-\s]?op|coop)\b/.test(title);
+    }
+
+    function presetCount(id) {
+      // Always count against the unfiltered universe so that switching
+      // between saved views never makes the other tabs read "0".
+      const pool = jobsUniverse;
+      if (id === "all") return pool.length;
+      if (id === "new") return pool.filter(isSinceLastVisit).length;
+      if (id === "internships") return pool.filter(isInternshipJob).length;
+      if (id === "summer") return pool.filter(j => (j.categories || [])[0] === "Summer Intern").length;
+      if (id === "fall") return pool.filter(j => (j.categories || [])[0] === "Fall Co-op / Intern").length;
+      if (id === "spring") return pool.filter(j => (j.categories || [])[0] === "Spring Intern").length;
+      if (id === "newgrad") {
+        return pool.filter(
+          (j) => j.primary_category === "New Grad" || (j.categories || [])[0] === "New Grad",
+        ).length;
+      }
+      if (id === "applied") return pool.filter(j => !!j.applied_at).length;
+      return 0;
+    }
+
+    function renderSavedViews() {
+      const html = PRESET_VIEWS.map((view) => {
+        const active = state.view === view.id;
+        return `
+          <button class="saved-view ${active ? "active" : ""}" data-view="${view.id}" type="button">
+            <span>${esc(view.label)}</span>
+            <span class="saved-view-count">${presetCount(view.id).toLocaleString()}</span>
+          </button>`;
+      }).join("");
+      el("#savedViews").innerHTML = html;
+    }
+
+    function renderVisitSummary() {
+      const newCount = jobsUniverse.filter(isSinceLastVisit).length;
+      const companyCount = new Set(jobsUniverse.map(j => j.company).filter(Boolean)).size;
+      const summary = previousVisitAt
+        ? `${newCount.toLocaleString()} new since ${esc(fmtVisit(previousVisitAt))}`
+        : `Tracking ${jobsUniverse.length.toLocaleString()} roles across ${companyCount.toLocaleString()} companies`;
+      const detail = state.companies.size
+        ? `${state.companies.size} selected companies`
+        : `${companyCount.toLocaleString()} companies visible`;
+      el("#visitSummary").innerHTML = `
+        <div class="visit-summary-main">${summary}</div>
+        <div class="visit-summary-sub">${detail}</div>`;
+    }
+
+    async function applySavedView(view) {
+      state.view = view;
+      localStorage.setItem(LS.view, state.view);
+      // Saved views should be deterministic snapshots, not inherit stale
+      // company/search/time filters from previous ad-hoc browsing.
+      state.companies.clear();
+      persistCompanies();
+      state.q = "";
+      el("#searchInput").value = "";
+      if (view === "all" || view === "new" || view === "internships") {
+        state.category = "";
+        state.appliedOnly = false;
+        setWindow("");
+      } else if (view === "summer") {
+        state.category = "Summer Intern";
+        state.appliedOnly = false;
+        setWindow("");
+      } else if (view === "fall") {
+        state.category = "Fall Co-op / Intern";
+        state.appliedOnly = false;
+        setWindow("");
+      } else if (view === "spring") {
+        state.category = "Spring Intern";
+        state.appliedOnly = false;
+        setWindow("");
+      } else if (view === "newgrad") {
+        state.category = "New Grad";
+        state.appliedOnly = false;
+        setWindow("");
+      } else if (view === "applied") {
+        state.category = "";
+        state.appliedOnly = true;
+        setWindow("");
+      }
+      localStorage.setItem(LS.appliedOnly, state.appliedOnly ? "1" : "0");
+      el("#appliedOnly").checked = state.appliedOnly;
+      syncCategoryChips();
+      renderSavedViews();
+      await Promise.all([loadCompanies(), loadJobs()]);
+    }
+
+    // Simple Web-Audio "ding".
+    let _audioCtx;
+    function playDing() {
+      try {
+        _audioCtx = _audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+        const o = _audioCtx.createOscillator();
+        const g = _audioCtx.createGain();
+        o.connect(g); g.connect(_audioCtx.destination);
+        o.frequency.value = 880; o.type = "sine";
+        g.gain.setValueAtTime(0.0001, _audioCtx.currentTime);
+        g.gain.exponentialRampToValueAtTime(0.12, _audioCtx.currentTime + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0001, _audioCtx.currentTime + 0.35);
+        o.start(); o.stop(_audioCtx.currentTime + 0.4);
+      } catch (e) {}
+    }
+    function renderJobs() {
+      const jobs = getVisibleJobs();
+      el("#resultCount").textContent = jobs.length.toLocaleString();
+      el("#resultLabel").textContent = jobs.length === 1 ? "role" : "roles";
+      el("#resultsHint").textContent = state.view === "new"
+        ? (previousVisitAt
+          ? `Showing roles first seen after ${fmtVisit(previousVisitAt)}.`
+          : "Saved after your next visit: this view highlights roles first seen since the previous session.")
+        : "Use saved views for fast triage, then narrow with filters when you need precision.";
+      const empty = jobs.length === 0;
+      const emptyState = emptyStateMessage();
+      if (empty) {
+        const titleEl = el("#empty h3");
+        const bodyEl = el("#empty p");
+        if (titleEl) titleEl.textContent = emptyState.title;
+        if (bodyEl) bodyEl.textContent = emptyState.body;
+      }
+      el("#empty").classList.toggle("hidden", !empty);
+      if (el("#listHeader")) el("#listHeader").classList.toggle("hidden", empty);
+      el("#jobs").classList.toggle("hidden", empty);
+      const rows = jobs.map(j => {
+        const catList = (j.categories || []).filter(Boolean);
+        const primary = catList[0] || "—";
+        const catTag = primary === "—"
+          ? ""
+          : `<span class="tag tag-${slug(primary)}" title="Primary role bucket (one per job)">${esc(primary)}</span>`;
+        const initial = (j.company || "?").trim().charAt(0).toUpperCase();
+        const isFresh = j.is_new || isSinceLastVisit(j);
+        const newBadge = isFresh ? `<span class="badge new">NEW</span>` : "";
+        const appliedBadge = j.applied_at ? `<span class="badge applied" title="Applied ${esc(fmtDate(j.applied_at))}">APPLIED</span>` : "";
+
+        const metaBits = [];
+        metaBits.push(`<span class="row-meta" title="Added to tracker: ${esc(fmtDate(j.first_seen_at))}">Added ${esc(fmtRel(j.first_seen_at))}</span>`);
+        const locationText = esc(j.location || "Location TBD");
+        const titleControl = j.url
+          ? `<a class="row-title" href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a>`
+          : `<span class="row-title no-link" title="Posting link unavailable for this source">${esc(j.title)}</span>`;
+        const openControl = j.url
+          ? `<a class="row-open" href="${esc(j.url)}" target="_blank" rel="noopener" title="Open posting">
+              <span>Open role</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>
+            </a>`
+          : `<span class="row-open disabled" title="Posting link unavailable for this source"><span>No link</span></span>`;
+
+        const applyClass = j.applied_at ? "row-apply applied" : "row-apply";
+        const applyLabel = j.applied_at
+          ? `✓ Applied`
+          : `Mark applied`;
+        const applyTitle = j.applied_at
+          ? `Applied ${fmtDate(j.applied_at)} · click to undo`
+          : `Mark this job as applied to track it later`;
+
+        return `
+          <li class="row-job ${j.applied_at ? "is-applied" : ""}" data-id="${j.id}" data-url="${esc(j.url || "")}">
+            <div class="avatar" data-letter="${esc(initial)}" style="background: ${colorFor(j.company)};">${esc(initial)}</div>
+            <div class="row-body">
+              <div class="row-line1">
+                ${titleControl}
+                ${newBadge}
+                ${appliedBadge}
+              </div>
+              <div class="row-line2">
+                <span class="row-company">${esc(j.company)}</span>
+                <span class="row-dot">·</span>
+                <span class="row-loc" title="${locationText}">${locationText}</span>
+              </div>
+              <div class="row-line3">${catTag}${metaBits.join('<span class="row-meta-dot">·</span>')}</div>
+            </div>
+            <div class="row-actions">
+              <button class="${applyClass}" data-id="${j.id}" data-applied="${j.applied_at ? "1" : "0"}" title="${esc(applyTitle)}" type="button">${applyLabel}</button>
+              <button class="row-delete" data-id="${j.id}" type="button" title="Delete this row from tracker">×</button>
+              ${openControl}
+            </div>
+          </li>`;
+      }).join("");
+      el("#jobs").innerHTML = rows;
+      renderActiveFilters();
+    }
+    function colorFor(name) {
+      // Calm neutral avatar — slight luminance variation per company so
+      // they're still distinguishable, but no rainbow.
+      let h = 0; for (const c of (name || "")) h = (h*31 + c.charCodeAt(0)) >>> 0;
+      const lum = 18 + (h % 8); // 18%..25%
+      return `hsl(220 8% ${lum}%)`;
+    }
+
+    const WINDOW_LABELS = {
+      "30m": "Past 30 min", "1h": "Past 1 hr", "6h": "Past 6 hrs",
+      "24h": "Past 24 hrs", "3d": "Past 3 days", "7d": "Past 7 days",
+    };
+    function renderActiveFilters() {
+      const pills = [];
+      if (state.category) pills.push(`<span class="inline-filter">Role: <b>${esc(state.category)}</b><a data-clear="category">×</a></span>`);
+      if (state.companies.size) {
+        const list = Array.from(state.companies);
+        const label = list.length === 1 ? list[0] : `${list.length} companies`;
+        pills.push(`<span class="inline-filter">${esc(label)}<a data-clear="companies">×</a></span>`);
+      }
+      if (state.q)        pills.push(`<span class="inline-filter">Search: <b>${esc(state.q)}</b><a data-clear="q">×</a></span>`);
+      if (state.window)   pills.push(`<span class="inline-filter">${esc(WINDOW_LABELS[state.window] || state.window)}<a data-clear="window">×</a></span>`);
+      if (state.appliedOnly) pills.push(`<span class="inline-filter">Applied only<a data-clear="applied">×</a></span>`);
+      if (state.view === "new") pills.push(`<span class="inline-filter">View: <b>New since last visit</b><a data-clear="view">×</a></span>`);
+      el("#activeFilters").innerHTML = pills.join("");
+    }
+    el("#activeFilters").addEventListener("click", (e) => {
+      const a = e.target.closest("[data-clear]"); if (!a) return;
+      const k = a.dataset.clear;
+      if (k === "companies") { state.companies.clear(); persistCompanies(); }
+      else if (k === "q")    { state.q = ""; el("#searchInput").value = ""; }
+      else if (k === "window") { setWindow(""); }
+      else if (k === "applied") {
+        state.appliedOnly = false;
+        localStorage.setItem(LS.appliedOnly, "0");
+        el("#appliedOnly").checked = false;
+      }
+      else if (k === "view") {
+        state.view = "all";
+        localStorage.setItem(LS.view, state.view);
+        renderSavedViews();
+      }
+      else if (k === "category") {
+        state.category = "";
+        syncCategoryChips();
+      }
+      loadCompanies(); loadJobs();
+    });
+
+    function setWindow(win) {
+      state.window = win || "";
+      localStorage.setItem(LS.window, state.window);
+      document.querySelectorAll("#timeChips .time-chip").forEach(b => {
+        b.classList.toggle("active", (b.dataset.win || "") === state.window);
+      });
+    }
+    el("#timeChips").addEventListener("click", (e) => {
+      const b = e.target.closest(".time-chip"); if (!b) return;
+      clearSavedView();
+      setWindow(b.dataset.win || "");
+      loadJobs();
+    });
+    setWindow(state.window);
+
+    function persistCompanies() {
+      localStorage.setItem(LS.companies, JSON.stringify(Array.from(state.companies)));
+    }
+
+    async function saveWatchlist(companies) {
+      const r = await fetch("/api/watchlist", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ companies }),
+      });
+      const d = await r.json();
+      if (!d.ok) {
+        showToast("Could not update watchlist", d.reason || "Unknown error", null);
+        return false;
+      }
+      state.watchlist = new Set(d.companies || []);
+      renderCompanies();
+      loadStats();
+      return true;
+    }
+
+    // --- Database ops ----------------------------------------------------
+    async function loadDbSummary() {
+      try {
+        const r = await fetch("/api/db/summary");
+        const d = await r.json();
+        el("#dbSummaryLabel").textContent = `${d.jobs_total || 0} jobs · ${d.runs_total || 0} runs`;
+      } catch (e) {
+        el("#dbSummaryLabel").textContent = "";
+      }
+    }
+
+    async function clearDb(scope, extra = {}) {
+      const r = await fetch("/api/db/clear", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ scope, ...extra }),
+      });
+      const d = await r.json();
+      if (!d.ok) {
+        showToast("Clear failed", d.reason || "Unknown error", null);
+        return;
+      }
+      showToast(
+        "Database updated",
+        `Deleted ${d.deleted_jobs || 0} job(s), ${d.deleted_runs || 0} run row(s).`,
+        null,
+      );
+      await Promise.all([loadJobs(), loadStats(), loadCompanies(), loadDbSummary()]);
+    }
+
+    // --- Scrape bucket toggles ------------------------------------------
+    async function loadScrapeBuckets() {
+      const r = await fetch("/api/scrape/categories");
+      const d = await r.json();
+      state.scrapeAll = d.all || [];
+      state.scrapeEnabled = new Set(d.enabled || []);
+      renderScrapeBuckets();
+    }
+    function renderScrapeBuckets() {
+      const rows = (state.scrapeAll || []).map(cat => {
+        const checked = state.scrapeEnabled.has(cat);
+        return `
+          <label class="check-row" title="Include ${esc(cat)} in future scrapes">
+            <input type="checkbox" class="scrape-bucket-cb" value="${esc(cat)}" ${checked ? "checked" : ""} />
+            <span>${esc(cat)}</span>
+          </label>`;
+      }).join("");
+      el("#scrapeBucketToggles").innerHTML = rows || `<div class="empty-inline">No buckets available.</div>`;
+      const n = state.scrapeEnabled.size;
+      el("#scrapeBucketCount").textContent = `${n}/${state.scrapeAll.length || 0}`;
+    }
+    async function saveScrapeBuckets() {
+      const enabled = state.scrapeAll.filter(cat => state.scrapeEnabled.has(cat));
+      const r = await fetch("/api/scrape/categories", {
+        method: "POST",
+        headers: {"Content-Type": "application/json"},
+        body: JSON.stringify({ enabled }),
+      });
+      const d = await r.json();
+      if (!d.ok) {
+        showToast("Could not save scrape buckets", d.reason || "Unknown error", null);
+        return;
+      }
+      state.scrapeAll = d.all || state.scrapeAll;
+      state.scrapeEnabled = new Set(d.enabled || []);
+      renderScrapeBuckets();
+      const off = state.scrapeAll.length - state.scrapeEnabled.size;
+      el("#subsetStatus").textContent = off > 0
+        ? `scrape filters active · ${off} bucket${off === 1 ? "" : "s"} off`
+        : "";
+    }
+
+    // --- Companies (multi-select checkboxes) ------------------------------
+    async function loadCompanies() {
+      const p = new URLSearchParams();
+      if (state.category) p.set("category", state.category);
+      const r = await fetch("/api/companies?" + p.toString());
+      const d = await r.json();
+      companyList = d.companies || [];
+      state.watchlist = new Set(d.watchlist || companyList.filter(c => c.watchlist).map(c => c.name));
+      companyMeta = { with_jobs: d.with_jobs || 0, universe: d.universe || companyList.length };
+      renderCompanies();
+    }
+    function renderCompanies() {
+      let list = companyList;
+      if (state.hideEmpty) list = list.filter(c => c.count > 0);
+      if (state.companyQuery) {
+        const q = state.companyQuery.trim().toLowerCase();
+        list = list.filter(c => c.name.toLowerCase().includes(q));
+      }
+      list = [...list].sort((a, b) => {
+        const aSelected = state.companies.has(a.name);
+        const bSelected = state.companies.has(b.name);
+        if (aSelected !== bSelected) return aSelected ? -1 : 1;
+        if (a.count !== b.count) return b.count - a.count;
+        return a.name.localeCompare(b.name);
+      });
+      const rows = list.map(c => {
+        const checked = state.companies.has(c.name);
+        const healthText = companyHealthText(c);
+        const watched = state.watchlist.has(c.name) || !!c.watchlist;
+        return `
+          <label class="co-item ${checked ? "active" : ""} ${c.count === 0 ? "no-jobs" : ""}"
+                 title="${c.count === 0 ? "No matching jobs right now" : c.count + " job(s)"} · ${healthText}">
+            <input type="checkbox" class="co-cb" value="${esc(c.name)}" ${checked ? "checked" : ""} />
+            <span class="co-dot" style="background:${colorFor(c.name)}"></span>
+            <span class="co-name-wrap">
+              <span class="co-name">${esc(c.name)}${watched ? ' <span class="co-watch-badge" title="Fast watchlist">WATCH</span>' : ""}</span>
+              <span class="co-health co-health-${esc(c.status || "unknown")}">${esc(healthText)}</span>
+            </span>
+            <span class="co-count">${c.count}</span>
+            <button type="button" class="co-watch ${watched ? "active" : ""}" data-co="${esc(c.name)}" title="${watched ? "Remove from fast watchlist" : "Add to fast watchlist"}">★</button>
+            <button type="button" class="co-scrape" data-co="${esc(c.name)}" title="Scrape ${esc(c.name)} now">↻</button>
+          </label>`;
+      }).join("");
+      el("#companyChips").innerHTML = rows || `<div class="empty-inline">No companies to show.</div>`;
+      const pickedCount = state.companies.size;
+      el("#companyCountLabel").textContent = pickedCount
+        ? `${pickedCount} selected`
+        : `${list.length} / ${companyMeta.universe}`;
+    }
+
+    // --- Stats ------------------------------------------------------------
+    async function loadStats() {
+      const r = await fetch("/api/stats"); const s = await r.json();
+      const by = s.by_category || {};
+      const total = s.total || 0;
+      el("#statsBar").innerHTML = `
+        <div class="stat stat-hero">
+          <div class="stat-k">Open roles</div>
+          <div class="stat-v">${total.toLocaleString()}</div>
+        </div>
+        <div class="stat">
+          <div class="stat-k">Sources touched</div>
+          <div class="stat-v">${s.companies_scraped || 0}</div>
+        </div>
+        ${Object.keys(by).sort().map(k => `
+          <div class="stat">
+            <div class="stat-k"><span class="dot dot-${slug(k)}"></span><span class="stat-label">${esc(k)}</span></div>
+            <div class="stat-v">${(by[k]||0).toLocaleString()}</div>
+          </div>`).join("")}
+      `;
+      const appliedN = s.applied || 0;
+      const appliedLbl = el("#appliedCountLabel");
+      if (appliedLbl) appliedLbl.textContent = appliedN ? `${appliedN}` : "";
+      // Update counts on category pills.
+      el("#cat-count-all").textContent = total;
+      document.querySelectorAll("#categoryChips .pill-item[data-cat]").forEach((btn, i) => {
+        if (btn.dataset.cat === "") return;
+        const c = btn.querySelector(".pill-count");
+        if (c) c.textContent = by[btn.dataset.cat] || 0;
+      });
+
+      const running = s.scheduler?.running;
+      const fastRunning = s.scheduler?.fast_running;
+      el("#statusDot").classList.toggle("running", !!running || !!fastRunning);
+      el("#statusText").textContent = running
+        ? `Full sweep ${s.scheduler.current || "…"}`
+        : fastRunning
+          ? `Fast sweep ${s.scheduler.fast_current || "…"}`
+          : (s.scheduler?.last_full_run || s.scheduler?.last_fast_run ? "Idle" : "Never run");
+      if (s.scheduler?.last_full_run) {
+        const fastPart = s.scheduler?.last_fast_run
+          ? ` · fast ${fmtDate(s.scheduler.last_fast_run)} (+${s.scheduler.last_fast_new_jobs || 0})`
+          : "";
+        el("#lastRun").textContent = `Full ${fmtDate(s.scheduler.last_full_run)} · +${s.scheduler.last_full_new_jobs} new${fastPart}`;
+      } else if (s.scheduler?.last_fast_run) {
+        el("#lastRun").textContent = `Fast ${fmtDate(s.scheduler.last_fast_run)} · +${s.scheduler.last_fast_new_jobs || 0} new`;
+      }
+    }
+
+    // --- Events -----------------------------------------------------------
+    el("#refreshBtn").addEventListener("click", async () => {
+      const r = await fetch("/api/refresh", { method: "POST" });
+      if (r.status === 409) { /* already running */ }
+      loadStats();
+    });
+    el("#fastRefreshBtn").addEventListener("click", async () => {
+      const r = await fetch("/api/refresh/fast", { method: "POST" });
+      const d = await r.json().catch(() => ({}));
+      if (r.status === 409) {
+        showToast("Fast sweep already running", d.reason || "Watchlist scrape is already in progress.", null);
+      } else if (d.started) {
+        const names = d.watchlist || [];
+        showToast("Fast watchlist sweep started", names.length ? names.join(", ") : "Watchlist is empty.", null);
+      }
+      loadStats();
+    });
+    el("#filtersBtn").addEventListener("click", () => setFiltersOpen(!state.filtersOpen));
+    el("#closeFilters").addEventListener("click", () => setFiltersOpen(false));
+    el("#sidebarBackdrop").addEventListener("click", () => setFiltersOpen(false));
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && state.filtersOpen) setFiltersOpen(false);
+    });
+    el("#categoryChips").addEventListener("click", (e) => {
+      const b = e.target.closest(".pill-item"); if (!b) return;
+      clearSavedView();
+      state.category = b.dataset.cat || "";
+      syncCategoryChips();
+      loadCompanies(); loadJobs();
+    });
+    el("#savedViews").addEventListener("click", (e) => {
+      const b = e.target.closest(".saved-view"); if (!b) return;
+      applySavedView(b.dataset.view || "all");
+    });
+    el("#searchInput").addEventListener("input", (e) => {
+      state.q = e.target.value;
+      clearTimeout(window.__t); window.__t = setTimeout(loadJobs, 250);
+    });
+    el("#companySearch").addEventListener("input", (e) => {
+      state.companyQuery = e.target.value;
+      renderCompanies();
+    });
+    // Multi-select: react to checkbox toggles (not clicks on other parts of the label).
+    el("#companyChips").addEventListener("change", (e) => {
+      const cb = e.target.closest(".co-cb"); if (!cb) return;
+      const name = cb.value;
+      if (cb.checked) state.companies.add(name);
+      else            state.companies.delete(name);
+      persistCompanies(); renderCompanies(); loadJobs();
+    });
+    // Per-row scrape button.
+    el("#companyChips").addEventListener("click", (e) => {
+      const w = e.target.closest(".co-watch");
+      if (w) {
+        e.preventDefault(); e.stopPropagation();
+        const name = w.dataset.co;
+        const next = new Set(state.watchlist);
+        if (next.has(name)) next.delete(name);
+        else next.add(name);
+        saveWatchlist(Array.from(next));
+        return;
+      }
+      const b = e.target.closest(".co-scrape"); if (!b) return;
+      e.preventDefault(); e.stopPropagation();
+      triggerSubsetScrape([b.dataset.co], b);
+    });
+    el("#watchSelectedCompanies").addEventListener("click", () => {
+      const next = new Set(state.watchlist);
+      for (const name of state.companies) next.add(name);
+      saveWatchlist(Array.from(next));
+    });
+    el("#clearWatchlist").addEventListener("click", () => {
+      saveWatchlist([]);
+    });
+    el("#scrapeSelected").addEventListener("click", () => {
+      const picked = Array.from(state.companies);
+      if (!picked.length) { showToast("Pick some companies first", "Tick at least one company in the list, then press Scrape selected.", null); return; }
+      triggerSubsetScrape(picked, el("#scrapeSelected"));
+    });
+
+    async function triggerSubsetScrape(companies, btn) {
+      if (btn) { btn.disabled = true; btn.classList.add("busy"); }
+      el("#subsetStatus").textContent = `scraping ${companies.length}…`;
+      try {
+        const r = await fetch("/api/scrape", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({ companies }),
+        });
+        const d = await r.json();
+        if (!d.started) {
+          const msg = d.reason || "could not start";
+          el("#subsetStatus").textContent = msg;
+          showToast("Scrape not started", msg, null);
+          return;
+        }
+        el("#subsetStatus").textContent = `scraping ${d.companies.length}…`;
+        showToast(`Scraping ${d.companies.length} compan${d.companies.length === 1 ? "y" : "ies"}`,
+                  d.companies.join(", "), null);
+        pollSubsetStatus();
+      } finally {
+        if (btn) { setTimeout(() => { btn.disabled = false; btn.classList.remove("busy"); }, 800); }
+      }
+    }
+
+    let _pollT;
+    async function pollSubsetStatus() {
+      clearTimeout(_pollT);
+      try {
+        const r = await fetch("/api/scrape/status");
+        const s = await r.json();
+        if (s.running) {
+          el("#subsetStatus").textContent = `scraping ${s.current || ""}…`;
+          _pollT = setTimeout(pollSubsetStatus, 2000);
+        } else {
+          const res = s.results || [];
+          if (res.length) {
+            const ok = res.filter(x => x.ok);
+            const newTotal = ok.reduce((a,x) => a + (x.new || 0), 0);
+            const foundTotal = ok.reduce((a,x) => a + (x.found || 0), 0);
+            const errs = res.length - ok.length;
+            el("#subsetStatus").textContent =
+              `done · ${foundTotal} found · ${newTotal} new${errs ? ` · ${errs} err` : ""}`;
+            const lines = ok.slice(0, 6).map(x => `${x.company}: +${x.new} new (${x.found} total)`).join("\n");
+            showToast("On-demand scrape finished",
+                      lines + (res.length > 6 ? `\n+${res.length-6} more…` : ""), null);
+            loadJobs(); loadStats(); loadCompanies();
+          } else {
+            el("#subsetStatus").textContent = "";
+          }
+        }
+      } catch (e) {
+        el("#subsetStatus").textContent = "";
+      }
+    }
+    // On page load, if a subset scrape happens to be running, resume polling.
+    fetch("/api/scrape/status").then(r => r.json()).then(s => { if (s.running) pollSubsetStatus(); });
+    el("#selectAllCompanies").addEventListener("click", () => {
+      for (const c of companyList) state.companies.add(c.name);
+      persistCompanies(); renderCompanies(); loadJobs();
+    });
+    el("#selectVisibleCompanies").addEventListener("click", () => {
+      state.companies.clear();
+      for (const c of companyList) if (c.count > 0) state.companies.add(c.name);
+      persistCompanies(); renderCompanies(); loadJobs();
+    });
+    el("#clearCompanies").addEventListener("click", () => {
+      state.companies.clear();
+      persistCompanies(); renderCompanies(); loadJobs();
+    });
+    el("#hideEmptyCompanies").addEventListener("change", (e) => {
+      state.hideEmpty = e.target.checked; renderCompanies();
+    });
+    el("#clearFilteredJobs").addEventListener("click", async () => {
+      const msg = "Delete currently filtered jobs from database? This cannot be undone.";
+      if (!window.confirm(msg)) return;
+      const companies = Array.from(state.companies);
+      await clearDb("jobs", {
+        category: state.category || null,
+        companies: companies.length ? companies : null,
+      });
+    });
+    el("#clearAllJobs").addEventListener("click", async () => {
+      if (!window.confirm("Delete ALL jobs from database?")) return;
+      await clearDb("jobs");
+    });
+    el("#clearRuns").addEventListener("click", async () => {
+      if (!window.confirm("Delete scrape run history?")) return;
+      await clearDb("runs");
+    });
+    el("#clearAllData").addEventListener("click", async () => {
+      if (!window.confirm("Delete ALL jobs and ALL run history?")) return;
+      await clearDb("all");
+    });
+    el("#scrapeBucketToggles").addEventListener("change", (e) => {
+      const cb = e.target.closest(".scrape-bucket-cb"); if (!cb) return;
+      if (cb.checked) state.scrapeEnabled.add(cb.value);
+      else state.scrapeEnabled.delete(cb.value);
+      saveScrapeBuckets();
+    });
+    el("#enableAllScrapeBuckets").addEventListener("click", () => {
+      state.scrapeEnabled = new Set(state.scrapeAll);
+      renderScrapeBuckets();
+      saveScrapeBuckets();
+    });
+    el("#disableAllScrapeBuckets").addEventListener("click", () => {
+      state.scrapeEnabled = new Set();
+      renderScrapeBuckets();
+      saveScrapeBuckets();
+    });
+
+    // Alerts ---------------------------------------------------------------
+    async function setAlertsEnabled(on) {
+      state.alertsEnabled = on;
+      localStorage.setItem(LS.alerts, on ? "1" : "0");
+      el("#alertsEnabled").checked = on;
+      updateAlertsHint();
+      if (on && "Notification" in window && Notification.permission === "default") {
+        await Notification.requestPermission();
+        updateAlertsHint();
+      }
+    }
+    function updateAlertsHint() {
+      const el_ = el("#alertsHint");
+      if (!("Notification" in window)) {
+        el_.textContent = "This browser doesn't support desktop notifications. Toasts will still appear in-app.";
+        return;
+      }
+      if (!state.alertsEnabled) {
+        el_.textContent = "Alerts off. Turn on to get notified when new jobs appear.";
+        return;
+      }
+      const p = Notification.permission;
+      if (p === "granted")  el_.textContent = "Alerts on — you'll get a desktop notification on each new posting.";
+      else if (p === "denied") el_.textContent = "Desktop notifications are blocked in your browser. In-app toasts will still show.";
+      else                  el_.textContent = "Click to allow notifications when prompted.";
+    }
+    el("#alertsEnabled").checked = state.alertsEnabled;
+    el("#alertsSoundEnabled").checked = state.alertsSound;
+    el("#alertsEnabled").addEventListener("change", (e) => setAlertsEnabled(e.target.checked));
+    el("#alertsSoundEnabled").addEventListener("change", (e) => {
+      state.alertsSound = e.target.checked;
+      localStorage.setItem(LS.sound, state.alertsSound ? "1" : "0");
+    });
+    updateAlertsHint();
+    el("#sortSelect").addEventListener("change", (e) => {
+      state.sort = e.target.value; renderJobs();
+    });
+    el("#densityToggle").addEventListener("click", () => {
+      setCompactMode(!state.compact);
+    });
+    document.addEventListener("keydown", (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
+        e.preventDefault(); el("#searchInput").focus();
+      }
+      if (e.key === "Escape" && document.activeElement?.tagName === "INPUT") {
+        document.activeElement.blur();
+      }
+    });
+
+    // Applied-only toggle -------------------------------------------------
+    el("#appliedOnly").checked = state.appliedOnly;
+    el("#appliedOnly").addEventListener("change", (e) => {
+      clearSavedView();
+      state.appliedOnly = e.target.checked;
+      localStorage.setItem(LS.appliedOnly, state.appliedOnly ? "1" : "0");
+      loadJobs();
+    });
+
+    // Apply / un-apply button on each job row ----------------------------
+    el("#jobs").addEventListener("click", async (e) => {
+      const btn = e.target.closest(".row-apply"); if (!btn) return;
+      e.preventDefault(); e.stopPropagation();
+      const id = parseInt(btn.dataset.id, 10);
+      const wasApplied = btn.dataset.applied === "1";
+      btn.disabled = true;
+      try {
+        const r = await fetch(`/api/jobs/${id}/apply`, {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({ applied: !wasApplied }),
+        });
+        const d = await r.json();
+        if (!d.ok) throw new Error(d.reason || "failed");
+        // Update local model so we don't have to hit the API again.
+        const j = allJobs.find(x => x.id === id);
+        if (j) {
+          j.applied_at = d.job.applied_at;
+        }
+        if (!wasApplied) {
+          showToast("Marked as applied",
+            `${d.job.title} — ${d.job.company}\nYou can view these later with "Show only jobs I've applied to".`,
+            d.job.url || null);
+        }
+        renderJobs(); loadStats();
+      } catch (err) {
+        showToast("Could not update applied state", String(err?.message || err), null);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    el("#jobs").addEventListener("click", async (e) => {
+      const btn = e.target.closest(".row-delete"); if (!btn) return;
+      e.preventDefault(); e.stopPropagation();
+      const id = parseInt(btn.dataset.id, 10);
+      const row = allJobs.find(x => x.id === id);
+      const label = row ? `${row.company} — ${row.title}` : `job #${id}`;
+      if (!window.confirm(`Delete ${label}?`)) return;
+      btn.disabled = true;
+      try {
+        const r = await fetch(`/api/jobs/${id}`, { method: "DELETE" });
+        const d = await r.json();
+        if (!d.ok) throw new Error(d.reason || "failed");
+        showToast("Job deleted", label, null);
+        await Promise.all([loadJobs(), loadStats(), loadCompanies(), loadDbSummary()]);
+      } catch (err) {
+        showToast("Could not delete job", String(err?.message || err), null);
+      } finally {
+        btn.disabled = false;
+      }
+    });
+
+    syncCategoryChips();
+    renderSavedViews();
+    renderVisitSummary();
+    setCompactMode(state.compact);
+    window.addEventListener("pagehide", markVisitNow);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") markVisitNow();
+    });
+
+    async function loadCoverageAlerts() {
+      const box = el("#coverageAlertsBox");
+      if (!box) return;
+      try {
+        const r = await fetch("/api/coverage-alerts");
+        const alerts = await r.json();
+        if (!alerts.length) {
+          box.innerHTML = '<span class="coverage-ok">All companies reporting jobs ✓</span>';
+          return;
+        }
+        const rows = alerts.map(a => {
+          const badge = a.risk === "high" ? "🔴" : a.risk === "medium" ? "🟡" : "🟠";
+          const streak = a.consecutive_zeros > 0
+            ? `${a.consecutive_zeros} zero-result run${a.consecutive_zeros > 1 ? "s" : ""}`
+            : `${a.consecutive_failures} failed run${a.consecutive_failures > 1 ? "s" : ""}`;
+          return `<div class="coverage-row coverage-${a.risk}" title="Last source: ${esc(a.last_source||'?')}">
+            <span class="coverage-badge">${badge}</span>
+            <span class="coverage-company">${esc(a.company)}</span>
+            <span class="coverage-streak">${esc(streak)}</span>
+          </div>`;
+        }).join("");
+        box.innerHTML = rows;
+      } catch (e) {
+        box.innerHTML = '<span class="coverage-loading">Failed to load</span>';
+      }
+    }
+
+    // -----------------------------------------------------------------------
+    // WebSocket Live Feed
+    // -----------------------------------------------------------------------
+    let _socket = null;
+    let _wsConnected = false;
+    let _wsReconnectAttempts = 0;
+
+    function initWebSocket() {
+      if (typeof io === "undefined") {
+        setWsStatus("unavailable");
+        return;
+      }
+      try {
+        _socket = io({ transports: ["websocket", "polling"], reconnection: true,
+                       reconnectionDelay: 2000, reconnectionDelayMax: 30000,
+                       reconnectionAttempts: Infinity });
+
+        _socket.on("connect", () => {
+          _wsConnected = true;
+          _wsReconnectAttempts = 0;
+          setWsStatus("connected");
+        });
+
+        _socket.on("disconnect", (reason) => {
+          _wsConnected = false;
+          setWsStatus("disconnected");
+        });
+
+        _socket.on("connect_error", () => {
+          _wsReconnectAttempts++;
+          setWsStatus("reconnecting");
+        });
+
+        // --- Live job push ---
+        _socket.on("new_jobs", (data) => {
+          const newJobs = data.jobs || [];
+          if (!newJobs.length) return;
+          // Inject new jobs into the local model and re-render.
+          let addedCount = 0;
+          for (const nj of newJobs) {
+            // Build a minimal job object matching the API shape.
+            const fakeJob = {
+              id: Date.now() + addedCount,  // Temporary ID until next poll refreshes
+              company: nj.company || "",
+              title: nj.title || "",
+              location: nj.location || null,
+              url: nj.url || null,
+              categories: nj.categories || [],
+              primary_category: (nj.categories || [])[0] || null,
+              posted_at: nj.posted_at || null,
+              posting_id: nj.posting_id || null,
+              first_seen_at: data.timestamp || new Date().toISOString(),
+              last_seen_at: data.timestamp || new Date().toISOString(),
+              is_active: 1,
+              is_new: true,
+              applied_at: null,
+            };
+            // Avoid duplicates by title+company.
+            const dup = allJobs.find(
+              j => j.company === fakeJob.company && j.title === fakeJob.title
+            );
+            if (!dup) {
+              allJobs.unshift(fakeJob);
+              jobsUniverse.unshift(fakeJob);
+              addedCount++;
+            }
+          }
+          if (addedCount > 0) {
+            detectNewJobs(allJobs);
+            renderJobs();
+            renderSavedViews();
+            renderVisitSummary();
+            loadStats();
+            // Flash the page title to draw attention.
+            flashTitle(`🆕 ${addedCount} new job${addedCount > 1 ? "s" : ""}!`);
+          }
+        });
+
+        // --- Live scrape progress ---
+        _socket.on("scrape_progress", (data) => {
+          const { company, status, found, new: newCount, progress } = data;
+          const dot = el("#statusDot");
+          const txt = el("#statusText");
+          if (dot) dot.classList.add("running");
+          if (txt && company) {
+            txt.textContent = `${company} (${progress || "..."}) +${newCount || 0} new`;
+          }
+        });
+
+        _socket.on("connected", () => {
+          // Server confirmed connection.
+        });
+
+      } catch (e) {
+        setWsStatus("unavailable");
+      }
+    }
+
+    function setWsStatus(status) {
+      const dot = el("#wsDot");
+      const label = el("#wsLabel");
+      const indicator = el("#wsIndicator");
+      if (!dot || !label) return;
+      dot.className = "ws-dot";
+      if (status === "connected") {
+        dot.classList.add("ws-connected");
+        label.textContent = "Live";
+        if (indicator) indicator.title = "WebSocket connected — real-time updates active";
+      } else if (status === "disconnected") {
+        dot.classList.add("ws-disconnected");
+        label.textContent = "Offline";
+        if (indicator) indicator.title = "WebSocket disconnected — using polling fallback";
+      } else if (status === "reconnecting") {
+        dot.classList.add("ws-reconnecting");
+        label.textContent = `Reconnecting…`;
+        if (indicator) indicator.title = `WebSocket reconnecting (attempt ${_wsReconnectAttempts})`;
+      } else {
+        dot.classList.add("ws-disconnected");
+        label.textContent = "Polling";
+        if (indicator) indicator.title = "WebSocket unavailable — using 30s polling";
+      }
+    }
+
+    let _flashInterval;
+    const _originalTitle = document.title;
+    function flashTitle(msg) {
+      clearInterval(_flashInterval);
+      let on = true;
+      _flashInterval = setInterval(() => {
+        document.title = on ? msg : _originalTitle;
+        on = !on;
+      }, 1200);
+      // Stop flashing when the tab gets focus.
+      const stop = () => {
+        clearInterval(_flashInterval);
+        document.title = _originalTitle;
+        window.removeEventListener("focus", stop);
+      };
+      window.addEventListener("focus", stop);
+      // Auto-stop after 30 seconds.
+      setTimeout(stop, 30_000);
+    }
+
+    // -----------------------------------------------------------------------
+    // Boot
+    // -----------------------------------------------------------------------
+    loadScrapeBuckets();
+    loadStats();
+    loadDbSummary();
+    loadCoverageAlerts();
+    if (state.view !== "all") {
+      applySavedView(state.view);
+    } else {
+      loadCompanies();
+      loadJobs();
+    }
+    setFiltersOpen(state.filtersOpen);
+    // Initialize WebSocket for real-time updates.
+    initWebSocket();
+    // Keep polling as fallback (reduced frequency when WS is active).
+    setInterval(() => {
+      if (_wsConnected) {
+        // With WebSocket active, poll less frequently (stats + companies only).
+        loadStats(); loadCompanies(); loadDbSummary();
+      } else {
+        // Full polling fallback when WebSocket is down.
+        loadJobs(); loadStats(); loadCompanies(); loadDbSummary();
+      }
+    }, _wsConnected ? 60_000 : 30_000);
+    setInterval(() => loadCoverageAlerts(), 120_000);
+  </script>
+</body>
+</html>

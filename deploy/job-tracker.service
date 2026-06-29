@@ -1,0 +1,15 @@
+[Unit]
+Description=JobHunt job tracker
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/JobHunt
+EnvironmentFile=/opt/JobHunt/.env
+ExecStart=/opt/JobHunt/.venv/bin/python app.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
