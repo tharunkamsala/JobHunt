@@ -15,7 +15,7 @@ try:
 except ImportError:
     _HAS_SOCKETIO = False
 
-from config import COMPANIES_JSON, EXTRA_COMPANIES_JSON, ROLE_FILTERS
+from config import COMPANIES_JSON, EXTRA_COMPANIES_JSON, ROLE_FILTERS, EXCLUDED_COMPANIES
 from db import (init_db, fetch_jobs, stats, recent_runs, set_applied,
                 get_enabled_scrape_categories, set_enabled_scrape_categories,
                 get_watchlist_companies, set_watchlist_companies,
@@ -103,7 +103,7 @@ def _companies() -> list[dict]:
                     "company_source": "extra",
                 }
             companies = list(by_name.values())
-    return companies
+    return [c for c in companies if (c.get("name") or "").strip() not in EXCLUDED_COMPANIES]
 
 
 @app.route("/")

@@ -18,6 +18,7 @@ from config import (
     FAST_WATCHLIST_MAX_COMPANIES,
     SCRAPE_INTERVAL_MIN,
     SCRAPE_MAX_WORKERS,
+    EXCLUDED_COMPANIES,
 )
 from db import (
     get_watchlist_companies,
@@ -103,7 +104,7 @@ def _load_companies() -> list[dict]:
                 }
                 by_name[name] = merged
             companies = list(by_name.values())
-    return companies
+    return [c for c in companies if (c.get("name") or "").strip() not in EXCLUDED_COMPANIES]
 
 
 def _ordered_companies(companies: list[dict], watchlist_only: bool = False) -> list[dict]:

@@ -4,7 +4,11 @@ from pathlib import Path
 
 import openpyxl
 
-from config import COMPANIES_JSON, EXCEL_PATH, EXTRA_COMPANIES_JSON
+from config import COMPANIES_JSON, EXCEL_PATH, EXTRA_COMPANIES_JSON, EXCLUDED_COMPANIES
+
+
+def _filter_excluded(companies: list[dict]) -> list[dict]:
+    return [c for c in companies if (c.get("name") or "").strip() not in EXCLUDED_COMPANIES]
 
 
 def load_from_excel(path: Path = EXCEL_PATH) -> list[dict]:
@@ -33,7 +37,7 @@ def load_from_excel(path: Path = EXCEL_PATH) -> list[dict]:
 
 
 def main() -> None:
-    companies = load_from_excel()
+    companies = _filter_excluded(load_from_excel())
     COMPANIES_JSON.write_text(json.dumps(companies, indent=2))
     if not EXTRA_COMPANIES_JSON.exists():
         EXTRA_COMPANIES_JSON.write_text("[]\n")

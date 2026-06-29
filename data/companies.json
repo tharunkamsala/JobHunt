@@ -776,15 +776,6 @@
   },
   {
     "category": "Unicorns & High-Growth Startups",
-    "name": "SpaceX",
-    "industry": "Aerospace / Space Tech",
-    "common_roles": "SWE, SRE, Embedded, Firmware Engineer",
-    "url": "https://www.spacex.com/careers/",
-    "h1b_level": "Case-by-Case",
-    "notes": "\u26a0\ufe0f ITAR restrictions; US person often required"
-  },
-  {
-    "category": "Unicorns & High-Growth Startups",
     "name": "Tempus AI",
     "industry": "Health Tech / AI",
     "common_roles": "SWE, ML Engineer, Data Engineer, Bioinformatics",
