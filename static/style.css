@@ -853,6 +853,14 @@ body.modal-open { overflow: hidden; }
 .job-modal-meta {
   margin: 6px 0 0; font-size: 13px; color: var(--text-mute); line-height: 1.45;
 }
+.job-modal-posted {
+  margin: 8px 0 0; font-size: 13px; font-weight: 600; color: var(--accent-deep);
+  line-height: 1.45;
+}
+.job-modal-posted.is-unknown {
+  font-weight: 500; color: var(--text-mute);
+}
+.row-meta-posted { color: var(--accent-deep); font-weight: 600; }
 .job-modal-close {
   appearance: none; flex-shrink: 0;
   width: 36px; height: 36px; border-radius: var(--radius-sm);

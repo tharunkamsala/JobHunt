@@ -313,6 +313,7 @@
         <div class="job-modal-heading">
           <h2 id="jobModalTitle" class="job-modal-title"></h2>
           <p id="jobModalMeta" class="job-modal-meta"></p>
+          <p id="jobModalPosted" class="job-modal-posted"></p>
         </div>
         <button type="button" class="job-modal-close" data-close-modal aria-label="Close job details">×</button>
       </header>
@@ -457,8 +458,6 @@
       }
       if (meta?.industry) chips.push(`<span class="modal-chip modal-chip-muted">${esc(meta.industry)}</span>`);
       if (j.source) chips.push(`<span class="modal-chip modal-chip-muted">via ${esc(atsLabel(j.source))}</span>`);
-      if (j.posted_at) chips.push(`<span class="modal-chip modal-chip-muted">Posted ${esc(fmtRel(j.posted_at))}</span>`);
-      else if (j.first_seen_at) chips.push(`<span class="modal-chip modal-chip-muted">Added ${esc(fmtRel(j.first_seen_at))}</span>`);
       if (j.posting_id) chips.push(`<span class="modal-chip modal-chip-id" title="Posting ID">#${esc(j.posting_id)}</span>`);
       el("#jobModalChips").innerHTML = chips.join("");
     }
@@ -474,6 +473,7 @@
       const copyBtn = el("#jobModalCopy");
       titleEl.textContent = j.title || "Job details";
       metaEl.textContent = [j.company, j.location].filter(Boolean).join(" · ");
+      setModalPosted(j);
       formatDescriptionBlocks(j.description, bodyEl);
       renderModalChips(j, companyByName[j.company]);
       if (j.url) {
@@ -505,6 +505,7 @@
           if (idx >= 0) allJobs[idx] = { ...allJobs[idx], ...d.job };
           titleEl.textContent = j.title || "Job details";
           metaEl.textContent = [j.company, j.location].filter(Boolean).join(" · ");
+          setModalPosted(j);
           formatDescriptionBlocks(j.description, bodyEl);
           renderModalChips(j, d.job.company_meta || companyByName[j.company]);
           if (j.url) {
@@ -556,6 +557,36 @@
       const ms = parseIsoMs(iso);
       return Number.isNaN(ms) ? "" : new Date(ms).toLocaleString();
     };
+    const fmtDateShort = (iso) => {
+      const ms = parseIsoMs(iso);
+      return Number.isNaN(ms) ? "" : new Date(ms).toLocaleDateString(undefined, {
+        month: "short", day: "numeric", year: "numeric",
+      });
+    };
+    function fmtPostedLine(j) {
+      const posted = j?.posted_at;
+      const seen = j?.first_seen_at;
+      if (posted) {
+        const abs = fmtDateShort(posted);
+        const rel = fmtRel(posted);
+        if (abs && rel) return `Posted ${abs} · ${rel}`;
+        if (abs) return `Posted ${abs}`;
+        if (rel) return `Posted ${rel}`;
+      }
+      if (seen) {
+        const rel = fmtRel(seen);
+        return rel
+          ? `Company post date unavailable · tracked since ${rel}`
+          : "Company post date unavailable";
+      }
+      return "Company post date unavailable";
+    }
+    function setModalPosted(j) {
+      const elPosted = el("#jobModalPosted");
+      if (!elPosted) return;
+      elPosted.textContent = fmtPostedLine(j);
+      elPosted.classList.toggle("is-unknown", !j?.posted_at);
+    }
     const fmtVisit = (iso) => {
       if (!iso) return "your previous visit";
       const d = new Date(iso);
@@ -943,6 +974,9 @@
         const wsClass = highlightJobIds.has(j.id) ? " ws-new" : "";
 
         const metaBits = [];
+        if (j.posted_at) {
+          metaBits.push(`<span class="row-meta row-meta-posted" title="Company posted: ${esc(fmtDate(j.posted_at))}">Posted ${esc(fmtRel(j.posted_at))}</span>`);
+        }
         metaBits.push(`<span class="row-meta" title="Added to tracker: ${esc(fmtDate(j.first_seen_at))}">Added ${esc(fmtRel(j.first_seen_at))}</span>`);
         const locationText = esc(j.location || "Location TBD");
         const titleControl = j.url

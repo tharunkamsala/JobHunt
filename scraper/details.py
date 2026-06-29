@@ -1,13 +1,16 @@
 """Lazy job-description enrichment from ATS detail pages/APIs.
 
 Runs only for jobs that already passed filters and lack a substantive
-description. Capped per company so scrapes stay fast and polite.
+description and/or company posting date. Capped per company so scrapes
+stay fast and polite.
 """
 from __future__ import annotations
 
 import logging
 import re
 import time
+from datetime import datetime, timezone
+from typing import Any
 from urllib.parse import urlparse
 
 from bs4 import BeautifulSoup
@@ -22,7 +25,7 @@ from config import (
 )
 from .html_text import strip_html
 from .transport import FetchStrategy, fetch as transport_fetch
-from .workday import _derive_api
+from .workday import _derive_api, _parse_workday_posted
 
 log = logging.getLogger(__name__)
 
@@ -33,6 +36,73 @@ _JSON_HEADERS = {"User-Agent": USER_AGENT, "Accept": "application/json"}
 def _has_substantive_description(job: dict) -> bool:
     text = (job.get("description") or "").strip()
     return len(text) >= DETAIL_FETCH_MIN_CHARS
+
+
+def _has_posted_at(job: dict) -> bool:
+    return bool((job.get("posted_at") or "").strip())
+
+
+def _needs_enrichment(job: dict) -> bool:
+    return not _has_substantive_description(job) or not _has_posted_at(job)
+
+
+def _normalize_posted(value: Any) -> str | None:
+    """Best-effort ISO8601 UTC string from ATS date fields."""
+    if value is None:
+        return None
+    if isinstance(value, (int, float)) and value > 0:
+        # Lever uses ms since epoch.
+        sec = value / 1000 if value > 1_000_000_000_000 else value
+        try:
+            return (
+                datetime.fromtimestamp(sec, tz=timezone.utc)
+                .replace(tzinfo=None)
+                .isoformat(timespec="seconds")
+            )
+        except (OSError, OverflowError, ValueError):
+            return None
+    if not isinstance(value, str):
+        return None
+    raw = value.strip()
+    if not raw:
+        return None
+    if raw.lower().startswith("posted"):
+        return _parse_workday_posted(raw)
+    try:
+        if raw.endswith("Z"):
+            raw = raw[:-1] + "+00:00"
+        dt = datetime.fromisoformat(raw)
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(timezone.utc).replace(tzinfo=None)
+        return dt.isoformat(timespec="seconds")
+    except ValueError:
+        pass
+    for fmt in ("%b %d, %Y", "%B %d, %Y", "%b %d %Y", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(raw, fmt).isoformat(timespec="seconds")
+        except ValueError:
+            continue
+    return None
+
+
+def _detail_result(description: str | None = None, posted_at: Any = None) -> dict[str, str | None]:
+    return {
+        "description": description,
+        "posted_at": _normalize_posted(posted_at),
+    }
+
+
+def _merge_detail(job: dict, detail: dict[str, str | None]) -> bool:
+    changed = False
+    desc = (detail.get("description") or "").strip()
+    if desc and len(desc) >= DETAIL_FETCH_MIN_CHARS and not _has_substantive_description(job):
+        job["description"] = desc
+        changed = True
+    posted = detail.get("posted_at")
+    if posted and not _has_posted_at(job):
+        job["posted_at"] = posted
+        changed = True
+    return changed
 
 
 def _source_kind(source: str, url: str) -> str | None:
@@ -66,10 +136,10 @@ def _workday_detail_url(job_url: str, careers_url: str | None) -> str | None:
     return f"{base}/wday/cxs/{tenant}/{site}{m.group(0)}"
 
 
-def _fetch_workday(job_url: str, careers_url: str | None) -> str | None:
+def _fetch_workday(job_url: str, careers_url: str | None) -> dict[str, str | None]:
     api = _workday_detail_url(job_url, careers_url)
     if not api:
-        return None
+        return _detail_result()
     try:
         r = transport_fetch(
             api,
@@ -80,17 +150,49 @@ def _fetch_workday(job_url: str, careers_url: str | None) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200:
-            return None
+            return _detail_result()
         data = r.json()
         info = data.get("jobPostingInfo") or {}
         html = info.get("jobDescription") or ""
-        return strip_html(html) if html else None
+        posted = (
+            info.get("postedOn")
+            or info.get("postedOnDate")
+            or info.get("startDate")
+            or data.get("postedOn")
+        )
+        return _detail_result(
+            strip_html(html) if html else None,
+            posted,
+        )
     except Exception:
         log.debug("workday detail fetch failed for %s", job_url, exc_info=True)
-        return None
+        return _detail_result()
 
 
-def _fetch_talentbrew(job_url: str) -> str | None:
+def _posted_from_html(soup: BeautifulSoup) -> str | None:
+    for sel in ("time[datetime]", "meta[property='article:published_time']", "meta[name='date']"):
+        el = soup.select_one(sel)
+        if not el:
+            continue
+        val = el.get("datetime") or el.get("content")
+        posted = _normalize_posted(val)
+        if posted:
+            return posted
+    text = soup.get_text(" ", strip=True)[:8000]
+    for pat in (
+        r"posted\s+(?:on\s+)?([A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4})",
+        r"date\s+posted[:\s]+([A-Za-z]{3,9}\s+\d{1,2},?\s+\d{4})",
+        r"posted\s+(\d+\s+days?\s+ago)",
+    ):
+        m = re.search(pat, text, re.I)
+        if m:
+            posted = _normalize_posted(m.group(1))
+            if posted:
+                return posted
+    return None
+
+
+def _fetch_talentbrew(job_url: str) -> dict[str, str | None]:
     try:
         r = transport_fetch(
             job_url,
@@ -101,8 +203,9 @@ def _fetch_talentbrew(job_url: str) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200 or not r.text:
-            return None
+            return _detail_result()
         soup = BeautifulSoup(r.text, "lxml")
+        posted = _posted_from_html(soup)
         for sel in (
             ".job-description",
             "#job-description",
@@ -115,19 +218,19 @@ def _fetch_talentbrew(job_url: str) -> str | None:
                 text = strip_html(str(el))
                 text = re.sub(r"\s*Apply Now\s*Share Job.*", "", text, flags=re.I | re.S).strip()
                 if text and len(text) >= DETAIL_FETCH_MIN_CHARS:
-                    return text
+                    return _detail_result(text, posted)
         main = soup.select_one("main") or soup.select_one("#content")
         if main:
             text = strip_html(str(main))
             text = re.sub(r"\s*Apply Now\s*Share Job.*", "", text, flags=re.I | re.S).strip()
             if text and len(text) >= DETAIL_FETCH_MIN_CHARS:
-                return text
+                return _detail_result(text, posted)
     except Exception:
         log.debug("talentbrew detail fetch failed for %s", job_url, exc_info=True)
-    return None
+    return _detail_result()
 
 
-def _fetch_smartrecruiters(job_url: str) -> str | None:
+def _fetch_smartrecruiters(job_url: str) -> dict[str, str | None]:
     m = re.search(r"smartrecruiters\.com/([^/]+)/([^/?#]+)", job_url, re.I)
     if not m:
         return None
@@ -143,8 +246,9 @@ def _fetch_smartrecruiters(job_url: str) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200:
-            return None
+            return _detail_result()
         data = r.json()
+        posted = data.get("releasedDate") or data.get("createdOn") or data.get("postingDate")
         sections = (data.get("jobAd") or {}).get("sections") or {}
         parts: list[str] = []
         for sec in sections.values():
@@ -156,14 +260,14 @@ def _fetch_smartrecruiters(job_url: str) -> str | None:
                 continue
             parts.append(f"{title}\n{body}" if title else body)
         if not parts:
-            return None
-        return "\n\n".join(parts)
+            return _detail_result(posted_at=posted)
+        return _detail_result("\n\n".join(parts), posted)
     except Exception:
         log.debug("smartrecruiters detail fetch failed for %s", job_url, exc_info=True)
-        return None
+        return _detail_result()
 
 
-def _fetch_greenhouse(job_url: str) -> str | None:
+def _fetch_greenhouse(job_url: str) -> dict[str, str | None]:
     m = re.search(r"(?:boards|job-boards)\.greenhouse\.io/([^/]+)/jobs/(\d+)", job_url, re.I)
     if not m:
         return None
@@ -179,15 +283,17 @@ def _fetch_greenhouse(job_url: str) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200:
-            return None
-        html = (r.json() or {}).get("content") or ""
-        return strip_html(html) if html else None
+            return _detail_result()
+        payload = r.json() or {}
+        html = payload.get("content") or ""
+        posted = payload.get("first_published") or payload.get("updated_at")
+        return _detail_result(strip_html(html) if html else None, posted)
     except Exception:
         log.debug("greenhouse detail fetch failed for %s", job_url, exc_info=True)
-        return None
+        return _detail_result()
 
 
-def _fetch_lever(job_url: str) -> str | None:
+def _fetch_lever(job_url: str) -> dict[str, str | None]:
     m = re.search(r"jobs\.lever\.co/([^/]+)/([^/?#]+)", job_url, re.I)
     if not m:
         return None
@@ -203,19 +309,18 @@ def _fetch_lever(job_url: str) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200:
-            return None
+            return _detail_result()
         data = r.json() or {}
         plain = (data.get("descriptionPlain") or "").strip()
-        if plain:
-            return plain
-        html = data.get("description") or ""
-        return strip_html(html) if html else None
+        desc = plain or (strip_html(data.get("description") or "") if data.get("description") else None)
+        posted = data.get("createdAt")
+        return _detail_result(desc, posted)
     except Exception:
         log.debug("lever detail fetch failed for %s", job_url, exc_info=True)
-        return None
+        return _detail_result()
 
 
-def _fetch_ashby(job_url: str) -> str | None:
+def _fetch_ashby(job_url: str) -> dict[str, str | None]:
     m = re.search(r"jobs\.ashbyhq\.com/([^/]+)/([a-f0-9-]+)", job_url, re.I)
     if not m:
         return None
@@ -231,14 +336,31 @@ def _fetch_ashby(job_url: str) -> str | None:
             auto_escalate=False,
         )
         if r.status_code != 200:
-            return None
+            return _detail_result()
         for job in (r.json() or {}).get("jobs") or []:
             if str(job.get("id")) == jid or (job.get("jobUrl") or "") == job_url:
                 html = job.get("descriptionHtml") or ""
-                return strip_html(html) if html else None
+                posted = job.get("publishedAt") or job.get("updatedAt")
+                return _detail_result(strip_html(html) if html else None, posted)
     except Exception:
         log.debug("ashby detail fetch failed for %s", job_url, exc_info=True)
-    return None
+    return _detail_result()
+
+
+def _fetch_detail(kind: str, url: str, careers_url: str | None) -> dict[str, str | None]:
+    if kind == "workday":
+        return _fetch_workday(url, careers_url)
+    if kind == "talentbrew":
+        return _fetch_talentbrew(url)
+    if kind == "smartrecruiters":
+        return _fetch_smartrecruiters(url)
+    if kind == "greenhouse":
+        return _fetch_greenhouse(url)
+    if kind == "lever":
+        return _fetch_lever(url)
+    if kind == "ashby":
+        return _fetch_ashby(url)
+    return _detail_result()
 
 
 def enrich_descriptions(
@@ -247,7 +369,7 @@ def enrich_descriptions(
     source: str = "",
     careers_url: str | None = None,
 ) -> None:
-    """Fill missing descriptions in-place for filtered job rows."""
+    """Fill missing descriptions and/or posting dates in-place for filtered rows."""
     if not DETAIL_FETCH_ENABLED or not jobs:
         return
 
@@ -255,7 +377,7 @@ def enrich_descriptions(
     for job in jobs:
         if fetched >= DETAIL_FETCH_MAX_PER_COMPANY:
             break
-        if _has_substantive_description(job):
+        if not _needs_enrichment(job):
             continue
         url = (job.get("url") or "").strip()
         if not url:
@@ -265,25 +387,11 @@ def enrich_descriptions(
         if not kind:
             continue
 
-        desc: str | None = None
-        if kind == "workday":
-            desc = _fetch_workday(url, careers_url)
-        elif kind == "talentbrew":
-            desc = _fetch_talentbrew(url)
-        elif kind == "smartrecruiters":
-            desc = _fetch_smartrecruiters(url)
-        elif kind == "greenhouse":
-            desc = _fetch_greenhouse(url)
-        elif kind == "lever":
-            desc = _fetch_lever(url)
-        elif kind == "ashby":
-            desc = _fetch_ashby(url)
-
-        if desc and len(desc) >= DETAIL_FETCH_MIN_CHARS:
-            job["description"] = desc
+        detail = _fetch_detail(kind, url, careers_url)
+        if _merge_detail(job, detail):
             fetched += 1
             if DETAIL_FETCH_DELAY_SEC > 0:
                 time.sleep(DETAIL_FETCH_DELAY_SEC)
 
     if fetched:
-        log.info("Enriched %d job descriptions (%s)", fetched, source or careers_url or "?")
+        log.info("Enriched %d job detail rows (%s)", fetched, source or careers_url or "?")
