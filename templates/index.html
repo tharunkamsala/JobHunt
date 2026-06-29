@@ -155,7 +155,7 @@
           </section>
           <section class="advanced-block">
             <div class="side-heading">Storage &amp; cleanup</div>
-            <p class="section-note" id="retentionNote">Non-applied listings are removed weekly. Applied jobs are always kept.</p>
+            <p class="section-note" id="retentionNote">Non-applied listings are removed monthly. Applied jobs are always kept.</p>
             <label class="check-row">
               <input type="checkbox" id="blockDismissed" checked />
               <span>Don’t re-import jobs I removed or that were auto-purged</span>
@@ -1154,7 +1154,7 @@
         if (note) {
           const last = r.last_purge_at ? ` Last cleanup ${fmtRel(r.last_purge_at)}.` : "";
           note.textContent =
-            `Applied jobs are never auto-deleted. Other listings drop after ${r.purge_stale_after_days || 28} days off the board or ${r.purge_inactive_after_days || 2} days inactive.${last} Blocked re-imports: ${r.dismissed_count || 0}.`;
+            `Cleanup every ${r.purge_interval_days || 30} days. Applied jobs are never auto-deleted. Other listings drop after ${r.purge_stale_after_days || 28} days off the board or ${r.purge_inactive_after_days || 2} days inactive.${last} Blocked re-imports: ${r.dismissed_count || 0}.`;
         }
       } catch (e) {
         el("#dbSummaryLabel").textContent = "";

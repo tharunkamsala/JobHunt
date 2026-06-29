@@ -20,6 +20,7 @@ from config import (
     DEFAULT_WATCHLIST_COMPANIES,
     JOB_PURGE_INACTIVE_AFTER_DAYS,
     JOB_PURGE_STALE_AFTER_DAYS,
+    JOB_PURGE_INTERVAL_DAYS,
     RUNS_RETENTION_DAYS,
     BLOCK_DISMISSED_REIMPORTS_DEFAULT,
 )
@@ -623,7 +624,7 @@ def retention_settings() -> dict:
         "purge_inactive_after_days": JOB_PURGE_INACTIVE_AFTER_DAYS,
         "purge_stale_after_days": JOB_PURGE_STALE_AFTER_DAYS,
         "runs_retention_days": RUNS_RETENTION_DAYS,
-        "purge_interval_days": 7,
+        "purge_interval_days": JOB_PURGE_INTERVAL_DAYS,
         "last_purge_at": (last["v"] if last else None),
         "dismissed_count": int(dismissed["c"] if dismissed else 0),
     }

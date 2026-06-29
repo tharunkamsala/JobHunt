@@ -337,11 +337,11 @@ _scheduler: BackgroundScheduler | None = None
 
 
 def run_weekly_maintenance() -> dict:
-    """Purge stale non-applied jobs and old scrape runs."""
-    log.info("Weekly maintenance: purging stale jobs and old runs")
+    """Purge stale non-applied jobs and old scrape runs (runs monthly)."""
+    log.info("Monthly maintenance: purging stale jobs and old runs")
     result = purge_stale_jobs()
     log.info(
-        "Weekly maintenance done: deleted_jobs=%s deleted_runs=%s",
+        "Monthly maintenance done: deleted_jobs=%s deleted_runs=%s",
         result.get("deleted_jobs"),
         result.get("deleted_runs"),
     )
@@ -374,7 +374,7 @@ def start_background_scheduler() -> None:
             run_weekly_maintenance,
             "interval",
             days=JOB_PURGE_INTERVAL_DAYS,
-            id="weekly_purge",
+            id="monthly_purge",
         )
     _scheduler.start()
     log.info(

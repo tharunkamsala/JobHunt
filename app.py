@@ -408,7 +408,7 @@ def api_retention_set():
 
 @app.post("/api/db/purge")
 def api_db_purge():
-    """Manually run the same stale-job cleanup as the weekly scheduler."""
+    """Manually run the same stale-job cleanup as the monthly scheduler."""
     result = purge_stale_jobs()
     return jsonify({"ok": True, **result})
 

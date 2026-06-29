@@ -86,16 +86,16 @@ SCRAPE_MAX_WORKERS = 1
 # company scrapes. This avoids transient scraper/API failures hiding real jobs.
 JOB_MISS_DEACTIVATE_THRESHOLD = 2
 
-# Weekly DB maintenance: purge non-applied stale/inactive jobs; keep applied forever.
+# Monthly DB maintenance: purge non-applied stale/inactive jobs; keep applied forever.
 JOB_WEEKLY_PURGE_ENABLED = True
-JOB_PURGE_INTERVAL_DAYS = 7
+JOB_PURGE_INTERVAL_DAYS = 30
 # Drop inactive (off company site) non-applied rows after this many days.
 JOB_PURGE_INACTIVE_AFTER_DAYS = 2
 # Drop any non-applied row not seen on the company site in this many days.
 JOB_PURGE_STALE_AFTER_DAYS = 28
 # Scrape run history retention.
 RUNS_RETENTION_DAYS = 60
-# When True, jobs you delete (or weekly purge removes) are not re-imported on scrape.
+# When True, jobs you delete (or monthly purge removes) are not re-imported on scrape.
 BLOCK_DISMISSED_REIMPORTS_DEFAULT = True
 
 # Per-request timeout (seconds) and polite delay between requests to the same host.
