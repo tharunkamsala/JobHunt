@@ -69,11 +69,11 @@ def classify(job: Job, graduation_year=None, *, software_only=True, strict_new_g
         reject.append("No explicit new-graduate eligibility for "+str(strict_new_grad_year))
     if EXCLUDED_LEVEL.search(t): reject.append("Excluded level II or higher")
     if re.search(r"\b(senior|sr\.?|staff|principal|lead|manager|director|intern|internship)\b",t,re.I): reject.append("Excluded seniority or internship")
-    if required and max(required) >= 2: reject.append("Required experience is two years or more")
+    if required and max(required) > 2: reject.append("Required experience exceeds two years")
     if foreign and not us: reject.append("Exclusively non-US location")
     year_uncertain = bool(graduation_year and job.graduation_years and str(graduation_year) not in job.graduation_years)
     entry_evidence=bool(strict_new_grad_year or required or re.search(r"new grad|new college|university grad|entry.level|junior|early.career|engineer [I1]\b|sde [I1]\b|0\s*[-–]\s*[12]|no (?:prior |professional )?experience (?:required|necessary)",text,re.I))
-    if not entry_evidence: reject.append("No clear entry-level or under-two-years experience evidence")
+    if not entry_evidence: reject.append("No clear entry-level or at-most-two-years experience evidence")
     if reject: job.classification="Not Eligible"; job.reasons=reject
     elif us and not year_uncertain and entry_evidence:
         job.classification="Strong Match"; job.reasons=["US location and entry-level evidence"]
