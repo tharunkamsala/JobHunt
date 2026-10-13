@@ -717,8 +717,10 @@
       "sponsorship": null,
       "content_hash": "b79368f7262dcd4ca399c22dfcf27b1f5baab57840e38060d89aca91383177e4",
       "first_discovered": "2026-10-13T02:38:11.268204+00:00",
-      "last_seen": "2026-10-13T02:38:11.268219+00:00",
-      "notified_hash": "b79368f7262dcd4ca399c22dfcf27b1f5baab57840e38060d89aca91383177e4"
+      "last_seen": "2026-10-13T02:49:57.378944+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8441865002": {
       "company": "Greenhouse: Databricks",
@@ -737,8 +739,10 @@
       "sponsorship": null,
       "content_hash": "5b9274cb88d1bb4ebe4f71c0309d73e0025862776889f5656a562e2910113b58",
       "first_discovered": "2026-10-13T02:38:11.324675+00:00",
-      "last_seen": "2026-10-13T02:38:11.324689+00:00",
-      "notified_hash": "5b9274cb88d1bb4ebe4f71c0309d73e0025862776889f5656a562e2910113b58"
+      "last_seen": "2026-10-13T02:49:57.544558+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8756138002": {
       "company": "Greenhouse: Databricks",
@@ -759,8 +763,10 @@
       "sponsorship": null,
       "content_hash": "c37b064f7cafe407e1e06b3b51a900441b20d3558c6a1284d4b1f0f2dfd6a30b",
       "first_discovered": "2026-10-13T02:38:11.520654+00:00",
-      "last_seen": "2026-10-13T02:38:11.520672+00:00",
-      "notified_hash": "c37b064f7cafe407e1e06b3b51a900441b20d3558c6a1284d4b1f0f2dfd6a30b"
+      "last_seen": "2026-10-13T02:49:57.855002+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8593373002": {
       "company": "Greenhouse: Databricks",
@@ -779,8 +785,10 @@
       "sponsorship": null,
       "content_hash": "31159dfbc0de94003d756e20e7b19cb73f8db5d882a6b4685c9ea954a29e052e",
       "first_discovered": "2026-10-13T02:38:11.570024+00:00",
-      "last_seen": "2026-10-13T02:38:11.570042+00:00",
-      "notified_hash": "31159dfbc0de94003d756e20e7b19cb73f8db5d882a6b4685c9ea954a29e052e"
+      "last_seen": "2026-10-13T02:49:58.090787+00:00",
+      "notified_hash": "31159dfbc0de94003d756e20e7b19cb73f8db5d882a6b4685c9ea954a29e052e",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:01.538063+00:00"
     },
     "Greenhouse: Databricks:8792853002": {
       "company": "Greenhouse: Databricks",
@@ -799,8 +807,10 @@
       "sponsorship": null,
       "content_hash": "2c8b97421f99fbeb9699423aa3124960bff48a765c520b8d782bb12d9a6649d6",
       "first_discovered": "2026-10-13T02:38:11.598823+00:00",
-      "last_seen": "2026-10-13T02:38:11.598836+00:00",
-      "notified_hash": "2c8b97421f99fbeb9699423aa3124960bff48a765c520b8d782bb12d9a6649d6"
+      "last_seen": "2026-10-13T02:50:01.745412+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8860643002": {
       "company": "Greenhouse: Databricks",
@@ -820,8 +830,10 @@
       "sponsorship": null,
       "content_hash": "14dd699f68e55e9700901615502ec1bafbfdc9be2b8edbc95ddbf4edf24ac4b7",
       "first_discovered": "2026-10-13T02:38:11.629133+00:00",
-      "last_seen": "2026-10-13T02:38:11.629149+00:00",
-      "notified_hash": "14dd699f68e55e9700901615502ec1bafbfdc9be2b8edbc95ddbf4edf24ac4b7"
+      "last_seen": "2026-10-13T02:50:01.968473+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8859666002": {
       "company": "Greenhouse: Databricks",
@@ -840,8 +852,10 @@
       "sponsorship": "That means building executive sponsorship with CDOs, CIOs, and CHROs while also architecting the manager enablement and individual contributor adoption layers underneath",
       "content_hash": "e1949315b1e92c6349e41182ca252e2a93082a6271a34d7bf4b6a29e66c37b03",
       "first_discovered": "2026-10-13T02:38:11.646166+00:00",
-      "last_seen": "2026-10-13T02:38:11.646180+00:00",
-      "notified_hash": "e1949315b1e92c6349e41182ca252e2a93082a6271a34d7bf4b6a29e66c37b03"
+      "last_seen": "2026-10-13T02:50:02.136099+00:00",
+      "notified_hash": "e1949315b1e92c6349e41182ca252e2a93082a6271a34d7bf4b6a29e66c37b03",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:05.546727+00:00"
     },
     "Greenhouse: Databricks:8735814002": {
       "company": "Greenhouse: Databricks",
@@ -860,8 +874,10 @@
       "sponsorship": null,
       "content_hash": "fac447f94b66d7849ff5eb300d4b590d19750ffd7a31943a7b4fc730c3517084",
       "first_discovered": "2026-10-13T02:38:11.756141+00:00",
-      "last_seen": "2026-10-13T02:38:11.756156+00:00",
-      "notified_hash": "fac447f94b66d7849ff5eb300d4b590d19750ffd7a31943a7b4fc730c3517084"
+      "last_seen": "2026-10-13T02:50:06.090994+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8870718002": {
       "company": "Greenhouse: Databricks",
@@ -880,8 +896,10 @@
       "sponsorship": null,
       "content_hash": "0b360f6c770c2e4dcc6d68a6f65e7c0dcea4d4913cce6f4de2aba9a529d53e9b",
       "first_discovered": "2026-10-13T02:38:11.868451+00:00",
-      "last_seen": "2026-10-13T02:38:11.868466+00:00",
-      "notified_hash": "0b360f6c770c2e4dcc6d68a6f65e7c0dcea4d4913cce6f4de2aba9a529d53e9b"
+      "last_seen": "2026-10-13T02:50:06.376496+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8860663002": {
       "company": "Greenhouse: Databricks",
@@ -900,8 +918,10 @@
       "sponsorship": null,
       "content_hash": "af7e3c6526f1f21abda5d24499b068cce9894213199a15f34bd39fc49065825e",
       "first_discovered": "2026-10-13T02:38:11.964227+00:00",
-      "last_seen": "2026-10-13T02:38:11.964243+00:00",
-      "notified_hash": "af7e3c6526f1f21abda5d24499b068cce9894213199a15f34bd39fc49065825e"
+      "last_seen": "2026-10-13T02:50:06.928023+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735557002": {
       "company": "Greenhouse: Databricks",
@@ -920,8 +940,10 @@
       "sponsorship": null,
       "content_hash": "bdc90745279e6fd3d0e82aeca4831d4a7e302b1751faa8d4511ea8b647fc40b1",
       "first_discovered": "2026-10-13T02:38:12.049726+00:00",
-      "last_seen": "2026-10-13T02:38:12.049742+00:00",
-      "notified_hash": "bdc90745279e6fd3d0e82aeca4831d4a7e302b1751faa8d4511ea8b647fc40b1"
+      "last_seen": "2026-10-13T02:50:05.816810+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8575048002": {
       "company": "Greenhouse: Databricks",
@@ -940,8 +962,10 @@
       "sponsorship": null,
       "content_hash": "678d905b0159f1bb4ec209ed5f97b8ff7670af5c4bacf35d1a5218e95feb70f3",
       "first_discovered": "2026-10-13T02:38:12.130856+00:00",
-      "last_seen": "2026-10-13T02:38:12.130872+00:00",
-      "notified_hash": "678d905b0159f1bb4ec209ed5f97b8ff7670af5c4bacf35d1a5218e95feb70f3"
+      "last_seen": "2026-10-13T02:50:07.464160+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8575046002": {
       "company": "Greenhouse: Databricks",
@@ -960,8 +984,10 @@
       "sponsorship": null,
       "content_hash": "811e22f5ed2e493ced5169ac316b0763c5d712bf4f397d680c909577153fc2e5",
       "first_discovered": "2026-10-13T02:38:12.244023+00:00",
-      "last_seen": "2026-10-13T02:38:12.244040+00:00",
-      "notified_hash": "811e22f5ed2e493ced5169ac316b0763c5d712bf4f397d680c909577153fc2e5"
+      "last_seen": "2026-10-13T02:50:07.970742+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8826872002": {
       "company": "Greenhouse: Databricks",
@@ -980,8 +1006,10 @@
       "sponsorship": null,
       "content_hash": "d41bed31977e784fded5d3a59d50f8ff9017c4048c58705268688ea6454e1c05",
       "first_discovered": "2026-10-13T02:38:12.392271+00:00",
-      "last_seen": "2026-10-13T02:38:12.392292+00:00",
-      "notified_hash": "d41bed31977e784fded5d3a59d50f8ff9017c4048c58705268688ea6454e1c05"
+      "last_seen": "2026-10-13T02:50:07.211675+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8549681002": {
       "company": "Greenhouse: Databricks",
@@ -1000,8 +1028,10 @@
       "sponsorship": null,
       "content_hash": "25bd038d8bbb460db63687981261c19ce337e1b7a5240fd48a96f46603c5a1e7",
       "first_discovered": "2026-10-13T02:38:12.483153+00:00",
-      "last_seen": "2026-10-13T02:38:12.483172+00:00",
-      "notified_hash": "25bd038d8bbb460db63687981261c19ce337e1b7a5240fd48a96f46603c5a1e7"
+      "last_seen": "2026-10-13T02:50:08.484302+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8813844002": {
       "company": "Greenhouse: Databricks",
@@ -1020,8 +1050,10 @@
       "sponsorship": null,
       "content_hash": "6f826fd61fb444f3b1ef0cb22733fd993e94c5daffd2f687ea54d6101ebaf9e8",
       "first_discovered": "2026-10-13T02:38:12.599759+00:00",
-      "last_seen": "2026-10-13T02:38:12.599775+00:00",
-      "notified_hash": "6f826fd61fb444f3b1ef0cb22733fd993e94c5daffd2f687ea54d6101ebaf9e8"
+      "last_seen": "2026-10-13T02:50:06.673727+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735545002": {
       "company": "Greenhouse: Databricks",
@@ -1040,8 +1072,10 @@
       "sponsorship": null,
       "content_hash": "73e6266851b3b802c4b7cd647fcabddc7d3f66c81e857cfac63a89bcc011d8ca",
       "first_discovered": "2026-10-13T02:38:12.681478+00:00",
-      "last_seen": "2026-10-13T02:38:12.681494+00:00",
-      "notified_hash": "73e6266851b3b802c4b7cd647fcabddc7d3f66c81e857cfac63a89bcc011d8ca"
+      "last_seen": "2026-10-13T02:50:08.766631+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8476496002": {
       "company": "Greenhouse: Databricks",
@@ -1060,8 +1094,10 @@
       "sponsorship": null,
       "content_hash": "3b3fc70897a3c2fdb6144b7ede075c0bd04e74ee7ff70de29d954f43a0b752a9",
       "first_discovered": "2026-10-13T02:38:12.768643+00:00",
-      "last_seen": "2026-10-13T02:38:12.768655+00:00",
-      "notified_hash": "3b3fc70897a3c2fdb6144b7ede075c0bd04e74ee7ff70de29d954f43a0b752a9"
+      "last_seen": "2026-10-13T02:50:08.229450+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735820002": {
       "company": "Greenhouse: Databricks",
@@ -1080,8 +1116,10 @@
       "sponsorship": null,
       "content_hash": "c7d40f4d77c29eeec4ef136d41b7411c06640d55a588a429227aebcc71e41a67",
       "first_discovered": "2026-10-13T02:38:12.847514+00:00",
-      "last_seen": "2026-10-13T02:38:12.847530+00:00",
-      "notified_hash": "c7d40f4d77c29eeec4ef136d41b7411c06640d55a588a429227aebcc71e41a67"
+      "last_seen": "2026-10-13T02:50:07.705698+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735569002": {
       "company": "Greenhouse: Databricks",
@@ -1100,8 +1138,10 @@
       "sponsorship": null,
       "content_hash": "f2ecee9396a4ded2d3c8fc3f0b0dea7840537bc9ef7a30568e6b8e5db23a1648",
       "first_discovered": "2026-10-13T02:38:12.930820+00:00",
-      "last_seen": "2026-10-13T02:38:12.930836+00:00",
-      "notified_hash": "f2ecee9396a4ded2d3c8fc3f0b0dea7840537bc9ef7a30568e6b8e5db23a1648"
+      "last_seen": "2026-10-13T02:50:09.027609+00:00",
+      "notified_hash": "f2ecee9396a4ded2d3c8fc3f0b0dea7840537bc9ef7a30568e6b8e5db23a1648",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:13.374368+00:00"
     },
     "Greenhouse: Databricks:8736471002": {
       "company": "Greenhouse: Databricks",
@@ -1120,8 +1160,10 @@
       "sponsorship": null,
       "content_hash": "a09e7709022e617e08802a7d032a148075df17cf91d1464b37ec1d3aff86f2da",
       "first_discovered": "2026-10-13T02:38:13.050427+00:00",
-      "last_seen": "2026-10-13T02:38:13.050444+00:00",
-      "notified_hash": "a09e7709022e617e08802a7d032a148075df17cf91d1464b37ec1d3aff86f2da"
+      "last_seen": "2026-10-13T02:50:13.690110+00:00",
+      "notified_hash": "a09e7709022e617e08802a7d032a148075df17cf91d1464b37ec1d3aff86f2da",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:17.489152+00:00"
     },
     "Greenhouse: Databricks:8736473002": {
       "company": "Greenhouse: Databricks",
@@ -1140,8 +1182,10 @@
       "sponsorship": null,
       "content_hash": "ffdd30afdb9d3a1d98cadf29f76ffa0314b5df9ae096bac18177a14bb142ffe1",
       "first_discovered": "2026-10-13T02:38:13.168814+00:00",
-      "last_seen": "2026-10-13T02:38:13.168830+00:00",
-      "notified_hash": "ffdd30afdb9d3a1d98cadf29f76ffa0314b5df9ae096bac18177a14bb142ffe1"
+      "last_seen": "2026-10-13T02:50:18.259942+00:00",
+      "notified_hash": "ffdd30afdb9d3a1d98cadf29f76ffa0314b5df9ae096bac18177a14bb142ffe1",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:23.364949+00:00"
     },
     "Greenhouse: Databricks:8548986002": {
       "company": "Greenhouse: Databricks",
@@ -1160,8 +1204,10 @@
       "sponsorship": null,
       "content_hash": "f2d95b585cde3d4130a97bb317edc7c171b0995a03aac45a6e4ea3d9b5332645",
       "first_discovered": "2026-10-13T02:38:13.250283+00:00",
-      "last_seen": "2026-10-13T02:38:13.250300+00:00",
-      "notified_hash": "f2d95b585cde3d4130a97bb317edc7c171b0995a03aac45a6e4ea3d9b5332645"
+      "last_seen": "2026-10-13T02:50:17.846586+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735549002": {
       "company": "Greenhouse: Databricks",
@@ -1180,8 +1226,10 @@
       "sponsorship": null,
       "content_hash": "1fa67d7f7a389e4719077efafa35077183c7f3593c126ecd9446684fff937424",
       "first_discovered": "2026-10-13T02:38:13.330671+00:00",
-      "last_seen": "2026-10-13T02:38:13.330686+00:00",
-      "notified_hash": "1fa67d7f7a389e4719077efafa35077183c7f3593c126ecd9446684fff937424"
+      "last_seen": "2026-10-13T02:50:23.628086+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8735551002": {
       "company": "Greenhouse: Databricks",
@@ -1200,8 +1248,10 @@
       "sponsorship": null,
       "content_hash": "dae6d1bf4cb87036fba4c0bf2214818880b92eeceeaca733bf34ab765cfee3d8",
       "first_discovered": "2026-10-13T02:38:13.413224+00:00",
-      "last_seen": "2026-10-13T02:38:13.413240+00:00",
-      "notified_hash": "dae6d1bf4cb87036fba4c0bf2214818880b92eeceeaca733bf34ab765cfee3d8"
+      "last_seen": "2026-10-13T02:50:23.888320+00:00",
+      "notified_hash": "dae6d1bf4cb87036fba4c0bf2214818880b92eeceeaca733bf34ab765cfee3d8",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:27.030173+00:00"
     },
     "Greenhouse: Databricks:8549046002": {
       "company": "Greenhouse: Databricks",
@@ -1220,8 +1270,10 @@
       "sponsorship": null,
       "content_hash": "8ffdb50395496883aae78db18a935a1e47029916502653dbf5709166e49a6fdf",
       "first_discovered": "2026-10-13T02:38:13.498993+00:00",
-      "last_seen": "2026-10-13T02:38:13.499007+00:00",
-      "notified_hash": "8ffdb50395496883aae78db18a935a1e47029916502653dbf5709166e49a6fdf"
+      "last_seen": "2026-10-13T02:50:27.304542+00:00",
+      "notified_hash": "8ffdb50395496883aae78db18a935a1e47029916502653dbf5709166e49a6fdf",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:50:30.532472+00:00"
     },
     "Greenhouse: Databricks:8687483002": {
       "company": "Greenhouse: Databricks",
@@ -1240,8 +1292,10 @@
       "sponsorship": null,
       "content_hash": "d74a4b178c0731a3067ca7402f8b3c1580337e7c2ca7136aa264e4cd83191643",
       "first_discovered": "2026-10-13T02:38:13.583534+00:00",
-      "last_seen": "2026-10-13T02:38:13.583550+00:00",
-      "notified_hash": "d74a4b178c0731a3067ca7402f8b3c1580337e7c2ca7136aa264e4cd83191643"
+      "last_seen": "2026-10-13T02:50:30.871760+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8559315002": {
       "company": "Greenhouse: Databricks",
@@ -1260,8 +1314,10 @@
       "sponsorship": null,
       "content_hash": "d45cb37e585d4958405f2679b7e1c15f00b3df174cf796f87dc920895b82734a",
       "first_discovered": "2026-10-13T02:38:13.658221+00:00",
-      "last_seen": "2026-10-13T02:38:13.658237+00:00",
-      "notified_hash": "d45cb37e585d4958405f2679b7e1c15f00b3df174cf796f87dc920895b82734a"
+      "last_seen": "2026-10-13T02:50:31.120813+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8790289002": {
       "company": "Greenhouse: Databricks",
@@ -19038,8 +19094,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "18f78813aca8cfea9330be663031453b978204aa272122b7f402f1b1ceb27a96",
       "first_discovered": "2026-10-13T02:38:52.337960+00:00",
-      "last_seen": "2026-10-13T02:38:52.337970+00:00",
-      "notified_hash": "18f78813aca8cfea9330be663031453b978204aa272122b7f402f1b1ceb27a96"
+      "last_seen": "2026-10-13T02:49:57.265013+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7736431": {
       "company": "Greenhouse: Cloudflare",
@@ -19058,8 +19116,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "26d05b8c7886ce6305f6f2db927d992b3304d8a298665e4bc7746ea7dbb4d25f",
       "first_discovered": "2026-10-13T02:38:52.393415+00:00",
-      "last_seen": "2026-10-13T02:38:52.393428+00:00",
-      "notified_hash": "26d05b8c7886ce6305f6f2db927d992b3304d8a298665e4bc7746ea7dbb4d25f"
+      "last_seen": "2026-10-13T02:49:57.475047+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8234130": {
       "company": "Greenhouse: Cloudflare",
@@ -19078,8 +19138,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ddbbf2f89f8672ca1ade60c515f46bc3b8400d50207a311e835c7fd89c6f5f69",
       "first_discovered": "2026-10-13T02:38:52.468001+00:00",
-      "last_seen": "2026-10-13T02:38:52.468014+00:00",
-      "notified_hash": "ddbbf2f89f8672ca1ade60c515f46bc3b8400d50207a311e835c7fd89c6f5f69"
+      "last_seen": "2026-10-13T02:49:57.673485+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8163023": {
       "company": "Greenhouse: Cloudflare",
@@ -19098,8 +19160,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "441c67a3f9be8189442f65c96702e877aed294539f77557fe97c3e288cfcc35a",
       "first_discovered": "2026-10-13T02:38:52.544364+00:00",
-      "last_seen": "2026-10-13T02:38:52.544377+00:00",
-      "notified_hash": "441c67a3f9be8189442f65c96702e877aed294539f77557fe97c3e288cfcc35a"
+      "last_seen": "2026-10-13T02:49:58.002575+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8268432": {
       "company": "Greenhouse: Cloudflare",
@@ -19118,8 +19182,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "5cfe104afb9797d015c7c29d7f197948602f7e6192669aa282007c192228f8a5",
       "first_discovered": "2026-10-13T02:38:52.600036+00:00",
-      "last_seen": "2026-10-13T02:38:52.600048+00:00",
-      "notified_hash": "5cfe104afb9797d015c7c29d7f197948602f7e6192669aa282007c192228f8a5"
+      "last_seen": "2026-10-13T02:49:58.205143+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8219758": {
       "company": "Greenhouse: Cloudflare",
@@ -19140,8 +19206,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "57a7554260beec9b25fc8e262e79c61c6acbd8b9f4f360bf731cc29d49d3c209",
       "first_discovered": "2026-10-13T02:38:52.654842+00:00",
-      "last_seen": "2026-10-13T02:38:52.654853+00:00",
-      "notified_hash": "57a7554260beec9b25fc8e262e79c61c6acbd8b9f4f360bf731cc29d49d3c209"
+      "last_seen": "2026-10-13T02:49:58.331303+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7544182": {
       "company": "Greenhouse: Cloudflare",
@@ -19161,8 +19229,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3dce95008cc3c3efe6be3670ea8b47f9928a0567be682b6c1734b4619b297f31",
       "first_discovered": "2026-10-13T02:38:52.701704+00:00",
-      "last_seen": "2026-10-13T02:38:52.701716+00:00",
-      "notified_hash": "3dce95008cc3c3efe6be3670ea8b47f9928a0567be682b6c1734b4619b297f31"
+      "last_seen": "2026-10-13T02:49:58.435345+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8248907": {
       "company": "Greenhouse: Cloudflare",
@@ -19181,8 +19251,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8c4bb89da3e0626aac8680bdd07c287cff5035fbcefb6077d1c13bcba2515b1d",
       "first_discovered": "2026-10-13T02:38:52.751655+00:00",
-      "last_seen": "2026-10-13T02:38:52.751667+00:00",
-      "notified_hash": "8c4bb89da3e0626aac8680bdd07c287cff5035fbcefb6077d1c13bcba2515b1d"
+      "last_seen": "2026-10-13T02:49:58.525678+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8191453": {
       "company": "Greenhouse: Cloudflare",
@@ -19201,8 +19273,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7bc9234f7e49099967958f3b48ec0b43a55c605296266b77e42d0f7c215b0b5f",
       "first_discovered": "2026-10-13T02:38:52.810752+00:00",
-      "last_seen": "2026-10-13T02:38:52.810765+00:00",
-      "notified_hash": "7bc9234f7e49099967958f3b48ec0b43a55c605296266b77e42d0f7c215b0b5f"
+      "last_seen": "2026-10-13T02:49:58.642033+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8232806": {
       "company": "Greenhouse: Cloudflare",
@@ -19221,8 +19295,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e34c06753ad1af68cfa14513d15e0a122781b08db583a26254d25a1feaee733e",
       "first_discovered": "2026-10-13T02:38:52.872564+00:00",
-      "last_seen": "2026-10-13T02:38:52.872575+00:00",
-      "notified_hash": "e34c06753ad1af68cfa14513d15e0a122781b08db583a26254d25a1feaee733e"
+      "last_seen": "2026-10-13T02:49:58.781272+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8180715": {
       "company": "Greenhouse: Cloudflare",
@@ -19241,8 +19317,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "052df83b642373add8cf50cb2805bc5282efc6844cebb7ccfd7a4de805a2ad2f",
       "first_discovered": "2026-10-13T02:38:52.932162+00:00",
-      "last_seen": "2026-10-13T02:38:52.932171+00:00",
-      "notified_hash": "052df83b642373add8cf50cb2805bc5282efc6844cebb7ccfd7a4de805a2ad2f"
+      "last_seen": "2026-10-13T02:49:59.071995+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7735836": {
       "company": "Greenhouse: Cloudflare",
@@ -19261,8 +19339,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "46a3f79b3611edd977cc765a4bf0e702c9d0d5166767aeefa0fd18e96fd9ef68",
       "first_discovered": "2026-10-13T02:38:53.006539+00:00",
-      "last_seen": "2026-10-13T02:38:53.006548+00:00",
-      "notified_hash": "46a3f79b3611edd977cc765a4bf0e702c9d0d5166767aeefa0fd18e96fd9ef68"
+      "last_seen": "2026-10-13T02:49:58.964820+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8238758": {
       "company": "Greenhouse: Cloudflare",
@@ -19281,8 +19361,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d928c1e9f1e57f9f2da29557e1056e5afa4d403b1a7a42794a70cb42824ef42a",
       "first_discovered": "2026-10-13T02:38:53.066370+00:00",
-      "last_seen": "2026-10-13T02:38:53.066381+00:00",
-      "notified_hash": "d928c1e9f1e57f9f2da29557e1056e5afa4d403b1a7a42794a70cb42824ef42a"
+      "last_seen": "2026-10-13T02:49:59.180236+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8007189": {
       "company": "Greenhouse: Cloudflare",
@@ -19302,8 +19384,10 @@
       "sponsorship": "Customer & Market Presence: Act as an executive technical sponsor for strategic customers and prospects",
       "content_hash": "5a7ee04b8fff291a3cb49bf7e7e2df4780ee7fef1e8e1d55dc0590f3f48304c6",
       "first_discovered": "2026-10-13T02:38:53.111171+00:00",
-      "last_seen": "2026-10-13T02:38:53.111182+00:00",
-      "notified_hash": "5a7ee04b8fff291a3cb49bf7e7e2df4780ee7fef1e8e1d55dc0590f3f48304c6"
+      "last_seen": "2026-10-13T02:49:59.268469+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7479271": {
       "company": "Greenhouse: Cloudflare",
@@ -19322,8 +19406,10 @@
       "sponsorship": "Act as a key executive sponsor for high-growth startups, founders, and VC partners, positioning Cloudflare as the foundational architecture for the next generation of tech",
       "content_hash": "75805ade14e93db13c03a1bdf6abbc25e07bc132c92a32b36de4e7e468eb72d1",
       "first_discovered": "2026-10-13T02:38:53.156626+00:00",
-      "last_seen": "2026-10-13T02:38:53.156636+00:00",
-      "notified_hash": "75805ade14e93db13c03a1bdf6abbc25e07bc132c92a32b36de4e7e468eb72d1"
+      "last_seen": "2026-10-13T02:49:59.353239+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8051547": {
       "company": "Greenhouse: Cloudflare",
@@ -19342,8 +19428,10 @@
       "sponsorship": "Act as a key executive sponsor for high-growth accounts, maintaining a tight business cadence for forecast calls, deal reviews, and customer account audits while personally helping close complex deals",
       "content_hash": "2d12c7cd22e8fe6f738a4f3838dd40d4899f31fe4dd9d020af594b4e660e979b",
       "first_discovered": "2026-10-13T02:38:53.195387+00:00",
-      "last_seen": "2026-10-13T02:38:53.195398+00:00",
-      "notified_hash": "2d12c7cd22e8fe6f738a4f3838dd40d4899f31fe4dd9d020af594b4e660e979b"
+      "last_seen": "2026-10-13T02:49:59.438866+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8157726": {
       "company": "Greenhouse: Cloudflare",
@@ -19362,8 +19450,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "53d4ca1992f0273396df448ad7da64087bac3f5fc7b2917eaf6ae3e99c95f109",
       "first_discovered": "2026-10-13T02:38:53.256760+00:00",
-      "last_seen": "2026-10-13T02:38:53.256772+00:00",
-      "notified_hash": "53d4ca1992f0273396df448ad7da64087bac3f5fc7b2917eaf6ae3e99c95f109"
+      "last_seen": "2026-10-13T02:49:59.567294+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8243255": {
       "company": "Greenhouse: Cloudflare",
@@ -19382,8 +19472,10 @@
       "sponsorship": "Act as a key executive sponsor for high-growth startups, founders, and VC partners, positioning Cloudflare as the foundational architecture for the next generation of tech",
       "content_hash": "6630326e407d1950b200257b4bc6153d9eaeb33b6ab63746d7e4146c7f5c51b1",
       "first_discovered": "2026-10-13T02:38:53.292820+00:00",
-      "last_seen": "2026-10-13T02:38:53.292829+00:00",
-      "notified_hash": "6630326e407d1950b200257b4bc6153d9eaeb33b6ab63746d7e4146c7f5c51b1"
+      "last_seen": "2026-10-13T02:49:59.641538+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8177516": {
       "company": "Greenhouse: Cloudflare",
@@ -19402,8 +19494,10 @@
       "sponsorship": "Act as a key executive sponsor for high-growth startups, founders, and VC partners, positioning Cloudflare as the foundational architecture for the next generation of tech",
       "content_hash": "fd1cd537af8d1c98bf84563c2e4bf87bdf25935bd2586d86a82530a3ed3c51c7",
       "first_discovered": "2026-10-13T02:38:53.330698+00:00",
-      "last_seen": "2026-10-13T02:38:53.330708+00:00",
-      "notified_hash": "fd1cd537af8d1c98bf84563c2e4bf87bdf25935bd2586d86a82530a3ed3c51c7"
+      "last_seen": "2026-10-13T02:49:59.725742+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8152765": {
       "company": "Greenhouse: Cloudflare",
@@ -19422,8 +19516,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f94a8eca1770573538ed87effaa472edb62204e73b72583b0d22742e260391f4",
       "first_discovered": "2026-10-13T02:38:53.381825+00:00",
-      "last_seen": "2026-10-13T02:38:53.381834+00:00",
-      "notified_hash": "f94a8eca1770573538ed87effaa472edb62204e73b72583b0d22742e260391f4"
+      "last_seen": "2026-10-13T02:49:59.822726+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8036150": {
       "company": "Greenhouse: Cloudflare",
@@ -19442,8 +19538,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6c46dcc751772c954f70260ebfa39feccfb71813b25d5d5b0715a5ce65ea73fd",
       "first_discovered": "2026-10-13T02:38:53.453848+00:00",
-      "last_seen": "2026-10-13T02:38:53.453857+00:00",
-      "notified_hash": "6c46dcc751772c954f70260ebfa39feccfb71813b25d5d5b0715a5ce65ea73fd"
+      "last_seen": "2026-10-13T02:49:59.976643+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8196425": {
       "company": "Greenhouse: Cloudflare",
@@ -19462,8 +19560,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "93bbc28cd784d43848389081bccc6fd261ad2c45992f8591885875e019a988c3",
       "first_discovered": "2026-10-13T02:38:53.499921+00:00",
-      "last_seen": "2026-10-13T02:38:53.499931+00:00",
-      "notified_hash": "93bbc28cd784d43848389081bccc6fd261ad2c45992f8591885875e019a988c3"
+      "last_seen": "2026-10-13T02:50:00.060526+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8143649": {
       "company": "Greenhouse: Cloudflare",
@@ -19482,8 +19582,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "51716cec08fd405792d57b16900267b432d396a833438059d429046b252cf23d",
       "first_discovered": "2026-10-13T02:38:53.555188+00:00",
-      "last_seen": "2026-10-13T02:38:53.555199+00:00",
-      "notified_hash": "51716cec08fd405792d57b16900267b432d396a833438059d429046b252cf23d"
+      "last_seen": "2026-10-13T02:50:00.166937+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8099000": {
       "company": "Greenhouse: Cloudflare",
@@ -19502,8 +19604,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "37b7013db835942c653d51344249341205de6ee10c8a521afc91274cfc5bd91d",
       "first_discovered": "2026-10-13T02:38:53.612425+00:00",
-      "last_seen": "2026-10-13T02:38:53.612436+00:00",
-      "notified_hash": "37b7013db835942c653d51344249341205de6ee10c8a521afc91274cfc5bd91d"
+      "last_seen": "2026-10-13T02:50:00.284084+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8083701": {
       "company": "Greenhouse: Cloudflare",
@@ -19522,8 +19626,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "686a50ba5de59ffe2323d1ce96625b876ec22a274774adeae4ce850faf03e399",
       "first_discovered": "2026-10-13T02:38:53.662118+00:00",
-      "last_seen": "2026-10-13T02:38:53.662130+00:00",
-      "notified_hash": "686a50ba5de59ffe2323d1ce96625b876ec22a274774adeae4ce850faf03e399"
+      "last_seen": "2026-10-13T02:50:00.402357+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8243207": {
       "company": "Greenhouse: Cloudflare",
@@ -19542,8 +19648,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "92d16b7a5bbc785b0feed3b205fb294e4c949e70cdb11a3018c2a75f9eb1238b",
       "first_discovered": "2026-10-13T02:38:53.738034+00:00",
-      "last_seen": "2026-10-13T02:38:53.738049+00:00",
-      "notified_hash": "92d16b7a5bbc785b0feed3b205fb294e4c949e70cdb11a3018c2a75f9eb1238b"
+      "last_seen": "2026-10-13T02:50:00.530167+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7653558": {
       "company": "Greenhouse: Cloudflare",
@@ -19563,8 +19671,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8e3cdf619823c1edb974b939fa8ba6318cf49f987bc8c2d48d1d0b535c409e38",
       "first_discovered": "2026-10-13T02:38:53.794734+00:00",
-      "last_seen": "2026-10-13T02:38:53.794751+00:00",
-      "notified_hash": "8e3cdf619823c1edb974b939fa8ba6318cf49f987bc8c2d48d1d0b535c409e38"
+      "last_seen": "2026-10-13T02:50:00.628931+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8224347": {
       "company": "Greenhouse: Cloudflare",
@@ -19583,8 +19693,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e720f55c580170a86ad85280f0cbf8e633938a49c33d88785020a8034c623278",
       "first_discovered": "2026-10-13T02:38:53.851370+00:00",
-      "last_seen": "2026-10-13T02:38:53.851386+00:00",
-      "notified_hash": "e720f55c580170a86ad85280f0cbf8e633938a49c33d88785020a8034c623278"
+      "last_seen": "2026-10-13T02:50:00.729443+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7997341": {
       "company": "Greenhouse: Cloudflare",
@@ -19603,8 +19715,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4c7f96d211e278b843e9bf374ed738119147cd06e6f372870bb109a3ff253461",
       "first_discovered": "2026-10-13T02:38:53.906082+00:00",
-      "last_seen": "2026-10-13T02:38:53.906098+00:00",
-      "notified_hash": "4c7f96d211e278b843e9bf374ed738119147cd06e6f372870bb109a3ff253461"
+      "last_seen": "2026-10-13T02:50:00.826387+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7572075": {
       "company": "Greenhouse: Cloudflare",
@@ -19623,8 +19737,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6a61b46061844e6dce1c1169ab4c944d6286de15916f6f4fd05d9a15b8efb780",
       "first_discovered": "2026-10-13T02:38:53.963465+00:00",
-      "last_seen": "2026-10-13T02:38:53.963482+00:00",
-      "notified_hash": "6a61b46061844e6dce1c1169ab4c944d6286de15916f6f4fd05d9a15b8efb780"
+      "last_seen": "2026-10-13T02:50:00.926212+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8043287": {
       "company": "Greenhouse: Cloudflare",
@@ -19643,8 +19759,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9bd2187b878f627facb8d9f9d4c361f76d5eb07dc6ebf762fef94837d92f821d",
       "first_discovered": "2026-10-13T02:38:54.008969+00:00",
-      "last_seen": "2026-10-13T02:38:54.008986+00:00",
-      "notified_hash": "9bd2187b878f627facb8d9f9d4c361f76d5eb07dc6ebf762fef94837d92f821d"
+      "last_seen": "2026-10-13T02:50:01.022747+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8043305": {
       "company": "Greenhouse: Cloudflare",
@@ -19663,8 +19781,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "79a8745cd5aa7e170d11200f0999e878fec9748f7a9c893ca0471c994e3597a8",
       "first_discovered": "2026-10-13T02:38:54.055484+00:00",
-      "last_seen": "2026-10-13T02:38:54.055500+00:00",
-      "notified_hash": "79a8745cd5aa7e170d11200f0999e878fec9748f7a9c893ca0471c994e3597a8"
+      "last_seen": "2026-10-13T02:50:01.107552+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8043339": {
       "company": "Greenhouse: Cloudflare",
@@ -19683,8 +19803,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7fe87920af47dfa9adcc35ee6352724f0e4178168bd28698595aaff9f273ed9a",
       "first_discovered": "2026-10-13T02:38:54.099474+00:00",
-      "last_seen": "2026-10-13T02:38:54.099491+00:00",
-      "notified_hash": "7fe87920af47dfa9adcc35ee6352724f0e4178168bd28698595aaff9f273ed9a"
+      "last_seen": "2026-10-13T02:50:01.192920+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8203794": {
       "company": "Greenhouse: Cloudflare",
@@ -19703,8 +19825,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b9b2c5794a297df96d82c4d2e4b121bc3716904187efa5f322f8c47ce0c52017",
       "first_discovered": "2026-10-13T02:38:54.149964+00:00",
-      "last_seen": "2026-10-13T02:38:54.149980+00:00",
-      "notified_hash": "b9b2c5794a297df96d82c4d2e4b121bc3716904187efa5f322f8c47ce0c52017"
+      "last_seen": "2026-10-13T02:50:01.280382+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8230670": {
       "company": "Greenhouse: Cloudflare",
@@ -19723,8 +19847,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8a261c0bcce31591d6e625a069ca0104106c429fad4992e21462a3bc710751dc",
       "first_discovered": "2026-10-13T02:38:54.201881+00:00",
-      "last_seen": "2026-10-13T02:38:54.201898+00:00",
-      "notified_hash": "8a261c0bcce31591d6e625a069ca0104106c429fad4992e21462a3bc710751dc"
+      "last_seen": "2026-10-13T02:50:01.390908+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8045914": {
       "company": "Greenhouse: Cloudflare",
@@ -19743,8 +19869,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b78cec19ef2192fd8e28dd22fa82810a3100657bfec02df58c5392c3f7505ace",
       "first_discovered": "2026-10-13T02:38:54.255591+00:00",
-      "last_seen": "2026-10-13T02:38:54.255605+00:00",
-      "notified_hash": "b78cec19ef2192fd8e28dd22fa82810a3100657bfec02df58c5392c3f7505ace"
+      "last_seen": "2026-10-13T02:50:01.486796+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8223480": {
       "company": "Greenhouse: Cloudflare",
@@ -19763,8 +19891,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8037ed6613ef4fb6bf6ee52b54419b2f313314e8b6ffd032ed21dcfa3b6ddeff",
       "first_discovered": "2026-10-13T02:38:54.317761+00:00",
-      "last_seen": "2026-10-13T02:38:54.317777+00:00",
-      "notified_hash": "8037ed6613ef4fb6bf6ee52b54419b2f313314e8b6ffd032ed21dcfa3b6ddeff"
+      "last_seen": "2026-10-13T02:50:01.644995+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7428796": {
       "company": "Greenhouse: Cloudflare",
@@ -19783,8 +19913,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c78f9b464010b3e804e604aa3566f63b0e51643ec051a645c38d87d7931dffde",
       "first_discovered": "2026-10-13T02:38:54.377390+00:00",
-      "last_seen": "2026-10-13T02:38:54.377406+00:00",
-      "notified_hash": "c78f9b464010b3e804e604aa3566f63b0e51643ec051a645c38d87d7931dffde"
+      "last_seen": "2026-10-13T02:50:01.871979+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8157997": {
       "company": "Greenhouse: Cloudflare",
@@ -19803,8 +19935,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "5b0eb3f45d35119ba4849349c43953b6205662b062885a9a38c183932457d2bf",
       "first_discovered": "2026-10-13T02:38:54.427469+00:00",
-      "last_seen": "2026-10-13T02:38:54.427486+00:00",
-      "notified_hash": "5b0eb3f45d35119ba4849349c43953b6205662b062885a9a38c183932457d2bf"
+      "last_seen": "2026-10-13T02:50:02.067607+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8141822": {
       "company": "Greenhouse: Cloudflare",
@@ -19823,8 +19957,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "db1e313716c6141356b0f1ec5d170bd71a89e9adffa5858045f2716a7d0ca0cf",
       "first_discovered": "2026-10-13T02:38:54.484164+00:00",
-      "last_seen": "2026-10-13T02:38:54.484178+00:00",
-      "notified_hash": "db1e313716c6141356b0f1ec5d170bd71a89e9adffa5858045f2716a7d0ca0cf"
+      "last_seen": "2026-10-13T02:50:02.256102+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8188468": {
       "company": "Greenhouse: Cloudflare",
@@ -19843,8 +19979,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0414a922aa09c5b8b7d92068a1cf7f4e4293b283589be847aa6eaf9afc375795",
       "first_discovered": "2026-10-13T02:38:54.535300+00:00",
-      "last_seen": "2026-10-13T02:38:54.535313+00:00",
-      "notified_hash": "0414a922aa09c5b8b7d92068a1cf7f4e4293b283589be847aa6eaf9afc375795"
+      "last_seen": "2026-10-13T02:50:02.353700+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8245561": {
       "company": "Greenhouse: Cloudflare",
@@ -19863,8 +20001,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "20d280f08aa42caccf41e7b3f992e8d63c1bca66d14540c4dcfcfab2a6e6b4f4",
       "first_discovered": "2026-10-13T02:38:54.585005+00:00",
-      "last_seen": "2026-10-13T02:38:54.585019+00:00",
-      "notified_hash": "20d280f08aa42caccf41e7b3f992e8d63c1bca66d14540c4dcfcfab2a6e6b4f4"
+      "last_seen": "2026-10-13T02:50:02.446217+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8245787": {
       "company": "Greenhouse: Cloudflare",
@@ -19883,8 +20023,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "be0a0619a348561311edd27a07c1931ac5f164ef18a2ba3876a6803f8e7ec591",
       "first_discovered": "2026-10-13T02:38:54.631396+00:00",
-      "last_seen": "2026-10-13T02:38:54.631409+00:00",
-      "notified_hash": "be0a0619a348561311edd27a07c1931ac5f164ef18a2ba3876a6803f8e7ec591"
+      "last_seen": "2026-10-13T02:50:02.559874+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8064055": {
       "company": "Greenhouse: Cloudflare",
@@ -19903,8 +20045,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6828944364195494bfea64c0e041643e2431710fb09db3773cc88be2e8039235",
       "first_discovered": "2026-10-13T02:38:54.678856+00:00",
-      "last_seen": "2026-10-13T02:38:54.678870+00:00",
-      "notified_hash": "6828944364195494bfea64c0e041643e2431710fb09db3773cc88be2e8039235"
+      "last_seen": "2026-10-13T02:50:02.661631+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7535803": {
       "company": "Greenhouse: Cloudflare",
@@ -19923,8 +20067,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "92ea7f25076122b0349c031cf7e992e46a2bf5e7f87a5730fa10dc49e8ac087d",
       "first_discovered": "2026-10-13T02:38:54.744624+00:00",
-      "last_seen": "2026-10-13T02:38:54.744639+00:00",
-      "notified_hash": "92ea7f25076122b0349c031cf7e992e46a2bf5e7f87a5730fa10dc49e8ac087d"
+      "last_seen": "2026-10-13T02:50:02.778146+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7972472": {
       "company": "Greenhouse: Cloudflare",
@@ -19943,8 +20089,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "86252a797d5a0334fdac1cffca5e9ece0db4b4737fc7d7f3739ae546b37dca2e",
       "first_discovered": "2026-10-13T02:38:54.808235+00:00",
-      "last_seen": "2026-10-13T02:38:54.808249+00:00",
-      "notified_hash": "86252a797d5a0334fdac1cffca5e9ece0db4b4737fc7d7f3739ae546b37dca2e"
+      "last_seen": "2026-10-13T02:50:02.883990+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7552575": {
       "company": "Greenhouse: Cloudflare",
@@ -19963,8 +20111,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "5d601c2182a9ccc1398e2f3d2fcfaa5bb7d540e7b5204680bf565e1126161f24",
       "first_discovered": "2026-10-13T02:38:54.866180+00:00",
-      "last_seen": "2026-10-13T02:38:54.866194+00:00",
-      "notified_hash": "5d601c2182a9ccc1398e2f3d2fcfaa5bb7d540e7b5204680bf565e1126161f24"
+      "last_seen": "2026-10-13T02:50:02.986801+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7756883": {
       "company": "Greenhouse: Cloudflare",
@@ -19983,8 +20133,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "36a0f3fb7b883cfccea6795fa3f0766322ea70034ff9f631de28524f0db90df6",
       "first_discovered": "2026-10-13T02:38:54.918575+00:00",
-      "last_seen": "2026-10-13T02:38:54.918591+00:00",
-      "notified_hash": "36a0f3fb7b883cfccea6795fa3f0766322ea70034ff9f631de28524f0db90df6"
+      "last_seen": "2026-10-13T02:50:03.076130+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8160386": {
       "company": "Greenhouse: Cloudflare",
@@ -20004,8 +20156,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "423ce909e575508e88693f6b1c7e34020609827224b802f9596f0854df2c2b06",
       "first_discovered": "2026-10-13T02:38:54.970614+00:00",
-      "last_seen": "2026-10-13T02:38:54.970629+00:00",
-      "notified_hash": "423ce909e575508e88693f6b1c7e34020609827224b802f9596f0854df2c2b06"
+      "last_seen": "2026-10-13T02:50:03.171614+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8221187": {
       "company": "Greenhouse: Cloudflare",
@@ -20024,8 +20178,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d0160660a9d684cac94fd7c57ef85ca7173d359eb3b8ac3bc02746d2e7fd642f",
       "first_discovered": "2026-10-13T02:38:55.023563+00:00",
-      "last_seen": "2026-10-13T02:38:55.023577+00:00",
-      "notified_hash": "d0160660a9d684cac94fd7c57ef85ca7173d359eb3b8ac3bc02746d2e7fd642f"
+      "last_seen": "2026-10-13T02:50:03.278192+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8140704": {
       "company": "Greenhouse: Cloudflare",
@@ -20045,8 +20201,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6847c25e7a624e126286e4eb97870fa55d7b776077fe0735c464431e37c7b247",
       "first_discovered": "2026-10-13T02:38:55.077502+00:00",
-      "last_seen": "2026-10-13T02:38:55.077516+00:00",
-      "notified_hash": "6847c25e7a624e126286e4eb97870fa55d7b776077fe0735c464431e37c7b247"
+      "last_seen": "2026-10-13T02:50:03.388216+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8030678": {
       "company": "Greenhouse: Cloudflare",
@@ -20065,8 +20223,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d7c540c431b8133a457863b68139bf1dd24cd215827b4ccc2939f0fe46a12a0c",
       "first_discovered": "2026-10-13T02:38:55.136106+00:00",
-      "last_seen": "2026-10-13T02:38:55.136118+00:00",
-      "notified_hash": "d7c540c431b8133a457863b68139bf1dd24cd215827b4ccc2939f0fe46a12a0c"
+      "last_seen": "2026-10-13T02:50:03.497990+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:6540163": {
       "company": "Greenhouse: Cloudflare",
@@ -20085,8 +20245,10 @@
       "sponsorship": "Available Locations Mexico City, Mexico Named Account Manager Mexico To the attention of candidates (Mexico City): V isa sponsorship is NOT provided for this position",
       "content_hash": "59f7f212415272492ffc1bd3def734eca7db5e5bf10696a7e2029599221fe0c2",
       "first_discovered": "2026-10-13T02:38:55.170351+00:00",
-      "last_seen": "2026-10-13T02:38:55.170365+00:00",
-      "notified_hash": "59f7f212415272492ffc1bd3def734eca7db5e5bf10696a7e2029599221fe0c2"
+      "last_seen": "2026-10-13T02:50:03.564747+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7868936": {
       "company": "Greenhouse: Cloudflare",
@@ -20105,8 +20267,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "150fcbf18f9b7dc8aa7dd1a3483dd0e10c707daf322dd6cc721feeefc86a98a4",
       "first_discovered": "2026-10-13T02:38:55.217246+00:00",
-      "last_seen": "2026-10-13T02:38:55.217255+00:00",
-      "notified_hash": "150fcbf18f9b7dc8aa7dd1a3483dd0e10c707daf322dd6cc721feeefc86a98a4"
+      "last_seen": "2026-10-13T02:50:03.648501+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8155946": {
       "company": "Greenhouse: Cloudflare",
@@ -20125,8 +20289,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6b32f6642bb3700e7ac56c9fedd3559b12a08dda84a70b0ba9b6fb9501392270",
       "first_discovered": "2026-10-13T02:38:55.264438+00:00",
-      "last_seen": "2026-10-13T02:38:55.264450+00:00",
-      "notified_hash": "6b32f6642bb3700e7ac56c9fedd3559b12a08dda84a70b0ba9b6fb9501392270"
+      "last_seen": "2026-10-13T02:50:03.732947+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7783835": {
       "company": "Greenhouse: Cloudflare",
@@ -20145,8 +20311,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8a2752c854a7dcaabeb2212c98625e3fbe1656a0496bc546ec5c73737434824d",
       "first_discovered": "2026-10-13T02:38:55.310335+00:00",
-      "last_seen": "2026-10-13T02:38:55.310346+00:00",
-      "notified_hash": "8a2752c854a7dcaabeb2212c98625e3fbe1656a0496bc546ec5c73737434824d"
+      "last_seen": "2026-10-13T02:50:03.816883+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8231630": {
       "company": "Greenhouse: Cloudflare",
@@ -20165,8 +20333,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "48d211c8d813183e26f17043670d57461d44f2f0a4144d86c14684b94f067c86",
       "first_discovered": "2026-10-13T02:38:55.362385+00:00",
-      "last_seen": "2026-10-13T02:38:55.362395+00:00",
-      "notified_hash": "48d211c8d813183e26f17043670d57461d44f2f0a4144d86c14684b94f067c86"
+      "last_seen": "2026-10-13T02:50:03.911064+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8153294": {
       "company": "Greenhouse: Cloudflare",
@@ -20185,8 +20355,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "818a866450803557e08e0d556227dbbb8e5a581ce1156f86430569d9b13d8fe7",
       "first_discovered": "2026-10-13T02:38:55.411161+00:00",
-      "last_seen": "2026-10-13T02:38:55.411172+00:00",
-      "notified_hash": "818a866450803557e08e0d556227dbbb8e5a581ce1156f86430569d9b13d8fe7"
+      "last_seen": "2026-10-13T02:50:03.997990+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8099671": {
       "company": "Greenhouse: Cloudflare",
@@ -20205,8 +20377,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "cdacdc1443a5fa10b2a673f3bb0d0cc197a3787d6d5dc8909ad129092af4110a",
       "first_discovered": "2026-10-13T02:38:55.466930+00:00",
-      "last_seen": "2026-10-13T02:38:55.466942+00:00",
-      "notified_hash": "cdacdc1443a5fa10b2a673f3bb0d0cc197a3787d6d5dc8909ad129092af4110a"
+      "last_seen": "2026-10-13T02:50:04.091323+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8088046": {
       "company": "Greenhouse: Cloudflare",
@@ -20225,8 +20399,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "bacc88ac9f51ae23982d3ec952b06d7cdc4ece4d5a94dcac41f71dea21351ee0",
       "first_discovered": "2026-10-13T02:38:55.530990+00:00",
-      "last_seen": "2026-10-13T02:38:55.531006+00:00",
-      "notified_hash": "bacc88ac9f51ae23982d3ec952b06d7cdc4ece4d5a94dcac41f71dea21351ee0"
+      "last_seen": "2026-10-13T02:50:04.185947+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8147174": {
       "company": "Greenhouse: Cloudflare",
@@ -20245,8 +20421,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "2e1070ed5766ef557caeeec0f9831b9338ce5a171583d55c05984eb586c20e60",
       "first_discovered": "2026-10-13T02:38:55.652659+00:00",
-      "last_seen": "2026-10-13T02:38:55.652676+00:00",
-      "notified_hash": "2e1070ed5766ef557caeeec0f9831b9338ce5a171583d55c05984eb586c20e60"
+      "last_seen": "2026-10-13T02:50:04.354572+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8081027": {
       "company": "Greenhouse: Cloudflare",
@@ -20267,8 +20445,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a2b0b48d7d3b939b2749c2bdcb205e481dddec597c52f1a5159c0a77ae0b70cf",
       "first_discovered": "2026-10-13T02:38:55.706448+00:00",
-      "last_seen": "2026-10-13T02:38:55.706462+00:00",
-      "notified_hash": "a2b0b48d7d3b939b2749c2bdcb205e481dddec597c52f1a5159c0a77ae0b70cf"
+      "last_seen": "2026-10-13T02:50:04.446912+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8185854": {
       "company": "Greenhouse: Cloudflare",
@@ -20287,8 +20467,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "940b36e1e24ac2140d98e1adcf0e579a0fc17d33819fe14d25188ab682d41735",
       "first_discovered": "2026-10-13T02:38:55.766630+00:00",
-      "last_seen": "2026-10-13T02:38:55.766645+00:00",
-      "notified_hash": "940b36e1e24ac2140d98e1adcf0e579a0fc17d33819fe14d25188ab682d41735"
+      "last_seen": "2026-10-13T02:50:04.549054+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8049820": {
       "company": "Greenhouse: Cloudflare",
@@ -20307,8 +20489,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9b184affcd05675155777affa53253311d171add261c01ce9273afef577ef41e",
       "first_discovered": "2026-10-13T02:38:55.832413+00:00",
-      "last_seen": "2026-10-13T02:38:55.832426+00:00",
-      "notified_hash": "9b184affcd05675155777affa53253311d171add261c01ce9273afef577ef41e"
+      "last_seen": "2026-10-13T02:50:04.663270+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8258111": {
       "company": "Greenhouse: Cloudflare",
@@ -20327,8 +20511,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "302810812fcf55404828cc30880fe600b3476ba5a0e2550634c00b9906fce762",
       "first_discovered": "2026-10-13T02:38:55.875190+00:00",
-      "last_seen": "2026-10-13T02:38:55.875204+00:00",
-      "notified_hash": "302810812fcf55404828cc30880fe600b3476ba5a0e2550634c00b9906fce762"
+      "last_seen": "2026-10-13T02:50:04.744457+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8214470": {
       "company": "Greenhouse: Cloudflare",
@@ -20347,8 +20533,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6b5c6b48ad825f96ef57c7f12c294cc5684a88e32ff11d39cc9aa0ad3801e1d9",
       "first_discovered": "2026-10-13T02:38:55.924879+00:00",
-      "last_seen": "2026-10-13T02:38:55.924891+00:00",
-      "notified_hash": "6b5c6b48ad825f96ef57c7f12c294cc5684a88e32ff11d39cc9aa0ad3801e1d9"
+      "last_seen": "2026-10-13T02:50:04.834859+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8143377": {
       "company": "Greenhouse: Cloudflare",
@@ -20367,8 +20555,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "94c9ad0b9ef90e7e6eeedcadb379d1b89276174a2755c244c8c08b80f908433e",
       "first_discovered": "2026-10-13T02:38:55.985713+00:00",
-      "last_seen": "2026-10-13T02:38:55.985726+00:00",
-      "notified_hash": "94c9ad0b9ef90e7e6eeedcadb379d1b89276174a2755c244c8c08b80f908433e"
+      "last_seen": "2026-10-13T02:50:04.946826+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8227192": {
       "company": "Greenhouse: Cloudflare",
@@ -20388,8 +20578,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "953d81449889f03dde4237c10b6a85b51d1167168426ca9254662c968b57ba6f",
       "first_discovered": "2026-10-13T02:38:56.121061+00:00",
-      "last_seen": "2026-10-13T02:38:56.121086+00:00",
-      "notified_hash": "953d81449889f03dde4237c10b6a85b51d1167168426ca9254662c968b57ba6f"
+      "last_seen": "2026-10-13T02:50:05.171022+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8223319": {
       "company": "Greenhouse: Cloudflare",
@@ -20408,8 +20600,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3ce99324daf756588dc7698d95176fc4870dd693fa21f3ab2db840c923df409d",
       "first_discovered": "2026-10-13T02:38:56.189051+00:00",
-      "last_seen": "2026-10-13T02:38:56.189064+00:00",
-      "notified_hash": "3ce99324daf756588dc7698d95176fc4870dd693fa21f3ab2db840c923df409d"
+      "last_seen": "2026-10-13T02:50:05.282379+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8185549": {
       "company": "Greenhouse: Cloudflare",
@@ -20428,8 +20622,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "bf92a522df8bd705f5565d1444d844a0d14853efd3f0cedac17e4fd35a8713de",
       "first_discovered": "2026-10-13T02:38:56.253512+00:00",
-      "last_seen": "2026-10-13T02:38:56.253525+00:00",
-      "notified_hash": "bf92a522df8bd705f5565d1444d844a0d14853efd3f0cedac17e4fd35a8713de"
+      "last_seen": "2026-10-13T02:50:05.387325+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7967144": {
       "company": "Greenhouse: Cloudflare",
@@ -20448,8 +20644,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c1176e8eccf28bcbbf11b4e1ce5fff0120d46977ea486f1fb9b2783d865c12d4",
       "first_discovered": "2026-10-13T02:38:56.315909+00:00",
-      "last_seen": "2026-10-13T02:38:56.315923+00:00",
-      "notified_hash": "c1176e8eccf28bcbbf11b4e1ce5fff0120d46977ea486f1fb9b2783d865c12d4"
+      "last_seen": "2026-10-13T02:50:05.662355+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8200786": {
       "company": "Greenhouse: Cloudflare",
@@ -20468,8 +20666,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "78429d96936af5f159463b7fec341f6067425084e2bb7dc359252575c50dc591",
       "first_discovered": "2026-10-13T02:38:56.380199+00:00",
-      "last_seen": "2026-10-13T02:38:56.380211+00:00",
-      "notified_hash": "78429d96936af5f159463b7fec341f6067425084e2bb7dc359252575c50dc591"
+      "last_seen": "2026-10-13T02:50:05.492021+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8188337": {
       "company": "Greenhouse: Cloudflare",
@@ -20488,8 +20688,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d3668c39e971a86253592ce0d671ecb4e1c63d0b8acd26cc11f345c01c951403",
       "first_discovered": "2026-10-13T02:38:56.449741+00:00",
-      "last_seen": "2026-10-13T02:38:56.449756+00:00",
-      "notified_hash": "d3668c39e971a86253592ce0d671ecb4e1c63d0b8acd26cc11f345c01c951403"
+      "last_seen": "2026-10-13T02:50:05.929212+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8175615": {
       "company": "Greenhouse: Cloudflare",
@@ -20509,8 +20711,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9c337f652ec43ca1055e946484dd6aeb7e2c43c1aba288594c15e8953d07d3cc",
       "first_discovered": "2026-10-13T02:38:56.512288+00:00",
-      "last_seen": "2026-10-13T02:38:56.512302+00:00",
-      "notified_hash": "9c337f652ec43ca1055e946484dd6aeb7e2c43c1aba288594c15e8953d07d3cc"
+      "last_seen": "2026-10-13T02:50:06.187552+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8232768": {
       "company": "Greenhouse: Cloudflare",
@@ -20529,8 +20733,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4f29b2c4cc22644dc900c776da49edeea474337acb0c90483ca00aa4b3243dec",
       "first_discovered": "2026-10-13T02:38:56.585211+00:00",
-      "last_seen": "2026-10-13T02:38:56.585225+00:00",
-      "notified_hash": "4f29b2c4cc22644dc900c776da49edeea474337acb0c90483ca00aa4b3243dec"
+      "last_seen": "2026-10-13T02:50:06.475639+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8023395": {
       "company": "Greenhouse: Cloudflare",
@@ -20549,8 +20755,10 @@
       "sponsorship": "Available Locations: Austin, TX (US), London (UK) About the role Cloudforce One is Cloudflare's threat operations and research team, responsible for identifying and disrupting cyber threats ranging from sophisticated cyber criminal activity to nation-state sponsored advanced persistent threats (APTs)",
       "content_hash": "a9430883ab2967e906ff7779557a7b76f245bacbffdf3520b638a61e12de15af",
       "first_discovered": "2026-10-13T02:38:56.628720+00:00",
-      "last_seen": "2026-10-13T02:38:56.628735+00:00",
-      "notified_hash": "a9430883ab2967e906ff7779557a7b76f245bacbffdf3520b638a61e12de15af"
+      "last_seen": "2026-10-13T02:50:06.750464+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8054669": {
       "company": "Greenhouse: Cloudflare",
@@ -20569,8 +20777,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4e0ca16ac6f4fea8d185b6a7bea072bdb2d8f35529f1841588a56d7e44999dd0",
       "first_discovered": "2026-10-13T02:38:56.683560+00:00",
-      "last_seen": "2026-10-13T02:38:56.683573+00:00",
-      "notified_hash": "4e0ca16ac6f4fea8d185b6a7bea072bdb2d8f35529f1841588a56d7e44999dd0"
+      "last_seen": "2026-10-13T02:50:07.023193+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8157770": {
       "company": "Greenhouse: Cloudflare",
@@ -20589,8 +20799,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f7622f190231487216eee0671b5b06033bd7d732ef9c1ae13b76a8a1c762f5d0",
       "first_discovered": "2026-10-13T02:38:56.739591+00:00",
-      "last_seen": "2026-10-13T02:38:56.739604+00:00",
-      "notified_hash": "f7622f190231487216eee0671b5b06033bd7d732ef9c1ae13b76a8a1c762f5d0"
+      "last_seen": "2026-10-13T02:50:07.310486+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7817793": {
       "company": "Greenhouse: Cloudflare",
@@ -20609,8 +20821,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "87142a018db88774ec240aa48831f7f8621694322d82c1c27f30e3f2d29035e2",
       "first_discovered": "2026-10-13T02:38:56.783709+00:00",
-      "last_seen": "2026-10-13T02:38:56.783722+00:00",
-      "notified_hash": "87142a018db88774ec240aa48831f7f8621694322d82c1c27f30e3f2d29035e2"
+      "last_seen": "2026-10-13T02:50:07.543206+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8195510": {
       "company": "Greenhouse: Cloudflare",
@@ -20629,8 +20843,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "fe9911845532e2ab11664340690f9c932871131afcd8d90753f14e20658d5053",
       "first_discovered": "2026-10-13T02:38:56.837114+00:00",
-      "last_seen": "2026-10-13T02:38:56.837126+00:00",
-      "notified_hash": "fe9911845532e2ab11664340690f9c932871131afcd8d90753f14e20658d5053"
+      "last_seen": "2026-10-13T02:50:07.799695+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8161251": {
       "company": "Greenhouse: Cloudflare",
@@ -20649,8 +20865,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1fc2b77ed6c1fd6905e474f9fb94f46e685cfe42d7161ff1153589a7ba98c94c",
       "first_discovered": "2026-10-13T02:38:56.888602+00:00",
-      "last_seen": "2026-10-13T02:38:56.888616+00:00",
-      "notified_hash": "1fc2b77ed6c1fd6905e474f9fb94f46e685cfe42d7161ff1153589a7ba98c94c"
+      "last_seen": "2026-10-13T02:50:08.069823+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8225546": {
       "company": "Greenhouse: Cloudflare",
@@ -20670,8 +20888,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1857145e5e38fac12d64c6416519fa8d0a16efc4e3e140276da84d134ea98079",
       "first_discovered": "2026-10-13T02:38:56.947703+00:00",
-      "last_seen": "2026-10-13T02:38:56.947717+00:00",
-      "notified_hash": "1857145e5e38fac12d64c6416519fa8d0a16efc4e3e140276da84d134ea98079"
+      "last_seen": "2026-10-13T02:50:08.332965+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172554": {
       "company": "Greenhouse: Cloudflare",
@@ -20691,8 +20911,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "50956500b78506ca2aff3075ae7939aff66dad10727f0d1b4aeb6d079f2081be",
       "first_discovered": "2026-10-13T02:38:57.006738+00:00",
-      "last_seen": "2026-10-13T02:38:57.006752+00:00",
-      "notified_hash": "50956500b78506ca2aff3075ae7939aff66dad10727f0d1b4aeb6d079f2081be"
+      "last_seen": "2026-10-13T02:50:08.592130+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8024889": {
       "company": "Greenhouse: Cloudflare",
@@ -20711,8 +20933,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7ba6ccea5e7e8ee5c48694f5853d5eef748c9277af2586a02e9ef477ba5e8cfa",
       "first_discovered": "2026-10-13T02:38:57.066676+00:00",
-      "last_seen": "2026-10-13T02:38:57.066690+00:00",
-      "notified_hash": "7ba6ccea5e7e8ee5c48694f5853d5eef748c9277af2586a02e9ef477ba5e8cfa"
+      "last_seen": "2026-10-13T02:50:08.870022+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7567848": {
       "company": "Greenhouse: Cloudflare",
@@ -20732,8 +20956,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d0ee922496ff9cba243226215bf7f0883d3355081d8e067b0de34a8cc493849a",
       "first_discovered": "2026-10-13T02:38:57.125393+00:00",
-      "last_seen": "2026-10-13T02:38:57.125408+00:00",
-      "notified_hash": "d0ee922496ff9cba243226215bf7f0883d3355081d8e067b0de34a8cc493849a"
+      "last_seen": "2026-10-13T02:50:09.152479+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7956845": {
       "company": "Greenhouse: Cloudflare",
@@ -20752,8 +20978,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ffb8f64548fde8bde87a2591821542ef988ae7401b4005fcbc172152c533cf64",
       "first_discovered": "2026-10-13T02:38:57.186868+00:00",
-      "last_seen": "2026-10-13T02:38:57.186882+00:00",
-      "notified_hash": "ffb8f64548fde8bde87a2591821542ef988ae7401b4005fcbc172152c533cf64"
+      "last_seen": "2026-10-13T02:50:09.278025+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8038898": {
       "company": "Greenhouse: Cloudflare",
@@ -20772,8 +21000,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a1a1a4365f666a3d7b5169d0ce1b4ffd16a4a045e7d25ae0cfaed1e6c0f782cb",
       "first_discovered": "2026-10-13T02:38:57.251248+00:00",
-      "last_seen": "2026-10-13T02:38:57.251263+00:00",
-      "notified_hash": "a1a1a4365f666a3d7b5169d0ce1b4ffd16a4a045e7d25ae0cfaed1e6c0f782cb"
+      "last_seen": "2026-10-13T02:50:09.406805+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8155495": {
       "company": "Greenhouse: Cloudflare",
@@ -20792,8 +21022,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "97d29b4a03a968afd7ce55c230c3025262784813910192c10ccc06123dc1ac00",
       "first_discovered": "2026-10-13T02:38:57.311418+00:00",
-      "last_seen": "2026-10-13T02:38:57.311435+00:00",
-      "notified_hash": "97d29b4a03a968afd7ce55c230c3025262784813910192c10ccc06123dc1ac00"
+      "last_seen": "2026-10-13T02:50:09.587006+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8055320": {
       "company": "Greenhouse: Cloudflare",
@@ -20812,8 +21044,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4ee98f183bd9c2cdbc28d2775b26c30b369c8183baadb7f027bd63fd90c11fd6",
       "first_discovered": "2026-10-13T02:38:57.364289+00:00",
-      "last_seen": "2026-10-13T02:38:57.364307+00:00",
-      "notified_hash": "4ee98f183bd9c2cdbc28d2775b26c30b369c8183baadb7f027bd63fd90c11fd6"
+      "last_seen": "2026-10-13T02:50:09.709396+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8179387": {
       "company": "Greenhouse: Cloudflare",
@@ -20832,8 +21066,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "14ccc445b83686fbf173db88d446e4aa33d22469dc79023f86b6e99c6258b5ed",
       "first_discovered": "2026-10-13T02:38:57.422357+00:00",
-      "last_seen": "2026-10-13T02:38:57.422374+00:00",
-      "notified_hash": "14ccc445b83686fbf173db88d446e4aa33d22469dc79023f86b6e99c6258b5ed"
+      "last_seen": "2026-10-13T02:50:09.818436+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8131824": {
       "company": "Greenhouse: Cloudflare",
@@ -20852,8 +21088,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0894b5462e06d77c7a7da7296be1ba23453ba247e73bfe7d40a53240eb26ea3b",
       "first_discovered": "2026-10-13T02:38:57.480040+00:00",
-      "last_seen": "2026-10-13T02:38:57.480056+00:00",
-      "notified_hash": "0894b5462e06d77c7a7da7296be1ba23453ba247e73bfe7d40a53240eb26ea3b"
+      "last_seen": "2026-10-13T02:50:09.928438+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8219990": {
       "company": "Greenhouse: Cloudflare",
@@ -20872,8 +21110,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7d03af59d872fc670b678781d766b1a3b61e0d4c4fb098daa55b63031f514bd5",
       "first_discovered": "2026-10-13T02:38:57.538952+00:00",
-      "last_seen": "2026-10-13T02:38:57.538969+00:00",
-      "notified_hash": "7d03af59d872fc670b678781d766b1a3b61e0d4c4fb098daa55b63031f514bd5"
+      "last_seen": "2026-10-13T02:50:10.056169+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8116208": {
       "company": "Greenhouse: Cloudflare",
@@ -20892,8 +21132,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "85d306da920bb9168381a23accc0f142258913c9476a61de9600d59e904f84fc",
       "first_discovered": "2026-10-13T02:38:57.590838+00:00",
-      "last_seen": "2026-10-13T02:38:57.590854+00:00",
-      "notified_hash": "85d306da920bb9168381a23accc0f142258913c9476a61de9600d59e904f84fc"
+      "last_seen": "2026-10-13T02:50:10.153724+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8242904": {
       "company": "Greenhouse: Cloudflare",
@@ -20912,8 +21154,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "78e8539090bbf37b825604d784b934fd15cf3b6caae45fde231a55959b8363a0",
       "first_discovered": "2026-10-13T02:38:57.653840+00:00",
-      "last_seen": "2026-10-13T02:38:57.653857+00:00",
-      "notified_hash": "78e8539090bbf37b825604d784b934fd15cf3b6caae45fde231a55959b8363a0"
+      "last_seen": "2026-10-13T02:50:10.262791+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8102768": {
       "company": "Greenhouse: Cloudflare",
@@ -20932,8 +21176,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c58d110ce152eb3b83e51ed59db55c09fb30af92dde944cbc1b60f8bb280acb1",
       "first_discovered": "2026-10-13T02:38:57.709622+00:00",
-      "last_seen": "2026-10-13T02:38:57.709639+00:00",
-      "notified_hash": "c58d110ce152eb3b83e51ed59db55c09fb30af92dde944cbc1b60f8bb280acb1"
+      "last_seen": "2026-10-13T02:50:10.362474+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8079544": {
       "company": "Greenhouse: Cloudflare",
@@ -20952,8 +21198,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "733a9db2d3b9aea34fa7eb153d7f0aac22bd4a67289d0bf79d01814fb61ae409",
       "first_discovered": "2026-10-13T02:38:57.763788+00:00",
-      "last_seen": "2026-10-13T02:38:57.763803+00:00",
-      "notified_hash": "733a9db2d3b9aea34fa7eb153d7f0aac22bd4a67289d0bf79d01814fb61ae409"
+      "last_seen": "2026-10-13T02:50:10.461098+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8267826": {
       "company": "Greenhouse: Cloudflare",
@@ -20972,8 +21220,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "752aa7f42931fb38cbe4ff761f7433e0a8f1500d5a0cd5e9f6b099f481cc1aa3",
       "first_discovered": "2026-10-13T02:38:57.815950+00:00",
-      "last_seen": "2026-10-13T02:38:57.815965+00:00",
-      "notified_hash": "752aa7f42931fb38cbe4ff761f7433e0a8f1500d5a0cd5e9f6b099f481cc1aa3"
+      "last_seen": "2026-10-13T02:50:10.552010+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8099018": {
       "company": "Greenhouse: Cloudflare",
@@ -20992,8 +21242,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c22ebadd97d490d724c589bb3a73149d3967d2a5db4a25891d5644818dc1c413",
       "first_discovered": "2026-10-13T02:38:57.862747+00:00",
-      "last_seen": "2026-10-13T02:38:57.862762+00:00",
-      "notified_hash": "c22ebadd97d490d724c589bb3a73149d3967d2a5db4a25891d5644818dc1c413"
+      "last_seen": "2026-10-13T02:50:10.630915+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8180488": {
       "company": "Greenhouse: Cloudflare",
@@ -21012,8 +21264,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "092df85e48b5b24ad952cf495efe06f0640495e1a24d39b06b8a1ecdb99e3196",
       "first_discovered": "2026-10-13T02:38:57.907848+00:00",
-      "last_seen": "2026-10-13T02:38:57.907863+00:00",
-      "notified_hash": "092df85e48b5b24ad952cf495efe06f0640495e1a24d39b06b8a1ecdb99e3196"
+      "last_seen": "2026-10-13T02:50:10.713232+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8204795": {
       "company": "Greenhouse: Cloudflare",
@@ -21032,8 +21286,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9d6617ee0361540f477b61e717d9b441272fc887b34d27052c3dd8b41f1d793b",
       "first_discovered": "2026-10-13T02:38:57.958493+00:00",
-      "last_seen": "2026-10-13T02:38:57.958507+00:00",
-      "notified_hash": "9d6617ee0361540f477b61e717d9b441272fc887b34d27052c3dd8b41f1d793b"
+      "last_seen": "2026-10-13T02:50:10.800924+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8222732": {
       "company": "Greenhouse: Cloudflare",
@@ -21052,8 +21308,10 @@
       "sponsorship": "Available Locations: London, United Kingdom About the Department Cloudforce One is Cloudflare's threat operations and research team, responsible for identifying and disrupting cyber threats ranging from sophisticated cyber criminal activity to nation-state sponsored advanced persistent threats (APTs)",
       "content_hash": "54d0cb3410129b6f559a081de55d3226e8cb114872cbc12f562f52cd8ab7543f",
       "first_discovered": "2026-10-13T02:38:58.000420+00:00",
-      "last_seen": "2026-10-13T02:38:58.000433+00:00",
-      "notified_hash": "54d0cb3410129b6f559a081de55d3226e8cb114872cbc12f562f52cd8ab7543f"
+      "last_seen": "2026-10-13T02:50:10.876020+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8222614": {
       "company": "Greenhouse: Cloudflare",
@@ -21072,8 +21330,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "290182d5326a197545416df9c6466b9ae053c73785ece25d34cfd6c85f34c16c",
       "first_discovered": "2026-10-13T02:38:58.063644+00:00",
-      "last_seen": "2026-10-13T02:38:58.063659+00:00",
-      "notified_hash": "290182d5326a197545416df9c6466b9ae053c73785ece25d34cfd6c85f34c16c"
+      "last_seen": "2026-10-13T02:50:10.983651+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8203600": {
       "company": "Greenhouse: Cloudflare",
@@ -21093,8 +21353,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d27f2664007c61db731d67c99d794193aaa531af195e359f7762e719a17e8d74",
       "first_discovered": "2026-10-13T02:38:58.149860+00:00",
-      "last_seen": "2026-10-13T02:38:58.149873+00:00",
-      "notified_hash": "d27f2664007c61db731d67c99d794193aaa531af195e359f7762e719a17e8d74"
+      "last_seen": "2026-10-13T02:50:11.121154+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8124227": {
       "company": "Greenhouse: Cloudflare",
@@ -21113,8 +21375,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "945587d06f760b9a349f93f78e16d0e7471034cec4df3babb4edf5e655f5f560",
       "first_discovered": "2026-10-13T02:38:58.199579+00:00",
-      "last_seen": "2026-10-13T02:38:58.199592+00:00",
-      "notified_hash": "945587d06f760b9a349f93f78e16d0e7471034cec4df3babb4edf5e655f5f560"
+      "last_seen": "2026-10-13T02:50:11.230923+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8097869": {
       "company": "Greenhouse: Cloudflare",
@@ -21134,8 +21398,10 @@
       "sponsorship": "Available Locations Santiago, Chile About the Role To the attention of candidates of Chile: V isa sponsorship is NOT provided for this position",
       "content_hash": "5cbe927a0f118750d9364e9b24d292fcd8427748259c6bead48791678ee44313",
       "first_discovered": "2026-10-13T02:38:58.234807+00:00",
-      "last_seen": "2026-10-13T02:38:58.234819+00:00",
-      "notified_hash": "5cbe927a0f118750d9364e9b24d292fcd8427748259c6bead48791678ee44313"
+      "last_seen": "2026-10-13T02:50:11.772892+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8097852": {
       "company": "Greenhouse: Cloudflare",
@@ -21155,8 +21421,10 @@
       "sponsorship": "Available Locations Bogot\u00e1, Colombia About the Role To the attention of candidates in Colombia: V isa sponsorship is NOT provided for this position",
       "content_hash": "01d5a84dc9bc5d513b134aa41f48c533ce8b7f1ba842debfde9332c12e16a60a",
       "first_discovered": "2026-10-13T02:38:58.270060+00:00",
-      "last_seen": "2026-10-13T02:38:58.270084+00:00",
-      "notified_hash": "01d5a84dc9bc5d513b134aa41f48c533ce8b7f1ba842debfde9332c12e16a60a"
+      "last_seen": "2026-10-13T02:50:12.073181+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8241905": {
       "company": "Greenhouse: Cloudflare",
@@ -21176,8 +21444,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6fcfd275e50b8985d21f67877f23e91fd372c1e7c30f234d67c19b78d108c601",
       "first_discovered": "2026-10-13T02:38:58.321904+00:00",
-      "last_seen": "2026-10-13T02:38:58.321917+00:00",
-      "notified_hash": "6fcfd275e50b8985d21f67877f23e91fd372c1e7c30f234d67c19b78d108c601"
+      "last_seen": "2026-10-13T02:50:12.445601+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8213265": {
       "company": "Greenhouse: Cloudflare",
@@ -21196,8 +21466,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9c73c1da0b53429d88a5276a43d3ff8c94219f55f824dec9023bbf05382fa2ce",
       "first_discovered": "2026-10-13T02:38:58.378416+00:00",
-      "last_seen": "2026-10-13T02:38:58.378429+00:00",
-      "notified_hash": "9c73c1da0b53429d88a5276a43d3ff8c94219f55f824dec9023bbf05382fa2ce"
+      "last_seen": "2026-10-13T02:50:12.546630+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7681220": {
       "company": "Greenhouse: Cloudflare",
@@ -21216,8 +21488,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c5c6c9da8408783fecc3dc26c65b733a7d7c4839fb74a0a86d54b0541fa1328a",
       "first_discovered": "2026-10-13T02:38:58.437433+00:00",
-      "last_seen": "2026-10-13T02:38:58.437448+00:00",
-      "notified_hash": "c5c6c9da8408783fecc3dc26c65b733a7d7c4839fb74a0a86d54b0541fa1328a"
+      "last_seen": "2026-10-13T02:50:12.647184+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8015719": {
       "company": "Greenhouse: Cloudflare",
@@ -21236,8 +21510,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9bdb80ec126a31cf1e929d4aa924a5019eac8c09b41315cec6a7e39954fa4c4f",
       "first_discovered": "2026-10-13T02:38:58.497953+00:00",
-      "last_seen": "2026-10-13T02:38:58.497967+00:00",
-      "notified_hash": "9bdb80ec126a31cf1e929d4aa924a5019eac8c09b41315cec6a7e39954fa4c4f"
+      "last_seen": "2026-10-13T02:50:12.756077+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8130735": {
       "company": "Greenhouse: Cloudflare",
@@ -21256,8 +21532,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "69baf4b819ab90da60becfb273044f75a08e2825c954519b61bbfc0cae0209d5",
       "first_discovered": "2026-10-13T02:38:58.558277+00:00",
-      "last_seen": "2026-10-13T02:38:58.558292+00:00",
-      "notified_hash": "69baf4b819ab90da60becfb273044f75a08e2825c954519b61bbfc0cae0209d5"
+      "last_seen": "2026-10-13T02:50:12.864465+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8220060": {
       "company": "Greenhouse: Cloudflare",
@@ -21276,8 +21554,10 @@
       "sponsorship": "Proactively apply executive sponsorship programs, ensuring direct engagement and influence with CEOs, CFOs, and Board Members",
       "content_hash": "13965f44f1e39f5fe3fd7d8959539984f1d0142e242e3ec1cfc613d1444cbe33",
       "first_discovered": "2026-10-13T02:38:58.610712+00:00",
-      "last_seen": "2026-10-13T02:38:58.610728+00:00",
-      "notified_hash": "13965f44f1e39f5fe3fd7d8959539984f1d0142e242e3ec1cfc613d1444cbe33"
+      "last_seen": "2026-10-13T02:50:12.954192+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8220063": {
       "company": "Greenhouse: Cloudflare",
@@ -21296,8 +21576,10 @@
       "sponsorship": "Proactively apply executive sponsorship programs, ensuring direct engagement and influence with CEOs, CFOs, and Board Members",
       "content_hash": "fd3347b19fa1308093a0961f8fa328adb7b24f1a1efdfca9cc18f79dd13633c5",
       "first_discovered": "2026-10-13T02:38:58.661801+00:00",
-      "last_seen": "2026-10-13T02:38:58.661816+00:00",
-      "notified_hash": "fd3347b19fa1308093a0961f8fa328adb7b24f1a1efdfca9cc18f79dd13633c5"
+      "last_seen": "2026-10-13T02:50:13.050100+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8222299": {
       "company": "Greenhouse: Cloudflare",
@@ -21316,8 +21598,10 @@
       "sponsorship": "Proactively apply executive sponsorship programs, ensuring direct engagement and influence with CEOs, CFOs, and Board Members",
       "content_hash": "13ef4771dd466936c22f296cf63704d7d5c4dbff3d6c9cf514e3e5f732a52eab",
       "first_discovered": "2026-10-13T02:38:58.713190+00:00",
-      "last_seen": "2026-10-13T02:38:58.713205+00:00",
-      "notified_hash": "13ef4771dd466936c22f296cf63704d7d5c4dbff3d6c9cf514e3e5f732a52eab"
+      "last_seen": "2026-10-13T02:50:13.136081+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8213269": {
       "company": "Greenhouse: Cloudflare",
@@ -21336,8 +21620,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0d436077d0b26372890c71734e098537e51ef11be5e3d26398c17d05ccb57681",
       "first_discovered": "2026-10-13T02:38:58.770846+00:00",
-      "last_seen": "2026-10-13T02:38:58.770861+00:00",
-      "notified_hash": "0d436077d0b26372890c71734e098537e51ef11be5e3d26398c17d05ccb57681"
+      "last_seen": "2026-10-13T02:50:13.233807+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8263503": {
       "company": "Greenhouse: Cloudflare",
@@ -21356,8 +21642,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "348155a388d29cc2f0a10555f00182aaa3213979d521378143cc3690207e1f88",
       "first_discovered": "2026-10-13T02:38:58.824779+00:00",
-      "last_seen": "2026-10-13T02:38:58.824794+00:00",
-      "notified_hash": "348155a388d29cc2f0a10555f00182aaa3213979d521378143cc3690207e1f88"
+      "last_seen": "2026-10-13T02:50:13.324843+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7534033": {
       "company": "Greenhouse: Cloudflare",
@@ -21377,8 +21665,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a2f83bd203ba4eaa019fa5152b00269ad0e55afe3059648134559e84e65042da",
       "first_discovered": "2026-10-13T02:38:58.878153+00:00",
-      "last_seen": "2026-10-13T02:38:58.878167+00:00",
-      "notified_hash": "a2f83bd203ba4eaa019fa5152b00269ad0e55afe3059648134559e84e65042da"
+      "last_seen": "2026-10-13T02:50:13.471656+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8226000": {
       "company": "Greenhouse: Cloudflare",
@@ -21397,8 +21687,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0da57d8dde3eb0df093db1f1dc32160986477d5587ea101914e31b099bfadd86",
       "first_discovered": "2026-10-13T02:38:58.937365+00:00",
-      "last_seen": "2026-10-13T02:38:58.937381+00:00",
-      "notified_hash": "0da57d8dde3eb0df093db1f1dc32160986477d5587ea101914e31b099bfadd86"
+      "last_seen": "2026-10-13T02:50:13.799982+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8059775": {
       "company": "Greenhouse: Cloudflare",
@@ -21417,8 +21709,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a94165253958c3aff9a733b87b2fa0ecb71c9a1f5ce61adfbee20a9ea57726a1",
       "first_discovered": "2026-10-13T02:38:59.009109+00:00",
-      "last_seen": "2026-10-13T02:38:59.009124+00:00",
-      "notified_hash": "a94165253958c3aff9a733b87b2fa0ecb71c9a1f5ce61adfbee20a9ea57726a1"
+      "last_seen": "2026-10-13T02:50:13.952264+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8075795": {
       "company": "Greenhouse: Cloudflare",
@@ -21437,8 +21731,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ae358c7d9aa6adba37967792eb06523fd901bf1a70ff7fd94ce097e4a407a0ac",
       "first_discovered": "2026-10-13T02:38:59.145969+00:00",
-      "last_seen": "2026-10-13T02:38:59.145987+00:00",
-      "notified_hash": "ae358c7d9aa6adba37967792eb06523fd901bf1a70ff7fd94ce097e4a407a0ac"
+      "last_seen": "2026-10-13T02:50:14.062586+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8174249": {
       "company": "Greenhouse: Cloudflare",
@@ -21457,8 +21753,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e9c8cef1b8efa57800311c469de2dfd2529d811d61530bacd747c85ece8a706a",
       "first_discovered": "2026-10-13T02:38:59.193333+00:00",
-      "last_seen": "2026-10-13T02:38:59.193356+00:00",
-      "notified_hash": "e9c8cef1b8efa57800311c469de2dfd2529d811d61530bacd747c85ece8a706a"
+      "last_seen": "2026-10-13T02:50:14.144996+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8226556": {
       "company": "Greenhouse: Cloudflare",
@@ -21477,8 +21775,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "84e205c2ce86cc36d54016488dfa5660d4343cd1fa22194e834569e404739ba9",
       "first_discovered": "2026-10-13T02:38:59.268168+00:00",
-      "last_seen": "2026-10-13T02:38:59.268185+00:00",
-      "notified_hash": "84e205c2ce86cc36d54016488dfa5660d4343cd1fa22194e834569e404739ba9"
+      "last_seen": "2026-10-13T02:50:14.258332+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8158617": {
       "company": "Greenhouse: Cloudflare",
@@ -21498,8 +21798,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8a89378449fd1eb8609681e1111c4aa3e031dbabb7dce46eb0053edbd6869d27",
       "first_discovered": "2026-10-13T02:38:59.334087+00:00",
-      "last_seen": "2026-10-13T02:38:59.334103+00:00",
-      "notified_hash": "8a89378449fd1eb8609681e1111c4aa3e031dbabb7dce46eb0053edbd6869d27"
+      "last_seen": "2026-10-13T02:50:14.367853+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8158614": {
       "company": "Greenhouse: Cloudflare",
@@ -21519,8 +21821,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "028ef0b9e829cc8988bffc483616c2153fdfb2b1b4890e853acfa94880018f62",
       "first_discovered": "2026-10-13T02:38:59.399254+00:00",
-      "last_seen": "2026-10-13T02:38:59.399269+00:00",
-      "notified_hash": "028ef0b9e829cc8988bffc483616c2153fdfb2b1b4890e853acfa94880018f62"
+      "last_seen": "2026-10-13T02:50:14.478538+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8080187": {
       "company": "Greenhouse: Cloudflare",
@@ -21539,8 +21843,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0a736c5d8e581d602573779168077b92a6ed4a66648aad3fd33807d900559dfc",
       "first_discovered": "2026-10-13T02:38:59.507645+00:00",
-      "last_seen": "2026-10-13T02:38:59.507664+00:00",
-      "notified_hash": "0a736c5d8e581d602573779168077b92a6ed4a66648aad3fd33807d900559dfc"
+      "last_seen": "2026-10-13T02:50:14.650295+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8147190": {
       "company": "Greenhouse: Cloudflare",
@@ -21559,8 +21865,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "eed3209abee095d6f76c00ef9bc7e70fa69d6ae6ace6bb84df118f95a6fb5694",
       "first_discovered": "2026-10-13T02:38:59.563609+00:00",
-      "last_seen": "2026-10-13T02:38:59.563626+00:00",
-      "notified_hash": "eed3209abee095d6f76c00ef9bc7e70fa69d6ae6ace6bb84df118f95a6fb5694"
+      "last_seen": "2026-10-13T02:50:14.740464+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8077614": {
       "company": "Greenhouse: Cloudflare",
@@ -21579,8 +21887,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ef0146109fd2d5d8ea177210e8999a8ec52293025da9f7d27b32cd9ab9f66569",
       "first_discovered": "2026-10-13T02:38:59.676222+00:00",
-      "last_seen": "2026-10-13T02:38:59.676240+00:00",
-      "notified_hash": "ef0146109fd2d5d8ea177210e8999a8ec52293025da9f7d27b32cd9ab9f66569"
+      "last_seen": "2026-10-13T02:50:14.915804+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8126829": {
       "company": "Greenhouse: Cloudflare",
@@ -21599,8 +21909,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0cfa2aae13e246e6ea3ee56a423f3dae56abe69e3eb9dadba10e97f7f039f40c",
       "first_discovered": "2026-10-13T02:38:59.744449+00:00",
-      "last_seen": "2026-10-13T02:38:59.744466+00:00",
-      "notified_hash": "0cfa2aae13e246e6ea3ee56a423f3dae56abe69e3eb9dadba10e97f7f039f40c"
+      "last_seen": "2026-10-13T02:50:15.060777+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8097947": {
       "company": "Greenhouse: Cloudflare",
@@ -21619,8 +21931,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "95f56c5ef410dc7ef357ffc24a173c42cbebbda7aed56b5dabe0e0c8a0920df3",
       "first_discovered": "2026-10-13T02:38:59.798152+00:00",
-      "last_seen": "2026-10-13T02:38:59.798169+00:00",
-      "notified_hash": "95f56c5ef410dc7ef357ffc24a173c42cbebbda7aed56b5dabe0e0c8a0920df3"
+      "last_seen": "2026-10-13T02:50:15.149799+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8239175": {
       "company": "Greenhouse: Cloudflare",
@@ -21640,8 +21954,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e6f145337d16c8c6ef4cb4ee4725c5d2b64fc99dfbb230398a420f412c4ffe21",
       "first_discovered": "2026-10-13T02:38:59.863546+00:00",
-      "last_seen": "2026-10-13T02:38:59.863564+00:00",
-      "notified_hash": "e6f145337d16c8c6ef4cb4ee4725c5d2b64fc99dfbb230398a420f412c4ffe21"
+      "last_seen": "2026-10-13T02:50:15.257693+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8146536": {
       "company": "Greenhouse: Cloudflare",
@@ -21660,8 +21976,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b8c56ffc624b840c46d9afcf73ef423f3a87570efc51e11da80e108c01c574e0",
       "first_discovered": "2026-10-13T02:38:59.917392+00:00",
-      "last_seen": "2026-10-13T02:38:59.917408+00:00",
-      "notified_hash": "b8c56ffc624b840c46d9afcf73ef423f3a87570efc51e11da80e108c01c574e0"
+      "last_seen": "2026-10-13T02:50:15.352108+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8071586": {
       "company": "Greenhouse: Cloudflare",
@@ -21680,8 +21998,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1f91c01108eac9ffb8b27e45c96b6431bcf2dd30fb8170059805f8d23bea2dae",
       "first_discovered": "2026-10-13T02:38:59.992404+00:00",
-      "last_seen": "2026-10-13T02:38:59.992423+00:00",
-      "notified_hash": "1f91c01108eac9ffb8b27e45c96b6431bcf2dd30fb8170059805f8d23bea2dae"
+      "last_seen": "2026-10-13T02:50:15.468357+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172246": {
       "company": "Greenhouse: Cloudflare",
@@ -21700,8 +22020,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "01ddcb6a5bfb4c0b813ffecbb77e9ebbd0af4d2512b937dd9bb2359dc2761f3b",
       "first_discovered": "2026-10-13T02:39:00.071417+00:00",
-      "last_seen": "2026-10-13T02:39:00.071435+00:00",
-      "notified_hash": "01ddcb6a5bfb4c0b813ffecbb77e9ebbd0af4d2512b937dd9bb2359dc2761f3b"
+      "last_seen": "2026-10-13T02:50:15.594586+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8078323": {
       "company": "Greenhouse: Cloudflare",
@@ -21720,8 +22042,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "2af0839dcadc8dbaa6005d300741533a8caa3b96d9aaec3e46ca593eef9c5ec4",
       "first_discovered": "2026-10-13T02:39:00.150479+00:00",
-      "last_seen": "2026-10-13T02:39:00.150495+00:00",
-      "notified_hash": "2af0839dcadc8dbaa6005d300741533a8caa3b96d9aaec3e46ca593eef9c5ec4"
+      "last_seen": "2026-10-13T02:50:15.717661+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7980647": {
       "company": "Greenhouse: Cloudflare",
@@ -21740,8 +22064,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d3ba1fcb970db2b512f3d891ac8d463cd37ad500843db209aeb64d5bab0c8c73",
       "first_discovered": "2026-10-13T02:39:00.229739+00:00",
-      "last_seen": "2026-10-13T02:39:00.229756+00:00",
-      "notified_hash": "d3ba1fcb970db2b512f3d891ac8d463cd37ad500843db209aeb64d5bab0c8c73"
+      "last_seen": "2026-10-13T02:50:15.851423+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172153": {
       "company": "Greenhouse: Cloudflare",
@@ -21760,8 +22086,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7926adae28f3df8a3d5f1444eccde88a8af1315063f5111855bcc8e3a2da690c",
       "first_discovered": "2026-10-13T02:39:00.298495+00:00",
-      "last_seen": "2026-10-13T02:39:00.298513+00:00",
-      "notified_hash": "7926adae28f3df8a3d5f1444eccde88a8af1315063f5111855bcc8e3a2da690c"
+      "last_seen": "2026-10-13T02:50:16.023768+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7864156": {
       "company": "Greenhouse: Cloudflare",
@@ -21780,8 +22108,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3a7f3b6c3157f17e683b11f2693d9f88fcb2f410ca51496cf5fae6b10fb28d14",
       "first_discovered": "2026-10-13T02:39:00.376822+00:00",
-      "last_seen": "2026-10-13T02:39:00.376838+00:00",
-      "notified_hash": "3a7f3b6c3157f17e683b11f2693d9f88fcb2f410ca51496cf5fae6b10fb28d14"
+      "last_seen": "2026-10-13T02:50:16.167481+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172200": {
       "company": "Greenhouse: Cloudflare",
@@ -21800,8 +22130,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "32e9a6586fdfe166a110ddaa80eaec31942ee0182f96e7fdc34be087f03f8243",
       "first_discovered": "2026-10-13T02:39:00.454588+00:00",
-      "last_seen": "2026-10-13T02:39:00.454603+00:00",
-      "notified_hash": "32e9a6586fdfe166a110ddaa80eaec31942ee0182f96e7fdc34be087f03f8243"
+      "last_seen": "2026-10-13T02:50:16.297196+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8268965": {
       "company": "Greenhouse: Cloudflare",
@@ -21820,8 +22152,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "aaad0ba92f88b99e12eb885c7dc9c5491acb3b6ba096f7a442b8ef256bfd0691",
       "first_discovered": "2026-10-13T02:39:00.522691+00:00",
-      "last_seen": "2026-10-13T02:39:00.522707+00:00",
-      "notified_hash": "aaad0ba92f88b99e12eb885c7dc9c5491acb3b6ba096f7a442b8ef256bfd0691"
+      "last_seen": "2026-10-13T02:50:16.409963+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8082834": {
       "company": "Greenhouse: Cloudflare",
@@ -21840,8 +22174,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ff542ddb5ff714b27f625516a35ef17471de478cc6e3bae1de53249c78a59460",
       "first_discovered": "2026-10-13T02:39:00.583824+00:00",
-      "last_seen": "2026-10-13T02:39:00.583840+00:00",
-      "notified_hash": "ff542ddb5ff714b27f625516a35ef17471de478cc6e3bae1de53249c78a59460"
+      "last_seen": "2026-10-13T02:50:16.512935+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7954702": {
       "company": "Greenhouse: Cloudflare",
@@ -21860,8 +22196,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "16539347545400f4a14f4a3ef18b2e30afe10c6117b53c44ab25f641455479e5",
       "first_discovered": "2026-10-13T02:39:00.644528+00:00",
-      "last_seen": "2026-10-13T02:39:00.644543+00:00",
-      "notified_hash": "16539347545400f4a14f4a3ef18b2e30afe10c6117b53c44ab25f641455479e5"
+      "last_seen": "2026-10-13T02:50:16.612914+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172117": {
       "company": "Greenhouse: Cloudflare",
@@ -21880,8 +22218,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3769c3cf1d560502b4c6589e3e7c501d5b8fb12c989550ec00a69a9d203b8b4c",
       "first_discovered": "2026-10-13T02:39:00.696942+00:00",
-      "last_seen": "2026-10-13T02:39:00.696956+00:00",
-      "notified_hash": "3769c3cf1d560502b4c6589e3e7c501d5b8fb12c989550ec00a69a9d203b8b4c"
+      "last_seen": "2026-10-13T02:50:16.698252+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8171942": {
       "company": "Greenhouse: Cloudflare",
@@ -21900,8 +22240,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "718bbd38f128ed4d0839a5e1aa98caa80eb78377b809a6f9f017db899ac74492",
       "first_discovered": "2026-10-13T02:39:00.758474+00:00",
-      "last_seen": "2026-10-13T02:39:00.758486+00:00",
-      "notified_hash": "718bbd38f128ed4d0839a5e1aa98caa80eb78377b809a6f9f017db899ac74492"
+      "last_seen": "2026-10-13T02:50:16.803710+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8121827": {
       "company": "Greenhouse: Cloudflare",
@@ -21920,8 +22262,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c54dab435cbfa9bd84a86465bcadec01382cc223db3006d94615efce64a3a11a",
       "first_discovered": "2026-10-13T02:39:00.819670+00:00",
-      "last_seen": "2026-10-13T02:39:00.819686+00:00",
-      "notified_hash": "c54dab435cbfa9bd84a86465bcadec01382cc223db3006d94615efce64a3a11a"
+      "last_seen": "2026-10-13T02:50:16.904257+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8247433": {
       "company": "Greenhouse: Cloudflare",
@@ -21940,8 +22284,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b6576c0cb88bed83f970e11b8e6365d431b8351c269c560b8d9e4b14f4eee4ac",
       "first_discovered": "2026-10-13T02:39:00.899934+00:00",
-      "last_seen": "2026-10-13T02:39:00.899950+00:00",
-      "notified_hash": "b6576c0cb88bed83f970e11b8e6365d431b8351c269c560b8d9e4b14f4eee4ac"
+      "last_seen": "2026-10-13T02:50:17.032516+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8268259": {
       "company": "Greenhouse: Cloudflare",
@@ -21960,8 +22306,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "325234320aa6cc88370c00a2a329e921f95fee12cfb4aa9fd1ae76ba6c443247",
       "first_discovered": "2026-10-13T02:39:00.954598+00:00",
-      "last_seen": "2026-10-13T02:39:00.954613+00:00",
-      "notified_hash": "325234320aa6cc88370c00a2a329e921f95fee12cfb4aa9fd1ae76ba6c443247"
+      "last_seen": "2026-10-13T02:50:17.119421+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8172023": {
       "company": "Greenhouse: Cloudflare",
@@ -21980,8 +22328,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1d4d642c082e275dd3f75355a78fd181257bfeb02fc9f4f89f1b996492b4ca6e",
       "first_discovered": "2026-10-13T02:39:01.031772+00:00",
-      "last_seen": "2026-10-13T02:39:01.031787+00:00",
-      "notified_hash": "1d4d642c082e275dd3f75355a78fd181257bfeb02fc9f4f89f1b996492b4ca6e"
+      "last_seen": "2026-10-13T02:50:17.246696+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8223359": {
       "company": "Greenhouse: Cloudflare",
@@ -22000,8 +22350,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9a66b51b0911d794c6384fdf0b7d07f2908c07df4960899e8d075a75d668eff4",
       "first_discovered": "2026-10-13T02:39:01.101349+00:00",
-      "last_seen": "2026-10-13T02:39:01.101363+00:00",
-      "notified_hash": "9a66b51b0911d794c6384fdf0b7d07f2908c07df4960899e8d075a75d668eff4"
+      "last_seen": "2026-10-13T02:50:17.433090+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8223736": {
       "company": "Greenhouse: Cloudflare",
@@ -22020,8 +22372,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ec059c6d1afd6ab4d9137672c07240291be31ddefde23f55763d32e6e4e4fd52",
       "first_discovered": "2026-10-13T02:39:01.172433+00:00",
-      "last_seen": "2026-10-13T02:39:01.172448+00:00",
-      "notified_hash": "ec059c6d1afd6ab4d9137672c07240291be31ddefde23f55763d32e6e4e4fd52"
+      "last_seen": "2026-10-13T02:50:17.653925+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8087769": {
       "company": "Greenhouse: Cloudflare",
@@ -22040,8 +22394,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a3590fcea260e6a94eecd3d2c3461363c65213098b3445d8c921b4bfd1d515bf",
       "first_discovered": "2026-10-13T02:39:01.242750+00:00",
-      "last_seen": "2026-10-13T02:39:01.242766+00:00",
-      "notified_hash": "a3590fcea260e6a94eecd3d2c3461363c65213098b3445d8c921b4bfd1d515bf"
+      "last_seen": "2026-10-13T02:50:17.991549+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7530475": {
       "company": "Greenhouse: Cloudflare",
@@ -22061,8 +22417,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b0c90d14b7f67632bb099bb7b3df8a35ef770c8ea67818d8a7c1f67e86d12fd6",
       "first_discovered": "2026-10-13T02:39:01.306470+00:00",
-      "last_seen": "2026-10-13T02:39:01.306485+00:00",
-      "notified_hash": "b0c90d14b7f67632bb099bb7b3df8a35ef770c8ea67818d8a7c1f67e86d12fd6"
+      "last_seen": "2026-10-13T02:50:18.528402+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8131833": {
       "company": "Greenhouse: Cloudflare",
@@ -22082,8 +22440,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4228a1c746a52b2a03231aa74e4a099e92cf909c2ac9f9fa66f720a03b5256cf",
       "first_discovered": "2026-10-13T02:39:01.371281+00:00",
-      "last_seen": "2026-10-13T02:39:01.371297+00:00",
-      "notified_hash": "4228a1c746a52b2a03231aa74e4a099e92cf909c2ac9f9fa66f720a03b5256cf"
+      "last_seen": "2026-10-13T02:50:18.408482+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8174368": {
       "company": "Greenhouse: Cloudflare",
@@ -22102,8 +22462,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "828edc3ed31554e217af1fb206c83250cf92cc0c8aee08eb28f01373465a69e1",
       "first_discovered": "2026-10-13T02:39:01.418117+00:00",
-      "last_seen": "2026-10-13T02:39:01.418131+00:00",
-      "notified_hash": "828edc3ed31554e217af1fb206c83250cf92cc0c8aee08eb28f01373465a69e1"
+      "last_seen": "2026-10-13T02:50:18.630263+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8170564": {
       "company": "Greenhouse: Cloudflare",
@@ -22122,8 +22484,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "54a1d7a4d7dd4f12b682067cff84d14b9dff776ec5c10124e6a6ea3f9d356d2d",
       "first_discovered": "2026-10-13T02:39:01.483642+00:00",
-      "last_seen": "2026-10-13T02:39:01.483657+00:00",
-      "notified_hash": "54a1d7a4d7dd4f12b682067cff84d14b9dff776ec5c10124e6a6ea3f9d356d2d"
+      "last_seen": "2026-10-13T02:50:18.748045+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8142219": {
       "company": "Greenhouse: Cloudflare",
@@ -22142,8 +22506,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "44000d386944c1df752854891b284feee01e471c19ddc4443154ccb7c01deeb9",
       "first_discovered": "2026-10-13T02:39:01.548245+00:00",
-      "last_seen": "2026-10-13T02:39:01.548258+00:00",
-      "notified_hash": "44000d386944c1df752854891b284feee01e471c19ddc4443154ccb7c01deeb9"
+      "last_seen": "2026-10-13T02:50:18.925074+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8238015": {
       "company": "Greenhouse: Cloudflare",
@@ -22162,8 +22528,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f4ab052746e569a504653e0ec0c7db115ecefb516ee0a41d8e404f9a41aff194",
       "first_discovered": "2026-10-13T02:39:01.612635+00:00",
-      "last_seen": "2026-10-13T02:39:01.612651+00:00",
-      "notified_hash": "f4ab052746e569a504653e0ec0c7db115ecefb516ee0a41d8e404f9a41aff194"
+      "last_seen": "2026-10-13T02:50:19.048081+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8248554": {
       "company": "Greenhouse: Cloudflare",
@@ -22182,8 +22550,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7dd8191f6e5dece2571152ad262ea99fc697c5a1aad0634c5644a0bc63589f44",
       "first_discovered": "2026-10-13T02:39:01.663192+00:00",
-      "last_seen": "2026-10-13T02:39:01.663207+00:00",
-      "notified_hash": "7dd8191f6e5dece2571152ad262ea99fc697c5a1aad0634c5644a0bc63589f44"
+      "last_seen": "2026-10-13T02:50:19.166985+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8248543": {
       "company": "Greenhouse: Cloudflare",
@@ -22202,8 +22572,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7a32382a284f02ff6db4d86e2d67a18568597f1a9994fb5ddb402c19fd727983",
       "first_discovered": "2026-10-13T02:39:01.713950+00:00",
-      "last_seen": "2026-10-13T02:39:01.713966+00:00",
-      "notified_hash": "7a32382a284f02ff6db4d86e2d67a18568597f1a9994fb5ddb402c19fd727983"
+      "last_seen": "2026-10-13T02:50:19.281018+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8246078": {
       "company": "Greenhouse: Cloudflare",
@@ -22222,8 +22594,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f94890ff121f436624bcdf6c62e499c837f7f11e63239b4fab7f96f5249c696e",
       "first_discovered": "2026-10-13T02:39:01.792516+00:00",
-      "last_seen": "2026-10-13T02:39:01.792532+00:00",
-      "notified_hash": "f94890ff121f436624bcdf6c62e499c837f7f11e63239b4fab7f96f5249c696e"
+      "last_seen": "2026-10-13T02:50:19.451728+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7698880": {
       "company": "Greenhouse: Cloudflare",
@@ -22242,8 +22616,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "444c8d5f623e3d6bfde7df6e380fe02da677a3defa59fa78c818a3337115ff7f",
       "first_discovered": "2026-10-13T02:39:01.862101+00:00",
-      "last_seen": "2026-10-13T02:39:01.862115+00:00",
-      "notified_hash": "444c8d5f623e3d6bfde7df6e380fe02da677a3defa59fa78c818a3337115ff7f"
+      "last_seen": "2026-10-13T02:50:19.614678+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7610071": {
       "company": "Greenhouse: Cloudflare",
@@ -22262,8 +22638,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "80f301a37d6cc26eaceeadf55c104d3269b3b2e6ff98cc87f92c28aaae3ad4f6",
       "first_discovered": "2026-10-13T02:39:01.938716+00:00",
-      "last_seen": "2026-10-13T02:39:01.938732+00:00",
-      "notified_hash": "80f301a37d6cc26eaceeadf55c104d3269b3b2e6ff98cc87f92c28aaae3ad4f6"
+      "last_seen": "2026-10-13T02:50:19.830557+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8132642": {
       "company": "Greenhouse: Cloudflare",
@@ -22282,8 +22660,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d0e8c06288cdfd65c153f63927e5f07e00ac4d13076cc424f90abcd36b8ffa9f",
       "first_discovered": "2026-10-13T02:39:02.005686+00:00",
-      "last_seen": "2026-10-13T02:39:02.005703+00:00",
-      "notified_hash": "d0e8c06288cdfd65c153f63927e5f07e00ac4d13076cc424f90abcd36b8ffa9f"
+      "last_seen": "2026-10-13T02:50:20.042126+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8170534": {
       "company": "Greenhouse: Cloudflare",
@@ -22302,8 +22682,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3e72f024c909ca730b22b4d204943e1dce20cb92681f9ec100dfbdc0438fee01",
       "first_discovered": "2026-10-13T02:39:02.073715+00:00",
-      "last_seen": "2026-10-13T02:39:02.073730+00:00",
-      "notified_hash": "3e72f024c909ca730b22b4d204943e1dce20cb92681f9ec100dfbdc0438fee01"
+      "last_seen": "2026-10-13T02:50:20.296825+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8158620": {
       "company": "Greenhouse: Cloudflare",
@@ -22323,8 +22705,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0d7335cf31612a5bedc1230d5d254a38a99a9661a6167deebc1e954840f1da50",
       "first_discovered": "2026-10-13T02:39:02.140904+00:00",
-      "last_seen": "2026-10-13T02:39:02.140918+00:00",
-      "notified_hash": "0d7335cf31612a5bedc1230d5d254a38a99a9661a6167deebc1e954840f1da50"
+      "last_seen": "2026-10-13T02:50:20.629402+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8087772": {
       "company": "Greenhouse: Cloudflare",
@@ -22343,8 +22727,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7098868d0cc0182dc0218dc3decccc59d03ce6711fe6bd59228702b99e2f1da1",
       "first_discovered": "2026-10-13T02:39:02.211981+00:00",
-      "last_seen": "2026-10-13T02:39:02.211996+00:00",
-      "notified_hash": "7098868d0cc0182dc0218dc3decccc59d03ce6711fe6bd59228702b99e2f1da1"
+      "last_seen": "2026-10-13T02:50:20.974155+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:6629769": {
       "company": "Greenhouse: Cloudflare",
@@ -22364,8 +22750,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7a299d3bbea2814dd77c0be0f90aa9fe35c4ee44499c612f2d11cb19fe783267",
       "first_discovered": "2026-10-13T02:39:02.268263+00:00",
-      "last_seen": "2026-10-13T02:39:02.268280+00:00",
-      "notified_hash": "7a299d3bbea2814dd77c0be0f90aa9fe35c4ee44499c612f2d11cb19fe783267"
+      "last_seen": "2026-10-13T02:50:21.236375+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8055118": {
       "company": "Greenhouse: Cloudflare",
@@ -22384,8 +22772,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "adbdd256f45b1154116144e724f3f426728f9f7a36a3ef54967b2dba76096b97",
       "first_discovered": "2026-10-13T02:39:02.333694+00:00",
-      "last_seen": "2026-10-13T02:39:02.333711+00:00",
-      "notified_hash": "adbdd256f45b1154116144e724f3f426728f9f7a36a3ef54967b2dba76096b97"
+      "last_seen": "2026-10-13T02:50:21.411668+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7655695": {
       "company": "Greenhouse: Cloudflare",
@@ -22404,8 +22794,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "04d5cb121af1768c51f05f85adcceb167de33d6048f35b4f854ef6fd6f05f855",
       "first_discovered": "2026-10-13T02:39:02.396924+00:00",
-      "last_seen": "2026-10-13T02:39:02.396937+00:00",
-      "notified_hash": "04d5cb121af1768c51f05f85adcceb167de33d6048f35b4f854ef6fd6f05f855"
+      "last_seen": "2026-10-13T02:50:21.665237+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:6998777": {
       "company": "Greenhouse: Cloudflare",
@@ -22424,8 +22816,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3615058e4fe35a9212435cdfecda4766add34c62feadd29183446ee153b3c0c0",
       "first_discovered": "2026-10-13T02:39:02.441976+00:00",
-      "last_seen": "2026-10-13T02:39:02.441988+00:00",
-      "notified_hash": "3615058e4fe35a9212435cdfecda4766add34c62feadd29183446ee153b3c0c0"
+      "last_seen": "2026-10-13T02:50:21.910146+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7272028": {
       "company": "Greenhouse: Cloudflare",
@@ -22444,8 +22838,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "742d6c385a5e5d24a309aa41fea89a97969d0a888428ba39c754263d11ddb686",
       "first_discovered": "2026-10-13T02:39:02.502386+00:00",
-      "last_seen": "2026-10-13T02:39:02.502402+00:00",
-      "notified_hash": "742d6c385a5e5d24a309aa41fea89a97969d0a888428ba39c754263d11ddb686"
+      "last_seen": "2026-10-13T02:50:22.129346+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8237382": {
       "company": "Greenhouse: Cloudflare",
@@ -22464,8 +22860,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ec33776164e475994861962b48426cf0c4d53cdddaea4369f34db56e6f2dafc9",
       "first_discovered": "2026-10-13T02:39:02.564787+00:00",
-      "last_seen": "2026-10-13T02:39:02.564803+00:00",
-      "notified_hash": "ec33776164e475994861962b48426cf0c4d53cdddaea4369f34db56e6f2dafc9"
+      "last_seen": "2026-10-13T02:50:22.264146+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8152825": {
       "company": "Greenhouse: Cloudflare",
@@ -22484,8 +22882,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "bd91074fa2a5165e45228e938f7923f6d690d3bc83c4d745a6e781409e1536c1",
       "first_discovered": "2026-10-13T02:39:02.630851+00:00",
-      "last_seen": "2026-10-13T02:39:02.630866+00:00",
-      "notified_hash": "bd91074fa2a5165e45228e938f7923f6d690d3bc83c4d745a6e781409e1536c1"
+      "last_seen": "2026-10-13T02:50:22.387245+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8161890": {
       "company": "Greenhouse: Cloudflare",
@@ -22504,8 +22904,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8f5c95fd4d12e06631fb6ec3637f28511b862bf658795dbd5a0fffbe5bd2ff37",
       "first_discovered": "2026-10-13T02:39:02.691479+00:00",
-      "last_seen": "2026-10-13T02:39:02.691498+00:00",
-      "notified_hash": "8f5c95fd4d12e06631fb6ec3637f28511b862bf658795dbd5a0fffbe5bd2ff37"
+      "last_seen": "2026-10-13T02:50:22.527603+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8066716": {
       "company": "Greenhouse: Cloudflare",
@@ -22524,8 +22926,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "eac72d9346d97ca2e29b98c792ef477e0e30a9b87e7dcf224f53d03cb52086ac",
       "first_discovered": "2026-10-13T02:39:02.759207+00:00",
-      "last_seen": "2026-10-13T02:39:02.759223+00:00",
-      "notified_hash": "eac72d9346d97ca2e29b98c792ef477e0e30a9b87e7dcf224f53d03cb52086ac"
+      "last_seen": "2026-10-13T02:50:22.655129+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8163523": {
       "company": "Greenhouse: Cloudflare",
@@ -22545,8 +22949,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c7197eb7a29ab020b2be60cc9b3d833bf5bdf9e865781d5e6d122f3d5fc7a084",
       "first_discovered": "2026-10-13T02:39:02.933635+00:00",
-      "last_seen": "2026-10-13T02:39:02.933652+00:00",
-      "notified_hash": "c7197eb7a29ab020b2be60cc9b3d833bf5bdf9e865781d5e6d122f3d5fc7a084"
+      "last_seen": "2026-10-13T02:50:22.925580+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8195695": {
       "company": "Greenhouse: Cloudflare",
@@ -22565,8 +22971,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "fa82c54ebc4e4deac866fb22d5856dabadac1927a59a20c2b5788bf12c2f651f",
       "first_discovered": "2026-10-13T02:39:02.992338+00:00",
-      "last_seen": "2026-10-13T02:39:02.992354+00:00",
-      "notified_hash": "fa82c54ebc4e4deac866fb22d5856dabadac1927a59a20c2b5788bf12c2f651f"
+      "last_seen": "2026-10-13T02:50:23.024989+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8020472": {
       "company": "Greenhouse: Cloudflare",
@@ -22585,8 +22993,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "9d49db23c12ee67e3cf3e737c63f03e3af83fb64db6552654b5526ec216472be",
       "first_discovered": "2026-10-13T02:39:03.053565+00:00",
-      "last_seen": "2026-10-13T02:39:03.053583+00:00",
-      "notified_hash": "9d49db23c12ee67e3cf3e737c63f03e3af83fb64db6552654b5526ec216472be"
+      "last_seen": "2026-10-13T02:50:23.129477+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8143511": {
       "company": "Greenhouse: Cloudflare",
@@ -22605,8 +23015,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "31cd61ce004a93447be31ff7a3b9f4f01f1d32f14f0011b4ce35da16fbf6ad2a",
       "first_discovered": "2026-10-13T02:39:03.111941+00:00",
-      "last_seen": "2026-10-13T02:39:03.111957+00:00",
-      "notified_hash": "31cd61ce004a93447be31ff7a3b9f4f01f1d32f14f0011b4ce35da16fbf6ad2a"
+      "last_seen": "2026-10-13T02:50:23.225057+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8185723": {
       "company": "Greenhouse: Cloudflare",
@@ -22625,8 +23037,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "08143af1467ec38acd0c5f9790f346d13165c1da4a0abbacdece17fc797d2d54",
       "first_discovered": "2026-10-13T02:39:03.163422+00:00",
-      "last_seen": "2026-10-13T02:39:03.163436+00:00",
-      "notified_hash": "08143af1467ec38acd0c5f9790f346d13165c1da4a0abbacdece17fc797d2d54"
+      "last_seen": "2026-10-13T02:50:23.309402+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8185558": {
       "company": "Greenhouse: Cloudflare",
@@ -22646,8 +23060,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8e5dd8001ce38ad83dcca9925d8a5e93d1bbc1a046412a58bfc883d379bba89d",
       "first_discovered": "2026-10-13T02:39:03.221125+00:00",
-      "last_seen": "2026-10-13T02:39:03.221140+00:00",
-      "notified_hash": "8e5dd8001ce38ad83dcca9925d8a5e93d1bbc1a046412a58bfc883d379bba89d"
+      "last_seen": "2026-10-13T02:50:23.463044+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7841019": {
       "company": "Greenhouse: Cloudflare",
@@ -22667,8 +23083,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "dbf085f1b218c3af2df196f972a78613cf8c86b40e632c343f00a7e3f70f06b7",
       "first_discovered": "2026-10-13T02:39:03.285627+00:00",
-      "last_seen": "2026-10-13T02:39:03.285640+00:00",
-      "notified_hash": "dbf085f1b218c3af2df196f972a78613cf8c86b40e632c343f00a7e3f70f06b7"
+      "last_seen": "2026-10-13T02:50:23.730441+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8223672": {
       "company": "Greenhouse: Cloudflare",
@@ -22687,8 +23105,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "739d061bfc295ae3157cddd4c0659fb69b282192a198703da9c92f3ee1ab7ec7",
       "first_discovered": "2026-10-13T02:39:03.343016+00:00",
-      "last_seen": "2026-10-13T02:39:03.343031+00:00",
-      "notified_hash": "739d061bfc295ae3157cddd4c0659fb69b282192a198703da9c92f3ee1ab7ec7"
+      "last_seen": "2026-10-13T02:50:24.001998+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8023448": {
       "company": "Greenhouse: Cloudflare",
@@ -22707,8 +23127,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "74008105f5037a06e066d09b5199b26c103a81794cc0297d65e1ef0067a503ad",
       "first_discovered": "2026-10-13T02:39:03.417501+00:00",
-      "last_seen": "2026-10-13T02:39:03.417519+00:00",
-      "notified_hash": "74008105f5037a06e066d09b5199b26c103a81794cc0297d65e1ef0067a503ad"
+      "last_seen": "2026-10-13T02:50:24.122052+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8173707": {
       "company": "Greenhouse: Cloudflare",
@@ -22727,8 +23149,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8815958a498db601f26b30d48d3bbad10ba5515fe67f6de32f7e3e2a4ff1a8c9",
       "first_discovered": "2026-10-13T02:39:03.482942+00:00",
-      "last_seen": "2026-10-13T02:39:03.482953+00:00",
-      "notified_hash": "8815958a498db601f26b30d48d3bbad10ba5515fe67f6de32f7e3e2a4ff1a8c9"
+      "last_seen": "2026-10-13T02:50:24.421079+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8184169": {
       "company": "Greenhouse: Cloudflare",
@@ -22747,8 +23171,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "39ee8a9f9a092cb426f626bd07517d3a271d0f95763f0294064181b917902d67",
       "first_discovered": "2026-10-13T02:39:03.541266+00:00",
-      "last_seen": "2026-10-13T02:39:03.541277+00:00",
-      "notified_hash": "39ee8a9f9a092cb426f626bd07517d3a271d0f95763f0294064181b917902d67"
+      "last_seen": "2026-10-13T02:50:24.312761+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8206674": {
       "company": "Greenhouse: Cloudflare",
@@ -22767,8 +23193,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4b7f3c3671705eda7862f1008a18c2f7206423f5660f5768af701dfb077a3a4c",
       "first_discovered": "2026-10-13T02:39:03.599244+00:00",
-      "last_seen": "2026-10-13T02:39:03.599255+00:00",
-      "notified_hash": "4b7f3c3671705eda7862f1008a18c2f7206423f5660f5768af701dfb077a3a4c"
+      "last_seen": "2026-10-13T02:50:24.217415+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8265704": {
       "company": "Greenhouse: Cloudflare",
@@ -22787,8 +23215,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "5fd5790a6250558c17afc3079d14212fe1db0b7960ca391bca9c21b3a9a8ffbe",
       "first_discovered": "2026-10-13T02:39:03.657085+00:00",
-      "last_seen": "2026-10-13T02:39:03.657097+00:00",
-      "notified_hash": "5fd5790a6250558c17afc3079d14212fe1db0b7960ca391bca9c21b3a9a8ffbe"
+      "last_seen": "2026-10-13T02:50:24.516732+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8160655": {
       "company": "Greenhouse: Cloudflare",
@@ -22807,8 +23237,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c8576229cc58c3aca416ef18c6064dd12c58902f99869c4e681a1e67b360a42c",
       "first_discovered": "2026-10-13T02:39:03.719921+00:00",
-      "last_seen": "2026-10-13T02:39:03.719934+00:00",
-      "notified_hash": "c8576229cc58c3aca416ef18c6064dd12c58902f99869c4e681a1e67b360a42c"
+      "last_seen": "2026-10-13T02:50:24.623083+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8256332": {
       "company": "Greenhouse: Cloudflare",
@@ -22827,8 +23259,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "41727ba417f8756c933129f0da288df8050895cfab09b4c6700a75cd2a2ab4f3",
       "first_discovered": "2026-10-13T02:39:03.785484+00:00",
-      "last_seen": "2026-10-13T02:39:03.785500+00:00",
-      "notified_hash": "41727ba417f8756c933129f0da288df8050895cfab09b4c6700a75cd2a2ab4f3"
+      "last_seen": "2026-10-13T02:50:24.734790+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7629805": {
       "company": "Greenhouse: Cloudflare",
@@ -22847,8 +23281,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ba1d3a7276a1e86e5eee62d29da92c782887daa81d841b50759426d5e12b4b42",
       "first_discovered": "2026-10-13T02:39:03.843660+00:00",
-      "last_seen": "2026-10-13T02:39:03.843672+00:00",
-      "notified_hash": "ba1d3a7276a1e86e5eee62d29da92c782887daa81d841b50759426d5e12b4b42"
+      "last_seen": "2026-10-13T02:50:24.834742+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8186255": {
       "company": "Greenhouse: Cloudflare",
@@ -22867,8 +23303,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "16150f12912e389db470f5e35c8125cae85216da81324e12259473c67d2bd54d",
       "first_discovered": "2026-10-13T02:39:03.919340+00:00",
-      "last_seen": "2026-10-13T02:39:03.919355+00:00",
-      "notified_hash": "16150f12912e389db470f5e35c8125cae85216da81324e12259473c67d2bd54d"
+      "last_seen": "2026-10-13T02:50:24.947483+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8043974": {
       "company": "Greenhouse: Cloudflare",
@@ -22887,8 +23325,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4d5ff74718f63576a6c912226a9c5c6ff8da5aeeeaadd0cf828a18048ce622d0",
       "first_discovered": "2026-10-13T02:39:03.968894+00:00",
-      "last_seen": "2026-10-13T02:39:03.968909+00:00",
-      "notified_hash": "4d5ff74718f63576a6c912226a9c5c6ff8da5aeeeaadd0cf828a18048ce622d0"
+      "last_seen": "2026-10-13T02:50:25.037919+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8042034": {
       "company": "Greenhouse: Cloudflare",
@@ -22907,8 +23347,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "244bc535109ab1514d841c54ff97dcd0b46b3cc4cc536c5d8303af418e7d4342",
       "first_discovered": "2026-10-13T02:39:04.035249+00:00",
-      "last_seen": "2026-10-13T02:39:04.035263+00:00",
-      "notified_hash": "244bc535109ab1514d841c54ff97dcd0b46b3cc4cc536c5d8303af418e7d4342"
+      "last_seen": "2026-10-13T02:50:25.146192+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8173393": {
       "company": "Greenhouse: Cloudflare",
@@ -22927,8 +23369,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "bb49ac7474bb0efe525ecbc1d88e2ed01cf8c702821b187418bf7215f34fab1c",
       "first_discovered": "2026-10-13T02:39:04.095079+00:00",
-      "last_seen": "2026-10-13T02:39:04.095094+00:00",
-      "notified_hash": "bb49ac7474bb0efe525ecbc1d88e2ed01cf8c702821b187418bf7215f34fab1c"
+      "last_seen": "2026-10-13T02:50:25.243979+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8274111": {
       "company": "Greenhouse: Cloudflare",
@@ -22947,8 +23391,10 @@
       "sponsorship": "This role involves leveraging executive sponsorship programs, partnering with senior leaders (including CIOs, CISOs, and CTOs), and collaborating with cross-functional teams to navigate and successfully close complex customer opportunities",
       "content_hash": "e71fe76955691f67856717b11144efff6dc086db842dfe21e18eddd4f78a7a1a",
       "first_discovered": "2026-10-13T02:39:04.141139+00:00",
-      "last_seen": "2026-10-13T02:39:04.141153+00:00",
-      "notified_hash": "e71fe76955691f67856717b11144efff6dc086db842dfe21e18eddd4f78a7a1a"
+      "last_seen": "2026-10-13T02:50:25.323132+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8099002": {
       "company": "Greenhouse: Cloudflare",
@@ -22967,8 +23413,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "303d19fd93acc6c057c398022f6bbca402b1cb85a48c3fabea87f899158580f6",
       "first_discovered": "2026-10-13T02:39:04.191056+00:00",
-      "last_seen": "2026-10-13T02:39:04.191068+00:00",
-      "notified_hash": "303d19fd93acc6c057c398022f6bbca402b1cb85a48c3fabea87f899158580f6"
+      "last_seen": "2026-10-13T02:50:25.407405+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8084082": {
       "company": "Greenhouse: Cloudflare",
@@ -22987,8 +23435,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "c39308d0ab47ececaa3dc5171d922b48dfaffcec5e95cced1066b4b164e745dd",
       "first_discovered": "2026-10-13T02:39:04.242681+00:00",
-      "last_seen": "2026-10-13T02:39:04.242693+00:00",
-      "notified_hash": "c39308d0ab47ececaa3dc5171d922b48dfaffcec5e95cced1066b4b164e745dd"
+      "last_seen": "2026-10-13T02:50:25.497187+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8241766": {
       "company": "Greenhouse: Cloudflare",
@@ -23007,8 +23457,10 @@
       "sponsorship": "This role involves leveraging executive sponsorship programs, partnering with senior leaders (including CIOs, CISOs, and CTOs), and collaborating with cross-functional teams to navigate and successfully close complex customer opportunities",
       "content_hash": "6c36842ffbf6be3719b02e6b832e309fa43c5054f63c5c23a90ef70f2613682b",
       "first_discovered": "2026-10-13T02:39:04.289429+00:00",
-      "last_seen": "2026-10-13T02:39:04.289442+00:00",
-      "notified_hash": "6c36842ffbf6be3719b02e6b832e309fa43c5054f63c5c23a90ef70f2613682b"
+      "last_seen": "2026-10-13T02:50:25.575848+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8233692": {
       "company": "Greenhouse: Cloudflare",
@@ -23027,8 +23479,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "61187cfafc7fc22c8898fdb36be64429f84a886260d22f49277e56743ae6b5ac",
       "first_discovered": "2026-10-13T02:39:04.344051+00:00",
-      "last_seen": "2026-10-13T02:39:04.344062+00:00",
-      "notified_hash": "61187cfafc7fc22c8898fdb36be64429f84a886260d22f49277e56743ae6b5ac"
+      "last_seen": "2026-10-13T02:50:25.664304+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8274112": {
       "company": "Greenhouse: Cloudflare",
@@ -23047,8 +23501,10 @@
       "sponsorship": "This role involves leveraging executive sponsorship programs, partnering with senior leaders (including CIOs, CISOs, and CTOs), and collaborating with cross-functional teams to navigate and successfully close complex customer opportunities",
       "content_hash": "1a4706e96be1355e6fc39c479b964b750e357dd920a7c19e523c4e64c5d8e2f7",
       "first_discovered": "2026-10-13T02:39:04.390452+00:00",
-      "last_seen": "2026-10-13T02:39:04.390464+00:00",
-      "notified_hash": "1a4706e96be1355e6fc39c479b964b750e357dd920a7c19e523c4e64c5d8e2f7"
+      "last_seen": "2026-10-13T02:50:25.744550+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8239834": {
       "company": "Greenhouse: Cloudflare",
@@ -23067,8 +23523,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "7125078966a560988c7b87e96c26c29fb77595be998ccf77f1742f68b3390fa8",
       "first_discovered": "2026-10-13T02:39:04.441963+00:00",
-      "last_seen": "2026-10-13T02:39:04.441978+00:00",
-      "notified_hash": "7125078966a560988c7b87e96c26c29fb77595be998ccf77f1742f68b3390fa8"
+      "last_seen": "2026-10-13T02:50:25.828649+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7747326": {
       "company": "Greenhouse: Cloudflare",
@@ -23087,8 +23545,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "98c6c7b6f9d77bd1c4a83719a22a02c787ef9f4f2854edc98309802fd268df1c",
       "first_discovered": "2026-10-13T02:39:04.493457+00:00",
-      "last_seen": "2026-10-13T02:39:04.493471+00:00",
-      "notified_hash": "98c6c7b6f9d77bd1c4a83719a22a02c787ef9f4f2854edc98309802fd268df1c"
+      "last_seen": "2026-10-13T02:50:25.916625+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7361295": {
       "company": "Greenhouse: Cloudflare",
@@ -23107,8 +23567,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "aec20eeb8790602b96784f3a068a0cc67e729172e4d774b4de2e82d70a32faf8",
       "first_discovered": "2026-10-13T02:39:04.544867+00:00",
-      "last_seen": "2026-10-13T02:39:04.544881+00:00",
-      "notified_hash": "aec20eeb8790602b96784f3a068a0cc67e729172e4d774b4de2e82d70a32faf8"
+      "last_seen": "2026-10-13T02:50:26.002792+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8128468": {
       "company": "Greenhouse: Cloudflare",
@@ -23127,8 +23589,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "9fd5716c0de334638a2a1aeee49bd75a274fee7c607dfb9dfbb107f55bb5194a",
       "first_discovered": "2026-10-13T02:39:04.596277+00:00",
-      "last_seen": "2026-10-13T02:39:04.596290+00:00",
-      "notified_hash": "9fd5716c0de334638a2a1aeee49bd75a274fee7c607dfb9dfbb107f55bb5194a"
+      "last_seen": "2026-10-13T02:50:26.086823+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7474034": {
       "company": "Greenhouse: Cloudflare",
@@ -23147,8 +23611,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, CTOs, and CEOs",
       "content_hash": "621cadba6017627bc53b186bfe4f85502d1b4b8caf2cb6529cc21600957034bc",
       "first_discovered": "2026-10-13T02:39:04.644523+00:00",
-      "last_seen": "2026-10-13T02:39:04.644537+00:00",
-      "notified_hash": "621cadba6017627bc53b186bfe4f85502d1b4b8caf2cb6529cc21600957034bc"
+      "last_seen": "2026-10-13T02:50:26.167852+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8239900": {
       "company": "Greenhouse: Cloudflare",
@@ -23167,8 +23633,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "dc0f4d386db62171c4c90e7410371b0cf80b433d3a4684ef2eb93e9d886ea3fb",
       "first_discovered": "2026-10-13T02:39:04.695411+00:00",
-      "last_seen": "2026-10-13T02:39:04.695424+00:00",
-      "notified_hash": "dc0f4d386db62171c4c90e7410371b0cf80b433d3a4684ef2eb93e9d886ea3fb"
+      "last_seen": "2026-10-13T02:50:26.251241+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8210019": {
       "company": "Greenhouse: Cloudflare",
@@ -23188,8 +23656,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0fbd4074d851a3cd4284ec017771e5743f9b8fce7a1c272d8ee044ed3cb518c2",
       "first_discovered": "2026-10-13T02:39:04.781406+00:00",
-      "last_seen": "2026-10-13T02:39:04.781423+00:00",
-      "notified_hash": "0fbd4074d851a3cd4284ec017771e5743f9b8fce7a1c272d8ee044ed3cb518c2"
+      "last_seen": "2026-10-13T02:50:26.389081+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8098311": {
       "company": "Greenhouse: Cloudflare",
@@ -23209,8 +23679,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8f91ae3ee3846f8aa3cc01924e6b2ac396185a97a9c424d84fd52985355e61c7",
       "first_discovered": "2026-10-13T02:39:04.851624+00:00",
-      "last_seen": "2026-10-13T02:39:04.851640+00:00",
-      "notified_hash": "8f91ae3ee3846f8aa3cc01924e6b2ac396185a97a9c424d84fd52985355e61c7"
+      "last_seen": "2026-10-13T02:50:26.501926+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8020043": {
       "company": "Greenhouse: Cloudflare",
@@ -23230,8 +23702,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1ad1caf06d7aac6e23a68eb1c15860fcb89ea44edff710694d508c3851c02e8e",
       "first_discovered": "2026-10-13T02:39:04.901641+00:00",
-      "last_seen": "2026-10-13T02:39:04.901654+00:00",
-      "notified_hash": "1ad1caf06d7aac6e23a68eb1c15860fcb89ea44edff710694d508c3851c02e8e"
+      "last_seen": "2026-10-13T02:50:26.583907+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7761342": {
       "company": "Greenhouse: Cloudflare",
@@ -23251,8 +23725,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "cc78ac5cc18d8fe341e2e6e10793b18f6b9ec6a42ce29ba98951e482163cdee7",
       "first_discovered": "2026-10-13T02:39:04.967106+00:00",
-      "last_seen": "2026-10-13T02:39:04.967121+00:00",
-      "notified_hash": "cc78ac5cc18d8fe341e2e6e10793b18f6b9ec6a42ce29ba98951e482163cdee7"
+      "last_seen": "2026-10-13T02:50:26.690974+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8192032": {
       "company": "Greenhouse: Cloudflare",
@@ -23271,8 +23747,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7e40a8866a1b7bd470887e69763f86aae76603fe598b1ef02568e4a0ecb936d9",
       "first_discovered": "2026-10-13T02:39:05.027728+00:00",
-      "last_seen": "2026-10-13T02:39:05.027741+00:00",
-      "notified_hash": "7e40a8866a1b7bd470887e69763f86aae76603fe598b1ef02568e4a0ecb936d9"
+      "last_seen": "2026-10-13T02:50:26.792214+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8267396": {
       "company": "Greenhouse: Cloudflare",
@@ -23291,8 +23769,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "512bb9087621618c70a23d859b9f8223605884d2fd3356e1cf7f129428475957",
       "first_discovered": "2026-10-13T02:39:05.077911+00:00",
-      "last_seen": "2026-10-13T02:39:05.077924+00:00",
-      "notified_hash": "512bb9087621618c70a23d859b9f8223605884d2fd3356e1cf7f129428475957"
+      "last_seen": "2026-10-13T02:50:26.877041+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8113115": {
       "company": "Greenhouse: Cloudflare",
@@ -23311,8 +23791,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e9b6d9bf3ec896ebab13d999cb59c012055f815f88fc966b419e5ca59c5fe808",
       "first_discovered": "2026-10-13T02:39:05.138474+00:00",
-      "last_seen": "2026-10-13T02:39:05.138489+00:00",
-      "notified_hash": "e9b6d9bf3ec896ebab13d999cb59c012055f815f88fc966b419e5ca59c5fe808"
+      "last_seen": "2026-10-13T02:50:26.978121+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8071416": {
       "company": "Greenhouse: Cloudflare",
@@ -23331,8 +23813,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f08800e228ac3756e19d4d2cc81d5e77c5b0cb5a10775902c65055acce10983f",
       "first_discovered": "2026-10-13T02:39:05.200488+00:00",
-      "last_seen": "2026-10-13T02:39:05.200504+00:00",
-      "notified_hash": "f08800e228ac3756e19d4d2cc81d5e77c5b0cb5a10775902c65055acce10983f"
+      "last_seen": "2026-10-13T02:50:27.133568+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8180521": {
       "company": "Greenhouse: Cloudflare",
@@ -23351,8 +23835,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "67e700ad81d2fa5668b0431a999904ea463b75dd77a07a38e54cdedeea8109fc",
       "first_discovered": "2026-10-13T02:39:05.270336+00:00",
-      "last_seen": "2026-10-13T02:39:05.270350+00:00",
-      "notified_hash": "67e700ad81d2fa5668b0431a999904ea463b75dd77a07a38e54cdedeea8109fc"
+      "last_seen": "2026-10-13T02:50:27.433944+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8089141": {
       "company": "Greenhouse: Cloudflare",
@@ -23371,8 +23857,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d28c4f927e38baa5a49ba99cb54bd3ef0705ff51ab3c27e41f09e462eb3a5154",
       "first_discovered": "2026-10-13T02:39:05.335884+00:00",
-      "last_seen": "2026-10-13T02:39:05.335897+00:00",
-      "notified_hash": "d28c4f927e38baa5a49ba99cb54bd3ef0705ff51ab3c27e41f09e462eb3a5154"
+      "last_seen": "2026-10-13T02:50:27.538298+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8169785": {
       "company": "Greenhouse: Cloudflare",
@@ -23391,8 +23879,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "b99ca3fbf632ebac8a2e4159df2b4b3747c17cfe4dd73b25fdc8e8ba482b1df5",
       "first_discovered": "2026-10-13T02:39:05.397485+00:00",
-      "last_seen": "2026-10-13T02:39:05.397499+00:00",
-      "notified_hash": "b99ca3fbf632ebac8a2e4159df2b4b3747c17cfe4dd73b25fdc8e8ba482b1df5"
+      "last_seen": "2026-10-13T02:50:27.639671+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7866619": {
       "company": "Greenhouse: Cloudflare",
@@ -23411,8 +23901,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e9fac8be60e2e86d8a3fea0278ff9968b095e3d1c2affc633fb6a1a09bb01fef",
       "first_discovered": "2026-10-13T02:39:05.451674+00:00",
-      "last_seen": "2026-10-13T02:39:05.451689+00:00",
-      "notified_hash": "e9fac8be60e2e86d8a3fea0278ff9968b095e3d1c2affc633fb6a1a09bb01fef"
+      "last_seen": "2026-10-13T02:50:27.730377+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7405115": {
       "company": "Greenhouse: Cloudflare",
@@ -23431,8 +23923,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "2224b90588a523814effb9712c9357a1f1b4dfa767f1812880fc48cdd2d1d869",
       "first_discovered": "2026-10-13T02:39:05.497927+00:00",
-      "last_seen": "2026-10-13T02:39:05.497941+00:00",
-      "notified_hash": "2224b90588a523814effb9712c9357a1f1b4dfa767f1812880fc48cdd2d1d869"
+      "last_seen": "2026-10-13T02:50:27.808920+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8201823": {
       "company": "Greenhouse: Cloudflare",
@@ -23451,8 +23945,10 @@
       "sponsorship": "Leverage the Executive Briefing Center and process to establish key sponsorships and support of accounts with Cloudflare Executives",
       "content_hash": "56e142380154abb5f6c263b71ecf6058692d7005df6d66efcf50ad687857c66d",
       "first_discovered": "2026-10-13T02:39:05.552118+00:00",
-      "last_seen": "2026-10-13T02:39:05.552128+00:00",
-      "notified_hash": "56e142380154abb5f6c263b71ecf6058692d7005df6d66efcf50ad687857c66d"
+      "last_seen": "2026-10-13T02:50:27.902947+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7735965": {
       "company": "Greenhouse: Cloudflare",
@@ -23471,8 +23967,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "fe93ea9a58e9af94a3e4b670c2a48f72c0642e635e05972be9b938d2010bda6f",
       "first_discovered": "2026-10-13T02:39:05.613608+00:00",
-      "last_seen": "2026-10-13T02:39:05.613619+00:00",
-      "notified_hash": "fe93ea9a58e9af94a3e4b670c2a48f72c0642e635e05972be9b938d2010bda6f"
+      "last_seen": "2026-10-13T02:50:28.006391+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7799240": {
       "company": "Greenhouse: Cloudflare",
@@ -23491,8 +23989,10 @@
       "sponsorship": "Leverage the Executive Briefing Center and process to establish key sponsorships and support of accounts with Cloudflare Executives",
       "content_hash": "a8ca0bbce1685da0e8f0f5c64de95f1e8e026ad9600522cbbd14afac58fbf6da",
       "first_discovered": "2026-10-13T02:39:05.669891+00:00",
-      "last_seen": "2026-10-13T02:39:05.669902+00:00",
-      "notified_hash": "a8ca0bbce1685da0e8f0f5c64de95f1e8e026ad9600522cbbd14afac58fbf6da"
+      "last_seen": "2026-10-13T02:50:28.099757+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8044712": {
       "company": "Greenhouse: Cloudflare",
@@ -23511,8 +24011,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "90bac6dc7ac3e0511bab7ddf5c4792f2ba95ac7367b27d29c0675b235ca09cbe",
       "first_discovered": "2026-10-13T02:39:05.732162+00:00",
-      "last_seen": "2026-10-13T02:39:05.732174+00:00",
-      "notified_hash": "90bac6dc7ac3e0511bab7ddf5c4792f2ba95ac7367b27d29c0675b235ca09cbe"
+      "last_seen": "2026-10-13T02:50:28.201912+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8081326": {
       "company": "Greenhouse: Cloudflare",
@@ -23531,8 +24033,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "fc99a9074ac41e1e15c1f9f3cbeea6a652cbc5e206e997baae89b37a8b9147ac",
       "first_discovered": "2026-10-13T02:39:05.793957+00:00",
-      "last_seen": "2026-10-13T02:39:05.793969+00:00",
-      "notified_hash": "fc99a9074ac41e1e15c1f9f3cbeea6a652cbc5e206e997baae89b37a8b9147ac"
+      "last_seen": "2026-10-13T02:50:28.305105+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8019052": {
       "company": "Greenhouse: Cloudflare",
@@ -23551,8 +24055,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "98824990caa666af8948cc3e95288c0453b831bacc9ad1ca54e55663eabc93e6",
       "first_discovered": "2026-10-13T02:39:05.853773+00:00",
-      "last_seen": "2026-10-13T02:39:05.853787+00:00",
-      "notified_hash": "98824990caa666af8948cc3e95288c0453b831bacc9ad1ca54e55663eabc93e6"
+      "last_seen": "2026-10-13T02:50:28.404849+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8109416": {
       "company": "Greenhouse: Cloudflare",
@@ -23572,8 +24078,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7e4c733c9e9dd55edced6cdc9c48d061e87198391bda20ce0f80abe6607585f2",
       "first_discovered": "2026-10-13T02:39:05.909284+00:00",
-      "last_seen": "2026-10-13T02:39:05.909295+00:00",
-      "notified_hash": "7e4c733c9e9dd55edced6cdc9c48d061e87198391bda20ce0f80abe6607585f2"
+      "last_seen": "2026-10-13T02:50:28.495902+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8121029": {
       "company": "Greenhouse: Cloudflare",
@@ -23592,8 +24100,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0473e0f1539da676bca5b71edc60f473ce641c1e8925bd83734141dca7a4873d",
       "first_discovered": "2026-10-13T02:39:05.983674+00:00",
-      "last_seen": "2026-10-13T02:39:05.983692+00:00",
-      "notified_hash": "0473e0f1539da676bca5b71edc60f473ce641c1e8925bd83734141dca7a4873d"
+      "last_seen": "2026-10-13T02:50:28.614393+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8122875": {
       "company": "Greenhouse: Cloudflare",
@@ -23612,8 +24122,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e091f9dd3ba73f8b0b4865ea2a6dc2e4288190f3543ff74cac8717c783ea6681",
       "first_discovered": "2026-10-13T02:39:06.049788+00:00",
-      "last_seen": "2026-10-13T02:39:06.049804+00:00",
-      "notified_hash": "e091f9dd3ba73f8b0b4865ea2a6dc2e4288190f3543ff74cac8717c783ea6681"
+      "last_seen": "2026-10-13T02:50:28.714001+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8067630": {
       "company": "Greenhouse: Cloudflare",
@@ -23632,8 +24144,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "cb18cbc466442b53d9a4dec7a0587424c37eb87b34c3013771c3e431022c32da",
       "first_discovered": "2026-10-13T02:39:06.120193+00:00",
-      "last_seen": "2026-10-13T02:39:06.120210+00:00",
-      "notified_hash": "cb18cbc466442b53d9a4dec7a0587424c37eb87b34c3013771c3e431022c32da"
+      "last_seen": "2026-10-13T02:50:28.825964+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7462504": {
       "company": "Greenhouse: Cloudflare",
@@ -23652,8 +24166,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f03ab7b5fe14b310e3b0b2bc4ffa7b9096ee77dee1fbfa2f4f73e747ca08ee87",
       "first_discovered": "2026-10-13T02:39:06.182745+00:00",
-      "last_seen": "2026-10-13T02:39:06.182761+00:00",
-      "notified_hash": "f03ab7b5fe14b310e3b0b2bc4ffa7b9096ee77dee1fbfa2f4f73e747ca08ee87"
+      "last_seen": "2026-10-13T02:50:28.928109+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8207632": {
       "company": "Greenhouse: Cloudflare",
@@ -23672,8 +24188,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "1fd35377d9c7fddb6998be18737b5e1051b0750e0985a31107c1333f4c6800b2",
       "first_discovered": "2026-10-13T02:39:06.244959+00:00",
-      "last_seen": "2026-10-13T02:39:06.244978+00:00",
-      "notified_hash": "1fd35377d9c7fddb6998be18737b5e1051b0750e0985a31107c1333f4c6800b2"
+      "last_seen": "2026-10-13T02:50:29.030738+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7421718": {
       "company": "Greenhouse: Cloudflare",
@@ -23693,8 +24211,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "49bbf85b114e0912b4f2edf39ff062c67ec5dac99f33e687e53b34e00736ab4c",
       "first_discovered": "2026-10-13T02:39:06.298554+00:00",
-      "last_seen": "2026-10-13T02:39:06.298570+00:00",
-      "notified_hash": "49bbf85b114e0912b4f2edf39ff062c67ec5dac99f33e687e53b34e00736ab4c"
+      "last_seen": "2026-10-13T02:50:29.120571+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8257165": {
       "company": "Greenhouse: Cloudflare",
@@ -23714,8 +24234,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "e1813874924db8dff6668b0e52e20eaa11d7959288087bf382ec51ec27bb7e3f",
       "first_discovered": "2026-10-13T02:39:06.355905+00:00",
-      "last_seen": "2026-10-13T02:39:06.355920+00:00",
-      "notified_hash": "e1813874924db8dff6668b0e52e20eaa11d7959288087bf382ec51ec27bb7e3f"
+      "last_seen": "2026-10-13T02:50:29.214691+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8127204": {
       "company": "Greenhouse: Cloudflare",
@@ -23734,8 +24256,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f0b0dbca3de1593f9091858dc2e183271d7de787ef8c90d8d2f5a72069f9fe2d",
       "first_discovered": "2026-10-13T02:39:06.411819+00:00",
-      "last_seen": "2026-10-13T02:39:06.411835+00:00",
-      "notified_hash": "f0b0dbca3de1593f9091858dc2e183271d7de787ef8c90d8d2f5a72069f9fe2d"
+      "last_seen": "2026-10-13T02:50:29.306905+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8121020": {
       "company": "Greenhouse: Cloudflare",
@@ -23754,8 +24278,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "74ead7e986910a8d9b5494a7eb9130f7ef8bb15be2182ed554f246390d280959",
       "first_discovered": "2026-10-13T02:39:06.469151+00:00",
-      "last_seen": "2026-10-13T02:39:06.469168+00:00",
-      "notified_hash": "74ead7e986910a8d9b5494a7eb9130f7ef8bb15be2182ed554f246390d280959"
+      "last_seen": "2026-10-13T02:50:29.401772+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8112200": {
       "company": "Greenhouse: Cloudflare",
@@ -23774,8 +24300,10 @@
       "sponsorship": "Leverage the Executive Briefing Center and process to establish key sponsorships and support of accounts with Cloudflare Executives",
       "content_hash": "5d1c0f0cf9ef3098f50f85e76db393b12010350e97463afce31dc525d87a0e50",
       "first_discovered": "2026-10-13T02:39:06.526578+00:00",
-      "last_seen": "2026-10-13T02:39:06.526595+00:00",
-      "notified_hash": "5d1c0f0cf9ef3098f50f85e76db393b12010350e97463afce31dc525d87a0e50"
+      "last_seen": "2026-10-13T02:50:29.494135+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8201404": {
       "company": "Greenhouse: Cloudflare",
@@ -23794,8 +24322,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "839cd37cb2182946522de70c98e56aec59b49f1887a6158fcfea4329e67c1b7a",
       "first_discovered": "2026-10-13T02:39:06.595676+00:00",
-      "last_seen": "2026-10-13T02:39:06.595693+00:00",
-      "notified_hash": "839cd37cb2182946522de70c98e56aec59b49f1887a6158fcfea4329e67c1b7a"
+      "last_seen": "2026-10-13T02:50:29.607757+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8127559": {
       "company": "Greenhouse: Cloudflare",
@@ -23814,8 +24344,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "7d09ddfa1787d1aa51b57b8744563cddf6e0ee011dc16fdb9934b826de185be9",
       "first_discovered": "2026-10-13T02:39:06.642955+00:00",
-      "last_seen": "2026-10-13T02:39:06.642971+00:00",
-      "notified_hash": "7d09ddfa1787d1aa51b57b8744563cddf6e0ee011dc16fdb9934b826de185be9"
+      "last_seen": "2026-10-13T02:50:29.686344+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8202120": {
       "company": "Greenhouse: Cloudflare",
@@ -23834,8 +24366,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "9fab9c87473e294cc8225add0d6476941f78e175f27b10b03e7091716ba33086",
       "first_discovered": "2026-10-13T02:39:06.694167+00:00",
-      "last_seen": "2026-10-13T02:39:06.694183+00:00",
-      "notified_hash": "9fab9c87473e294cc8225add0d6476941f78e175f27b10b03e7091716ba33086"
+      "last_seen": "2026-10-13T02:50:29.772601+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8179389": {
       "company": "Greenhouse: Cloudflare",
@@ -23854,8 +24388,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "c340d85be0b186b6039dec8c72c27aa86de17f2d12ffa20ac6f7dae6342557e7",
       "first_discovered": "2026-10-13T02:39:06.755926+00:00",
-      "last_seen": "2026-10-13T02:39:06.755941+00:00",
-      "notified_hash": "c340d85be0b186b6039dec8c72c27aa86de17f2d12ffa20ac6f7dae6342557e7"
+      "last_seen": "2026-10-13T02:50:29.873484+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8211796": {
       "company": "Greenhouse: Cloudflare",
@@ -23874,8 +24410,10 @@
       "sponsorship": "This role demands the ability to apply executive sponsorship programs, actively engaging with CIOs, CISOs, and CTOs, and leading virtual teams that include VPs and SVPs to navigate and close complex, transformative opportunities",
       "content_hash": "c35da0e4938f25901cfc4b4d0e8410a26dc847a64d7d6b523dff011fc0d231da",
       "first_discovered": "2026-10-13T02:39:06.807729+00:00",
-      "last_seen": "2026-10-13T02:39:06.807743+00:00",
-      "notified_hash": "c35da0e4938f25901cfc4b4d0e8410a26dc847a64d7d6b523dff011fc0d231da"
+      "last_seen": "2026-10-13T02:50:29.961912+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8110247": {
       "company": "Greenhouse: Cloudflare",
@@ -23894,8 +24432,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "64ec9d95460f74edb272cd86022bfe67dc46bb33060e545d14a7771905acb780",
       "first_discovered": "2026-10-13T02:39:06.878019+00:00",
-      "last_seen": "2026-10-13T02:39:06.878036+00:00",
-      "notified_hash": "64ec9d95460f74edb272cd86022bfe67dc46bb33060e545d14a7771905acb780"
+      "last_seen": "2026-10-13T02:50:30.076291+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8045321": {
       "company": "Greenhouse: Cloudflare",
@@ -23914,8 +24454,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "d67edebc4eabb2afa21dadd7249bea20986a3de225ca931e390845d1139c5c3e",
       "first_discovered": "2026-10-13T02:39:06.942312+00:00",
-      "last_seen": "2026-10-13T02:39:06.942332+00:00",
-      "notified_hash": "d67edebc4eabb2afa21dadd7249bea20986a3de225ca931e390845d1139c5c3e"
+      "last_seen": "2026-10-13T02:50:30.181492+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8179374": {
       "company": "Greenhouse: Cloudflare",
@@ -23934,8 +24476,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "2d5fe5ef7d189acf2960e8849ebedae3683d33bb39eddf249b4dda19788ffde6",
       "first_discovered": "2026-10-13T02:39:07.014571+00:00",
-      "last_seen": "2026-10-13T02:39:07.014587+00:00",
-      "notified_hash": "2d5fe5ef7d189acf2960e8849ebedae3683d33bb39eddf249b4dda19788ffde6"
+      "last_seen": "2026-10-13T02:50:30.295535+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8227167": {
       "company": "Greenhouse: Cloudflare",
@@ -23955,8 +24499,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "55161c9a6c4b0cbbf3e70c9ed364b80898367fa19d9d04807a33c6084def9521",
       "first_discovered": "2026-10-13T02:39:07.067819+00:00",
-      "last_seen": "2026-10-13T02:39:07.067835+00:00",
-      "notified_hash": "55161c9a6c4b0cbbf3e70c9ed364b80898367fa19d9d04807a33c6084def9521"
+      "last_seen": "2026-10-13T02:50:30.380238+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8179405": {
       "company": "Greenhouse: Cloudflare",
@@ -23975,8 +24521,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f5d7f831f75579be4b9b6e010d59755aa32b937ad9840cdcb791b46e4e107149",
       "first_discovered": "2026-10-13T02:39:07.129629+00:00",
-      "last_seen": "2026-10-13T02:39:07.129647+00:00",
-      "notified_hash": "f5d7f831f75579be4b9b6e010d59755aa32b937ad9840cdcb791b46e4e107149"
+      "last_seen": "2026-10-13T02:50:30.480695+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7515882": {
       "company": "Greenhouse: Cloudflare",
@@ -23995,8 +24543,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "6d7c64d7939df1d2571ada7e84f2bdb88e841a46731f1b525ad617c1eacac69b",
       "first_discovered": "2026-10-13T02:39:07.202151+00:00",
-      "last_seen": "2026-10-13T02:39:07.202168+00:00",
-      "notified_hash": "6d7c64d7939df1d2571ada7e84f2bdb88e841a46731f1b525ad617c1eacac69b"
+      "last_seen": "2026-10-13T02:50:30.671071+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7992903": {
       "company": "Greenhouse: Cloudflare",
@@ -24015,8 +24565,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "8f3c883d1226a5d67bef8d8940cc3f6d0912f1bc9e8216017a973e3a20cd9122",
       "first_discovered": "2026-10-13T02:39:07.265429+00:00",
-      "last_seen": "2026-10-13T02:39:07.265445+00:00",
-      "notified_hash": "8f3c883d1226a5d67bef8d8940cc3f6d0912f1bc9e8216017a973e3a20cd9122"
+      "last_seen": "2026-10-13T02:50:30.968389+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7817755": {
       "company": "Greenhouse: Cloudflare",
@@ -24035,8 +24587,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "0f4c42f223018301e7028e76aeadf8cf8e9a63e8ce5297794c19bd8ecdb90557",
       "first_discovered": "2026-10-13T02:39:07.315653+00:00",
-      "last_seen": "2026-10-13T02:39:07.315668+00:00",
-      "notified_hash": "0f4c42f223018301e7028e76aeadf8cf8e9a63e8ce5297794c19bd8ecdb90557"
+      "last_seen": "2026-10-13T02:50:31.217135+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7978887": {
       "company": "Greenhouse: Cloudflare",
@@ -24055,8 +24609,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "259523e90817677c2c7b182187f5ced018676e4ca524f4e76e111218e1d6b777",
       "first_discovered": "2026-10-13T02:39:07.370236+00:00",
-      "last_seen": "2026-10-13T02:39:07.370249+00:00",
-      "notified_hash": "259523e90817677c2c7b182187f5ced018676e4ca524f4e76e111218e1d6b777"
+      "last_seen": "2026-10-13T02:50:31.303501+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8143957": {
       "company": "Greenhouse: Cloudflare",
@@ -24075,8 +24631,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "4248f088ca92fd2e1c3f4a99cde20a9077d97fa7e36737fd5b68b9c837b76891",
       "first_discovered": "2026-10-13T02:39:07.431031+00:00",
-      "last_seen": "2026-10-13T02:39:07.431045+00:00",
-      "notified_hash": "4248f088ca92fd2e1c3f4a99cde20a9077d97fa7e36737fd5b68b9c837b76891"
+      "last_seen": "2026-10-13T02:50:31.397753+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8221248": {
       "company": "Greenhouse: Cloudflare",
@@ -24095,8 +24653,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "5754401eb1e0bd618e2d2cce4e61e96f7358f4840aff3fa6df4636223ef46540",
       "first_discovered": "2026-10-13T02:39:07.488084+00:00",
-      "last_seen": "2026-10-13T02:39:07.488099+00:00",
-      "notified_hash": "5754401eb1e0bd618e2d2cce4e61e96f7358f4840aff3fa6df4636223ef46540"
+      "last_seen": "2026-10-13T02:50:31.485799+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:7981489": {
       "company": "Greenhouse: Cloudflare",
@@ -24115,8 +24675,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "60689c92499d74cb4c3caf0e1a694f7d2fc5be64348e40112cd8c230067378a3",
       "first_discovered": "2026-10-13T02:39:07.543231+00:00",
-      "last_seen": "2026-10-13T02:39:07.543246+00:00",
-      "notified_hash": "60689c92499d74cb4c3caf0e1a694f7d2fc5be64348e40112cd8c230067378a3"
+      "last_seen": "2026-10-13T02:50:31.571465+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8173956": {
       "company": "Greenhouse: Cloudflare",
@@ -24136,8 +24698,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "24c9d8e66b9473d013f59d65d74e9f9e862eb520525806f9db054c8f57c8b8ca",
       "first_discovered": "2026-10-13T02:39:07.619284+00:00",
-      "last_seen": "2026-10-13T02:39:07.619299+00:00",
-      "notified_hash": "24c9d8e66b9473d013f59d65d74e9f9e862eb520525806f9db054c8f57c8b8ca"
+      "last_seen": "2026-10-13T02:50:31.697965+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8260743": {
       "company": "Greenhouse: Cloudflare",
@@ -24157,8 +24721,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "ce5fcc5630508d35312ab0d7456e0b480d96e5483b10cf21dc3c2c31ecd1da35",
       "first_discovered": "2026-10-13T02:39:07.679997+00:00",
-      "last_seen": "2026-10-13T02:39:07.680011+00:00",
-      "notified_hash": "ce5fcc5630508d35312ab0d7456e0b480d96e5483b10cf21dc3c2c31ecd1da35"
+      "last_seen": "2026-10-13T02:50:31.796319+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8257533": {
       "company": "Greenhouse: Cloudflare",
@@ -24178,8 +24744,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "85a66854cb7ba2cd8036f338f46681b2075ac538c6aa885441644b1eda1f5c9d",
       "first_discovered": "2026-10-13T02:39:07.760368+00:00",
-      "last_seen": "2026-10-13T02:39:07.760386+00:00",
-      "notified_hash": "85a66854cb7ba2cd8036f338f46681b2075ac538c6aa885441644b1eda1f5c9d"
+      "last_seen": "2026-10-13T02:50:31.924444+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8024849": {
       "company": "Greenhouse: Cloudflare",
@@ -24199,8 +24767,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "659b4706e55c72755508afb726a2de290e60011bfc3efc4e2425f2f7bba72e6d",
       "first_discovered": "2026-10-13T02:39:07.831050+00:00",
-      "last_seen": "2026-10-13T02:39:07.831067+00:00",
-      "notified_hash": "659b4706e55c72755508afb726a2de290e60011bfc3efc4e2425f2f7bba72e6d"
+      "last_seen": "2026-10-13T02:50:32.036384+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8153015": {
       "company": "Greenhouse: Cloudflare",
@@ -24219,8 +24789,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "a8e5edc1da56efb08218f3706ed6e1d07a7c16fc6c651e2023161266ae85a368",
       "first_discovered": "2026-10-13T02:39:07.891003+00:00",
-      "last_seen": "2026-10-13T02:39:07.891019+00:00",
-      "notified_hash": "a8e5edc1da56efb08218f3706ed6e1d07a7c16fc6c651e2023161266ae85a368"
+      "last_seen": "2026-10-13T02:50:32.140231+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8200670": {
       "company": "Greenhouse: Cloudflare",
@@ -24239,8 +24811,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "695222cc644d7ccb57d3d5393fc8b932b06b3c196c4ec004f71676b721c4aca9",
       "first_discovered": "2026-10-13T02:39:07.952209+00:00",
-      "last_seen": "2026-10-13T02:39:07.952227+00:00",
-      "notified_hash": "695222cc644d7ccb57d3d5393fc8b932b06b3c196c4ec004f71676b721c4aca9"
+      "last_seen": "2026-10-13T02:50:32.241491+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8173954": {
       "company": "Greenhouse: Cloudflare",
@@ -24259,8 +24833,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "72d52fb59634bf54c819c630c0446405538d42ee467fd7e1bbcc99be5659dae1",
       "first_discovered": "2026-10-13T02:39:08.016555+00:00",
-      "last_seen": "2026-10-13T02:39:08.016568+00:00",
-      "notified_hash": "72d52fb59634bf54c819c630c0446405538d42ee467fd7e1bbcc99be5659dae1"
+      "last_seen": "2026-10-13T02:50:32.348132+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8158527": {
       "company": "Greenhouse: Cloudflare",
@@ -24279,8 +24855,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "71e8ee4e10a4dbaecd2cb13b3d3f360a512627471a58b5be616520827933b2b5",
       "first_discovered": "2026-10-13T02:39:08.078204+00:00",
-      "last_seen": "2026-10-13T02:39:08.078217+00:00",
-      "notified_hash": "71e8ee4e10a4dbaecd2cb13b3d3f360a512627471a58b5be616520827933b2b5"
+      "last_seen": "2026-10-13T02:50:32.447858+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8064473": {
       "company": "Greenhouse: Cloudflare",
@@ -24299,8 +24877,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "3ec3f16f42b1227131bd7df75d788c68c7428e5802615e8ed91a876729b5b298",
       "first_discovered": "2026-10-13T02:39:08.138104+00:00",
-      "last_seen": "2026-10-13T02:39:08.138118+00:00",
-      "notified_hash": "3ec3f16f42b1227131bd7df75d788c68c7428e5802615e8ed91a876729b5b298"
+      "last_seen": "2026-10-13T02:50:32.549171+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8239352": {
       "company": "Greenhouse: Cloudflare",
@@ -24319,8 +24899,10 @@
       "sponsorship": "export laws without sponsorship for an export license",
       "content_hash": "f27a3ffdbb17ee9cece2bcd80472ab6e0381d9bd1cb2faebf5c759a711d3350b",
       "first_discovered": "2026-10-13T02:39:08.199924+00:00",
-      "last_seen": "2026-10-13T02:39:08.199935+00:00",
-      "notified_hash": "f27a3ffdbb17ee9cece2bcd80472ab6e0381d9bd1cb2faebf5c759a711d3350b"
+      "last_seen": "2026-10-13T02:50:32.648032+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Cloudflare:8239323": {
       "company": "Greenhouse: Cloudflare",
