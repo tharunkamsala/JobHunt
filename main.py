@@ -24,7 +24,7 @@ async def run(args):
         adapter=GreenhouseSource if c["name"].startswith("Greenhouse:") else AmazonSource if c["name"]=="Amazon" else BrowserSource
         scan=await adapter(c,args.max_pages,args.max_details).scan(p)
         source=store.data["sources"].get(c["name"],{})
-        baseline=not source.get("baseline_complete",False)
+        baseline=not source.get("baseline_initialized",False)
         counters={"new_matching":0,"duplicates":0,"rejected":0,"notifications":0,"notification_failures":0}
         for job in scan.jobs:
             classify(job,args.graduation_year)
@@ -40,7 +40,7 @@ async def run(args):
                 if await telegram.send(("Updated posting\n" if changed else "")+format_job(rec)):
                     rec['notified_hash']=rec['content_hash']; counters['notifications']+=1; store.save()
                 else: counters['notification_failures']+=1
-        source={"status":scan.status,"last_scan":scan.completed,"baseline_complete":source.get("baseline_complete",False) or scan.status=="Verified Complete","recovery_pending":scan.status!="Verified Complete"}
+        source={"status":scan.status,"last_scan":scan.completed,"baseline_complete":source.get("baseline_complete",False) or scan.status=="Verified Complete","baseline_initialized":source.get("baseline_initialized",False) or (bool(scan.jobs) and not args.dry_run),"recovery_pending":scan.status!="Verified Complete"}
         store.data['sources'][c['name']]=source; store.save()
         report=asdict(scan); report.pop('jobs'); report.update(counters); report['extracted']=len(scan.jobs)
         if counters['notification_failures']: report['status']='Incomplete'; report['errors'].append('Telegram delivery failed; pending alerts retained')
@@ -55,7 +55,7 @@ async def run(args):
     return 0 if all(x['status']=='Verified Complete' for x in cleaned) else 2
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(); parser.add_argument('--config',default='config/companies.json'); parser.add_argument('--state',default='state/history.json'); parser.add_argument('--company'); parser.add_argument('--graduation-year',type=int,default=int(os.environ['GRADUATION_YEAR']) if os.getenv('GRADUATION_YEAR') else None); parser.add_argument('--alert-existing',action='store_true',default=os.getenv('ALERT_EXISTING')=='true'); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--max-pages',type=int,default=100); parser.add_argument('--max-details',type=int,default=2000)
+    parser=argparse.ArgumentParser(); parser.add_argument('--config',default='config/companies.json'); parser.add_argument('--state',default='state/history.json'); parser.add_argument('--company'); parser.add_argument('--graduation-year',type=int,default=int(os.environ['GRADUATION_YEAR']) if os.getenv('GRADUATION_YEAR') else None); parser.add_argument('--alert-existing',action='store_true',default=os.getenv('ALERT_EXISTING')=='true'); parser.add_argument('--dry-run',action='store_true'); parser.add_argument('--max-pages',type=int,default=200); parser.add_argument('--max-details',type=int,default=2000)
     logging.basicConfig(level=logging.INFO,format='%(asctime)s %(levelname)s %(message)s')
     logging.getLogger('httpx').setLevel(logging.WARNING)
     raise SystemExit(asyncio.run(run(parser.parse_args())))

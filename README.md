@@ -20,7 +20,7 @@ Run from this folder. `--company Amazon --max-pages 1 --max-details 2` is a
 bounded live diagnostic, deliberately incomplete. Default scans start all
 configured sources concurrently, using separate browser processes/contexts.
 `--graduation-year 2027` sets optional graduation criteria; omit to disable.
-`--alert-existing` enables baseline alerts. Default initial baseline is silent.
+`--alert-existing` enables baseline alerts. Default initial baseline is silent. The baseline covers jobs actually collected in the first live scan, even if that scan is incomplete; previously unseen jobs found on later recovery scans may alert regardless of their original posting date. Dry runs do not initialize the live baseline.
 `--dry-run` never sends messages but DOES update local history; use a separate
 `--state /tmp/hunter-test.json` for experiments.
 
@@ -31,7 +31,7 @@ configured sources concurrently, using separate browser processes/contexts.
    this folder as its root, excluding .venv, state, diagnostics and .env.
 2. In Telegram, use the official @BotFather to create a bot. Start a private
    conversation with your bot. Obtain your chat ID using the official Bot API
-   locally, keeping the bot token out of shell history and logs.
+   locally, keeping the bot token out of shell history and logs. Run `.venv/bin/python scripts/telegram_chat_id.py` for a hidden-token prompt after sending your bot a message.
 3. In GitHub repository Settings → Secrets and variables → Actions, add
    `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` as repository secrets. Do not
    place them in files or repository variables. Optional variables:
@@ -47,7 +47,7 @@ configured sources concurrently, using separate browser processes/contexts.
 Cron runs at UTC minutes 13 and 43. GitHub may delay/drop scheduled runs; this
 is not an exact timer. Public schedules may be disabled after 60 days without
 repository activity. Inspect Actions periodically. The MacBook is unnecessary
-once remotely deployed. This project has not been deployed or sent Telegram.
+once remotely deployed. The repository and manual workflow are deployed; a bounded remote dry run verified installation, tests, extraction and bot-state persistence. Scheduled monitoring is not active and no Telegram message has been sent.
 
 ## Free usage and security
 
@@ -98,8 +98,9 @@ screenshots or personal application data are collected.
   Telegram API and git commits. A timeout can likewise lose an acknowledgement.
 - Failure warnings currently repeat each unsuccessful scan; notification
   failures leave jobs pending and mark the overall result incomplete.
-- Long scans are bounded at seven minutes per attempt, three attempts per
-  source. Broad careers inventories may exceed this and remain incomplete.
+- Long scans use up to four concurrent detail pages per source, paced by
+  robots rules. Attempts have a 20-minute limit within a total 25-minute
+  recovery budget per source, with at most three attempts. Broad careers inventories may exceed this and remain incomplete.
 
 ## Tests
 

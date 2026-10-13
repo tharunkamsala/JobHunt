@@ -8,6 +8,10 @@ on:
         description: Verify without Telegram messages
         type: boolean
         default: false
+      telegram_test:
+        description: Send a Telegram setup verification instead of scanning
+        type: boolean
+        default: false
       max_details:
         description: Detail limit for bounded diagnostics
         type: number
@@ -49,9 +53,12 @@ jobs:
           GRADUATION_YEAR: ${{ vars.GRADUATION_YEAR }}
           ALERT_EXISTING: ${{ vars.ALERT_EXISTING }}
           DRY_RUN: ${{ inputs.dry_run }}
+          TELEGRAM_TEST: ${{ inputs.telegram_test }}
           MAX_DETAILS: ${{ inputs.max_details || 2000 }}
         run: |
-          if [ "$DRY_RUN" = "true" ]; then
+          if [ "$TELEGRAM_TEST" = "true" ]; then
+            python scripts/test_telegram_connection.py
+          elif [ "$DRY_RUN" = "true" ]; then
             python main.py --dry-run --max-details "$MAX_DETAILS"
           else
             test -n "$TELEGRAM_BOT_TOKEN" && test -n "$TELEGRAM_CHAT_ID"

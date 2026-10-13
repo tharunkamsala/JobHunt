@@ -8,23 +8,37 @@ from models import Job, Scan, now
 class Restricted(Exception): pass
 class BrowserSource:
     def __init__(self, config, max_pages=100, max_details=2000):
-        self.c=config; self.max_pages=max_pages; self.max_details=max_details; self.policies={}
+        self.c=config; self.max_pages=max_pages; self.max_details=max_details; self.policies={}; self.rate_locks={}; self.last_requests={}
+    async def pace(self,origin,policy):
+        delay=0.5
+        if policy is not None:
+            delay=max(delay,policy.crawl_delay("NewGradJobHunter") or 0)
+            rate=policy.request_rate("NewGradJobHunter")
+            if rate and rate.requests: delay=max(delay,rate.seconds/rate.requests)
+        if delay>600: raise Restricted("Source crawl delay exceeds scan budget")
+        lock=self.rate_locks.setdefault(origin,asyncio.Lock())
+        async with lock:
+            loop=asyncio.get_running_loop()
+            await asyncio.sleep(max(0,self.last_requests.get(origin,0)+delay-loop.time()))
+            self.last_requests[origin]=loop.time()
     async def allowed(self,url):
         parts=urlsplit(url); robots=f"{parts.scheme}://{parts.netloc}/robots.txt"
         if robots in self.policies:
             rp=self.policies[robots]
             if rp is not None and not rp.can_fetch(url,"NewGradJobHunter"): raise Restricted("robots.txt disallows requested URL")
-            if rp is not None: await asyncio.sleep(min(rp.crawl_delay("NewGradJobHunter") or rp.crawl_delay("*") or 1,120))
+            await self.pace(robots,rp)
             return
         async with httpx.AsyncClient(timeout=25,follow_redirects=True) as client:
             response=await client.get(robots)
         if response.status_code==404:
             self.policies[robots]=None
+            await self.pace(robots,None)
             return
         if response.status_code!=200: raise Restricted("robots.txt unavailable: "+str(response.status_code))
         if "<html" in response.text.lower() or "<!doctype" in response.text.lower(): raise Restricted("robots.txt returned HTML; access policy unverified")
         rp=Protego.parse(response.text); self.policies[robots]=rp
         if not rp.can_fetch(url,"NewGradJobHunter"): raise Restricted("robots.txt disallows requested URL")
+        await self.pace(robots,rp)
     async def goto(self,page,url):
         await self.allowed(url)
         response=await page.goto(url,wait_until="domcontentloaded",timeout=45000)
@@ -75,7 +89,7 @@ class BrowserSource:
     async def once(self,browser,result):
         context=await browser.new_context(user_agent="NewGradJobHunter/1.0 (personal career monitor)")
         try:
-            page=await context.new_page(); detail=await context.new_page()
+            page=await context.new_page()
             await self.goto(page,self.c["url"])
             await self.goto(page,self.c["search_url"])
             if self.c.get("query_selector"):
@@ -89,6 +103,8 @@ class BrowserSource:
                 await query.fill(keyword)
                 await query.press("Enter")
                 await page.wait_for_timeout(2000)
+                await query.press("Escape")
+                await query.press("Tab")
             # URL parameters initialize location; the actual keyword input executes search.
             seen=set(); signatures=set(); detail_failed=False
             for _ in range(self.max_pages):
@@ -99,18 +115,28 @@ class BrowserSource:
                 signature=tuple(sorted(links))
                 if signature in signatures: raise ValueError("Pagination repeated a result page")
                 signatures.add(signature); result.pages+=1
-                body=await page.locator("body").inner_text()
-                total=re.search(r"(?:of|showing[^\n]*of)\s+([\d,]+)\s+(?:jobs|results|roles)|([\d,]+)\s+(?:jobs found|results found)|(?:^|\n)([\d,]+) jobs(?:\n|$)",body,re.I)
-                if total: result.total=int(next(x for x in total.groups() if x).replace(',',''))
-                for url,title in links.items():
-                    if url in seen: continue
-                    if len(seen)>=self.max_details: raise ValueError("Detail safety limit reached")
-                    seen.add(url); result.listings=len(seen)
-                    try: result.jobs.append(await self.detail(detail,url,title))
-                    except Exception as exc:
-                        detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
-                    await asyncio.sleep(0.5)
-                reject=page.get_by_role("button",name=re.compile(r"^Reject all$",re.I))
+                if self.c.get("total_selector"):
+                    count=await page.locator(self.c["total_selector"]).inner_text()
+                    match=re.fullmatch(r"([\d,]+) jobs",count.strip(),re.I)
+                    if match: result.total=int(match.group(1).replace(',',''))
+                # Facet counts are never used as a source total (Amazon has no exact UI total).
+                pending=[(url,title) for url,title in links.items() if url not in seen]
+                remaining=self.max_details-len(seen)
+                limited=len(pending)>remaining
+                pending=pending[:remaining]
+                semaphore=asyncio.Semaphore(4)
+                async def extract(url,title):
+                    nonlocal detail_failed
+                    async with semaphore:
+                        seen.add(url); result.listings=len(seen)
+                        detail=await context.new_page()
+                        try: result.jobs.append(await self.detail(detail,url,title))
+                        except Exception as exc:
+                            detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
+                        finally: await detail.close()
+                await asyncio.gather(*(extract(url,title) for url,title in pending))
+                if limited: raise ValueError("Detail safety limit reached")
+                reject=page.get_by_role("button",name=re.compile(r"^Reject(?: all)?$",re.I))
                 if await reject.count() and await reject.first.is_visible(): await reject.first.click()
                 nxt=page.get_by_role("button",name=re.compile(r"^(next|next page|next jobs|load more(?: roles)?)$",re.I)).or_(page.get_by_role("link",name=re.compile(r"^next(?: page)?$",re.I)))
                 if await nxt.count() and await nxt.first.is_enabled():
@@ -123,12 +149,14 @@ class BrowserSource:
         finally: await context.close()
     async def scan(self,playwright):
         final=Scan(self.c["name"])
+        deadline=asyncio.get_running_loop().time()+1500
+        collected={}
         for attempt in range(3):
             result=Scan(self.c["name"],retries=attempt)
             browser=None
             try:
                 browser=await playwright.chromium.launch(headless=True)
-                await asyncio.wait_for(self.once(browser,result),timeout=420)
+                await asyncio.wait_for(self.once(browser,result),timeout=min(1200,max(1,deadline-asyncio.get_running_loop().time())))
                 final=result
                 if result.status=="Verified Complete": break
             except Exception as exc:
@@ -137,6 +165,10 @@ class BrowserSource:
                 if isinstance(exc,Restricted): break
             finally:
                 if browser: await browser.close()
+            collected.update({job.key:job for job in result.jobs})
+            if asyncio.get_running_loop().time()>=deadline: break
             if attempt<2: await asyncio.sleep(2**(attempt+1))
+        if final.status!="Verified Complete":
+            collected.update({job.key:job for job in final.jobs}); final.jobs=list(collected.values())
         final.completed=now()
         return final

@@ -12,7 +12,8 @@
     ],
     "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
     "query_selector": "#position-query-search",
-    "location_selector": "#position-location-search"
+    "location_selector": "#position-location-search",
+    "total_selector": "[data-testid=\"job-count\"]"
   },
   {
     "name": "Amazon",
@@ -40,7 +41,8 @@
     ],
     "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
     "query_selector": "#position-query-search",
-    "location_selector": "#position-location-search"
+    "location_selector": "#position-location-search",
+    "total_selector": "[data-testid=\"job-count\"]"
   },
   {
     "name": "Greenhouse: Cloudflare",

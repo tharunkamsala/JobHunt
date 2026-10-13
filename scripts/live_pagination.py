@@ -6,6 +6,7 @@ from playwright.async_api import async_playwright
 from scrapers.base import BrowserSource
 async def main():
     cs=json.loads(Path('config/companies.json').read_text())[:3]
+    if len(sys.argv)>1: cs=[c for c in cs if c['name'].lower()==sys.argv[1].lower()]
     async with async_playwright() as p:
         async def check(c):
             b=await p.chromium.launch(); context=await b.new_context(); page=await context.new_page()
@@ -20,8 +21,10 @@ async def main():
                 await page.locator(c['query_selector']).fill(result['keyword'])
                 await page.locator(c['query_selector']).press('Enter')
                 await page.wait_for_timeout(2500)
+                await page.locator(c['query_selector']).press('Escape')
+                await page.locator(c['query_selector']).press('Tab')
                 await page.locator(selector).first.wait_for(timeout=30000)
-                reject=page.get_by_role('button',name=re.compile(r'^Reject all$',re.I))
+                reject=page.get_by_role('button',name=re.compile(r'^Reject(?: all)?$',re.I))
                 if await reject.count() and await reject.first.is_visible(): await reject.first.click()
                 before=await page.locator(selector).evaluate_all('es=>es.map(e=>e.href)')
                 next_button=page.get_by_role('button',name=re.compile(r'^Next (?:jobs|page)$',re.I))
@@ -30,7 +33,7 @@ async def main():
                 after=await page.locator(selector).evaluate_all('es=>es.map(e=>e.href)')
                 if not before or not after or set(before)==set(after): raise ValueError('Page did not change')
                 result.update(first_count=len(before),second_count=len(after),status='Passed')
-            except Exception as e:result.update(status='Failed',error=type(e).__name__+': '+str(e)[:300])
+            except Exception as e:result.update(status='Failed',error=type(e).__name__+': '+str(e)[:5000])
             finally:await b.close()
             return result
         results=await asyncio.gather(*(check(c) for c in cs))
