@@ -1,4 +1,4 @@
-"""Read private chat IDs using the official API, without printing the bot token."""
+"""Read private and group chat IDs without printing the bot token."""
 from getpass import getpass
 import sys
 import httpx
@@ -13,15 +13,19 @@ def main():
         if response.status_code!=200:
             print('Telegram could not read updates. Check the token and whether this bot uses a webhook.'); return 1
         data=response.json()
-        ids=set()
+        chats={}
         for update in data.get('result',[]):
-            chat=(update.get('message') or {}).get('chat',{})
-            if chat.get('type')=='private' and chat.get('id'): ids.add(chat['id'])
-        if not ids:
-            print('Open your bot in Telegram, press Start, send hello, then run this helper again.'); return 1
-        for chat_id in sorted(ids): print('Private chat ID:',chat_id)
-        print('Save your ID as TELEGRAM_CHAT_ID in JobHunt repository Actions secrets.')
-        if len(ids)>1: print('Multiple chats found: use the ID of your own conversation.')
+            event=update.get('message') or update.get('my_chat_member') or {}
+            chat=event.get('chat',{})
+            if chat.get('type') in ('private','group','supergroup') and chat.get('id'):
+                chats[chat['id']]=chat
+        if not chats:
+            print('Press Start in your private bot chat, or add the bot to your group and send /start@YourBotUsername there, then retry.'); return 1
+        for chat_id,chat in sorted(chats.items()):
+            if chat['type']=='private': print('Private chat ID:',chat_id)
+            else: print('Group:',chat.get('title','Unnamed group'),'| Chat ID:',chat_id)
+        print('Save the destination ID as TELEGRAM_CHAT_ID in JobHunt repository Actions secrets.')
+        if len(chats)>1: print('Multiple chats found: choose the intended private chat or group.')
         return 0
     except Exception:
         # Do not print HTTP exceptions: request URLs contain the secret token.
