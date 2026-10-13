@@ -2650,8 +2650,10 @@
       "sponsorship": null,
       "content_hash": "eea87b4d9673cc12d00771892454ddf880c0d3b02f2b43579817adaeaf804c49",
       "first_discovered": "2026-10-13T02:38:15.678977+00:00",
-      "last_seen": "2026-10-13T02:38:15.678988+00:00",
-      "notified_hash": "eea87b4d9673cc12d00771892454ddf880c0d3b02f2b43579817adaeaf804c49"
+      "last_seen": "2026-10-13T02:51:07.324197+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8013809002": {
       "company": "Greenhouse: Databricks",
@@ -2670,8 +2672,10 @@
       "sponsorship": null,
       "content_hash": "7a00f76678d7ffc97cbd04ee3a4a6ed7b5cd24db991ce29c94f90fcde1d3f448",
       "first_discovered": "2026-10-13T02:38:15.702545+00:00",
-      "last_seen": "2026-10-13T02:38:15.702556+00:00",
-      "notified_hash": "7a00f76678d7ffc97cbd04ee3a4a6ed7b5cd24db991ce29c94f90fcde1d3f448"
+      "last_seen": "2026-10-13T02:51:07.408262+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8842408002": {
       "company": "Greenhouse: Databricks",
@@ -2690,8 +2694,10 @@
       "sponsorship": "Collaboration: Engage with architects, professional services engagement managers coordinate demand planning sessions, and align with executive sponsors to ensure a comprehensive approach to customer success",
       "content_hash": "d4bebddea43f0d9e4fc2fc09e5ba914946333e72a64832a80ec1302af4d5da51",
       "first_discovered": "2026-10-13T02:38:15.717578+00:00",
-      "last_seen": "2026-10-13T02:38:15.717587+00:00",
-      "notified_hash": "d4bebddea43f0d9e4fc2fc09e5ba914946333e72a64832a80ec1302af4d5da51"
+      "last_seen": "2026-10-13T02:51:07.479183+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8589349002": {
       "company": "Greenhouse: Databricks",
@@ -2710,8 +2716,10 @@
       "sponsorship": null,
       "content_hash": "bf499137cb1ab70cf6cb0d66831d4697d71794c21118ddeb6cbac5fb7f1631d3",
       "first_discovered": "2026-10-13T02:38:15.743992+00:00",
-      "last_seen": "2026-10-13T02:38:15.744002+00:00",
-      "notified_hash": "bf499137cb1ab70cf6cb0d66831d4697d71794c21118ddeb6cbac5fb7f1631d3"
+      "last_seen": "2026-10-13T02:51:07.563303+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8844022002": {
       "company": "Greenhouse: Databricks",
@@ -2730,8 +2738,10 @@
       "sponsorship": null,
       "content_hash": "edb76330d07a01c343f207c586bd04b36b1895d5a7e5287a4e620df9f2ea5787",
       "first_discovered": "2026-10-13T02:38:15.768871+00:00",
-      "last_seen": "2026-10-13T02:38:15.768880+00:00",
-      "notified_hash": "edb76330d07a01c343f207c586bd04b36b1895d5a7e5287a4e620df9f2ea5787"
+      "last_seen": "2026-10-13T02:51:07.731017+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8813191002": {
       "company": "Greenhouse: Databricks",
@@ -2750,8 +2760,10 @@
       "sponsorship": null,
       "content_hash": "042888dc5ff7007dc02bfc6e14574a04e5a9cf390216d10ac74208db96b2ae2b",
       "first_discovered": "2026-10-13T02:38:15.794719+00:00",
-      "last_seen": "2026-10-13T02:38:15.794730+00:00",
-      "notified_hash": "042888dc5ff7007dc02bfc6e14574a04e5a9cf390216d10ac74208db96b2ae2b"
+      "last_seen": "2026-10-13T02:51:07.646979+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8695183002": {
       "company": "Greenhouse: Databricks",
@@ -2770,8 +2782,10 @@
       "sponsorship": null,
       "content_hash": "9c892e3db9c0e51603404b9992c8e53452bba625f1d4cae2f845663d52938575",
       "first_discovered": "2026-10-13T02:38:15.820983+00:00",
-      "last_seen": "2026-10-13T02:38:15.820991+00:00",
-      "notified_hash": "9c892e3db9c0e51603404b9992c8e53452bba625f1d4cae2f845663d52938575"
+      "last_seen": "2026-10-13T02:51:07.827262+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8780748002": {
       "company": "Greenhouse: Databricks",
@@ -2790,8 +2804,10 @@
       "sponsorship": null,
       "content_hash": "fcdb9d2ea9544b2bff579a14d78b50ab8ab813174ee6aae3ad11a9e524730754",
       "first_discovered": "2026-10-13T02:38:15.854150+00:00",
-      "last_seen": "2026-10-13T02:38:15.854158+00:00",
-      "notified_hash": "fcdb9d2ea9544b2bff579a14d78b50ab8ab813174ee6aae3ad11a9e524730754"
+      "last_seen": "2026-10-13T02:51:07.923844+00:00",
+      "notified_hash": "fcdb9d2ea9544b2bff579a14d78b50ab8ab813174ee6aae3ad11a9e524730754",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:10.687875+00:00"
     },
     "Greenhouse: Databricks:8870938002": {
       "company": "Greenhouse: Databricks",
@@ -2810,8 +2826,10 @@
       "sponsorship": null,
       "content_hash": "dfb4750f289dd47390844f8ef53fa344fd19852553d6b4aa4a65d32ca6f28b71",
       "first_discovered": "2026-10-13T02:38:15.879458+00:00",
-      "last_seen": "2026-10-13T02:38:15.879469+00:00",
-      "notified_hash": "dfb4750f289dd47390844f8ef53fa344fd19852553d6b4aa4a65d32ca6f28b71"
+      "last_seen": "2026-10-13T02:51:11.533251+00:00",
+      "notified_hash": "dfb4750f289dd47390844f8ef53fa344fd19852553d6b4aa4a65d32ca6f28b71",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:21.382760+00:00"
     },
     "Greenhouse: Databricks:8816440002": {
       "company": "Greenhouse: Databricks",
@@ -2830,8 +2848,10 @@
       "sponsorship": null,
       "content_hash": "cd43844df7617f75cb34b6d2c71b2004bbbe210d8375cff925cfe232b8d95b20",
       "first_discovered": "2026-10-13T02:38:15.895969+00:00",
-      "last_seen": "2026-10-13T02:38:15.895980+00:00",
-      "notified_hash": "cd43844df7617f75cb34b6d2c71b2004bbbe210d8375cff925cfe232b8d95b20"
+      "last_seen": "2026-10-13T02:51:21.645972+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8440900002": {
       "company": "Greenhouse: Databricks",
@@ -2850,8 +2870,10 @@
       "sponsorship": null,
       "content_hash": "13bcb0f999bf6e544bdfc37b8bd8b36cddd80377f9c9f1b06ae25207604f230d",
       "first_discovered": "2026-10-13T02:38:15.911239+00:00",
-      "last_seen": "2026-10-13T02:38:15.911249+00:00",
-      "notified_hash": "13bcb0f999bf6e544bdfc37b8bd8b36cddd80377f9c9f1b06ae25207604f230d"
+      "last_seen": "2026-10-13T02:51:21.796909+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8588516002": {
       "company": "Greenhouse: Databricks",
@@ -2870,8 +2892,10 @@
       "sponsorship": null,
       "content_hash": "7df58372e09f99552cc3de847528f902572f9dfb6502d2578bbcfb2adc5ebd25",
       "first_discovered": "2026-10-13T02:38:15.938655+00:00",
-      "last_seen": "2026-10-13T02:38:15.938665+00:00",
-      "notified_hash": "7df58372e09f99552cc3de847528f902572f9dfb6502d2578bbcfb2adc5ebd25"
+      "last_seen": "2026-10-13T02:51:22.064113+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8871484002": {
       "company": "Greenhouse: Databricks",
@@ -2890,8 +2914,10 @@
       "sponsorship": null,
       "content_hash": "13ec635be60c71f3898ec17a0481c6bc65b956b7806caa63623739d570b6db89",
       "first_discovered": "2026-10-13T02:38:15.974936+00:00",
-      "last_seen": "2026-10-13T02:38:15.974946+00:00",
-      "notified_hash": "13ec635be60c71f3898ec17a0481c6bc65b956b7806caa63623739d570b6db89"
+      "last_seen": "2026-10-13T02:51:22.354790+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8440940002": {
       "company": "Greenhouse: Databricks",
@@ -2910,8 +2936,10 @@
       "sponsorship": null,
       "content_hash": "d558da337485a60a6af6eb87984297c379e9652be561e2cc6c44431a6baaef11",
       "first_discovered": "2026-10-13T02:38:16.007776+00:00",
-      "last_seen": "2026-10-13T02:38:16.007786+00:00",
-      "notified_hash": "d558da337485a60a6af6eb87984297c379e9652be561e2cc6c44431a6baaef11"
+      "last_seen": "2026-10-13T02:51:22.550736+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8879335002": {
       "company": "Greenhouse: Databricks",
@@ -2930,8 +2958,10 @@
       "sponsorship": null,
       "content_hash": "43f97f31ef1e590aea55a2ac35b81de7de02bba93828dc5682e302db5f031f27",
       "first_discovered": "2026-10-13T02:38:16.049328+00:00",
-      "last_seen": "2026-10-13T02:38:16.049339+00:00",
-      "notified_hash": "43f97f31ef1e590aea55a2ac35b81de7de02bba93828dc5682e302db5f031f27"
+      "last_seen": "2026-10-13T02:51:22.822627+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:7841080002": {
       "company": "Greenhouse: Databricks",
@@ -2950,8 +2980,10 @@
       "sponsorship": null,
       "content_hash": "3c69dafa159051bcd82d70b707ca62500956ea106e4b692a138dd8be7d4f768e",
       "first_discovered": "2026-10-13T02:38:16.064744+00:00",
-      "last_seen": "2026-10-13T02:38:16.064754+00:00",
-      "notified_hash": "3c69dafa159051bcd82d70b707ca62500956ea106e4b692a138dd8be7d4f768e"
+      "last_seen": "2026-10-13T02:51:22.947586+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8736885002": {
       "company": "Greenhouse: Databricks",
@@ -2970,8 +3002,10 @@
       "sponsorship": null,
       "content_hash": "b9d72358b7feaa64322dba3166a7713caf580018c4cec1c67258fe1686991516",
       "first_discovered": "2026-10-13T02:38:16.092712+00:00",
-      "last_seen": "2026-10-13T02:38:16.092722+00:00",
-      "notified_hash": "b9d72358b7feaa64322dba3166a7713caf580018c4cec1c67258fe1686991516"
+      "last_seen": "2026-10-13T02:51:23.095664+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8440922002": {
       "company": "Greenhouse: Databricks",
@@ -2990,8 +3024,10 @@
       "sponsorship": null,
       "content_hash": "2a2a68e619be17ff190f3e98f9d90ca7a9a56a8f4f4d7708cacea7b63e1447d3",
       "first_discovered": "2026-10-13T02:38:16.112174+00:00",
-      "last_seen": "2026-10-13T02:38:16.112185+00:00",
-      "notified_hash": "2a2a68e619be17ff190f3e98f9d90ca7a9a56a8f4f4d7708cacea7b63e1447d3"
+      "last_seen": "2026-10-13T02:51:23.223368+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8206138002": {
       "company": "Greenhouse: Databricks",
@@ -3010,8 +3046,10 @@
       "sponsorship": null,
       "content_hash": "c66578e34dd7ce550eb0b92fe114712bc2f0c7ff055a7cfb1498e6341e85701f",
       "first_discovered": "2026-10-13T02:38:16.139356+00:00",
-      "last_seen": "2026-10-13T02:38:16.139365+00:00",
-      "notified_hash": "c66578e34dd7ce550eb0b92fe114712bc2f0c7ff055a7cfb1498e6341e85701f"
+      "last_seen": "2026-10-13T02:51:23.372081+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8596447002": {
       "company": "Greenhouse: Databricks",
@@ -3030,8 +3068,10 @@
       "sponsorship": "Experience navigating procurement frameworks and mechanisms Background in Cloud software, open source technology, or the Data and AI space Experience driving adoption of usage-based SaaS services and co-selling with AWS, Azure or Google Cloud Ability to identify key use cases and buying centres to expand Databricks\u2019 value within an organisation Methods for co-developing business cases and securing C-level sponsorship Experience building strong champions, collaborative teams and productive partnerships Understanding of consumption-based land-and-expand sales models Familiarity with robust sales methodologies (e",
       "content_hash": "7406a4a8a58001d381ec6e84fa75b922ed60896366ec2a91bd72d1afd0c0b6cb",
       "first_discovered": "2026-10-13T02:38:16.164226+00:00",
-      "last_seen": "2026-10-13T02:38:16.164234+00:00",
-      "notified_hash": "7406a4a8a58001d381ec6e84fa75b922ed60896366ec2a91bd72d1afd0c0b6cb"
+      "last_seen": "2026-10-13T02:51:23.532058+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8631661002": {
       "company": "Greenhouse: Databricks",
@@ -3050,8 +3090,10 @@
       "sponsorship": null,
       "content_hash": "d4342b36addbc162760158c563fc560c5c23fbdbc3c563d589c290dbcdffd77b",
       "first_discovered": "2026-10-13T02:38:16.190513+00:00",
-      "last_seen": "2026-10-13T02:38:16.190521+00:00",
-      "notified_hash": "d4342b36addbc162760158c563fc560c5c23fbdbc3c563d589c290dbcdffd77b"
+      "last_seen": "2026-10-13T02:51:23.678326+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8808527002": {
       "company": "Greenhouse: Databricks",
@@ -3070,8 +3112,10 @@
       "sponsorship": null,
       "content_hash": "fe01741e515c4b547d113e4b4e5b2f23bf423a3ccd2ee63982e7c007001065da",
       "first_discovered": "2026-10-13T02:38:16.205867+00:00",
-      "last_seen": "2026-10-13T02:38:16.205874+00:00",
-      "notified_hash": "fe01741e515c4b547d113e4b4e5b2f23bf423a3ccd2ee63982e7c007001065da"
+      "last_seen": "2026-10-13T02:51:23.752861+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8700398002": {
       "company": "Greenhouse: Databricks",
@@ -3090,8 +3134,10 @@
       "sponsorship": null,
       "content_hash": "6ca42cbcf1537d5ea3ecf5f5f10e61ce7e3767646f43c3cd294f0d834299c8a3",
       "first_discovered": "2026-10-13T02:38:16.232681+00:00",
-      "last_seen": "2026-10-13T02:38:16.232691+00:00",
-      "notified_hash": "6ca42cbcf1537d5ea3ecf5f5f10e61ce7e3767646f43c3cd294f0d834299c8a3"
+      "last_seen": "2026-10-13T02:51:23.845998+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8737171002": {
       "company": "Greenhouse: Databricks",
@@ -3110,8 +3156,10 @@
       "sponsorship": null,
       "content_hash": "9380dd1139cfd64440170e7173ccbc4dad1fcc1a1703dd4c77936c8c171c8eb4",
       "first_discovered": "2026-10-13T02:38:16.250335+00:00",
-      "last_seen": "2026-10-13T02:38:16.250346+00:00",
-      "notified_hash": "9380dd1139cfd64440170e7173ccbc4dad1fcc1a1703dd4c77936c8c171c8eb4"
+      "last_seen": "2026-10-13T02:51:23.917919+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8582323002": {
       "company": "Greenhouse: Databricks",
@@ -3130,8 +3178,10 @@
       "sponsorship": null,
       "content_hash": "5844b708652f1b844d07db595a6ec7d62407c001c621ff4757b1abf368a0cef6",
       "first_discovered": "2026-10-13T02:38:16.270191+00:00",
-      "last_seen": "2026-10-13T02:38:16.270199+00:00",
-      "notified_hash": "5844b708652f1b844d07db595a6ec7d62407c001c621ff4757b1abf368a0cef6"
+      "last_seen": "2026-10-13T02:51:23.988905+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8642499002": {
       "company": "Greenhouse: Databricks",
@@ -3150,8 +3200,10 @@
       "sponsorship": null,
       "content_hash": "fd17e9de12252430ad692cb11c8e38480031a61d1d20e02250a45683158d85e0",
       "first_discovered": "2026-10-13T02:38:16.292713+00:00",
-      "last_seen": "2026-10-13T02:38:16.292723+00:00",
-      "notified_hash": "fd17e9de12252430ad692cb11c8e38480031a61d1d20e02250a45683158d85e0"
+      "last_seen": "2026-10-13T02:51:24.064362+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8394014002": {
       "company": "Greenhouse: Databricks",
@@ -3171,8 +3223,10 @@
       "sponsorship": null,
       "content_hash": "05f6a69ebf4b160eaf02751f115f9e96be5345963827b5cb2023cb219ff53582",
       "first_discovered": "2026-10-13T02:38:16.348473+00:00",
-      "last_seen": "2026-10-13T02:38:16.348484+00:00",
-      "notified_hash": "05f6a69ebf4b160eaf02751f115f9e96be5345963827b5cb2023cb219ff53582"
+      "last_seen": "2026-10-13T02:51:24.191475+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8638637002": {
       "company": "Greenhouse: Databricks",
@@ -3192,8 +3246,10 @@
       "sponsorship": null,
       "content_hash": "9f68be3d3429623d45d547038500ad7a3be543cda7724bd45b84869d8ec67567",
       "first_discovered": "2026-10-13T02:38:16.374322+00:00",
-      "last_seen": "2026-10-13T02:38:16.374333+00:00",
-      "notified_hash": "9f68be3d3429623d45d547038500ad7a3be543cda7724bd45b84869d8ec67567"
+      "last_seen": "2026-10-13T02:51:24.272433+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8638732002": {
       "company": "Greenhouse: Databricks",
@@ -3212,8 +3268,10 @@
       "sponsorship": null,
       "content_hash": "23da750a498e51cebf2eceb418ad1533507d7857c7edcc8b539be3ad1ccc44f1",
       "first_discovered": "2026-10-13T02:38:16.402542+00:00",
-      "last_seen": "2026-10-13T02:38:16.402553+00:00",
-      "notified_hash": "23da750a498e51cebf2eceb418ad1533507d7857c7edcc8b539be3ad1ccc44f1"
+      "last_seen": "2026-10-13T02:51:24.356055+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8229672002": {
       "company": "Greenhouse: Databricks",
@@ -3232,8 +3290,10 @@
       "sponsorship": null,
       "content_hash": "87a0aa15c3c12b3930896a77ed0bbecbd23dcff379abc901db5317d933fd9821",
       "first_discovered": "2026-10-13T02:38:16.421625+00:00",
-      "last_seen": "2026-10-13T02:38:16.421636+00:00",
-      "notified_hash": "87a0aa15c3c12b3930896a77ed0bbecbd23dcff379abc901db5317d933fd9821"
+      "last_seen": "2026-10-13T02:51:24.502978+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8701067002": {
       "company": "Greenhouse: Databricks",
@@ -3252,8 +3312,10 @@
       "sponsorship": null,
       "content_hash": "1c730f792856e79d27beb3099d60f5da7783a58215f054c5b6d4030588093d74",
       "first_discovered": "2026-10-13T02:38:16.442450+00:00",
-      "last_seen": "2026-10-13T02:38:16.442462+00:00",
-      "notified_hash": "1c730f792856e79d27beb3099d60f5da7783a58215f054c5b6d4030588093d74"
+      "last_seen": "2026-10-13T02:51:24.431313+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8842226002": {
       "company": "Greenhouse: Databricks",
@@ -3272,8 +3334,10 @@
       "sponsorship": null,
       "content_hash": "d195291b37bb81e8fdca3d5c7395cdd91d31eb07ad8cfb1f303b822413686241",
       "first_discovered": "2026-10-13T02:38:16.464762+00:00",
-      "last_seen": "2026-10-13T02:38:16.464773+00:00",
-      "notified_hash": "d195291b37bb81e8fdca3d5c7395cdd91d31eb07ad8cfb1f303b822413686241"
+      "last_seen": "2026-10-13T02:51:24.582407+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8743120002": {
       "company": "Greenhouse: Databricks",
@@ -3292,8 +3356,10 @@
       "sponsorship": null,
       "content_hash": "a66f2c726ba39cd0239aabee77d39c0bfd481a53e110a6061264df168165ad6b",
       "first_discovered": "2026-10-13T02:38:16.489796+00:00",
-      "last_seen": "2026-10-13T02:38:16.489804+00:00",
-      "notified_hash": "a66f2c726ba39cd0239aabee77d39c0bfd481a53e110a6061264df168165ad6b"
+      "last_seen": "2026-10-13T02:51:24.662362+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8306218002": {
       "company": "Greenhouse: Databricks",
@@ -3312,8 +3378,10 @@
       "sponsorship": null,
       "content_hash": "19b055ade8168b7db3591d6ab5b7786cbacc54c8afcaa3b20930cf6cd7fa9539",
       "first_discovered": "2026-10-13T02:38:16.527760+00:00",
-      "last_seen": "2026-10-13T02:38:16.527774+00:00",
-      "notified_hash": "19b055ade8168b7db3591d6ab5b7786cbacc54c8afcaa3b20930cf6cd7fa9539"
+      "last_seen": "2026-10-13T02:51:24.747358+00:00",
+      "notified_hash": "19b055ade8168b7db3591d6ab5b7786cbacc54c8afcaa3b20930cf6cd7fa9539",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:25.627968+00:00"
     },
     "Greenhouse: Databricks:8583083002": {
       "company": "Greenhouse: Databricks",
@@ -3332,8 +3400,10 @@
       "sponsorship": null,
       "content_hash": "357b5ce0f90a7d39cdc05db604439cfeea25767f1fc0e2470d7b14f526f7bb17",
       "first_discovered": "2026-10-13T02:38:16.558758+00:00",
-      "last_seen": "2026-10-13T02:38:16.558770+00:00",
-      "notified_hash": "357b5ce0f90a7d39cdc05db604439cfeea25767f1fc0e2470d7b14f526f7bb17"
+      "last_seen": "2026-10-13T02:51:25.806767+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8701065002": {
       "company": "Greenhouse: Databricks",
@@ -3352,8 +3422,10 @@
       "sponsorship": null,
       "content_hash": "0a2a85f958206accfe220e0d5cecffc218fb5f1f85f98e03039b98113c1e2662",
       "first_discovered": "2026-10-13T02:38:16.676433+00:00",
-      "last_seen": "2026-10-13T02:38:16.676446+00:00",
-      "notified_hash": "0a2a85f958206accfe220e0d5cecffc218fb5f1f85f98e03039b98113c1e2662"
+      "last_seen": "2026-10-13T02:51:26.035065+00:00",
+      "notified_hash": "0a2a85f958206accfe220e0d5cecffc218fb5f1f85f98e03039b98113c1e2662",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:28.003081+00:00"
     },
     "Greenhouse: Databricks:8785065002": {
       "company": "Greenhouse: Databricks",
@@ -3372,8 +3444,10 @@
       "sponsorship": null,
       "content_hash": "40d98410be72976c1cf0c8ac65adffa0fb468082fad404d616ba43b82d4a55e5",
       "first_discovered": "2026-10-13T02:38:16.708701+00:00",
-      "last_seen": "2026-10-13T02:38:16.708713+00:00",
-      "notified_hash": "40d98410be72976c1cf0c8ac65adffa0fb468082fad404d616ba43b82d4a55e5"
+      "last_seen": "2026-10-13T02:51:28.296712+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8677627002": {
       "company": "Greenhouse: Databricks",
@@ -3392,8 +3466,10 @@
       "sponsorship": null,
       "content_hash": "12e0c6cf020521d1288e71da1e05686cd028fe3241d89d1dc955286045310f4f",
       "first_discovered": "2026-10-13T02:38:16.741772+00:00",
-      "last_seen": "2026-10-13T02:38:16.741783+00:00",
-      "notified_hash": "12e0c6cf020521d1288e71da1e05686cd028fe3241d89d1dc955286045310f4f"
+      "last_seen": "2026-10-13T02:51:28.474491+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8641466002": {
       "company": "Greenhouse: Databricks",
@@ -3412,8 +3488,10 @@
       "sponsorship": null,
       "content_hash": "ca488a1173a40c11a5941d1f8ef6ebc1229598665fcc844412c6df041644b648",
       "first_discovered": "2026-10-13T02:38:16.766503+00:00",
-      "last_seen": "2026-10-13T02:38:16.766515+00:00",
-      "notified_hash": "ca488a1173a40c11a5941d1f8ef6ebc1229598665fcc844412c6df041644b648"
+      "last_seen": "2026-10-13T02:51:28.641434+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8598531002": {
       "company": "Greenhouse: Databricks",
@@ -3433,8 +3511,10 @@
       "sponsorship": null,
       "content_hash": "e62efc72e3cfc548e8eb591531fa9af1885fee60973e2ac73f67476b48adc153",
       "first_discovered": "2026-10-13T02:38:16.783460+00:00",
-      "last_seen": "2026-10-13T02:38:16.783470+00:00",
-      "notified_hash": "e62efc72e3cfc548e8eb591531fa9af1885fee60973e2ac73f67476b48adc153"
+      "last_seen": "2026-10-13T02:51:28.791605+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8604598002": {
       "company": "Greenhouse: Databricks",
@@ -3454,8 +3534,10 @@
       "sponsorship": null,
       "content_hash": "e6bc5ce3fcda7fc5cfddd454f17f8538df64943f49602e5e02cc54f27310419c",
       "first_discovered": "2026-10-13T02:38:16.927727+00:00",
-      "last_seen": "2026-10-13T02:38:16.927741+00:00",
-      "notified_hash": "e6bc5ce3fcda7fc5cfddd454f17f8538df64943f49602e5e02cc54f27310419c"
+      "last_seen": "2026-10-13T02:51:29.273200+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8414474002": {
       "company": "Greenhouse: Databricks",
@@ -3474,8 +3556,10 @@
       "sponsorship": null,
       "content_hash": "e7f7984f6d7c835e541033986d559862e8d81b79dc71b973534a9e3821f6067e",
       "first_discovered": "2026-10-13T02:38:16.967245+00:00",
-      "last_seen": "2026-10-13T02:38:16.967259+00:00",
-      "notified_hash": "e7f7984f6d7c835e541033986d559862e8d81b79dc71b973534a9e3821f6067e"
+      "last_seen": "2026-10-13T02:51:29.436847+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8860431002": {
       "company": "Greenhouse: Databricks",
@@ -3494,8 +3578,10 @@
       "sponsorship": null,
       "content_hash": "4661b6f9d484246cf0154c54d6d7b37194cc123d28ab6bd2789fe0dc401f6973",
       "first_discovered": "2026-10-13T02:38:16.988317+00:00",
-      "last_seen": "2026-10-13T02:38:16.988328+00:00",
-      "notified_hash": "4661b6f9d484246cf0154c54d6d7b37194cc123d28ab6bd2789fe0dc401f6973"
+      "last_seen": "2026-10-13T02:51:29.930815+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8540455002": {
       "company": "Greenhouse: Databricks",
@@ -3514,8 +3600,10 @@
       "sponsorship": null,
       "content_hash": "2521c5f0346c7fc10a562e6d76a1b05f81793df52b6ae60600027bb3e4500200",
       "first_discovered": "2026-10-13T02:38:17.018236+00:00",
-      "last_seen": "2026-10-13T02:38:17.018247+00:00",
-      "notified_hash": "2521c5f0346c7fc10a562e6d76a1b05f81793df52b6ae60600027bb3e4500200"
+      "last_seen": "2026-10-13T02:51:29.658325+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8741922002": {
       "company": "Greenhouse: Databricks",
@@ -3534,8 +3622,10 @@
       "sponsorship": null,
       "content_hash": "22607f06a823f9933d7f96fc5c5f61de461e7152d2ffe6ab3fc1afec7687482d",
       "first_discovered": "2026-10-13T02:38:17.048799+00:00",
-      "last_seen": "2026-10-13T02:38:17.048808+00:00",
-      "notified_hash": "22607f06a823f9933d7f96fc5c5f61de461e7152d2ffe6ab3fc1afec7687482d"
+      "last_seen": "2026-10-13T02:51:29.559270+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8648494002": {
       "company": "Greenhouse: Databricks",
@@ -3554,8 +3644,10 @@
       "sponsorship": null,
       "content_hash": "31a5eb9e392a6a4ea2006cd93b655c85e996198666346558ba1b3fb0d1859ba5",
       "first_discovered": "2026-10-13T02:38:17.077699+00:00",
-      "last_seen": "2026-10-13T02:38:17.077710+00:00",
-      "notified_hash": "31a5eb9e392a6a4ea2006cd93b655c85e996198666346558ba1b3fb0d1859ba5"
+      "last_seen": "2026-10-13T02:51:29.758610+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8462016002": {
       "company": "Greenhouse: Databricks",
@@ -3574,8 +3666,10 @@
       "sponsorship": null,
       "content_hash": "3234e6507caa4a2bcbdbeb74f03500379783f72367494d4779ca8751a62ad376",
       "first_discovered": "2026-10-13T02:38:17.107082+00:00",
-      "last_seen": "2026-10-13T02:38:17.107106+00:00",
-      "notified_hash": "3234e6507caa4a2bcbdbeb74f03500379783f72367494d4779ca8751a62ad376"
+      "last_seen": "2026-10-13T02:51:29.847756+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8439047002": {
       "company": "Greenhouse: Databricks",
@@ -3594,8 +3688,10 @@
       "sponsorship": null,
       "content_hash": "98b75edf0d33b913bbabcb2f070284e53c38a13309684214f77e8d34b84230d2",
       "first_discovered": "2026-10-13T02:38:17.136820+00:00",
-      "last_seen": "2026-10-13T02:38:17.136829+00:00",
-      "notified_hash": "98b75edf0d33b913bbabcb2f070284e53c38a13309684214f77e8d34b84230d2"
+      "last_seen": "2026-10-13T02:51:30.024185+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8611108002": {
       "company": "Greenhouse: Databricks",
@@ -3614,8 +3710,10 @@
       "sponsorship": null,
       "content_hash": "8dd71c7211ca818ea56a05f6c5f651eeb77208caa7436debe6d527ec96b24b7b",
       "first_discovered": "2026-10-13T02:38:17.184899+00:00",
-      "last_seen": "2026-10-13T02:38:17.184908+00:00",
-      "notified_hash": "8dd71c7211ca818ea56a05f6c5f651eeb77208caa7436debe6d527ec96b24b7b"
+      "last_seen": "2026-10-13T02:51:30.150247+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8856501002": {
       "company": "Greenhouse: Databricks",
@@ -3635,8 +3733,10 @@
       "sponsorship": null,
       "content_hash": "02b02d68bfa4b474698b6a71a574a07dfdf36c330c0e15c1da9a0f6ee01102f3",
       "first_discovered": "2026-10-13T02:38:17.214561+00:00",
-      "last_seen": "2026-10-13T02:38:17.214571+00:00",
-      "notified_hash": "02b02d68bfa4b474698b6a71a574a07dfdf36c330c0e15c1da9a0f6ee01102f3"
+      "last_seen": "2026-10-13T02:51:30.247804+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8656202002": {
       "company": "Greenhouse: Databricks",
@@ -3656,8 +3756,10 @@
       "sponsorship": null,
       "content_hash": "8fe451113d5351fd7edcc6b9ec10734cd79ddfb3754de0b6d2baceb29f697378",
       "first_discovered": "2026-10-13T02:38:17.244387+00:00",
-      "last_seen": "2026-10-13T02:38:17.244398+00:00",
-      "notified_hash": "8fe451113d5351fd7edcc6b9ec10734cd79ddfb3754de0b6d2baceb29f697378"
+      "last_seen": "2026-10-13T02:51:30.336168+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8707779002": {
       "company": "Greenhouse: Databricks",
@@ -3676,8 +3778,10 @@
       "sponsorship": null,
       "content_hash": "de7f08df4f1fdda44bbc01d24226fd462666e94a144f4f25fbf15f1ba2cec79c",
       "first_discovered": "2026-10-13T02:38:17.269535+00:00",
-      "last_seen": "2026-10-13T02:38:17.269544+00:00",
-      "notified_hash": "de7f08df4f1fdda44bbc01d24226fd462666e94a144f4f25fbf15f1ba2cec79c"
+      "last_seen": "2026-10-13T02:51:30.417916+00:00",
+      "notified_hash": "de7f08df4f1fdda44bbc01d24226fd462666e94a144f4f25fbf15f1ba2cec79c",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:31.172980+00:00"
     },
     "Greenhouse: Databricks:8679976002": {
       "company": "Greenhouse: Databricks",
@@ -3697,8 +3801,10 @@
       "sponsorship": null,
       "content_hash": "99273c8b74f07d2506a5dcc94db7822c5daddcefcf416e684ef44942d77da103",
       "first_discovered": "2026-10-13T02:38:17.292862+00:00",
-      "last_seen": "2026-10-13T02:38:17.292871+00:00",
-      "notified_hash": "99273c8b74f07d2506a5dcc94db7822c5daddcefcf416e684ef44942d77da103"
+      "last_seen": "2026-10-13T02:51:31.307036+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8688875002": {
       "company": "Greenhouse: Databricks",
@@ -3720,8 +3826,10 @@
       "sponsorship": null,
       "content_hash": "03e35d3bf02d9a90bebe2f6155c5bf4a57e4818ccf53b6c3efd99bc30880faa8",
       "first_discovered": "2026-10-13T02:38:17.319840+00:00",
-      "last_seen": "2026-10-13T02:38:17.319849+00:00",
-      "notified_hash": "03e35d3bf02d9a90bebe2f6155c5bf4a57e4818ccf53b6c3efd99bc30880faa8"
+      "last_seen": "2026-10-13T02:51:31.395247+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8603392002": {
       "company": "Greenhouse: Databricks",
@@ -3741,8 +3849,10 @@
       "sponsorship": null,
       "content_hash": "5448669a86352a49e36e48eb9ae17faa5fb3c177bc290c6f10898dd3f8a67d77",
       "first_discovered": "2026-10-13T02:38:17.359043+00:00",
-      "last_seen": "2026-10-13T02:38:17.359055+00:00",
-      "notified_hash": "5448669a86352a49e36e48eb9ae17faa5fb3c177bc290c6f10898dd3f8a67d77"
+      "last_seen": "2026-10-13T02:51:31.508947+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8356420002": {
       "company": "Greenhouse: Databricks",
@@ -3761,8 +3871,10 @@
       "sponsorship": null,
       "content_hash": "517bc8cec9f09e857851edb79e999c65e4b8e55e2662369c284dfd725cf03e3c",
       "first_discovered": "2026-10-13T02:38:17.398400+00:00",
-      "last_seen": "2026-10-13T02:38:17.398411+00:00",
-      "notified_hash": "517bc8cec9f09e857851edb79e999c65e4b8e55e2662369c284dfd725cf03e3c"
+      "last_seen": "2026-10-13T02:51:31.657348+00:00",
+      "notified_hash": "517bc8cec9f09e857851edb79e999c65e4b8e55e2662369c284dfd725cf03e3c",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:32.469983+00:00"
     },
     "Greenhouse: Databricks:8843892002": {
       "company": "Greenhouse: Databricks",
@@ -3782,8 +3894,10 @@
       "sponsorship": null,
       "content_hash": "c8bea5596bbe7a859739dc50d65a78794b1e868dad5381f0a4b99dc630456b17",
       "first_discovered": "2026-10-13T02:38:17.426393+00:00",
-      "last_seen": "2026-10-13T02:38:17.426403+00:00",
-      "notified_hash": "c8bea5596bbe7a859739dc50d65a78794b1e868dad5381f0a4b99dc630456b17"
+      "last_seen": "2026-10-13T02:51:32.985808+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8824179002": {
       "company": "Greenhouse: Databricks",
@@ -3802,8 +3916,10 @@
       "sponsorship": null,
       "content_hash": "5eb369e0377eaceaf7d6113bb12ea22c60f565064a6cd82cbf53630058c0bc90",
       "first_discovered": "2026-10-13T02:38:17.454130+00:00",
-      "last_seen": "2026-10-13T02:38:17.454139+00:00",
-      "notified_hash": "5eb369e0377eaceaf7d6113bb12ea22c60f565064a6cd82cbf53630058c0bc90"
+      "last_seen": "2026-10-13T02:51:33.452360+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:7293607002": {
       "company": "Greenhouse: Databricks",
@@ -3822,8 +3938,10 @@
       "sponsorship": null,
       "content_hash": "c7c3086546526a1129ba23c2e99de0ebd2e54184323c6770ba25a13a5f51aadd",
       "first_discovered": "2026-10-13T02:38:17.488919+00:00",
-      "last_seen": "2026-10-13T02:38:17.488929+00:00",
-      "notified_hash": "c7c3086546526a1129ba23c2e99de0ebd2e54184323c6770ba25a13a5f51aadd"
+      "last_seen": "2026-10-13T02:51:33.848668+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8501026002": {
       "company": "Greenhouse: Databricks",
@@ -3843,8 +3961,10 @@
       "sponsorship": null,
       "content_hash": "07af15cfb32eb297fc09b937a1e9eea87f30e3d642bf43ab2f37b40086430559",
       "first_discovered": "2026-10-13T02:38:17.529320+00:00",
-      "last_seen": "2026-10-13T02:38:17.529334+00:00",
-      "notified_hash": "07af15cfb32eb297fc09b937a1e9eea87f30e3d642bf43ab2f37b40086430559"
+      "last_seen": "2026-10-13T02:51:34.222632+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8493722002": {
       "company": "Greenhouse: Databricks",
@@ -3863,8 +3983,10 @@
       "sponsorship": null,
       "content_hash": "95dcd39e0d4ec41999a46dfd4e94090aaff8f701cf42f72d29830e1a9b97766b",
       "first_discovered": "2026-10-13T02:38:17.559913+00:00",
-      "last_seen": "2026-10-13T02:38:17.559924+00:00",
-      "notified_hash": "95dcd39e0d4ec41999a46dfd4e94090aaff8f701cf42f72d29830e1a9b97766b"
+      "last_seen": "2026-10-13T02:51:34.686328+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:7856268002": {
       "company": "Greenhouse: Databricks",
@@ -3883,8 +4005,10 @@
       "sponsorship": null,
       "content_hash": "44b050c21ef078eb5f75b44a1e4ff09fed43e865f4e94d848ade0438bfe9d596",
       "first_discovered": "2026-10-13T02:38:17.595370+00:00",
-      "last_seen": "2026-10-13T02:38:17.595378+00:00",
-      "notified_hash": "44b050c21ef078eb5f75b44a1e4ff09fed43e865f4e94d848ade0438bfe9d596"
+      "last_seen": "2026-10-13T02:51:34.886199+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8407869002": {
       "company": "Greenhouse: Databricks",
@@ -3903,8 +4027,10 @@
       "sponsorship": null,
       "content_hash": "8bb9dce4332b8e9b2b629242f830ae686e2e2f1cd7f6d2b363ab7d3203706f1a",
       "first_discovered": "2026-10-13T02:38:17.621818+00:00",
-      "last_seen": "2026-10-13T02:38:17.621828+00:00",
-      "notified_hash": "8bb9dce4332b8e9b2b629242f830ae686e2e2f1cd7f6d2b363ab7d3203706f1a"
+      "last_seen": "2026-10-13T02:51:35.191544+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8717004002": {
       "company": "Greenhouse: Databricks",
@@ -3925,8 +4051,10 @@
       "sponsorship": null,
       "content_hash": "8c9ef9d7956ecc275569589fbbee4fe5e141f86dc33869d5753fefff993431ff",
       "first_discovered": "2026-10-13T02:38:17.721880+00:00",
-      "last_seen": "2026-10-13T02:38:17.721893+00:00",
-      "notified_hash": "8c9ef9d7956ecc275569589fbbee4fe5e141f86dc33869d5753fefff993431ff"
+      "last_seen": "2026-10-13T02:51:35.847332+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8571578002": {
       "company": "Greenhouse: Databricks",
@@ -3945,8 +4073,10 @@
       "sponsorship": null,
       "content_hash": "b906f5838c278ea87142790d6cc630f29a12b112253509bbddcfa6b3299a7d74",
       "first_discovered": "2026-10-13T02:38:17.758195+00:00",
-      "last_seen": "2026-10-13T02:38:17.758207+00:00",
-      "notified_hash": "b906f5838c278ea87142790d6cc630f29a12b112253509bbddcfa6b3299a7d74"
+      "last_seen": "2026-10-13T02:51:36.290007+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569461002": {
       "company": "Greenhouse: Databricks",
@@ -3965,8 +4095,10 @@
       "sponsorship": null,
       "content_hash": "e046f412ff209315c879701a3f872561e6dbb1af03e8a936696b438ad29cb4ee",
       "first_discovered": "2026-10-13T02:38:17.794360+00:00",
-      "last_seen": "2026-10-13T02:38:17.794372+00:00",
-      "notified_hash": "e046f412ff209315c879701a3f872561e6dbb1af03e8a936696b438ad29cb4ee"
+      "last_seen": "2026-10-13T02:51:36.569085+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569436002": {
       "company": "Greenhouse: Databricks",
@@ -3985,8 +4117,10 @@
       "sponsorship": null,
       "content_hash": "ff488fd8df71190ee95f27358c54c87eb6b623e4712cb949991a28e9de810443",
       "first_discovered": "2026-10-13T02:38:17.830555+00:00",
-      "last_seen": "2026-10-13T02:38:17.830568+00:00",
-      "notified_hash": "ff488fd8df71190ee95f27358c54c87eb6b623e4712cb949991a28e9de810443"
+      "last_seen": "2026-10-13T02:51:36.763738+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569506002": {
       "company": "Greenhouse: Databricks",
@@ -4005,8 +4139,10 @@
       "sponsorship": null,
       "content_hash": "292424b9acdca788103f9e340cd030acbaf7a80642e73c0b153e39ee7b65007e",
       "first_discovered": "2026-10-13T02:38:17.862596+00:00",
-      "last_seen": "2026-10-13T02:38:17.862607+00:00",
-      "notified_hash": "292424b9acdca788103f9e340cd030acbaf7a80642e73c0b153e39ee7b65007e"
+      "last_seen": "2026-10-13T02:51:36.913120+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569498002": {
       "company": "Greenhouse: Databricks",
@@ -4025,8 +4161,10 @@
       "sponsorship": null,
       "content_hash": "6d828ff6ea0591a988942129b90d455ba0be4a2ff996757840d93b71fce2e9cf",
       "first_discovered": "2026-10-13T02:38:17.894453+00:00",
-      "last_seen": "2026-10-13T02:38:17.894464+00:00",
-      "notified_hash": "6d828ff6ea0591a988942129b90d455ba0be4a2ff996757840d93b71fce2e9cf"
+      "last_seen": "2026-10-13T02:51:37.087588+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569522002": {
       "company": "Greenhouse: Databricks",
@@ -4045,8 +4183,10 @@
       "sponsorship": null,
       "content_hash": "986f425be4f75c4b6ea692a9f598ec81690a9c2f5e39b03b2a9f996cf2ec8617",
       "first_discovered": "2026-10-13T02:38:18.026695+00:00",
-      "last_seen": "2026-10-13T02:38:18.026709+00:00",
-      "notified_hash": "986f425be4f75c4b6ea692a9f598ec81690a9c2f5e39b03b2a9f996cf2ec8617"
+      "last_seen": "2026-10-13T02:51:39.108698+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569594002": {
       "company": "Greenhouse: Databricks",
@@ -4065,8 +4205,10 @@
       "sponsorship": null,
       "content_hash": "361306aea13432692ec8e181d389a738501fa1736a2a6d7c4f9ed71b4f4eb816",
       "first_discovered": "2026-10-13T02:38:18.058713+00:00",
-      "last_seen": "2026-10-13T02:38:18.058726+00:00",
-      "notified_hash": "361306aea13432692ec8e181d389a738501fa1736a2a6d7c4f9ed71b4f4eb816"
+      "last_seen": "2026-10-13T02:51:41.155098+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569552002": {
       "company": "Greenhouse: Databricks",
@@ -4085,8 +4227,10 @@
       "sponsorship": null,
       "content_hash": "b42498b2d07922fe5230df6841da00674f6353e33e00e849c1f06e4065a435d2",
       "first_discovered": "2026-10-13T02:38:18.094945+00:00",
-      "last_seen": "2026-10-13T02:38:18.094957+00:00",
-      "notified_hash": "b42498b2d07922fe5230df6841da00674f6353e33e00e849c1f06e4065a435d2"
+      "last_seen": "2026-10-13T02:51:39.906060+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569558002": {
       "company": "Greenhouse: Databricks",
@@ -4105,8 +4249,10 @@
       "sponsorship": null,
       "content_hash": "6b8a4a6ea3a725924f7077eed28faa4ee646fb890ad15b18cf7e5ce5d2d70040",
       "first_discovered": "2026-10-13T02:38:18.133756+00:00",
-      "last_seen": "2026-10-13T02:38:18.133767+00:00",
-      "notified_hash": "6b8a4a6ea3a725924f7077eed28faa4ee646fb890ad15b18cf7e5ce5d2d70040"
+      "last_seen": "2026-10-13T02:51:40.590996+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569572002": {
       "company": "Greenhouse: Databricks",
@@ -4125,8 +4271,10 @@
       "sponsorship": null,
       "content_hash": "a29938dfa249ac3483a874f32fda2a0db74ede70bda6b9df3c29170ba25246e6",
       "first_discovered": "2026-10-13T02:38:18.165761+00:00",
-      "last_seen": "2026-10-13T02:38:18.165770+00:00",
-      "notified_hash": "a29938dfa249ac3483a874f32fda2a0db74ede70bda6b9df3c29170ba25246e6"
+      "last_seen": "2026-10-13T02:51:40.869102+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569554002": {
       "company": "Greenhouse: Databricks",
@@ -4145,8 +4293,10 @@
       "sponsorship": null,
       "content_hash": "55b24f133a84623e0f866522d1ef9be7fe4a1b3d912f6f435e4bc2796eb5ca43",
       "first_discovered": "2026-10-13T02:38:18.200658+00:00",
-      "last_seen": "2026-10-13T02:38:18.200668+00:00",
-      "notified_hash": "55b24f133a84623e0f866522d1ef9be7fe4a1b3d912f6f435e4bc2796eb5ca43"
+      "last_seen": "2026-10-13T02:51:40.212604+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569403002": {
       "company": "Greenhouse: Databricks",
@@ -4165,8 +4315,10 @@
       "sponsorship": null,
       "content_hash": "fb0f4e12e7dbf6cdd8c38f3359a994b969660ce82a365d37cb9071b1871de314",
       "first_discovered": "2026-10-13T02:38:18.232477+00:00",
-      "last_seen": "2026-10-13T02:38:18.232488+00:00",
-      "notified_hash": "fb0f4e12e7dbf6cdd8c38f3359a994b969660ce82a365d37cb9071b1871de314"
+      "last_seen": "2026-10-13T02:51:37.333299+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569410002": {
       "company": "Greenhouse: Databricks",
@@ -4185,8 +4337,10 @@
       "sponsorship": null,
       "content_hash": "ba3adf12a8c6749dffb221833cd76c9dd6f13f5219082ea6a6ca5d45bd47fd04",
       "first_discovered": "2026-10-13T02:38:18.269311+00:00",
-      "last_seen": "2026-10-13T02:38:18.269322+00:00",
-      "notified_hash": "ba3adf12a8c6749dffb221833cd76c9dd6f13f5219082ea6a6ca5d45bd47fd04"
+      "last_seen": "2026-10-13T02:51:37.466414+00:00",
+      "notified_hash": "ba3adf12a8c6749dffb221833cd76c9dd6f13f5219082ea6a6ca5d45bd47fd04",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:38.313658+00:00"
     },
     "Greenhouse: Databricks:8569524002": {
       "company": "Greenhouse: Databricks",
@@ -4205,8 +4359,10 @@
       "sponsorship": null,
       "content_hash": "00cad74af73ffa31aceae60d4de0188f429c0501b3050f851ad3606ee1104025",
       "first_discovered": "2026-10-13T02:38:18.401390+00:00",
-      "last_seen": "2026-10-13T02:38:18.401404+00:00",
-      "notified_hash": "00cad74af73ffa31aceae60d4de0188f429c0501b3050f851ad3606ee1104025"
+      "last_seen": "2026-10-13T02:51:39.693707+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569457002": {
       "company": "Greenhouse: Databricks",
@@ -4225,8 +4381,10 @@
       "sponsorship": null,
       "content_hash": "73e53683a753a363d99187e0b0396afa11deb5637cb413521df37fa264ceb531",
       "first_discovered": "2026-10-13T02:38:18.434158+00:00",
-      "last_seen": "2026-10-13T02:38:18.434170+00:00",
-      "notified_hash": "73e53683a753a363d99187e0b0396afa11deb5637cb413521df37fa264ceb531"
+      "last_seen": "2026-10-13T02:51:37.203644+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569453002": {
       "company": "Greenhouse: Databricks",
@@ -4245,8 +4403,10 @@
       "sponsorship": null,
       "content_hash": "1f4d396cb556fe188a2608bab3cf5cfe78d104ffee8fa3598bc223e9a045d9fd",
       "first_discovered": "2026-10-13T02:38:18.466870+00:00",
-      "last_seen": "2026-10-13T02:38:18.466880+00:00",
-      "notified_hash": "1f4d396cb556fe188a2608bab3cf5cfe78d104ffee8fa3598bc223e9a045d9fd"
+      "last_seen": "2026-10-13T02:51:38.589490+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8451296002": {
       "company": "Greenhouse: Databricks",
@@ -4266,8 +4426,10 @@
       "sponsorship": null,
       "content_hash": "8f61c0b2827365817cff6f30008926039812ced02a4c3fd4e3936e1b2612b17d",
       "first_discovered": "2026-10-13T02:38:18.499513+00:00",
-      "last_seen": "2026-10-13T02:38:18.499524+00:00",
-      "notified_hash": "8f61c0b2827365817cff6f30008926039812ced02a4c3fd4e3936e1b2612b17d"
+      "last_seen": "2026-10-13T02:51:41.489795+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569510002": {
       "company": "Greenhouse: Databricks",
@@ -4287,8 +4449,10 @@
       "sponsorship": null,
       "content_hash": "54845a68544d1865c1dba26c6adac39b448d86ad229e78f0325497ab9c119d2b",
       "first_discovered": "2026-10-13T02:38:18.533193+00:00",
-      "last_seen": "2026-10-13T02:38:18.533205+00:00",
-      "notified_hash": "54845a68544d1865c1dba26c6adac39b448d86ad229e78f0325497ab9c119d2b"
+      "last_seen": "2026-10-13T02:51:41.978740+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569514002": {
       "company": "Greenhouse: Databricks",
@@ -4307,8 +4471,10 @@
       "sponsorship": null,
       "content_hash": "a3659f5f0d1bfbeb654a38b40802b228f02513248e1d126c68264a935853cac3",
       "first_discovered": "2026-10-13T02:38:18.565260+00:00",
-      "last_seen": "2026-10-13T02:38:18.565269+00:00",
-      "notified_hash": "a3659f5f0d1bfbeb654a38b40802b228f02513248e1d126c68264a935853cac3"
+      "last_seen": "2026-10-13T02:51:42.282125+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569535002": {
       "company": "Greenhouse: Databricks",
@@ -4327,8 +4493,10 @@
       "sponsorship": null,
       "content_hash": "7bcd21a29e33aba6d5de67b2f6f5253ce02755e2dc5c842d7577985a1264dd6d",
       "first_discovered": "2026-10-13T02:38:18.594313+00:00",
-      "last_seen": "2026-10-13T02:38:18.594322+00:00",
-      "notified_hash": "7bcd21a29e33aba6d5de67b2f6f5253ce02755e2dc5c842d7577985a1264dd6d"
+      "last_seen": "2026-10-13T02:51:42.496057+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8569562002": {
       "company": "Greenhouse: Databricks",
@@ -28276,6 +28444,449 @@
       "content_hash": "276fda6f3c5aa5c1c6e7b209b348960811ebbc83f1fd5ef20ae82e3f12b247d6",
       "first_discovered": "2026-10-13T02:51:06.149678+00:00",
       "last_seen": "2026-10-13T02:51:06.149695+00:00",
+      "notified_hash": "276fda6f3c5aa5c1c6e7b209b348960811ebbc83f1fd5ef20ae82e3f12b247d6",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:08.449204+00:00"
+    },
+    "NVIDIA:893397787399": {
+      "company": "NVIDIA",
+      "job_id": "893397787399",
+      "title": "Senior Software Engineer, Capacity Management - DGX Cloud",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893397787399",
+      "description": "NVIDIA DGX Cloud provides the infrastructure and software platform that enables enterprises to build, train, and deploy AI at scale. As demand for accelerated computing grows, effective capacity management is essential to delivering reliable customer experiences while maximizing the utilization of constrained GPU infrastructure.  \n\n\nWe are looking for a Senior Software Engineer to design and build the systems that connect customer demand, infrastructure supply, reservations, allocation, and utilization across DGX Cloud environments. You will work with engineering, product, operations, finance, and business teams to transform complex capacity data and operational processes into scalable software and automated decision-making.  \n\n\nWhat You\u2019ll Be Doing:\n\n  * Design and build distributed services and data pipelines for capacity planning, allocation, reservations, and utilization.\n  * Develop a unified model of available, committed, and forecasted GPU capacity across cloud providers, regions, clusters, and products.\n  * Automate capacity-management workflows currently dependent on manual analysis and coordination.\n  * Build APIs, tools, and integrations that enable other DGX Cloud systems and teams to make capacity-aware decisions.\n  * Improve forecasting, scenario planning, and operational visibility by combining demand signals with infrastructure supply data.\n  * Establish monitoring, data-quality controls, and service-level indicators for capacity systems.\n  * Lead technical design reviews, establish engineering standards, and mentor other engineers.\n  * Diagnose complex production issues and improve the reliability, performance, and scalability of capacity-management services.  \n\n\n\n\nWhat We Need to See:\n\n  * BS or equivalent experience in Computer Science, Computer Engineering, or a related technical field.\n  * 12+ years of software engineering experience building production systems.\n  * Strong programming experience in languages such as Python, Go, Java, or similar.\n  * Experience designing distributed systems, backend services, APIs, and data-processing pipelines.\n  * Experience working with cloud infrastructure, Kubernetes, compute platforms, or large-scale resource-management systems.\n  * Strong understanding of data modeling, system integration, observability, and production operations.\n  * Ability to turn ambiguous business and operational requirements into clear technical designs.\n  * Strong communication skills and experience working across engineering and non-engineering organizations.\n\n  \n\n\nWays to Stand Out From the Crowd:\n\n  * Experience with GPU infrastructure, AI/ML platforms, schedulers, cluster management, or accelerated computing.\n  * Experience building capacity planning, inventory, supply-and-demand, quota, reservation, or resource-allocation systems.\n  * Familiarity with optimization, forecasting, simulation, or operations-research techniques.\n  * Experience running infrastructure across multiple cloud providers or geographically distributed environments and serving as a technical lead for cross-functional, business-critical initiatives.\n  * Demonstrated success improving infrastructure utilization while maintaining reliability and customer commitments.  \n\n\n\n\nNVIDIA is leading the way in groundbreaking developments in Artificial Intelligence, High-Performance Computing, and Visualization. The GPU, our invention, serves as the visual cortex of modern computers and is at the heart of our products and services. Our work opens up new universes to explore, enables amazing creativity and discovery, and powers what were once science fiction inventions from artificial intelligence to autonomous cars. NVIDIA is looking for phenomenal people like you to help us accelerate the next wave of artificial intelligence. NVIDIA is broadly recognized as one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and dedicated people in the world working for us.\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 200,000 USD - 322,000 USD.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 12, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-08T00:00:00",
+      "experience": "  * 12+ years of software engineering experience building production systems",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "04e43c0c44d644b7c2720caced6ce89240953f9a6488026a231f1ce78081789f",
+      "first_discovered": "2026-10-13T02:51:08.041949+00:00",
+      "last_seen": "2026-10-13T02:51:08.041967+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10563052": {
+      "company": "Amazon",
+      "job_id": "10563052",
+      "title": "Automation Engineer",
+      "location": "USA, NC, Wilmington",
+      "url": "https://www.amazon.jobs/en/jobs/10563052/automation-engineer",
+      "description": "Description Operations is at the heart of Amazon\u2019s business. We are known for our speed, accuracy, and exceptional service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. The Reliability & Maintenance Engineering (RME) team are the business partners that work tirelessly behind the scenes to make it happen. We drive continuous improvement, and maintain all of the robotics and material handling equipment (MHE) to ensure our customers are met with the Amazon smile. Come join us on our journey! About the Role: As an Automation Engineer, you will play a crucial role in maximizing equipment reliability and operational performance in our fulfillment centers by providing proactive controls automation and technical support. Your expertise will be essential in troubleshooting complex control systems, analyzing performance metrics, and driving continuous improvement initiatives. You'll collaborate with cross-functional teams to optimize material handling equipment (MHE) systems and implement innovative projects. You'll work with state-of-the-art technology, including conveyors, sortation systems, scanners, cameras, print and apply systems, and SCADA devices and programs. Through your efforts, you'll directly contribute to ensuring our customers receive their orders with Amazon's signature speed and accuracy. What Do We Offer? Amazon offers competitive compensation packages including comprehensive healthcare benefits starting on Day 1, matching 401(k) program, and up to 20 weeks of paid parental leave. But wait, there\u2019s more: We provide lightweight fire-resistant daily wear and composite toe safety shoes for your safety! Key job responsibilities Key job responsibilities include, but are not limited to: - You will serve as the site expert for maintaining the automation systems that are critical for operations - You will understand, maintain and troubleshoot material handling control systems, including PLC/PC controllers and industrial networks such as Ethernet, ControlNet, DeviceNet, Profibus, motor control systems, servo drives, frequency drives, and electrical distribution systems - You will monitor MHE metrics and partner with maintenance/operations to address system performance issues and provide analysis across all operations - You will provide first-level escalation support for site technicians, both locally and remotely - You will perform and analyze building System Assessments to enhance material handling system performance\nBasic Qualifications - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible schedule/shift/work area, including weekends, nights, and/or holidays - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issue diagnosis experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Codesys PLCs experience\nPreferred Qualifications - Experience with HMI and control network components, including maintenance, troubleshooting, programming and design - Experience identifying, maintaining, and troubleshooting Motor Controls including motor starters, Variable Frequency Drives, DC drives, and standard electrical components - Experience with preventive maintenance procedures, industrial electrical, industrial controls, and industrial electronics & robotics - Experience interpreting, modifying, and developing mechanical and electrical drawings - Experience programming with RSLogix5000, Studio 5000, FT View, and other controls software platforms Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, NC, Wilmington - 90,000.00 - 112,500.00 USD annually",
+      "posting_date": null,
+      "experience": "ical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible sched; ical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issu; ical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in co; ical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment ex; ical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Code",
+      "classification": "Needs Review",
+      "reasons": [
+        "Experience or US location requires review"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "a8c35cd86dd395e2b5782208ad8a217259dbfabd886c4614d56f6ef162970429",
+      "first_discovered": "2026-10-13T02:51:08.343503+00:00",
+      "last_seen": "2026-10-13T02:51:08.343521+00:00",
+      "notified_hash": "a8c35cd86dd395e2b5782208ad8a217259dbfabd886c4614d56f6ef162970429",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:12.520470+00:00"
+    },
+    "Amazon:10536566": {
+      "company": "Amazon",
+      "job_id": "10536566",
+      "title": "Automation Engineer",
+      "location": "USA, FL, Fort Myers",
+      "url": "https://www.amazon.jobs/en/jobs/10536566/automation-engineer",
+      "description": "Description Operations is at the heart of Amazon\u2019s business. We are known for our speed, accuracy, and exceptional service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. The Reliability & Maintenance Engineering (RME) team are the business partners that work tirelessly behind the scenes to make it happen. We drive continuous improvement, and maintain all of the robotics and material handling equipment (MHE) to ensure our customers are met with the Amazon smile. Come join us on our journey! About the Role: As an Automation Engineer, you will play a crucial role in maximizing equipment reliability and operational performance in our fulfillment centers by providing proactive controls automation and technical support. Your expertise will be essential in troubleshooting complex control systems, analyzing performance metrics, and driving continuous improvement initiatives. You'll collaborate with cross-functional teams to optimize material handling equipment (MHE) systems and implement innovative projects. You'll work with state-of-the-art technology, including conveyors, sortation systems, scanners, cameras, print and apply systems, and SCADA devices and programs. Through your efforts, you'll directly contribute to ensuring our customers receive their orders with Amazon's signature speed and accuracy. What Do We Offer? Amazon offers competitive compensation packages including comprehensive healthcare benefits starting on Day 1, matching 401(k) program, and up to 20 weeks of paid parental leave. But wait, there\u2019s more: We provide lightweight fire-resistant daily wear and composite toe safety shoes for your safety! Key job responsibilities Key job responsibilities include, but are not limited to: - You will serve as the site expert for maintaining the automation systems that are critical for operations - You will understand, maintain and troubleshoot material handling control systems, including PLC/PC controllers and industrial networks such as Ethernet, ControlNet, DeviceNet, Profibus, motor control systems, servo drives, frequency drives, and electrical distribution systems - You will monitor MHE metrics and partner with maintenance/operations to address system performance issues and provide analysis across all operations - You will provide first-level escalation support for site technicians, both locally and remotely - You will perform and analyze building System Assessments to enhance material handling system performance\nBasic Qualifications - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work flexible schedule including weekends, nights, and holidays - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issue diagnosis experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Codesys PLCs experience\nPreferred Qualifications - Experience with HMI and control network components, including maintenance, troubleshooting, programming and design - Experience identifying, maintaining, troubleshooting, and modifying Motor Controls including motor starters, Variable Frequency Drives, DC drives, and standard electrical components - Experience with preventive maintenance procedures, industrial electrical, industrial controls, and industrial electronics & robotics - Experience interpreting and modifying mechanical and electrical drawings - Experience programming with RSLogix5000, Studio 5000, FT View, and other controls software platforms Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, FL, FORT MYERS - 90,000.00 - 112,500.00 USD annually",
+      "posting_date": null,
+      "experience": "ical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work flexible schedul; ical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issu; ical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in co; ical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment ex; ical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Code",
+      "classification": "Needs Review",
+      "reasons": [
+        "Experience or US location requires review"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "65484c5a343a1256b9e53ffecbe1882af0050bea7d5d714f856bc9246612e481",
+      "first_discovered": "2026-10-13T02:51:08.917448+00:00",
+      "last_seen": "2026-10-13T02:51:08.917468+00:00",
+      "notified_hash": "65484c5a343a1256b9e53ffecbe1882af0050bea7d5d714f856bc9246612e481",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:13.656951+00:00"
+    },
+    "NVIDIA:893398092314": {
+      "company": "NVIDIA",
+      "job_id": "893398092314",
+      "title": "ASIC Clocks Verification Engineer - New College Grad 2026",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893398092314",
+      "description": "NVIDIA has continuously reinvented itself over two decades. Our invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI \u2014 the next era of computing. NVIDIA is a \u201clearning machine\u201d that constantly evolves by adapting to new opportunities that are hard to solve, that only we can take on, and that matter to the world. This is our life\u2019s work, to amplify human creativity and intelligence. Make the choice to join us today.\n\nThe GPU clocks group is looking for an exceptional ASIC Clocks Verification Engineer. The team is responsible for crafting all aspects of GPU clocking. The team collaborates with the front design team to understand the clocking requirements for the chip. The clocks team interacts with the floor-planning and back-end team to help craft the physical floorplan of the chip. The team explains the programming model to the SW team to come up with an efficient clock programming sequence. The team works with the silicon solution team to triage silicon or programming bugs in the lab.\n\nWhat you'll be doing:\n\n  * As a Clocks team member, you will be collaborating with other architects, ASIC designers and verification engineers to verify high frequency clock structures.\n\n  * Be able to engage with multiple teams and design the GPU clock structure to satisfy all the architectural constraints.\n\n  * Your understanding of general verification principles will be valuable to verify the clocks design.\n\n  * Together with other team members, we deliver clock information to SOC verification team, timing and DFT teams. You will use Perl to improve the productivity of the above teams.\n\n  * Collaborate with Software and product group to debug GPU clock silicon bugs in our new products.\n\n  * Understand and design clocking structures to overcome sub-micron design challenges.\n\n  * You will also identify improvements in the current design and propose and implement new ways to improve the efficiency in the GPU clocking design.\n\n\n\n\nWhat we need to see:\n\n  * A Master\u2019s degree in Electrical Engineering (or equivalent experience). \n\n  * Practical experience with SystemVerilog and Universal Verification Method (UVM). \n\n  * Experience with Design Verification, Logic Design, and Logic Synthesis. \n\n  * Strong coding skills in Python, Perl, or other industry-standard scripting languages.\n\n\n\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. Are you creative and autonomous? If so, we want to hear from you.\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 116,000 USD - 189,750 USD.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 13, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-09T00:00:00",
+      "experience": "Unspecified",
+      "classification": "Strong Match",
+      "reasons": [
+        "US location and entry-level evidence"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "813b8317d2723fe8fc1dd4841293385d3827703e5445691217944a2c08abde01",
+      "first_discovered": "2026-10-13T02:51:09.384408+00:00",
+      "last_seen": "2026-10-13T02:51:09.384427+00:00",
+      "notified_hash": "813b8317d2723fe8fc1dd4841293385d3827703e5445691217944a2c08abde01",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:17.217634+00:00"
+    },
+    "Amazon:10535470": {
+      "company": "Amazon",
+      "job_id": "10535470",
+      "title": "Automation Engineer",
+      "location": "USA, LA, Baton Rouge",
+      "url": "https://www.amazon.jobs/en/jobs/10535470/automation-engineer",
+      "description": "Description Operations is at the heart of Amazon\u2019s business. We are known for our speed, accuracy, and exceptional service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. The Reliability & Maintenance Engineering (RME) team are the business partners that work tirelessly behind the scenes to make it happen. We drive continuous improvement, and maintain all of the robotics and material handling equipment (MHE) to ensure our customers are met with the Amazon smile. Come join us on our journey! About the Role: As an Automation Engineer, you will play a crucial role in maximizing equipment reliability and operational performance in our fulfillment centers by providing proactive controls automation and technical support. Your expertise will be essential in troubleshooting complex control systems, analyzing performance metrics, and driving continuous improvement initiatives. You'll collaborate with cross-functional teams to optimize material handling equipment (MHE) systems and implement innovative projects. You'll work with state-of-the-art technology, including conveyors, sortation systems, scanners, cameras, print and apply systems, and SCADA devices and programs. Through your efforts, you'll directly contribute to ensuring our customers receive their orders with Amazon's signature speed and accuracy. What Do We Offer? Amazon offers competitive compensation packages including comprehensive healthcare benefits starting on Day 1, matching 401(k) program, and up to 20 weeks of paid parental leave. But wait, there\u2019s more: We provide lightweight fire-resistant daily wear and composite toe safety shoes for your safety! Key job responsibilities Key job responsibilities include, but are not limited to: - You will serve as the site expert for maintaining the automation systems that are critical for operations - You will understand, maintain and troubleshoot material handling control systems, including PLC/PC controllers and industrial networks such as Ethernet, ControlNet, DeviceNet, Profibus, motor control systems, servo drives, frequency drives, and electrical distribution systems - You will monitor MHE metrics and partner with maintenance/operations to address system performance issues and provide analysis across all operations - You will provide first-level escalation support for site technicians, both locally and remotely - You will perform and analyze building System Assessments to enhance material handling system performance\nBasic Qualifications - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible schedule/shift/work area, including weekends, nights, and/or holidays - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issue diagnosis experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of experience with Ladder Logic and structure programming from Siemens, Allen-Bradley, or Codesys PLCs\nPreferred Qualifications - Experience with HMI and control network components, including maintenance, troubleshooting, programming and design - Experience identifying, maintaining, troubleshooting, and modifying Motor Controls including motor starters, Variable Frequency Drives, DC drives, and standard electrical components - Experience with preventive maintenance procedures, industrial electrical, industrial controls, and industrial electronics & robotics - Experience interpreting and modifying mechanical and electrical drawings - Experience programming with RSLogix5000, Studio 5000, FT View, and other controls software platforms Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, LA, Baton Rouge - 90,000.00 - 112,500.00 USD annually",
+      "posting_date": null,
+      "experience": "ical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible sched; ical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issu; ical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in co; ical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment ex; ical engineering, automation engineering, or equivalent, or 2+ years of experience with Ladder Logic and structure programming from Siemens, Allen-B",
+      "classification": "Needs Review",
+      "reasons": [
+        "Experience or US location requires review"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "273903e889b34979066bf5e553611702c9956b765d1b13d48a744efc40408edc",
+      "first_discovered": "2026-10-13T02:51:10.286499+00:00",
+      "last_seen": "2026-10-13T02:51:10.286523+00:00",
+      "notified_hash": "273903e889b34979066bf5e553611702c9956b765d1b13d48a744efc40408edc",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:18.769005+00:00"
+    },
+    "Amazon:10482911": {
+      "company": "Amazon",
+      "job_id": "10482911",
+      "title": "Commissioning Engineer",
+      "location": "USA, TX, Austin USA, NC, Charlotte USA, GA, Atlanta USA, TX, Houston USA, TX, Dallas; USA, TX, Austin; USA, NC, Charlotte; USA, GA, Atlanta; USA, TX, Houston; USA, TX, Dallas",
+      "url": "https://www.amazon.jobs/en/jobs/10482911/commissioning-engineer",
+      "description": "Description AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we\u2019re the people who keep the cloud running. We support all AWS data centers and all of the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain \u2014 and we\u2019re looking for talented people who want to help. You\u2019ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You\u2019ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you\u2019ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion. Are you experienced in Critical Infrastructure Commissioning and looking for a fast paced environment to work in? As a Data Center Commissioning Engineer (CxE), you will be part of highly creative, efficient team tasked with tackling fascinating and challenging problems building and supporting the operations of Amazon owned data centers. The Amazon Commissioning team (ACx) understands, evaluates, defines and manages the expectations of construction quality in accordance to engineering designs to meet the customer requirements. The CxE is responsible for supporting vendors, contractors, and other teams involved in the construction and commissioning of various systems such as: -Medium and low voltage power systems -Generators -UPS -HVAC (Air Handlers / Exhaust Fans / VFD) -Chilled Water Systems -Building Management systems (BMS) -Electrical Power Monitoring Systems (EPMS) -Testing and balancing -Pumps and Hydronic systems Physical Requirements Walk job sites in uneven terrain Work at heights and from ladders Regularly walk, use hands and fingers, reach with hands and arms, stoop, kneel, crouch or crawl Lift and/or move up to 49 pounds; and participate in group lifts for 50 pounds or more Carry objects weighing up to 49 pounds for short distances Work shifts longer than eight hours in duration with potential for night and weekends Perform physical tasks throughout the day without becoming overly tired Ability to manipulate small wires and objects easily Work in a noisy environment Work in environments that are colder or hotter than a normal office environment Additional Job Requirements \u00b7 Ability and willingness to travel domestic and internationally for up to 80% of the year. \u00b7 Required to provide personal transportation for meetings and job visits away from the office; reimbursed. \u00b7 US Citizenship required Key job responsibilities The Commissioning Engineer (CxE) provides testing and validation oversight of AWS data center electrical and mechanical infrastructure. CxEs review design documents, lead Factory Witness Testing (FWT), and manage third-party commissioning vendors in the performance of onsite pre-functional, functional, and integrated systems testing. They take Ownership of their projects\u2019 successes by Diving Deep to resolve technical issues and having Bias for Action to address everchanging schedule and coordination demands onsite. Additionally, CxEs communicate lessons learned and continuously collaborate on program improvements. The CxE shall provide multi-discipline input into the scheduling, test script development, designing, and planning of projects. In addition, the CxE will be required to review component submittal packages, lead Factory Witness Testing (FWT), perform system level and integrated system testing. During commissioning the CxE will continuously audit activities to ensure compliance with environmental, quality, and safety requirements. Additionally, the individual will be responsible for comprehensive weekly reporting of status of all ongoing projects and lessons learned to continually improve the quality of our program. This position will include coverage of multiple inflight projects and tight timelines. A day in the life On a typical project, the CxE works across AWS engineering, capacity delivery, operations, and contractor teams to coordinate site activities, prioritize tasks, and ensure each issue has clear path to resolution. The CxE manages the project commissioning vendor whose primary scope is to identify issues, determine criticality, propose solutions, and document their findings. If project turnover is at risk, the CxE escalates to the appropriate stakeholders. Upon project completion, the CxE will communicate lessons learned to help peers on similar projects in flight and participate in initiatives that drive improvement to the commissioning program. Amazon Web Services (AWS) is the world\u2019s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating \u2014 that\u2019s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying. We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve in the cloud. Here at AWS, it\u2019s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity (CORE) and AmazeCon conferences, inspire us to never stop embracing our uniqueness. We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. About the team The AWS Data Center Commissioning Team (ACx) is a wholly independent business within the DCGS organization. This team of veteran professional Electrical Engineers, Mechanical Engineers, Controls Engineers, Architectural Engineers, Project Managers, Operators and seasoned Amazonians are uniquely positioned to provide deeply detailed engineering and operational review and testing of equipment designs, operational functionality and construction practices. We are focused on ensuring the rapid delivery of a quality product while maintaining full transparency, recording metrics of manufacturer/contractor/equipment issues pre-PFHO, and identifying opportunities for all our peers and customers. Amazon Web Services (AWS) is the world\u2019s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating \u2014 that\u2019s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying. We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve in the cloud. Here at AWS, it\u2019s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity (CORE) and AmazeCon conferences, inspire us to never stop embracing our uniqueness. We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. #DCCD_AMER\nBasic Qualifications - 5+ years of engineering, installation, or startup/commissioning of electrical and mechanical systems experience - Bachelor's degree in Mechanical or Electrical Engineering, or 5+ years of relevant discipline work experience - High technical competency in either mechanical or electrical or control systems utilized in critical infrastructures, with the capability to learn and be trained in the others. - Understand the design concept and intent by reviewing mechanical or electrical design documentation, including drawings, specifications, vendor submittals and sequences of operations and provide feedback on the same in accordance with Amazon standards for basis of design. - Develop but majorly review commissioning documentation such as test plans, scripts and reports developed by vendors to ensure accuracy in accordance with the design requirements.\nPreferred Qualifications - Experience developing and executing test procedures for mechanical or electrical systems/components based on design intent and approved equipment submittals - Advanced knowledge Microsoft Office Suite - Word, Excel, Outlook required; advanced knowledge of SharePoint (or similar) preferred - Strong communication skills, detail oriented, highly organized, and able to work in high stress environments to maintain calm and respectful interaction with multiple teams - Advanced knowledge of mechanical, electrical, and controls systems for critical infrastructures - Ability to read and edit construction documents (design drawings, control diagrams, specifications, etc.) Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, GA, Atlanta - 116,800.00 - 160,000.00 USD annually USA, NC, Charlotte - 116,800.00 - 160,000.00 USD annually USA, TX, Austin - 116,800.00 - 160,000.00 USD annually USA, TX, Dallas - 116,800.00 - 160,000.00 USD annually USA, TX, Houston - 116,800.00 - 160,000.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 5+ years of engineering, installation, or startup/commissioning of electrical and mechan; chelor's degree in Mechanical or Electrical Engineering, or 5+ years of relevant discipline work experience - High technical competency in either me",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Explicit required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "761b36bb21780e19f9c2ec93df9c9c962192de60b230c24c90bbd76c905369be",
+      "first_discovered": "2026-10-13T02:51:15.534740+00:00",
+      "last_seen": "2026-10-13T02:51:15.534770+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893394674506": {
+      "company": "NVIDIA",
+      "job_id": "893394674506",
+      "title": "Senior Hardware Validation Engineer",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893394674506",
+      "description": "Our technology has no boundaries! NVIDIA is building the world\u2019s most groundbreaking and state of the art compute platforms for the world to use. It\u2019s because of our work that scientists, researchers and engineers can advance their ideas. At its core, our visual computing technology not only enables an amazing computing experience, but it is also energy efficient! We pioneered a supercharged form of computing loved by the most demanding computer users in the world - scientists, designers, artists, and gamers. It\u2019s not just technology though! It is our people, some of the brightest in the world, and our diverse company culture make NVIDIA one of the most fun, innovative and dynamic places to work in the world! At the center of NVIDIA's culture are our core values like innovation, excellence and determination and team, that guide us to be the best we can be.\n\n  \nWe are looking for a Senior Hardware Validation Engineer to lead validation activities in the Datacenter Systems Engineering team. You'll work closely with validation engineers, board designers, silicon characterization, and AE teams to ensure product validation and test coverage are optimal. The ideal candidate is self motivated, works well with different teams, very comfortable in a lab environment and demonstrates passion towards product level validation. They should have strong debug/circuit analysis fundamentals as well as automation and scripting experience. They must be capable of thriving in fast paced environment with evolving product definitions.\n\nWhat you\u2019ll be doing:\n\n  * Own validation coverage, technical risk, issue prioritization, and release-readiness recommendations from initial board bring-up through system integration and production release.\n\n  * Independently debug complex electrical, functional, performance, and reliability issues. Define experiments, collect evidence, isolate root causes, verify corrective actions, and establish regression coverage.\n\n  * Validate power delivery, tune system power-management control loops, and verify high- and low-speed interfaces such as PCIe, I2C, SPI, SMBus, and USB.\n\n  * Lead multi-functional investigations involving board bring up, silicon, firmware stack, thermal, mechanical, and manufacturing teams, driving issues to verified closure.\n\n  * Review schematics and PCB layouts, provide actionable design feedback, and influence next-generation products based on validation findings.\n\n  * Develop diagnostics, automation, and data-analysis tools that improve validation coverage, reproducibility, and root-cause efficiency.\n\n\n\n\nWhat we need to see:\n\n  * BSEE/BSCE or equivalent experience\n\n  * 5+ years of validation experience\n\n  * Strong understanding of digital design, circuit design and analysis, computer architecture and CPU/GPU architecture.\n\n  * Validation experience with board bringup, lab debug and lab tools (oscilloscopes, multimeters, logic analyzers).\n\n  * Excellent design, debugging and problem-solving skills, with a strong bias for action, quality and engineering excellence.\n\n  * Strong Linux experience, including command-line debugging, system log analysis, and developing diagnostic and test-automation tools using Python, Shell, Perl, or similar scripting languages\n\n  * Experience with ARM CPU architecture and hardware validation.\n\n\n\n\nWays to stand out from the crowd:\n\n  * Validation and root-cause experience with GPU, CPU, SoC, or accelerated-computing platforms as well as deep knowledge of power electronics, power transistors, control systems, PID tuning, power monitoring, or rail-sequencing analysis.\n\n  * Experience taking datacenter hardware from early bring-up through server, rack, and production deployment.\n\n  * Understanding of rack-level power, cooling, networking, storage, cabling, and system-topology interactions.\n\n  * Experience debugging intermittent, workload-dependent, thermal, performance, or scale-related failures that cross multiple engineering domains.\n\n  * A track record of leading complex investigations involving design, silicon, firmware, software, thermal, manufacturing, suppliers, or ODM teams.\n\n\n\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 168,000 USD - 258,750 USD.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until July 31, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-07-27T00:00:00",
+      "experience": "  * 5+ years of validation experience",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "170b1fe4f0a606b8353caaec662f7673ec34166904da87d2650baf5a991f3419",
+      "first_discovered": "2026-10-13T02:51:16.735446+00:00",
+      "last_seen": "2026-10-13T02:51:16.735467+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893394697253": {
+      "company": "NVIDIA",
+      "job_id": "893394697253",
+      "title": "Senior Mixed Signal Design Engineer",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893394697253",
+      "description": "NVIDIA has continuously reinvented itself over two decades. Our invention of the GPU in 1999 sparked the growth of the PC gaming market, redefined modern computer graphics, and revolutionized parallel computing. More recently, GPU deep learning ignited modern AI \u2014 the next era of computing. NVIDIA is a \u201clearning machine\u201d that constantly evolves by adapting to new opportunities that are hard to solve, that only we can take on, and that matter to the world. This is our life\u2019s work, to amplify human creativity and intelligence. Make the choice and join us today!\n\nThis is a diverse team working with innovative, ground breaking technology. If you are someone that loves a challenge, come join this complementary team and help move the needle! As a member of our Mixed Signal team, you will lead the design of CMOS high-speed interface circuits and mixed-signal circuits. Strong hands-on experience in the lab with silicon validation, debugging, characterization and bring up.\n\nWhat you'll be doing:\n\n  * Lead design and implementation of high speed interface circuit\n\n  * Design projects include high speed transceivers and high frequency PLLs\n\n  * Design, simulation, and verification of mixed-signal circuits\n\n  * Supervise closely IC circuit/mask designers, provide floorplan and layout guidelines\n\n  * Support lab characterization of silicon\n\n  * Tackle challenges of circuit design in deep submicron CMOS\n\n  * Take designs through implementation and productization\n\n  * Work with multi-functional teams\n\n\n\n\nWhat we need to see:\n\n  * MS in Electrical Engineering or equivalent experience\n\n  * 4+ years of design experience in CMOS analog / mixed-signal circuit Design\n\n  * Solid understanding of Cadence custom design tools, circuit simulator, timing analysis tool\n\n  * A great teammate with good interpersonal skills\n\n  * Proven experience in crafting and mentoring designers\n\n  * Extensive experience in Tx, Rx, CDR, PLL for high speed IO interfaces\n\n  * In-depth understanding of deep submicron CMOS process and related circuit design issues\n\n  * Experience in silicon bring-up, debugging and use of lab instrumentation is required\n\n  * Knowledge in system level timing budget, signal integrity, and power integrity is a plus\n\n  * Experience in Verilog, Matlab, Primetime, Nanotime\n\n\n\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 196,000 USD - 310,500 USD for Level 5, and 232,000 USD - 368,000 USD for Level 6.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until April 20, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering a diverse work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-04-16T00:00:00",
+      "experience": "  * 4+ years of design experience in CMOS analog / mixed-signal circuit Design",
+      "classification": "Not Eligible",
+      "reasons": [
+        "No relevant technical evidence",
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "9b291b7b881d316f8381fc37a933639496acabe9ed2f98f1c688e4da0a361eda",
+      "first_discovered": "2026-10-13T02:51:17.990258+00:00",
+      "last_seen": "2026-10-13T02:51:17.990278+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893394709707": {
+      "company": "NVIDIA",
+      "job_id": "893394709707",
+      "title": "Senior Embedded Software Engineer - AV Platform",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893394709707",
+      "description": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It's a unique legacy of innovation that's fueled by great technology\u2014and amazing people. Today, we're tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what's never been done before takes vision, innovation, and the world's best talent. As an NVIDIAN, you'll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.\n\n  \n\n\nThe Autonomous Vehicles Platform Team is looking for Senior Software Engineers and Architects to develop and bring NVIDIA's automotive platform out to the world! You will participate in a focused effort define productive ground-breaking solutions that will redefine the world of transportation and the growing field of self-driving cars. You will work with hardworking and dedicated multi-functional engineering development teams across various vehicle subsystems to integrate their work into our autonomous driving DRIVE SW platform, while achieving or exceeding all meaningful NVIDIA and automotive standards & guidelines. You'll find the work is exciting, fun, and very meaningful. Proven strong software design and development experience is a must.\n\n  \n\n\nWhat you'll be doing:\n\n  * Software design, development and bring-up of next generation autonomous vehicle hardware platforms and sensors such as cameras, radars, lidars, etc.\n  * Collaborate with software, hardware and systems engineering teams to support bring up of new hardware, debug and resolve in-vehicle system issues, ensuring that NVIDIA HW and SW solutions are correctly integrated and working on autonomous development vehicles.\n  * Regularly engage with customer teams directly to customize, integrate and productize DRIVE platforms.\n  * Drive the reliability of the software platform which includes RADAR, LiDAR, Camera sensor processing and fusion.\n  * Analyze complex technical issues across software and hardware domains and independently drive issue analysis and resolution across multiple teams.\n  * Work in an environment which involves Hypervisor, Linux, QNX RTOS.\n\n  \n\n\nWhat we need to see:\n\n  * BS or MS degree in Computer Science, Computer Engineering, Electrical Engineering, or relevant field (or equivalent experience).\n  * 5+ years of relevant experience working on software design and development.\n  * Excellent communication and organization skills, with a logical approach to problem solving, good time-management and task-prioritization.\n  * Excellent C/C++/Python programming skills.\n  * Experience with embedded system involving Linux/RTOS with exposure to bring-up and debugging of ARM-based SoC target hardware boards.\n  * Strong debugging skills from application to kernel level and comfortable working across SW/HW domains.\n  * Device driver knowledge is a major plus.\n  * Master of software debugging tools: software debuggers, analyzers, trace loggers.\n\n  \n\n\nWays to stand out from the crowd:\n\n  * Prior experience with Autonomous Vehicles or Robotic systems.\n  * Familiarity with POSIX, QNX RTOS and associated development and debugging tools.\n  * Prior experience working with CAN bus, Radar, Lidar is a plus.\n\n  \n\n\n#AutonomousVehicles\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until September 2, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-08-29T00:00:00",
+      "experience": "raphics, PC gaming, and accelerated computing for more than 25 years;   * 5+ years of relevant experience working on software design and development",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "41d525eee4719690fb517eb4b2bdfafc70c2c00da4523bbcc078f9ed91518c9d",
+      "first_discovered": "2026-10-13T02:51:19.862300+00:00",
+      "last_seen": "2026-10-13T02:51:19.862320+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556981927": {
+      "company": "Microsoft",
+      "job_id": "1970393556981927",
+      "title": "Software Engineer II and Senior Software Engineer",
+      "location": "Redmond, WA,US, United States; United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556981927?domain=microsoft.com",
+      "description": "Collaborates with appropriate stakeholders to determine user requirements for a set of features and scenario. Contributes to and drives identification of dependencies and the development of design documents for a product, application, service, or platform. Contributes to efforts to break down larger work items into smaller work items and provides estimation. Creates, implements, optimizes, debugs, refactors, and reuses code to establish and improve performance and maintainability, effectiveness, and return on investment (ROI). Leverages subject-matter expertise of product features and partners with appropriate stakeholders (e.g., project managers) to drive a workgroup's project plans, release plans, and work items. Serves as a Designated Responsible Individual (DRI), developing and executing operational playbooks, participating in on-call rotations to monitor system, product, and service health, proactively communicating status to stakeholders, mentoring and guiding engineers during incident response, and leading restoration efforts for both simple and complex service disruptions. Continuously builds technical expertise and adopts emerging technologies, solutions, and operational best practices to enhance product availability, reliability, efficiency, observability, and performance, while driving scalable and consistent monitoring and operational excellence. Embodies our culture and values. Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. These requirements include, but are not limited to the following specialized security screenings: Bachelor's Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Proficiency in C#. Proven experience designing and building distributed services at scale. Strong proficiency with Azure services (or other cloud services).",
+      "posting_date": "2026-09-22T13:15:49",
+      "experience": "s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "1fbb58330abe37a24a6d30ab0b11723a98137b9ecf7dc94a65cfc316c768acd8",
+      "first_discovered": "2026-10-13T02:51:20.535409+00:00",
+      "last_seen": "2026-10-13T02:51:20.535428+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556953612": {
+      "company": "Microsoft",
+      "job_id": "1970393556953612",
+      "title": "Senior Software Engineers + Software Engineer IIs",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953612?domain=microsoft.com",
+      "description": "Design and develop large-scale distributed software services and solutions. Adhere to and drive modern software-engineering practices through design reviews. Perform system design across well-defined interfaces and multiple components, conduct code reviews, and use data/telemetry to make decisions. Develop best-in-class engineering by ensuring services and components are well-defined, modular, secure, reliable, diagnosable, actively monitored, and reusable. Improve test coverage, organize and implement integration tests, and resolve problem areas. Weigh testability, portability, reliability, and maintainability, and know when code is ready to ship. Collaborate leaders to contribute to cohesive, end-to-end customer experiences, focusing on customer/partner needs through a data-driven approach. Troubleshoot and optimize automation, reliability, and monitoring for Live Site. Partner with product and engineering teammates to design and develop large-scale distributed software services and solutions. Focus on customer/partner needs through a data-driven approach; troubleshoot and optimize automation, reliability, and monitoring for Live Site. Bachelor's degree in Computer Science or related technical field AND 2+ years of technical engineering experience with coding in languages such as C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Master's Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python 2+ years of experience designing, developing, or maintaining secure software systems, with applied knowledge of authentication, data protection, access control, and secure coding practices. 2+ years of experience designing, building, and operating scalable, highly available cloud services or distributed systems on platforms such as Azure, AWS, GCP, or comparable cloud environments, with production ownership, CI/CD pipeline integration, and automated testing practices. Experience building or integrating AI/ML-powered systems or workflows, including safe handling of model outputs, orchestration, or agent-based systems.",
+      "posting_date": "2026-10-06T13:49:24",
+      "experience": "s degree in Computer Science or related technical field AND 2+ years of technical engineering experience with coding in languages such as C, C++, C#; s Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not li; mited to, C, C++, C#, Java, JavaScript, or Python 2+ years of experience designing, developing, or maintaining secure software systems, wi;  2+ years of experience designing, building, and operating scalable, highly available clo",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "915f0d4df57efe06b60e885a40537fb7acac53b08731d98e3ed5fbec50c0ba27",
+      "first_discovered": "2026-10-13T02:51:21.174149+00:00",
+      "last_seen": "2026-10-13T02:51:21.174167+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556992027": {
+      "company": "Microsoft",
+      "job_id": "1970393556992027",
+      "title": "Software Engineer II/Sr. Software Engineer",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556992027?domain=microsoft.com",
+      "description": "Rapidly move from requirements and ideas to working solutions, prototyping and iterating based on real-world feedback while maintaining high standards for reliability, performance, and maintainability. Use AI-assisted and agentic coding tools throughout the software development lifecycle to accelerate development, testing, debugging, experimentation, and delivery. Translate business and operational requirements into practical technical designs and scalable implementations, working closely with engineers, applied scientists, TPMs, designers, and operational teams. Apply strong software engineering practices including code reviews, automated testing, CI/CD, observability, documentation, and operational readiness. Build reusable components, accelerators, and engineering patterns that enable successful solutions to scale across teams and transformation scenarios. Learn and adapt quickly in ambiguous, fast-moving environments, experimenting with emerging AI technologies and continuously improving solutions based on measurable outcomes. Bachelor's degree in computer science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python Bachelor's degree in computer science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Master's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience.",
+      "posting_date": "2026-10-07T18:25:04",
+      "experience": "s degree in computer science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li; s degree in computer science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "c757483a7e749754a155d278a82c86d318d01f8a4d4e0a34ef32ea699ed7651c",
+      "first_discovered": "2026-10-13T02:51:24.892371+00:00",
+      "last_seen": "2026-10-13T02:51:24.892386+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556953608": {
+      "company": "Microsoft",
+      "job_id": "1970393556953608",
+      "title": "Senior Software Engineers + Software Engineer IIs",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556953608?domain=microsoft.com",
+      "description": "Software Engineering IC3 - The typical base pay range for this role across the U.S. is USD $102,100 - $202,200 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $133,800 - $219,200 per year. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay Software Engineering IC4 - The typical base pay range for this role across the U.S. is USD $119,800 - $234,700 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $160,200 - $261,000 per year. Certain roles may be eligible for benefits and other compensation. Find additional benefits and pay information here: https://careers.microsoft.com/us/en/us-corporate-pay This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled. * Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, citizenship, color, family or medical care leave, gender identity or expression, genetic information, immigration status, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran or military status, race, ethnicity, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable local laws, regulations and ordinances. If you need assistance with religious accommodations and/or a reasonable accommodation due to a disability during the application process, read more about requesting accommodations.",
+      "posting_date": "2026-10-06T16:29:51",
+      "experience": "Unspecified",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "e7b76e5040c74fd5627bf74b294355a69b85fa6d2e0f7d7601b7d7af167633ef",
+      "first_discovered": "2026-10-13T02:51:25.041918+00:00",
+      "last_seen": "2026-10-13T02:51:25.041931+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10534648": {
+      "company": "Amazon",
+      "job_id": "10534648",
+      "title": "CMMS Engineer",
+      "location": "USA, VA, Herndon",
+      "url": "https://www.amazon.jobs/en/jobs/10534648/cmms-engineer",
+      "description": "Description AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we\u2019re the people who keep the cloud running. We support all AWS data centers and all of the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain \u2014 and we\u2019re looking for talented people who want to help. We are currently seeking a CMMS Engineer to serve as a system mater expert within Amazon data center region. Ideal candidates will posses the ability to design, develop and deploy innovative solutions to address operational challenges. This role requires both effective contributions as well as the ability to work within multi-disciplinary teams. The scope of this role will include but not limited to owning the process from start to finish with deploying the EAM platform in your data center region. Working to support local data center teams with asset collection; maintenance schedules, reporting, and training. As part of the global EAM team, you will help drive global processes and document development. This role acts as the gatekeeper for mission critical data in EAM, responsible for the accuracy and reports produced in EAM. You will be required on a frequent basis to help develop systems enhancement modules of core and advanced modules to meet Regional or Global business requirements. There will be 20% travel when launching new locations. You\u2019ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You\u2019ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you\u2019ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion. Key job responsibilities The CMMS Engineer will be responsible for setup and maintaining site asset data through Hexagon EAM. The engineer will work within the data centers to ensure that asset details are captured to match the digital record. They will work with corresponding teams to align and schedule maintenance within the CMMS application. The engineer will proactively perform routine data scrubs, identify and correct any anomalies, while continuously looking for ways to automate and enhance processes. They will also plan and conduct training and workshop sessions for large audiences within the organization. A day in the life CMMS Engineers connect AWS data center operations teams with the systems that track physical equipment. They tag and catalog new equipment as sites grow, support staff through Slack and training, schedule preventive maintenance, and keep asset records accurate. They also handle administrative work and contribute to projects that improve the tools the team relies on. It's a hands-on role blending fieldwork, customer support, and system upkeep - ensuring every piece of data center equipment is properly tracked, maintained, and ready to support reliable operations. About the team The CMMS team is part of AWS Data Center Central Operations, responsible for the Enterprise Asset Management (EAM) systems that keep our physical infrastructure organized, maintained, and audit-ready across data center sites. We work closely with multipel Data Center Operations, Field Engineering, and Infrastructure Reliability teams to make sure every asset is accurately tracked and properly scheduled for maintenance. Our team combines on-site fieldwork with system administration, and we're continually looking for ways to automate manual processes and improve the tools our stakeholders depend on daily.\nBasic Qualifications - 3+ years of Computerized Maintenance Management System (CMMS) experience - 2+ years of electrical and mechanical facilities maintenance experience - Bachelor's degree in enginnering or equivalent, or 3+ years of facilities management experience - Detail-oriented, comfortable walking large facilities, and precise with data entry.\nPreferred Qualifications - 5+ years of Computerized Maintenance Management System (CMMS) experience - 2+ years SQL Server database query and reporting experience using ETL, data warehouse, and SSAS/SSRS tools. - Working knowledge in EAM equipment hierarchy, object coding and naming convention. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, VA, Herndon - 96,000.00 - 166,300.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of Computerized Maintenance Management System (CMMS) experience - 2+ years of e; rience - Bachelor's degree in enginnering or equivalent, or 3+ years of facilities management experience - Detail-oriented, comfortable walking larg; Preferred Qualifications - 5+ years of Computerized Maintenance Management System (CMMS) experience - 2+ years SQL ",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Explicit required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "cd2c5a4ca2b07e3e56b6cb1082e7fd52ae885154d2654c4c80a627b3ae47e8e6",
+      "first_discovered": "2026-10-13T02:51:25.213131+00:00",
+      "last_seen": "2026-10-13T02:51:25.213146+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10386182": {
+      "company": "Amazon",
+      "job_id": "10386182",
+      "title": "Automation Engineer",
+      "location": "USA, TX, Dallas",
+      "url": "https://www.amazon.jobs/en/jobs/10386182/automation-engineer",
+      "description": "Description Operations is at the heart of Amazon\u2019s business. We are known for our speed, accuracy, and exceptional service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. The Reliability & Maintenance Engineering (RME) team are the business partners that work tirelessly behind the scenes to make it happen. We drive continuous improvement, and maintain all of the robotics and material handling equipment (MHE) to ensure our customers are met with the Amazon smile. Come join us on our journey! About the Role: As an Automation Engineer, you will play a crucial role in maximizing equipment reliability and operational performance in our fulfillment centers by providing proactive controls automation and technical support. Your expertise will be essential in troubleshooting complex control systems, analyzing performance metrics, and driving continuous improvement initiatives. You'll collaborate with cross-functional teams to optimize material handling equipment (MHE) systems and implement innovative projects. You'll work with state-of-the-art technology, including conveyors, sortation systems, scanners, cameras, print and apply systems, and SCADA devices and programs. Through your efforts, you'll directly contribute to ensuring our customers receive their orders with Amazon's signature speed and accuracy. What Do We Offer? Amazon offers competitive compensation packages including comprehensive healthcare benefits starting on Day 1, matching 401(k) program, and up to 20 weeks of paid parental leave. But wait, there\u2019s more: We provide lightweight fire-resistant daily wear and composite toe safety shoes for your safety! Key job responsibilities Key job responsibilities include, but are not limited to: - You will serve as the site expert for maintaining the automation systems that are critical for operations - You will understand, maintain and troubleshoot material handling control systems, including PLC/PC controllers and industrial networks such as Ethernet, ControlNet, DeviceNet, Profibus, motor control systems, servo drives, frequency drives, and electrical distribution systems - You will monitor MHE metrics and partner with maintenance/operations to address system performance issues and provide analysis across all operations - You will provide first-level escalation support for site technicians, both locally and remotely - You will perform and analyze building System Assessments to enhance material handling system performance\nBasic Qualifications - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible schedule/shift/work area, including weekends, nights, and/or holidays - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issue diagnosis experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment experience - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Codesys PLCs experience\nPreferred Qualifications - Experience with HMI and control network components, including maintenance, troubleshooting, programming and design - Experience identifying, maintaining, troubleshooting, and modifying Motor Controls including motor starters, Variable Frequency Drives, DC drives, and standard electrical components - Experience with preventive maintenance procedures, industrial electrical, industrial controls, and industrial electronics & robotics - Experience interpreting and modifying mechanical and electrical drawings - Experience programming with RSLogix5000, Studio 5000, FT View, and other controls software platforms Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, TX, Dallas - 90,000.00 - 112,500.00 USD annually",
+      "posting_date": null,
+      "experience": "ical engineering, automation engineering, or equivalent, or 2+ years of PLC programming or automation engineering experience - Work a flexible sched; ical engineering, automation engineering, or equivalent, or 2+ years of process or production environment related PLC-controlled automation and issu; ical engineering, automation engineering, or equivalent, or 2+ years of robotics work cells and control systems experience - Bachelor's degree in co; ical engineering, automation engineering, or equivalent, or 2+ years of electrical theory, robotics, controls components, and automated equipment ex; ical engineering, automation engineering, or equivalent, or 2+ years of Ladder Logic and structured programming from Siemens, Allen-Bradley, or Code",
+      "classification": "Needs Review",
+      "reasons": [
+        "Experience or US location requires review"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "a4fcb692ed2adcc3a8e01653283cf054a36ae0673afe0a8c95e6873347bbbd6b",
+      "first_discovered": "2026-10-13T02:51:25.413465+00:00",
+      "last_seen": "2026-10-13T02:51:25.413481+00:00",
+      "notified_hash": "a4fcb692ed2adcc3a8e01653283cf054a36ae0673afe0a8c95e6873347bbbd6b",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:51:26.757333+00:00"
+    },
+    "NVIDIA:893394750744": {
+      "company": "NVIDIA",
+      "job_id": "893394750744",
+      "title": "Senior Design Verification Engineer - GPU Memory Subsystem",
+      "location": "Durham, NC,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893394750744",
+      "description": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It\u2019s a unique legacy of innovation that\u2019s fueled by great technology\u2014and amazing people. Today, we\u2019re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.\n\nWe're looking for a talented, motivated Senior Design Verification Engineer to join our GPU memory subsystem team in Durham, NC. Looking to join a dynamic team solving complex verification challenges involving caches, coherency, pipelines, and arbitration? This pre-silicon position is perfect for you!\n\nWhat you'll be doing:\n\n  * Actively collaborate with RTL, DV, FV, and Arch teams to then develop and implement design verification strategies for our GPU ASIC memory subsystem IP.\n\n  * Perform functional and performance verification using advanced tools and methodologies. Bring your innovative ideas to the table.\n\n  * Gain a deep understanding of this critical IP's micro-architectural design and implementation while continuing to advance your verification skills.\n\n\n\n\nWhat we need to see:\n\n  * BS Degree in CompE, EE, CS, or equivalent experience\n\n  * 5+ years of experience covering the full scope of pre-silicon ASIC verification, including the development of verification strategy, test plans, tests, testbench components, regression triage, debug, and coverage closure and experience with industry standard tools\n\n  * Working knowledge of computer architecture fundamentals and their constructs in Verilog/System Verilog\n\n\n\n\nWays to stand out from the crowd:\n\n  * Strong analytical thought process and outstanding debug skills.\n\n  * Experience with caches, coherency, complex pipelines, arbiters, or interconnect networks\n\n  * Infrastructure development, use of AI to support design and verification development\n\n  * Testbench development experience, especially with UVM components used in multiple levels of verification\n\n  * Strong programming/scripting experience in Python or C++. Applying suitable algorithms, data structures, and error handling\n\n\n\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 218,500 USD for Level 3, and 168,000 USD - 264,500 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 11, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-07T00:00:00",
+      "experience": "raphics, PC gaming, and accelerated computing for more than 25 years;   * 5+ years of experience covering the full scope of pre-silicon ASIC verification, includi",
+      "classification": "Not Eligible",
+      "reasons": [
+        "No relevant technical evidence",
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "03772e13cef7a54ef2ba4bed6da0e684001e89f80330788fc7805b171d833d60",
+      "first_discovered": "2026-10-13T02:51:27.142650+00:00",
+      "last_seen": "2026-10-13T02:51:27.142669+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893394751903": {
+      "company": "NVIDIA",
+      "job_id": "893394751903",
+      "title": "Senior Cybersecurity Engineer \u2013 Identity Platform and Access Management",
+      "location": "Santa Clara, CA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893394751903",
+      "description": "NVIDIA's Enterprise Security organization is looking for a Senior Cybersecurity Engineer \u2013 Identity Platform & Access Management to lead the development, deployment, and improvement of large-scale identity and access management systems. You will establish and guide the identity framework that safeguards developers, services, and AI agents throughout NVIDIA's worldwide infrastructure across cloud, on-premises, and managed device settings.\n\nThis is a high-impact, multi-functional position linking security architecture, platform engineering, and AI infrastructure. You will work closely with engineering leads in device management, identity governance, and platform teams to develop technical strategy and operational responsibility. Your focus will be on modernizing authentication patterns for agentic AI and developer-scale workflows.\n\nWhat You'll Be Doing:\n\n  * Lead enterprise identity strategy and platform architecture, encompassing cloud identity, directory services, and the transition of applications to modern authentication standards (OAuth 2.0, OIDC, SAML).\n\n  * Define and implement reference architectures for secure authentication across CLI, browser, and agentic workflows.\n\n  * Architect and stand up a centralized token issuance and validation service for developer and CLI workflows, ensuring consistent trust and verification across device and session contexts.\n\n  * Establish agent identities as an outstanding element within the identity platform, enabling robust access control and audit-ability for automated and machine-assisted workflows.\n\n  * Build and implement advanced identity security controls such as Conditional Access policies, Privileged Identity Management (PIM), and risk-based authentication.\n\n  * Scale device management and identity governance systems to meet the rapidly growing demands of AI-powered operations. Ensure reliability, performance, and compliance across large organizational environments.\n\n  * Partner with multi-functional collaborators across security, infrastructure, and product teams to align on architecture, build strategy, and operational ownership.\n\n\n\n\nWhat We Need to See:\n\n  * Bachelor's degree or Master's degree or equivalent experience in Computer Science or a related field.\n\n  * Over 12+ years of experience in platform or infrastructure engineering, with extensive knowledge in authentication, authorization, and identity systems including modern token-based protocols, federated identity standards, and device attestation.\n\n  * Demonstrable experience crafting and leading identity or access management platforms within large-scale organizations.\n\n  * Solid understanding of Zero Trust architecture, identity-based attack techniques, and modern IAM controls.\n\n  * Experience securing automated or computer-controlled workflows, including service-to-service identity and non-human access patterns.\n\n  * Excellent written and verbal communication skills; comfortable driving architecture decisions across senior and executive audiences.\n\n\n\n\nWays to stand out from the crowd:\n\n  * Established background in building token services or centralized auth platforms that run at enterprise scale with high availability and low latency.\n\n  * Deep understanding of delegated access flows, managed device trust models, and the nuances of securing both human and non-human identities.\n\n  * Demonstrated ability to establish agent or service identities as an outstanding construct in complex, multi-tenant environments.\n\n  * Hands-on application development experience with the ability to contribute directly to auth libraries and SDKs.\n\n  * Experience leading enterprise identity transformations or directory modernization programs, including migration from legacy authentication protocols at scale.\n\n\n\n\nAt NVIDIA, we operate at the core of enterprise security, architecting and protecting identity systems that support some of the most advanced computing platforms in the world. This role offers the opportunity to influence strategy, lead modernization, engage with executives, and leave a lasting security impact \u2014 working alongside outstanding engineers and security leaders.\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you're creative and autonomous, we want to hear from you!\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 196,000 USD - 310,500 USD.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until August 16, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-08-12T00:00:00",
+      "experience": "  * Over 12+ years of experience in platform or infrastructure engineering, with extensive knowled",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "89cfed15469a28134fd456150c4119e3096254fd9fc241913573d446c6070cbf",
+      "first_discovered": "2026-10-13T02:51:27.386416+00:00",
+      "last_seen": "2026-10-13T02:51:27.386434+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556952585": {
+      "company": "Microsoft",
+      "job_id": "1970393556952585",
+      "title": "Software Engineer II and/or Senior Software Engineer - Kubernetes",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556952585?domain=microsoft.com",
+      "description": "As a member of our team, you will lead design and code reviews across feature areas and participate in all stages of our engineering lifecycle (initial research and discovery, quick iteration on promising concepts, solution prototyping and development, deployment and live site support). Developers in the team are expected to wear multiple hats and demonstrate breadth, depth, and leadership. You will work with multiple partner teams and deploy across all Azure regions. This position is for someone who: - Passionate about distributed systems and planetary scale services. - Enjoys the challenge of designing, building and operating cloud infrastructure platform components built on Kubernetes, with a strong focus on reliability, security, networking, diagnosability, and global-scale cost efficiency. - Drive well-scoped design and implementation work for cloud-native infrastructure used by Azure Observability services across multiple environments. - Own production-quality features end to end, including design, coding, validation, deployment, monitoring, and live-site support. - Improve Kubernetes-based operational patterns, including service-to-service communication, workload placement, traffic management, and resiliency practices. - Partner with adjacent infrastructure, observability, and platform teams to align dependencies, clarify ownership, and deliver supportable solutions. Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Master's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Experience with Kubernetes, containers, cloud-native infrastructure, distributed systems, or large-scale production services. Experience improving reliability, security, observability, networking, or operational excellence for live services. Experience partnering across teams to deliver infrastructure capabilities with clear ownership and supportability. Experience with C#, Java, C++, Go, Python, or similar programming languages. \u200b",
+      "posting_date": "2026-10-12T16:43:40",
+      "experience": "s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "7d2e9aabb882d33d0e057ab08c879f27cbf5a168395f6a7de88b62b627e86165",
+      "first_discovered": "2026-10-13T02:51:30.582664+00:00",
+      "last_seen": "2026-10-13T02:51:30.582680+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393557022605": {
+      "company": "Microsoft",
+      "job_id": "1970393557022605",
+      "title": "Software Engineer/Sr. Software Engineer",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557022605?domain=microsoft.com",
+      "description": "Design, implement, and maintain scalable distributed services that support partner onboarding, account enrollment, security, and Partner Center platform capabilities. Build APIs and platform components that enable partner lifecycle management, account provisioning, and partner program enrollment. Develop secure, reliable, and high-performance cloud-native services using modern engineering practices. Implement security-first solutions including authentication, authorization, MFA enforcement, identity management, and access controls. Drive improvements in availability, latency, resiliency, and observability across shared platform services. Leverage AI-powered engineering tools and modern development practices to improve productivity and software quality. Contribute to emerging AI-enabled experiences that enhance partner engagement and platform operations. Explore opportunities to apply intelligent automation and agent-based solutions within engineering workflows. Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. o C o .NET o Java o C++ Experience designing and building REST APIs, microservices, or distributed systems. Experience building large-scale distributed services or enterprise platforms. Experience with authentication, authorization, identity, or security-related systems. Experience working with cloud-native architectures, containers, or Kubernetes. Familiarity with Partner Center, subscription services, or commerce-related systems. Experience with CI/CD pipelines, automation, and DevOps practices. Experience leveraging AI tools to improve engineering productivity and operational efficiency. Communication skills and ability to collaborate effectively across teams. Software Engineering IC3 - The typical base pay range for this role across the U.S. is USD $102,100 - $202,200 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $133,800 - $219,200 per year. Certain roles may be eligible for benefits and other compensation.",
+      "posting_date": "2026-10-02T17:18:52",
+      "experience": "s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "5109cb582bec1885cf8a83736997b9d943d7a3bb6b01f43b944090bbc8b0e62b",
+      "first_discovered": "2026-10-13T02:51:30.961556+00:00",
+      "last_seen": "2026-10-13T02:51:30.961574+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893394812180": {
+      "company": "NVIDIA",
+      "job_id": "893394812180",
+      "title": "Senior Formal Verification Engineer - LPU",
+      "location": "CA,US, United States; TX,US, United States; United States; WA,US, United States; Remote, OR,US, United States; MA,US, United States; US",
+      "url": "https://jobs.nvidia.com/careers/job/893394812180",
+      "description": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It\u2019s a unique legacy of innovation that\u2019s fueled by great technology\u2014and amazing people. Today, we\u2019re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.\n\nAre you ready to be part of a team that is pushing the boundaries of AI and computing? At NVIDIA, we value innovation, collaboration, and excellence. Join our outstanding team as a Senior Formal Verification Engineer and be at the forefront of developing modern technology that builds the future. This role offers an outstanding opportunity to work with world-class talent and make a significant impact!\n\nWhat you'll be doing:\n\n  * Verifying AI-related sophisticated ASIC builds & features using advanced formal verification methods.\n\n  * Collaborating closely with architecture and RTL teams to specify properties, resolve complex issues in building, and influence micro-architecture decisions.\n\n  * Applying formal verification to rigorously ensure critical build properties align with specifications and minimize ambiguities.\n\n  * Articulating formal verification coverage to partners.\n\n  * Developing advanced formal verification environments and methodologies for complex ASIC designs, including building automated flows for scalability and efficiency.\n\n  * Supporting silicon bring-up and debug using formal methods where applicable.\n\n\n\n\nWhat we need to see:\n\n  * BS/MS/PhD or equivalent experience in CS/CE/EE.\n\n  * 5+ years in ASIC verification with 3+ years passionate about formal verification methods.\n\n  * Proficiency in SystemVerilog Assertions (SVA) and formal property verification.\n\n  * Experience with at least one popular formal verification tool in the industry (JasperGold, VC Formal, etc.).\n\n  * Excellent skills in applying AI tools in daily engineering work to efficiently solve problems.\n\n  * Strong written and oral communication skills.\n\n  * Keen attention to detail.\n\n\n\n\nWays to stand out from the crowd:\n\n  * Demonstrated success in full-cycle formal sign-off for complex builds.\n\n  * Expertise in formal applications: FPV apps, datapath verification, etc.\n\n  * Deep understanding of GPU or LPU architecture build.\n\n\n\n\nWidely considered to be one of the technology world\u2019s most desirable employers, NVIDIA offers highly competitive salaries and a comprehensive benefits package. As you plan your future, see what we can offer to you and your family www.nvidiabenefits.com/\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 218,500 USD for Level 3, and 168,000 USD - 264,500 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until July 10, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-07-06T00:00:00",
+      "experience": "raphics, PC gaming, and accelerated computing for more than 25 years;   * 5+ years in ASIC verification with 3+ years passionate about formal verification methods",
+      "classification": "Not Eligible",
+      "reasons": [
+        "No relevant technical evidence",
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "b1677b1fc9bd6e4b3034f1eec48e923601e0a1f6eb27e6c55c53717ab82cc4bd",
+      "first_discovered": "2026-10-13T02:51:37.861011+00:00",
+      "last_seen": "2026-10-13T02:51:37.861027+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
