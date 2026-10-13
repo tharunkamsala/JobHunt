@@ -7,7 +7,7 @@ from filters.eligibility import classify
  ('Software Engineer','India','Entry level software role','Not Eligible'),
  ('Software Engineer','United States','Minimum 5 years of experience','Not Eligible'),
  ('Software Engineer','United States','3 years preferred; new graduate role','Strong Match'),
- ('Software Engineer','United States','Build software systems','Needs Review'),
+ ('Software Engineer','United States','Build software systems','Not Eligible'),
  ('Software Intern','United States','Computer science students','Not Eligible'),
  ('Software Engineer','India; United States','Entry level','Strong Match'),
 ])
@@ -84,4 +84,29 @@ def test_reject_us_citizenship_requirements(description):
 ])
 def test_do_not_confuse_citizenship_with_work_authorization(description):
  j=Job('Microsoft','1','Software Engineer I','United States','https://example.com/1','New graduate 2027. '+description)
+ assert classify(j).classification=='Strong Match'
+
+@pytest.mark.parametrize('description',[
+ 'Minimum 2 years of experience.',
+ '2+ years of professional software development experience.',
+ 'Two years of software development experience required.',
+ 'Basic Qualifications: 2-4 years of coding experience.',
+ 'New graduate role. At least 3 years of experience required.',
+ 'Minimum 1 year of coding experience. Minimum 2 years of professional experience.',
+ 'Build software systems. No experience level specified.',
+])
+def test_strictly_less_than_two_years(description):
+ j=Job('Amazon','1','Software Engineer','United States','https://example.com/1',description)
+ assert classify(j).classification=='Not Eligible'
+
+@pytest.mark.parametrize('description',[
+ 'Minimum 1 year of professional experience.',
+ '1+ years of software development experience.',
+ '0-2 years of software development experience.',
+ 'New graduate role. 2 years of experience preferred.',
+ 'New graduate role. Preferred Qualifications: 3 years of coding experience.',
+ 'No prior experience required.',
+])
+def test_under_two_year_candidates_eligible(description):
+ j=Job('Amazon','1','Software Engineer','United States','https://example.com/1',description)
  assert classify(j).classification=='Strong Match'

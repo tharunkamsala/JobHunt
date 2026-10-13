@@ -97,3 +97,16 @@ def test_citizen_only_never_sent_for_any_source(tmp_path):
         assert not telegram.messages
         assert all(j['classification']=='Not Eligible' for j in store.data['jobs'].values())
     asyncio.run(scenario())
+
+def test_two_year_requirement_never_alerts(tmp_path):
+    async def scenario():
+        telegram=Telegram(); store=Store(tmp_path/'history.json')
+        for company in ['Microsoft','Amazon','NVIDIA','Greenhouse: Cloudflare','Greenhouse: Databricks']:
+            processor=JobProcessor(store,telegram,alert_existing=True,
+                software_only=not company.startswith('Greenhouse:'),
+                strict_new_grad_year=2027 if company.startswith('Greenhouse:') else None)
+            j=job(); j.company=company
+            j.description='New graduates graduating in 2027. Minimum 2 years of development experience.'
+            await processor(j)
+        assert not telegram.messages
+    asyncio.run(scenario())

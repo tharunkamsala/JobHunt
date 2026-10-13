@@ -120,8 +120,10 @@ The bot sends no email. GitHub Actions email delivery is an account preference: 
 
 ### Current role preferences
 
-Microsoft, Amazon, and NVIDIA alerts are limited to software engineering / software development titles (including SDE and SWE). SDE II / Software Engineer II, higher numbered levels, senior roles, internships, and other job families are excluded. Unspecified-level software roles still use the experience and US-location checks; uncertain experience is labeled Needs Review.
+Microsoft, Amazon, and NVIDIA alerts are limited to software engineering / software development titles (including SDE and SWE). SDE II / Software Engineer II, higher numbered levels, senior roles, internships, and other job families are excluded. Unspecified-level software roles need clear entry-level evidence in the JD. Roles requiring two or more years are excluded; a minimum of zero or one year may qualify. Missing experience and entry-level evidence are excluded.
 
 Cloudflare and Databricks Greenhouse boards are also monitored for technical new-graduate roles explicitly accepting the 2027 graduating class. Missing graduation years, other graduating classes, internships, and level II or senior roles do not generate alerts. An unrelated 2027 date (for example copyright or a project date) does not establish graduation eligibility.
 
 Across every source, postings explicitly requiring U.S. citizenship are excluded before Telegram delivery (for example, “U.S. citizens only” or “must be a U.S. citizen”). A generic U.S. work-authorization requirement, citizenship preference, explicitly optional citizenship, or a citizen/permanent-resident alternative does not by itself trigger this citizen-only exclusion.
+
+The experience cutoff is strictly below two years of required experience across all sources. Explicit two-year minimums, “2+ years,” and higher requirements are excluded even when a title says new graduate. Preferred experience is distinguished from mandatory requirements. Ranges such as 0–2 years can qualify because applicants with zero or one year are eligible.
