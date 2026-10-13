@@ -2,7 +2,7 @@
 
 Python 3.12+ personal job monitor using Playwright Chromium, asyncio, HTTPX,
 BeautifulSoup, JSON history, Telegram and GitHub Actions. **Development build:
-mandatory sources are not yet verified end to end. Do not treat this as a
+mandatory sources have bounded live extraction tests; full pagination is not yet verified. Do not treat this as a
 complete or deployed monitoring service.** See LIVE_RESULTS.md.
 
 ## Local use
@@ -42,7 +42,7 @@ configured sources concurrently, using separate browser processes/contexts.
 5. Actions → New Grad Job Hunter → Run workflow is the manual Run Now button.
    Inspect the logs and scan-diagnostics artifact. Confirm a real Telegram
    message and state/history.json on bot-state before relying on the system.
-6. Resolve the source limitations below before enabling routine monitoring.
+6. Resolve the source limitations below, configure Telegram, then set repository variable `MONITOR_ENABLED=true` to activate scheduled scans. Manual runs work before activation; use dry_run and max_details=2 for a bounded remote diagnostic.
 
 Cron runs at UTC minutes 13 and 43. GitHub may delay/drop scheduled runs; this
 is not an exact timer. Public schedules may be disabled after 60 days without
@@ -69,10 +69,10 @@ screenshots or personal application data are collected.
 - Configured official boards: Microsoft, Amazon, NVIDIA, Cloudflare Greenhouse,
   Databricks Greenhouse. Additional ATS integrations are deferred.
 - Browser adapters navigate official landing/search pages using URL parameters.
-  They do not yet verify entered UI filters or cover every requested keyword.
+  They validate the initialized US location input and execute the actual keyword input, but do not cover every requested keyword.
   Site-specific selectors and broad category coverage need live validation.
-- Greenhouse uses its documented public Job Board API after opening the employer board: https://docs.greenhouse.io/job-board.html. Counts verify the entire configured board. Other browser sources accept only JSON-LD JobPosting detail pages. Portals without this data
-  currently fail extraction; no invented fields or silent HTML guesses.
+- Greenhouse uses its documented public Job Board API after opening the employer board: https://docs.greenhouse.io/job-board.html. Counts verify the entire configured board. Microsoft/NVIDIA accept JSON-LD JobPosting detail pages. Amazon uses its verified visible description and qualification sections. Portals without these validated fields
+  fail extraction; no invented fields or silent HTML guesses.
 - Pagination handles accessible Next/Load more controls with repeated-page
   detection and safety limits. Numeric-only/infinite-scroll pages need adapters.
 - Missing totals, zero links, failed details and limits yield incomplete status.

@@ -5,6 +5,7 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 from scrapers.base import BrowserSource
 from scrapers.greenhouse import GreenhouseSource
+from scrapers.amazon import AmazonSource
 from filters.eligibility import classify
 from storage.database import Store
 from notifications.telegram import Telegram, format_job
@@ -20,7 +21,7 @@ async def run(args):
         if gap>4500: logging.warning("Missed or delayed scan: %.0f minutes since last start",gap/60)
     store.data["last_scan"]=now(); store.save()
     async def worker(p,c):
-        adapter=GreenhouseSource if c["name"].startswith("Greenhouse:") else BrowserSource
+        adapter=GreenhouseSource if c["name"].startswith("Greenhouse:") else AmazonSource if c["name"]=="Amazon" else BrowserSource
         scan=await adapter(c,args.max_pages,args.max_details).scan(p)
         source=store.data["sources"].get(c["name"],{})
         baseline=not source.get("baseline_complete",False)

@@ -1,7 +1,7 @@
 [
   {
     "name": "Microsoft",
-    "url": "https://careers.microsoft.com/",
+    "url": "https://apply.careers.microsoft.com/careers",
     "search_url": "https://apply.careers.microsoft.com/careers?query=software&location=United%20States&domain=microsoft.com",
     "job_pattern": "/job/|/jobs/|/careerhub/explore/jobs/",
     "keywords": [
@@ -9,7 +9,10 @@
       "engineer",
       "scientist",
       "developer"
-    ]
+    ],
+    "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
+    "query_selector": "#position-query-search",
+    "location_selector": "#position-location-search"
   },
   {
     "name": "Amazon",
@@ -20,18 +23,24 @@
       "engineer",
       "scientist",
       "developer"
-    ]
+    ],
+    "listing_selector": "a.job-link",
+    "query_selector": "#search_typeahead-navigation",
+    "location_selector": "#location-typeahead-navigation"
   },
   {
     "name": "NVIDIA",
-    "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "url": "https://jobs.nvidia.com/careers",
     "search_url": "https://jobs.nvidia.com/careers?query=engineer&location=United%20States",
     "job_pattern": "/job/|/jobs/|/careers/job/",
     "keywords": [
       "engineer",
       "scientist",
       "developer"
-    ]
+    ],
+    "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
+    "query_selector": "#position-query-search",
+    "location_selector": "#position-location-search"
   },
   {
     "name": "Greenhouse: Cloudflare",

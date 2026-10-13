@@ -1,42 +1,54 @@
 # Verification — October 12, 2026 (America/New_York)
 
 Local Python 3.13.7, Playwright 1.63.0, actual downloaded Chromium.
-Dependencies and Chromium installed successfully. 14 automated fixture/mock
-tests pass; these do not prove live integration coverage.
+Dependencies and Chromium installed successfully. 18 automated fixture/mock
+tests pass. They cover rules, persistence, structured details, recovery,
+Telegram formatting, API count validation, robots precedence and workflow
+structure; they do not replace live integration tests.
 
-Actual browser probe opened the Amazon US search UI and both real Greenhouse
-employer pages. A bounded concurrent browser scan then exposed extraction
-failures in the generic adapter. Greenhouse was replaced with its documented
-public Job Board API, used after a real browser visit to each employer board.
-A subsequent full live Greenhouse scan verified:
+## Real job extraction
 
-| Board | Source total | Validated full descriptions | Status |
-|---|---:|---:|---|
-| Cloudflare | 434 | 434 | Verified Complete |
-| Databricks | 896 | 896 | Verified Complete |
+| Source | Validated descriptions | Scope and status |
+|---|---:|---|
+| Microsoft | 2 | Actual official application portal; deliberately bounded, Incomplete |
+| Amazon | 2 | Actual official careers UI; deliberately bounded, Incomplete |
+| NVIDIA | 2 | Actual official jobs portal; deliberately bounded, Incomplete |
+| Cloudflare Greenhouse | 434 of 434 | Full documented public API board after real browser visit, Verified Complete |
+| Databricks Greenhouse | 896 of 896 | Full documented public API board after real browser visit, Verified Complete |
 
-Both launched together, with independent browsers and recovery. No Telegram
-messages were sent. Matching/eligibility rules remain heuristic and require
-review. Full source collection does not imply every accepted classification
-is correct.
+Microsoft/NVIDIA detail pages supply JSON-LD JobPosting data. Amazon's page
+uses validated visible title, job ID, US job-details location, Description,
+Basic Qualifications and Preferred Qualifications sections. Dates missing
+from the source remain unspecified; Greenhouse updated_at is not mislabelled
+as a posting date. Both Greenhouse checks launched together with isolated
+browsers. The initial mandatory bounded scan also launched concurrently.
 
-Microsoft stopped before navigation: careers.microsoft.com/robots.txt
-returned an HTML error page, so access policy could not be verified.
-NVIDIA stopped before navigation: its landing page was disallowed by robots.
-Neither restriction was bypassed. These are **non-working mandatory sources**
-until a permitted path or explicit access policy can be established.
+## Access policy and repairs
 
-Amazon's search UI rendered in the browser probe, including United States
-filters and official job links. The first bounded adapter run did not find
-links. Stronger explicit waits were added; retest result will be recorded
-below. Full pagination and complete Amazon description collection remain
-unverified. Microsoft/NVIDIA search, pagination and details are unverified.
+The original Microsoft marketing site's robots endpoint returned HTML and
+was conservatively blocked. Python's standard robots parser also falsely
+rejected NVIDIA paths because it did not resolve explicit Allow rules against
+Disallow: /. The monitor now uses Protego's RFC 9309 matching and the actual
+official portals apply.careers.microsoft.com/careers and jobs.nvidia.com/careers,
+which explicitly allow /careers paths. Private routes remain forbidden.
+No restriction or challenge was bypassed. A regression test covers precedence.
 
-Initial API/GUI extraction failures are retained in local diagnostics, which
-are excluded from source control. A bounded scan uses deliberate limits and
-cannot be called complete. No screenshots or credentials were captured.
+Initial generic Amazon and Greenhouse extraction failed. The Amazon DOM
+adapter and documented Greenhouse Job Board API repaired those cases and
+passed subsequent live tests. Result-card selectors exclude similar-job
+recommendations from pagination counts.
 
-Remote Actions and Telegram delivery are pending verification. No claim of
-full end-to-end operation is made. The overall requested goal remains
-incomplete while mandatory sources, broad search coverage and Telegram are
-not verified.
+## Remaining verification
+
+A separate bounded two-page test exercises the actual keyword input,
+initialized US location and Next page/jobs buttons on the mandatory portals.
+Its result is recorded below when complete. Full pagination of all available
+jobs and broad keyword/category coverage have NOT been demonstrated.
+
+No Telegram messages have been sent. Remote Actions verification is pending.
+Schedules are intentionally gated by MONITOR_ENABLED=true until setup is
+finished. This is a development build with verified live extraction, not a
+claim that the complete requested monitoring service is operational.
+
+Local diagnostics contain public page HTML and scan reports; these are ignored
+by git. No credentials or personal applications were captured.

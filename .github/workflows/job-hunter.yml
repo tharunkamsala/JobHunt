@@ -8,6 +8,10 @@ on:
         description: Verify without Telegram messages
         type: boolean
         default: false
+      max_details:
+        description: Detail limit for bounded diagnostics
+        type: number
+        default: 2000
 permissions:
   contents: write
 concurrency:
@@ -15,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   scan:
-    if: github.event.repository.private == false
+    if: github.event.repository.private == false && (github.event_name == 'workflow_dispatch' || vars.MONITOR_ENABLED == 'true')
     runs-on: ubuntu-latest
     timeout-minutes: 28
     steps:
@@ -45,12 +49,13 @@ jobs:
           GRADUATION_YEAR: ${{ vars.GRADUATION_YEAR }}
           ALERT_EXISTING: ${{ vars.ALERT_EXISTING }}
           DRY_RUN: ${{ inputs.dry_run }}
+          MAX_DETAILS: ${{ inputs.max_details || 2000 }}
         run: |
           if [ "$DRY_RUN" = "true" ]; then
-            python main.py --dry-run
+            python main.py --dry-run --max-details "$MAX_DETAILS"
           else
             test -n "$TELEGRAM_BOT_TOKEN" && test -n "$TELEGRAM_CHAT_ID"
-            python main.py
+            python main.py --max-details "$MAX_DETAILS"
           fi
       - name: Persist state even on incomplete scans
         if: always()

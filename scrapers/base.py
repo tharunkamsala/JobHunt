@@ -1,6 +1,6 @@
 import asyncio, json, re
-from urllib.parse import urljoin, urlsplit
-from urllib.robotparser import RobotFileParser
+from urllib.parse import urljoin, urlsplit, parse_qs
+from protego import Protego
 from bs4 import BeautifulSoup
 import httpx
 from models import Job, Scan, now
@@ -13,7 +13,7 @@ class BrowserSource:
         parts=urlsplit(url); robots=f"{parts.scheme}://{parts.netloc}/robots.txt"
         if robots in self.policies:
             rp=self.policies[robots]
-            if rp is not None and not rp.can_fetch("NewGradJobHunter",url): raise Restricted("robots.txt disallows requested URL")
+            if rp is not None and not rp.can_fetch(url,"NewGradJobHunter"): raise Restricted("robots.txt disallows requested URL")
             if rp is not None: await asyncio.sleep(min(rp.crawl_delay("NewGradJobHunter") or rp.crawl_delay("*") or 1,120))
             return
         async with httpx.AsyncClient(timeout=25,follow_redirects=True) as client:
@@ -23,8 +23,8 @@ class BrowserSource:
             return
         if response.status_code!=200: raise Restricted("robots.txt unavailable: "+str(response.status_code))
         if "<html" in response.text.lower() or "<!doctype" in response.text.lower(): raise Restricted("robots.txt returned HTML; access policy unverified")
-        rp=RobotFileParser(); rp.parse(response.text.splitlines()); self.policies[robots]=rp
-        if not rp.can_fetch("NewGradJobHunter",url): raise Restricted("robots.txt disallows requested URL")
+        rp=Protego.parse(response.text); self.policies[robots]=rp
+        if not rp.can_fetch(url,"NewGradJobHunter"): raise Restricted("robots.txt disallows requested URL")
     async def goto(self,page,url):
         await self.allowed(url)
         response=await page.goto(url,wait_until="domcontentloaded",timeout=45000)
@@ -78,18 +78,29 @@ class BrowserSource:
             page=await context.new_page(); detail=await context.new_page()
             await self.goto(page,self.c["url"])
             await self.goto(page,self.c["search_url"])
-            # URL parameters initialize the site's actual search UI. Verify it renders listings.
+            if self.c.get("query_selector"):
+                query=page.locator(self.c["query_selector"])
+                await query.wait_for(timeout=30000)
+                location=page.locator(self.c["location_selector"])
+                if "United States" not in await location.input_value():
+                    raise ValueError("US location filter did not initialize")
+                params=parse_qs(urlsplit(self.c["search_url"]).query)
+                keyword=(params.get("query") or params.get("base_query") or [""])[0]
+                await query.fill(keyword)
+                await query.press("Enter")
+                await page.wait_for_timeout(2000)
+            # URL parameters initialize location; the actual keyword input executes search.
             seen=set(); signatures=set(); detail_failed=False
             for _ in range(self.max_pages):
                 await page.wait_for_function("pattern => Array.from(document.querySelectorAll('a[href]')).some(e => new RegExp(pattern).test(e.href))",arg=self.c["job_pattern"],timeout=30000)
-                links=await page.locator("a[href]").evaluate_all("els => els.map(e => ({url:e.href,title:e.innerText.trim()}))")
+                links=await page.locator(self.c.get("listing_selector","a[href]")).evaluate_all("els => els.map(e => ({url:e.href,title:e.innerText.trim()}))")
                 links={x['url'].split('#')[0]:x['title'] for x in links if re.search(self.c['job_pattern'],x['url']) and x['title']}
                 if not links: raise ValueError("No job links found; empty result is unverified")
                 signature=tuple(sorted(links))
                 if signature in signatures: raise ValueError("Pagination repeated a result page")
                 signatures.add(signature); result.pages+=1
                 body=await page.locator("body").inner_text()
-                total=re.search(r"(?:of|showing[^\n]*of)\s+([\d,]+)\s+(?:jobs|results)|([\d,]+)\s+(?:jobs found|results found)",body,re.I)
+                total=re.search(r"(?:of|showing[^\n]*of)\s+([\d,]+)\s+(?:jobs|results|roles)|([\d,]+)\s+(?:jobs found|results found)|(?:^|\n)([\d,]+) jobs(?:\n|$)",body,re.I)
                 if total: result.total=int(next(x for x in total.groups() if x).replace(',',''))
                 for url,title in links.items():
                     if url in seen: continue
@@ -99,7 +110,9 @@ class BrowserSource:
                     except Exception as exc:
                         detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
                     await asyncio.sleep(0.5)
-                nxt=page.get_by_role("button",name=re.compile(r"^(next|next page|load more)(?:.*)?$",re.I)).or_(page.get_by_role("link",name=re.compile(r"^next(?: page)?$",re.I)))
+                reject=page.get_by_role("button",name=re.compile(r"^Reject all$",re.I))
+                if await reject.count() and await reject.first.is_visible(): await reject.first.click()
+                nxt=page.get_by_role("button",name=re.compile(r"^(next|next page|next jobs|load more(?: roles)?)$",re.I)).or_(page.get_by_role("link",name=re.compile(r"^next(?: page)?$",re.I)))
                 if await nxt.count() and await nxt.first.is_enabled():
                     await nxt.first.click(); await page.wait_for_timeout(2000)
                 else:
