@@ -2,6 +2,9 @@ import re
 from models import Job
 STATES = set("AL AK AZ AR CA CO CT DE FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY DC".split())
 TECH = re.compile(r"software|developer|machine learning|data (?:engineer|scien)|cloud|devops|site reliability|platform engineer|infrastructure engineer|systems engineer|security engineer|firmware|embedded|test engineer|automation engineer|applied scientist|analytics engineer|database engineer|computer science", re.I)
+SDE_TITLE = re.compile(r"\b(?:software (?:development |design )?engineer|software developer|sde|swe)\b", re.I)
+EXCLUDED_LEVEL = re.compile(r"\b(?:sde|swe|engineer|developer)\s*(?:[-–—,:/(]\s*)?(?:[2-9]|10|II|III|IV|V|VI|VII|VIII|IX|X)\b|\b(?:level|l)\s*[-:]?\s*(?:[2-9]|10|II|III|IV|V)\b", re.I)
+
 def classify(job: Job, graduation_year=None):
     t = job.title; d = job.description; text = t + " " + d
     job.reasons = []
@@ -15,7 +18,8 @@ def classify(job: Job, graduation_year=None):
     sponsor = re.search(r"[^.\n]*sponsor[^.\n]*",d,re.I)
     job.sponsorship = sponsor.group(0).strip() if sponsor else None
     reject = []
-    if not TECH.search(text): reject.append("No relevant technical evidence")
+    if not SDE_TITLE.search(t): reject.append("Title is not a software development role")
+    if EXCLUDED_LEVEL.search(t): reject.append("Excluded level II or higher")
     if re.search(r"\b(senior|sr\.?|staff|principal|lead|manager|director|intern|internship)\b",t,re.I): reject.append("Excluded seniority or internship")
     if required and max(map(int,required)) > 2: reject.append("Explicit required experience exceeds two years")
     if foreign and not us: reject.append("Exclusively non-US location")

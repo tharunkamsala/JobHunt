@@ -43,19 +43,5 @@
     "query_selector": "#position-query-search",
     "location_selector": "#position-location-search",
     "total_selector": "[data-testid=\"job-count\"]"
-  },
-  {
-    "name": "Greenhouse: Cloudflare",
-    "url": "https://boards.greenhouse.io/cloudflare",
-    "search_url": "https://boards.greenhouse.io/cloudflare",
-    "job_pattern": "/jobs/[0-9]+|gh_jid=",
-    "keywords": []
-  },
-  {
-    "name": "Greenhouse: Databricks",
-    "url": "https://boards.greenhouse.io/databricks",
-    "search_url": "https://boards.greenhouse.io/databricks",
-    "job_pattern": "/jobs/[0-9]+|gh_jid=",
-    "keywords": []
   }
 ]

@@ -117,3 +117,7 @@ Validated matching details now go to Telegram as each finishes, while other sour
 Live GitHub runs checkpoint delivery history to `bot-state` during the scan, with subsequent checkpoints about every 30 seconds, plus the final save. An abrupt failure between Telegram acknowledgement and a checkpoint can still cause a repeat after recovery.
 
 The bot sends no email. GitHub Actions email delivery is an account preference: Settings → Notifications → System → Actions → Don't notify.
+
+### Current role preferences
+
+Alerts are limited to Microsoft, Amazon, and NVIDIA software engineering / software development titles (including SDE and SWE). SDE II / Software Engineer II, higher numbered levels, senior roles, internships, and other job families are excluded. Unspecified-level software roles still use the experience and US-location checks; uncertain experience is labeled Needs Review.
