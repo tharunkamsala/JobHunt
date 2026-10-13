@@ -13,7 +13,10 @@
     "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
     "query_selector": "#position-query-search",
     "location_selector": "#position-location-search",
-    "total_selector": "[data-testid=\"job-count\"]"
+    "total_selector": "[data-testid=\"job-count\"]",
+    "request_interval": 3,
+    "detail_concurrency": 1,
+    "restriction_cooldown_hours": 6
   },
   {
     "name": "Amazon",

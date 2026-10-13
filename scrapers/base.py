@@ -15,7 +15,7 @@ class BrowserSource:
         if self.on_job is not None:
             await self.on_job(job)
     async def pace(self,origin,policy):
-        delay=0.5
+        delay=max(0.5,float(self.c.get('request_interval',0.5)))
         if policy is not None:
             delay=max(delay,policy.crawl_delay("NewGradJobHunter") or 0)
             rate=policy.request_rate("NewGradJobHunter")
@@ -129,18 +129,23 @@ class BrowserSource:
                 remaining=self.max_details-len(seen)
                 limited=len(pending)>remaining
                 pending=pending[:remaining]
-                semaphore=asyncio.Semaphore(4)
+                semaphore=asyncio.Semaphore(self.c.get('detail_concurrency',4))
+                blocked=None
                 async def extract(url,title):
-                    nonlocal detail_failed
+                    nonlocal detail_failed,blocked
                     async with semaphore:
+                        if blocked is not None: return
                         seen.add(url); result.listings=len(seen)
                         detail=await context.new_page()
                         try: job=await self.detail(detail,url,title)
+                        except Restricted as exc:
+                            blocked=exc
                         except Exception as exc:
                             detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
                         else: await self.emit(result,job)
                         finally: await detail.close()
                 await asyncio.gather(*(extract(url,title) for url,title in pending))
+                if blocked is not None: raise blocked
                 if limited: raise ValueError("Detail safety limit reached")
                 reject=page.get_by_role("button",name=re.compile(r"^Reject(?: all)?$",re.I))
                 if await reject.count() and await reject.first.is_visible(): await reject.first.click()
@@ -166,7 +171,7 @@ class BrowserSource:
                 final=result
                 if result.status=="Verified Complete": break
             except Exception as exc:
-                result.status="Failed" if not result.jobs else "Incomplete"
+                result.status="Restricted" if isinstance(exc,Restricted) else "Failed" if not result.jobs else "Incomplete"
                 result.errors.append(type(exc).__name__+": "+str(exc)[:300]); final=result
                 if isinstance(exc,Restricted): break
             finally:

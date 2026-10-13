@@ -11,6 +11,7 @@ from storage.database import Store
 from notifications.telegram import Telegram
 from notifications.processor import JobProcessor
 from storage.checkpoint import Checkpoint
+from storage.cooldown import retry_time, after_restriction
 from models import now
 
 async def run(args):
@@ -27,6 +28,12 @@ async def run(args):
     async def worker(p,c):
         adapter=GreenhouseSource if c["name"].startswith("Greenhouse:") else AmazonSource if c["name"]=="Amazon" else BrowserSource
         source=store.data["sources"].get(c["name"],{})
+        retry_after=retry_time(source)
+        if retry_after:
+            report={'company':c['name'],'status':'Restricted','retry_after':retry_after,
+                    'errors':['Access cooldown active; source not requested'],'extracted':0}
+            logging.info('%s',json.dumps(report))
+            return report
         baseline=not source.get("baseline_initialized",False)
         processor=JobProcessor(store,telegram,baseline=baseline,alert_existing=args.alert_existing,
                                dry_run=args.dry_run,graduation_year=args.graduation_year,
@@ -36,7 +43,9 @@ async def run(args):
         scan=await adapter(c,args.max_pages,args.max_details,on_job=processor).scan(p)
         counters=processor.counters
         source={"status":scan.status,"last_scan":scan.completed,"baseline_complete":source.get("baseline_complete",False) or scan.status=="Verified Complete","baseline_initialized":source.get("baseline_initialized",False) or (bool(scan.jobs) and not args.dry_run),"recovery_pending":scan.status!="Verified Complete"}
+        if scan.status=='Restricted': source['retry_after']=after_restriction(c)
         store.data['sources'][c['name']]=source; store.save()
+        if scan.status=='Restricted': checkpoint.mark_dirty()
         report=asdict(scan); report.pop('jobs'); report.update(counters); report['extracted']=len(scan.jobs)
         if counters['notification_failures']: report['status']='Incomplete'; report['errors'].append('Telegram delivery failed; pending alerts retained')
         logging.info("%s",json.dumps(report))
