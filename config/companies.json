@@ -16,7 +16,7 @@
     "total_selector": "[data-testid=\"job-count\"]",
     "request_interval": 3,
     "detail_concurrency": 1,
-    "restriction_cooldown_hours": 6
+    "restriction_cooldown_hours": 0
   },
   {
     "name": "Amazon",
