@@ -11182,9 +11182,9 @@
       "content_hash": "a57509a247df1cdbcca836e4021f02390a349409c6404eee0c1a12bf96062ddc",
       "first_discovered": "2026-10-13T02:38:31.479906+00:00",
       "last_seen": "2026-10-13T02:52:50.882323+00:00",
-      "notified_hash": null,
-      "notification_status": "pending",
-      "delivered_at": null
+      "notified_hash": "a57509a247df1cdbcca836e4021f02390a349409c6404eee0c1a12bf96062ddc",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:52:57.430080+00:00"
     },
     "Greenhouse: Databricks:8739506002": {
       "company": "Greenhouse: Databricks",
@@ -11203,8 +11203,10 @@
       "sponsorship": null,
       "content_hash": "41e669d665426793e0e70c24ea8aa146bde7b37aa363c054d74c61c1bf52b682",
       "first_discovered": "2026-10-13T02:38:31.541977+00:00",
-      "last_seen": "2026-10-13T02:38:31.541989+00:00",
-      "notified_hash": "41e669d665426793e0e70c24ea8aa146bde7b37aa363c054d74c61c1bf52b682"
+      "last_seen": "2026-10-13T02:52:58.234648+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     },
     "Greenhouse: Databricks:8739507002": {
       "company": "Greenhouse: Databricks",
@@ -30387,9 +30389,9 @@
       "content_hash": "4580b6f40c0dfba32eca193f2125a6c09eaeb784e3ddb64f3b393ac67b0d1695",
       "first_discovered": "2026-10-13T02:52:50.343824+00:00",
       "last_seen": "2026-10-13T02:52:50.343871+00:00",
-      "notified_hash": null,
-      "notification_status": "pending",
-      "delivered_at": null
+      "notified_hash": "4580b6f40c0dfba32eca193f2125a6c09eaeb784e3ddb64f3b393ac67b0d1695",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:52:55.617268+00:00"
     },
     "Microsoft:1970393556972133": {
       "company": "Microsoft",
@@ -30453,9 +30455,9 @@
       "content_hash": "00a4d165d23a0d8e8d69a5f52207ce74320efb9a5ff2fd6a213cefefdeec3c62",
       "first_discovered": "2026-10-13T02:52:52.061055+00:00",
       "last_seen": "2026-10-13T02:52:52.061076+00:00",
-      "notified_hash": null,
-      "notification_status": "pending",
-      "delivered_at": null
+      "notified_hash": "00a4d165d23a0d8e8d69a5f52207ce74320efb9a5ff2fd6a213cefefdeec3c62",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:53:00.331642+00:00"
     },
     "Amazon:10486018": {
       "company": "Amazon",
@@ -30475,9 +30477,9 @@
       "content_hash": "d178e64554c5e86a3d2819cbc970814356d3d60dd3cecb8af7e89c41fa7301be",
       "first_discovered": "2026-10-13T02:52:53.382511+00:00",
       "last_seen": "2026-10-13T02:52:53.382528+00:00",
-      "notified_hash": null,
-      "notification_status": "pending",
-      "delivered_at": null
+      "notified_hash": "d178e64554c5e86a3d2819cbc970814356d3d60dd3cecb8af7e89c41fa7301be",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:53:02.513496+00:00"
     },
     "Amazon:10530521": {
       "company": "Amazon",
@@ -30497,6 +30499,161 @@
       "content_hash": "846378bcd48fff19b93f6ffa87fbb0ab702c4e05629ac3170719da999df22811",
       "first_discovered": "2026-10-13T02:52:55.181098+00:00",
       "last_seen": "2026-10-13T02:52:55.181116+00:00",
+      "notified_hash": "846378bcd48fff19b93f6ffa87fbb0ab702c4e05629ac3170719da999df22811",
+      "notification_status": "sent",
+      "delivered_at": "2026-10-13T02:53:04.057406+00:00"
+    },
+    "Amazon:10401498": {
+      "company": "Amazon",
+      "job_id": "10401498",
+      "title": "Sr. Mechanical Engineer",
+      "location": "USA, MA, North Reading",
+      "url": "https://www.amazon.jobs/en/jobs/10401498/sr-mechanical-engineer",
+      "description": "Description Working at Amazon Robotics Are you inspired by invention? Is problem solving through  teamwork in your DNA? Do you like the idea of seeing how your work impacts the bigger picture? Answer yes to any of these and you\u2019ll fit right in here at Amazon Robotics. We are a smart team of doers that work passionately to apply advances in robotics and software to solve real-world problems that will transform our customers\u2019 experiences in ways we can\u2019t even image yet. We invent new improvements every day. We are Amazon Robotics and we will give you the tools and guidance that you need to invent with us in ways that are rewarding, fulfilling and fun. As an Amazon Robotics mechanical engineer, you will develop innovative hardware designs for our emerging robotic systems and improve existing hardware to optimize performance and enhance customer experience. The ideal candidate has experience designing/analyzing robots and/or camera/compute/machine vision modules, enjoys analytical problem solving, possesses practical knowledge of high volume manufacturing methods and is a role model for engineering best practices. This position reports directly to the Hardware Development Engineering Manager. Key job responsibilities The Mechanical Engineer will be responsible for: - Working with an interdisciplinary team to execute product designs from concept to production including specification, design, prototyping, validation and testing - Working with the Operations, Manufacturing, Supply Chain and Quality organizations as well as vendors to ensure a smooth product launch and sustaining - Writing functional specifications, design verification plans, and functional test procedures - Exhibit role model behaviors of thorough engineering analysis and cradle to grave ownership - Design and adaptation of holistic hardware solutions for ambiguous problems with fluid requirements A day in the life Amazon offers a full range of benefits that support you and eligible family members, including domestic partners. Benefits can vary by location, the number of regularly scheduled hours you work, length of employment, and job status such as seasonal or temporary employment. The benefits that generally apply to regular, full-time employees include: 1. Medical, Dental, and Vision Coverage 2. Maternity and Parental Leave Options 3. Paid Time Off (PTO) 4. 401(k) Plan If you are not sure that every qualification on the list above describes you exactly, we'd still love to hear from you! At Amazon, we value people with unique backgrounds, experiences, and skillsets. If you\u2019re passionate about this role and want to make an impact on a global scale, please apply!\nBasic Qualifications - Experience in developing functional specifications, design verification plans and functional test procedures - BS in Mechanical, Robotics or Mechatronics Engineering (or similar field) - SolidWorks or similar CAD experience, understanding of best practices for part design, advanced assemblies and complex configuration management - Hands on experience crafting proof-of-concept models and prototypes - Experience mentoring and developing junior engineers - Thorough understanding of technical principals, theories and concepts in hardware development and ability to apply them to product design - Extensive system design experience interfacing with a wide array of electro-mechanical subsystems and associated debugging experience - Strong organizational and planning skills - Desire to work in a fast-paced environment and customer focused - Ability to effectively communicate concepts and write technical documents - Experience with full product lifecycle and proficiency at completing tasks to meet milestones - Experience evaluating design, performance and logistical tradeoffs for hardware systems - Ability to support domestic and international travel as required by the program. - Desire and energy to work in a fast-paced agile environment\nPreferred Qualifications - Experience working with interdisciplinary teams to execute product design from concept to production - Experience with the project management of technical projects - Master's degree in mechanical engineering, mechatronics or equivalent - Proficiency with SolidWorks Simulation or ANSYS Finite Element Analysis tools - Experience in the design and sustaining of complex mechanical products and equipment - Experience in actuation and motor development - Experience in robotic development - Experience in electro/mechanical integration - Experience with the project management of technical projects - Proficiency documenting designs in accordance with ANSI Y-14.5 - Experience designing and debugging tooled (cast, injection mold, forge, stamp, etc) components - Experience leading product enhancements that improve performance of existing products - Proficiency with Product Lifecycle Management PLM software and ECO\u2019s - Strong organizational skills and the ability to work well with teams Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, MA, North Reading - 137,300.00 - 185,700.00 USD annually",
+      "posting_date": null,
+      "experience": "Unspecified",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "f1b0731ab4d1e6f372b7e7b883f6816903d3d4e0b4aa8617b1b1944f54bae54a",
+      "first_discovered": "2026-10-13T02:52:57.054132+00:00",
+      "last_seen": "2026-10-13T02:52:57.054152+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893392882489": {
+      "company": "NVIDIA",
+      "job_id": "893392882489",
+      "title": "Senior Physical Design and Timing Engineer",
+      "location": "Westford, MA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893392882489",
+      "description": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It\u2019s a unique legacy of innovation that\u2019s fueled by great technology\u2014and amazing people.\n\nToday, we\u2019re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.\n\nNVIDIA is looking for best-in-class Senior ASIC Timing Design Engineers to join our outstanding Networking Silicon engineering team, developing the industry's best high speed communication devices, delivering the highest throughput and lowest latency! Come and take a part in crafting our groundbreaking and innovating chips, enjoy working in a meaningful, growing and professional environment where you make a significant impact in a technology-focused company.\n\nWhat you'll be doing:\n\n  * You will drive physical design and timing of high-frequency and low-power DPUs and SoCs at block level, chiplet level, and/or full chip level.\n\n  * Analyze and optimize design constraints and synthesis parameters to achieve performance, power, and area targets.\n\n  * Help in driving frontend and backend implementation from RTL to gds2, including synthesis, equivalence checking, floor-planning, timing constraints, timing and power convergence, and ECO implementation.\n\n\n\n\nWhat we need to see:\n\n  * Great teammate\n\n  * BS (or equivalent experience) in Electrical or Computer Engineering with 8 years experience or MS with 4+ years experience in Synthesis and Timing.\n\n  * Hands-on experience in full-chip/sub-chip Static Timing Analysis (STA), timing constraints generation and management, and timing convergence.\n\n  * Expertise in analysis and fixing of timing paths through ECOs including crosstalk and noise analysis.\n\n  * Expertise in physical design and optimization e.g., placement, routing, cell sizing, buffering, logic restructuring, etc. to improve timing and power, along with a background in implementing them through ECOs.\n\n  * Background in logic synthesis and/or logical equivalence checking (LEC).\n\n  * Expertise and in-depth knowledge of industry standard EDA tools (Synopsys PrimeTime or Cadence Tempus).\n\n  * Proficiency in Python, Tcl and Make for automation and scripting tasks.\n\n\n\n\nWays to stand out from the crowd:\n\n  * Background in domain specific STA and timing convergence, such as CPUs, GPUs or Network processor implementation or SOCs.\n\n  * Understanding of DFT logic and experience with DFT timing closure for various modes e.g., scan shift and capture, transition faults, BIST, etc.\n\n  * Knowledge of deep sub-micron technology and associated process variations effects, including modeling and converging considering process variations.\n\n  * Experience in methodology and/or flow development as well as automation.\n\n\n\n\nNVIDIA is widely considered to be the leader of AI computing, and one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and hardworking people in the world working for us. If you're creative and autonomous, we want to hear from you.\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 168,000 USD - 264,500 USD for Level 4, and 196,000 USD - 310,500 USD for Level 5.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 6, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-02T00:00:00",
+      "experience": "raphics, PC gaming, and accelerated computing for more than 25 years; lent experience) in Electrical or Computer Engineering with 8 years experience or MS with 4+ years experience in Synthesis and Timing",
+      "classification": "Not Eligible",
+      "reasons": [
+        "No relevant technical evidence",
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "1ab2d79fc9506846df8ee0cf7e4985e13a5c28489107d5789bb947c625ca9f5d",
+      "first_discovered": "2026-10-13T02:52:58.878078+00:00",
+      "last_seen": "2026-10-13T02:52:58.878097+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10497233": {
+      "company": "Amazon",
+      "job_id": "10497233",
+      "title": "Senior Automation Engineer",
+      "location": "USA, IN, Greenwood",
+      "url": "https://www.amazon.jobs/en/jobs/10497233/senior-automation-engineer",
+      "description": "Description Operations is at the heart of Amazon\u2019s business. We are known for our speed, accuracy, and exceptional service. Our buildings deliver tens of thousands of products to hundreds of countries worldwide, every day. The Reliability & Maintenance Engineering (RME) team are the business partners that work tirelessly behind the scenes to make it happen. We drive continuous improvement, and maintain all the robotics and material handling equipment (MHE) to ensure our customers are met with the Amazon smile. Come join us on our journey! About the Role: As a Senior Automation Engineer, you will play a crucial role in maximizing equipment reliability and operational performance in our fulfillment centers by providing proactive controls automation and technical support. Your expertise will be essential in troubleshooting complex control systems, analyzing performance metrics, and driving continuous improvement initiatives. You'll mentor junior engineers and lead cross-functional teams to optimize material handling equipment (MHE) systems, implement innovative projects, and develop system design improvements to enhance site throughput. You'll work with state-of-the-art technology, including conveyors, sortation systems, scanners, cameras, print and apply systems, and SCADA devices and programs. Through your technical leadership and design optimization efforts, you'll directly contribute to ensuring our customers receive their orders with Amazon's signature speed and accuracy while building team capabilities and driving operational excellence. What Do We Offer? Amazon offers competitive compensation packages including comprehensive healthcare benefits starting on Day 1, matching 401(k) program, and up to 20 weeks of paid parental leave. But wait, there\u2019s more: We provide lightweight fire-resistant daily wear and composite toe safety shoes for your safety! Key job responsibilities Key job responsibilities include, but are not limited to: - You will apply Subject Matter Expertise (SME) on troubleshooting and dive deeps for engineering issues, supporting automation engineers to investigate the root cause and planning actions to eliminate/mitigate the downtime of critical assets - You will collaborate with building Operations, Operations Engineering teams, FC Start-up Team, AFT Software teams, ACES team, and Safety to support MHE systems optimization and project implementation - You will understand, maintain and troubleshoot material handling control systems, including PLC/PC controllers and industrial networks such as Ethernet, ControlNet, DeviceNet, Profibus, motor control systems, servo drives, frequency drives, and electrical distribution systems - You will monitor MHE metrics and partner with maintenance/operations to address system performance issues and provide analysis across all operations - You will provide escalation support to automation engineers, during and after business hours, troubleshooting locally and remotely, to ensure that all hardware or controls software within the building is repaired on time - You must be able to move up to 49lbs, stand and walk during shifts lasting up to 12 hours, climb ladders and gangways safely and without limitation, as well as perform regular bending, lifting, stretching, and reaching both below the waist and above the head\nBasic Qualifications - Bachelor's degree in computer science, electrical engineering, automation engineering, or equivalent, or 4+ years of PLC programming or automation engineering experience - Work a flexible schedule/shift/work area, including weekends, nights, and/or holidays - 4+ years of process or production environment related PLC-controlled automation and issue diagnosis experience - 4+ years of robotics work cells and control systems experience - 4+ years of Siemens, Allen-Bradley or Codesys Ladder Logic and structure programming experience - 4+ years of electrical theory, robotics, controls components, and automated equipment experience\nPreferred Qualifications - Master's degree in computer science, electrical engineering, automation engineering, or equivalent - Master's degree, or Six Sigma Black Belt certification - Experience leading controls in manufacturing or complex industrial environments - Experience identifying, maintaining, troubleshooting, and modifying Motor Controls including motor starters, Variable Frequency Drives, DC drives, and standard electrical components - Experience interpreting and modifying mechanical and electrical drawings Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, IN, Greenwood - 114,000.00 - 148,200.00 USD annually",
+      "posting_date": null,
+      "experience": "ical engineering, automation engineering, or equivalent, or 4+ years of PLC programming or automation engineering experience - Work a flexible sched; ft/work area, including weekends, nights, and/or holidays - 4+ years of process or production environment related PLC-controlled automation and issu; e diagnosis experience - 4+ years of robotics work cells and control systems experience - 4+ years of Siemens, Al; Codesys Ladder Logic and structure programming experience - 4+ years of electrical theory, robotics, controls components, and automated equipment ex",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "eb94d363207f0c20f1143ef4f0209b466c487530b54a790fbc2eebbcce188234",
+      "first_discovered": "2026-10-13T02:53:00.006766+00:00",
+      "last_seen": "2026-10-13T02:53:00.006792+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893392890244": {
+      "company": "NVIDIA",
+      "job_id": "893392890244",
+      "title": "Senior System Software Engineer",
+      "location": "Santa Clara, CA,US, United States; Champaign, IL,US, United States; Redmond, WA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893392890244",
+      "description": "NVIDIA has been transforming computer graphics, PC gaming, and accelerated computing for more than 25 years. It\u2019s a unique legacy of innovation that\u2019s fueled by great technology\u2014and amazing people. Today, we\u2019re tapping into the unlimited potential of AI to define the next era of computing. An era in which our GPU acts as the brains of computers, robots, and self-driving cars that can understand the world. Doing what\u2019s never been done before takes vision, innovation, and the world\u2019s best talent. As an NVIDIAN, you\u2019ll be immersed in a diverse, supportive environment where everyone is inspired to do their best work. Come join the team and see how you can make a lasting impact on the world.\n\nNVIDIA is seeking a Sr. Systems Software Engineer for the Apache Spark Acceleration group. Over the past five years GPU accelerated data processing has moved from proof of concept to production deployments. Many enterprises recognize accelerated computing is vital to handle their large data processing needs. Multi-node GPU deployments will reduce cloud computing costs and lower latency in batch ETL workloads. Apache Spark is the most popular data processing engine in data centers. At NVIDIA, we are developing an open source plugin to accelerate Spark applications on GPUs without any code changes.\n\nWhat you'll be doing:\n\n  * Enable C++ native execution of Spark operations on CUDA\n\n  * Develop CUDA/C++ libraries to accelerate DataFrames and I/O operations on common file formats such as Parquet, ORC and JSON\n\n  * Collaborate with distributed systems teams to craft solutions to distributed processing problems challenges at large scale\n\n  * Work with open source communities to enhance libraries like RAPIDS, CCCL and UCX through technical discussion and code contributions\n\n  * Provide recommendations and feedback to teams regarding decisions surrounding topics such as infrastructure, continuous integration and testing strategy\n\n  * Build, test and optimize across different platforms\n\n\n\n\nWhat we need to see:\n\n  * 9+ years of experience in software development\n\n  * 5+ years hands on experience with data platform development\n\n  * BS/MS/PhD in computer science or a related field (or equivalent experience)\n\n  * Proficiency in C++, Java, Scala\n\n  * Experience supporting enterprise customers\n\n  * Familiarity with the open source data platform ecosystem is a plus (Apache Spark, Velox, Presto, Apache Arrow, Apache DataFusion, etc.)\n\n  * Experience using AI tools in software development \n\n\n\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 184,000 USD - 287,500 USD for Level 4, and 224,000 USD - 356,500 USD for Level 5.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until July 14, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-07-10T00:00:00",
+      "experience": "raphics, PC gaming, and accelerated computing for more than 25 years;   * 9+ years of experience in software development;   * 5+ years hands on experience with data platform development",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "b4b071b0dc1cad95c85cfd29d37e687525dd377c3518a5728a82cc9d08e51b4f",
+      "first_discovered": "2026-10-13T02:53:00.869798+00:00",
+      "last_seen": "2026-10-13T02:53:00.869819+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393556958279": {
+      "company": "Microsoft",
+      "job_id": "1970393556958279",
+      "title": "Principal Software Engineer - Windows App and Windows Platform",
+      "location": "Redmond, WA,US, United States; Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556958279?domain=microsoft.com",
+      "description": "Define and drive the long-term architecture and technical strategy for major areas of Windows App and its native Windows platform, using modern C++ and C# where appropriate and integrating deeply with Win32, WinRT, COM, Windows services, and operating-system APIs. Lead the design and delivery of high-impact, cross-cutting scenarios spanning connection setup, session lifecycle, authentication, OS integration, reliability, performance, and security. Architect secure, scalable, and maintainable systems that span processes, threads, services, client applications, SDK boundaries, and cloud-backed experiences. Lead investigations of the most complex engineering issues using debuggers, dumps, traces, logs, and telemetry, including problems involving concurrency, memory, networking, latency, compatibility, and operating-system integration. Drive multi-team execution from customer and business outcomes through architecture, design, implementation, validation, deployment, experimentation, monitoring, and live-site response; identify risks and make clear technical tradeoffs. Build alignment across Windows, Windows 365, Azure Virtual Desktop, identity, security, design, and product teams, influencing partner roadmaps, interfaces, and end-to-end engineering decisions. Establish and evolve engineering standards for performance, reliability, accessibility, security, testability, operational excellence, and long-term maintainability across the client platform. Develop technical leaders, mentor senior engineers, lead architecture and design reviews, and create clarity in ambiguous or cross-organization problem spaces. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python. OR equivalent experience. Deep expertise in Windows systems technologies such as Win32, WinRT, COM, RPC, Windows services, inter-process communication, and core Windows APIs. Expertise in remote desktop, virtualization, or virtual desktop infrastructure technologies such as RDP, Azure Virtual Desktop, Windows 365, Citrix, VMware Horizon, HDX, or ICA. Experience leading the design and debugging of multi-process, multi-threaded, performance-critical native systems, including memory, concurrency, latency, compatibility, and reliability concerns. Experience influencing the architecture of Windows App SDK, WinUI, XAML, WebView2, MSIX, or related Windows client technologies. Experience building and operating secure, accessible client software at enterprise scale, using telemetry and live-site insights to guide architectural investments. Experience with device, input, display, audio/video, or peripheral integration for remote or virtualized scenarios. Experience using AI-assisted engineering tools responsibly to improve development, testing, debugging, or engineering productivity.",
+      "posting_date": "2026-10-08T17:19:31",
+      "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "0b9fb5213294b6ed2427131008edb5bd97207687034b70de6cbc425b93d7da24",
+      "first_discovered": "2026-10-13T02:53:01.441733+00:00",
+      "last_seen": "2026-10-13T02:53:01.441751+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393557002080": {
+      "company": "Microsoft",
+      "job_id": "1970393557002080",
+      "title": "Software Engineer II - Windows in Cloud",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557002080?domain=microsoft.com",
+      "description": "Design, implement, and ship native Windows client features using modern C++, C# and integrate deeply with Win32, WinRT, COM, Windows services, and operating-system APIs. Work on Windows App scenarios across resource discovery, connection setup, authentication, OS integration, reliability, and performance. Develop secure, scalable, and maintainable components that span processes, threads, services, client applications, and cloud-backed experiences. Diagnose complex problems using debuggers, dumps, traces, logs, and telemetry, including issues involving concurrency, memory, networking, latency, and operating-system integration. Partner with Windows, Windows 365, Azure Virtual Desktop, identity, security, design, and product teams to deliver coherent end-to-end customer experiences. Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C OR equivalent experience. These requirements include but are not limited to the following specialized security screenings: Production experience designing, implementing, debugging, and shipping software in modern C++ and C# is also valuable. Experience building native Windows applications, platform components, services, or other systems-level software. Solid software design, debugging, problem-solving, and performance-analysis skills. Knowledge of Windows systems technologies such as Win32, WinRT, COM, RPC, Windows services, inter-process communication, and core Windows APIs. Experience debugging multi-process, multi-threaded, performance-critical native code, including memory, concurrency, latency, and reliability issues. Experience with Windows App SDK, WinUI, XAML, WebView2, MSIX, or related Windows client technologies. Experience using AI-assisted engineering tools responsibly to improve development, testing, or debugging workflows.",
+      "posting_date": "2026-09-28T17:00:20",
+      "experience": "s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Needs Review",
+      "reasons": [
+        "Experience or US location requires review"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "a34dec2ebd20e0243657d3292fdfb29f7e5246ae05b0ebee6841119f32b69590",
+      "first_discovered": "2026-10-13T02:53:02.232269+00:00",
+      "last_seen": "2026-10-13T02:53:02.232292+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "NVIDIA:893393165007": {
+      "company": "NVIDIA",
+      "job_id": "893393165007",
+      "title": "Senior System Software Engineer, Vulkan Performance",
+      "location": "Santa Clara, CA,US, United States; Seattle, WA,US, United States",
+      "url": "https://jobs.nvidia.com/careers/job/893393165007",
+      "description": "As a Vulkan Performance driver engineer, you will have a hand in everything from the game engine down to bare metal! You will be part of a team whose mission it is to achieve the best possible performance, power-efficiency, and latency for the latest games and creative applications. You'll work with some of the brightest minds in the field of computer graphics and high-performance processor design.\n\nWhat you will be doing:\n\n  * Diagnosing GPU and CPU performance bottlenecks in Vulkan and Proton titles.\n\n  * Identifying changes to API usage to improve performance and communicating via appropriate channels with third-party developers.\n\n  * Implementing driver performance improvements and resolving driver defects.\n\n  * Collaborating with engineers on the team and across NVIDIA.\n\n  * Developing a driver that leads the industry in quality and performance.\n\n\n\n\nWhat we need to see:\n\n  * Hold a B.S. or higher degree in Computer Science/Engineering or similar field or equivalent experience\n\n  * 5+ years of experience (or equivalent) in graphics software, system programming, or related field.\n\n  * An understanding of graphics fundamentals, experience with operating systems and a solid understanding of computer architecture is required\n\n  * Comfortable with Vulkan, OpenGL or DirectX\n\n  * Strong programming skills in C and C++, familiarity with assembly code\n\n  * Experience in developing highly optimized code\n\n\n\n\nWays to stand out from the crowd:\n\n  * Strong interest and background in 3D graphics\n\n  * Working experience inside operating system kernels and device drivers\n\n  * Ability to think creatively to debug and solve complex, hard to reproduce problems\n\n  * A strong standout colleague; self-motivated with strong interpersonal skills\n\n  * Ability and flexibility to work and communicate effectively in a multinational, multi-time zone corporate environment\n\n\n\n\nWith competitive salaries and a generous benefits package, NVIDIA is widely considered to be one of the technology world\u2019s most desirable employers. We have some of the most forward-thinking and talented people in the world working for us and, due to unprecedented growth, our elite engineering teams are rapidly growing. If you're a creative and autonomous engineer with a real passion for technology, we want to hear from you.\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 152,000 USD - 241,500 USD for Level 3, and 184,000 USD - 287,500 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until July 31, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-07-27T00:00:00",
+      "experience": "  * 5+ years of experience (or equivalent) in graphics software, system programming, or rela",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "09913279fce2b00b1aee8bfbf36f70d6417df66a64daca341041b1704c957702",
+      "first_discovered": "2026-10-13T02:53:03.604460+00:00",
+      "last_seen": "2026-10-13T02:53:03.604479+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
