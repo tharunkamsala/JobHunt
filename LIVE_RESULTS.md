@@ -91,3 +91,9 @@ The user confirmed disabling GitHub Actions notifications in their account
 settings. This preference cannot be independently verified with repository
 credentials. The bot itself sends no email. Full-source completeness and broad
 keyword coverage remain subject to the limitations above.
+
+## NVIDIA search readiness recovery
+
+The reported `#position-query-search` timeout was not reproduced in a fresh local check: the official page still exposes that input and the visible `Search for keywords` input. Search initialization now allows NVIDIA 60 seconds to become ready, accepts that observed fallback selector, and reloads once after a readiness timeout. A displayed access challenge stops the attempt. Repeated failures save public page title, URL, visible body text, and input metadata to diagnostics instead of returning only a locator stack trace.
+
+All 104 tests passed locally and in GitHub run 38343147637. Both local and GitHub bounded scans extracted two real NVIDIA descriptions with a reported total of 1153 and no search-field timeout. The remote run intentionally returned Incomplete at its two-detail cap; this does not prove full pagination or eliminate future intermittent site failures.
