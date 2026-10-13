@@ -7,8 +7,13 @@ from models import Job, Scan, now
 
 class Restricted(Exception): pass
 class BrowserSource:
-    def __init__(self, config, max_pages=100, max_details=2000):
+    def __init__(self, config, max_pages=100, max_details=2000, on_job=None):
+        self.on_job=on_job
         self.c=config; self.max_pages=max_pages; self.max_details=max_details; self.policies={}; self.rate_locks={}; self.last_requests={}
+    async def emit(self,result,job):
+        result.jobs.append(job)
+        if self.on_job is not None:
+            await self.on_job(job)
     async def pace(self,origin,policy):
         delay=0.5
         if policy is not None:
@@ -130,9 +135,10 @@ class BrowserSource:
                     async with semaphore:
                         seen.add(url); result.listings=len(seen)
                         detail=await context.new_page()
-                        try: result.jobs.append(await self.detail(detail,url,title))
+                        try: job=await self.detail(detail,url,title)
                         except Exception as exc:
                             detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
+                        else: await self.emit(result,job)
                         finally: await detail.close()
                 await asyncio.gather(*(extract(url,title) for url,title in pending))
                 if limited: raise ValueError("Detail safety limit reached")

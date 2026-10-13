@@ -12,6 +12,10 @@ on:
         description: Send a Telegram setup verification instead of scanning
         type: boolean
         default: false
+      alert_existing:
+        description: Send existing matching jobs as they are checked
+        type: boolean
+        default: true
       max_details:
         description: Detail limit for bounded diagnostics
         type: number
@@ -54,7 +58,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GRADUATION_YEAR: ${{ vars.GRADUATION_YEAR }}
-          ALERT_EXISTING: ${{ vars.ALERT_EXISTING }}
+          ALERT_EXISTING: ${{ inputs.alert_existing || vars.ALERT_EXISTING }}
           DRY_RUN: ${{ inputs.dry_run }}
           TELEGRAM_TEST: ${{ inputs.telegram_test }}
           MAX_DETAILS: ${{ inputs.max_details || 2000 }}
@@ -74,6 +78,7 @@ jobs:
           if [ ! -f state/history.json ]; then exit 0; fi
           git config user.name 'job-hunter[bot]'
           git config user.email 'job-hunter@users.noreply.github.com'
+          git fetch origin bot-state:refs/remotes/origin/bot-state || true
           git worktree add --detach /tmp/hunter-state
           cd /tmp/hunter-state
           if git show-ref --verify --quiet refs/remotes/origin/bot-state; then

@@ -13,7 +13,17 @@ class Store:
         old=self.data["jobs"].get(job.key)
         changed=old is not None and old["content_hash"]!=job.content_hash
         rec={**asdict(job),"content_hash":job.content_hash,"first_discovered":old["first_discovered"] if old else now(),"last_seen":now(),"notified_hash":old.get("notified_hash") if old else None}
-        if baseline and not alert_existing and old is None: rec["notified_hash"]=job.content_hash
+        status=old.get("notification_status") if old else None
+        if status is None:
+            status="legacy_baseline" if rec["notified_hash"] else "pending"
+        rec["notification_status"]=status
+        rec["delivered_at"]=old.get("delivered_at") if old else None
+        if alert_existing and status in ("baseline","legacy_baseline"):
+            rec["notified_hash"]=None
+            rec["notification_status"]="pending"
+        if baseline and not alert_existing and old is None:
+            rec["notified_hash"]=job.content_hash
+            rec["notification_status"]="baseline"
         self.data["jobs"][job.key]=rec
         self.save()
         return rec, old is None, changed

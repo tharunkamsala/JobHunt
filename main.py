@@ -8,7 +8,9 @@ from scrapers.greenhouse import GreenhouseSource
 from scrapers.amazon import AmazonSource
 from filters.eligibility import classify
 from storage.database import Store
-from notifications.telegram import Telegram, format_job
+from notifications.telegram import Telegram
+from notifications.processor import JobProcessor
+from storage.checkpoint import Checkpoint
 from models import now
 
 async def run(args):
@@ -20,26 +22,17 @@ async def run(args):
         gap=(datetime.now(timezone.utc)-datetime.fromisoformat(store.data["last_scan"])).total_seconds()
         if gap>4500: logging.warning("Missed or delayed scan: %.0f minutes since last start",gap/60)
     store.data["last_scan"]=now(); store.save()
+    checkpoint=Checkpoint(store.path, enabled=os.getenv('GITHUB_ACTIONS')=='true' and not args.dry_run)
+    checkpoint_task=asyncio.create_task(checkpoint.run())
     async def worker(p,c):
         adapter=GreenhouseSource if c["name"].startswith("Greenhouse:") else AmazonSource if c["name"]=="Amazon" else BrowserSource
-        scan=await adapter(c,args.max_pages,args.max_details).scan(p)
         source=store.data["sources"].get(c["name"],{})
         baseline=not source.get("baseline_initialized",False)
-        counters={"new_matching":0,"duplicates":0,"rejected":0,"notifications":0,"notification_failures":0}
-        for job in scan.jobs:
-            classify(job,args.graduation_year)
-            rec,new,changed=store.observe(job,baseline,args.alert_existing)
-            if not new: counters["duplicates"]+=1
-            # Never alert uncertain locations; uncertain experience remains reviewable.
-            from filters.eligibility import STATES
-            import re
-            us=bool(re.search(r"United States|\bUS\b|\bUSA\b|remote[^.]*\bUS\b",job.location,re.I) or any(re.search(r",\s*"+s+r"\b",job.location) for s in STATES))
-            if job.classification=="Not Eligible" or not us: counters["rejected"]+=1; continue
-            if new: counters["new_matching"]+=1
-            if rec['notified_hash']!=rec['content_hash'] and not args.dry_run:
-                if await telegram.send(("Updated posting\n" if changed else "")+format_job(rec)):
-                    rec['notified_hash']=rec['content_hash']; counters['notifications']+=1; store.save()
-                else: counters['notification_failures']+=1
+        processor=JobProcessor(store,telegram,baseline=baseline,alert_existing=args.alert_existing,
+                               dry_run=args.dry_run,graduation_year=args.graduation_year,
+                               on_delivery=checkpoint.mark_dirty)
+        scan=await adapter(c,args.max_pages,args.max_details,on_job=processor).scan(p)
+        counters=processor.counters
         source={"status":scan.status,"last_scan":scan.completed,"baseline_complete":source.get("baseline_complete",False) or scan.status=="Verified Complete","baseline_initialized":source.get("baseline_initialized",False) or (bool(scan.jobs) and not args.dry_run),"recovery_pending":scan.status!="Verified Complete"}
         store.data['sources'][c['name']]=source; store.save()
         report=asdict(scan); report.pop('jobs'); report.update(counters); report['extracted']=len(scan.jobs)
@@ -48,8 +41,13 @@ async def run(args):
         if scan.status!='Verified Complete' and not args.dry_run:
             await telegram.send(c['name']+": "+scan.status+"; recovery pending. "+"; ".join(scan.errors[:2]))
         return report
-    async with async_playwright() as p:
-        reports=await asyncio.gather(*(worker(p,c) for c in configs),return_exceptions=True)
+    try:
+        async with async_playwright() as p:
+            reports=await asyncio.gather(*(worker(p,c) for c in configs),return_exceptions=True)
+    finally:
+        checkpoint.stopping=True
+        checkpoint.mark_dirty()
+        await checkpoint_task
     cleaned=[x if isinstance(x,dict) else {"status":"Failed","error":type(x).__name__} for x in reports]
     Path('diagnostics').mkdir(exist_ok=True); Path('diagnostics/scan.json').write_text(json.dumps(cleaned,indent=2))
     return 0 if all(x['status']=='Verified Complete' for x in cleaned) else 2

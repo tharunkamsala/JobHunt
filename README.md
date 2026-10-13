@@ -109,3 +109,11 @@ structured detail parsing, retry recovery, notification formatting/missing
 credentials and workflow structure. These use fixtures and mocks, not live
 coverage. Live evidence is documented separately. Python 3.13 was used locally;
 the workflow requests Python 3.12, which has not yet been remotely tested.
+
+### Immediate Telegram delivery
+
+Validated matching details now go to Telegram as each finishes, while other source workers continue. Messages share a rate limit (about one per second for the same chat). A full scan does not need to finish before alerts arrive. A manual run defaults to sending existing matching jobs too; successful delivery records prevent repeat alerts for unchanged postings. Previously silent baseline records are released when this option is enabled.
+
+Live GitHub runs checkpoint delivery history to `bot-state` during the scan, with subsequent checkpoints about every 30 seconds, plus the final save. An abrupt failure between Telegram acknowledgement and a checkpoint can still cause a repeat after recovery.
+
+The bot sends no email. GitHub Actions email delivery is an account preference: Settings → Notifications → System → Actions → Don't notify.

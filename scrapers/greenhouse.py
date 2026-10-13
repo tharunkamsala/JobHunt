@@ -28,7 +28,7 @@ class GreenhouseSource(BrowserSource):
                 location=row.get('location',{}).get('name','')
                 if not row.get('id') or not row.get('title') or not location or len(desc)<100 or not row.get('absolute_url'):
                     result.errors.append('Incomplete Greenhouse job fields'); continue
-                result.jobs.append(Job(self.c['name'],str(row['id']),row['title'],location,row['absolute_url'],desc))
+                await self.emit(result,Job(self.c['name'],str(row['id']),row['title'],location,row['absolute_url'],desc))
             if result.total is not None and result.total>0 and result.total==len(result.jobs) and len({j.job_id for j in result.jobs})==result.total:
                 result.status='Verified Complete'
             else: result.errors.append('Missing/mismatched total or unverified empty board')
