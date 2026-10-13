@@ -49,7 +49,7 @@ Amazon required Escape/Tab to dismiss its search-edit overlay, then rejecting
 optional cookies before clicking Next page. Full pagination of all available
 jobs and broad keyword/category coverage have NOT been demonstrated.
 
-No Telegram messages have been sent. The public repository was uploaded and
+The public repository was uploaded and
 remote Actions run 38335537326 completed on standard Ubuntu, Python 3.12.15.
 Dependencies, Chromium and all 18 tests passed. Each of the five sources
 extracted two descriptions. Its configured two-detail limit produced expected
@@ -70,5 +70,24 @@ Final local regression after parallel-detail and pacing changes extracted two
 validated jobs from every configured source in the same concurrent cycle.
 Microsoft total was 790; NVIDIA total was 1146; Amazon total was correctly
 unspecified. All results were intentionally Incomplete due to max_details=2.
-All 18 tests passed again. Telegram setup helpers are available; delivery and
-scheduled monitoring remain unverified/inactive pending setup.
+All 18 tests passed again at that revision.
+
+## Streaming delivery update
+
+Telegram setup verification succeeded in GitHub Actions run 38337610499.
+The subsequent full baseline run was a dry run and did not send job alerts.
+
+The streaming revision passes 21 local tests, including delivery before a
+source finishes, suppression of repeat deliveries, retry after delivery
+failure, release of silent baseline records, and a real local Git remote
+checkpoint while the worker remains active. Details are passed to the
+notification processor immediately after validation. Source workers continue
+concurrently, with a shared Telegram message rate limit. Delivery history is
+checkpointed during live GitHub runs and saved again at workflow completion.
+There remains a crash window between Telegram acknowledgement and durable
+Git persistence; exactly-once delivery is not guaranteed.
+
+The user confirmed disabling GitHub Actions notifications in their account
+settings. This preference cannot be independently verified with repository
+credentials. The bot itself sends no email. Full-source completeness and broad
+keyword coverage remain subject to the limitations above.
