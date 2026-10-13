@@ -34,6 +34,11 @@ class JobProcessor:
                 return
             rec,new,changed=self.store.observe(job,self.baseline,self.alert_existing)
             if not new: self.counters['duplicates']+=1
+            # A company + posting ID gets one successful alert for its lifetime,
+            # even when its JD, title, URL, or classification changes later.
+            if rec.get('delivered_at') or rec.get('notification_status')=='sent':
+                self.processed.add(version)
+                return
             us=bool(re.search(r'United States|\bUS\b|\bUSA\b',job.location,re.I)
                     or any(re.search(r',\s*'+state+r'\b',job.location) for state in STATES))
             if job.classification=='Not Eligible' or not us:
@@ -42,7 +47,7 @@ class JobProcessor:
                 return
             if new: self.counters['new_matching']+=1
             if rec['notified_hash']!=rec['content_hash'] and not self.dry_run:
-                if await self.telegram.send(('Updated posting\n' if changed else '')+format_job(rec)):
+                if await self.telegram.send(format_job(rec)):
                     rec['notified_hash']=rec['content_hash']
                     rec['notification_status']='sent'
                     rec['delivered_at']=now()

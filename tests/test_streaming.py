@@ -110,3 +110,22 @@ def test_over_two_year_requirement_never_alerts(tmp_path):
             await processor(j)
         assert not telegram.messages
     asyncio.run(scenario())
+
+def test_delivered_job_not_resent_after_edits_or_restart(tmp_path):
+    async def scenario():
+        telegram=Telegram(); path=tmp_path/'history.json'
+        processor=JobProcessor(Store(path),telegram,alert_existing=True)
+        j=job(); await processor(j)
+        j.description='Entry level. Minimum 2 years of software development experience.'
+        j.url+='?updated=true'
+        await processor(j)
+        assert len(telegram.messages)==1
+        restarted=JobProcessor(Store(path),telegram,alert_existing=True)
+        j.title='Software Development Engineer I'
+        await restarted(j)
+        assert len(telegram.messages)==1
+        # A different posting ID is a different job even with identical content.
+        j.job_id='2'
+        await restarted(j)
+        assert len(telegram.messages)==2
+    asyncio.run(scenario())

@@ -112,7 +112,7 @@ the workflow requests Python 3.12, which has not yet been remotely tested.
 
 ### Immediate Telegram delivery
 
-Validated matching details now go to Telegram as each finishes, while other source workers continue. Messages share a rate limit (about one per second for the same chat). A full scan does not need to finish before alerts arrive. A manual run defaults to sending existing matching jobs too; successful delivery records prevent repeat alerts for unchanged postings. Previously silent baseline records are released when this option is enabled.
+Validated matching details now go to Telegram as each finishes, while other source workers continue. Messages share a rate limit (about one per second for the same chat). A full scan does not need to finish before alerts arrive. A manual run defaults to sending existing matching jobs too; successful delivery records prevent repeat alerts for the same company and posting ID, even after the posting is edited. Previously silent baseline records are released when this option is enabled.
 
 Live GitHub runs checkpoint delivery history to `bot-state` during the scan, with subsequent checkpoints about every 30 seconds, plus the final save. An abrupt failure between Telegram acknowledgement and a checkpoint can still cause a repeat after recovery.
 
@@ -127,3 +127,5 @@ Cloudflare and Databricks Greenhouse boards are also monitored for technical new
 Across every source, postings explicitly requiring U.S. citizenship are excluded before Telegram delivery (for example, “U.S. citizens only” or “must be a U.S. citizen”). A generic U.S. work-authorization requirement, citizenship preference, explicitly optional citizenship, or a citizen/permanent-resident alternative does not by itself trigger this citizen-only exclusion.
 
 The experience cutoff is at most two years of required experience across all sources. Explicit two-year minimums and “2+ years” can qualify because an applicant with exactly two years meets that minimum. Requirements above two years are excluded even when a title says new graduate. Preferred experience is distinguished from mandatory requirements. Ranges such as 0–2 years can qualify because applicants with zero, one, or two years are eligible.
+
+Each company + posting ID receives at most one successful job alert according to saved delivery history. JD edits and later filter changes do not trigger another alert for that ID. Failed deliveries remain retryable; a genuinely new posting ID is treated as a new job. The Telegram-to-Git crash window described above still applies.
