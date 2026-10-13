@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Microsoft",
+    "url": "https://careers.microsoft.com/",
+    "search_url": "https://apply.careers.microsoft.com/careers?query=software&location=United%20States&domain=microsoft.com",
+    "job_pattern": "/job/|/jobs/|/careerhub/explore/jobs/",
+    "keywords": [
+      "software",
+      "engineer",
+      "scientist",
+      "developer"
+    ]
+  },
+  {
+    "name": "Amazon",
+    "url": "https://www.amazon.jobs/",
+    "search_url": "https://www.amazon.jobs/en/search?base_query=engineer&loc_query=United+States&country=USA",
+    "job_pattern": "/jobs/[0-9]+",
+    "keywords": [
+      "engineer",
+      "scientist",
+      "developer"
+    ]
+  },
+  {
+    "name": "NVIDIA",
+    "url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+    "search_url": "https://jobs.nvidia.com/careers?query=engineer&location=United%20States",
+    "job_pattern": "/job/|/jobs/|/careers/job/",
+    "keywords": [
+      "engineer",
+      "scientist",
+      "developer"
+    ]
+  },
+  {
+    "name": "Greenhouse: Cloudflare",
+    "url": "https://boards.greenhouse.io/cloudflare",
+    "search_url": "https://boards.greenhouse.io/cloudflare",
+    "job_pattern": "/jobs/[0-9]+|gh_jid=",
+    "keywords": []
+  },
+  {
+    "name": "Greenhouse: Databricks",
+    "url": "https://boards.greenhouse.io/databricks",
+    "search_url": "https://boards.greenhouse.io/databricks",
+    "job_pattern": "/jobs/[0-9]+|gh_jid=",
+    "keywords": []
+  }
+]

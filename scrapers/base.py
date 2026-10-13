@@ -1,0 +1,129 @@
+import asyncio, json, re
+from urllib.parse import urljoin, urlsplit
+from urllib.robotparser import RobotFileParser
+from bs4 import BeautifulSoup
+import httpx
+from models import Job, Scan, now
+
+class Restricted(Exception): pass
+class BrowserSource:
+    def __init__(self, config, max_pages=100, max_details=2000):
+        self.c=config; self.max_pages=max_pages; self.max_details=max_details; self.policies={}
+    async def allowed(self,url):
+        parts=urlsplit(url); robots=f"{parts.scheme}://{parts.netloc}/robots.txt"
+        if robots in self.policies:
+            rp=self.policies[robots]
+            if rp is not None and not rp.can_fetch("NewGradJobHunter",url): raise Restricted("robots.txt disallows requested URL")
+            if rp is not None: await asyncio.sleep(min(rp.crawl_delay("NewGradJobHunter") or rp.crawl_delay("*") or 1,120))
+            return
+        async with httpx.AsyncClient(timeout=25,follow_redirects=True) as client:
+            response=await client.get(robots)
+        if response.status_code==404:
+            self.policies[robots]=None
+            return
+        if response.status_code!=200: raise Restricted("robots.txt unavailable: "+str(response.status_code))
+        if "<html" in response.text.lower() or "<!doctype" in response.text.lower(): raise Restricted("robots.txt returned HTML; access policy unverified")
+        rp=RobotFileParser(); rp.parse(response.text.splitlines()); self.policies[robots]=rp
+        if not rp.can_fetch("NewGradJobHunter",url): raise Restricted("robots.txt disallows requested URL")
+    async def goto(self,page,url):
+        await self.allowed(url)
+        response=await page.goto(url,wait_until="domcontentloaded",timeout=45000)
+        if response and response.status in (401,403,429): raise Restricted("Access restriction HTTP "+str(response.status))
+        await page.wait_for_timeout(1500)
+        body=await page.locator("body").inner_text()
+        if re.search(r"verify you are human|access denied|unusual traffic|complete the captcha",body,re.I): raise Restricted("Access challenge; no bypass attempted")
+    async def detail(self,page,url,title):
+        await self.goto(page,url)
+        soup=BeautifulSoup(await page.content(),"html.parser")
+        payload=None
+        def find(obj):
+            if isinstance(obj,dict):
+                if obj.get("@type")=="JobPosting": return obj
+                for v in obj.values():
+                    result=find(v)
+                    if result: return result
+            if isinstance(obj,list):
+                for v in obj:
+                    result=find(v)
+                    if result: return result
+        for script in soup.select('script[type="application/ld+json"]'):
+            try: payload=find(json.loads(script.get_text()))
+            except (ValueError,TypeError): continue
+            if payload: break
+        if not payload: raise ValueError("No validated JobPosting structured data on detail page")
+        title=payload.get("title") or title
+        desc=BeautifulSoup(payload.get("description", ""),"html.parser").get_text(" ",strip=True)
+        locations=payload.get("jobLocation",[])
+        if isinstance(locations,dict): locations=[locations]
+        loc=[]
+        for entry in locations:
+            addr=entry.get("address",{})
+            if isinstance(addr,str): loc.append(addr); continue
+            country=addr.get("addressCountry","")
+            if isinstance(country,dict): country=country.get("name","")
+            country={"US":"United States","CA":"Canada","IN":"India","GB":"United Kingdom","DE":"Germany","CN":"China","TW":"Taiwan","IL":"Israel","FR":"France","SG":"Singapore"}.get(country,country)
+            loc.append(", ".join(str(v) for v in [addr.get("addressLocality"),addr.get("addressRegion"),country] if v))
+        for entry in payload.get("applicantLocationRequirements",[]) if isinstance(payload.get("applicantLocationRequirements"),list) else [payload.get("applicantLocationRequirements",{})]:
+            if entry.get("name"): loc.append(entry["name"])
+        ident=payload.get("identifier",{})
+        jid=str(ident.get("value", "")) if isinstance(ident,dict) else str(ident)
+        if not jid:
+            match=re.search(r"(?:jobs?/|gh_jid=)([\w-]+)",url)
+            jid=match.group(1) if match else urlsplit(url).path
+        if not title or len(desc)<100 or not loc or not jid: raise ValueError("Incomplete job detail fields")
+        return Job(self.c["name"],jid,title,"; ".join(loc),url,desc,payload.get("datePosted"))
+    async def once(self,browser,result):
+        context=await browser.new_context(user_agent="NewGradJobHunter/1.0 (personal career monitor)")
+        try:
+            page=await context.new_page(); detail=await context.new_page()
+            await self.goto(page,self.c["url"])
+            await self.goto(page,self.c["search_url"])
+            # URL parameters initialize the site's actual search UI. Verify it renders listings.
+            seen=set(); signatures=set(); detail_failed=False
+            for _ in range(self.max_pages):
+                await page.wait_for_function("pattern => Array.from(document.querySelectorAll('a[href]')).some(e => new RegExp(pattern).test(e.href))",arg=self.c["job_pattern"],timeout=30000)
+                links=await page.locator("a[href]").evaluate_all("els => els.map(e => ({url:e.href,title:e.innerText.trim()}))")
+                links={x['url'].split('#')[0]:x['title'] for x in links if re.search(self.c['job_pattern'],x['url']) and x['title']}
+                if not links: raise ValueError("No job links found; empty result is unverified")
+                signature=tuple(sorted(links))
+                if signature in signatures: raise ValueError("Pagination repeated a result page")
+                signatures.add(signature); result.pages+=1
+                body=await page.locator("body").inner_text()
+                total=re.search(r"(?:of|showing[^\n]*of)\s+([\d,]+)\s+(?:jobs|results)|([\d,]+)\s+(?:jobs found|results found)",body,re.I)
+                if total: result.total=int(next(x for x in total.groups() if x).replace(',',''))
+                for url,title in links.items():
+                    if url in seen: continue
+                    if len(seen)>=self.max_details: raise ValueError("Detail safety limit reached")
+                    seen.add(url); result.listings=len(seen)
+                    try: result.jobs.append(await self.detail(detail,url,title))
+                    except Exception as exc:
+                        detail_failed=True; result.errors.append("Detail: "+type(exc).__name__+": "+str(exc)[:200])
+                    await asyncio.sleep(0.5)
+                nxt=page.get_by_role("button",name=re.compile(r"^(next|next page|load more)(?:.*)?$",re.I)).or_(page.get_by_role("link",name=re.compile(r"^next(?: page)?$",re.I)))
+                if await nxt.count() and await nxt.first.is_enabled():
+                    await nxt.first.click(); await page.wait_for_timeout(2000)
+                else:
+                    if not detail_failed and result.total is not None and result.total==len(seen): result.status="Verified Complete"
+                    else: result.errors.append("Completeness unverified: absent/mismatched source total or detail failures")
+                    return
+            raise ValueError("Pagination safety limit reached")
+        finally: await context.close()
+    async def scan(self,playwright):
+        final=Scan(self.c["name"])
+        for attempt in range(3):
+            result=Scan(self.c["name"],retries=attempt)
+            browser=None
+            try:
+                browser=await playwright.chromium.launch(headless=True)
+                await asyncio.wait_for(self.once(browser,result),timeout=420)
+                final=result
+                if result.status=="Verified Complete": break
+            except Exception as exc:
+                result.status="Failed" if not result.jobs else "Incomplete"
+                result.errors.append(type(exc).__name__+": "+str(exc)[:300]); final=result
+                if isinstance(exc,Restricted): break
+            finally:
+                if browser: await browser.close()
+            if attempt<2: await asyncio.sleep(2**(attempt+1))
+        final.completed=now()
+        return final
