@@ -65,7 +65,7 @@
       "sponsorship": null,
       "content_hash": "28d571cdcf78d230942a3c3bfc62040d1362ac5be044b02f36824e97186d4446",
       "first_discovered": "2026-10-13T02:10:35.092009+00:00",
-      "last_seen": "2026-10-13T03:00:56.250828+00:00",
+      "last_seen": "2026-10-13T03:10:20.371374+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -89,7 +89,7 @@
       "sponsorship": null,
       "content_hash": "a6446a71fe3fc3efc77d67d480f5d60ba210ea0b8a47b63fe23f51e824f5a875",
       "first_discovered": "2026-10-13T02:10:35.194891+00:00",
-      "last_seen": "2026-10-13T03:00:56.483494+00:00",
+      "last_seen": "2026-10-13T03:10:20.831422+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -248,7 +248,7 @@
       "sponsorship": null,
       "content_hash": "7d9a232c1a6a467e249a244cf0b2bdbe35d1c9e2502349dbd3d9b890ef345fee",
       "first_discovered": "2026-10-13T02:38:10.127305+00:00",
-      "last_seen": "2026-10-13T03:00:56.561222+00:00",
+      "last_seen": "2026-10-13T03:10:21.221090+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -272,7 +272,7 @@
       "sponsorship": null,
       "content_hash": "0b29e02ccda460b3a50ba454e47dd3898a19a2a9b5d8030f8728b9dffee1b25e",
       "first_discovered": "2026-10-13T02:38:10.157002+00:00",
-      "last_seen": "2026-10-13T03:00:56.643266+00:00",
+      "last_seen": "2026-10-13T03:10:21.746166+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -297,7 +297,7 @@
       "sponsorship": null,
       "content_hash": "f9aa665442493fd76739626b399695d9db128099ae87bb6df6c6bb5bd9cc9b06",
       "first_discovered": "2026-10-13T02:38:10.196686+00:00",
-      "last_seen": "2026-10-13T03:00:56.750530+00:00",
+      "last_seen": "2026-10-13T03:10:22.237812+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -321,7 +321,7 @@
       "sponsorship": null,
       "content_hash": "2f01ae7e271bfb6ca8b58be9011507412b87f4bd27708f558291414116d80935",
       "first_discovered": "2026-10-13T02:38:10.253307+00:00",
-      "last_seen": "2026-10-13T03:00:56.817520+00:00",
+      "last_seen": "2026-10-13T03:10:22.581351+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -343,7 +343,7 @@
       "sponsorship": null,
       "content_hash": "81e9a90f094a9a3a0917ca95cb229d16e142ebdda59411da074a82d028a7c4d7",
       "first_discovered": "2026-10-13T02:38:10.280715+00:00",
-      "last_seen": "2026-10-13T03:00:56.871638+00:00",
+      "last_seen": "2026-10-13T03:10:22.891362+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -366,7 +366,7 @@
       "sponsorship": null,
       "content_hash": "fa412f042c3c96cd409c0d72ec09a6ab3feb07892d1f11a4a2aed8ef19aa344d",
       "first_discovered": "2026-10-13T02:38:10.307997+00:00",
-      "last_seen": "2026-10-13T03:00:56.919777+00:00",
+      "last_seen": "2026-10-13T03:10:23.094327+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -389,7 +389,7 @@
       "sponsorship": null,
       "content_hash": "e91cf589cbe2a5999ab3b9be2089dcc03aeedb562923cccf08ec4876e366a223",
       "first_discovered": "2026-10-13T02:38:10.337159+00:00",
-      "last_seen": "2026-10-13T03:00:56.969866+00:00",
+      "last_seen": "2026-10-13T03:10:23.232175+00:00",
       "notified_hash": "3e8124ea40411e1ba0d9073ec8a3d7861f89805fa294750595dbcb26223eca7a",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T02:49:54.130594+00:00"
@@ -413,7 +413,7 @@
       "sponsorship": null,
       "content_hash": "155c77e339190886e0d2f4c619d575aae853be3cc7b6ce5e018b3a91d1a148bb",
       "first_discovered": "2026-10-13T02:38:10.375430+00:00",
-      "last_seen": "2026-10-13T03:00:57.022389+00:00",
+      "last_seen": "2026-10-13T03:10:23.411187+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -437,7 +437,7 @@
       "sponsorship": null,
       "content_hash": "d5cee68b7aed4360b9818f0c5a6d603d4e10b092c58fc21c8011a0ea85bad546",
       "first_discovered": "2026-10-13T02:38:10.401393+00:00",
-      "last_seen": "2026-10-13T03:00:57.071001+00:00",
+      "last_seen": "2026-10-13T03:10:23.567930+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -460,7 +460,7 @@
       "sponsorship": null,
       "content_hash": "1fd0fe457a73b6241d2ea44abd4d3f9d181bf4643549dea51d73d8fa2a5fed56",
       "first_discovered": "2026-10-13T02:38:10.433133+00:00",
-      "last_seen": "2026-10-13T03:00:57.130684+00:00",
+      "last_seen": "2026-10-13T03:10:23.737998+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -483,7 +483,7 @@
       "sponsorship": null,
       "content_hash": "7ed579fde8fa4bede1588b1a014c5734eea112fb1ac873781e33e82c7211d620",
       "first_discovered": "2026-10-13T02:38:10.474924+00:00",
-      "last_seen": "2026-10-13T03:00:57.250422+00:00",
+      "last_seen": "2026-10-13T03:10:23.855528+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -507,7 +507,7 @@
       "sponsorship": null,
       "content_hash": "a111affaa4e5961e48abe031c9352f5edee46e8da3ed9ee228ecb651815c6d10",
       "first_discovered": "2026-10-13T02:38:10.640172+00:00",
-      "last_seen": "2026-10-13T03:00:57.363620+00:00",
+      "last_seen": "2026-10-13T03:10:24.069195+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -530,7 +530,7 @@
       "sponsorship": "This includes strategic partnership planning, sponsor development, capability development, solution development, thought leadership, partnership promotion, business development, and relationship management",
       "content_hash": "6f2c24253e08224d5e3c25d68f31d76def5f7ffd692166751793b3705178102b",
       "first_discovered": "2026-10-13T02:38:10.655144+00:00",
-      "last_seen": "2026-10-13T03:00:57.413086+00:00",
+      "last_seen": "2026-10-13T03:10:24.157422+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -553,7 +553,7 @@
       "sponsorship": "This includes strategic partnership planning, sponsor development, capability development, solution development, thought leadership, partnership promotion, business development, and relationship management",
       "content_hash": "cb60373531912c2230ace409671ad93361a83815116509e375b60121ddb5ea6e",
       "first_discovered": "2026-10-13T02:38:10.674722+00:00",
-      "last_seen": "2026-10-13T03:00:57.453828+00:00",
+      "last_seen": "2026-10-13T03:10:24.246407+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -577,7 +577,7 @@
       "sponsorship": null,
       "content_hash": "4ffd75cd3328466e86b15067928b7e6d9c5c0f1f2402b21ec6ebfceab50dd148",
       "first_discovered": "2026-10-13T02:38:10.728754+00:00",
-      "last_seen": "2026-10-13T03:00:57.503081+00:00",
+      "last_seen": "2026-10-13T03:10:24.406763+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -602,7 +602,7 @@
       "sponsorship": null,
       "content_hash": "acba8b48010e80b1295ed66e91b765443953bedb9ac2fda8ad800b63a6985533",
       "first_discovered": "2026-10-13T02:38:10.896545+00:00",
-      "last_seen": "2026-10-13T03:00:57.588813+00:00",
+      "last_seen": "2026-10-13T03:10:24.667877+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -625,7 +625,7 @@
       "sponsorship": null,
       "content_hash": "3baff0b1c92ed811f8ac13828c0458df205e82a4bb4a4677e29dc2c2dbaa83f5",
       "first_discovered": "2026-10-13T02:38:10.923514+00:00",
-      "last_seen": "2026-10-13T03:00:57.633967+00:00",
+      "last_seen": "2026-10-13T03:10:24.827907+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -650,7 +650,7 @@
       "sponsorship": null,
       "content_hash": "3d676cb40c879c223dce948ff3af6f1b45d1c8d22d4342581ca42f636cecd0a1",
       "first_discovered": "2026-10-13T02:38:10.978740+00:00",
-      "last_seen": "2026-10-13T03:00:57.691408+00:00",
+      "last_seen": "2026-10-13T03:10:24.975681+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -674,7 +674,7 @@
       "sponsorship": "Own investor relationships through activation with clear mutual value, executive sponsors, referral paths, enablement and regular business reviews",
       "content_hash": "187b1a6916932523dd85a0a7a2b5038de3e90a1f98238ebdc44e947b9dc284fb",
       "first_discovered": "2026-10-13T02:38:10.996394+00:00",
-      "last_seen": "2026-10-13T03:00:57.735818+00:00",
+      "last_seen": "2026-10-13T03:10:25.110736+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -697,7 +697,7 @@
       "sponsorship": null,
       "content_hash": "f631104ceef323a5fc0ae56906fd96a0c68059721eab4793243a57e2b0e4f218",
       "first_discovered": "2026-10-13T02:38:11.028918+00:00",
-      "last_seen": "2026-10-13T03:00:57.786838+00:00",
+      "last_seen": "2026-10-13T03:10:25.255790+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -720,7 +720,7 @@
       "sponsorship": null,
       "content_hash": "35cb8a47d6f3e76dd3351750d972b66e5197771075d3b6b44b9a05e08e95b4bb",
       "first_discovered": "2026-10-13T02:38:11.065153+00:00",
-      "last_seen": "2026-10-13T03:00:57.838227+00:00",
+      "last_seen": "2026-10-13T03:10:25.420009+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -743,7 +743,7 @@
       "sponsorship": null,
       "content_hash": "d974fe536f4c80a36f048dc1c8421c80daf2bfd2af4c02f5602ad0653ec9631d",
       "first_discovered": "2026-10-13T02:38:11.131907+00:00",
-      "last_seen": "2026-10-13T03:00:57.926946+00:00",
+      "last_seen": "2026-10-13T03:10:25.564749+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -767,7 +767,7 @@
       "sponsorship": null,
       "content_hash": "6f9f589456140e6e6536665fa3777411d36f7a8a5287e965c819f4ff71e6680d",
       "first_discovered": "2026-10-13T02:38:11.268204+00:00",
-      "last_seen": "2026-10-13T03:00:57.990783+00:00",
+      "last_seen": "2026-10-13T03:10:25.708421+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -790,7 +790,7 @@
       "sponsorship": null,
       "content_hash": "43dd6f0a04a108690cf97b3ad9d7805a3707e0476823150df67aedaca7d995f8",
       "first_discovered": "2026-10-13T02:38:11.324675+00:00",
-      "last_seen": "2026-10-13T03:00:58.035151+00:00",
+      "last_seen": "2026-10-13T03:10:25.803602+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -815,7 +815,7 @@
       "sponsorship": null,
       "content_hash": "a995559016b681ce229af84c748741a908e670849068fe75421147329189d916",
       "first_discovered": "2026-10-13T02:38:11.520654+00:00",
-      "last_seen": "2026-10-13T03:00:58.126464+00:00",
+      "last_seen": "2026-10-13T03:10:25.999236+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -838,7 +838,7 @@
       "sponsorship": null,
       "content_hash": "5eef3166d3ea155a83412e6cf3869c4048ad4e090e964a85b721975b398ac03c",
       "first_discovered": "2026-10-13T02:38:11.570024+00:00",
-      "last_seen": "2026-10-13T03:00:58.180044+00:00",
+      "last_seen": "2026-10-13T03:10:26.116072+00:00",
       "notified_hash": "31159dfbc0de94003d756e20e7b19cb73f8db5d882a6b4685c9ea954a29e052e",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T02:50:01.538063+00:00"
@@ -861,7 +861,7 @@
       "sponsorship": null,
       "content_hash": "9a62f583217c6bc3ad0d3165dbda3912f4355769767d1dde2e8b6a774a3bfa2a",
       "first_discovered": "2026-10-13T02:38:11.598823+00:00",
-      "last_seen": "2026-10-13T03:00:58.228824+00:00",
+      "last_seen": "2026-10-13T03:10:26.232132+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -885,7 +885,7 @@
       "sponsorship": null,
       "content_hash": "3f25dfb7748b346add6d2d8cdd84e2b1ac2c2a2c6a5add8c3a488de83f249ea2",
       "first_discovered": "2026-10-13T02:38:11.629133+00:00",
-      "last_seen": "2026-10-13T03:00:58.278206+00:00",
+      "last_seen": "2026-10-13T03:10:26.338656+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -908,7 +908,7 @@
       "sponsorship": "That means building executive sponsorship with CDOs, CIOs, and CHROs while also architecting the manager enablement and individual contributor adoption layers underneath",
       "content_hash": "1c5527a0a82bb4d55f3b67e45642e7251a073e4f4e9758d8b3688c71a8c106a0",
       "first_discovered": "2026-10-13T02:38:11.646166+00:00",
-      "last_seen": "2026-10-13T03:00:58.335704+00:00",
+      "last_seen": "2026-10-13T03:10:26.448504+00:00",
       "notified_hash": "e1949315b1e92c6349e41182ca252e2a93082a6271a34d7bf4b6a29e66c37b03",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T02:50:05.546727+00:00"
@@ -932,7 +932,7 @@
       "sponsorship": null,
       "content_hash": "abc7c4712a0a108c1cf730f24f1e04de5a4b1a90d1e23ef65aba63a8af64510b",
       "first_discovered": "2026-10-13T02:38:11.756141+00:00",
-      "last_seen": "2026-10-13T03:00:58.471223+00:00",
+      "last_seen": "2026-10-13T03:10:26.630656+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -955,7 +955,7 @@
       "sponsorship": null,
       "content_hash": "0be234b8d58d0f3ef502a0bc28e9bc63ed12e5555baa183846f0505aeeefedc0",
       "first_discovered": "2026-10-13T02:38:11.868451+00:00",
-      "last_seen": "2026-10-13T03:00:58.647002+00:00",
+      "last_seen": "2026-10-13T03:10:26.851718+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -978,7 +978,7 @@
       "sponsorship": null,
       "content_hash": "9ce6062420eff7da5662ba7dcb281514a51393d677c94f95a4c10c9add27b275",
       "first_discovered": "2026-10-13T02:38:11.964227+00:00",
-      "last_seen": "2026-10-13T03:00:58.793715+00:00",
+      "last_seen": "2026-10-13T03:10:27.053925+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -1002,7 +1002,7 @@
       "sponsorship": null,
       "content_hash": "003e93fc14acbcc2709cc856da1bc9319e442063d3eadc6af4ee4624f500054e",
       "first_discovered": "2026-10-13T02:38:12.049726+00:00",
-      "last_seen": "2026-10-13T03:00:58.941475+00:00",
+      "last_seen": "2026-10-13T03:10:27.227397+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -1025,7 +1025,7 @@
       "sponsorship": null,
       "content_hash": "b8f5928ce6da476659ca9ada2d6c1ee32c48a95a33dd46ca36d6f230121b7198",
       "first_discovered": "2026-10-13T02:38:12.130856+00:00",
-      "last_seen": "2026-10-13T03:00:59.123398+00:00",
+      "last_seen": "2026-10-13T03:10:27.408867+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -1049,7 +1049,7 @@
       "sponsorship": null,
       "content_hash": "c8c1161d099bc714a8371ebefab7458725b1bf89d8135bc352814da5eae5a784",
       "first_discovered": "2026-10-13T02:38:12.244023+00:00",
-      "last_seen": "2026-10-13T03:00:59.303567+00:00",
+      "last_seen": "2026-10-13T03:10:27.596022+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45331,5 +45331,5 @@
       "recovery_pending": true
     }
   },
-  "last_scan": "2026-10-13T03:00:48.591683+00:00"
+  "last_scan": "2026-10-13T03:10:14.163449+00:00"
 }
