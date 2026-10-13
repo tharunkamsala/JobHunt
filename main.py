@@ -30,7 +30,9 @@ async def run(args):
         baseline=not source.get("baseline_initialized",False)
         processor=JobProcessor(store,telegram,baseline=baseline,alert_existing=args.alert_existing,
                                dry_run=args.dry_run,graduation_year=args.graduation_year,
-                               on_delivery=checkpoint.mark_dirty)
+                               on_delivery=checkpoint.mark_dirty,
+                               software_only=c.get("software_only",True),
+                               strict_new_grad_year=c.get("strict_new_grad_year"))
         scan=await adapter(c,args.max_pages,args.max_details,on_job=processor).scan(p)
         counters=processor.counters
         source={"status":scan.status,"last_scan":scan.completed,"baseline_complete":source.get("baseline_complete",False) or scan.status=="Verified Complete","baseline_initialized":source.get("baseline_initialized",False) or (bool(scan.jobs) and not args.dry_run),"recovery_pending":scan.status!="Verified Complete"}

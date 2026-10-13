@@ -70,3 +70,16 @@ def test_checkpoint_persists_during_scan(tmp_path,monkeypatch):
         checkpoint.stopping=True; checkpoint.mark_dirty(); await task
         assert git('--git-dir',str(remote),'show','bot-state:history.json')==state.read_text()
     asyncio.run(scenario())
+
+def test_strict_greenhouse_preference_blocks_unspecified_year(tmp_path):
+    async def scenario():
+        telegram=Telegram(); store=Store(tmp_path/'history.json')
+        processor=JobProcessor(store,telegram,alert_existing=True,
+                               software_only=False,strict_new_grad_year=2027)
+        j=job(); j.company='Greenhouse: Databricks'
+        await processor(j)
+        assert not telegram.messages
+        j.description='New graduates graduating in 2027 are eligible.'
+        await processor(j)
+        assert len(telegram.messages)==1
+    asyncio.run(scenario())

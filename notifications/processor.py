@@ -8,13 +8,16 @@ from notifications.telegram import format_job
 
 class JobProcessor:
     def __init__(self, store, telegram, *, baseline=False, alert_existing=False,
-                 dry_run=False, graduation_year=None, on_delivery=None):
+                 dry_run=False, graduation_year=None, on_delivery=None,
+                 software_only=True, strict_new_grad_year=None):
         self.store=store
         self.telegram=telegram
         self.baseline=baseline
         self.alert_existing=alert_existing
         self.dry_run=dry_run
         self.graduation_year=graduation_year
+        self.software_only=software_only
+        self.strict_new_grad_year=strict_new_grad_year
         self.on_delivery=on_delivery
         self.locks={}
         self.processed=set()
@@ -23,7 +26,8 @@ class JobProcessor:
 
     async def __call__(self,job):
         await asyncio.sleep(0)
-        classify(job,self.graduation_year)
+        classify(job,self.graduation_year,software_only=self.software_only,
+                 strict_new_grad_year=self.strict_new_grad_year)
         async with self.locks.setdefault(job.key,asyncio.Lock()):
             version=(job.key,job.content_hash)
             if version in self.processed:

@@ -34,4 +34,23 @@ def test_only_requested_companies_configured():
  import json
  from pathlib import Path
  configs=json.loads((Path(__file__).resolve().parents[1]/'config/companies.json').read_text())
- assert {c['name'] for c in configs}=={'Microsoft','Amazon','NVIDIA'}
+ assert {c['name'] for c in configs if not c['name'].startswith('Greenhouse:')}=={'Microsoft','Amazon','NVIDIA'}
+ assert all(c.get('strict_new_grad_year')==2027 and c.get('software_only') is False for c in configs if c['name'].startswith('Greenhouse:'))
+
+@pytest.mark.parametrize('title,description,eligible',[
+ ('Software Engineer - New Grad 2027','Build software systems.',True),
+ ('Data Engineer','Seeking new graduates graduating between December 2026 and June 2027.',True),
+ ('Software Engineer','You must graduate in 2027.',True),
+ ('Software Engineer - New Grad 2026','Copyright 2027.',False),
+ ('Software Engineer - New Grad','Build systems in 2027.',False),
+ ('Software Engineer','Entry level role. Copyright 2027.',False),
+ ('Software Engineer','New graduates from the class of 2026.',False),
+ ('Software Engineer','2027 graduates are not eligible.',False),
+ ('Software Engineer II - New Grad 2027','Build software.',False),
+ ('Software Intern 2027','Graduating in 2027.',False),
+ ('Accountant - New Grad 2027','Entry level role.',False),
+])
+def test_strict_2027_new_grad(title,description,eligible):
+ j=Job('Greenhouse: Databricks','1',title,'United States','https://example.com/1',description)
+ classify(j,software_only=False,strict_new_grad_year=2027)
+ assert (j.classification!='Not Eligible') is eligible
