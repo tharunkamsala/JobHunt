@@ -33,10 +33,13 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
-      - run: python -m playwright install --with-deps chromium
+      - name: Install Chromium
+        if: inputs.telegram_test != true
+        run: python -m playwright install --with-deps chromium
       - name: Tests
         run: python -m pytest -q
       - name: Restore durable state branch
+        if: inputs.telegram_test != true
         shell: bash
         run: |
           mkdir -p state
@@ -65,7 +68,7 @@ jobs:
             python main.py --max-details "$MAX_DETAILS"
           fi
       - name: Persist state even on incomplete scans
-        if: always()
+        if: always() && inputs.telegram_test != true
         shell: bash
         run: |
           if [ ! -f state/history.json ]; then exit 0; fi

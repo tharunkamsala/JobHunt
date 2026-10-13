@@ -2,7 +2,7 @@ import asyncio, os
 import httpx
 class Telegram:
     def __init__(self):
-        self.token=os.getenv("TELEGRAM_BOT_TOKEN"); self.chat=os.getenv("TELEGRAM_CHAT_ID")
+        self.token=os.getenv("TELEGRAM_BOT_TOKEN", "").strip(); self.chat=os.getenv("TELEGRAM_CHAT_ID", "").strip()
     async def send(self,text):
         if not self.token or not self.chat: return False
         async with httpx.AsyncClient(timeout=30) as client:
