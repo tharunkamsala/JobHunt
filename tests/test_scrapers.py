@@ -72,3 +72,49 @@ async def test_restriction_is_not_retried(monkeypatch):
  monkeypatch.setattr(source,'once',once)
  result=await source.scan(P())
  assert result.status=='Restricted' and len(calls)==1 and result.retries==0
+
+@pytest.mark.parametrize('blocked',[False,True])
+async def test_search_readiness_retry_does_not_bypass_challenge(monkeypatch,blocked):
+ from playwright.async_api import TimeoutError
+ class Field:
+  def __init__(self): self.calls=0; self.actions=[]
+  @property
+  def first(self): return self
+  async def wait_for(self,**kwargs):
+   self.calls+=1
+   if self.calls==1: raise TimeoutError('slow search app')
+  async def input_value(self): return 'United States'
+  async def fill(self,value): self.actions.append(value)
+  async def press(self,key): self.actions.append(key)
+ query=Field(); location=Field(); location.calls=1
+ class Page:
+  def locator(self,selector): return location if selector=='#location' else query
+  async def wait_for_timeout(self,*args): pass
+ source=BrowserSource({'name':'NVIDIA','query_selector':'#query','location_selector':'#location','search_url':'https://example.com/careers?query=engineer'})
+ reloads=[]
+ async def goto(*args): reloads.append(1)
+ async def diagnostics(*args):
+  if blocked: raise Restricted('Search page displayed an access challenge')
+ monkeypatch.setattr(source,'goto',goto); monkeypatch.setattr(source,'search_diagnostics',diagnostics)
+ if blocked:
+  with pytest.raises(Restricted): await source.initialize_search(Page())
+  assert not reloads and not query.actions
+ else:
+  await source.initialize_search(Page())
+  assert reloads==[1] and query.actions==['engineer','Enter','Escape','Tab']
+
+async def test_missing_search_form_fails_after_bounded_recovery(monkeypatch):
+ from playwright.async_api import TimeoutError
+ class Field:
+  @property
+  def first(self): return self
+  async def wait_for(self,**kwargs): raise TimeoutError('missing')
+ class Page:
+  def locator(self,*args): return Field()
+ source=BrowserSource({'name':'NVIDIA','query_selector':'#query','location_selector':'#location','search_url':'https://example.com'})
+ attempts=[]; reloads=[]
+ async def diagnostics(page,attempt): attempts.append(attempt)
+ async def goto(*args): reloads.append(1)
+ monkeypatch.setattr(source,'search_diagnostics',diagnostics); monkeypatch.setattr(source,'goto',goto)
+ with pytest.raises(RuntimeError,match='after two attempts'): await source.initialize_search(Page())
+ assert attempts==[1,2] and reloads==[1]

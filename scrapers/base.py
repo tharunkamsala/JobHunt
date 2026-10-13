@@ -1,4 +1,6 @@
 import asyncio, json, re
+from pathlib import Path
+from playwright.async_api import TimeoutError as BrowserTimeout
 from urllib.parse import urljoin, urlsplit, parse_qs
 from protego import Protego
 from bs4 import BeautifulSoup
@@ -91,25 +93,50 @@ class BrowserSource:
             jid=match.group(1) if match else urlsplit(url).path
         if not title or len(desc)<100 or not loc or not jid: raise ValueError("Incomplete job detail fields")
         return Job(self.c["name"],jid,title,"; ".join(loc),url,desc,payload.get("datePosted"))
+    async def search_diagnostics(self,page,attempt):
+        name=re.sub(r'[^a-z0-9]+','-',self.c['name'].lower())
+        directory=Path('diagnostics'); directory.mkdir(exist_ok=True)
+        body=await page.locator('body').inner_text()
+        (directory/f'{name}-search-{attempt}.json').write_text(json.dumps({
+            'url':page.url,'title':await page.title(),'body':body[:8000],
+            'inputs':await page.locator('input').evaluate_all(
+                'es=>es.map(e=>({id:e.id,placeholder:e.placeholder,visible:!!e.getClientRects().length}))')
+        },indent=2))
+        if re.search(r'verify you are human|access denied|unusual traffic|complete the captcha',body,re.I):
+            raise Restricted('Search page displayed an access challenge')
+
+    async def initialize_search(self,page):
+        if not self.c.get('query_selector'): return
+        selectors=[self.c['query_selector']]+self.c.get('query_fallback_selectors',[])
+        query=page.locator(', '.join(s+':visible' for s in selectors)).first
+        location=page.locator(self.c['location_selector'])
+        timeout=self.c.get('search_ready_timeout_ms',30000)
+        for attempt in range(2):
+            try:
+                await query.wait_for(timeout=timeout)
+                await location.wait_for(timeout=timeout)
+                break
+            except BrowserTimeout:
+                await self.search_diagnostics(page,attempt+1)
+                if attempt:
+                    raise RuntimeError('Search form did not load after two attempts; page diagnostics saved') from None
+                await self.goto(page,self.c['search_url'])
+        if 'United States' not in await location.input_value():
+            raise ValueError('US location filter did not initialize')
+        params=parse_qs(urlsplit(self.c['search_url']).query)
+        keyword=(params.get('query') or params.get('base_query') or [''])[0]
+        await query.fill(keyword)
+        await query.press('Enter')
+        await page.wait_for_timeout(2000)
+        await query.press('Escape')
+        await query.press('Tab')
     async def once(self,browser,result):
         context=await browser.new_context(user_agent="NewGradJobHunter/1.0 (personal career monitor)")
         try:
             page=await context.new_page()
             await self.goto(page,self.c["url"])
             await self.goto(page,self.c["search_url"])
-            if self.c.get("query_selector"):
-                query=page.locator(self.c["query_selector"])
-                await query.wait_for(timeout=30000)
-                location=page.locator(self.c["location_selector"])
-                if "United States" not in await location.input_value():
-                    raise ValueError("US location filter did not initialize")
-                params=parse_qs(urlsplit(self.c["search_url"]).query)
-                keyword=(params.get("query") or params.get("base_query") or [""])[0]
-                await query.fill(keyword)
-                await query.press("Enter")
-                await page.wait_for_timeout(2000)
-                await query.press("Escape")
-                await query.press("Tab")
+            await self.initialize_search(page)
             # URL parameters initialize location; the actual keyword input executes search.
             seen=set(); signatures=set(); detail_failed=False
             for _ in range(self.max_pages):

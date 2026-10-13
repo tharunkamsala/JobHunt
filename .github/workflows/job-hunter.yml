@@ -16,6 +16,10 @@ on:
         description: Send existing matching jobs as they are checked
         type: boolean
         default: true
+      company:
+        description: Optional source name for targeted diagnostics (blank scans all)
+        type: string
+        default: ""
       max_details:
         description: Detail limit for bounded diagnostics
         type: number
@@ -61,15 +65,16 @@ jobs:
           ALERT_EXISTING: ${{ inputs.alert_existing || vars.ALERT_EXISTING }}
           DRY_RUN: ${{ inputs.dry_run }}
           TELEGRAM_TEST: ${{ inputs.telegram_test }}
+          COMPANY: ${{ inputs.company }}
           MAX_DETAILS: ${{ inputs.max_details || 2000 }}
         run: |
           if [ "$TELEGRAM_TEST" = "true" ]; then
             python scripts/test_telegram_connection.py
           elif [ "$DRY_RUN" = "true" ]; then
-            python main.py --dry-run --max-details "$MAX_DETAILS"
+            python main.py --dry-run --max-details "$MAX_DETAILS" --company "$COMPANY"
           else
             test -n "$TELEGRAM_BOT_TOKEN" && test -n "$TELEGRAM_CHAT_ID"
-            python main.py --max-details "$MAX_DETAILS"
+            python main.py --max-details "$MAX_DETAILS" --company "$COMPANY"
           fi
       - name: Persist state even on incomplete scans
         if: always() && inputs.telegram_test != true

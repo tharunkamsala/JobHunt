@@ -45,7 +45,11 @@
     "listing_selector": "a[id^=\"job-card-\"][id$=\"-job-list\"]",
     "query_selector": "#position-query-search",
     "location_selector": "#position-location-search",
-    "total_selector": "[data-testid=\"job-count\"]"
+    "total_selector": "[data-testid=\"job-count\"]",
+    "query_fallback_selectors": [
+      "input[placeholder=\"Search for keywords\"]"
+    ],
+    "search_ready_timeout_ms": 60000
   },
   {
     "name": "Greenhouse: Cloudflare",
