@@ -7,6 +7,20 @@ EXCLUDED_LEVEL = re.compile(r"\b(?:sde|swe|engineer|developer)\s*(?:[-–—,:/(
 
 NEW_GRAD = re.compile(r"\b(?:new[ -](?:college[ -])?grad(?:uate|uates|uation)?|university[ -]grad(?:uate|uates)?|recent[ -]grad(?:uate|uates)?|graduat\w*|class of)\b", re.I)
 
+def requires_us_citizenship(text):
+    normalized=re.sub(r"\bu\s*\.\s*s\s*\.(?:\s*a\s*\.)?", "US", text, flags=re.I)
+    citizen=r"(?:(?:us|usa|united states|american)[ -]+citizen(?:s|ship)?|citizens?\s+of\s+(?:the\s+)?(?:us|usa|united states))"
+    for clause in re.split(r"[.!?;\n]",normalized):
+        if not re.search(citizen,clause,re.I): continue
+        # Explicit alternatives and negated requirements are not citizen-only.
+        if re.search(r"\bor\s+(?:a\s+|an\s+)?(?:lawful\s+)?(?:permanent resident|green[ -]card holder|non[ -]citizen)",clause,re.I): continue
+        negated=r"(?:no|not)\s+(?:a\s+)?(?:us|usa|united states|american)?\s*citizenship\s+(?:is\s+)?required|citizenship\s+(?:is\s+)?not\s+(?:required|necessary)|(?:does not|do not|doesn't|don't)\s+require\s+(?:a\s+)?"+citizen
+        if re.search(negated,clause,re.I): continue
+        before=r"(?:must|required|requires?|requirements?|mandatory|only|restricted to|limited to|need to|needs to|shall)\b[^.!?;\n]{0,100}"
+        after=r"[^.!?;\n]{0,60}\b(?:required|mandatory|only|necessary)\b"
+        if re.search(before+citizen,clause,re.I) or re.search(citizen+after,clause,re.I): return True
+    return False
+
 def explicit_grad_year(job, year):
     # Match within a title or a short sentence, never an unrelated footer date.
     for section in (job.title, job.description):
@@ -31,6 +45,7 @@ def classify(job: Job, graduation_year=None, *, software_only=True, strict_new_g
     sponsor = re.search(r"[^.\n]*sponsor[^.\n]*",d,re.I)
     job.sponsorship = sponsor.group(0).strip() if sponsor else None
     reject = []
+    if requires_us_citizenship(text): reject.append("US citizenship is required")
     if software_only and not SDE_TITLE.search(t): reject.append("Title is not a software development role")
     if not software_only and not TECH.search(t): reject.append("Title is not a relevant technical role")
     if strict_new_grad_year and not explicit_grad_year(job,strict_new_grad_year):

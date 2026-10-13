@@ -54,3 +54,34 @@ def test_strict_2027_new_grad(title,description,eligible):
  j=Job('Greenhouse: Databricks','1',title,'United States','https://example.com/1',description)
  classify(j,software_only=False,strict_new_grad_year=2027)
  assert (j.classification!='Not Eligible') is eligible
+
+@pytest.mark.parametrize('description',[
+ 'Applicants must be U.S. citizens.',
+ 'Citizenship requirements: U.S. citizenship.',
+ 'Must be a U.S. citizen, but this role does not require a clearance.',
+ 'US citizens only.',
+ 'Only United States citizens may apply.',
+ 'U.S. citizenship is required for this position.',
+ 'This role requires US citizenship.',
+ 'Applicants must be citizens of the United States.',
+ 'Candidates must possess U.S.A. citizenship.',
+ 'This position is restricted to American citizens.',
+])
+def test_reject_us_citizenship_requirements(description):
+ j=Job('Microsoft','1','Software Engineer I','United States','https://example.com/1','New graduate 2027. '+description)
+ assert classify(j).classification=='Not Eligible'
+ assert 'US citizenship is required' in j.reasons
+
+@pytest.mark.parametrize('description',[
+ 'U.S. citizenship is not required.',
+ 'No US citizenship required.',
+ 'This position does not require U.S. citizenship.',
+ 'US citizenship preferred.',
+ 'Must be a U.S. citizen or permanent resident.',
+ 'Must be a U.S. citizen or a lawful permanent resident.',
+ 'Must be authorized to work in the United States.',
+ 'We do not discriminate based on U.S. citizenship status.',
+])
+def test_do_not_confuse_citizenship_with_work_authorization(description):
+ j=Job('Microsoft','1','Software Engineer I','United States','https://example.com/1','New graduate 2027. '+description)
+ assert classify(j).classification=='Strong Match'
