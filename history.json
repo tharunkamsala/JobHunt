@@ -32686,7 +32686,7 @@
       "sponsorship": null,
       "content_hash": "8411b8b25a3d8e166dcb992d0d59341aea4dfe371ba2f9a5993b3c57eac3f482",
       "first_discovered": "2026-10-13T02:51:16.735446+00:00",
-      "last_seen": "2026-10-17T00:45:31.964475+00:00",
+      "last_seen": "2026-10-17T09:40:50.032918+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -32710,7 +32710,7 @@
       "sponsorship": null,
       "content_hash": "a22a99813795d55d68b6552abfa2127fc82da591e0abdae386b38da7ff8c268c",
       "first_discovered": "2026-10-13T02:51:17.990258+00:00",
-      "last_seen": "2026-10-17T00:41:16.287048+00:00",
+      "last_seen": "2026-10-17T09:41:00.802088+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -32733,7 +32733,7 @@
       "sponsorship": null,
       "content_hash": "efb6b93aadf1edf2af186360c6197d283df5c4097af992c0202e5403077edc56",
       "first_discovered": "2026-10-13T02:51:19.862300+00:00",
-      "last_seen": "2026-10-17T00:45:31.206934+00:00",
+      "last_seen": "2026-10-17T09:41:00.309712+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -32896,7 +32896,7 @@
       "sponsorship": null,
       "content_hash": "09e5825ea1d31052f05346d040e7d0cc22f60ffd42f19cb2f429edfd22aa83a5",
       "first_discovered": "2026-10-13T02:51:27.142650+00:00",
-      "last_seen": "2026-10-17T00:45:34.749226+00:00",
+      "last_seen": "2026-10-17T09:41:01.162583+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -32990,7 +32990,7 @@
       "sponsorship": null,
       "content_hash": "ff46aa550f1f721159aeee4381c1fbcbc939774fa1d68ce6c3e86b5d385bec22",
       "first_discovered": "2026-10-13T02:51:37.861011+00:00",
-      "last_seen": "2026-10-17T00:45:35.276169+00:00",
+      "last_seen": "2026-10-17T09:41:05.082186+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -33013,7 +33013,7 @@
       "sponsorship": null,
       "content_hash": "7cb3361f02208b90619e06a541bd239b9d66197c237a7e86358b9ec3a51880c9",
       "first_discovered": "2026-10-13T02:51:49.660310+00:00",
-      "last_seen": "2026-10-17T00:44:41.354354+00:00",
+      "last_seen": "2026-10-17T09:41:07.014868+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -33036,7 +33036,7 @@
       "sponsorship": null,
       "content_hash": "2977913dd821689bd8cb0cb86a80d718ee066d0fd633da2d94daf90dac2e9980",
       "first_discovered": "2026-10-13T02:51:49.806864+00:00",
-      "last_seen": "2026-10-17T00:41:19.389436+00:00",
+      "last_seen": "2026-10-17T09:41:07.914335+00:00",
       "notified_hash": "a989e46a8bf81c071bc93ec4f4f27dfdb5a8982b159849cce5efb21af9be6d6f",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T02:51:53.377930+00:00"
@@ -33424,7 +33424,7 @@
       "sponsorship": null,
       "content_hash": "41d84b128b68a7fdb2854ab871e62b5a497c9835ca381063fa7d9d4441a09098",
       "first_discovered": "2026-10-13T02:52:21.837750+00:00",
-      "last_seen": "2026-10-17T00:45:37.290782+00:00",
+      "last_seen": "2026-10-17T09:41:07.612559+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -35115,7 +35115,7 @@
       "sponsorship": null,
       "content_hash": "aa8354830a69ebb0a6ff331970aab92eae8e8f34b8a522d78884f61abaddc1e8",
       "first_discovered": "2026-10-13T02:59:23.933287+00:00",
-      "last_seen": "2026-10-16T18:57:47.343274+00:00",
+      "last_seen": "2026-10-17T09:38:49.346772+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -35766,7 +35766,7 @@
       "sponsorship": null,
       "content_hash": "aba5627b6cf30a8577d57efbdb25c71b268a6525f11a548b508e81dbd3b2f469",
       "first_discovered": "2026-10-13T02:59:43.436045+00:00",
-      "last_seen": "2026-10-16T15:02:56.845666+00:00",
+      "last_seen": "2026-10-17T09:40:46.582074+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -35974,7 +35974,7 @@
       "sponsorship": null,
       "content_hash": "d111c295911dbfd939179e9e3da1c4916626f64cc4d5c1f27609e877354e0fc1",
       "first_discovered": "2026-10-13T02:59:48.026984+00:00",
-      "last_seen": "2026-10-16T22:24:00.885094+00:00",
+      "last_seen": "2026-10-17T09:39:49.110874+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -36158,7 +36158,7 @@
       "sponsorship": null,
       "content_hash": "fb63d8a7bcff188db64db14d12f132308fcc8d17e32b0deda75af409f14de173",
       "first_discovered": "2026-10-13T02:59:54.896404+00:00",
-      "last_seen": "2026-10-17T05:16:05.769100+00:00",
+      "last_seen": "2026-10-17T09:39:36.203078+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -36249,7 +36249,7 @@
       "sponsorship": null,
       "content_hash": "75ccf65cc337a6f573bf2b63d1b674cfc43f1fd781849c782fed4a4e1d1ada02",
       "first_discovered": "2026-10-13T02:59:56.255867+00:00",
-      "last_seen": "2026-10-17T05:16:16.283426+00:00",
+      "last_seen": "2026-10-17T09:39:42.986194+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -36994,7 +36994,7 @@
       "sponsorship": null,
       "content_hash": "71eed7d65f13230efc06a7017d4751309f9e37af8f6fe0e0d1e005735e4c7c60",
       "first_discovered": "2026-10-13T03:04:21.861114+00:00",
-      "last_seen": "2026-10-17T00:35:10.547607+00:00",
+      "last_seen": "2026-10-17T09:39:59.775214+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -38711,7 +38711,7 @@
       "sponsorship": null,
       "content_hash": "a5702ca10477226954702c2a20b5671a1430a6ad24d45af344612a6a1b5e3e41",
       "first_discovered": "2026-10-13T03:05:10.450819+00:00",
-      "last_seen": "2026-10-17T00:47:24.635482+00:00",
+      "last_seen": "2026-10-17T09:40:00.157770+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -38782,7 +38782,7 @@
       "sponsorship": null,
       "content_hash": "fbc8d6e5c1127418fbe7008055318df7b707458c2b6c6a4d1eb053d77471cf77",
       "first_discovered": "2026-10-13T03:05:11.375519+00:00",
-      "last_seen": "2026-10-17T00:40:06.346988+00:00",
+      "last_seen": "2026-10-17T09:39:15.580023+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -38897,7 +38897,7 @@
       "sponsorship": null,
       "content_hash": "57d9926bb5aa78fc1e69f88aa5a657d1e799a80e14378bd3db1f4fc2fec744fc",
       "first_discovered": "2026-10-13T03:05:13.877726+00:00",
-      "last_seen": "2026-10-17T00:47:33.875244+00:00",
+      "last_seen": "2026-10-17T09:39:28.637621+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -41183,7 +41183,7 @@
       "sponsorship": null,
       "content_hash": "45b5597a9df0a99fda552e0b7b3b8f600bf9a3b1edb2168674feee36e9b8007f",
       "first_discovered": "2026-10-13T03:06:18.991135+00:00",
-      "last_seen": "2026-10-16T15:01:04.086333+00:00",
+      "last_seen": "2026-10-17T09:40:05.185126+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -41479,7 +41479,7 @@
       "sponsorship": null,
       "content_hash": "f6e2d0a38eee5b25d969bec0bb28f61db5bdfa43eb970844df9c912c1af479a9",
       "first_discovered": "2026-10-13T03:06:26.136323+00:00",
-      "last_seen": "2026-10-17T00:47:41.283624+00:00",
+      "last_seen": "2026-10-17T09:40:37.650710+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -41685,7 +41685,7 @@
       "sponsorship": null,
       "content_hash": "851cad87ebd9ac91242cb3ec8e9b7a05209aecb004a870ca642eea1fcfb180e0",
       "first_discovered": "2026-10-13T03:06:32.649112+00:00",
-      "last_seen": "2026-10-17T00:49:09.958754+00:00",
+      "last_seen": "2026-10-17T09:40:26.331655+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -41709,7 +41709,7 @@
       "sponsorship": null,
       "content_hash": "fd622fc0cbd0850f6d430804d0d8dbbf4269ddb658f2f918e3f04f130293a5fe",
       "first_discovered": "2026-10-13T03:06:33.771574+00:00",
-      "last_seen": "2026-10-17T00:36:41.267601+00:00",
+      "last_seen": "2026-10-17T09:40:38.323557+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -41733,7 +41733,7 @@
       "sponsorship": null,
       "content_hash": "78cc90623156f60ab03bb4aca03865d85337aafb31fc364a9468811865d680f9",
       "first_discovered": "2026-10-13T03:06:34.086505+00:00",
-      "last_seen": "2026-10-17T00:49:12.523041+00:00",
+      "last_seen": "2026-10-17T09:40:36.062747+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42449,7 +42449,7 @@
       "sponsorship": null,
       "content_hash": "e0221535ec0eed0eaa55065aa79423d9f7eb69ddfd624efb9a64344bddbbac15",
       "first_discovered": "2026-10-13T03:06:52.923879+00:00",
-      "last_seen": "2026-10-17T00:39:10.463707+00:00",
+      "last_seen": "2026-10-17T09:41:10.821504+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42494,7 +42494,7 @@
       "sponsorship": null,
       "content_hash": "76ae4849a5e767d87b39d570ea3ae98396264a7aabd4f7fa347f04d7dbfa6a15",
       "first_discovered": "2026-10-13T03:06:53.399954+00:00",
-      "last_seen": "2026-10-17T00:39:14.755471+00:00",
+      "last_seen": "2026-10-17T09:41:14.786828+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42728,7 +42728,7 @@
       "sponsorship": null,
       "content_hash": "a69feb74d8c8abf4770dfae1ae335d6b0e39b0cd98eaef03c73f0ba602aa2eb7",
       "first_discovered": "2026-10-13T03:07:00.452081+00:00",
-      "last_seen": "2026-10-16T22:16:57.916371+00:00",
+      "last_seen": "2026-10-17T09:38:40.561695+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42786,8 +42786,8 @@
       "title": "Senior Mask Design Engineer \u2013 Hardware",
       "location": "Santa Clara, CA,US, United States; NV,US, United States; WA,US, United States; AZ,US, United States; Remote, OR,US, United States; CA,US, United States; US",
       "url": "https://jobs.nvidia.com/careers/job/893396903115",
-      "description": "NVIDIA\u2019s GPUs and SOCs are the world leaders in power, performance, and efficiency. We are continually innovating to deliver new and creative, unusual solutions to extraordinary problems in a wide range of sectors. To this purpose, we are now seeking a hard-working Senior Mask Design Engineer who is committed to making a difference in the world through their contributions!  \n\n\nThis position will collaborate with Package Technical Lead and different design teams in designing and developing sophisticated, detailed layout of silicon interposers for NVIDIA products. In addition, work with design teams to plan schedules, resolve costs, manufacturing, and electrical design issues.\n\n  \nWhat you'll be doing:\n\n  * You'll collaborate cross functionally with package technical lead (PTL) and I/O signal integrity and technology engineers to deliver solution for product packages in tight schedule.\n\n  * Performing physical layout for silicon interposer using Cadence tools.\n\n  * Conduct design feasibility studies to evaluate the package design goals for size, cost, and system performance.\n\n  * Take part in studying layout floorplan and perform custom layout and verification against design rules and netlists.\n\n  * Propose layout design trade-offs to the PTL for resolution and implementation.  \n\n\n\n\n\nWhat we need to see:\n\n  * Hold a B.S. Electrical Engineering or equivalent experience\n\n  * Minimum of 5+ years proven experience in Mask and Layout Design.\n\n  * Deep understanding of layout concepts in submicron CMOS technologies.\n\n  * You are an authority with Cadence layout tools - particularly Virtuoso.\n\n  * Knowledge of Integrity auto-routing is a plus.\n\n  * Experience running and debugging with verification tools such as Calibre, ICV, Thunder, etc.\n\n  * Proficient in scripting languages like Perl, Python, Skill, etc.\n\n  * Should have knowledge of DRC and LVS checking flows, ability to customize decks.\n\n  * Knowledge of APD package layout tool is a plus.\n\n  * Good understanding of packaging technology is useful.\n\n  * You can work optimally in a team, good interpersonal skills, passion and positive energy.\n\n\n\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers! We have some of the most forward-thinking and dedicated people in the world working for us. If you're creative and autonomous, we want to hear from you\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 212,750 USD for Level 3, and 168,000 USD - 258,750 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 6, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
-      "posting_date": "2026-10-02T00:00:00",
+      "description": "NVIDIA\u2019s GPUs and SOCs are the world leaders in power, performance, and efficiency. We are continually innovating to deliver new and creative, unusual solutions to extraordinary problems in a wide range of sectors. To this purpose, we are now seeking a hard-working Senior Mask Design Engineer who is committed to making a difference in the world through their contributions!  \n\n\nThis position will collaborate with Package Technical Lead and different design teams in designing and developing sophisticated, detailed layout of silicon interposers for NVIDIA products. In addition, work with design teams to plan schedules, resolve costs, manufacturing, and electrical design issues.\n\n  \nWhat you'll be doing:\n\n  * You'll collaborate cross functionally with package technical lead (PTL) and I/O signal integrity and technology engineers to deliver solution for product packages in tight schedule.\n\n  * Performing physical layout for silicon interposer using Cadence tools.\n\n  * Conduct design feasibility studies to evaluate the package design goals for size, cost, and system performance.\n\n  * Take part in studying layout floorplan and perform custom layout and verification against design rules and netlists.\n\n  * Propose layout design trade-offs to the PTL for resolution and implementation.  \n\n\n\n\n\nWhat we need to see:\n\n  * Hold a B.S. Electrical Engineering or equivalent experience\n\n  * Minimum of 5+ years proven experience in Mask and Layout Design.\n\n  * Deep understanding of layout concepts in submicron CMOS technologies.\n\n  * You are an authority with Cadence layout tools - particularly Virtuoso.\n\n  * Knowledge of Integrity auto-routing is a plus.\n\n  * Experience running and debugging with verification tools such as Calibre, ICV, Thunder, etc.\n\n  * Proficient in scripting languages like Perl, Python, Skill, etc.\n\n  * Should have knowledge of DRC and LVS checking flows, ability to customize decks.\n\n  * Knowledge of APD package layout tool is a plus.\n\n  * Good understanding of packaging technology is useful.\n\n  * You can work optimally in a team, good interpersonal skills, passion and positive energy.\n\n\n\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers! We have some of the most forward-thinking and dedicated people in the world working for us. If you're creative and autonomous, we want to hear from you\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 212,750 USD for Level 3, and 168,000 USD - 258,750 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 20, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-16T00:00:00",
       "experience": "  * Minimum of 5+ years proven experience in Mask and Layout Design",
       "classification": "Not Eligible",
       "reasons": [
@@ -42797,9 +42797,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "c153d6e5c640cb3565032281ada1baab9f5a1b0459b097dcaef30484e90b9f5d",
+      "content_hash": "9dfe2ee415864952054396bb8c9325ea56f7a184b2f90d7da8e252f0f4ba1f9b",
       "first_discovered": "2026-10-13T03:07:01.450681+00:00",
-      "last_seen": "2026-10-16T19:07:38.646958+00:00",
+      "last_seen": "2026-10-17T09:40:25.014131+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42880,8 +42880,8 @@
       "title": "Senior Package Layout Engineer - Hardware",
       "location": "Santa Clara, CA,US, United States; NV,US, United States; WA,US, United States; AZ,US, United States; Remote, OR,US, United States; CA,US, United States; US",
       "url": "https://jobs.nvidia.com/careers/job/893396905648",
-      "description": "NVIDIA's GPUs and SOCs are the world leaders in power, performance and efficiency. We are continually innovating to deliver new and creative, unusual solutions to extraordinary problems in a wide range of sectors. To this purpose, we are now seeking a hard-working Senior Package Layout Engineer who is committed to making a difference in the world through their contributions!\n\nThis position will collaborate with Technical Package Lead and different design teams in the design and development of sophisticated, detailed layout of IC substrates for NVIDIA products. In addition, work with design teams to plan schedules, resolve costs, manufacturing, and electrical design issues.\n\n  \nWhat you'll be doing:\n\n  * As part of a Layout team, you will collaborate to implement high speed/density ASIC packages.\n\n  * Perform substrate breakout patterns for ASIC packages.\n\n  * Optimize package pinout incorporating system level trade-offs of pins assignment.\n\n  * Help perform package routing, placement, stack-up, reference plane and power distribution using Cadence APD or SiP tool suite.\n\n  * Propose layout design trade-offs to the Technical Package Lead for resolution and implementation.\n\n  * Conduct design feasibility studies to evaluate the Package design goals for size, cost, and system performance.\n\n  * Develop symbols and CAD library databases using Cadence APD design tools\n\n  * Develop methodologies to improve layout productivity\n\n\n\n\n  \nWhat we need to see:\n\n  * Hold a B.S. Electrical Engineering or equivalent experience\n\n  * 5+ years experience in PCB Layout of graphics cards, motherboards, line cards or other related technology. Experience with HDI designs is a plus\n\n  * Proven experience in substrate layout of wire bond and flip chip packages, preferred\n\n  * Significant background with Cadence APD or SiP and/or PCB layout tools (including Constraint Manager)\n\n  * Solid understanding of high-speed design signal integrity practices\n\n  * Experience with Virtuoso and Calibre is a plus\n\n  * Experience using Valor is helpful  \n\n\n\n\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers! We have some of the most forward-thinking and dedicated people in the world working for us. If you're creative and autonomous, we want to hear from you.\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 212,750 USD for Level 3, and 168,000 USD - 258,750 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 6, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
-      "posting_date": "2026-10-02T00:00:00",
+      "description": "NVIDIA's GPUs and SOCs are the world leaders in power, performance and efficiency. We are continually innovating to deliver new and creative, unusual solutions to extraordinary problems in a wide range of sectors. To this purpose, we are now seeking a hard-working Senior Package Layout Engineer who is committed to making a difference in the world through their contributions!\n\nThis position will collaborate with Technical Package Lead and different design teams in the design and development of sophisticated, detailed layout of IC substrates for NVIDIA products. In addition, work with design teams to plan schedules, resolve costs, manufacturing, and electrical design issues.\n\n  \nWhat you'll be doing:\n\n  * As part of a Layout team, you will collaborate to implement high speed/density ASIC packages.\n\n  * Perform substrate breakout patterns for ASIC packages.\n\n  * Optimize package pinout incorporating system level trade-offs of pins assignment.\n\n  * Help perform package routing, placement, stack-up, reference plane and power distribution using Cadence APD or SiP tool suite.\n\n  * Propose layout design trade-offs to the Technical Package Lead for resolution and implementation.\n\n  * Conduct design feasibility studies to evaluate the Package design goals for size, cost, and system performance.\n\n  * Develop symbols and CAD library databases using Cadence APD design tools\n\n  * Develop methodologies to improve layout productivity\n\n\n\n\n  \nWhat we need to see:\n\n  * Hold a B.S. Electrical Engineering or equivalent experience\n\n  * 5+ years experience in PCB Layout of graphics cards, motherboards, line cards or other related technology. Experience with HDI designs is a plus\n\n  * Proven experience in substrate layout of wire bond and flip chip packages, preferred\n\n  * Significant background with Cadence APD or SiP and/or PCB layout tools (including Constraint Manager)\n\n  * Solid understanding of high-speed design signal integrity practices\n\n  * Experience with Virtuoso and Calibre is a plus\n\n  * Experience using Valor is helpful  \n\n\n\n\n\nNVIDIA is widely considered to be one of the technology world\u2019s most desirable employers! We have some of the most forward-thinking and dedicated people in the world working for us. If you're creative and autonomous, we want to hear from you.\n\n#LI-Hybrid\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 136,000 USD - 212,750 USD for Level 3, and 168,000 USD - 258,750 USD for Level 4.\n\nYou will also be eligible for equity and benefits.\n\nApplications for this job will be accepted at least until October 20, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.",
+      "posting_date": "2026-10-16T00:00:00",
       "experience": "  * 5+ years experience in PCB Layout of graphics cards, motherboards, line cards or other r",
       "classification": "Not Eligible",
       "reasons": [
@@ -42891,9 +42891,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "db2bd7a03668ebb62be230faa45fec9ce6c7ff5b12ab037f66728b1254fa6449",
+      "content_hash": "ff1ce4fce3d5557abc537332761f6f950296c8affde576b8cd31b814953fc86d",
       "first_discovered": "2026-10-13T03:07:04.398573+00:00",
-      "last_seen": "2026-10-15T11:36:50.676405+00:00",
+      "last_seen": "2026-10-17T09:40:27.413092+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43315,7 +43315,7 @@
       "sponsorship": null,
       "content_hash": "e393e326242553ae3e77532fbb48a68fc9aaf27cffc124a33e9abb4bbd0dc23e",
       "first_discovered": "2026-10-13T03:07:15.565253+00:00",
-      "last_seen": "2026-10-16T22:25:12.209212+00:00",
+      "last_seen": "2026-10-17T09:39:10.168803+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44000,7 +44000,7 @@
       "sponsorship": null,
       "content_hash": "6062c85c784f1387c6671c98286fbe36240e7c34046627b141c26be278bd885a",
       "first_discovered": "2026-10-13T03:07:35.630960+00:00",
-      "last_seen": "2026-10-17T00:39:01.112975+00:00",
+      "last_seen": "2026-10-17T09:39:30.076670+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44048,7 +44048,7 @@
       "sponsorship": null,
       "content_hash": "d39497ffaca10f6c1ec2f92ee8fa97b6fdc3d573da674f4294e5c516d484a315",
       "first_discovered": "2026-10-13T03:07:37.501470+00:00",
-      "last_seen": "2026-10-16T22:25:17.607083+00:00",
+      "last_seen": "2026-10-17T09:38:59.706534+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44143,7 +44143,7 @@
       "sponsorship": null,
       "content_hash": "9d7a5b43602d3047a0feb6da127a8f3cae6ff521f84897b9f8776284d6f0e9fa",
       "first_discovered": "2026-10-13T03:07:41.269645+00:00",
-      "last_seen": "2026-10-16T15:04:00.287856+00:00",
+      "last_seen": "2026-10-17T09:38:55.912443+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44237,7 +44237,7 @@
       "sponsorship": null,
       "content_hash": "7487ad1806bfccd066b59bd68525b34694cc81a2fa7993a82f34ec167b5f815c",
       "first_discovered": "2026-10-13T03:07:43.044020+00:00",
-      "last_seen": "2026-10-17T00:40:31.273677+00:00",
+      "last_seen": "2026-10-17T09:39:34.115835+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44327,7 +44327,7 @@
       "sponsorship": null,
       "content_hash": "93bafb3ff5a29182be2219ab1b04b4bd35474dd84f1135dd8f916d958eb756a1",
       "first_discovered": "2026-10-13T03:07:45.624410+00:00",
-      "last_seen": "2026-10-17T00:39:46.784269+00:00",
+      "last_seen": "2026-10-17T09:39:35.516157+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44696,7 +44696,7 @@
       "sponsorship": null,
       "content_hash": "a3466abf8fd4c000c6a6d29fa77b1db776e398c4c624c9cac29e43f63e67b147",
       "first_discovered": "2026-10-13T03:07:55.460175+00:00",
-      "last_seen": "2026-10-17T00:48:06.247978+00:00",
+      "last_seen": "2026-10-17T09:39:38.259631+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44953,7 +44953,7 @@
       "sponsorship": null,
       "content_hash": "1352357effda5dcec0c9a509403ad64bf2d8c9fe785b6266e9c460419750ed0f",
       "first_discovered": "2026-10-13T03:08:03.645613+00:00",
-      "last_seen": "2026-10-15T15:59:44.093817+00:00",
+      "last_seen": "2026-10-17T09:39:39.883347+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45026,7 +45026,7 @@
       "sponsorship": null,
       "content_hash": "57dc3b4ade088fd260c330bab1e4520656751303abd516e155c0882a8e812654",
       "first_discovered": "2026-10-13T03:08:05.073849+00:00",
-      "last_seen": "2026-10-17T00:39:34.382821+00:00",
+      "last_seen": "2026-10-17T09:40:08.422372+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45234,7 +45234,7 @@
       "sponsorship": null,
       "content_hash": "6df9a45d7c6ceab3952f095d4749f1f91c020faca6ccfdec2a3a5e8ff723fcc0",
       "first_discovered": "2026-10-13T03:08:08.681032+00:00",
-      "last_seen": "2026-10-17T05:20:21.138561+00:00",
+      "last_seen": "2026-10-17T09:38:32.138357+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45279,7 +45279,7 @@
       "sponsorship": null,
       "content_hash": "a0f9f0af3241e7865b0a653d7de95e63fb762fefe4b33dbb7711c3cbae9179e0",
       "first_discovered": "2026-10-13T03:08:13.598414+00:00",
-      "last_seen": "2026-10-17T05:20:26.323385+00:00",
+      "last_seen": "2026-10-17T09:38:35.276963+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45348,7 +45348,7 @@
       "sponsorship": null,
       "content_hash": "c7bc4795006ccf8f3102041f6e95d52f7a41dda6add58ac3bbe46de2aa316a28",
       "first_discovered": "2026-10-13T03:08:14.400013+00:00",
-      "last_seen": "2026-10-17T05:20:24.540508+00:00",
+      "last_seen": "2026-10-17T09:38:32.576931+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45416,7 +45416,7 @@
       "sponsorship": null,
       "content_hash": "11b022a8ef05400982053a217e67c61d9a1371f1e441b663b8fd559386c7a5a3",
       "first_discovered": "2026-10-13T03:08:15.874641+00:00",
-      "last_seen": "2026-10-17T05:20:22.602410+00:00",
+      "last_seen": "2026-10-17T09:38:33.851094+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45440,7 +45440,7 @@
       "sponsorship": null,
       "content_hash": "255b2c007dd0fbbead344d7eb228b1742d374562cd374b1fea8f73f40d8fadcd",
       "first_discovered": "2026-10-13T03:08:16.051050+00:00",
-      "last_seen": "2026-10-17T00:39:02.043844+00:00",
+      "last_seen": "2026-10-17T09:39:36.991755+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45464,7 +45464,7 @@
       "sponsorship": null,
       "content_hash": "3270716a0f409d8b09191f32ef17a1b9b4c913c77fe342445e4152dd27df86c4",
       "first_discovered": "2026-10-13T03:08:17.003693+00:00",
-      "last_seen": "2026-10-17T05:20:27.453754+00:00",
+      "last_seen": "2026-10-17T09:38:36.467983+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45532,7 +45532,7 @@
       "sponsorship": null,
       "content_hash": "19f27b276cbec48eaf7f7ab2965b2a662707de14db861698ed7ffd83aba400bd",
       "first_discovered": "2026-10-13T03:08:18.221202+00:00",
-      "last_seen": "2026-10-17T05:20:32.602037+00:00",
+      "last_seen": "2026-10-17T09:38:46.142134+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45604,7 +45604,7 @@
       "sponsorship": null,
       "content_hash": "e93c17556693ceb8f96f104004e104af1bfeb1f72e8206f6620a2ac99e5a928f",
       "first_discovered": "2026-10-13T03:08:19.313874+00:00",
-      "last_seen": "2026-10-17T05:20:34.428116+00:00",
+      "last_seen": "2026-10-17T09:38:48.298967+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45628,7 +45628,7 @@
       "sponsorship": null,
       "content_hash": "86b11f1d8b09f2d32ccea17957a4804d45e080e3393f0b8c56b9777549009cba",
       "first_discovered": "2026-10-13T03:08:19.911662+00:00",
-      "last_seen": "2026-10-17T05:20:35.326484+00:00",
+      "last_seen": "2026-10-17T09:38:45.259381+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45675,7 +45675,7 @@
       "sponsorship": null,
       "content_hash": "4676fe534bc747b5bedb9e05c28116168a5e524f834dd73f8c85e39da2203738",
       "first_discovered": "2026-10-13T03:08:20.440947+00:00",
-      "last_seen": "2026-10-17T05:20:45.640463+00:00",
+      "last_seen": "2026-10-17T09:38:51.690608+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45721,7 +45721,7 @@
       "sponsorship": null,
       "content_hash": "d1a22b6fd5274ba6bd14ffd37d3d6b9150f4f6041815447f9122e5536ef5b1f7",
       "first_discovered": "2026-10-13T03:08:21.330132+00:00",
-      "last_seen": "2026-10-17T05:20:45.381038+00:00",
+      "last_seen": "2026-10-17T09:38:53.645032+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45789,7 +45789,7 @@
       "sponsorship": null,
       "content_hash": "95abe5189bc93fb92c74d53e266069aac5431958789627cad07a2b9d70e30183",
       "first_discovered": "2026-10-13T03:08:26.208293+00:00",
-      "last_seen": "2026-10-16T00:59:30.678235+00:00",
+      "last_seen": "2026-10-17T09:38:57.962326+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45860,7 +45860,7 @@
       "sponsorship": null,
       "content_hash": "5db14123d48ccf0516337f59616238f541e0ae2b3cd5bf6a5fcc55882aca571c",
       "first_discovered": "2026-10-13T03:08:27.524967+00:00",
-      "last_seen": "2026-10-17T05:20:51.709139+00:00",
+      "last_seen": "2026-10-17T09:38:57.102212+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45883,7 +45883,7 @@
       "sponsorship": null,
       "content_hash": "76bbd42572a0c472d1acac7c72800cfd9a750ada896acb05a15db81e41db5175",
       "first_discovered": "2026-10-13T03:08:27.858068+00:00",
-      "last_seen": "2026-10-17T05:20:48.767343+00:00",
+      "last_seen": "2026-10-17T09:38:54.765349+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -45929,7 +45929,7 @@
       "sponsorship": null,
       "content_hash": "55c0a8a9642000e63e24f0d47ec32b97e212f26a7073268cf81a16942d4e123a",
       "first_discovered": "2026-10-13T03:08:28.533388+00:00",
-      "last_seen": "2026-10-17T00:43:59.029040+00:00",
+      "last_seen": "2026-10-17T09:39:08.998587+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46671,7 +46671,7 @@
       "sponsorship": null,
       "content_hash": "e344936ffba447bf796594d6bc1069bcbe0f497655542d2361bc29a1aead6d53",
       "first_discovered": "2026-10-13T03:30:46.147284+00:00",
-      "last_seen": "2026-10-16T00:59:28.602249+00:00",
+      "last_seen": "2026-10-17T09:39:05.780139+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49260,7 +49260,7 @@
       "sponsorship": null,
       "content_hash": "fa69f08f24ed998feefe4730fbcf4a514e7115e00e7818ed140080af6dc8a3fa",
       "first_discovered": "2026-10-13T03:42:38.652999+00:00",
-      "last_seen": "2026-10-16T22:22:07.937139+00:00",
+      "last_seen": "2026-10-17T09:40:57.931942+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49284,7 +49284,7 @@
       "sponsorship": null,
       "content_hash": "e78b018ab1fb6f3b7f4bc083e844b64d4998b278afdc4f1fb9ef28db660e4bfb",
       "first_discovered": "2026-10-13T03:42:39.333390+00:00",
-      "last_seen": "2026-10-16T22:22:13.137647+00:00",
+      "last_seen": "2026-10-17T09:40:59.547146+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49306,7 +49306,7 @@
       "sponsorship": null,
       "content_hash": "0ca86ee7b5f63aaa1867d454f009317916ed6df4ef543584d0f97b351d8c617f",
       "first_discovered": "2026-10-13T03:42:39.956217+00:00",
-      "last_seen": "2026-10-16T22:22:13.706458+00:00",
+      "last_seen": "2026-10-17T09:41:01.463158+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49329,7 +49329,7 @@
       "sponsorship": null,
       "content_hash": "4c2d75eab707984bfca47be2beed6ace1aaab7114d74668d0f90bdc22b7005bd",
       "first_discovered": "2026-10-13T03:42:44.288916+00:00",
-      "last_seen": "2026-10-16T22:22:15.660055+00:00",
+      "last_seen": "2026-10-17T09:41:12.853931+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49353,7 +49353,7 @@
       "sponsorship": null,
       "content_hash": "4c797c3d180e583476ce81983e21f1f8a3ddc46c212809cf39bdb57614df5730",
       "first_discovered": "2026-10-13T03:42:44.633144+00:00",
-      "last_seen": "2026-10-16T22:22:14.558187+00:00",
+      "last_seen": "2026-10-17T09:41:01.974538+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49375,7 +49375,7 @@
       "sponsorship": null,
       "content_hash": "bea1614b2f452963a770c4967c6afcb6e93078c039f055e214f0da32284d6a74",
       "first_discovered": "2026-10-13T03:42:45.216157+00:00",
-      "last_seen": "2026-10-16T22:22:04.149877+00:00",
+      "last_seen": "2026-10-17T09:40:43.156185+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49399,7 +49399,7 @@
       "sponsorship": null,
       "content_hash": "ebfbeb12170a4b6e2277cb1359c2d689bf4e3d73dcdadeee793af4909fce41e8",
       "first_discovered": "2026-10-13T03:42:45.941434+00:00",
-      "last_seen": "2026-10-16T22:22:16.393784+00:00",
+      "last_seen": "2026-10-17T09:41:13.998408+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49421,7 +49421,7 @@
       "sponsorship": null,
       "content_hash": "f37b7dd1bceb55b43ce157e9dd41045c2f9b5dbd20f77a7c1ebdeb01485bc1ea",
       "first_discovered": "2026-10-13T03:42:46.551284+00:00",
-      "last_seen": "2026-10-16T22:22:17.007341+00:00",
+      "last_seen": "2026-10-17T09:41:15.241148+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49444,7 +49444,7 @@
       "sponsorship": null,
       "content_hash": "3861e84e669a059425aadfe0a540c57add4f9de9791a0e4b9eae4861011ed485",
       "first_discovered": "2026-10-13T03:42:47.116450+00:00",
-      "last_seen": "2026-10-16T22:22:17.717632+00:00",
+      "last_seen": "2026-10-17T09:41:13.599364+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49466,7 +49466,7 @@
       "sponsorship": null,
       "content_hash": "97bdd03fcf1a269a2ee7623d6a01dfe8701effd39feb83ac4f57a401596d6bb7",
       "first_discovered": "2026-10-13T03:42:47.637399+00:00",
-      "last_seen": "2026-10-16T22:22:18.311575+00:00",
+      "last_seen": "2026-10-17T09:41:15.975364+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49488,7 +49488,7 @@
       "sponsorship": null,
       "content_hash": "929a7a3fe174f2e6e3ecf8fbe8adc413fa141a2d93a65c93f5af72231e641473",
       "first_discovered": "2026-10-13T03:42:48.168326+00:00",
-      "last_seen": "2026-10-16T22:22:23.676118+00:00",
+      "last_seen": "2026-10-17T09:41:17.611164+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49624,7 +49624,7 @@
       "sponsorship": null,
       "content_hash": "10c74a147ebd4db442e46785e25df4bc4e13b017e4e9e8a303d4c96574fe1411",
       "first_discovered": "2026-10-13T03:42:55.259318+00:00",
-      "last_seen": "2026-10-16T22:22:06.592838+00:00",
+      "last_seen": "2026-10-17T09:40:53.496587+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49785,7 +49785,7 @@
       "sponsorship": null,
       "content_hash": "401e431859b7ed91e6b2cfc34beabd274448e58aaadf46f788e51a503740d114",
       "first_discovered": "2026-10-13T03:43:02.780980+00:00",
-      "last_seen": "2026-10-16T22:22:15.267979+00:00",
+      "last_seen": "2026-10-17T09:41:05.872122+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49807,7 +49807,7 @@
       "sponsorship": null,
       "content_hash": "33917383e95648c4442584fdf63887a9e9d1dde7abd3ef087940d47ec91bc7ab",
       "first_discovered": "2026-10-13T03:43:03.501073+00:00",
-      "last_seen": "2026-10-16T22:22:05.088847+00:00",
+      "last_seen": "2026-10-17T09:40:47.030698+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49946,7 +49946,7 @@
       "sponsorship": null,
       "content_hash": "6967dc770a4a9b3802bbb485575488ca4bb43ddfd3c51316f8bffb9555e13764",
       "first_discovered": "2026-10-13T03:43:06.715442+00:00",
-      "last_seen": "2026-10-16T22:22:02.327618+00:00",
+      "last_seen": "2026-10-17T09:40:41.946140+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -50201,7 +50201,7 @@
       "sponsorship": null,
       "content_hash": "34d8b1a5fd6ce5af85045b96f9861d1d9f6b9d0f6e415bc5a6cd024edc57f770",
       "first_discovered": "2026-10-13T03:43:16.381431+00:00",
-      "last_seen": "2026-10-16T22:22:07.346441+00:00",
+      "last_seen": "2026-10-17T09:40:54.482777+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -50360,7 +50360,7 @@
       "sponsorship": null,
       "content_hash": "6a7930e04a7b1f76956a56d6c64d3bf2d364006318639602155580bfce97ad6a",
       "first_discovered": "2026-10-13T03:43:24.244266+00:00",
-      "last_seen": "2026-10-16T22:22:02.788458+00:00",
+      "last_seen": "2026-10-17T09:40:44.912952+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -52186,7 +52186,7 @@
       "sponsorship": null,
       "content_hash": "8cded228eb342edeba3abb1f9bdc732ca4555c67a9dc44439937492c532fc882",
       "first_discovered": "2026-10-13T03:44:36.464932+00:00",
-      "last_seen": "2026-10-17T05:17:30.684951+00:00",
+      "last_seen": "2026-10-17T09:38:34.259083+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -52868,7 +52868,7 @@
       "sponsorship": null,
       "content_hash": "52af246d860f9371b7452bd66ed9169389e962b02da1ef3097c0c29f5e22a59b",
       "first_discovered": "2026-10-13T03:57:54.094142+00:00",
-      "last_seen": "2026-10-17T00:48:40.402771+00:00",
+      "last_seen": "2026-10-17T09:40:43.922600+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56330,7 +56330,7 @@
       "sponsorship": null,
       "content_hash": "01cdec6b798f3660f680a2154825dfbb1c1c6484597fbe7b861866e6d3de9915",
       "first_discovered": "2026-10-13T04:03:07.715352+00:00",
-      "last_seen": "2026-10-17T00:39:56.332228+00:00",
+      "last_seen": "2026-10-17T09:39:07.898098+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56378,7 +56378,7 @@
       "sponsorship": null,
       "content_hash": "760e5fbeda72fb2acb4f056a68f63f4589638823d3bee778857818c27446335e",
       "first_discovered": "2026-10-13T04:03:09.619966+00:00",
-      "last_seen": "2026-10-17T00:47:16.509111+00:00",
+      "last_seen": "2026-10-17T09:39:16.143199+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56402,7 +56402,7 @@
       "sponsorship": null,
       "content_hash": "fdb7882ffbd4c81338313304f91ba4e5b5321198e85816c2e3400943c6f54b11",
       "first_discovered": "2026-10-13T04:03:10.751239+00:00",
-      "last_seen": "2026-10-17T00:38:51.260594+00:00",
+      "last_seen": "2026-10-17T09:39:29.754804+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56542,7 +56542,7 @@
       "sponsorship": null,
       "content_hash": "a9b4dd8cf23f0f50c4bc2514e39d840805948e2ef722e61c6c5ccc5c014f5d58",
       "first_discovered": "2026-10-13T04:03:25.917554+00:00",
-      "last_seen": "2026-10-17T00:47:18.020991+00:00",
+      "last_seen": "2026-10-17T09:39:17.084989+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56590,7 +56590,7 @@
       "sponsorship": null,
       "content_hash": "b1350aa15934ca474ba3d5224b398e7586509837d079502091a4d86b684a355a",
       "first_discovered": "2026-10-13T04:03:29.430427+00:00",
-      "last_seen": "2026-10-16T01:01:15.701059+00:00",
+      "last_seen": "2026-10-17T09:39:18.196023+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56638,7 +56638,7 @@
       "sponsorship": null,
       "content_hash": "2409da72066367e9412d33761506c7b6a3b711dd94ff4182e16ee707ddd13f95",
       "first_discovered": "2026-10-13T04:03:32.896638+00:00",
-      "last_seen": "2026-10-17T00:39:35.155738+00:00",
+      "last_seen": "2026-10-17T09:39:30.884868+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56662,7 +56662,7 @@
       "sponsorship": null,
       "content_hash": "b5ae48ab9c7eb6d7dd4a824a842b66b63c692dae38ed0d5c9cbeb460f6b60f3c",
       "first_discovered": "2026-10-13T04:03:33.369144+00:00",
-      "last_seen": "2026-10-16T19:00:13.300496+00:00",
+      "last_seen": "2026-10-17T09:39:19.859633+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56805,7 +56805,7 @@
       "sponsorship": null,
       "content_hash": "4bc37c689a90e20ac2e9ff57c87cd5d3d02e0c6747e1502283407714a9b5e877",
       "first_discovered": "2026-10-13T04:03:50.291344+00:00",
-      "last_seen": "2026-10-17T00:39:25.021030+00:00",
+      "last_seen": "2026-10-17T09:39:09.411551+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -56829,7 +56829,7 @@
       "sponsorship": null,
       "content_hash": "113802190089da62b230552249d740b27403384d1008bd24bd2be0aeb8da8b13",
       "first_discovered": "2026-10-13T04:03:50.653197+00:00",
-      "last_seen": "2026-10-17T00:47:24.245266+00:00",
+      "last_seen": "2026-10-17T09:39:12.343731+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59573,7 +59573,7 @@
       "sponsorship": null,
       "content_hash": "2ba121562d6fc515f140cb1625ae9c05886e3ee5eaa2e8014b80452c187e0c0d",
       "first_discovered": "2026-10-13T04:06:38.894232+00:00",
-      "last_seen": "2026-10-17T00:35:12.556585+00:00",
+      "last_seen": "2026-10-17T09:40:00.744049+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60681,7 +60681,7 @@
       "sponsorship": null,
       "content_hash": "f6fe96589beed5a6163fbf7782c84cb9a7ffc57b23670ae5e9f423539da660b0",
       "first_discovered": "2026-10-13T04:07:23.453714+00:00",
-      "last_seen": "2026-10-17T05:14:03.517651+00:00",
+      "last_seen": "2026-10-17T09:40:50.677103+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60704,7 +60704,7 @@
       "sponsorship": null,
       "content_hash": "270c09aa60f8b3daeecef0b775294ba354a7e75e5b71cd0d07a3fbdec2f01250",
       "first_discovered": "2026-10-13T04:07:23.619055+00:00",
-      "last_seen": "2026-10-17T05:19:48.021587+00:00",
+      "last_seen": "2026-10-17T09:39:03.059036+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60729,7 +60729,7 @@
       "sponsorship": null,
       "content_hash": "5e41928415e94bb56db47d8e7d4e28e997f63d4d6221e1cbd67c39643edd079c",
       "first_discovered": "2026-10-13T04:07:23.884810+00:00",
-      "last_seen": "2026-10-17T05:19:48.741405+00:00",
+      "last_seen": "2026-10-17T09:39:07.414041+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60752,7 +60752,7 @@
       "sponsorship": null,
       "content_hash": "1f8b7a17dcdbb5773d105b7a20c70b0b585a65d1797fbf8fd6ba2a2ca65a242c",
       "first_discovered": "2026-10-13T04:07:24.477771+00:00",
-      "last_seen": "2026-10-17T05:19:46.629199+00:00",
+      "last_seen": "2026-10-17T09:39:08.443780+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60774,7 +60774,7 @@
       "sponsorship": null,
       "content_hash": "2edc6101c9813fac618ad89587d25cc3c7bb2fa2ec28385789ddebcfb1743996",
       "first_discovered": "2026-10-13T04:07:27.078001+00:00",
-      "last_seen": "2026-10-17T05:19:53.427164+00:00",
+      "last_seen": "2026-10-17T09:39:10.684886+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60798,7 +60798,7 @@
       "sponsorship": null,
       "content_hash": "a75f3d285e3bebdce6367b0673551e5059ce919850f65a501da39636a331e88d",
       "first_discovered": "2026-10-13T04:07:28.504032+00:00",
-      "last_seen": "2026-10-17T05:19:52.995872+00:00",
+      "last_seen": "2026-10-17T09:39:11.142876+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60843,7 +60843,7 @@
       "sponsorship": null,
       "content_hash": "ae7b4f1a3fec270858f9920f7bd926df0e9ffc9ddef82b97952f19b961c214b0",
       "first_discovered": "2026-10-13T04:07:30.528948+00:00",
-      "last_seen": "2026-10-17T05:19:53.971201+00:00",
+      "last_seen": "2026-10-17T09:39:13.255758+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60937,7 +60937,7 @@
       "sponsorship": null,
       "content_hash": "76aa91b8be41102bc554f959fddff6f301c3be069ae739a5dfab286ebe449afa",
       "first_discovered": "2026-10-13T04:07:32.399656+00:00",
-      "last_seen": "2026-10-17T05:19:54.224406+00:00",
+      "last_seen": "2026-10-17T09:39:14.372588+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60960,7 +60960,7 @@
       "sponsorship": null,
       "content_hash": "4b1fed2e813c63f6d491c2c48f71e61a3422762bd676f2ee1218f50344350fa6",
       "first_discovered": "2026-10-13T04:07:32.786020+00:00",
-      "last_seen": "2026-10-17T05:19:56.133211+00:00",
+      "last_seen": "2026-10-17T09:39:21.246251+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61006,7 +61006,7 @@
       "sponsorship": null,
       "content_hash": "97ef4d5f5dbddf81d7a36476cd311a1e1790a781a8e9620588ba63130568da08",
       "first_discovered": "2026-10-13T04:07:34.481872+00:00",
-      "last_seen": "2026-10-17T05:19:18.863047+00:00",
+      "last_seen": "2026-10-17T09:38:44.157346+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61186,7 +61186,7 @@
       "sponsorship": null,
       "content_hash": "53ae62cf6f7abc419ff6979fc6a81f3c5b6e0f49e5ec5ac0fc28b51c286137cc",
       "first_discovered": "2026-10-13T04:07:42.404646+00:00",
-      "last_seen": "2026-10-17T05:19:56.744284+00:00",
+      "last_seen": "2026-10-17T09:39:22.272510+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61209,7 +61209,7 @@
       "sponsorship": null,
       "content_hash": "00454f1e0d034c49d20469885c4142adc19c46f4ae7a73e5574d4d1f68921947",
       "first_discovered": "2026-10-13T04:07:43.255197+00:00",
-      "last_seen": "2026-10-17T05:19:33.068727+00:00",
+      "last_seen": "2026-10-17T09:38:52.382026+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61256,7 +61256,7 @@
       "sponsorship": null,
       "content_hash": "863ddf2b591cf031806778507f3e56cc483bddc8ed7a5152ec55fc411d5a67eb",
       "first_discovered": "2026-10-13T04:07:44.058872+00:00",
-      "last_seen": "2026-10-17T05:20:04.297486+00:00",
+      "last_seen": "2026-10-17T09:39:21.897689+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61279,7 +61279,7 @@
       "sponsorship": null,
       "content_hash": "7d22fa1342201af8ea12aafbef2a5f45f45fe965b68c9976940a42c2d62fa29b",
       "first_discovered": "2026-10-13T04:07:44.902174+00:00",
-      "last_seen": "2026-10-17T05:20:05.369497+00:00",
+      "last_seen": "2026-10-17T09:39:22.922088+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61302,7 +61302,7 @@
       "sponsorship": null,
       "content_hash": "6b9aa954d77c76f8df5fe55f309c39ccdd9994a175390660f5a0fdc1159a9505",
       "first_discovered": "2026-10-13T04:07:45.513595+00:00",
-      "last_seen": "2026-10-17T05:20:07.363676+00:00",
+      "last_seen": "2026-10-17T09:39:26.123013+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61326,7 +61326,7 @@
       "sponsorship": null,
       "content_hash": "1a7bbb17918f292caddc3de3292cceb28f9ec6adbece3398f6f5181aee847ec2",
       "first_discovered": "2026-10-13T04:07:46.683695+00:00",
-      "last_seen": "2026-10-17T05:20:11.383647+00:00",
+      "last_seen": "2026-10-17T09:39:27.658156+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61348,7 +61348,7 @@
       "sponsorship": null,
       "content_hash": "1930c7a7980e2fb52f8bc9e881f1be79f91d12370378bcf03f495b803b60cc9a",
       "first_discovered": "2026-10-13T04:07:48.077448+00:00",
-      "last_seen": "2026-10-17T05:20:12.255651+00:00",
+      "last_seen": "2026-10-17T09:39:30.357580+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61396,7 +61396,7 @@
       "sponsorship": null,
       "content_hash": "7d10f5ba3f91d2977ac9931e001ce1b797ed00e2b54c48380b610203e2351e74",
       "first_discovered": "2026-10-13T04:07:50.369223+00:00",
-      "last_seen": "2026-10-17T05:20:14.272490+00:00",
+      "last_seen": "2026-10-17T09:39:31.465093+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61491,7 +61491,7 @@
       "sponsorship": null,
       "content_hash": "370a165e69827a60dde8b05e49a291c7df18a8091d6c48e2cee462684cb284f6",
       "first_discovered": "2026-10-13T04:07:52.430361+00:00",
-      "last_seen": "2026-10-17T05:20:13.168315+00:00",
+      "last_seen": "2026-10-17T09:39:32.005811+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61539,7 +61539,7 @@
       "sponsorship": null,
       "content_hash": "2ecc87b3fd3529674b12137e98413226f7fdcbaa76243ed94c0697ce7dc1300d",
       "first_discovered": "2026-10-13T04:07:53.264225+00:00",
-      "last_seen": "2026-10-17T05:20:16.617922+00:00",
+      "last_seen": "2026-10-17T09:39:39.281795+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61658,7 +61658,7 @@
       "sponsorship": null,
       "content_hash": "45bee2705a8c72ffffb071378fcd9d7eecec1f8a2b31af35082d2e7410e033a8",
       "first_discovered": "2026-10-13T04:08:00.720436+00:00",
-      "last_seen": "2026-10-16T15:03:08.659068+00:00",
+      "last_seen": "2026-10-17T09:40:21.102144+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61682,7 +61682,7 @@
       "sponsorship": null,
       "content_hash": "d75e580a5c65ab298ff225915670f4b05271c45a597d6e4e49e15ec413c753f3",
       "first_discovered": "2026-10-13T04:08:01.067779+00:00",
-      "last_seen": "2026-10-17T00:48:47.205535+00:00",
+      "last_seen": "2026-10-17T09:40:45.710891+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61802,7 +61802,7 @@
       "sponsorship": null,
       "content_hash": "a55323d0bd2ccbf416ebb4ea76e0656eb8ac120b7aa2fca38bdae29f52e10420",
       "first_discovered": "2026-10-13T09:30:32.707563+00:00",
-      "last_seen": "2026-10-15T01:04:18.622034+00:00",
+      "last_seen": "2026-10-17T09:40:46.157865+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61826,7 +61826,7 @@
       "sponsorship": null,
       "content_hash": "bbbbd2543a1cfdeb597618099fe06ce7bcd654e43d51129e5d34644cbd43175b",
       "first_discovered": "2026-10-13T09:30:34.362538+00:00",
-      "last_seen": "2026-10-15T01:04:17.931482+00:00",
+      "last_seen": "2026-10-17T09:40:47.632219+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61944,7 +61944,7 @@
       "sponsorship": null,
       "content_hash": "9ebc9c9b37227f7720cd29719db5cd29236191287fc6ce077247bb259589c798",
       "first_discovered": "2026-10-13T09:30:46.335030+00:00",
-      "last_seen": "2026-10-15T01:04:21.807892+00:00",
+      "last_seen": "2026-10-17T09:40:48.742560+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61966,7 +61966,7 @@
       "sponsorship": null,
       "content_hash": "8a235816398c2344576bfccc20a4a5412a2ece68ff64ea09b6e029add76a51c7",
       "first_discovered": "2026-10-13T09:30:47.979860+00:00",
-      "last_seen": "2026-10-17T05:20:33.057831+00:00",
+      "last_seen": "2026-10-17T09:38:46.681735+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62036,7 +62036,7 @@
       "sponsorship": null,
       "content_hash": "87d30beb7508daca7245bbf4ac8dfb946ab257063511fd87488d10286e3f522b",
       "first_discovered": "2026-10-13T09:30:51.579435+00:00",
-      "last_seen": "2026-10-17T00:45:26.988510+00:00",
+      "last_seen": "2026-10-17T09:39:41.759430+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62059,7 +62059,7 @@
       "sponsorship": null,
       "content_hash": "e4619d8fce5e0980fe22dfd1c839f6b74b56e57895dcb8d40bd397b3a3e9f0f3",
       "first_discovered": "2026-10-13T09:30:53.767547+00:00",
-      "last_seen": "2026-10-17T00:48:30.130894+00:00",
+      "last_seen": "2026-10-17T09:39:53.354406+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62105,7 +62105,7 @@
       "sponsorship": null,
       "content_hash": "6e7192b86102635d992e9d3e2bcd74b2cc40b9a622f2452d5ee421bac6920b07",
       "first_discovered": "2026-10-13T09:30:55.587733+00:00",
-      "last_seen": "2026-10-17T00:48:30.641491+00:00",
+      "last_seen": "2026-10-17T09:39:51.045070+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62129,7 +62129,7 @@
       "sponsorship": null,
       "content_hash": "d445a27731064bc26508ccd55832029b1e3aec9c728bc9ad9f422015490c6282",
       "first_discovered": "2026-10-13T09:30:56.896961+00:00",
-      "last_seen": "2026-10-15T01:01:49.692024+00:00",
+      "last_seen": "2026-10-17T09:39:49.551586+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62200,7 +62200,7 @@
       "sponsorship": null,
       "content_hash": "75239266d994cc8b866f5e0cf3de39bf8497fc71382b3b0796b5e268820d4602",
       "first_discovered": "2026-10-13T09:31:06.245868+00:00",
-      "last_seen": "2026-10-16T00:59:16.806239+00:00",
+      "last_seen": "2026-10-17T09:39:51.997491+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62272,7 +62272,7 @@
       "sponsorship": null,
       "content_hash": "b4959453179519eaa07eddd0acf9ca2d112816db10d817203a1275364a3166ab",
       "first_discovered": "2026-10-13T09:31:11.774401+00:00",
-      "last_seen": "2026-10-17T00:39:09.392696+00:00",
+      "last_seen": "2026-10-17T09:39:56.533780+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62342,7 +62342,7 @@
       "sponsorship": null,
       "content_hash": "9a277d959e82514283da9846525bc45e1997699a17d87e444f3e8c5b2f7f6488",
       "first_discovered": "2026-10-13T09:31:13.914414+00:00",
-      "last_seen": "2026-10-16T00:54:42.034086+00:00",
+      "last_seen": "2026-10-17T09:40:04.961113+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62460,7 +62460,7 @@
       "sponsorship": null,
       "content_hash": "bae7450bb5b9cd8549301ae34935e418abf2e5450f8e197ffbb6e3454d7f8bee",
       "first_discovered": "2026-10-13T09:31:27.084397+00:00",
-      "last_seen": "2026-10-17T00:37:05.311305+00:00",
+      "last_seen": "2026-10-17T09:40:15.588588+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -65330,7 +65330,7 @@
       "sponsorship": null,
       "content_hash": "e8d9ba5ac2f8b61674dff1ddc63fac16ae63392529463da6dcec78b9d4dbbfe8",
       "first_discovered": "2026-10-13T09:36:21.929557+00:00",
-      "last_seen": "2026-10-17T00:35:19.502420+00:00",
+      "last_seen": "2026-10-17T09:40:02.141268+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66312,7 +66312,7 @@
       "sponsorship": null,
       "content_hash": "ab205fc72b03a2204470fb81b84959c018dafe5937755765ddfbe5ee0524bf21",
       "first_discovered": "2026-10-13T09:37:44.394693+00:00",
-      "last_seen": "2026-10-17T00:44:40.372999+00:00",
+      "last_seen": "2026-10-17T09:40:58.686540+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66360,7 +66360,7 @@
       "sponsorship": null,
       "content_hash": "a0024c7d1e3300f241b3b3979b26985febc445ce2dde672f8323939a9e8db4cd",
       "first_discovered": "2026-10-13T09:37:52.841851+00:00",
-      "last_seen": "2026-10-16T00:56:44.096717+00:00",
+      "last_seen": "2026-10-17T09:41:10.268923+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66832,7 +66832,7 @@
       "sponsorship": null,
       "content_hash": "8ef22ca0f5f3472602ebab288f9a9c9643ccb146a28804bfea108889f35b13c2",
       "first_discovered": "2026-10-13T09:38:33.741660+00:00",
-      "last_seen": "2026-10-15T15:54:41.322671+00:00",
+      "last_seen": "2026-10-17T09:40:11.929341+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66856,7 +66856,7 @@
       "sponsorship": null,
       "content_hash": "149e67f76d053947ae8c162d9d7e5cd72e5a417276f0584f3750b55c6ec8f8c1",
       "first_discovered": "2026-10-13T09:38:34.019054+00:00",
-      "last_seen": "2026-10-16T00:56:17.519981+00:00",
+      "last_seen": "2026-10-17T09:40:13.798852+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66903,7 +66903,7 @@
       "sponsorship": null,
       "content_hash": "1ce35829088cd9759a69fd0b10fed712bd06a291c1b63b628b4d3bcf9741ec96",
       "first_discovered": "2026-10-13T09:38:38.214145+00:00",
-      "last_seen": "2026-10-17T00:37:03.708777+00:00",
+      "last_seen": "2026-10-17T09:40:18.661934+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66926,7 +66926,7 @@
       "sponsorship": null,
       "content_hash": "e4fbce477ae8cd400507b14cf4520ff42b14ad6d37c203526c066172d6c31b21",
       "first_discovered": "2026-10-13T09:38:39.554826+00:00",
-      "last_seen": "2026-10-17T00:35:30.804513+00:00",
+      "last_seen": "2026-10-17T09:40:17.375460+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66949,7 +66949,7 @@
       "sponsorship": null,
       "content_hash": "81ad77113d3c79b31545658f5a657a8783bc11b81a7898d17c7c25bf7ae01681",
       "first_discovered": "2026-10-13T09:38:41.147273+00:00",
-      "last_seen": "2026-10-17T00:35:29.790905+00:00",
+      "last_seen": "2026-10-17T09:40:24.017267+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66996,7 +66996,7 @@
       "sponsorship": null,
       "content_hash": "9a2f01be3fa5801501a0890825d67e3c772f6f1f95dcc873347978aca6e81697",
       "first_discovered": "2026-10-13T09:38:42.844771+00:00",
-      "last_seen": "2026-10-17T00:35:28.927466+00:00",
+      "last_seen": "2026-10-17T09:40:20.551521+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -67162,7 +67162,7 @@
       "sponsorship": null,
       "content_hash": "0bc0cb8f4c9fcb65c6aec2628909edb6d7fca76817fffa90872870c44beaf451",
       "first_discovered": "2026-10-13T09:38:54.347011+00:00",
-      "last_seen": "2026-10-16T00:56:46.750073+00:00",
+      "last_seen": "2026-10-17T09:41:11.712016+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -67909,7 +67909,7 @@
       "sponsorship": "Sponsor customer-focused innovation by leveraging telemetry, feedback, and data-driven insights to improve Purview products and services",
       "content_hash": "e369dfc486c50cf6107ac754d053aff8faffc9c3189f3ba9ace51c80537bdeb4",
       "first_discovered": "2026-10-13T09:39:56.552138+00:00",
-      "last_seen": "2026-10-17T00:42:05.079365+00:00",
+      "last_seen": "2026-10-17T09:40:56.963050+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68347,7 +68347,7 @@
       "sponsorship": null,
       "content_hash": "73becb010585a5c3e5d740c27e749bb33ba0a9e7d5d78d9a381f7c9fd4e59abb",
       "first_discovered": "2026-10-13T09:40:29.560153+00:00",
-      "last_seen": "2026-10-17T05:19:34.516434+00:00",
+      "last_seen": "2026-10-17T09:38:50.561691+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68393,7 +68393,7 @@
       "sponsorship": null,
       "content_hash": "d35cc4f7cddbc6ed81c8b4593b4889c5c7405c7871a619d507056e0549066599",
       "first_discovered": "2026-10-13T09:40:31.707620+00:00",
-      "last_seen": "2026-10-17T05:20:16.166940+00:00",
+      "last_seen": "2026-10-17T09:39:40.426151+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68417,7 +68417,7 @@
       "sponsorship": null,
       "content_hash": "b4a67a880b9b2369e63c9acd7c9664b8384cef664f7cf92f70aec6aa9ce1f84c",
       "first_discovered": "2026-10-13T09:40:31.932159+00:00",
-      "last_seen": "2026-10-17T05:20:06.290610+00:00",
+      "last_seen": "2026-10-17T09:39:24.845875+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68462,7 +68462,7 @@
       "sponsorship": null,
       "content_hash": "0c5cbad797fd31f5fa0b340cffd8348d3ade283fb1748d22b2b428426155bd18",
       "first_discovered": "2026-10-13T09:40:32.812834+00:00",
-      "last_seen": "2026-10-17T05:19:31.557173+00:00",
+      "last_seen": "2026-10-17T09:38:47.463600+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68507,7 +68507,7 @@
       "sponsorship": null,
       "content_hash": "259993b76a5996dc77322dc0a5d9cbbfe3c65f8d81584f3a3e05cd2088b755ae",
       "first_discovered": "2026-10-13T09:40:35.091695+00:00",
-      "last_seen": "2026-10-17T05:20:25.955085+00:00",
+      "last_seen": "2026-10-17T09:39:42.234919+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68530,7 +68530,7 @@
       "sponsorship": null,
       "content_hash": "554dd0a48092af9545eaeecc1b8f7a69e9d9c670587ae67b9d12a47c3791fd17",
       "first_discovered": "2026-10-13T09:40:35.873167+00:00",
-      "last_seen": "2026-10-17T05:20:24.146894+00:00",
+      "last_seen": "2026-10-17T09:39:40.976334+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68693,7 +68693,7 @@
       "sponsorship": null,
       "content_hash": "855313286dc20f8b477513a2b29f0a514744ba287164090d296f8a2517ef1f45",
       "first_discovered": "2026-10-13T09:40:43.279359+00:00",
-      "last_seen": "2026-10-17T05:20:24.982382+00:00",
+      "last_seen": "2026-10-17T09:39:43.634022+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68786,7 +68786,7 @@
       "sponsorship": null,
       "content_hash": "c0672962d5881c173050387cbc513accd2598199131797d8b35dceefa8445341",
       "first_discovered": "2026-10-13T09:40:47.812652+00:00",
-      "last_seen": "2026-10-17T05:20:25.632429+00:00",
+      "last_seen": "2026-10-17T09:39:43.269225+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68832,7 +68832,7 @@
       "sponsorship": null,
       "content_hash": "f8e8b7fe8ed5502193b7ad3ad06d9e52d8141d9dd2e2298f37edafc0d7d152d4",
       "first_discovered": "2026-10-13T09:40:49.500930+00:00",
-      "last_seen": "2026-10-17T05:20:30.261437+00:00",
+      "last_seen": "2026-10-17T09:39:44.192781+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68878,7 +68878,7 @@
       "sponsorship": null,
       "content_hash": "2aeb5c44db9a9167065117c6883cc644fedb61406d378820af6b385224e1fb23",
       "first_discovered": "2026-10-13T09:40:51.052817+00:00",
-      "last_seen": "2026-10-17T05:20:34.001442+00:00",
+      "last_seen": "2026-10-17T09:38:33.229490+00:00",
       "notified_hash": "2aeb5c44db9a9167065117c6883cc644fedb61406d378820af6b385224e1fb23",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T09:40:52.174035+00:00"
@@ -68901,7 +68901,7 @@
       "sponsorship": null,
       "content_hash": "b7e6946b7312408a175ae44bf757534d2030bfbd7b34915928748778f14637c8",
       "first_discovered": "2026-10-13T09:40:51.463058+00:00",
-      "last_seen": "2026-10-17T05:20:33.619294+00:00",
+      "last_seen": "2026-10-17T09:39:45.470033+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68924,7 +68924,7 @@
       "sponsorship": null,
       "content_hash": "a2129ff9c4525fce2e4fb0bd2a7d2f3f4d97b389d0791332020c78814cf36403",
       "first_discovered": "2026-10-13T09:40:51.798628+00:00",
-      "last_seen": "2026-10-17T05:20:31.203516+00:00",
+      "last_seen": "2026-10-17T09:39:46.184210+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68970,7 +68970,7 @@
       "sponsorship": null,
       "content_hash": "c9fcd3cf190d06c2525aa60f0e4ef4bdec330992295c4be78000b87248efbfe6",
       "first_discovered": "2026-10-13T09:40:52.495530+00:00",
-      "last_seen": "2026-10-17T05:20:35.021544+00:00",
+      "last_seen": "2026-10-17T09:39:46.921129+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68994,7 +68994,7 @@
       "sponsorship": null,
       "content_hash": "5b20986b13c8c4661df1e04a8e9a67bd2f40ebf1c86f7e99b62946a093081915",
       "first_discovered": "2026-10-13T09:40:54.153102+00:00",
-      "last_seen": "2026-10-17T05:19:35.282836+00:00",
+      "last_seen": "2026-10-17T09:38:54.248887+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69135,7 +69135,7 @@
       "sponsorship": null,
       "content_hash": "bc1f0fdc69935a7a7ce0f7b3e502fea7ef6fc7bb6dfb7a4f68d349cc91151530",
       "first_discovered": "2026-10-13T09:41:03.231220+00:00",
-      "last_seen": "2026-10-17T05:20:36.248455+00:00",
+      "last_seen": "2026-10-17T09:39:58.883485+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69159,7 +69159,7 @@
       "sponsorship": null,
       "content_hash": "ac448dcfbf11af17be888d30dcf441191a26d509e32639a99fa702a77c64056b",
       "first_discovered": "2026-10-13T09:41:03.852957+00:00",
-      "last_seen": "2026-10-17T05:20:44.686805+00:00",
+      "last_seen": "2026-10-17T09:39:55.664931+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69206,7 +69206,7 @@
       "sponsorship": null,
       "content_hash": "e073c08edaaaa4cbde33092e5b770a92fef2fbd744dc9f98038501e94ebca8b0",
       "first_discovered": "2026-10-13T09:41:04.952807+00:00",
-      "last_seen": "2026-10-17T05:20:45.091098+00:00",
+      "last_seen": "2026-10-17T09:39:57.604081+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69228,7 +69228,7 @@
       "sponsorship": null,
       "content_hash": "fd590974e81d0d9b30255099c959efb9b03f7aa6713f086ff9c35b26056a6c6c",
       "first_discovered": "2026-10-13T09:41:05.254952+00:00",
-      "last_seen": "2026-10-17T05:20:43.773424+00:00",
+      "last_seen": "2026-10-17T09:39:54.408157+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69345,7 +69345,7 @@
       "sponsorship": null,
       "content_hash": "b745829a2b13143ca2569cf25f65730f6574a6afce9e08956663b3ea064e16e9",
       "first_discovered": "2026-10-13T09:41:08.586430+00:00",
-      "last_seen": "2026-10-17T05:20:46.256957+00:00",
+      "last_seen": "2026-10-17T09:40:01.687719+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69369,7 +69369,7 @@
       "sponsorship": null,
       "content_hash": "74e68357193d4e67663a1fca82157e7d3c22cb51861477315f3dc87d08bb4610",
       "first_discovered": "2026-10-13T09:41:10.011754+00:00",
-      "last_seen": "2026-10-17T05:20:51.045100+00:00",
+      "last_seen": "2026-10-17T09:40:03.826044+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69417,7 +69417,7 @@
       "sponsorship": null,
       "content_hash": "5c643449c333bc37e05dcbd025715f19521fac6ef4e6d9766337b3acdf390e95",
       "first_discovered": "2026-10-13T09:41:10.774892+00:00",
-      "last_seen": "2026-10-17T05:20:49.918800+00:00",
+      "last_seen": "2026-10-17T09:40:02.615859+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69441,7 +69441,7 @@
       "sponsorship": null,
       "content_hash": "fd7c4565d0874651fc2be367da8beecf1327f3ae6ec73dd7ed4ce2f61b5e3a76",
       "first_discovered": "2026-10-13T09:41:11.153970+00:00",
-      "last_seen": "2026-10-17T00:45:33.103354+00:00",
+      "last_seen": "2026-10-17T09:40:04.677193+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69488,7 +69488,7 @@
       "sponsorship": null,
       "content_hash": "023558ec1fc7ffdeb1c5230c593765e290387dbd5f51bbf35d296bb04549f485",
       "first_discovered": "2026-10-13T09:41:11.946389+00:00",
-      "last_seen": "2026-10-17T00:45:34.299917+00:00",
+      "last_seen": "2026-10-17T09:40:05.835165+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69533,7 +69533,7 @@
       "sponsorship": null,
       "content_hash": "a43c020ed77e80970e3fcd5c53d9d4fe908dfb64874b765d963c2edbe7e292ea",
       "first_discovered": "2026-10-13T09:41:13.325750+00:00",
-      "last_seen": "2026-10-17T00:45:35.639579+00:00",
+      "last_seen": "2026-10-17T09:40:06.189504+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69672,7 +69672,7 @@
       "sponsorship": null,
       "content_hash": "f9a948a5edc13c828263c83e7a33dee9ac5c29dadfcd0277d8ede17d4d95a386",
       "first_discovered": "2026-10-13T09:41:21.866984+00:00",
-      "last_seen": "2026-10-17T00:45:37.638328+00:00",
+      "last_seen": "2026-10-17T09:40:13.071673+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69739,7 +69739,7 @@
       "sponsorship": null,
       "content_hash": "3e35e5516dee020aa00d88ef2385ae5d2a1fd81aad23674589abaf2378ede3ea",
       "first_discovered": "2026-10-13T09:41:23.388015+00:00",
-      "last_seen": "2026-10-17T00:45:37.843686+00:00",
+      "last_seen": "2026-10-17T09:40:14.795861+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69763,7 +69763,7 @@
       "sponsorship": null,
       "content_hash": "afae0a6eab34e80fe592496414050e73c191b360127f93b8ac3e55908e8561ff",
       "first_discovered": "2026-10-13T09:41:24.931870+00:00",
-      "last_seen": "2026-10-17T05:20:42.187900+00:00",
+      "last_seen": "2026-10-17T09:38:52.941539+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69833,7 +69833,7 @@
       "sponsorship": null,
       "content_hash": "0fd9f8028ad336c3ab298f01e46741ad54b3cc191d27285f437151ec3b1a0581",
       "first_discovered": "2026-10-13T09:41:27.738228+00:00",
-      "last_seen": "2026-10-17T00:36:42.278237+00:00",
+      "last_seen": "2026-10-17T09:40:39.429653+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69856,7 +69856,7 @@
       "sponsorship": null,
       "content_hash": "19411f35eb8a39ffc7ac18f7020a160e293ed618ad6f7268f677e85bb756cf14",
       "first_discovered": "2026-10-13T09:41:28.323237+00:00",
-      "last_seen": "2026-10-17T00:45:43.812911+00:00",
+      "last_seen": "2026-10-17T09:40:16.262523+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69881,7 +69881,7 @@
       "sponsorship": null,
       "content_hash": "3125adda7107b2279259615a56f8c0631ef61b67d795e522ff5def51400b4515",
       "first_discovered": "2026-10-13T09:41:29.412499+00:00",
-      "last_seen": "2026-10-17T00:45:45.747373+00:00",
+      "last_seen": "2026-10-17T09:40:16.746005+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69926,7 +69926,7 @@
       "sponsorship": null,
       "content_hash": "339450ed9e091ad00d42549b5ea5ffb4502dfeaf0daeba71438e958a7f0fc5d9",
       "first_discovered": "2026-10-13T09:41:30.740924+00:00",
-      "last_seen": "2026-10-17T00:45:48.677060+00:00",
+      "last_seen": "2026-10-17T09:40:19.849978+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69974,7 +69974,7 @@
       "sponsorship": null,
       "content_hash": "640c8d147716d2977d54f9dd8e34163ac988a258d356b9da5f15d29af721c41a",
       "first_discovered": "2026-10-13T09:41:31.507888+00:00",
-      "last_seen": "2026-10-17T05:19:36.075045+00:00",
+      "last_seen": "2026-10-17T09:39:01.858249+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69997,7 +69997,7 @@
       "sponsorship": null,
       "content_hash": "f2bd9e7983730d68207280fd31108a19c469c4e1717cdaaf8074f60ea4f8cb58",
       "first_discovered": "2026-10-13T09:41:32.070927+00:00",
-      "last_seen": "2026-10-17T00:45:49.380976+00:00",
+      "last_seen": "2026-10-17T09:40:21.666932+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70042,7 +70042,7 @@
       "sponsorship": null,
       "content_hash": "104dccf44fb996f408c56ea9803daca96d44e826043933fe0f0cb09a244054a1",
       "first_discovered": "2026-10-13T09:41:33.344993+00:00",
-      "last_seen": "2026-10-17T00:45:51.555625+00:00",
+      "last_seen": "2026-10-17T09:40:23.398545+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70112,7 +70112,7 @@
       "sponsorship": null,
       "content_hash": "a7ea2cc2cdde14a662df3aa802cab3007c1f5f1bafc64b2c9fd55662133e845a",
       "first_discovered": "2026-10-13T09:41:40.715024+00:00",
-      "last_seen": "2026-10-17T00:45:50.908167+00:00",
+      "last_seen": "2026-10-17T09:40:24.563551+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70136,7 +70136,7 @@
       "sponsorship": null,
       "content_hash": "a5fe4c34e771b6c192239a45774e30347fe71bbecfb156ee22019575fe1e3345",
       "first_discovered": "2026-10-13T09:41:41.488307+00:00",
-      "last_seen": "2026-10-17T00:45:55.568851+00:00",
+      "last_seen": "2026-10-17T09:40:25.683177+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70160,7 +70160,7 @@
       "sponsorship": null,
       "content_hash": "071e08495083fe32ba1e9a49c74b948b49956d899b4d487f54a519b755657dc1",
       "first_discovered": "2026-10-13T09:41:41.985810+00:00",
-      "last_seen": "2026-10-17T00:45:57.426214+00:00",
+      "last_seen": "2026-10-17T09:40:26.683594+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70231,7 +70231,7 @@
       "sponsorship": null,
       "content_hash": "ed601df71e7299d740c1a8a7c5b9595476b7ba4e48f19985eaf354ccfd624e4e",
       "first_discovered": "2026-10-13T09:41:43.560660+00:00",
-      "last_seen": "2026-10-17T05:19:35.610872+00:00",
+      "last_seen": "2026-10-17T09:38:55.344559+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70301,7 +70301,7 @@
       "sponsorship": null,
       "content_hash": "c289e9447b5a9ed525574644be17b48ef33612e8b48657da7a883376ae0d3d49",
       "first_discovered": "2026-10-13T09:41:45.766404+00:00",
-      "last_seen": "2026-10-17T00:45:57.779186+00:00",
+      "last_seen": "2026-10-17T09:40:32.661798+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70349,7 +70349,7 @@
       "sponsorship": null,
       "content_hash": "ac8aa4dccd10374cf6fbf45fe8d4b8a19da7c382b2d3101002ec4a1d618ee859",
       "first_discovered": "2026-10-13T09:41:47.601046+00:00",
-      "last_seen": "2026-10-17T00:45:58.146835+00:00",
+      "last_seen": "2026-10-17T09:40:34.199477+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70373,7 +70373,7 @@
       "sponsorship": null,
       "content_hash": "1eee76f414a26fc73b1f9b85f68914db6100164584cc2c04525b359d65184590",
       "first_discovered": "2026-10-13T09:41:48.493763+00:00",
-      "last_seen": "2026-10-17T00:46:04.263675+00:00",
+      "last_seen": "2026-10-17T09:40:35.270478+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70395,7 +70395,7 @@
       "sponsorship": null,
       "content_hash": "e318704af8a66cb4112ea4282d2469b6fac4712120c2ca97595644c9c8dad735",
       "first_discovered": "2026-10-13T09:41:49.501860+00:00",
-      "last_seen": "2026-10-17T00:46:08.000658+00:00",
+      "last_seen": "2026-10-17T09:40:36.903722+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70524,7 +70524,7 @@
       "location": "Redmond, WA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556994518?domain=microsoft.com",
       "description": "Identify product and engineering opportunities, helping define what to build through user feedback, experimentation, and technical insight. Shape technical direction within your area, balancing near-term product needs with long-term maintainability. Lead hands-on design, implementation, testing, and delivery of VS Code features, coordinating contributors and partner-team dependencies as needed. Own outcomes after release: understand adoption, investigate quality issues, and use telemetry, evaluations, and user feedback to guide improvements. Improve responsiveness and reliability through profiling, debugging, and automated testing; strengthen the tools that let the team experiment and ship confidently. Work in the open: discuss designs publicly, investigate community-reported issues, and collaborate directly with developers and extension authors. Mentor engineers and improve technical decisions through constructive design and code reviews. Bachelor's Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not limited to, JavaScript, or TypeScript or RUST OR equivalent experience. These requirements include but are not limited to the following specialized security screenings: 5+ years of software engineering experience, with a track record of independently delivering and maintaining production features or substantial components. Programming and application engineering skills, with the ability to become productive in a large TypeScript and Rust codebase. Experience leading technical design and hands-on delivery for complex projects involving multiple contributors, within one team or across partner teams. Product and engineering judgment, including the ability to turn an ambiguous user problem into a practical, maintainable solution. Communication and collaboration skills, including working across team boundaries and helping other engineers grow. Experience with TypeScript, JavaScript or Rust. Experience building interactive applications, with attention to performance, accessibility, or cross-platform behavior. Experience designing APIs, extension points, or reusable components.- Experience improving products through direct user feedback, telemetry, or experiments. Experience building AI-powered features or contributing to developer tools or open-source projects.",
-      "posting_date": "2026-09-22T16:36:36",
+      "posting_date": "2026-10-16T17:26:00",
       "experience": "s Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not li; t limited to the following specialized security screenings: 5+ years of software engineering experience, with a track record of independently delive",
       "classification": "Not Eligible",
       "reasons": [
@@ -70533,9 +70533,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "29dcf48276564c99e0b024f6dd51dd7b24cf10247fd40c34ff5d54062a702f23",
+      "content_hash": "8e6f8a4124fdaecacaa2902d6b5016ee2ec8caa04d5e530a3bb45dd893e2a2fc",
       "first_discovered": "2026-10-13T09:41:54.805940+00:00",
-      "last_seen": "2026-10-16T05:14:12.277656+00:00",
+      "last_seen": "2026-10-17T09:39:17.695799+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70569,7 +70569,7 @@
       "location": "Redmond, WA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556999268?domain=microsoft.com",
       "description": "Identify significant product opportunities and systemic engineering problems; set technical direction that balances near-term delivery with long-term product and platform health. Prove approaches through prototypes, critical implementation, testing, and difficult debugging, using hands-on work to guide architectural decisions. Own outcomes beyond release, using adoption, quality signals, evaluations, experiments, and user feedback to guide investment and adjust course. Improve engineering effectiveness across teams through testing strategies, performance work, shared design patterns, and tools for rapid, reliable experimentation. Lead technical discussions in the open, investigate community-reported issues, and work directly with developers and extension authors to shape designs. Mentor senior engineers and technical leaders, helping them develop judgment and take ownership without making yourself a bottleneck. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, JavaScript, or TypeScript or RUST OR equivalent experience. These requirements include but are not limited to the following specialized security screenings: 10+ years of software engineering experience, with a track record of architecting, delivering, and evolving complex production software. Demonstrated technical leadership across multiple teams, including setting direction, building alignment, and delivering substantial initiatives without relying on reporting-line authority. Hands-on coding and design skills, with the ability to become productive in large TypeScript and Rust codebases. Experience designing shared platforms, APIs, or large application architectures, with sound judgment about extensibility, compatibility, performance, and maintainability. Product judgment, including identifying opportunities, setting priorities amid ambiguity, and turning technical decisions into practical designs and measurable improvements for users. A track record of mentoring experienced engineers and improving the effectiveness of teams beyond your immediate area. Clear communication skills, including explaining complex technical decisions and navigating tradeoffs with engineering and product partners. We welcome a range of product backgrounds; these are helpful experiences, not a checklist. Previous work on developer tools, open-source projects, or AI products is not required. Experience with TypeScript, JavaScript and Rust. Experience evolving interactive products with attention to usability and accessibility. Experience guiding cross-platform architecture, performance improvements, or major migrations in a large application. Experience establishing experimentation and feedback practices that connect engineering decisions to user outcomes. Practical familiarity with AI coding tools and judgment about where they help, fail, or change development workflows. Experience providing technical leadership on AI-powered products, open-source projects, or extensible applications.",
-      "posting_date": "2026-09-22T17:14:31",
+      "posting_date": "2026-10-16T17:26:30",
       "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; t limited to the following specialized security screenings: 10+ years of software engineering experience, with a track record of architecting, delive",
       "classification": "Not Eligible",
       "reasons": [
@@ -70578,9 +70578,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "578925da36ba79b8124d8dca82167702d336db0d7692ad3dfaf7bf5ddac1bfc0",
+      "content_hash": "0de59d1ba1a68a09e9fd5b5e49c4dd64759bceb735bc556bb74593ed2df28371",
       "first_discovered": "2026-10-13T09:42:02.798782+00:00",
-      "last_seen": "2026-10-16T05:14:17.488800+00:00",
+      "last_seen": "2026-10-17T09:39:21.535955+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70883,7 +70883,7 @@
       "sponsorship": null,
       "content_hash": "f6c7e178e7f1b883dd4c2ffd09385a941a001bb07ddbfe59c464f272a0dba2c0",
       "first_discovered": "2026-10-13T15:48:03.776280+00:00",
-      "last_seen": "2026-10-17T00:44:57.046000+00:00",
+      "last_seen": "2026-10-17T09:41:04.266991+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71364,7 +71364,7 @@
       "sponsorship": null,
       "content_hash": "860ea73c54ae3e0be360ef6ae321ff9cc0b5fafcfa3b22345b4280382bd7be5c",
       "first_discovered": "2026-10-13T15:50:23.337860+00:00",
-      "last_seen": "2026-10-16T22:24:58.348318+00:00",
+      "last_seen": "2026-10-17T09:39:59.347194+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71387,7 +71387,7 @@
       "sponsorship": null,
       "content_hash": "b13842f7eb29011445f57a6f3c6c2347c1a7d91d27fb070c136c6890dcac433d",
       "first_discovered": "2026-10-13T15:50:28.996680+00:00",
-      "last_seen": "2026-10-17T00:40:08.460152+00:00",
+      "last_seen": "2026-10-17T09:39:29.324026+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71501,7 +71501,7 @@
       "sponsorship": null,
       "content_hash": "706e33439dad79eaf1eecc7d9b26ba410337f91849404ceeedf375006f4e4c6d",
       "first_discovered": "2026-10-13T15:52:43.158560+00:00",
-      "last_seen": "2026-10-16T15:03:23.483263+00:00",
+      "last_seen": "2026-10-17T09:40:27.001125+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71525,7 +71525,7 @@
       "sponsorship": null,
       "content_hash": "1c9e0e2015aa66f3c75601839497da95e4d6993b7a57bf56fe1e46df7d3efb09",
       "first_discovered": "2026-10-13T15:52:46.661982+00:00",
-      "last_seen": "2026-10-16T15:03:29.399950+00:00",
+      "last_seen": "2026-10-17T09:40:30.153634+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -72033,7 +72033,7 @@
       "sponsorship": null,
       "content_hash": "ff33626e9dacc8b4e626884ef033539b720fb8ce705a5e49a4db40826171263b",
       "first_discovered": "2026-10-13T15:53:43.740465+00:00",
-      "last_seen": "2026-10-16T15:01:58.379008+00:00",
+      "last_seen": "2026-10-17T09:40:38.116769+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80948,7 +80948,7 @@
       "sponsorship": null,
       "content_hash": "c5feddec01846e11f94e365e69808e0b921370ce995bca51e84a86e0de31d0ce",
       "first_discovered": "2026-10-14T00:32:23.194698+00:00",
-      "last_seen": "2026-10-17T05:19:49.592009+00:00",
+      "last_seen": "2026-10-17T09:39:01.236064+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82375,7 +82375,7 @@
       "sponsorship": null,
       "content_hash": "cc6b33e02ee4d7e199f1b8ccc02b7cfcabb7c92e3a52b8e1a3503a027446588a",
       "first_discovered": "2026-10-14T05:36:39.290827+00:00",
-      "last_seen": "2026-10-17T05:12:15.796323+00:00",
+      "last_seen": "2026-10-17T09:44:40.418404+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82679,7 +82679,7 @@
       "sponsorship": null,
       "content_hash": "ac7275ca9b168b23220792118893ae450324f8bc1dc1ac58b5d679a74f95ab03",
       "first_discovered": "2026-10-14T10:49:32.138741+00:00",
-      "last_seen": "2026-10-17T05:12:31.323882+00:00",
+      "last_seen": "2026-10-17T09:44:57.876933+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82702,7 +82702,7 @@
       "sponsorship": null,
       "content_hash": "05fa667d7e1401b4cff692a858e1a38de915bbdbebd806abaea2a0f9213fe7ef",
       "first_discovered": "2026-10-14T10:49:39.114025+00:00",
-      "last_seen": "2026-10-17T05:12:12.225333+00:00",
+      "last_seen": "2026-10-17T09:44:37.112716+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82795,7 +82795,7 @@
       "sponsorship": null,
       "content_hash": "287ce4ea09661ef09f4c870f59554b6c1dd33611f787fb69675a3a2c8c137770",
       "first_discovered": "2026-10-14T10:52:22.877067+00:00",
-      "last_seen": "2026-10-17T05:12:23.105760+00:00",
+      "last_seen": "2026-10-17T09:44:53.593010+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83140,7 +83140,7 @@
       "sponsorship": null,
       "content_hash": "d64ba851fff854502521aad2a6c712ea997667740c3eb04aa0548070643a4c40",
       "first_discovered": "2026-10-14T15:44:05.596994+00:00",
-      "last_seen": "2026-10-17T05:12:05.104445+00:00",
+      "last_seen": "2026-10-17T09:44:29.283628+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83185,7 +83185,7 @@
       "sponsorship": null,
       "content_hash": "bb74503f022056830bc6e9bd7e8146189a1e0732d6ee69b55c1dbfff4443c297",
       "first_discovered": "2026-10-14T15:46:29.771008+00:00",
-      "last_seen": "2026-10-16T22:22:06.086362+00:00",
+      "last_seen": "2026-10-17T09:40:52.834302+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83561,7 +83561,7 @@
       "sponsorship": null,
       "content_hash": "2623db548dd55822884a049579b213d0a1086bbae039d396def42436da285d89",
       "first_discovered": "2026-10-14T19:55:04.424006+00:00",
-      "last_seen": "2026-10-16T22:22:05.291318+00:00",
+      "last_seen": "2026-10-17T09:40:55.451965+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83651,7 +83651,7 @@
       "sponsorship": null,
       "content_hash": "667145f078436378998a10a96b7186ebda44e7047fb41ed942d5a9ec7b543678",
       "first_discovered": "2026-10-14T20:00:29.571755+00:00",
-      "last_seen": "2026-10-17T05:19:37.189175+00:00",
+      "last_seen": "2026-10-17T09:39:04.613299+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83933,7 +83933,7 @@
       "sponsorship": null,
       "content_hash": "e278f912725242a7f2a5976e54809f4cc5af10304302d713b912cca8f1630dc8",
       "first_discovered": "2026-10-15T01:09:30.791711+00:00",
-      "last_seen": "2026-10-16T22:22:12.774254+00:00",
+      "last_seen": "2026-10-17T09:41:03.778867+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86058,7 +86058,7 @@
       "company": "Microsoft",
       "job_id": "1970393557039273",
       "title": "Principal Software Engineering Manager - Microsoft Red Team",
-      "location": "Redmond, WA,US, United States",
+      "location": "",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557039273?domain=microsoft.com",
       "description": "Lead, grow, and coach a team of software engineers, building an inclusive, high-trust culture where people do the most outstanding work of their careers. Deliver intelligence packages and product experiences that help human red team operators quickly understand target environments, plan operations, and select the highest-impact techniques. Contribute engineering leadership to the broader AI-driven adversary emulation platform, partnering with peer engineering teams globally on architecture and shared components. Partner closely with red team operators, security researchers, product management, and engineering leaders globally to align investments with the highest-impact attack paths. Hire, develop, and retain engineers; set clear expectations, give candid feedback, and grow the next generation of technical leaders on the team. Drive engineering excellence across the team - design reviews, code quality, secure development practices, live-site health, and continuous improvement. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Experience with offensive security - red teaming, penetration testing, malware/tooling development, or offensive cyber operations. Experience with applications that leverage LLMs or autonomous agents - whether hands-on or through leading teams that build them (agentic architectures, prompt engineering, evaluation, or integrating generative AI into production or research systems). Experience leading teams through growth or charter expansion, and developing engineers into senior and principal contributors. Familiarity with the modern attacker kill chain, MITRE ATT&CK, and adversary tradecraft against cloud and AI environments. 10+ years of professional hands-on software development experience, with a track record of shipping and operating production systems. 3+ years of people management experience leading software engineering teams, including hiring, coaching, and performance management.] Experience building software in the cybersecurity domain - e.g., red team / offensive tooling, endpoint or cloud security products, detection and response, threat protection, or closely adjacent security engineering. Demonstrated ability to set direction in ambiguous, unsolved problem spaces and translate strategy into execution that delivers measurable impact. Excellent cross-functional and cross-geo collaboration skills; ability to influence without authority across operators, researchers, and partner engineering teams.",
       "posting_date": "2026-10-15T16:24:21",
@@ -86071,9 +86071,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "d1ed724ed09bfcbd78154d3894529601e48699930716a683386f526d51325314",
+      "content_hash": "f357d503759b40b7c64de410bef144dbaa5dc622ff39e663d748cf197d3c55b1",
       "first_discovered": "2026-10-15T22:55:26.890175+00:00",
-      "last_seen": "2026-10-16T05:23:52.587978+00:00",
+      "last_seen": "2026-10-17T09:38:35.995572+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86189,7 +86189,7 @@
       "sponsorship": null,
       "content_hash": "85cbe087d2711a17c838ea687df35e1571c491f54ac401bac4fe137941df5cd3",
       "first_discovered": "2026-10-16T01:01:50.246444+00:00",
-      "last_seen": "2026-10-16T22:22:03.215488+00:00",
+      "last_seen": "2026-10-17T09:40:40.281812+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86897,7 +86897,7 @@
       "sponsorship": null,
       "content_hash": "deae6ab7279c12399c9f3a77476bce16d0a82e13417b131a3753fc53fde10a88",
       "first_discovered": "2026-10-16T19:07:54.143605+00:00",
-      "last_seen": "2026-10-17T05:19:27.899772+00:00",
+      "last_seen": "2026-10-17T09:38:43.105947+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86920,7 +86920,7 @@
       "sponsorship": null,
       "content_hash": "4b7e92531ebdcd663fb958624af8a4b49bd4a6dbf908c72690ba45d90dbf1bbf",
       "first_discovered": "2026-10-16T19:07:54.709443+00:00",
-      "last_seen": "2026-10-17T05:19:30.338417+00:00",
+      "last_seen": "2026-10-17T09:38:42.164615+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86942,7 +86942,7 @@
       "sponsorship": null,
       "content_hash": "20e23dfc3ecd0a1f1041e6d26f974cea298c0f2267b0367a9fddb6ee4f6983cb",
       "first_discovered": "2026-10-16T19:07:55.838524+00:00",
-      "last_seen": "2026-10-17T05:19:31.186470+00:00",
+      "last_seen": "2026-10-17T09:38:48.805011+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87055,7 +87055,7 @@
       "sponsorship": null,
       "content_hash": "08ff7c4f361286f2f5abc3eb517d7b9b0c4841d61e57fa0391dd08effcf77ba4",
       "first_discovered": "2026-10-16T22:19:08.783868+00:00",
-      "last_seen": "2026-10-17T05:19:20.057036+00:00",
+      "last_seen": "2026-10-17T09:38:41.201512+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87077,7 +87077,7 @@
       "sponsorship": null,
       "content_hash": "be52b501b6e2853f69cb97f1457a7cf04fbc25344a72893813f5d77256f7e99e",
       "first_discovered": "2026-10-16T22:21:57.693004+00:00",
-      "last_seen": "2026-10-16T22:21:57.693020+00:00",
+      "last_seen": "2026-10-17T09:40:38.672062+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87681,21 +87681,21 @@
     },
     "Amazon": {
       "status": "Incomplete",
-      "last_scan": "2026-10-17T05:25:50.536222+00:00",
+      "last_scan": "2026-10-17T09:46:18.321530+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
     },
     "NVIDIA": {
-      "status": "Failed",
-      "last_scan": "2026-10-17T05:25:50.406970+00:00",
+      "status": "Incomplete",
+      "last_scan": "2026-10-17T09:46:18.458560+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
     },
     "Microsoft": {
       "status": "Incomplete",
-      "last_scan": "2026-10-17T05:25:50.250433+00:00",
+      "last_scan": "2026-10-17T09:46:18.134611+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
