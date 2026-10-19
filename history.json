@@ -91741,7 +91741,7 @@
     },
     "Amazon": {
       "status": "Incomplete",
-      "last_scan": "2026-10-19T11:42:26.916691+00:00",
+      "last_scan": "2026-10-19T17:58:08.904716+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
@@ -91755,7 +91755,7 @@
     },
     "Microsoft": {
       "status": "Incomplete",
-      "last_scan": "2026-10-19T11:42:27.234305+00:00",
+      "last_scan": "2026-10-19T17:58:08.661382+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
