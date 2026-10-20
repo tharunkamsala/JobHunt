@@ -34511,7 +34511,7 @@
       "sponsorship": null,
       "content_hash": "2881e5830004c777362228b1c791ae8fdeb6e478b65c2fc6366c04ad5e3bd6d7",
       "first_discovered": "2026-10-13T02:55:34.331267+00:00",
-      "last_seen": "2026-10-20T10:44:45.246961+00:00",
+      "last_seen": "2026-10-20T19:54:24.135888+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -36620,7 +36620,7 @@
       "sponsorship": null,
       "content_hash": "c19129809ec0115660c1da37dab279caa3603b0eda73f493b9be41bc2191631e",
       "first_discovered": "2026-10-13T03:00:08.446732+00:00",
-      "last_seen": "2026-10-20T15:35:29.221789+00:00",
+      "last_seen": "2026-10-20T19:54:36.198492+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40696,7 +40696,7 @@
       "sponsorship": null,
       "content_hash": "b317674c6e5601ebf074e741304ae6c5e484479c59de0917c90eb59e480cab87",
       "first_discovered": "2026-10-13T03:06:05.275442+00:00",
-      "last_seen": "2026-10-20T10:47:44.230426+00:00",
+      "last_seen": "2026-10-20T19:54:10.129680+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60680,7 +60680,7 @@
       "sponsorship": null,
       "content_hash": "f6fe96589beed5a6163fbf7782c84cb9a7ffc57b23670ae5e9f423539da660b0",
       "first_discovered": "2026-10-13T04:07:23.453714+00:00",
-      "last_seen": "2026-10-20T10:47:50.332963+00:00",
+      "last_seen": "2026-10-20T19:54:33.116876+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60888,7 +60888,7 @@
       "sponsorship": null,
       "content_hash": "a0bc1fed1e6ef86b845c96fa38517fd5d2ad76d2cae0e2f3af1c694402614948",
       "first_discovered": "2026-10-13T04:07:31.878154+00:00",
-      "last_seen": "2026-10-20T10:47:47.497034+00:00",
+      "last_seen": "2026-10-20T19:54:30.448592+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -64159,7 +64159,7 @@
       "sponsorship": null,
       "content_hash": "7982368f8a7b31617e2a778e5f43c2d56f4f2b7609af88b6a692ce25d1a79d50",
       "first_discovered": "2026-10-13T09:35:08.875847+00:00",
-      "last_seen": "2026-10-20T10:40:53.114160+00:00",
+      "last_seen": "2026-10-20T19:54:13.021434+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69499,7 +69499,7 @@
       "location": "United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556998598?domain=microsoft.com",
       "description": "Design, develop, and operate highly scalable, resilient, and customer-focused cloud services. Solve complex, large-scale technical challenges across the Compute platform. Own features end-to-end, from design and implementation through deployment and operations to deliver high-quality solutions using agile development and continuous deployment practices. Drive service excellence across scalability, availability, security, reliability, disaster recovery, and performance. Partner effectively across teams to deliver impactful platform capabilities and customer outcomes. Champion engineering best practices through code reviews, design reviews, testing, monitoring, and automation. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience.",
-      "posting_date": "2026-09-22T18:12:41",
+      "posting_date": "2026-10-20T18:41:51",
       "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not li",
       "classification": "Not Eligible",
       "reasons": [
@@ -69508,9 +69508,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "3314ca39db867af819eb25d2db3acb4a7039b199dbee15a62c7ec6769c58a881",
+      "content_hash": "ace9d2a675ecde2e1b8f573a5bf8af93aeb13b76c20d17c461ccc433a48402d4",
       "first_discovered": "2026-10-13T09:41:12.705882+00:00",
-      "last_seen": "2026-10-13T15:59:26.253116+00:00",
+      "last_seen": "2026-10-20T19:54:39.376361+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70534,7 +70534,7 @@
       "sponsorship": null,
       "content_hash": "8e6f8a4124fdaecacaa2902d6b5016ee2ec8caa04d5e530a3bb45dd893e2a2fc",
       "first_discovered": "2026-10-13T09:41:54.805940+00:00",
-      "last_seen": "2026-10-20T10:48:28.165030+00:00",
+      "last_seen": "2026-10-20T19:54:19.302491+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71386,7 +71386,7 @@
       "sponsorship": null,
       "content_hash": "b13842f7eb29011445f57a6f3c6c2347c1a7d91d27fb070c136c6890dcac433d",
       "first_discovered": "2026-10-13T15:50:28.996680+00:00",
-      "last_seen": "2026-10-20T15:35:38.462664+00:00",
+      "last_seen": "2026-10-20T19:54:16.072302+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76159,7 +76159,7 @@
       "sponsorship": null,
       "content_hash": "1db61911f5621b6d849a6b418d9226826a354780c7b4cad1473037b30bffd9d1",
       "first_discovered": "2026-10-13T15:58:11.386566+00:00",
-      "last_seen": "2026-10-20T10:44:19.304954+00:00",
+      "last_seen": "2026-10-20T19:54:07.573684+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76182,7 +76182,7 @@
       "sponsorship": null,
       "content_hash": "fadac8a114f4143dad6851b28b61cc32a74a7ab825f24626e470d0a3c9a1bda8",
       "first_discovered": "2026-10-13T15:58:11.842927+00:00",
-      "last_seen": "2026-10-20T10:44:18.742445+00:00",
+      "last_seen": "2026-10-20T19:54:06.914177+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76206,7 +76206,7 @@
       "sponsorship": null,
       "content_hash": "f544a2125c948ad1169afb0ed5394bf4cbd61bb4b4fc66b1132b1a8a422e76fe",
       "first_discovered": "2026-10-13T15:58:12.312886+00:00",
-      "last_seen": "2026-10-20T10:44:21.188944+00:00",
+      "last_seen": "2026-10-20T19:54:08.337145+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76230,7 +76230,7 @@
       "sponsorship": null,
       "content_hash": "1178f72ab1178cc2cb5c54bb11a64e92997d692dab73ca77cc5da069e04a1fbb",
       "first_discovered": "2026-10-13T15:58:12.801737+00:00",
-      "last_seen": "2026-10-20T10:44:20.499978+00:00",
+      "last_seen": "2026-10-20T19:54:07.875831+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76254,7 +76254,7 @@
       "sponsorship": null,
       "content_hash": "251afc83c54d9fb7dbb146e28ef2d0e583b843814c4c4c0fd3aa8b1ee0a1f9d7",
       "first_discovered": "2026-10-13T15:58:13.640853+00:00",
-      "last_seen": "2026-10-20T10:44:21.722003+00:00",
+      "last_seen": "2026-10-20T19:54:09.279438+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76278,7 +76278,7 @@
       "sponsorship": null,
       "content_hash": "e1bec6f09fb7d5d95eb1e9e5fdf8fc6b45b769660f6ddcc2fca464c5d36aeed4",
       "first_discovered": "2026-10-13T15:58:14.265994+00:00",
-      "last_seen": "2026-10-20T10:44:22.487408+00:00",
+      "last_seen": "2026-10-20T19:54:09.803199+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76301,7 +76301,7 @@
       "sponsorship": null,
       "content_hash": "e8ca1f5b554ea607aaa07333b8f40155ccaa8cf011f7435c0a5b1f4f570487f6",
       "first_discovered": "2026-10-13T15:58:14.719225+00:00",
-      "last_seen": "2026-10-20T10:44:22.702612+00:00",
+      "last_seen": "2026-10-20T19:54:10.341305+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76325,7 +76325,7 @@
       "sponsorship": null,
       "content_hash": "3d6171cf5bb8af1bdaabaca2c64da9d6da9fda1b8a17afbf1c20718d9bfc9fea",
       "first_discovered": "2026-10-13T15:58:15.126438+00:00",
-      "last_seen": "2026-10-20T10:44:23.410551+00:00",
+      "last_seen": "2026-10-20T19:54:10.781474+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76349,7 +76349,7 @@
       "sponsorship": null,
       "content_hash": "9d6481a4049b4a84f3eead2dc47e481483750fa35ad5e98493919142b330a74b",
       "first_discovered": "2026-10-13T15:58:15.946250+00:00",
-      "last_seen": "2026-10-20T10:44:42.707425+00:00",
+      "last_seen": "2026-10-20T19:54:30.698813+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76373,7 +76373,7 @@
       "sponsorship": null,
       "content_hash": "58ff66d3050fd4eaa95b4b4d1ab08a8e81e2532c98e41e3ca27b1f30d4d455f4",
       "first_discovered": "2026-10-13T15:58:16.525013+00:00",
-      "last_seen": "2026-10-20T10:44:43.284313+00:00",
+      "last_seen": "2026-10-20T19:54:31.477958+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76418,7 +76418,7 @@
       "sponsorship": null,
       "content_hash": "ba65523838e148dc4d28c7edaa6959a997ca2d43fb7c93fe99476ac0eefe497b",
       "first_discovered": "2026-10-13T15:58:21.421558+00:00",
-      "last_seen": "2026-10-20T10:44:48.208488+00:00",
+      "last_seen": "2026-10-20T19:54:37.932699+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76440,7 +76440,7 @@
       "sponsorship": null,
       "content_hash": "d4b33cea68388c413ef3a13f83341c695288aa3e1f5ec1b91fd8902468e5a420",
       "first_discovered": "2026-10-13T15:58:21.850065+00:00",
-      "last_seen": "2026-10-20T10:44:43.826579+00:00",
+      "last_seen": "2026-10-20T19:54:31.879202+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76463,7 +76463,7 @@
       "sponsorship": null,
       "content_hash": "249af1e3cac7b25d79a673d68b7f291f95e8a0437f32909fcd1022c83efa9408",
       "first_discovered": "2026-10-13T15:58:22.451893+00:00",
-      "last_seen": "2026-10-20T10:44:48.884217+00:00",
+      "last_seen": "2026-10-20T19:54:36.409070+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76486,7 +76486,7 @@
       "sponsorship": null,
       "content_hash": "45221e12f20be32f9f8ee9823a676dc7224ff9777375433c303f97a9cd5fcdd5",
       "first_discovered": "2026-10-13T15:58:23.174950+00:00",
-      "last_seen": "2026-10-20T10:44:49.697002+00:00",
+      "last_seen": "2026-10-20T19:54:37.356313+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76509,7 +76509,7 @@
       "sponsorship": null,
       "content_hash": "d0e6307b6e3bf6101907c1f7f1d7f83d424137c9e18356f5808d5c8d93f81ab5",
       "first_discovered": "2026-10-13T15:58:23.883936+00:00",
-      "last_seen": "2026-10-20T10:44:49.352136+00:00",
+      "last_seen": "2026-10-20T19:54:36.839114+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76531,7 +76531,7 @@
       "sponsorship": null,
       "content_hash": "13a5155dfb47b06f23a99dbdca3911c28fbb29528471ff2238c3610188098ea0",
       "first_discovered": "2026-10-13T15:58:24.226215+00:00",
-      "last_seen": "2026-10-20T10:44:40.287169+00:00",
+      "last_seen": "2026-10-20T19:54:26.338849+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76553,7 +76553,7 @@
       "sponsorship": null,
       "content_hash": "ed21810c1234e7903c173c8c2574928887e4ad10f9cc9fb81c50efe787a164ec",
       "first_discovered": "2026-10-13T15:58:24.863914+00:00",
-      "last_seen": "2026-10-20T10:44:50.626242+00:00",
+      "last_seen": "2026-10-20T19:54:38.592960+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76575,7 +76575,7 @@
       "sponsorship": null,
       "content_hash": "c886ca4d5e747190360564067d0daf32ee20b4d04ac0f13fcd51eab98d4e499f",
       "first_discovered": "2026-10-13T15:58:25.313076+00:00",
-      "last_seen": "2026-10-20T10:44:51.222991+00:00",
+      "last_seen": "2026-10-20T19:54:39.127409+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76622,7 +76622,7 @@
       "sponsorship": null,
       "content_hash": "7426b3b71ee0d7b5d542ddfe8432c9aacf09331a796d2ff49b7eb4c3fb4c56a7",
       "first_discovered": "2026-10-13T15:58:26.202524+00:00",
-      "last_seen": "2026-10-20T10:44:51.843768+00:00",
+      "last_seen": "2026-10-20T19:54:39.660085+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76668,7 +76668,7 @@
       "sponsorship": null,
       "content_hash": "5c42a2a086bf103b6eea7a2288ad35b6a31cfc7625159752d0e6e86b838f105e",
       "first_discovered": "2026-10-13T15:58:31.013377+00:00",
-      "last_seen": "2026-10-20T10:44:52.328767+00:00",
+      "last_seen": "2026-10-20T19:54:40.276682+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76760,7 +76760,7 @@
       "sponsorship": null,
       "content_hash": "4e66aa054f089269b79ead9f4f11aa297fbd1f805827e5003d080ae6d88d5035",
       "first_discovered": "2026-10-13T15:58:33.379166+00:00",
-      "last_seen": "2026-10-20T10:44:38.521207+00:00",
+      "last_seen": "2026-10-20T19:54:28.120213+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76807,7 +76807,7 @@
       "sponsorship": null,
       "content_hash": "c3098efa54aac4ac874a3765adcaebb7a63584b5f9ddd2f50a93b37bcb322ee7",
       "first_discovered": "2026-10-13T15:58:34.596092+00:00",
-      "last_seen": "2026-10-20T10:44:28.748081+00:00",
+      "last_seen": "2026-10-20T19:54:18.970181+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77011,7 +77011,7 @@
       "sponsorship": null,
       "content_hash": "4b6b8dab6acb5d78d1b32c95922829a6833a7fb7738257f8dc2fb59e586535d1",
       "first_discovered": "2026-10-13T15:58:43.024415+00:00",
-      "last_seen": "2026-10-20T10:44:40.810629+00:00",
+      "last_seen": "2026-10-20T19:54:28.964448+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77033,7 +77033,7 @@
       "sponsorship": null,
       "content_hash": "e425edb7c4ba45d9cf8dcdcf08cd6d228b9cc462f440db01818ec2ae39ca77c6",
       "first_discovered": "2026-10-13T15:58:43.571318+00:00",
-      "last_seen": "2026-10-20T10:44:32.946631+00:00",
+      "last_seen": "2026-10-20T19:54:20.473073+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77445,7 +77445,7 @@
       "sponsorship": null,
       "content_hash": "ce129971fb7e8f6068f29d1089546372ee78aa2e30a1556acca2cc480213db63",
       "first_discovered": "2026-10-13T15:58:59.345076+00:00",
-      "last_seen": "2026-10-20T10:44:32.296333+00:00",
+      "last_seen": "2026-10-20T19:54:20.021212+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77468,7 +77468,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "017b517a1cceeb4d0fe947ea40882c760b2274a9e84d00a7c6f63b2a8a50d6ee",
       "first_discovered": "2026-10-13T15:58:59.786803+00:00",
-      "last_seen": "2026-10-20T10:45:17.902328+00:00",
+      "last_seen": "2026-10-20T19:54:12.075590+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77537,7 +77537,7 @@
       "sponsorship": null,
       "content_hash": "754b17a95ed97691f84ba69ef1cda507b1b80c376f80d6c2a289477909903448",
       "first_discovered": "2026-10-13T15:59:00.893616+00:00",
-      "last_seen": "2026-10-20T10:44:39.012098+00:00",
+      "last_seen": "2026-10-20T19:54:27.481278+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77678,7 +77678,7 @@
       "sponsorship": null,
       "content_hash": "3a80b3d368d3a2796c8dafa2868fa84de113d7a718ad5742d1cb95463695b643",
       "first_discovered": "2026-10-13T15:59:03.968528+00:00",
-      "last_seen": "2026-10-20T10:44:34.034326+00:00",
+      "last_seen": "2026-10-20T19:54:21.852570+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80991,7 +80991,7 @@
       "sponsorship": null,
       "content_hash": "3c22bf197be775aa09aadb8f522d86f4ed59a8f5769cde8ad674422e08fc40b9",
       "first_discovered": "2026-10-14T00:35:17.883760+00:00",
-      "last_seen": "2026-10-20T10:44:41.425031+00:00",
+      "last_seen": "2026-10-20T19:54:29.516911+00:00",
       "notified_hash": "3c22bf197be775aa09aadb8f522d86f4ed59a8f5769cde8ad674422e08fc40b9",
       "notification_status": "sent",
       "delivered_at": "2026-10-14T00:35:18.575492+00:00"
@@ -81013,7 +81013,7 @@
       "sponsorship": null,
       "content_hash": "a094c891661b2c736a141071545770d872d91f6def23575c9d148f714525370f",
       "first_discovered": "2026-10-14T00:35:18.491821+00:00",
-      "last_seen": "2026-10-20T10:44:42.104034+00:00",
+      "last_seen": "2026-10-20T19:54:30.129086+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85310,7 +85310,7 @@
       "sponsorship": null,
       "content_hash": "ec808267f90775229e69d45fe81d690d5ecd290f8765cedf3766cf9ed8130ecd",
       "first_discovered": "2026-10-15T19:43:10.227680+00:00",
-      "last_seen": "2026-10-20T10:44:33.642747+00:00",
+      "last_seen": "2026-10-20T19:54:21.201909+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85333,7 +85333,7 @@
       "sponsorship": null,
       "content_hash": "dbb6a973647d513b122e044312e6727f6753953d6f7041a97fc592ade0b00aee",
       "first_discovered": "2026-10-15T19:43:12.995982+00:00",
-      "last_seen": "2026-10-20T10:44:39.716199+00:00",
+      "last_seen": "2026-10-20T19:54:27.252607+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87428,7 +87428,7 @@
       "sponsorship": null,
       "content_hash": "c1818a3fb8f8f7c898285144327e25c579ac84c1cbdbe62b762d4cf1cbdc9ec1",
       "first_discovered": "2026-10-17T09:33:36.927105+00:00",
-      "last_seen": "2026-10-20T10:44:48.548056+00:00",
+      "last_seen": "2026-10-20T19:54:27.113541+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87795,7 +87795,7 @@
       "sponsorship": null,
       "content_hash": "a1c415d5560da54008fb82cb7491e0fe88fd490d40c73861af4ac32e18b8e122",
       "first_discovered": "2026-10-17T16:44:52.670393+00:00",
-      "last_seen": "2026-10-20T10:44:31.580651+00:00",
+      "last_seen": "2026-10-20T19:54:19.534804+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92615,7 +92615,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "b80825938659cda267f5543a6211841850f14e0bfb4025bc4a89b38671682b1b",
       "first_discovered": "2026-10-20T10:44:24.165683+00:00",
-      "last_seen": "2026-10-20T10:44:24.165700+00:00",
+      "last_seen": "2026-10-20T19:54:17.979330+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92638,7 +92638,7 @@
       "sponsorship": null,
       "content_hash": "6c9999180d844c9c3597e02a527143bad45a8fb3c9738583065f2bb04c7d8ca0",
       "first_discovered": "2026-10-20T10:44:29.185214+00:00",
-      "last_seen": "2026-10-20T10:44:29.185230+00:00",
+      "last_seen": "2026-10-20T19:54:17.486455+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92660,7 +92660,7 @@
       "sponsorship": null,
       "content_hash": "146a60cd4e29bce9d80cb962652273e8ee43498946c8e5727b506b8dac66f354",
       "first_discovered": "2026-10-20T10:44:29.718320+00:00",
-      "last_seen": "2026-10-20T10:44:29.718340+00:00",
+      "last_seen": "2026-10-20T19:54:17.112536+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92683,7 +92683,7 @@
       "sponsorship": null,
       "content_hash": "e866217c7fae085c80247d9d64dc88d8b6ece6c0a5a00f81ccc2d69c26d0b79c",
       "first_discovered": "2026-10-20T10:44:30.613560+00:00",
-      "last_seen": "2026-10-20T10:44:30.613579+00:00",
+      "last_seen": "2026-10-20T19:54:16.553118+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93704,6 +93704,51 @@
       "notified_hash": "b91dd12a31546248cecfefeeffac1e288e1cb76ef3c002d0e77fee4928608249",
       "notification_status": "sent",
       "delivered_at": "2026-10-20T19:54:04.580444+00:00"
+    },
+    "Microsoft:1970393557040975": {
+      "company": "Microsoft",
+      "job_id": "1970393557040975",
+      "title": "Software Engineer II - Top Secret",
+      "location": "Reston, VA,US, United States; Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557040975?domain=microsoft.com",
+      "description": "The team provides leadership, direction and accountability for application architecture, Cloud design, Infrastructure development and end to end implementation for our Sovereign and Government Clouds. Demonstrated collaboration skills will be required to work closely with other engineering teams to ensure services/systems are highly stable and performant and meet the expectations of internal and external customers and users. Build and improve services to be scalable and highly reliable. Help deliver and improve engineering systems and practices to deliver services in complex cloud environments. Contribute to design and automate service scale features and customer requirements. Investigate pre-production and production issues, implement, and deploy fixes. Participate in an on-call rotation (typically 24/7 for one week every 6-8 weeks) within a secure facility. I acknowledge we will use the standard, approved Required Qualifications Understanding and experience with CI/CD concepts and Git. 2+ years of Windows / Linux hands on system experiences Experience debugging issues ranging from the operating system, application, and all the way to the cloud. Experienced in solving operational issues in a scalable way Ability to thrive with the ambiguity associated with working in a fast-paced and changing environment. Support a 24x7 live site support model for the services the team owns. Experience with Kubernetes, and the Kubernetes satellite technologies Some experience with building and supporting large-scale production services, including logging, monitoring, alerting, and measuring reliability and availability. Proficient in at least one scripting language but knows when to move solutions into managed code. Experiece with Azure DevOps and GitHub tooling. Demonstrated communication skills and ability to collaborate in a multi-disciplinary team consisting of Software Engineers, Program Managers, Security Researchers, and Data Scientists.",
+      "posting_date": "2026-10-20T18:25:13",
+      "experience": " 2+ years of Windows / Linux hands on system experiences Experience debugging issues rang",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded level II or higher"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "2bd09173e1d8eb8510cdbe39b2a87ecbbe1c7267b5a8b43ef6c8c85b6a10d20d",
+      "first_discovered": "2026-10-20T19:54:07.272489+00:00",
+      "last_seen": "2026-10-20T19:54:07.272512+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10584517": {
+      "company": "Amazon",
+      "job_id": "10584517",
+      "title": "Automation Hardware Dev Engineer, OneMHS",
+      "location": "USA, TX, Austin USA, TN, Nashville USA, MA, Westborough USA, WA, Bellevue USA, GA, Atlanta USA, KY, Hebron USA, OH, Cincinnati; USA, TX, Austin; USA, TN, Nashville; USA, MA, Westborough; USA, WA, Bellevue; USA, GA, Atlanta; USA, KY, Hebron; USA, OH, Cincinnati",
+      "url": "https://www.amazon.jobs/en/jobs/10584517/automation-hardware-dev-engineer-onemhs",
+      "description": "Description Amazon\u2019s Material Handling Engineering team is seeking a Hardware Development Engineer (HDE) to help define, design, and deliver the next generation of material handling equipment across our global distribution network. You will play a critical role in developing mechanical, electrical, and control solutions\u2014working both independently and in collaboration with third-party OEM partners. This role requires a balance of deep technical expertise, strong problem-solving skills, and the ability to translate business and operational needs into robust, scalable engineering solutions. You will work at the intersection of R&D, product development, and operations, challenging the status quo of traditional conveyance, sortation, and robotics solutions. Key job responsibilities - Design, develop, and validate hardware solutions for Amazon\u2019s next-generation material handling systems. - Translate ambiguous business problems into clear technical requirements and engineering solutions. - Collaborate with cross-functional partners (operations, procurement, global engineering, and launch teams) to ensure successful product delivery. - Lead the design-for-manufacturing, assembly, installation, and maintenance processes to ensure long-term scalability. - Evaluate and integrate OEM hardware solutions; identify gaps and lead in-house design where required. - Build prototypes, conduct testing, and analyze results to validate performance, safety, and reliability. - Author technical specifications, design documents, and test plans. - Champion data-driven decision making, ensuring technical trade-offs are well-documented and communicated. - Manage risk through proactive identification and mitigation strategies. - Stay current with emerging technologies in automation, robotics, and industrial equipment. Basic qualifications \u2022 Bachelor's degree in mechanical engineering, mechatronics engineering, robotics engineering, or an equivalent engineering science \u2022 5+ years of hardware engineering experience designing, building, and testing automation/mechatronics/robotics products \u2022 Significant experience using SolidWorks \u2022 Knowledge of Finite Element Analysis (FEA) tools \u2022 Experience in hardware design and validation of components, subsystems and systems \u2022 Experience managing external vendors, distributors, partners or learning providers \u2022 Strong analytical skills, attention to detail, and effective communication abilities \u2022 Experience completing complex tasks quickly with little to no guidance and react with appropriate urgency to situations that require a quick turnaround Preferred qualifications \u2022 Experience in the design of complex mechanical products and equipment at volume \u2022 Experience and strong technical background in relevant fields of automated or non-automated material handling equipment \u2022 Familiarity with robotics, conveyance, or sortation systems \u2022 Knowledge of industry standards and regulatory requirements About the team Amazon installs a significant quantity of new buildings every year. The historical model has been to allow each integrator to use their own equipment, controls, subsystems, and methodologies. While that has allowed Amazon to be successful to this point, the variability between buildings has proven difficult to support and scale.  One MHS\u2019 charge is to build partnerships to focus on consistency and scalability across our network of the future. We will be partnering with key suppliers to help them scale up their manufacturing capabilities to keep up with our needs, as well as refining their designs to drive innovation and operational uptime and better meet the specific needs of Amazon\u2019s operational environment.\nBasic Qualifications - 4+ years of working in mechanical engineering or equivalent experience - Experience with prototyping and implementation\nPreferred Qualifications - Experience in the design of complex mechanical products and equipment at volume - Knowledge of current industry standards Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, GA, Atlanta - 117,300.00 - 160,000.00 USD annually USA, KY, Hebron - 117,300.00 - 160,000.00 USD annually USA, MA, Westborough - 117,300.00 - 160,000.00 USD annually USA, OH, Cincinnati - 117,300.00 - 160,000.00 USD annually USA, TN, Nashville - 111,500.00 - 160,000.00 USD annually USA, TX, Austin - 117,300.00 - 160,000.00 USD annually USA, WA, Bellevue - 117,300.00 - 160,000.00 USD annually",
+      "posting_date": null,
+      "experience": "obotics engineering, or an equivalent engineering science \u2022 5+ years of hardware engineering experience designing, building, and testing automation/; Basic Qualifications - 4+ years of working in mechanical engineering or equivalent experience - Experience with",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "973f3a3ba98c150b79a841695aa95e542b75b12fa0624042f170389b287e8dce",
+      "first_discovered": "2026-10-20T19:54:11.504732+00:00",
+      "last_seen": "2026-10-20T19:54:11.504751+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     }
   },
   "sources": {
@@ -93737,7 +93782,7 @@
     },
     "Microsoft": {
       "status": "Restricted",
-      "last_scan": "2026-10-20T15:44:17.770710+00:00",
+      "last_scan": "2026-10-20T19:54:39.866265+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
