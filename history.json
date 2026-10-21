@@ -94327,7 +94327,7 @@
     },
     "Amazon": {
       "status": "Incomplete",
-      "last_scan": "2026-10-21T01:24:36.200862+00:00",
+      "last_scan": "2026-10-21T06:26:58.464740+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
