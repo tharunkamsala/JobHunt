@@ -101354,6 +101354,30 @@
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
+    },
+    "Amazon:10591187": {
+      "company": "Amazon",
+      "job_id": "10591187",
+      "title": "Operations Engineer III - AMZ22922.7",
+      "location": "USA, MA, Bellingham",
+      "url": "https://www.amazon.jobs/en/jobs/10591187/operations-engineer-iii-amz22922-7",
+      "description": "Description Employer: Amazon.com Services LLC Position: Operations Engineer III - AMZ22922.7 Location: Bellingham, MA Multiple Positions Available: \u2022 Ensure environmental strategy and operational tactics are executed by providing technical support for existing operations and future expansion across the country \u2022 Partner with the Amazon BU operations leadership teams to execute company environmental procedures and ensure compliance with all applicable specific Federal, State and Local regulations. \u2022 Utilize risk assessments and compliance evaluations, to lead continuous improvement initiatives to minimize environmental aspects and impacts and communicate and implement best practices. \u2022 Manage and execute multi-site responsibilities to comply with air emissions, storm-water, waste, wastewater and other environmental related laws, regulations and permits, which includes required Federal, State and local reporting such as USEPA, EPCRA/SARA, Form R, and Tier II, state mandated permit reporting, and other required reporting as needed. \u2022 Develop and maintain relationships with business partners to support their success in environmental compliance, performance and sustainability initiatives. \u2022 Drive an environmentally responsible culture within the organization. \u2022 Manage and execute business conformance with Amazon Environmental policies through effective execution of Amazon Operational Environmental Procedures \u2022 Develop relevant environmental procedures as dictated by business and regulatory needs. \u2022 Provide strategic environmental support and regulatory review for future business growth and expansion. \u2022 Partner with operations, special projects and support teams in supporting the change management process. \u2022 Facilitate root cause analyses for all environmental incidents and recommend appropriate corrective actions for network implementation. \u2022 Conduct risk assessments and audits as necessary. \u2022 Measure and analyze sites performance against requirements and policies (40 hours / week, 8:00am-5:00pm, Salary Range $127650 - $161700) Amazon.com is an Equal Opportunity \u2013 Affirmative Action Employer \u2013 Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation #0000\nBasic Qualifications Bachelor\u2019s degree in engineering, environmental science, or other STEM discipline. Experience must include: \u2022 4 Years of experience with EPCRA/SARA, Form R and Tier II reporting. \u2022 4 years of experience with Hazardous Waste Management with specific focus on compliance with and implementation of Resource conservation and Recovery Act (RCRA). \u2022 4 years of experience with the Clean Air Act (CAA) identifying and characterizing various air emission sources, including stationary and mobile sources, and their potential to emit regulated pollutants. \u2022 4 years of experience with Spill Prevention, Control, and Countermeasure (SPCC) plans, technical engineering principles, and environmental risk management strategies related to oil storage and potential spill scenarios. \u2022 4 years of experience in implementing effective stormwater pollution prevention plans SWPPP, knowledge of Best Management Practices (BMPs), and the ability to review analytical stormwater monitoring reports and understand Clean Water Act (CWA). \u2022 3 years of professional experience in conducting environmental management system (EMS) audits or implementing ISO 14001 standard compliance programs. The pay range for this position in Bellingham, MA is $127650 - $161700 (yr); however, base pay offered may vary depending on job-related knowledge, skills, and experience  A sign-on bonus and restricted stock units may be provided as part of the compensation package, in addition to a full range of medical, financial, and/or other benefits, dependent on the position offered. This information is provided by Massachusetts Equal Pay Act. Base pay information is based on market location. Applicants should apply via Amazon's internal or external careers site. #0000\nPreferred Qualifications All applicants must meet all the above listed requirements. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.",
+      "posting_date": null,
+      "experience": " Experience must include: \u2022 4 Years of experience with EPCRA/SARA, Form R and Tier II reporting;  \u2022 4 years of experience with Hazardous Waste Management with specific focus on compliance;  \u2022 4 years of experience with the Clean Air Act (CAA) identifying and characterizing vario;  \u2022 4 years of experience with Spill Prevention, Control, and Countermeasure (SPCC) plans, ;  \u2022 4 years of experience in implementing effective stormwater pollution prevention plans S;  \u2022 3 years of professional experience in conducting environmental management system (EMS) ",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Excluded level II or higher",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "7a3bb1072391647b29cbb933634311dcb7915d261ca6a90de2bdce0c21fd4bd0",
+      "first_discovered": "2026-10-28T16:26:51.282662+00:00",
+      "last_seen": "2026-10-28T16:26:51.282675+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     }
   },
   "sources": {
@@ -101373,7 +101397,7 @@
     },
     "Amazon": {
       "status": "Incomplete",
-      "last_scan": "2026-10-28T09:25:09.192476+00:00",
+      "last_scan": "2026-10-28T16:27:02.280783+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
