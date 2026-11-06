@@ -33312,7 +33312,7 @@
       "sponsorship": null,
       "content_hash": "63b11f757d408495bd192334dd8845697ba3665302d434b8aa8d07318a9c0691",
       "first_discovered": "2026-10-13T02:52:20.497952+00:00",
-      "last_seen": "2026-11-06T10:13:06.309789+00:00",
+      "last_seen": "2026-11-06T17:53:03.241018+00:00",
       "notified_hash": "1ebc964a897334d9cda2c857e6b379d9b08a182107a363d3bd76d13b6cd81bd3",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T02:52:23.651349+00:00"
@@ -34595,7 +34595,7 @@
       "location": "Redmond, WA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393556986255?domain=microsoft.com",
       "description": "Deliver best-in-class quality of service while driving down cost and improving gross margin in a multi-tenant environment. Design and implement highly available, performant, and secure SQL-based services that power Dataverse at massive scale. Develop features and enhancements for Data Engine services with strong reliability, compliance, and cost-efficiency practices to maintain QoS and gross margin in a multi-tenant environment. Collaborate with engineers and cross-functional partners to influence technical direction and deliver end-to-end solutions across SQL data access and authorization. Build automation for deployment, monitoring, diagnostics, and self-healing to reduce operational overhead and improve live-site health for the world's largest Azure SQL footprint. Identify and resolve recurring issues or trends; drive resiliency improvements through better observability, root-cause analysis, and recovery strategies for mission-critical workloads. Participate in live-site operations, including alert tuning, production fixes, and preventive engineering to protect customer experience at scale. Engage in code reviews, share knowledge, and model best practices; continually refine engineering processes to meet evolving enterprise and agentic AI needs. Contribute to transforming Dataverse for agentic AI experiences\u2014building secure, scalable data access patterns and service capabilities that enable autonomous workflows and safe orchestration. Bachelor's Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python These requirements include but are not limited to the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Proficiency with Azure services, microservices architecture, and CI/CD pipelines; strong understanding of security, compliance, and accessibility standards. Experience with SQL query tuning and performance analysis, knowledge of SQL server internals. Experience in agentic AI technologies and workflows, including building systems that enable autonomous decision-making, orchestration, and safe execution of AI-driven processes within enterprise environments. Proficiency in Python for automation, data processing, or integration with cloud.",
-      "posting_date": "2026-10-20T21:09:52",
+      "posting_date": "2026-11-05T19:52:56",
       "experience": "s Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li",
       "classification": "Not Eligible",
       "reasons": [
@@ -34604,9 +34604,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "05e03dc33ce10f7d5d84ac44b883b8a6819c6fe74ac832a7a595264a3ced4633",
+      "content_hash": "03fa69db300e95938ef94be432a7afb0cdaef2afee8f42bfc7c6818a84e26d62",
       "first_discovered": "2026-10-13T02:55:38.671190+00:00",
-      "last_seen": "2026-10-26T13:59:22.364444+00:00",
+      "last_seen": "2026-11-06T17:53:25.877656+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -34931,7 +34931,7 @@
       "sponsorship": null,
       "content_hash": "3d01566d7a047ea4907eea034d10d1854caee5f70896bf18e3132dfd4c91bead",
       "first_discovered": "2026-10-13T02:55:52.474170+00:00",
-      "last_seen": "2026-11-04T19:02:07.897121+00:00",
+      "last_seen": "2026-11-06T17:56:03.977543+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -37227,7 +37227,7 @@
       "sponsorship": null,
       "content_hash": "92ddf0f38231ba8efcdd8f8aba3524887ddc03cff0a19572b11c6ac92c9ce902",
       "first_discovered": "2026-10-13T03:04:26.935323+00:00",
-      "last_seen": "2026-11-06T02:40:40.335228+00:00",
+      "last_seen": "2026-11-06T17:52:39.442757+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -38967,7 +38967,7 @@
       "sponsorship": null,
       "content_hash": "be560c60f22ae477ea0deea3d8855dcc8a27cd353e7d1d56bf4152915280111e",
       "first_discovered": "2026-10-13T03:05:15.350226+00:00",
-      "last_seen": "2026-11-06T10:10:48.356478+00:00",
+      "last_seen": "2026-11-06T17:52:50.291546+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39083,7 +39083,7 @@
       "sponsorship": null,
       "content_hash": "b6989678250f43a8a70b0bbad551718a511b83168d7f6c53050996a5bea943ab",
       "first_discovered": "2026-10-13T03:05:17.326214+00:00",
-      "last_seen": "2026-11-06T10:11:02.186560+00:00",
+      "last_seen": "2026-11-06T17:52:59.861711+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39245,7 +39245,7 @@
       "sponsorship": null,
       "content_hash": "9baacc804bf3fadbc40ed67c3a99e1438793b95fc71c6a58531031c7e09871eb",
       "first_discovered": "2026-10-13T03:05:23.443597+00:00",
-      "last_seen": "2026-11-06T10:10:50.622119+00:00",
+      "last_seen": "2026-11-06T17:52:52.252371+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39269,7 +39269,7 @@
       "sponsorship": null,
       "content_hash": "a92049d621c4413cba30a2e541d1e2b47fab7aff32e00fcc29e978ae7b89e075",
       "first_discovered": "2026-10-13T03:05:24.329199+00:00",
-      "last_seen": "2026-11-06T10:11:06.607962+00:00",
+      "last_seen": "2026-11-06T17:53:01.531876+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39314,7 +39314,7 @@
       "sponsorship": null,
       "content_hash": "ac56ce94cc7d1b750c77b4ecc4b87d2a5b07d43c07aa84104e6d3f6b911e93dd",
       "first_discovered": "2026-10-13T03:05:25.753884+00:00",
-      "last_seen": "2026-11-06T10:11:11.068447+00:00",
+      "last_seen": "2026-11-06T17:53:03.587605+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39336,7 +39336,7 @@
       "sponsorship": null,
       "content_hash": "f8bcfa88ac39e4d8ca7901df44738dcf2800393cc62a7665f8d4d98318dfc93d",
       "first_discovered": "2026-10-13T03:05:26.828560+00:00",
-      "last_seen": "2026-11-06T10:11:10.532956+00:00",
+      "last_seen": "2026-11-06T17:53:08.443942+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39451,7 +39451,7 @@
       "sponsorship": null,
       "content_hash": "7137a7b9750716935968822696e0bee21d5c6a8297695bd438dadfba93210a89",
       "first_discovered": "2026-10-13T03:05:29.286889+00:00",
-      "last_seen": "2026-11-06T10:10:52.350366+00:00",
+      "last_seen": "2026-11-06T17:52:58.579573+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39569,7 +39569,7 @@
       "sponsorship": null,
       "content_hash": "c1774dd5dacd5a04a15941a6d7b1afe772ce420aaa53a05516e4845e80c683da",
       "first_discovered": "2026-10-13T03:05:31.278525+00:00",
-      "last_seen": "2026-11-06T10:11:00.424176+00:00",
+      "last_seen": "2026-11-06T17:52:57.018727+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39616,7 +39616,7 @@
       "sponsorship": null,
       "content_hash": "9f023349672cb7e3c5e56e37e34e6345f3bdf584ec8d1365f6f6d22a67c7cfa6",
       "first_discovered": "2026-10-13T03:05:32.754966+00:00",
-      "last_seen": "2026-11-06T10:11:18.428199+00:00",
+      "last_seen": "2026-11-06T17:53:08.879594+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39755,7 +39755,7 @@
       "sponsorship": null,
       "content_hash": "b44ef34c9e646283cd66b4c2f3c9b0ce356ffdd4c33ec66daa1c638ead139c9f",
       "first_discovered": "2026-10-13T03:05:35.298098+00:00",
-      "last_seen": "2026-11-06T10:11:19.845191+00:00",
+      "last_seen": "2026-11-06T17:53:10.362244+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39849,7 +39849,7 @@
       "sponsorship": null,
       "content_hash": "28305bcee884e14604678f0cca76c1f3918e494c3d929c51b2c934be5a352535",
       "first_discovered": "2026-10-13T03:05:40.770179+00:00",
-      "last_seen": "2026-11-06T10:11:20.764561+00:00",
+      "last_seen": "2026-11-06T17:53:09.686582+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39873,7 +39873,7 @@
       "sponsorship": null,
       "content_hash": "2c2126c74e1071264435f3d73fab93791e721457ef073f8626c0deaba37fa30c",
       "first_discovered": "2026-10-13T03:05:41.431569+00:00",
-      "last_seen": "2026-11-06T10:10:47.561095+00:00",
+      "last_seen": "2026-11-06T17:52:49.725007+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39919,7 +39919,7 @@
       "sponsorship": null,
       "content_hash": "57bd9247e663049a87c4a4bdcaa3ffa154dbd08c87a06bdb6799da55ff7149bf",
       "first_discovered": "2026-10-13T03:05:42.946916+00:00",
-      "last_seen": "2026-11-06T10:11:08.212171+00:00",
+      "last_seen": "2026-11-06T17:53:02.921350+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -39941,7 +39941,7 @@
       "sponsorship": null,
       "content_hash": "92c5959be6e31718554845d3abe4a564b646fb5c387d510a51091ee9b29ac847",
       "first_discovered": "2026-10-13T03:05:43.437765+00:00",
-      "last_seen": "2026-11-06T10:11:19.038761+00:00",
+      "last_seen": "2026-11-06T17:53:11.194302+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40055,7 +40055,7 @@
       "sponsorship": null,
       "content_hash": "39978b95f732158d1283b7895d95e3c2c8fa896ff2ee07bdb4b2d60a72b8efef",
       "first_discovered": "2026-10-13T03:05:46.227134+00:00",
-      "last_seen": "2026-11-05T07:43:20.654613+00:00",
+      "last_seen": "2026-11-06T17:56:38.052325+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40101,7 +40101,7 @@
       "sponsorship": null,
       "content_hash": "353ded49248f581b45dfad48ae5ff5ef565063a5803acd38ea9f6ec5a0608a2f",
       "first_discovered": "2026-10-13T03:05:46.966220+00:00",
-      "last_seen": "2026-11-06T10:11:22.654836+00:00",
+      "last_seen": "2026-11-06T17:53:11.760541+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40399,7 +40399,7 @@
       "sponsorship": null,
       "content_hash": "022c4982c63a602875822253cd5cbc3903817ebec206daf4dddc4c94b307da60",
       "first_discovered": "2026-10-13T03:05:54.218847+00:00",
-      "last_seen": "2026-11-06T10:11:24.111867+00:00",
+      "last_seen": "2026-11-06T17:53:12.284944+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40536,7 +40536,7 @@
       "sponsorship": null,
       "content_hash": "b05d66414434a14db8c361c5e5843e2754671f779b8792490daf0ec925b18663",
       "first_discovered": "2026-10-13T03:05:59.191583+00:00",
-      "last_seen": "2026-11-06T10:11:26.004312+00:00",
+      "last_seen": "2026-11-06T17:53:13.094714+00:00",
       "notified_hash": "a647dde81e074483fdc61bd69002bce1035aa272d98b60d1b455c9af8b0f993a",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T03:05:59.918974+00:00"
@@ -40607,7 +40607,7 @@
       "sponsorship": null,
       "content_hash": "183fc0476cd86d3925f3ada738ab3c4ea502b37f3a62ac2826e19c540757a41f",
       "first_discovered": "2026-10-13T03:06:00.950923+00:00",
-      "last_seen": "2026-11-06T10:11:26.815503+00:00",
+      "last_seen": "2026-11-06T17:53:13.677325+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40653,7 +40653,7 @@
       "sponsorship": null,
       "content_hash": "a4b16f95d96391739a4ecef86fff612c9968d6a4919a4e0c3c0d9a8742d6c03c",
       "first_discovered": "2026-10-13T03:06:03.987710+00:00",
-      "last_seen": "2026-11-06T10:11:27.479237+00:00",
+      "last_seen": "2026-11-06T17:53:14.544590+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -40675,7 +40675,7 @@
       "sponsorship": null,
       "content_hash": "76e716cd2cf61ed11b506d34581eefacd153e1882deb69d1162ebc5f606c1797",
       "first_discovered": "2026-10-13T03:06:04.516166+00:00",
-      "last_seen": "2026-11-06T10:10:49.814635+00:00",
+      "last_seen": "2026-11-06T17:52:50.805870+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42919,7 +42919,7 @@
       "sponsorship": null,
       "content_hash": "9f99453ce815f28538fb4a12837fa5ca6101d2efe691f200f8fc4f9b3c6d7876",
       "first_discovered": "2026-10-13T03:07:05.073709+00:00",
-      "last_seen": "2026-11-05T00:37:37.212970+00:00",
+      "last_seen": "2026-11-06T17:56:59.947557+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43084,7 +43084,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "3d35cb155608af4111c7ff4f5441e0ce0aa9ae48a76d92de3957e050d5004349",
       "first_discovered": "2026-10-13T03:07:08.797851+00:00",
-      "last_seen": "2026-11-06T10:11:57.672558+00:00",
+      "last_seen": "2026-11-06T17:55:49.292403+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43154,7 +43154,7 @@
       "sponsorship": null,
       "content_hash": "2c6f278c9a860caad41a6f3fd140c92a7dffe39343ede61ad0a4133e05d2bab8",
       "first_discovered": "2026-10-13T03:07:09.593442+00:00",
-      "last_seen": "2026-11-06T10:11:55.643312+00:00",
+      "last_seen": "2026-11-06T17:55:49.834250+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43224,7 +43224,7 @@
       "sponsorship": null,
       "content_hash": "31517a7417d313777619d4dc09862d8f138ce4f47a5be875d588cd52470f6b42",
       "first_discovered": "2026-10-13T03:07:11.990696+00:00",
-      "last_seen": "2026-11-06T10:11:35.638734+00:00",
+      "last_seen": "2026-11-06T17:55:32.126200+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43247,7 +43247,7 @@
       "sponsorship": null,
       "content_hash": "19db75750b0cb6ea6ae5eb1f4aa035c2dcc7b629b4110dc26b00c8c87c413e5f",
       "first_discovered": "2026-10-13T03:07:12.474415+00:00",
-      "last_seen": "2026-11-06T10:12:00.051254+00:00",
+      "last_seen": "2026-11-06T17:55:57.975110+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43641,7 +43641,7 @@
       "sponsorship": null,
       "content_hash": "3c43e8cef5e7cc2334e98b20b28099fc1150310cdbff0303356d4c1cce4776d9",
       "first_discovered": "2026-10-13T03:07:26.455754+00:00",
-      "last_seen": "2026-11-06T10:13:38.001769+00:00",
+      "last_seen": "2026-11-06T17:56:13.586378+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43663,7 +43663,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work A day in the life On a \"typical\" day, our engineers may dive deep to find the root cause of a customer issue, investigate why a metric is trending in the wrong direction, or discuss radical new approaches to automate operational processes",
       "content_hash": "8e8d3635178f601081c656ba98921175800992124955fbe6b8c30f36523c91fe",
       "first_discovered": "2026-10-13T03:07:26.852685+00:00",
-      "last_seen": "2026-11-06T10:12:03.105179+00:00",
+      "last_seen": "2026-11-06T17:55:57.085145+00:00",
       "notified_hash": "2f8190ce8546ceea505388dde2bc829da88f60c0807e3eba23f3519efeadcce8",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T03:07:28.709923+00:00"
@@ -43686,7 +43686,7 @@
       "sponsorship": null,
       "content_hash": "c5e7cb5f7724a26e3ef5aadbd06932ec586da5183124c1637007e88944939d1a",
       "first_discovered": "2026-10-13T03:07:27.251258+00:00",
-      "last_seen": "2026-11-06T10:11:36.694512+00:00",
+      "last_seen": "2026-11-06T17:55:30.530717+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43731,7 +43731,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "f2ada89fb26500fa5ffb16dc3bee337dc11370c7d7a3d5177fdcdbc36bb89b6f",
       "first_discovered": "2026-10-13T03:07:27.946002+00:00",
-      "last_seen": "2026-11-06T10:12:03.989267+00:00",
+      "last_seen": "2026-11-06T17:55:58.761246+00:00",
       "notified_hash": "483fd03a9a8d4b4f6b76a0d58015e9699f18d8fcc330d2e89aaabcbf2cf3c35e",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T03:07:29.488272+00:00"
@@ -43754,7 +43754,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "2e0597a35275167286d96fb3b483e370ad9448b8d1f5170291c468f46c67d6e4",
       "first_discovered": "2026-10-13T03:07:28.363366+00:00",
-      "last_seen": "2026-11-06T10:11:54.313578+00:00",
+      "last_seen": "2026-11-06T17:55:46.093083+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43891,7 +43891,7 @@
       "sponsorship": null,
       "content_hash": "6f33722f29f458949563183d66e4559890f3853fe59ad04670ba210453034b07",
       "first_discovered": "2026-10-13T03:07:31.290292+00:00",
-      "last_seen": "2026-11-06T10:11:59.189359+00:00",
+      "last_seen": "2026-11-06T17:55:56.689321+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -43958,7 +43958,7 @@
       "sponsorship": null,
       "content_hash": "4321c5246644a41060c0786fd16ea7225b385c7beedc4d0875cec6e596545e95",
       "first_discovered": "2026-10-13T03:07:33.150796+00:00",
-      "last_seen": "2026-11-06T10:12:11.518480+00:00",
+      "last_seen": "2026-11-06T17:55:59.664096+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44194,7 +44194,7 @@
       "sponsorship": null,
       "content_hash": "226597c562dbb4548543f3a6404a666a82115125a9a1cf9051eef0c20ec32779",
       "first_discovered": "2026-10-13T03:07:42.385403+00:00",
-      "last_seen": "2026-11-06T10:11:43.677027+00:00",
+      "last_seen": "2026-11-06T17:55:40.966604+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44262,7 +44262,7 @@
       "sponsorship": null,
       "content_hash": "a38655adb2f7af17fc307a48173bda8235ead7927699b690e8122814b6c24b45",
       "first_discovered": "2026-10-13T03:07:43.813951+00:00",
-      "last_seen": "2026-11-06T10:12:12.991774+00:00",
+      "last_seen": "2026-11-06T17:56:01.187845+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44353,7 +44353,7 @@
       "sponsorship": null,
       "content_hash": "fbac32666a0f0bb622935b09df0b92f3eaacb4d70c3605d1f6a0d0ffecbe36cc",
       "first_discovered": "2026-10-13T03:07:46.578201+00:00",
-      "last_seen": "2026-11-05T00:37:51.703184+00:00",
+      "last_seen": "2026-11-06T17:53:09.273134+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44516,7 +44516,7 @@
       "sponsorship": null,
       "content_hash": "71acda2502d24d5e9088bdfb2531820d079d4561a0aa0a30c18d016e2a72e623",
       "first_discovered": "2026-10-13T03:07:49.720151+00:00",
-      "last_seen": "2026-11-06T10:12:14.496455+00:00",
+      "last_seen": "2026-11-06T17:56:02.124953+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44586,7 +44586,7 @@
       "sponsorship": null,
       "content_hash": "aaf467bc12075be328b5a6752318e4ed47c66a2c872c198322fd1c04c94e0eb2",
       "first_discovered": "2026-10-13T03:07:50.536339+00:00",
-      "last_seen": "2026-11-06T10:12:13.706512+00:00",
+      "last_seen": "2026-11-06T17:56:04.642012+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44608,7 +44608,7 @@
       "sponsorship": null,
       "content_hash": "96c8112847d38b4ff6f40effbc23196cdc09227877c199328a450175c9e489af",
       "first_discovered": "2026-10-13T03:07:51.116426+00:00",
-      "last_seen": "2026-11-06T10:12:15.295444+00:00",
+      "last_seen": "2026-11-06T17:56:05.185919+00:00",
       "notified_hash": "96c8112847d38b4ff6f40effbc23196cdc09227877c199328a450175c9e489af",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T03:07:51.875851+00:00"
@@ -44654,7 +44654,7 @@
       "sponsorship": null,
       "content_hash": "c6ae33cd0b7222d08a8eb8280ea565dbd0dc4e47c0a1bdabc9da5ae916afe47f",
       "first_discovered": "2026-10-13T03:07:51.993191+00:00",
-      "last_seen": "2026-11-06T10:12:16.685412+00:00",
+      "last_seen": "2026-11-06T17:56:05.798964+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44746,7 +44746,7 @@
       "sponsorship": null,
       "content_hash": "999825b16f87809be782d1dd1ec94e50420d456f452e99455983598302f898d3",
       "first_discovered": "2026-10-13T03:07:57.704115+00:00",
-      "last_seen": "2026-11-06T10:11:58.477285+00:00",
+      "last_seen": "2026-11-06T17:55:50.663312+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44770,7 +44770,7 @@
       "sponsorship": null,
       "content_hash": "e3c6730287120b778f204c65e97310702e09551d2813fd662c7077dd6d18aa59",
       "first_discovered": "2026-10-13T03:07:58.056112+00:00",
-      "last_seen": "2026-11-06T10:12:17.241887+00:00",
+      "last_seen": "2026-11-06T17:56:11.653207+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46161,7 +46161,7 @@
       "sponsorship": null,
       "content_hash": "284f73d3855b0a2b2c2e5bbf9f7d8c5a1756a333f8616f30147040dcf1600c6a",
       "first_discovered": "2026-10-13T03:08:37.627614+00:00",
-      "last_seen": "2026-11-06T10:09:30.953392+00:00",
+      "last_seen": "2026-11-06T17:54:59.981067+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46183,7 +46183,7 @@
       "sponsorship": null,
       "content_hash": "41f9f32d4fb4579ca4cc6a5acf41f008fd7cf5c87affa55fbc9eea4bc64a6ff0",
       "first_discovered": "2026-10-13T03:08:38.240197+00:00",
-      "last_seen": "2026-11-06T10:09:33.280606+00:00",
+      "last_seen": "2026-11-06T17:55:03.535773+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46206,7 +46206,7 @@
       "sponsorship": null,
       "content_hash": "f508aa116b6907e85782e64fe67b4446a3a793bde3189c1719781abfaa4b4c9c",
       "first_discovered": "2026-10-13T03:08:38.758945+00:00",
-      "last_seen": "2026-11-06T10:09:21.668605+00:00",
+      "last_seen": "2026-11-06T17:54:58.611338+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46253,7 +46253,7 @@
       "sponsorship": null,
       "content_hash": "5f5b6c62a4837b0c74502d993f0cbb1da85311ce8b693f2e59f860e94041135f",
       "first_discovered": "2026-10-13T03:08:39.866057+00:00",
-      "last_seen": "2026-11-06T10:09:18.722820+00:00",
+      "last_seen": "2026-11-06T17:54:52.489439+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46277,7 +46277,7 @@
       "sponsorship": null,
       "content_hash": "26200ed91cbb93b9f9cfeb57c7a0e93245955d2a2e4f47d0cbef907585abea63",
       "first_discovered": "2026-10-13T03:08:40.487722+00:00",
-      "last_seen": "2026-11-06T10:09:38.403187+00:00",
+      "last_seen": "2026-11-06T17:55:13.292687+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46370,7 +46370,7 @@
       "sponsorship": null,
       "content_hash": "c4af7f33f52c7edc6bb555393f80b7f5f1ca8961c1be0d7c5c38b27f2049ff8a",
       "first_discovered": "2026-10-13T03:30:08.252787+00:00",
-      "last_seen": "2026-11-06T10:09:29.104593+00:00",
+      "last_seen": "2026-11-06T17:55:01.283844+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46415,7 +46415,7 @@
       "sponsorship": null,
       "content_hash": "332bb971984a0912e5f5f84c222912e926abe27a9d3e22234cc24e4844302857",
       "first_discovered": "2026-10-13T03:30:10.774276+00:00",
-      "last_seen": "2026-11-06T10:09:39.439925+00:00",
+      "last_seen": "2026-11-06T17:55:14.521312+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46439,7 +46439,7 @@
       "sponsorship": null,
       "content_hash": "87ee212f18a51c14541fab9e6cf9f807153f9cc6c3151e6374d6aa50cf6e0442",
       "first_discovered": "2026-10-13T03:30:11.617871+00:00",
-      "last_seen": "2026-11-06T10:09:48.000345+00:00",
+      "last_seen": "2026-11-06T17:55:15.610451+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46462,7 +46462,7 @@
       "sponsorship": null,
       "content_hash": "50755bef0bc9b32713126385326f30f971826ea5c462f73078f827666209a7f7",
       "first_discovered": "2026-10-13T03:30:13.057299+00:00",
-      "last_seen": "2026-11-06T10:09:49.453952+00:00",
+      "last_seen": "2026-11-06T17:55:17.009333+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46487,7 +46487,7 @@
       "sponsorship": null,
       "content_hash": "3d7e520af54fcf545e4ef34a89a03c9e3b8b52651937a62b3d3582d2679f6e84",
       "first_discovered": "2026-10-13T03:30:13.904904+00:00",
-      "last_seen": "2026-11-06T10:09:51.855022+00:00",
+      "last_seen": "2026-11-06T17:55:19.788014+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46510,7 +46510,7 @@
       "sponsorship": null,
       "content_hash": "b50536bb1d5a16265851099af3b2f85c2ff26a9f799e9adfb9ec58945d6e3595",
       "first_discovered": "2026-10-13T03:30:14.847103+00:00",
-      "last_seen": "2026-11-06T10:09:51.330153+00:00",
+      "last_seen": "2026-11-06T17:55:18.520117+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46533,7 +46533,7 @@
       "sponsorship": null,
       "content_hash": "bf079e802d32a5e0ea0f99dc1a8716d1db0defa3a62e497973c557a2605bd8b1",
       "first_discovered": "2026-10-13T03:30:16.393590+00:00",
-      "last_seen": "2026-11-06T10:09:53.850245+00:00",
+      "last_seen": "2026-11-06T17:55:28.565133+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46555,7 +46555,7 @@
       "sponsorship": null,
       "content_hash": "81c5ebf39f31968568f6f6d04e6108961b7c3b751ec32978d47cbd55b01751a1",
       "first_discovered": "2026-10-13T03:30:21.364069+00:00",
-      "last_seen": "2026-11-06T10:09:54.673448+00:00",
+      "last_seen": "2026-11-06T17:55:27.308379+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46579,7 +46579,7 @@
       "sponsorship": null,
       "content_hash": "d7a546ab728ba86b655ce099169f40dd58d1bae67c0d8429a6b2bb3e56626a12",
       "first_discovered": "2026-10-13T03:30:21.937835+00:00",
-      "last_seen": "2026-11-06T10:09:37.422715+00:00",
+      "last_seen": "2026-11-06T17:55:10.489950+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46649,7 +46649,7 @@
       "sponsorship": null,
       "content_hash": "f82e95e64d10d1cd633b2416337fa2cfda525c4496b1cbf99fd5a744ef32f566",
       "first_discovered": "2026-10-13T03:30:26.943151+00:00",
-      "last_seen": "2026-11-06T10:09:55.119839+00:00",
+      "last_seen": "2026-11-06T17:55:24.797279+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46698,7 +46698,7 @@
       "sponsorship": null,
       "content_hash": "b02cad33e45d269abeeb7d274cfb760dd9ae25dd47f820d1b7963a7cff7e146c",
       "first_discovered": "2026-10-13T03:40:54.527052+00:00",
-      "last_seen": "2026-11-06T10:11:29.135759+00:00",
+      "last_seen": "2026-11-06T17:55:25.471609+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46745,7 +46745,7 @@
       "sponsorship": null,
       "content_hash": "8f3e91b24e67f3f933e881a857168b215acbdee7eb04a76ea87b3fb10a125942",
       "first_discovered": "2026-10-13T03:40:55.530184+00:00",
-      "last_seen": "2026-11-06T10:08:25.448633+00:00",
+      "last_seen": "2026-11-06T17:53:20.168654+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46767,7 +46767,7 @@
       "sponsorship": null,
       "content_hash": "016095f32126c4daf3d16b8db7ba331652e33ffe599bef440ae595dfd2e6fe0c",
       "first_discovered": "2026-10-13T03:40:56.019661+00:00",
-      "last_seen": "2026-11-06T10:08:41.362806+00:00",
+      "last_seen": "2026-11-06T17:53:34.344029+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46813,7 +46813,7 @@
       "sponsorship": null,
       "content_hash": "e39eac55f0ccfb8db9611fda293c5605c77698171dcf6be954cf34e2d9e6ea07",
       "first_discovered": "2026-10-13T03:41:01.050402+00:00",
-      "last_seen": "2026-11-06T10:08:43.319364+00:00",
+      "last_seen": "2026-11-06T17:53:37.987768+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46858,7 +46858,7 @@
       "sponsorship": null,
       "content_hash": "7a4247a946426a920eede5c4fa76b96afe4c661a8c88016bdafa478563b925c8",
       "first_discovered": "2026-10-13T03:41:02.013913+00:00",
-      "last_seen": "2026-11-06T10:08:38.175043+00:00",
+      "last_seen": "2026-11-06T17:53:25.408474+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46948,7 +46948,7 @@
       "sponsorship": null,
       "content_hash": "8defe880f2db7a0aa2e8b4f9875d7ebf3cec5aff96ce1260df541fc35f20f572",
       "first_discovered": "2026-10-13T03:41:04.799588+00:00",
-      "last_seen": "2026-11-06T10:08:38.849975+00:00",
+      "last_seen": "2026-11-06T17:53:26.579999+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -46994,7 +46994,7 @@
       "sponsorship": null,
       "content_hash": "3af3277ed91805cb071ca6157dcb823d8f88609f9498750b4c30778cb70ee47c",
       "first_discovered": "2026-10-13T03:41:05.689568+00:00",
-      "last_seen": "2026-11-06T10:08:44.814364+00:00",
+      "last_seen": "2026-11-06T17:53:39.222804+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47016,7 +47016,7 @@
       "sponsorship": null,
       "content_hash": "17a0028ae6cfc747adf7e5c86d1ed5fb2d812fdc76f13c132adc3d89bb4c073e",
       "first_discovered": "2026-10-13T03:41:06.484379+00:00",
-      "last_seen": "2026-11-06T10:08:45.443766+00:00",
+      "last_seen": "2026-11-06T17:53:40.441986+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47083,7 +47083,7 @@
       "sponsorship": null,
       "content_hash": "b2c3207586bd88be7df3fe5a065a345453ecd481e18a4c0822ba3001847493dc",
       "first_discovered": "2026-10-13T03:41:11.680958+00:00",
-      "last_seen": "2026-11-06T10:08:39.440207+00:00",
+      "last_seen": "2026-11-06T17:53:35.459782+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47130,7 +47130,7 @@
       "sponsorship": null,
       "content_hash": "5ee27c48e34c73f312574ea2a2ccfd24b51ddd1c3a04479c9f235ef7ab3d8d11",
       "first_discovered": "2026-10-13T03:41:12.886528+00:00",
-      "last_seen": "2026-11-06T10:08:37.651253+00:00",
+      "last_seen": "2026-11-06T17:53:33.087649+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47175,7 +47175,7 @@
       "sponsorship": null,
       "content_hash": "8b05ae592a415e0644f66de9c29a25a8220956b86b87fe84f38df3140cab7c09",
       "first_discovered": "2026-10-13T03:41:14.037811+00:00",
-      "last_seen": "2026-11-06T10:08:55.596652+00:00",
+      "last_seen": "2026-11-06T17:53:41.157903+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47198,7 +47198,7 @@
       "sponsorship": null,
       "content_hash": "d9f1e7356aca4e136c08a74b9f13bca3821a8d3edca8f01b44cd764356447535",
       "first_discovered": "2026-10-13T03:41:14.703448+00:00",
-      "last_seen": "2026-11-06T10:08:55.236575+00:00",
+      "last_seen": "2026-11-06T17:53:41.959901+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47220,7 +47220,7 @@
       "sponsorship": null,
       "content_hash": "5413d47bf8aa4ae37335c7bd2b84f16c708fc403664cdd6a5a1808fc14a914f4",
       "first_discovered": "2026-10-13T03:41:15.132166+00:00",
-      "last_seen": "2026-11-06T10:08:56.363388+00:00",
+      "last_seen": "2026-11-06T17:53:49.358179+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47243,7 +47243,7 @@
       "sponsorship": null,
       "content_hash": "0100c013aa6c5e993602c5f32539996bdd99ea24c4e18b1d489ac2a3252dcb5b",
       "first_discovered": "2026-10-13T03:41:15.688397+00:00",
-      "last_seen": "2026-11-06T10:08:56.843184+00:00",
+      "last_seen": "2026-11-06T17:53:50.141405+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47289,7 +47289,7 @@
       "sponsorship": null,
       "content_hash": "a01e2e6d9adaa9c788fe17cb1e91ccb67df8ade6ac2830b7e9cf0e30f9c52b70",
       "first_discovered": "2026-10-13T03:41:20.432395+00:00",
-      "last_seen": "2026-11-06T10:08:21.920270+00:00",
+      "last_seen": "2026-11-06T17:53:20.809518+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47313,7 +47313,7 @@
       "sponsorship": null,
       "content_hash": "1fbe3012d4958dc1d0961f78fbc528f95a95b796cf74c2dde173366e1f704039",
       "first_discovered": "2026-10-13T03:41:20.901689+00:00",
-      "last_seen": "2026-11-06T10:08:59.533119+00:00",
+      "last_seen": "2026-11-06T17:53:52.263750+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47336,7 +47336,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "7b88a3618bd1c9c4ab76f9ce044a5e074be8cf2772838b03936010775f2cfb9c",
       "first_discovered": "2026-10-13T03:41:21.493531+00:00",
-      "last_seen": "2026-11-06T10:08:58.993080+00:00",
+      "last_seen": "2026-11-06T17:53:51.847275+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47359,7 +47359,7 @@
       "sponsorship": null,
       "content_hash": "626b8da7f890a73c4305211f7934c473866ebfd97939c2afa6d4f94027951649",
       "first_discovered": "2026-10-13T03:41:22.159399+00:00",
-      "last_seen": "2026-11-06T10:09:00.247360+00:00",
+      "last_seen": "2026-11-06T17:53:54.445131+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47383,7 +47383,7 @@
       "sponsorship": null,
       "content_hash": "baff8990270efd254afeee576d9c34b86326084399bedb9b79af36b729fc9ce3",
       "first_discovered": "2026-10-13T03:41:22.797211+00:00",
-      "last_seen": "2026-11-06T10:08:47.507378+00:00",
+      "last_seen": "2026-11-06T17:53:39.655751+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47405,7 +47405,7 @@
       "sponsorship": null,
       "content_hash": "261f6eaaabf5351bf946cd5d123c693f6a693a39088abf93fe1d1c98225ede8b",
       "first_discovered": "2026-10-13T03:41:23.227003+00:00",
-      "last_seen": "2026-11-06T10:09:01.244972+00:00",
+      "last_seen": "2026-11-06T17:53:55.099500+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47427,7 +47427,7 @@
       "sponsorship": null,
       "content_hash": "38f82b1e7ccd6f4e321dd3d6d62ee095ada7a96f32f50a1b4b0635476baef344",
       "first_discovered": "2026-10-13T03:41:23.780810+00:00",
-      "last_seen": "2026-11-06T10:09:02.709813+00:00",
+      "last_seen": "2026-11-06T17:53:55.661223+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47451,7 +47451,7 @@
       "sponsorship": null,
       "content_hash": "4e65e37f24cc188de9f4a8eb0f7f6e3b1ad22033d23cee43d60ad3de42a32ea0",
       "first_discovered": "2026-10-13T03:41:24.302799+00:00",
-      "last_seen": "2026-11-06T10:09:03.635116+00:00",
+      "last_seen": "2026-11-06T17:53:56.598714+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47521,7 +47521,7 @@
       "sponsorship": null,
       "content_hash": "121e9cdf8a5de1ade9308d1a27aa587364cc5753e1863a2e6f99242fddb6f121",
       "first_discovered": "2026-10-13T03:41:29.708962+00:00",
-      "last_seen": "2026-11-06T10:09:14.885569+00:00",
+      "last_seen": "2026-11-06T17:53:57.099023+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47569,7 +47569,7 @@
       "sponsorship": null,
       "content_hash": "16e45a39d041ecd7988486d807bb4a8f18385b70ff9c896832cd5ce4f2b07814",
       "first_discovered": "2026-10-13T03:41:30.684387+00:00",
-      "last_seen": "2026-11-06T10:09:12.021044+00:00",
+      "last_seen": "2026-11-06T17:53:58.040550+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47616,7 +47616,7 @@
       "sponsorship": null,
       "content_hash": "268430b4a747e16eef8581e9a4fec7d292bc488b6df669b440269180236c9be4",
       "first_discovered": "2026-10-13T03:41:32.567112+00:00",
-      "last_seen": "2026-11-06T10:06:50.255275+00:00",
+      "last_seen": "2026-11-06T17:52:28.682921+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47639,7 +47639,7 @@
       "sponsorship": null,
       "content_hash": "fd78feb8ed3d6436d84b235022a7c85b08f07ec54bf589344989593af0e6cf32",
       "first_discovered": "2026-10-13T03:41:32.891623+00:00",
-      "last_seen": "2026-11-06T10:06:23.666277+00:00",
+      "last_seen": "2026-11-06T17:52:14.748603+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47662,7 +47662,7 @@
       "sponsorship": null,
       "content_hash": "0801ea1b50742ea15dffa65ec228238301857a5fcf33e659021bcd0a28122c99",
       "first_discovered": "2026-10-13T03:41:33.538701+00:00",
-      "last_seen": "2026-11-06T10:06:53.093675+00:00",
+      "last_seen": "2026-11-06T17:52:29.621885+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47708,7 +47708,7 @@
       "sponsorship": null,
       "content_hash": "770833e387d8d3fcf140ddef9d4ee552d15ebdc0fb9841c4437ee1e7d1f4fec1",
       "first_discovered": "2026-10-13T03:41:34.787144+00:00",
-      "last_seen": "2026-11-06T10:06:56.277406+00:00",
+      "last_seen": "2026-11-06T17:52:35.105917+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47752,7 +47752,7 @@
       "sponsorship": null,
       "content_hash": "5c11b54c8ad15ac92ebdc5b1850e7cffc520d25be621b49c625dd9519a49ebfa",
       "first_discovered": "2026-10-13T03:41:39.481279+00:00",
-      "last_seen": "2026-11-06T10:06:33.279171+00:00",
+      "last_seen": "2026-11-06T17:52:17.729945+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47797,7 +47797,7 @@
       "sponsorship": null,
       "content_hash": "d3f4ecedf8587278c6ba17ad6cbdab99dd42924650f598e24db42fdd5b09e132",
       "first_discovered": "2026-10-13T03:41:40.512450+00:00",
-      "last_seen": "2026-11-06T10:06:33.823797+00:00",
+      "last_seen": "2026-11-06T17:52:15.281839+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47820,7 +47820,7 @@
       "sponsorship": null,
       "content_hash": "39bcc04e2b64a918131610faf6a7fa3eaac557787ca28c4e836d5c60970178f9",
       "first_discovered": "2026-10-13T03:41:41.308480+00:00",
-      "last_seen": "2026-11-06T10:06:59.493730+00:00",
+      "last_seen": "2026-11-06T17:52:34.585869+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47865,7 +47865,7 @@
       "sponsorship": null,
       "content_hash": "e9b46597f8289b6e2f01441596c07d6fec4e51dfd26a72a626d7d647cbe106dd",
       "first_discovered": "2026-10-13T03:41:42.312306+00:00",
-      "last_seen": "2026-11-06T10:06:59.152346+00:00",
+      "last_seen": "2026-11-06T17:52:35.624349+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47887,7 +47887,7 @@
       "sponsorship": null,
       "content_hash": "53d9e08a5e5ffa5294c46b6824dd871ae3de99edd4e82464374dcc1e0f544f8a",
       "first_discovered": "2026-10-13T03:41:43.140848+00:00",
-      "last_seen": "2026-11-06T10:06:51.736234+00:00",
+      "last_seen": "2026-11-06T17:52:27.639164+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47909,7 +47909,7 @@
       "sponsorship": null,
       "content_hash": "532844a3c938c1ebd1f92e0b685a65333b8f6d60af564b81a25601a46e285ab6",
       "first_discovered": "2026-10-13T03:41:43.456644+00:00",
-      "last_seen": "2026-11-06T10:06:52.134789+00:00",
+      "last_seen": "2026-11-06T17:52:27.125639+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47932,7 +47932,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "e37b4e4b8c21e37129fc33786ab6541e908ec82ee07825ffb07f1352f63fdb07",
       "first_discovered": "2026-10-13T03:41:43.983222+00:00",
-      "last_seen": "2026-11-06T10:06:59.771897+00:00",
+      "last_seen": "2026-11-06T17:52:36.429899+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47976,7 +47976,7 @@
       "sponsorship": null,
       "content_hash": "e1b2e2da8efca40817360b637ddc224268df760605c60f20ed092a58fe1fc02d",
       "first_discovered": "2026-10-13T03:41:48.903641+00:00",
-      "last_seen": "2026-11-06T10:07:06.923913+00:00",
+      "last_seen": "2026-11-06T17:52:37.939205+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -47999,7 +47999,7 @@
       "sponsorship": null,
       "content_hash": "31fd33eca63cfb5e6004da53105f095ff0bd56ec849162b85a04b383ab4f2a88",
       "first_discovered": "2026-10-13T03:41:49.261168+00:00",
-      "last_seen": "2026-11-06T10:07:00.847194+00:00",
+      "last_seen": "2026-11-06T17:52:37.178360+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48023,7 +48023,7 @@
       "sponsorship": null,
       "content_hash": "2276de5cd8727d393fc1136ea6ff726ef8e94f6bc5dfd0b40c4ccf4b6d59d5b7",
       "first_discovered": "2026-10-13T03:41:49.870464+00:00",
-      "last_seen": "2026-11-06T10:07:07.744556+00:00",
+      "last_seen": "2026-11-06T17:52:38.611087+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48114,7 +48114,7 @@
       "sponsorship": null,
       "content_hash": "18a2163ecb72a007a55b6c83e1e2d7c7b626f2d643ced448dcde40609b83c499",
       "first_discovered": "2026-10-13T03:41:52.186100+00:00",
-      "last_seen": "2026-11-06T10:07:12.066532+00:00",
+      "last_seen": "2026-11-06T17:52:39.117399+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48137,7 +48137,7 @@
       "sponsorship": null,
       "content_hash": "53834c4194127a241372228c9c09447796234a3a33fe191c279a19ca3f50a194",
       "first_discovered": "2026-10-13T03:41:52.770047+00:00",
-      "last_seen": "2026-11-06T10:07:09.978172+00:00",
+      "last_seen": "2026-11-06T17:52:39.847262+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48183,7 +48183,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "e063c7d71a9b58d8fe9d9c1351dee7f9d59f0b53e3a12dbddbaead4cb9438e58",
       "first_discovered": "2026-10-13T03:41:57.588732+00:00",
-      "last_seen": "2026-11-06T10:07:12.536980+00:00",
+      "last_seen": "2026-11-06T17:52:40.600666+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48205,7 +48205,7 @@
       "sponsorship": null,
       "content_hash": "10d052a75d222c70fc10187f99b8c76271e789ed433de0fc59ce8b2e8e859ef7",
       "first_discovered": "2026-10-13T03:41:58.141772+00:00",
-      "last_seen": "2026-11-06T10:06:38.390746+00:00",
+      "last_seen": "2026-11-06T17:52:24.327994+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48296,7 +48296,7 @@
       "sponsorship": null,
       "content_hash": "9dd62877da9478dba3cd6efa9fb323ae5465f5fcf07fa6f8174dcbb0dc3b8cfa",
       "first_discovered": "2026-10-13T03:42:00.477242+00:00",
-      "last_seen": "2026-11-06T10:07:14.306723+00:00",
+      "last_seen": "2026-11-06T17:52:46.697784+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48343,7 +48343,7 @@
       "sponsorship": null,
       "content_hash": "13819db286898529ac22ab57f15717ab077c3662ba5bbd69f167a840674596da",
       "first_discovered": "2026-10-13T03:42:01.439665+00:00",
-      "last_seen": "2026-11-06T10:07:17.823059+00:00",
+      "last_seen": "2026-11-06T17:52:47.320652+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48414,7 +48414,7 @@
       "sponsorship": null,
       "content_hash": "47606d8a5fcb88e2556fe3e8971660cf094fc7285bc722e9a8b2ebb5bfb12f24",
       "first_discovered": "2026-10-13T03:42:06.921831+00:00",
-      "last_seen": "2026-11-06T10:06:36.058825+00:00",
+      "last_seen": "2026-11-06T17:52:18.097551+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48461,7 +48461,7 @@
       "sponsorship": null,
       "content_hash": "50b33e6966177f80e5c88a32925c40e7d0845df3af0ee289cbae16148b6e0d10",
       "first_discovered": "2026-10-13T03:42:07.965776+00:00",
-      "last_seen": "2026-11-06T10:07:16.788066+00:00",
+      "last_seen": "2026-11-06T17:52:46.156667+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48505,7 +48505,7 @@
       "sponsorship": null,
       "content_hash": "964de754630d227b96975ce4a3ff560233f002773a35696823a3df1ff932ad3c",
       "first_discovered": "2026-10-13T03:42:09.299083+00:00",
-      "last_seen": "2026-11-06T10:07:18.515630+00:00",
+      "last_seen": "2026-11-06T17:52:45.334142+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48529,7 +48529,7 @@
       "sponsorship": null,
       "content_hash": "9a97567b83775d10f14fed31ccecebc16e3859343e41cbc220b3f013a990e8e3",
       "first_discovered": "2026-10-13T03:42:09.629340+00:00",
-      "last_seen": "2026-11-06T10:07:20.051045+00:00",
+      "last_seen": "2026-11-06T17:52:48.305359+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48553,7 +48553,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "65cb2e811781b2d9082f8e70e7de28a556455265deacf3891917c9f6eda3f90e",
       "first_discovered": "2026-10-13T03:42:10.242148+00:00",
-      "last_seen": "2026-11-06T10:10:26.988434+00:00",
+      "last_seen": "2026-11-06T17:54:23.199060+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48622,7 +48622,7 @@
       "sponsorship": null,
       "content_hash": "e362b5924f8dcfa414d287a25e17439206014c621d6d5481171fbda54e27faf3",
       "first_discovered": "2026-10-13T03:42:11.944598+00:00",
-      "last_seen": "2026-11-06T10:10:25.035949+00:00",
+      "last_seen": "2026-11-06T17:54:25.225551+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48645,7 +48645,7 @@
       "sponsorship": null,
       "content_hash": "bbc1372b645d59b1738cd5f81f3da57c08993690d9e71276e23a5768237172b4",
       "first_discovered": "2026-10-13T03:42:16.164764+00:00",
-      "last_seen": "2026-11-06T10:10:12.727440+00:00",
+      "last_seen": "2026-11-06T17:54:13.216518+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48669,7 +48669,7 @@
       "sponsorship": null,
       "content_hash": "7a0e2f25b90f22ebe489eadc55df4109257a2e16898ecd027940b11bb88d0834",
       "first_discovered": "2026-10-13T03:42:16.898196+00:00",
-      "last_seen": "2026-11-06T10:10:24.197472+00:00",
+      "last_seen": "2026-11-06T17:54:26.792410+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48715,7 +48715,7 @@
       "sponsorship": null,
       "content_hash": "0cfe8881a0e1e838994b3aceeacb13603459ce26ca8245a8460982d963840c32",
       "first_discovered": "2026-10-13T03:42:17.892004+00:00",
-      "last_seen": "2026-11-06T10:09:58.273279+00:00",
+      "last_seen": "2026-11-06T17:54:03.523479+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48783,7 +48783,7 @@
       "sponsorship": null,
       "content_hash": "c50cfecf549d66ba1f37734d01536c1803f367d30dccb91da47aeb60d667d96a",
       "first_discovered": "2026-10-13T03:42:19.783370+00:00",
-      "last_seen": "2026-11-06T10:10:07.041393+00:00",
+      "last_seen": "2026-11-06T17:54:09.736082+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48806,7 +48806,7 @@
       "sponsorship": null,
       "content_hash": "4e6bbc9973eb55f757be6c27604ece015ecd5f0e8267b34b18218f55f20e085a",
       "first_discovered": "2026-10-13T03:42:20.156477+00:00",
-      "last_seen": "2026-11-06T10:10:14.460132+00:00",
+      "last_seen": "2026-11-06T17:54:13.802886+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48895,7 +48895,7 @@
       "sponsorship": null,
       "content_hash": "1a23033db4c0fb649cd4c4d9a1fe0209be3627a546492e46811e85520368cc02",
       "first_discovered": "2026-10-13T03:42:25.996864+00:00",
-      "last_seen": "2026-11-06T10:09:57.440729+00:00",
+      "last_seen": "2026-11-06T17:54:07.273249+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48941,7 +48941,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "db4dc3b1725b91ba4dbea8d0ef5202aac6e5da46561c299fda2cefd5915ef1f6",
       "first_discovered": "2026-10-13T03:42:26.938745+00:00",
-      "last_seen": "2026-11-06T10:10:08.227183+00:00",
+      "last_seen": "2026-11-06T17:54:08.061355+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -48963,7 +48963,7 @@
       "sponsorship": null,
       "content_hash": "83fdc8e616fcd3a9aa5032b590f9eb03a508253a12d5d1b87cb1afda772037ff",
       "first_discovered": "2026-10-13T03:42:27.729729+00:00",
-      "last_seen": "2026-11-06T10:10:28.822534+00:00",
+      "last_seen": "2026-11-06T17:54:27.663767+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49011,7 +49011,7 @@
       "sponsorship": null,
       "content_hash": "8d612669e05bc097ac1f1469eb9b1c12098123f99c0a94c2f5314baab1a03142",
       "first_discovered": "2026-10-13T03:42:28.948087+00:00",
-      "last_seen": "2026-11-06T10:10:29.735028+00:00",
+      "last_seen": "2026-11-06T17:54:29.584331+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49034,7 +49034,7 @@
       "sponsorship": null,
       "content_hash": "04e47aeee8655faca8c3ed6a2b9dadd4ac9e03faa39b9d53777b86e3c37ae7f3",
       "first_discovered": "2026-10-13T03:42:29.417206+00:00",
-      "last_seen": "2026-11-06T10:10:30.961987+00:00",
+      "last_seen": "2026-11-06T17:54:29.015656+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49056,7 +49056,7 @@
       "sponsorship": null,
       "content_hash": "5fb8609af60550bb01012a75df2802161948c0ed72406d33ffe09ec43928a7e4",
       "first_discovered": "2026-10-13T03:42:29.956313+00:00",
-      "last_seen": "2026-11-06T10:10:32.466890+00:00",
+      "last_seen": "2026-11-06T17:54:34.766603+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49078,7 +49078,7 @@
       "sponsorship": null,
       "content_hash": "4aa820c25f7370d158739b9809b6eb8c7e2af10ace4440615a310670d93768ae",
       "first_discovered": "2026-10-13T03:42:30.469240+00:00",
-      "last_seen": "2026-11-06T10:10:10.763957+00:00",
+      "last_seen": "2026-11-06T17:54:12.901390+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49100,7 +49100,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "8548e89688b9da9442a8c0ac3311b37cb1d9f514250fdd18c648db4d2b75a691",
       "first_discovered": "2026-10-13T03:42:34.948691+00:00",
-      "last_seen": "2026-11-06T10:10:34.461431+00:00",
+      "last_seen": "2026-11-06T17:54:37.502530+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49124,7 +49124,7 @@
       "sponsorship": null,
       "content_hash": "85ff874081e170d0583672f120f0cd04eb81cf1c4ad7714f7baba187a7d2d553",
       "first_discovered": "2026-10-13T03:42:35.493623+00:00",
-      "last_seen": "2026-11-06T10:10:43.095411+00:00",
+      "last_seen": "2026-11-06T17:54:36.540956+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49147,7 +49147,7 @@
       "sponsorship": null,
       "content_hash": "db5ea57d68469d838b94a0720231b19f16c10a20ded7a91f789c3c1299b8eeb0",
       "first_discovered": "2026-10-13T03:42:35.894003+00:00",
-      "last_seen": "2026-11-06T10:10:40.984690+00:00",
+      "last_seen": "2026-11-06T17:54:40.238839+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49171,7 +49171,7 @@
       "sponsorship": null,
       "content_hash": "8cce24192dd98501efadbfbe4c19ee69df3713a3f1db1753bdd3faf41e9e25f3",
       "first_discovered": "2026-10-13T03:42:36.284519+00:00",
-      "last_seen": "2026-11-06T10:10:34.895591+00:00",
+      "last_seen": "2026-11-06T17:54:35.418065+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49193,7 +49193,7 @@
       "sponsorship": null,
       "content_hash": "0259a4bf708c365c40f00669885ed467e5080131b5fdcbbd20f7ed9937850495",
       "first_discovered": "2026-10-13T03:42:37.168302+00:00",
-      "last_seen": "2026-11-06T10:10:16.734327+00:00",
+      "last_seen": "2026-11-06T17:54:22.521816+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49215,7 +49215,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "b43dc4a5b7562b72f491266683114b160674aa9cf1e56f8b7bc7e79a4c1cf241",
       "first_discovered": "2026-10-13T03:42:37.688210+00:00",
-      "last_seen": "2026-11-06T10:10:40.150790+00:00",
+      "last_seen": "2026-11-06T17:54:41.187126+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -49239,7 +49239,7 @@
       "sponsorship": null,
       "content_hash": "552fe3985fb92fb7f63320ad881cab2cbbf98f406a89ada89999d94e82e8df47",
       "first_discovered": "2026-10-13T03:42:38.283275+00:00",
-      "last_seen": "2026-11-06T10:10:41.995789+00:00",
+      "last_seen": "2026-11-06T17:54:42.322351+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60706,7 +60706,7 @@
       "sponsorship": null,
       "content_hash": "270c09aa60f8b3daeecef0b775294ba354a7e75e5b71cd0d07a3fbdec2f01250",
       "first_discovered": "2026-10-13T04:07:23.619055+00:00",
-      "last_seen": "2026-11-06T10:13:13.176635+00:00",
+      "last_seen": "2026-11-06T17:57:02.747480+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60754,7 +60754,7 @@
       "sponsorship": null,
       "content_hash": "1f8b7a17dcdbb5773d105b7a20c70b0b585a65d1797fbf8fd6ba2a2ca65a242c",
       "first_discovered": "2026-10-13T04:07:24.477771+00:00",
-      "last_seen": "2026-11-06T10:13:11.850396+00:00",
+      "last_seen": "2026-11-06T17:57:03.232965+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60800,7 +60800,7 @@
       "sponsorship": null,
       "content_hash": "a75f3d285e3bebdce6367b0673551e5059ce919850f65a501da39636a331e88d",
       "first_discovered": "2026-10-13T04:07:28.504032+00:00",
-      "last_seen": "2026-11-06T10:12:48.970699+00:00",
+      "last_seen": "2026-11-06T17:56:32.844651+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60845,7 +60845,7 @@
       "sponsorship": null,
       "content_hash": "ae7b4f1a3fec270858f9920f7bd926df0e9ffc9ddef82b97952f19b961c214b0",
       "first_discovered": "2026-10-13T04:07:30.528948+00:00",
-      "last_seen": "2026-11-06T10:13:11.352834+00:00",
+      "last_seen": "2026-11-06T17:57:04.317352+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60939,7 +60939,7 @@
       "sponsorship": null,
       "content_hash": "76aa91b8be41102bc554f959fddff6f301c3be069ae739a5dfab286ebe449afa",
       "first_discovered": "2026-10-13T04:07:32.399656+00:00",
-      "last_seen": "2026-11-06T10:13:12.661371+00:00",
+      "last_seen": "2026-11-06T17:57:05.301009+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61008,7 +61008,7 @@
       "sponsorship": null,
       "content_hash": "97ef4d5f5dbddf81d7a36476cd311a1e1790a781a8e9620588ba63130568da08",
       "first_discovered": "2026-10-13T04:07:34.481872+00:00",
-      "last_seen": "2026-11-06T10:12:48.656836+00:00",
+      "last_seen": "2026-11-06T17:56:31.801907+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61188,7 +61188,7 @@
       "sponsorship": null,
       "content_hash": "53ae62cf6f7abc419ff6979fc6a81f3c5b6e0f49e5ec5ac0fc28b51c286137cc",
       "first_discovered": "2026-10-13T04:07:42.404646+00:00",
-      "last_seen": "2026-11-06T10:12:51.824364+00:00",
+      "last_seen": "2026-11-06T17:56:40.617943+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61258,7 +61258,7 @@
       "sponsorship": null,
       "content_hash": "863ddf2b591cf031806778507f3e56cc483bddc8ed7a5152ec55fc411d5a67eb",
       "first_discovered": "2026-10-13T04:07:44.058872+00:00",
-      "last_seen": "2026-11-06T10:12:36.855055+00:00",
+      "last_seen": "2026-11-06T17:56:29.906962+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61328,7 +61328,7 @@
       "sponsorship": null,
       "content_hash": "1a7bbb17918f292caddc3de3292cceb28f9ec6adbece3398f6f5181aee847ec2",
       "first_discovered": "2026-10-13T04:07:46.683695+00:00",
-      "last_seen": "2026-11-06T10:13:00.689406+00:00",
+      "last_seen": "2026-11-06T17:56:47.880055+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61398,7 +61398,7 @@
       "sponsorship": null,
       "content_hash": "7d10f5ba3f91d2977ac9931e001ce1b797ed00e2b54c48380b610203e2351e74",
       "first_discovered": "2026-10-13T04:07:50.369223+00:00",
-      "last_seen": "2026-11-06T10:12:35.306353+00:00",
+      "last_seen": "2026-11-06T17:56:27.060367+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -61660,7 +61660,7 @@
       "sponsorship": null,
       "content_hash": "45bee2705a8c72ffffb071378fcd9d7eecec1f8a2b31af35082d2e7410e033a8",
       "first_discovered": "2026-10-13T04:08:00.720436+00:00",
-      "last_seen": "2026-11-06T10:09:26.383129+00:00",
+      "last_seen": "2026-11-06T17:53:40.053620+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62738,7 +62738,7 @@
       "sponsorship": null,
       "content_hash": "68f4c20216a1b618b301e961da3fa22e5e22bb84c196101da62bb8a904c10f4c",
       "first_discovered": "2026-10-13T09:33:30.809045+00:00",
-      "last_seen": "2026-11-06T10:13:21.632886+00:00",
+      "last_seen": "2026-11-06T17:55:05.782771+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68326,7 +68326,7 @@
       "sponsorship": null,
       "content_hash": "6d9767a9a0045f4042f887a55915810bdc787764979e96476be681ff21801de4",
       "first_discovered": "2026-10-13T09:40:28.173732+00:00",
-      "last_seen": "2026-11-05T00:43:15.412373+00:00",
+      "last_seen": "2026-11-06T17:53:00.214937+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68349,7 +68349,7 @@
       "sponsorship": null,
       "content_hash": "73becb010585a5c3e5d740c27e749bb33ba0a9e7d5d78d9a381f7c9fd4e59abb",
       "first_discovered": "2026-10-13T09:40:29.560153+00:00",
-      "last_seen": "2026-11-06T10:13:04.256323+00:00",
+      "last_seen": "2026-11-06T17:56:58.574036+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68419,7 +68419,7 @@
       "sponsorship": null,
       "content_hash": "b4a67a880b9b2369e63c9acd7c9664b8384cef664f7cf92f70aec6aa9ce1f84c",
       "first_discovered": "2026-10-13T09:40:31.932159+00:00",
-      "last_seen": "2026-11-06T10:12:28.239534+00:00",
+      "last_seen": "2026-11-06T17:56:19.867703+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68464,7 +68464,7 @@
       "sponsorship": null,
       "content_hash": "0c5cbad797fd31f5fa0b340cffd8348d3ade283fb1748d22b2b428426155bd18",
       "first_discovered": "2026-10-13T09:40:32.812834+00:00",
-      "last_seen": "2026-11-06T10:13:03.806993+00:00",
+      "last_seen": "2026-11-06T17:56:57.865207+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68532,7 +68532,7 @@
       "sponsorship": null,
       "content_hash": "554dd0a48092af9545eaeecc1b8f7a69e9d9c670587ae67b9d12a47c3791fd17",
       "first_discovered": "2026-10-13T09:40:35.873167+00:00",
-      "last_seen": "2026-11-06T10:12:34.267950+00:00",
+      "last_seen": "2026-11-06T17:56:26.468288+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68834,7 +68834,7 @@
       "sponsorship": null,
       "content_hash": "f8e8b7fe8ed5502193b7ad3ad06d9e52d8141d9dd2e2298f37edafc0d7d152d4",
       "first_discovered": "2026-10-13T09:40:49.500930+00:00",
-      "last_seen": "2026-11-06T10:13:06.666302+00:00",
+      "last_seen": "2026-11-06T17:57:02.049560+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68996,7 +68996,7 @@
       "sponsorship": null,
       "content_hash": "5b20986b13c8c4661df1e04a8e9a67bd2f40ebf1c86f7e99b62946a093081915",
       "first_discovered": "2026-10-13T09:40:54.153102+00:00",
-      "last_seen": "2026-11-06T10:13:04.692561+00:00",
+      "last_seen": "2026-11-06T17:56:56.693630+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69137,7 +69137,7 @@
       "sponsorship": null,
       "content_hash": "bc1f0fdc69935a7a7ce0f7b3e502fea7ef6fc7bb6dfb7a4f68d349cc91151530",
       "first_discovered": "2026-10-13T09:41:03.231220+00:00",
-      "last_seen": "2026-11-06T10:12:33.501193+00:00",
+      "last_seen": "2026-11-06T17:56:28.495986+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69371,7 +69371,7 @@
       "sponsorship": null,
       "content_hash": "74e68357193d4e67663a1fca82157e7d3c22cb51861477315f3dc87d08bb4610",
       "first_discovered": "2026-10-13T09:41:10.011754+00:00",
-      "last_seen": "2026-11-06T10:12:54.910317+00:00",
+      "last_seen": "2026-11-06T17:56:44.963202+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69443,7 +69443,7 @@
       "sponsorship": null,
       "content_hash": "fd7c4565d0874651fc2be367da8beecf1327f3ae6ec73dd7ed4ce2f61b5e3a76",
       "first_discovered": "2026-10-13T09:41:11.153970+00:00",
-      "last_seen": "2026-11-06T10:12:55.350812+00:00",
+      "last_seen": "2026-11-06T17:56:45.845226+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69858,7 +69858,7 @@
       "sponsorship": null,
       "content_hash": "4883dd214b4a7803eca7e46fa63276ecc39bb1351e4e01be45112c2c43cf1bca",
       "first_discovered": "2026-10-13T09:41:28.323237+00:00",
-      "last_seen": "2026-11-06T10:12:46.802460+00:00",
+      "last_seen": "2026-11-06T17:56:31.105263+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69883,7 +69883,7 @@
       "sponsorship": null,
       "content_hash": "3125adda7107b2279259615a56f8c0631ef61b67d795e522ff5def51400b4515",
       "first_discovered": "2026-10-13T09:41:29.412499+00:00",
-      "last_seen": "2026-11-06T10:12:53.409028+00:00",
+      "last_seen": "2026-11-06T17:56:43.216974+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -69976,7 +69976,7 @@
       "sponsorship": null,
       "content_hash": "640c8d147716d2977d54f9dd8e34163ac988a258d356b9da5f15d29af721c41a",
       "first_discovered": "2026-10-13T09:41:31.507888+00:00",
-      "last_seen": "2026-11-06T10:13:05.262829+00:00",
+      "last_seen": "2026-11-06T17:57:00.967855+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70862,7 +70862,7 @@
       "sponsorship": null,
       "content_hash": "867d1bc97cc809ffe27773357814935a1384863c2b35be62c84dcfa54e4d2698",
       "first_discovered": "2026-10-13T15:47:51.508983+00:00",
-      "last_seen": "2026-11-06T10:09:31.939044+00:00",
+      "last_seen": "2026-11-06T17:55:02.831056+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70999,7 +70999,7 @@
       "sponsorship": null,
       "content_hash": "cae2b899b0b596929f878678442260ddef9844059bece9c2954991469f108f05",
       "first_discovered": "2026-10-13T15:49:10.462068+00:00",
-      "last_seen": "2026-11-05T07:33:21.576956+00:00",
+      "last_seen": "2026-11-06T17:55:53.717707+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71022,7 +71022,7 @@
       "sponsorship": null,
       "content_hash": "b65e43e55ec37f453da1bb92dec300c4087b89c96fa12f064e0c76c1e9c55395",
       "first_discovered": "2026-10-13T15:49:13.456046+00:00",
-      "last_seen": "2026-11-05T22:15:17.616710+00:00",
+      "last_seen": "2026-11-06T17:52:10.405067+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71160,7 +71160,7 @@
       "sponsorship": null,
       "content_hash": "51bf5e98931870b91fc0dcf045d2d4515f7b843bbf727c49b05b1adf837b2683",
       "first_discovered": "2026-10-13T15:49:38.320884+00:00",
-      "last_seen": "2026-11-05T22:15:13.914981+00:00",
+      "last_seen": "2026-11-06T17:52:17.341139+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71183,7 +71183,7 @@
       "sponsorship": null,
       "content_hash": "c9aa37b93a44bf53e5194973a11377def488055fc4c8de6e058a16dcfb878ba8",
       "first_discovered": "2026-10-13T15:49:44.512776+00:00",
-      "last_seen": "2026-11-06T02:33:40.318981+00:00",
+      "last_seen": "2026-11-06T17:57:07.124041+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71252,7 +71252,7 @@
       "sponsorship": null,
       "content_hash": "0394b9936fae290c5827504a3aea7c71961258e66b9415b5d4408897c641542a",
       "first_discovered": "2026-10-13T15:49:57.029868+00:00",
-      "last_seen": "2026-11-05T22:13:35.692123+00:00",
+      "last_seen": "2026-11-06T17:53:36.468175+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71298,7 +71298,7 @@
       "sponsorship": null,
       "content_hash": "6cd6d7ef9349cf57e7112c5cb9ef37dffc5e816cce41d0c71c2d2586997fd926",
       "first_discovered": "2026-10-13T15:50:09.140610+00:00",
-      "last_seen": "2026-11-05T00:37:23.779620+00:00",
+      "last_seen": "2026-11-06T17:52:23.039487+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71458,7 +71458,7 @@
       "sponsorship": null,
       "content_hash": "334990ce2ce6d11b8e228800832b3e0a8998e1cf22e8376c9bf326036fd5e6a9",
       "first_discovered": "2026-10-13T15:52:30.165037+00:00",
-      "last_seen": "2026-11-06T10:09:34.091158+00:00",
+      "last_seen": "2026-11-06T17:53:56.167473+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71481,7 +71481,7 @@
       "sponsorship": null,
       "content_hash": "eb42363f4bfc25d835cf9bc8b45ebfedc754010a0ae973fced2ed553e5f7a505",
       "first_discovered": "2026-10-13T15:52:37.299497+00:00",
-      "last_seen": "2026-11-06T10:09:40.410129+00:00",
+      "last_seen": "2026-11-06T17:53:59.606522+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71503,7 +71503,7 @@
       "sponsorship": null,
       "content_hash": "706e33439dad79eaf1eecc7d9b26ba410337f91849404ceeedf375006f4e4c6d",
       "first_discovered": "2026-10-13T15:52:43.158560+00:00",
-      "last_seen": "2026-11-06T10:09:47.039295+00:00",
+      "last_seen": "2026-11-06T17:53:43.713561+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71527,7 +71527,7 @@
       "sponsorship": null,
       "content_hash": "1c9e0e2015aa66f3c75601839497da95e4d6993b7a57bf56fe1e46df7d3efb09",
       "first_discovered": "2026-10-13T15:52:46.661982+00:00",
-      "last_seen": "2026-11-06T10:09:52.603033+00:00",
+      "last_seen": "2026-11-06T17:53:51.293489+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71896,7 +71896,7 @@
       "sponsorship": null,
       "content_hash": "d48184b398bd334d207178d689fbfd0a6bec33fa5c5fa64ab3c287e2134441e7",
       "first_discovered": "2026-10-13T15:53:37.591865+00:00",
-      "last_seen": "2026-11-05T00:42:57.898065+00:00",
+      "last_seen": "2026-11-06T17:52:26.723918+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -72793,7 +72793,7 @@
       "sponsorship": null,
       "content_hash": "9de4fbfea7384860b43be18eb301b4a652eb96aabd5c638c7d49499cf24c48dd",
       "first_discovered": "2026-10-13T15:54:29.097391+00:00",
-      "last_seen": "2026-11-06T10:10:13.351130+00:00",
+      "last_seen": "2026-11-06T17:54:54.867385+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73095,7 +73095,7 @@
       "sponsorship": null,
       "content_hash": "14ab34f74c216f0d7decb5520b3461ca7a43251e147510aa8f17655ffe8c4dd8",
       "first_discovered": "2026-10-13T15:55:43.941735+00:00",
-      "last_seen": "2026-11-05T22:08:23.621964+00:00",
+      "last_seen": "2026-11-06T17:54:21.921355+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76925,7 +76925,7 @@
       "sponsorship": null,
       "content_hash": "8c0ee69bf929c258bcfadef48cdc1c0b50e71d48c7994f900146c8f38db85050",
       "first_discovered": "2026-10-13T15:58:40.817905+00:00",
-      "last_seen": "2026-11-05T00:40:54.044373+00:00",
+      "last_seen": "2026-11-06T17:54:33.357259+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -79510,7 +79510,7 @@
       "sponsorship": null,
       "content_hash": "d878f60cb33d8125a5b178090b4890c89ed1bbeca6477e94e7679dab6452e668",
       "first_discovered": "2026-10-13T16:00:16.048077+00:00",
-      "last_seen": "2026-11-06T10:13:41.591393+00:00",
+      "last_seen": "2026-11-06T17:52:51.734271+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80068,7 +80068,7 @@
       "sponsorship": null,
       "content_hash": "01845e77ca9b55fb7428111da56e32f2c4fa5c04c561ac08355a1d5a852239cc",
       "first_discovered": "2026-10-13T20:56:24.277707+00:00",
-      "last_seen": "2026-11-06T10:13:18.762904+00:00",
+      "last_seen": "2026-11-06T17:55:02.282132+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80207,7 +80207,7 @@
       "sponsorship": null,
       "content_hash": "386c3aa8c88b9cb7c052bc70a605965f466f8f0a8c3d93393fccd92f50fc3d97",
       "first_discovered": "2026-10-13T20:59:57.045041+00:00",
-      "last_seen": "2026-11-06T10:06:47.899639+00:00",
+      "last_seen": "2026-11-06T17:52:26.348204+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80230,7 +80230,7 @@
       "sponsorship": null,
       "content_hash": "79923bb36f12ea433f4416f30e1131cd05e6bc297cc4d049b9d516d1818d3f5a",
       "first_discovered": "2026-10-13T21:00:04.407899+00:00",
-      "last_seen": "2026-11-04T19:11:18.313443+00:00",
+      "last_seen": "2026-11-06T17:52:32.724479+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80299,7 +80299,7 @@
       "sponsorship": null,
       "content_hash": "66d05dc9de7e3dbc6f5ae58a655f6f1ca6392ff57ab71565e686c5322c868898",
       "first_discovered": "2026-10-13T21:01:01.361518+00:00",
-      "last_seen": "2026-11-06T10:10:23.259226+00:00",
+      "last_seen": "2026-11-06T17:54:23.994048+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80391,7 +80391,7 @@
       "sponsorship": null,
       "content_hash": "bbed6f30bdf2ca6a03b743528cee92c7686a6f10ac68a655c6fc50eb22ef1184",
       "first_discovered": "2026-10-13T21:07:09.684771+00:00",
-      "last_seen": "2026-11-05T22:14:58.629384+00:00",
+      "last_seen": "2026-11-06T17:52:14.283850+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80837,7 +80837,7 @@
       "sponsorship": null,
       "content_hash": "f4dbe7642e6c55ae3b81597369f248da399d51404b666f7469db5614c410e58f",
       "first_discovered": "2026-10-14T00:28:48.886944+00:00",
-      "last_seen": "2026-11-04T19:10:01.483060+00:00",
+      "last_seen": "2026-11-06T17:56:29.115974+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80905,7 +80905,7 @@
       "sponsorship": null,
       "content_hash": "88f2bb09a709c902b4cfdaaf1dfbc19eba6912285cff3daf3bfcee0b53daa7fd",
       "first_discovered": "2026-10-14T00:29:01.206400+00:00",
-      "last_seen": "2026-11-06T02:33:18.376346+00:00",
+      "last_seen": "2026-11-06T17:57:03.934325+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82727,7 +82727,7 @@
       "sponsorship": null,
       "content_hash": "01788d6b66ffc1241a95db02ba60221f6d9a13ea503bedebe202392c10adfa54",
       "first_discovered": "2026-10-14T10:49:48.831551+00:00",
-      "last_seen": "2026-11-05T00:41:02.041014+00:00",
+      "last_seen": "2026-11-06T17:55:57.482678+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83165,7 +83165,7 @@
       "sponsorship": null,
       "content_hash": "c08a6730df5a2e83fd880908b4b50fcbe51cb48083883d6e6ff921ac331fe25d",
       "first_discovered": "2026-10-14T15:46:03.562998+00:00",
-      "last_seen": "2026-11-05T00:41:08.614805+00:00",
+      "last_seen": "2026-11-06T17:53:05.971478+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83403,7 +83403,7 @@
       "sponsorship": null,
       "content_hash": "af03f74c790b284e8a5856516a198596ff740ce6dcd6a7fc512832f54561c1f6",
       "first_discovered": "2026-10-14T19:53:15.929431+00:00",
-      "last_seen": "2026-11-06T10:06:42.054605+00:00",
+      "last_seen": "2026-11-06T17:52:25.759539+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83472,7 +83472,7 @@
       "sponsorship": null,
       "content_hash": "a354081ba7d690965d2755577eeb46422475f6237909f528387126bee5c837aa",
       "first_discovered": "2026-10-14T19:53:52.046056+00:00",
-      "last_seen": "2026-11-06T02:33:23.199455+00:00",
+      "last_seen": "2026-11-06T17:56:48.277517+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83653,7 +83653,7 @@
       "sponsorship": null,
       "content_hash": "667145f078436378998a10a96b7186ebda44e7047fb41ed942d5a9ec7b543678",
       "first_discovered": "2026-10-14T20:00:29.571755+00:00",
-      "last_seen": "2026-11-06T10:12:49.388587+00:00",
+      "last_seen": "2026-11-06T17:56:33.798134+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83843,7 +83843,7 @@
       "sponsorship": null,
       "content_hash": "66115ca3fc53e7c31d9c226e9e0afe72385254a50f97204762c8a055a65baea9",
       "first_discovered": "2026-10-14T22:47:12.662429+00:00",
-      "last_seen": "2026-11-06T10:11:04.306599+00:00",
+      "last_seen": "2026-11-06T17:53:00.999579+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83912,7 +83912,7 @@
       "sponsorship": null,
       "content_hash": "2f5543a549dcb9bf8d1c557c6858015b4b9f3f0a0b63247aff94084c98a8dbc4",
       "first_discovered": "2026-10-15T01:08:28.735052+00:00",
-      "last_seen": "2026-11-05T07:43:35.577435+00:00",
+      "last_seen": "2026-11-06T17:55:26.342352+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -84868,7 +84868,7 @@
       "sponsorship": null,
       "content_hash": "6233dbfc29aedf819b758c6802b0289a48b224531feb840ccaa38578b12ef46e",
       "first_discovered": "2026-10-15T15:53:32.125746+00:00",
-      "last_seen": "2026-11-06T10:09:36.018747+00:00",
+      "last_seen": "2026-11-06T17:55:09.335483+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -84914,7 +84914,7 @@
       "sponsorship": null,
       "content_hash": "85d6c27d258df6b7b3954496a3a104059468884ab8c9c919ddb98814f283a334",
       "first_discovered": "2026-10-15T15:58:52.470242+00:00",
-      "last_seen": "2026-11-06T10:06:41.034221+00:00",
+      "last_seen": "2026-11-06T17:52:23.851945+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85133,7 +85133,7 @@
       "sponsorship": null,
       "content_hash": "3ab05e3a216aba41de555c00cdd4994f371a159a24c70b59e2859ac431173f75",
       "first_discovered": "2026-10-15T19:32:35.114263+00:00",
-      "last_seen": "2026-11-06T10:09:15.301135+00:00",
+      "last_seen": "2026-11-06T17:54:45.945769+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85913,7 +85913,7 @@
       "sponsorship": null,
       "content_hash": "c23c0ea2e695155cee907d50e0fcf9609d114bd688255293bf1d637eee25478c",
       "first_discovered": "2026-10-15T22:50:12.367385+00:00",
-      "last_seen": "2026-11-05T00:40:47.158973+00:00",
+      "last_seen": "2026-11-06T17:54:30.650974+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85981,7 +85981,7 @@
       "sponsorship": null,
       "content_hash": "83f5c69ac72a6bbc7ab068f770d0c831d2d1cd634139665f1587b174b6d4d28e",
       "first_discovered": "2026-10-15T22:51:20.197041+00:00",
-      "last_seen": "2026-11-05T07:43:28.596720+00:00",
+      "last_seen": "2026-11-06T17:52:48.882019+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86050,7 +86050,7 @@
       "sponsorship": null,
       "content_hash": "6c4d35536214447bab7b87fd5311d35c80386a617dec17dd606c5217361a71ff",
       "first_discovered": "2026-10-15T22:55:02.799862+00:00",
-      "last_seen": "2026-11-06T10:13:15.475810+00:00",
+      "last_seen": "2026-11-06T17:52:45.700226+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86074,7 +86074,7 @@
       "sponsorship": null,
       "content_hash": "d1ed724ed09bfcbd78154d3894529601e48699930716a683386f526d51325314",
       "first_discovered": "2026-10-15T22:55:26.890175+00:00",
-      "last_seen": "2026-11-06T10:13:31.242608+00:00",
+      "last_seen": "2026-11-06T17:52:56.633635+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86921,7 +86921,7 @@
       "sponsorship": null,
       "content_hash": "4b7e92531ebdcd663fb958624af8a4b49bd4a6dbf908c72690ba45d90dbf1bbf",
       "first_discovered": "2026-10-16T19:07:54.709443+00:00",
-      "last_seen": "2026-11-06T10:13:01.786012+00:00",
+      "last_seen": "2026-11-06T17:56:48.890785+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -86943,7 +86943,7 @@
       "sponsorship": null,
       "content_hash": "20e23dfc3ecd0a1f1041e6d26f974cea298c0f2267b0367a9fddb6ee4f6983cb",
       "first_discovered": "2026-10-16T19:07:55.838524+00:00",
-      "last_seen": "2026-11-06T10:13:02.785420+00:00",
+      "last_seen": "2026-11-06T17:56:55.763520+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87383,7 +87383,7 @@
       "sponsorship": null,
       "content_hash": "36e957f6c80e6b2049d58c8be97dc5db28c69347f8ee5a42bd731e77420d666a",
       "first_discovered": "2026-10-17T05:20:11.941830+00:00",
-      "last_seen": "2026-11-05T07:44:37.551161+00:00",
+      "last_seen": "2026-11-06T17:53:18.903472+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -91627,7 +91627,7 @@
       "sponsorship": null,
       "content_hash": "522e7b8b0a4580392e45a11619a3f637ce216c1ff8ac1b2970e766dd64658ce3",
       "first_discovered": "2026-10-19T17:45:06.441452+00:00",
-      "last_seen": "2026-11-06T10:11:37.308110+00:00",
+      "last_seen": "2026-11-06T17:55:33.123074+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -91719,7 +91719,7 @@
       "sponsorship": null,
       "content_hash": "52dbe1402e3f4781690274dd056d79b971c8e1d3d3052d50a91bd0fde6cab827",
       "first_discovered": "2026-10-19T17:58:05.185083+00:00",
-      "last_seen": "2026-11-06T10:11:53.595992+00:00",
+      "last_seen": "2026-11-06T17:55:47.657671+00:00",
       "notified_hash": "52dbe1402e3f4781690274dd056d79b971c8e1d3d3052d50a91bd0fde6cab827",
       "notification_status": "sent",
       "delivered_at": "2026-10-19T17:58:06.102034+00:00"
@@ -91905,7 +91905,7 @@
       "sponsorship": null,
       "content_hash": "2fdf84674f989b81be08bc7604afb8e2d6be6323a94dd852634cb1323001ee22",
       "first_discovered": "2026-10-19T21:57:24.300430+00:00",
-      "last_seen": "2026-11-06T10:09:36.450555+00:00",
+      "last_seen": "2026-11-06T17:55:08.427201+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -91974,7 +91974,7 @@
       "sponsorship": null,
       "content_hash": "e922d93897755c64c92d3fe58f468e0dd6d8ca84147c76f69dbcf11ab615784c",
       "first_discovered": "2026-10-19T21:58:22.905778+00:00",
-      "last_seen": "2026-11-06T10:06:39.495809+00:00",
+      "last_seen": "2026-11-06T17:52:23.422396+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93447,7 +93447,7 @@
       "sponsorship": null,
       "content_hash": "b1e9661ce084df3d330d47560a6626ce0e0a0420f531323d32150f0140ea791f",
       "first_discovered": "2026-10-20T19:45:04.463932+00:00",
-      "last_seen": "2026-11-06T10:06:32.101187+00:00",
+      "last_seen": "2026-11-06T17:52:16.784080+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93493,7 +93493,7 @@
       "sponsorship": null,
       "content_hash": "c4df3536aa0fe38c821c7d9b8345b78bf9ee520b42e6c3a994db701c879e2722",
       "first_discovered": "2026-10-20T19:46:56.171222+00:00",
-      "last_seen": "2026-11-06T02:40:05.662261+00:00",
+      "last_seen": "2026-11-06T17:53:22.378260+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93562,7 +93562,7 @@
       "sponsorship": null,
       "content_hash": "60085a876763798f9824d895c25e8ce4a1440dfbb34126861fb4135c49da1818",
       "first_discovered": "2026-10-20T19:48:46.432559+00:00",
-      "last_seen": "2026-11-06T10:12:28.918587+00:00",
+      "last_seen": "2026-11-06T17:56:18.771879+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93585,7 +93585,7 @@
       "sponsorship": null,
       "content_hash": "d68ec39aaa1b58233133baecce5646ccfb97395849b2fa0286046b15d4905bba",
       "first_discovered": "2026-10-20T19:49:43.825797+00:00",
-      "last_seen": "2026-11-04T19:11:31.239679+00:00",
+      "last_seen": "2026-11-06T17:52:29.971773+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93608,7 +93608,7 @@
       "sponsorship": null,
       "content_hash": "a5dd645ddc4fde6f8d5ebec0a29011b6448664e343dd0175d04565bc0c22001a",
       "first_discovered": "2026-10-20T19:51:40.031114+00:00",
-      "last_seen": "2026-11-06T10:12:29.450381+00:00",
+      "last_seen": "2026-11-06T17:54:49.091497+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -94306,7 +94306,7 @@
       "sponsorship": null,
       "content_hash": "ae37220b563b32784fa5e58baf9a6e8dd0f36c38f922cff3bf698de2e502355e",
       "first_discovered": "2026-10-21T06:19:29.061544+00:00",
-      "last_seen": "2026-11-04T19:02:01.088665+00:00",
+      "last_seen": "2026-11-06T17:56:09.458252+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -95631,7 +95631,7 @@
       "sponsorship": null,
       "content_hash": "f6c2396068d2388c3c88c4036dd1a00c4a6dfecaed82172beed874a24f73c61a",
       "first_discovered": "2026-10-22T13:40:09.786254+00:00",
-      "last_seen": "2026-11-06T10:10:07.582099+00:00",
+      "last_seen": "2026-11-06T17:54:11.184343+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -95654,7 +95654,7 @@
       "sponsorship": null,
       "content_hash": "a3b7f0152283f625bc0e25c9e1b52ed7cc37573f70fcb91eace4894da2e8a1bd",
       "first_discovered": "2026-10-22T13:40:10.366474+00:00",
-      "last_seen": "2026-11-06T10:10:15.728989+00:00",
+      "last_seen": "2026-11-06T17:54:19.175361+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96048,7 +96048,7 @@
       "sponsorship": null,
       "content_hash": "a68ba5314b933cf6d8d1fb144c309d9362b051bb7ccd76eeb6cdc27704316e6f",
       "first_discovered": "2026-10-22T21:57:01.043360+00:00",
-      "last_seen": "2026-11-06T10:10:59.681461+00:00",
+      "last_seen": "2026-11-06T17:52:57.928400+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96070,7 +96070,7 @@
       "sponsorship": null,
       "content_hash": "88ef71fa7abd7b436183d05af0e89d3d1045098fb21d686bf6b63ae6e171e449",
       "first_discovered": "2026-10-22T21:57:05.799765+00:00",
-      "last_seen": "2026-11-06T10:11:04.860025+00:00",
+      "last_seen": "2026-11-06T17:53:00.589399+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96092,7 +96092,7 @@
       "sponsorship": null,
       "content_hash": "563f03bc89190e9f1879ef726aac4f2ecc9a5f5b8ef893972e9414cef6cbec9d",
       "first_discovered": "2026-10-22T21:59:48.479067+00:00",
-      "last_seen": "2026-11-06T10:06:20.566390+00:00",
+      "last_seen": "2026-11-06T17:52:12.736102+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96114,7 +96114,7 @@
       "sponsorship": null,
       "content_hash": "b729b2e18d8c4838eed1911622e3933d4b62a2468d9b8a0d2c098ddb1c1e5133",
       "first_discovered": "2026-10-22T22:00:47.520571+00:00",
-      "last_seen": "2026-11-06T10:11:55.205385+00:00",
+      "last_seen": "2026-11-06T17:55:44.547886+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96348,7 +96348,7 @@
       "sponsorship": null,
       "content_hash": "0cdf2da6d60650db651d81338644d3b66c07227ad74280606a5cb407acb24eae",
       "first_discovered": "2026-10-23T00:30:15.061911+00:00",
-      "last_seen": "2026-11-05T00:38:10.210103+00:00",
+      "last_seen": "2026-11-06T17:53:12.684994+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96600,7 +96600,7 @@
       "sponsorship": null,
       "content_hash": "10d2d168a41c6db166c46d830430a5a6b0a2c09d12c3216405d6f1bb55298f16",
       "first_discovered": "2026-10-23T05:13:26.429273+00:00",
-      "last_seen": "2026-11-06T10:13:00.129806+00:00",
+      "last_seen": "2026-11-06T17:56:47.338391+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96852,7 +96852,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "9db385e148951083f07dbede3a1995563f0b63fed49dc1bdbef6f660abbd3c89",
       "first_discovered": "2026-10-23T15:13:11.978966+00:00",
-      "last_seen": "2026-11-06T10:09:19.334049+00:00",
+      "last_seen": "2026-11-06T17:54:53.578501+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96874,7 +96874,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "9a0dd5019d5b5dfb3f5dc16a1564dd33bfff10e2398090378ecc17c20d7d7a67",
       "first_discovered": "2026-10-23T15:13:14.620121+00:00",
-      "last_seen": "2026-11-06T10:09:20.410753+00:00",
+      "last_seen": "2026-11-06T17:54:57.112504+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96918,7 +96918,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "7146eb79a9bab086e763f1b919123dcbb20b82f8085d58d1d2f30fbc483dde77",
       "first_discovered": "2026-10-23T15:15:48.145134+00:00",
-      "last_seen": "2026-11-06T10:08:40.451260+00:00",
+      "last_seen": "2026-11-06T17:53:35.994469+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96940,7 +96940,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "606862baa8253a2c60effc5e8e817b28acb4696969af7509f25a78bb3f1d43a4",
       "first_discovered": "2026-10-23T15:15:50.646388+00:00",
-      "last_seen": "2026-11-06T10:08:32.378490+00:00",
+      "last_seen": "2026-11-06T17:53:24.415501+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96963,7 +96963,7 @@
       "sponsorship": null,
       "content_hash": "3822762eb4a68f2ebf6bffc14d7c96ab05b666c33b88dbe20f7db15351d5ee46",
       "first_discovered": "2026-10-23T15:16:59.530459+00:00",
-      "last_seen": "2026-11-06T10:06:39.010023+00:00",
+      "last_seen": "2026-11-06T17:52:22.694198+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -97007,7 +97007,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "8a852a6dc8e6b6b267b1de7d4be56a2fc02b809b36c22e0861a13bd0c016906c",
       "first_discovered": "2026-10-23T15:18:01.685476+00:00",
-      "last_seen": "2026-11-06T10:11:36.218124+00:00",
+      "last_seen": "2026-11-06T17:55:29.361225+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -97029,7 +97029,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "e733d662b619a7b15ef415aa23445a42e8ed4b759c4284e0c0af0101d2f6ea28",
       "first_discovered": "2026-10-23T15:18:04.533987+00:00",
-      "last_seen": "2026-11-06T10:11:45.600276+00:00",
+      "last_seen": "2026-11-06T17:55:42.648307+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -97053,7 +97053,7 @@
       "sponsorship": null,
       "content_hash": "b388ab73bfe63453462224bb97370eae6b4a09ec00a4fa169586ccf61d8ee176",
       "first_discovered": "2026-10-23T15:18:58.417445+00:00",
-      "last_seen": "2026-11-06T10:10:13.899784+00:00",
+      "last_seen": "2026-11-06T17:54:20.757967+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -98284,7 +98284,7 @@
       "sponsorship": null,
       "content_hash": "353e905cfbfb0750fcdc0a8d382148743d5360ee0ed07501551959dd4081da27",
       "first_discovered": "2026-10-26T06:29:59.032044+00:00",
-      "last_seen": "2026-11-06T10:07:50.876713+00:00",
+      "last_seen": "2026-11-06T17:52:08.140489+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -98791,7 +98791,7 @@
       "sponsorship": null,
       "content_hash": "6e2ab2f20d36a74296fa6a60877a933db62568223e062de4c33436c991c99e57",
       "first_discovered": "2026-10-26T19:52:27.095367+00:00",
-      "last_seen": "2026-11-06T10:12:52.268228+00:00",
+      "last_seen": "2026-11-06T17:56:41.796460+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99025,7 +99025,7 @@
       "sponsorship": null,
       "content_hash": "3399a1fd166b9f020a82d45db3db040679064f817dbcf8b6a9e525dd983af216",
       "first_discovered": "2026-10-26T23:31:25.522880+00:00",
-      "last_seen": "2026-11-06T10:09:18.236996+00:00",
+      "last_seen": "2026-11-06T17:54:56.188339+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99049,7 +99049,7 @@
       "sponsorship": null,
       "content_hash": "de988209d327e9d2d310b2789fd1e20ea9f1547e8679a59732cf2406bf524bb3",
       "first_discovered": "2026-10-26T23:33:44.006942+00:00",
-      "last_seen": "2026-11-06T10:11:39.870006+00:00",
+      "last_seen": "2026-11-06T17:55:35.646202+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99073,7 +99073,7 @@
       "sponsorship": null,
       "content_hash": "b91fe79c11f52d1db0129927bbd0f74d1538f4ed4385b6ab80184ef49dc91578",
       "first_discovered": "2026-10-26T23:36:35.198150+00:00",
-      "last_seen": "2026-11-06T10:12:52.882722+00:00",
+      "last_seen": "2026-11-06T17:56:43.817113+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -100049,7 +100049,7 @@
       "sponsorship": null,
       "content_hash": "d74ead31431c92babe1c71587f91637ee45cb99c2ee14707b872fb1735415110",
       "first_discovered": "2026-10-27T20:20:42.546549+00:00",
-      "last_seen": "2026-11-06T10:11:38.472305+00:00",
+      "last_seen": "2026-11-06T17:55:34.729045+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -100120,7 +100120,7 @@
       "sponsorship": null,
       "content_hash": "f4cebf070be9697263b697de4ce7f111beca0a7dd0238071c792c82adf491841",
       "first_discovered": "2026-10-27T20:24:56.532785+00:00",
-      "last_seen": "2026-11-06T10:13:01.211292+00:00",
+      "last_seen": "2026-11-06T17:56:46.867025+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101101,7 +101101,7 @@
       "sponsorship": null,
       "content_hash": "99b216d2e43d424671f50eb5de12932c2f98b4c13f28dc5e306109b159b79877",
       "first_discovered": "2026-10-28T16:13:47.068938+00:00",
-      "last_seen": "2026-11-06T10:11:41.953665+00:00",
+      "last_seen": "2026-11-06T17:55:41.447487+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101380,7 +101380,7 @@
       "sponsorship": null,
       "content_hash": "7a3bb1072391647b29cbb933634311dcb7915d261ca6a90de2bdce0c21fd4bd0",
       "first_discovered": "2026-10-28T16:26:51.282662+00:00",
-      "last_seen": "2026-11-06T10:06:29.781920+00:00",
+      "last_seen": "2026-11-06T17:52:16.171378+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101779,7 +101779,7 @@
       "sponsorship": null,
       "content_hash": "2ec62a70ad9de979f03821351d14c03871a84b815fac12de8d5d2a495cf9d0e8",
       "first_discovered": "2026-10-28T21:19:39.838710+00:00",
-      "last_seen": "2026-11-06T02:45:07.781217+00:00",
+      "last_seen": "2026-11-06T17:52:42.110074+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101993,7 +101993,7 @@
       "sponsorship": null,
       "content_hash": "8b8618087757483a1af812230a8befa70cd5ca6ab0b1280c0dcb0eb37637418d",
       "first_discovered": "2026-10-29T01:09:02.443282+00:00",
-      "last_seen": "2026-11-06T10:08:31.049941+00:00",
+      "last_seen": "2026-11-06T17:53:23.890675+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102017,7 +102017,7 @@
       "sponsorship": null,
       "content_hash": "2f7080c38271359a9357bd3340b01ce0b34a2169a98cee45ad603d2590a73823",
       "first_discovered": "2026-10-29T01:12:03.476753+00:00",
-      "last_seen": "2026-11-06T10:09:34.661960+00:00",
+      "last_seen": "2026-11-06T17:55:11.850789+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102253,7 +102253,7 @@
       "sponsorship": null,
       "content_hash": "314e1e7839e358ef7366317f92c4b2adec056574cdcb0f767c925da4dc7eef97",
       "first_discovered": "2026-10-29T07:16:50.350220+00:00",
-      "last_seen": "2026-11-06T10:15:00.222285+00:00",
+      "last_seen": "2026-11-06T17:54:05.791001+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102276,7 +102276,7 @@
       "sponsorship": null,
       "content_hash": "7a96874914257736a5fd688aa7f2cf90d832ce136533adab8954af8cf117bcfd",
       "first_discovered": "2026-10-29T07:16:57.751019+00:00",
-      "last_seen": "2026-11-06T02:41:26.087222+00:00",
+      "last_seen": "2026-11-06T17:54:15.901157+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102322,7 +102322,7 @@
       "sponsorship": null,
       "content_hash": "2166796d10c882888f8932d451ab7eafd11a36ae175c23d1fcf3a8ed6089d804",
       "first_discovered": "2026-10-29T07:21:21.263395+00:00",
-      "last_seen": "2026-11-06T02:41:21.145130+00:00",
+      "last_seen": "2026-11-06T17:54:12.421049+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103075,7 +103075,7 @@
       "sponsorship": null,
       "content_hash": "ef48ca3ca2a5b078f142ee028690233f62332efb27c78f9778c5da770ba00699",
       "first_discovered": "2026-10-29T20:10:37.483256+00:00",
-      "last_seen": "2026-11-06T10:12:37.831170+00:00",
+      "last_seen": "2026-11-06T17:56:30.546188+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -105739,7 +105739,7 @@
       "sponsorship": null,
       "content_hash": "c60bef61739525f73e99054fc89433622cdae52fe781c94cecf8754e2110641d",
       "first_discovered": "2026-11-01T23:23:41.132173+00:00",
-      "last_seen": "2026-11-06T10:12:34.744945+00:00",
+      "last_seen": "2026-11-06T17:56:27.736781+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -106811,7 +106811,7 @@
       "sponsorship": null,
       "content_hash": "8c5c3845e6f387b0db31e0f406f425f34dae6d69069b81e4e77d940713634ad0",
       "first_discovered": "2026-11-02T20:39:17.720312+00:00",
-      "last_seen": "2026-11-04T11:57:03.505757+00:00",
+      "last_seen": "2026-11-06T17:52:36.045702+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -106972,7 +106972,7 @@
       "sponsorship": null,
       "content_hash": "97adff3928de2ccfceec99fe9685c0875a7f8f905b5fb3ad95a7371ece98e814",
       "first_discovered": "2026-11-03T02:53:00.017214+00:00",
-      "last_seen": "2026-11-05T16:05:52.700266+00:00",
+      "last_seen": "2026-11-06T17:56:53.077864+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107420,7 +107420,7 @@
       "sponsorship": null,
       "content_hash": "ef8965526b0ac8ec28fda05c6d7a201b95085b047529bf681e9f4ddb775d9dfa",
       "first_discovered": "2026-11-03T10:17:12.261522+00:00",
-      "last_seen": "2026-11-06T10:12:50.525909+00:00",
+      "last_seen": "2026-11-06T17:54:45.157203+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107649,7 +107649,7 @@
       "sponsorship": null,
       "content_hash": "b2b54850fb538d4a54544eaf74ae8e89d9118b301f4ab1d6db0f2152b21711b4",
       "first_discovered": "2026-11-03T18:02:12.012558+00:00",
-      "last_seen": "2026-11-05T07:45:28.768512+00:00",
+      "last_seen": "2026-11-06T17:55:19.161526+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107671,7 +107671,7 @@
       "sponsorship": null,
       "content_hash": "5fd279505b5c11babbf0d217cd5dd3596e8ccbdb8a357386eb992ca4fca12a4c",
       "first_discovered": "2026-11-03T18:04:13.532633+00:00",
-      "last_seen": "2026-11-06T10:10:04.516906+00:00",
+      "last_seen": "2026-11-06T17:54:06.490326+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107694,7 +107694,7 @@
       "sponsorship": null,
       "content_hash": "70103af9d8161a0112726ba567431939ee76870a24177ec1b808c6b888449776",
       "first_discovered": "2026-11-03T18:05:45.589566+00:00",
-      "last_seen": "2026-11-06T10:12:43.643628+00:00",
+      "last_seen": "2026-11-06T17:54:39.521222+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107955,7 +107955,7 @@
       "sponsorship": null,
       "content_hash": "2f56f63b8a285ffe18a26062f3795afba293fde9251faee10a03052a207fc876",
       "first_discovered": "2026-11-03T23:32:02.916186+00:00",
-      "last_seen": "2026-11-05T07:43:12.725403+00:00",
+      "last_seen": "2026-11-06T17:56:32.299119+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -107977,7 +107977,7 @@
       "sponsorship": null,
       "content_hash": "1c37e6c244ac66dd62e04ac0ff2723939e7372563ce0b23cc803d68f315d8480",
       "first_discovered": "2026-11-03T23:33:54.418960+00:00",
-      "last_seen": "2026-11-06T10:08:29.618161+00:00",
+      "last_seen": "2026-11-06T17:53:23.330252+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108022,7 +108022,7 @@
       "sponsorship": null,
       "content_hash": "f0d459b467582aac566e774e60ce04f1193da2595b1b0575e68f47e721ba0191",
       "first_discovered": "2026-11-03T23:35:15.018035+00:00",
-      "last_seen": "2026-11-06T10:09:17.288712+00:00",
+      "last_seen": "2026-11-06T17:54:55.526902+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108045,7 +108045,7 @@
       "sponsorship": null,
       "content_hash": "8ce3ab33864fceee08a625eef6e322fbb23163505b7a876b9839719cc61591cb",
       "first_discovered": "2026-11-03T23:35:52.000420+00:00",
-      "last_seen": "2026-11-05T00:40:21.413220+00:00",
+      "last_seen": "2026-11-06T17:56:24.115007+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108068,7 +108068,7 @@
       "sponsorship": null,
       "content_hash": "beb687f45f0339ab32f1caf272f20a9df72220893f0ff295d0d0d438aff902aa",
       "first_discovered": "2026-11-03T23:36:07.616747+00:00",
-      "last_seen": "2026-11-06T10:11:43.088723+00:00",
+      "last_seen": "2026-11-06T17:55:43.310558+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108511,7 +108511,7 @@
       "sponsorship": null,
       "content_hash": "135a9592de9ca8032455929cbe5aba46a6758e5d4eff2c18dc6594b6ed794348",
       "first_discovered": "2026-11-04T03:39:50.872398+00:00",
-      "last_seen": "2026-11-05T07:44:03.314745+00:00",
+      "last_seen": "2026-11-06T17:55:42.022370+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108655,7 +108655,7 @@
       "sponsorship": null,
       "content_hash": "59d4aa2555d6cb6c739e58018f605a024017a6f11fc0ce7e420f58bf8bdefe6e",
       "first_discovered": "2026-11-04T11:45:54.875050+00:00",
-      "last_seen": "2026-11-05T07:43:55.880377+00:00",
+      "last_seen": "2026-11-06T17:55:33.886849+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108678,7 +108678,7 @@
       "sponsorship": null,
       "content_hash": "cccbcd3b9d594fbde21a112d2027a6cc5a76cd15b5d4d6a114a89029b987faca",
       "first_discovered": "2026-11-04T11:45:59.460721+00:00",
-      "last_seen": "2026-11-05T07:44:08.457021+00:00",
+      "last_seen": "2026-11-06T17:55:48.741134+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108747,7 +108747,7 @@
       "sponsorship": null,
       "content_hash": "7a2ff3cdd6adc65ac7b0e651381032f6be0edf3a2888c596c27cb5861f90da3c",
       "first_discovered": "2026-11-04T11:46:42.838357+00:00",
-      "last_seen": "2026-11-05T07:43:42.626783+00:00",
+      "last_seen": "2026-11-06T17:55:12.475747+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108770,7 +108770,7 @@
       "sponsorship": null,
       "content_hash": "5196e231e68f4116b57e62bdc79dfb048c493ae803c0705be643407ab2ee639d",
       "first_discovered": "2026-11-04T11:46:52.144443+00:00",
-      "last_seen": "2026-11-05T07:43:47.783756+00:00",
+      "last_seen": "2026-11-06T17:55:37.933300+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108841,7 +108841,7 @@
       "sponsorship": null,
       "content_hash": "5c5b7bb890c3fe3ea5c114e888903a9b86201e996b9605682387f808292bde27",
       "first_discovered": "2026-11-04T11:47:37.628643+00:00",
-      "last_seen": "2026-11-06T10:08:27.988729+00:00",
+      "last_seen": "2026-11-06T17:53:22.788507+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109274,7 +109274,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "fb926151a7a999354f54496aa754ac04f00c3b739ced9897a7088fb72fa38300",
       "first_discovered": "2026-11-04T19:06:03.542527+00:00",
-      "last_seen": "2026-11-06T10:06:21.758918+00:00",
+      "last_seen": "2026-11-06T17:52:12.271683+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109343,7 +109343,7 @@
       "sponsorship": null,
       "content_hash": "c0b531972ac3b75cdcda7998c159a2a7d79f287f7a583dc15ebd2690470918e3",
       "first_discovered": "2026-11-04T19:08:52.311607+00:00",
-      "last_seen": "2026-11-06T10:10:58.923184+00:00",
+      "last_seen": "2026-11-06T17:52:57.352522+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109365,7 +109365,7 @@
       "sponsorship": null,
       "content_hash": "22658b65c4946b109c760091baf8042b99c3ee8454f623ca0199ba0743a4d25d",
       "first_discovered": "2026-11-04T19:08:58.073611+00:00",
-      "last_seen": "2026-11-04T19:08:58.073629+00:00",
+      "last_seen": "2026-11-06T17:56:44.556064+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109376,19 +109376,20 @@
       "title": "Information Systems Security Engineer (ISSE)",
       "location": "USA, VA, Arlington",
       "url": "https://www.amazon.jobs/en/jobs/10596547/information-systems-security-engineer-isse",
-      "description": "Description Amazon Leo is a constellation of Low Earth Orbit satellites that will provide low-latency, high-speed broadband network connectivity to unserved and underserved communities around the world. We are seeking a Senior Information Systems Security Engineer (ISSE) to raise the security bar for a portfolio of classified national security systems. You will work backward from mission and authorization outcomes, translate complex security requirements into practical engineering decisions, and own security across the full system lifecycle - from concept and architecture through assessment, authorization, operations, change, and decommissioning. This is a senior individual-contributor role for an engineer who can operate independently in ambiguous environments, dive into technical details, and influence system owners, architects, developers, operations teams, ISSMs/ISSOs, assessors, and authorizing officials. You will balance immediate mission needs with durable security controls, automate recurring work, and communicate risk clearly to technical and senior leadership audiences. The successful candidate has both breadth and depth: hands-on knowledge of operating systems, networks, cloud and virtualization, identity, logging, vulnerability management, cryptography, and secure architecture, combined with demonstrated mastery of the Risk Management Framework (RMF) for classified systems. A top secret clearance with SCI access is required. Key job responsibilities - Own end-to-end security engineering for multiple concurrent classified systems and enclaves, establishing priorities, schedules, risks, dependencies, and decision pathds with minimal direction. - Lead system security architecture and design reviews; define security requirements, trust boundaries, control allocation, data flows, threat models, and defense-in-depth strategies for on-premises, cloud, hybrid, and disconnected environments. - Drive RMF activities through authorization and continuous monitoring, including categorization, control tailoring, implementation guidance, assessment readiness, risk acceptance packages, significant-change analysis, and authorization maintenance. - Develop and maintain high-quality authorization evidence, including system security plans, control implementation statements, security control traceability matrices, architecture diagrams, hardware/software inventories, test plans, assessment artifacts, risk assessments, plans of action and milestones, and continuous-monitoring records. - Partner with system owners, ISSMs, ISSOs, architects, administrators, developers, security control assessors, authorizing officials, customers, and facility/industrial-security teams to resolve findings and make well-reasoned risk decisions. - Engineer and validate secure configurations using applicable government security standards and baselines. - Lead technical investigations of vulnerabilities, incidents, control failures, and anomalous results for the applicable environments; determine root cause, assess mission impact, define containment and remediation, and create mechanisms that prevent recurrence. - Build automation, reusable templates, dashboards, and quality checks that reduce manual effort, shorten authorization cycle time, improve evidence consistency, and provide leadership with actionable measures of residual risk. - Make and document security trade-offs that distinguish non-negotiable risk from reversible decisions; escalate clearly when mission, schedule, and security objectives conflict. - Mentor engineers and security practitioners, conduct peer reviews, raise documentation and engineering standards, and serve as a trusted technical resource across programs. A day in the life You may begin by documenting a proposed architecture change for a classified enclave, then lead a working session to close assessment findings, validate a control implementation against technical evidence, and brief leadership on the risk of a schedule decision. Later, you might automate an evidence-quality check, review vulnerability trends across the portfolio, coach an engineer through a difficult control interpretation, or coordinate with an assessor before an authorization milestone. You move comfortably between technical depth, program judgment, and concise executive communication. About the team Leo Security protects the people, facilities, hardware, supply chain, and classified communications behind a global satellite constellation. The ISSE function within this team owns the security architecture, administration and compliance of all Leo classified networks. The team works directly with engineering, program security, and government customers to architect and maintain secure sensitive networks across ALG sites.\nBasic Qualifications - 4+ years of non-internship background in troubleshooting systems issues, analyzing logs, or automating complex tasks using command line tools experience - 5+ years of work in identifying security issues and risks, and developing mitigation plans experience - 4+ years of (non-internship) scripting, programming, and security code review in common programming languages experience - Knowledge of at least two of the following programming languages: Scala, Java, Python, C/C++, or Go - Experience (non-internship) in scripting, programming, and security code reviewing in a common programming language - Experience as a mentor, tech lead or leading an engineering team\nPreferred Qualifications - Experience applying threat modeling or other risk identification techniques or equivalent - 10+ years of relevant experience, including technical leadership as a senior ISSE, security architect, ISSM, lead ISSO, security control assessor, or equivalent role supporting high-impact national security missions. - Advanced knowledge in at least two security domains, such as cloud security, zero trust, identity, secure networking, cross-domain solutions, platform hardening, cryptography/key management, detection engineering, software security, or incident response. - Experience securing AWS or another major cloud platform in regulated or isolated environments, including infrastructure as code, cloud-native logging, IAM, network segmentation, and continuous control monitoring. - Proficiency in Python, PowerShell, Bash, or another scripting language used to automate security validation, reporting, evidence collection, or operational workflows. - One or more relevant certifications aligned to the assigned work role and program needs, such as CISSP, ISC2 CGRC, SecurityX (formerly CASP+), CCSP, CISM, GIAC certifications, or an approved cloud-security certification. Certification alone does not replace formal DoDM 8140.03 work-role qualification. - Experience developing metrics that connect security activity to risk reduction, assessment quality, remediation aging, authorization health, or engineering efficiency. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, VA, Arlington - 178,400.00 - 226,700.00 USD annually",
+      "description": "Description Amazon Leo is a constellation of Low Earth Orbit satellites that will provide low-latency, high-speed broadband network connectivity to unserved and underserved communities around the world. We are seeking a Senior Information Systems Security Engineer (ISSE) to raise the security bar for a portfolio of classified national security systems. You will work backward from mission and authorization outcomes, translate complex security requirements into practical engineering decisions, and own security across the full system lifecycle - from concept and architecture through assessment, authorization, operations, change, and decommissioning. This is a senior individual-contributor role for an engineer who can operate independently in ambiguous environments, dive into technical details, and influence system owners, architects, developers, operations teams, ISSMs/ISSOs, assessors, and authorizing officials. You will balance immediate mission needs with durable security controls, automate recurring work, and communicate risk clearly to technical and senior leadership audiences. The successful candidate has both breadth and depth: hands-on knowledge of operating systems, networks, cloud and virtualization, identity, logging, vulnerability management, cryptography, and secure architecture, combined with demonstrated mastery of the Risk Management Framework (RMF) for classified systems. This position requires that the candidate selected be a US Citizen and must currently possess and maintain an active TS/SCI security clearance. Key job responsibilities - Own end-to-end security engineering for multiple concurrent classified systems and enclaves, establishing priorities, schedules, risks, dependencies, and decision pathds with minimal direction. - Lead system security architecture and design reviews; define security requirements, trust boundaries, control allocation, data flows, threat models, and defense-in-depth strategies for on-premises, cloud, hybrid, and disconnected environments. - Drive RMF activities through authorization and continuous monitoring, including categorization, control tailoring, implementation guidance, assessment readiness, risk acceptance packages, significant-change analysis, and authorization maintenance. - Develop and maintain high-quality authorization evidence, including system security plans, control implementation statements, security control traceability matrices, architecture diagrams, hardware/software inventories, test plans, assessment artifacts, risk assessments, plans of action and milestones, and continuous-monitoring records. - Partner with system owners, ISSMs, ISSOs, architects, administrators, developers, security control assessors, authorizing officials, customers, and facility/industrial-security teams to resolve findings and make well-reasoned risk decisions. - Engineer and validate secure configurations using applicable government security standards and baselines. - Lead technical investigations of vulnerabilities, incidents, control failures, and anomalous results for the applicable environments; determine root cause, assess mission impact, define containment and remediation, and create mechanisms that prevent recurrence. - Build automation, reusable templates, dashboards, and quality checks that reduce manual effort, shorten authorization cycle time, improve evidence consistency, and provide leadership with actionable measures of residual risk. - Make and document security trade-offs that distinguish non-negotiable risk from reversible decisions; escalate clearly when mission, schedule, and security objectives conflict. - Mentor engineers and security practitioners, conduct peer reviews, raise documentation and engineering standards, and serve as a trusted technical resource across programs. A day in the life You may begin by documenting a proposed architecture change for a classified enclave, then lead a working session to close assessment findings, validate a control implementation against technical evidence, and brief leadership on the risk of a schedule decision. Later, you might automate an evidence-quality check, review vulnerability trends across the portfolio, coach an engineer through a difficult control interpretation, or coordinate with an assessor before an authorization milestone. You move comfortably between technical depth, program judgment, and concise executive communication. About the team Leo Security protects the people, facilities, hardware, supply chain, and classified communications behind a global satellite constellation. The ISSE function within this team owns the security architecture, administration and compliance of all Leo classified networks. The team works directly with engineering, program security, and government customers to architect and maintain secure sensitive networks across ALG sites.\nBasic Qualifications - 4+ years of non-internship background in troubleshooting systems issues, analyzing logs, or automating complex tasks using command line tools experience - 5+ years of work in identifying security issues and risks, and developing mitigation plans experience - 4+ years of (non-internship) scripting, programming, and security code review in common programming languages experience - Knowledge of at least two of the following programming languages: Scala, Java, Python, C/C++, or Go - Experience (non-internship) in scripting, programming, and security code reviewing in a common programming language - Experience as a mentor, tech lead or leading an engineering team\nPreferred Qualifications - Experience applying threat modeling or other risk identification techniques or equivalent - 10+ years of relevant experience, including technical leadership as a senior ISSE, security architect, ISSM, lead ISSO, security control assessor, or equivalent role supporting high-impact national security missions. - Advanced knowledge in at least two security domains, such as cloud security, zero trust, identity, secure networking, cross-domain solutions, platform hardening, cryptography/key management, detection engineering, software security, or incident response. - Experience securing AWS or another major cloud platform in regulated or isolated environments, including infrastructure as code, cloud-native logging, IAM, network segmentation, and continuous control monitoring. - Proficiency in Python, PowerShell, Bash, or another scripting language used to automate security validation, reporting, evidence collection, or operational workflows. - One or more relevant certifications aligned to the assigned work role and program needs, such as CISSP, ISC2 CGRC, SecurityX (formerly CASP+), CCSP, CISM, GIAC certifications, or an approved cloud-security certification. Certification alone does not replace formal DoDM 8140.03 work-role qualification. - Experience developing metrics that connect security activity to risk reduction, assessment quality, remediation aging, authorization health, or engineering efficiency. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, VA, Arlington - 178,400.00 - 226,700.00 USD annually",
       "posting_date": null,
       "experience": "Basic Qualifications - 4+ years of non-internship background in troubleshooting systems issues, analyzing logs,; omating complex tasks using command line tools experience - 5+ years of work in identifying security issues and risks, and developing mitigation pla; ns experience - 4+ years of (non-internship) scripting, programming, and security code review in common ; ing or other risk identification techniques or equivalent - 10+ years of relevant experience, including technical leadership as a senior ISSE, securi",
       "classification": "Not Eligible",
       "reasons": [
+        "US citizenship is required",
         "Title is not a software development role",
         "Required experience exceeds two years"
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "197bd645f3025b9267c21352e2586094157416e44d244de5eb5ead54a003e1aa",
+      "content_hash": "d03e7e30bc082df73a371b15e37fad99e52d1e373ee0029b781321d629b601cb",
       "first_discovered": "2026-11-04T19:10:19.373100+00:00",
-      "last_seen": "2026-11-06T10:12:31.121561+00:00",
+      "last_seen": "2026-11-06T17:56:15.607703+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109621,7 +109622,7 @@
       "sponsorship": null,
       "content_hash": "858e6d9c1a7268818059fc26edfded489a2e4891a9e5226d977734f4339ee5ec",
       "first_discovered": "2026-11-05T00:35:28.763619+00:00",
-      "last_seen": "2026-11-06T10:06:18.905768+00:00",
+      "last_seen": "2026-11-06T17:52:13.263266+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109666,7 +109667,7 @@
       "sponsorship": null,
       "content_hash": "c6ea74cb703f2cf0f2f4f2ba22755d839c7fe62f12f4cd2e4de6d47939759cfe",
       "first_discovered": "2026-11-05T00:37:41.298486+00:00",
-      "last_seen": "2026-11-06T10:08:26.867120+00:00",
+      "last_seen": "2026-11-06T17:53:21.439301+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109689,7 +109690,7 @@
       "sponsorship": null,
       "content_hash": "20b7f810c3b2df3a6e74e168de4b1bd8bfb5fb6ff34dd14606a53368194d0799",
       "first_discovered": "2026-11-05T00:38:37.807554+00:00",
-      "last_seen": "2026-11-06T10:10:44.850622+00:00",
+      "last_seen": "2026-11-06T17:52:49.325312+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110295,7 +110296,7 @@
       "sponsorship": null,
       "content_hash": "6f076e48d315f8caebe25b38fc6bfda770ade80b3e36eef715981a077afea314",
       "first_discovered": "2026-11-05T16:05:03.045965+00:00",
-      "last_seen": "2026-11-06T10:09:13.911624+00:00",
+      "last_seen": "2026-11-06T17:54:46.879209+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110342,7 +110343,7 @@
       "sponsorship": null,
       "content_hash": "7f0e0fbc5372ff447f2f5a45b44754502f9186e3531cd1dc2532a5fdda25f4ad",
       "first_discovered": "2026-11-05T16:07:51.103025+00:00",
-      "last_seen": "2026-11-06T10:12:19.117534+00:00",
+      "last_seen": "2026-11-06T17:56:12.770592+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110366,7 +110367,7 @@
       "sponsorship": null,
       "content_hash": "6abf08bb8bb3a814cb20d36c7152040e61836530e97c687db90f112aef2ac5c0",
       "first_discovered": "2026-11-05T16:07:51.711886+00:00",
-      "last_seen": "2026-11-06T10:12:20.107361+00:00",
+      "last_seen": "2026-11-06T17:56:14.714884+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110390,7 +110391,7 @@
       "sponsorship": null,
       "content_hash": "8044bd4f313b2447d8a9db669dab07a3ec7b9267adcf2ab8138f83199057f070",
       "first_discovered": "2026-11-05T16:07:52.536600+00:00",
-      "last_seen": "2026-11-06T10:12:29.953237+00:00",
+      "last_seen": "2026-11-06T17:56:14.061123+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110631,7 +110632,7 @@
       "sponsorship": null,
       "content_hash": "248bd249a8c69e5874863ec8151d4aa2789c73f901c27e7cb1e39354ad963ed7",
       "first_discovered": "2026-11-05T22:11:35.709448+00:00",
-      "last_seen": "2026-11-06T10:06:22.123851+00:00",
+      "last_seen": "2026-11-06T17:52:13.800825+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110653,7 +110654,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "014c17db63d9c41eff7d0251e05bbf5876b2a156fe1205929cb05ea1c50594f1",
       "first_discovered": "2026-11-05T22:12:37.523918+00:00",
-      "last_seen": "2026-11-06T10:08:20.311255+00:00",
+      "last_seen": "2026-11-06T17:53:19.394393+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110675,7 +110676,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "408808160c1e03cf60469102164b79200376bc0f9f0bf46aec147735395f506b",
       "first_discovered": "2026-11-05T22:13:36.725494+00:00",
-      "last_seen": "2026-11-06T10:09:55.955422+00:00",
+      "last_seen": "2026-11-06T17:54:04.576882+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110722,7 +110723,7 @@
       "sponsorship": null,
       "content_hash": "535e0dadb7357c91ad046329b2d1a1210b88494ee05a43c0ba77d057ae84793c",
       "first_discovered": "2026-11-05T22:17:07.147264+00:00",
-      "last_seen": "2026-11-06T10:12:18.365240+00:00",
+      "last_seen": "2026-11-06T17:56:18.151437+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -111526,6 +111527,97 @@
       "notified_hash": "4fdab04b0c7883ca6a067fb0c0063354bb7facd81a213ca8f6d8c4b85ac20371",
       "notification_status": "sent",
       "delivered_at": "2026-11-06T17:52:06.971589+00:00"
+    },
+    "Microsoft:1970393557050714": {
+      "company": "Microsoft",
+      "job_id": "1970393557050714",
+      "title": "*Child* Senior Software Engineer",
+      "location": "United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557050714?domain=microsoft.com",
+      "description": "Build next generation offerings in Load Balancer technologies and work in tandem with other SON teams to deliver seamless, reliable and performant cloud infrastructure. Design, develop and deploy large scale distributed system with incredible scale and performance with massive amount of data processing. Identify opportunities and drive the design and implementation of end-to-end telemetry, alerting, self-healing, and automation capabilities to improve service health, manageability, and reliability. Ability to identify root causes of network and system performance bottlenecks and propose simple and implementable technical solution. Holds accountability as a Designated Responsible Individual (DR'), mentoring engineers across products/solutions, working on-call to monitor system for degradation, downtime, or interruptions and initiate actions to restore system. Contributes to efforts to break down larger work items into smaller work ftems and provides estimation. Productize a functional specification with agile development with rapid iterations Mentor other engineers on the team on coding and design best practices. Bachelor's Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python Master's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience.",
+      "posting_date": "2026-11-06T02:02:30",
+      "experience": "s Degree in Computer Science or related technical field AND 4+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "4d4a7b10ab6b81f90798fe17b6ff4380eb38b5928355eeb236f1563b74b90089",
+      "first_discovered": "2026-11-06T17:53:15.687398+00:00",
+      "last_seen": "2026-11-06T17:53:15.687412+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10597708": {
+      "company": "Amazon",
+      "job_id": "10597708",
+      "title": "IT Support Engineer I",
+      "location": "USA, NM, Albuquerque",
+      "url": "https://www.amazon.jobs/en/jobs/10597708/it-support-engineer-i",
+      "description": "Description Are you a curious, hands-on technologist who thrives on solving problems and keeping critical systems running? Amazon is looking for an Information Technology Support Engineer I to join our team and play a key role in delivering reliable IT support across our operations. In this role, you will implement technical solutions and provide high-quality support for computer hardware, operating systems, and enterprise applications. You will troubleshoot issues that go beyond standard procedures, identify root causes, and contribute to continuous improvement efforts that impact multiple users and systems. If you are a self-starter who enjoys learning new technologies, collaborating with teammates, and making a tangible difference for the people who rely on your expertise every day, we want to hear from you. Key job responsibilities - Troubleshoot and resolve hardware, software, networking, and operating system issues across a variety of environments, applying your diagnostic skills to identify root causes even when standard procedures do not cover the scenario. - Implement and maintain IT infrastructure, including network devices, computing systems, and enterprise applications, ensuring systems remain available and performant during production hours. - Manage local IT projects by defining requirements, tracking progress, removing blockers, and coordinating with partner teams to deliver value on time. - Author and maintain knowledge base articles, operating procedures, and user documentation, communicating technical information clearly to both technical and non-technical audiences. - Support continuous improvement by identifying process inefficiencies, automating tasks using scripting languages, and contributing to operational excellence initiatives that may span multiple locations. A day in the life Your day might begin by reviewing system monitors and log files to assess the health of infrastructure across your supported sites. From there, you could be hands-on replacing a network switch, scripting a fix to automate a recurring issue, or walking a colleague through a complex troubleshooting scenario. You will coordinate change management activities, respond to escalations, and collaborate with cross-functional teams to keep operations running smoothly. Expect a mix of planned project work and real-time problem solving that keeps you engaged and growing your technical skills. About the team Our team is dedicated to providing reliable, always-on IT support that enables Amazon Operations to deliver for customers around the world. We work collaboratively to maintain and improve the technology that powers our facilities, and we are committed to building an inclusive environment where every team member can contribute ideas and grow. Looking ahead, we are focused on driving greater automation, strengthening our infrastructure, and developing new solutions that raise the bar for operational efficiency. If you want to be part of a team where your technical contributions have a direct, visible impact, this is the place for you.\nBasic Qualifications - 1+ years of Windows Server technologies: AD, DFS, Print Services, SCCM experience - 2+ years of troubleshooting in a multi-user high availability environment experience - 2+ years of PC repair, troubleshooting, deployment and liquidation experience - 1+ years of IT client, server, and network service delivery experience - 2+ years of networking (such as DNS, DHCP, SSL, OSI Model, and TCP/IP) experience - 2+ years of corporate setting Windows, Mac or Linux Operating systems support experience - 2+ years of supporting and maintaining a corporate network environment experience - High school or equivalent diploma\nPreferred Qualifications - 2+ years of computer networking experience - Experience supporting video conference and teleconference equipment Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, NM, Albuquerque - 30.24 - 41.68 USD hourly",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 1+ years of Windows Server technologies: AD, DFS, Print Services, SCCM experience - 2+ y;  in a multi-user high availability environment experience - 2+ years of PC repair, troubleshooting, deployment and liquidation experience - 1+ years; T client, server, and network service delivery experience - 2+ years of networking (such as DNS, DHCP, SSL, OSI Model, and TCP/IP) experience - 2+ y; indows, Mac or Linux Operating systems support experience - 2+ years of supporting and maintaining a corporate network environment experience - High; Preferred Qualifications - 2+ years of computer networking experience - Experience supporting video conference and ",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "c402d012c938c8df2270de41e645259a6e72414d05046f18a765f4f6e4bfa31e",
+      "first_discovered": "2026-11-06T17:54:42.982259+00:00",
+      "last_seen": "2026-11-06T17:54:42.982276+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10598852": {
+      "company": "Amazon",
+      "job_id": "10598852",
+      "title": "Data Engineer, Selling Partner Trust",
+      "location": "USA, TX, Austin USA, WA, Seattle USA, TX, Irving; USA, TX, Austin; USA, WA, Seattle; USA, TX, Irving",
+      "url": "https://www.amazon.jobs/en/jobs/10598852/data-engineer-selling-partner-trust",
+      "description": "Description As we strive to be Earth's most customer-centric company, Amazon has reinvented how hundreds of millions of people shop online \u2013 providing customers with the opportunity to find and discover virtually anything they want to buy and providing millions of sellers with a platform for growing successful businesses. We are looking for an exceptional data engineer to help us develop new ways to build trust and loyalty with sellers, a crucial component of our flywheel Sellers\u2019 trust in Amazon is our top priority and in this role, you will be tasked with building that trust over time by building and maintaining the data sources that power all of our decision making. Amazon\u2019s growth requires leaders who move fast, have an entrepreneurial spirit to create new solutions, have an unrelenting tenacity to get things done, and are capable of breaking down and solving complex problems. The successful candidate will be a self-starter, comfortable with  ambiguity and be able to create and maintain efficient & automated  processes. They know and love working with data engineering tools, can model multidimensional datasets, and can partner  effectively with business leaders to build the right data pipelines to answer key business questions. They will build efficient, flexible, extensible, and scalable  data models, ETL designs and data integration services. They will also be required  to support and manage growth of these data solutions. They  are analytical and creative, and don\u2019t quit. This is a role with  high visibility to senior leadership and with high opportunity for  impact for those willing to roll up their sleeves and dive deep to  achieve results. Key job responsibilities In this role, you will work on unifying fragmented data pipelines, building robust data models, and ensuring reliable data lineage across multiple product areas. You will partner closely with software engineers, product managers, and analytics teams to develop data solutions that drive innovation and operational excellence. The ideal candidate brings deep expertise in big data technologies, strong data modeling and problem-solving skills, and a track record of delivering scalable, maintainable data systems. If you\u2019re excited by the challenge of shaping data platforms that support real-world hardware, software, and operations, this is the role for you. A day in the life -Architect and implement scalable, reliable, and secure data pipelines and infrastructure to support analytics, reporting, and business operations. -Design and enforce data modeling standards, data lineage, and governance frameworks that ensure consistency, re-usability, and quality across systems. -Lead design and code reviews, driving engineering best practices across data development, documentation, testing, and monitoring. -Build data platforms and frameworks that support both batch and real-time processing, enabling flexible, efficient analytics at scale. -Implement secure and compliant data solutions that meet internal and external regulatory requirements (e.g., GDPR). -Evaluate and introduce emerging technologies to improve data platform performance, cost efficiency, and scalability. -Collaborate with cross-functional teams to gather data requirements, define solution architectures, and ensure alignment with business needs. -Mentor junior engineers and contribute to team hiring and onboarding\nBasic Qualifications - 3+ years of data engineering experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using ETL/ELT processes experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using OLAP technologies experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using data modeling experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using SQL experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using Oracle experience - 3+ years of in the job offered or a related occupation experience - 1+ years of developing and operating large-scale data structures for business intelligence analytics using each of the following: ETL (Extract, Transform, Load)/ELT (Extract, Load, Transform) processes experience - Bachelor's degree or foreign equivalent in Computer Science, Engineering, Information Systems, Mathematics, or a related field - Experience with data modeling, warehousing and building ETL pipelines\nPreferred Qualifications - Experience with AWS technologies like Redshift, S3, AWS Glue, EMR, Kinesis, FireHose, Lambda, and IAM roles and permissions - Experience with non-relational databases / data stores (object storage, document or key-value stores, graph databases, column-family databases) Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Seattle - 132,100.00 - 178,800.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of data engineering experience - 1+ years of developing and operating large-sca; intelligence analytics using ETL/ELT processes experience - 1+ years of developing and operating large-scale data structures for business intelligen; ce analytics using OLAP technologies experience - 1+ years of developing and operating large-scale data structures for business intelligen; ce analytics using data modeling experience - 1+ years of developing and operating large-scale data structures for business intelligen; ce analytics using SQL experience - 1+ years of developing and operating large-scale data structures for business intelligen; ce analytics using Oracle experience - 3+ years of in the job offered or a related occupation experience - 1+ years of developi",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "607d595c82c505dfbd0eee925ef116ec69d3533b945884b2e5a76573e467ec12",
+      "first_discovered": "2026-11-06T17:56:13.141772+00:00",
+      "last_seen": "2026-11-06T17:56:13.141786+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10598572": {
+      "company": "Amazon",
+      "job_id": "10598572",
+      "title": "Data Center Chief Engineer, ATL89",
+      "location": "USA, GA, Covington",
+      "url": "https://www.amazon.jobs/en/jobs/10598572/data-center-chief-engineer-atl89",
+      "description": "Description Join our dynamic Data Center Engineering Operations Team and become a critical architect of the infrastructure that powers global cloud computing. You'll play a pivotal role in maintaining the heartbeat of Amazon Web Services' physical infrastructure, ensuring seamless operations that support millions of customers worldwide. The Data Center Chief Engineer (CE) is responsible for ensuring that all electrical, mechanical, and fire/life safety equipment within the data center is operating at peak efficiency. This involves planned preventative maintenance of equipment, daily corrective work, and emergency response. The CE serves as an expert technical resource interacting with onsite Engineering Operations Technicians (EOT) and any third-party vendors. They are expected to be a singular focal point for all facility operations within a given data center and to support AWS. AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we\u2019re the people who keep the cloud running. We support all AWS data centers and all the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain \u2014 and we\u2019re looking for talented people who want to help. You\u2019ll join a diverse team of software, hardware, and network engineers, supply chain specialists, security experts, operations managers, and other vital roles. You\u2019ll collaborate with people across AWS to help us deliver the highest standards for safety and security while providing seemingly infinite capacity at the lowest possible cost for our customers. And you\u2019ll experience an inclusive culture that welcomes bold ideas and empowers you to own them to completion. NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role. NOTE: Relocation assistance will be provided to eligible candidates who relocate for this position. Key job responsibilities - Serve as the primary escalation point for all facilities-related issues. Oversee operation and management of routine and emergency services on a variety of critical systems such as switchgear, generators, UPS systems, power distribution equipment, chillers, cooling towers, computer room air handlers, building monitoring systems, etc. - Perform root cause analysis of equipment failures and troubleshooting of facility within internal Service Level Agreements (SLA). - Provide training and guidance to Engineering Operations Technicians and are responsible for working with Facility Manager (FM) to set team culture. - Create and deploy new standard practices for Engineering Operations Technicians, Chief Engineers, and vendor support teams - May assist in the building out of new facilities and assist in projects to increase current facility efficiency - Working outside of normal business hours for routine maintenance as required, including responding to out-of-hours emergency calls. - Communicate complex technical information to a non-technical audience. - Work with IT managers and other business leaders to coordinate projects, manage capacity, and optimize plant safety, performance, reliability and efficiency - Ensure all safety procedures are adhered to by vendor and Amazon staff - Establish building performance benchmarks, conduct analyses, and prepare reports on all aspects of the critical facility of operations and maintenance. - Utilize Microsoft Excel, Word, Outlook and other basic administrative tools to perform day-to-day tasks\nBasic Qualifications - 3+ years of Microsoft Office including Outlook, Word, and Excel experience - Experience reading and writing procedures, technical documents, and engineering drawings - 3+ years of electrical and mechanical facilities maintenance experience \u2014 OR \u2014 3+ years of electrical facilities maintenance experience and 2+ year of mechanical facilities maintenance experience\nPreferred Qualifications - Experience in data center engineering or operations - Experience in construction or project management - Experience leading technical teams through daily operations and maintenance evolutions Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, GA, Covington - 96,000.00 - 166,300.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of Microsoft Office including Outlook, Word, and Excel experience - Experience ; procedures, technical documents, and engineering drawings - 3+ years of electrical and mechanical facilities maintenance experience \u2014 OR \u2014 3+ years ; of electrical facilities maintenance experience and 2+ year of mechanical facilities maintenance experience",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
+      "content_hash": "7e10d8f79db02dcedd811a18afc4fa7aec7a1d29a129bc4fac6bc1e8b39ff3eb",
+      "first_discovered": "2026-11-06T17:56:17.173702+00:00",
+      "last_seen": "2026-11-06T17:56:17.173720+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     }
   },
   "sources": {
