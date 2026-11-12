@@ -33157,7 +33157,7 @@
       "sponsorship": null,
       "content_hash": "b24801a600173264144a3602887310abcea037c732ab110c5907543ddf4935f9",
       "first_discovered": "2026-10-13T02:52:05.881327+00:00",
-      "last_seen": "2026-11-12T00:00:55.392425+00:00",
+      "last_seen": "2026-11-12T04:38:03.206652+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -33545,7 +33545,7 @@
       "sponsorship": null,
       "content_hash": "825b02226f66f50c58ac3bc46e82b8ff8b348dd63eaee5396ebb99cbdc02930e",
       "first_discovered": "2026-10-13T02:52:23.477659+00:00",
-      "last_seen": "2026-11-11T09:40:23.873913+00:00",
+      "last_seen": "2026-11-12T04:37:12.851666+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -44634,7 +44634,7 @@
       "sponsorship": null,
       "content_hash": "c77af12ee37384863921ae3f1a399d8ed45790e839439ee5a16bdbbc9ba8d05b",
       "first_discovered": "2026-10-13T03:07:51.824245+00:00",
-      "last_seen": "2026-11-11T09:44:11.155661+00:00",
+      "last_seen": "2026-11-12T04:38:21.449252+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -52109,7 +52109,7 @@
       "location": "Redmond, WA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557037907?domain=microsoft.com",
       "description": "Architecting trust at hyperscale, delivering highly available, resilient, and secure services that protect some of the world's most critical workloads. Design secure, reliable, observable, and reusable platform capabilities, leveraging telemetry and data to guide architectural decisions and championing engineering excellence through robust system design, design and code reviews, automation, testing, and operational best practices. Write clean, maintainable, and high-quality code while improving reliability, test coverage, diagnosability, and service health. Embody our Culture and Values Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. These requirements include, but are not limited to the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Proficiency in programming languages such as C#, Rust, Go, Java or C++. Demonstrated ability to write clean, maintainable, and efficient code. Experience with cloud platforms such as Azure, AWS, or Google Cloud: Understanding of cloud infrastructure and services. Strong problem-solving and analytical skills: Ability to diagnose issues, identify root causes, and implement effective solutions. Proven experience in building scalable and reliable software solutions. 6+ years architecting distributed systems.",
-      "posting_date": "2026-11-04T17:41:50",
+      "posting_date": "2026-11-11T22:00:10",
       "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not li;  6+ years architecting distributed systems",
       "classification": "Not Eligible",
       "reasons": [
@@ -52118,9 +52118,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "48a03775d3ba2469af6ebd26389f9e7c34724f8648d18d824c03759e0adf1ad0",
+      "content_hash": "a5b648eafb3bc1246d4bd2144c27faaad46f0983c4cd61a6068ad50f64fbab5f",
       "first_discovered": "2026-10-13T03:44:33.302130+00:00",
-      "last_seen": "2026-11-11T17:41:00.901914+00:00",
+      "last_seen": "2026-11-12T04:38:15.049526+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -52710,7 +52710,7 @@
       "sponsorship": null,
       "content_hash": "8eb2c593890a556748dcae9c2d19648c89d923f0c0625a6d1b562251f96dc02c",
       "first_discovered": "2026-10-13T03:44:52.826980+00:00",
-      "last_seen": "2026-11-11T17:47:37.080477+00:00",
+      "last_seen": "2026-11-12T04:37:25.161224+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -57979,7 +57979,7 @@
       "sponsorship": null,
       "content_hash": "d13dc10ed1f5f0fb5489e864ba576d27ab5a62faeb064152976e5ed745b006b7",
       "first_discovered": "2026-10-13T04:05:31.997217+00:00",
-      "last_seen": "2026-10-30T23:02:19.271185+00:00",
+      "last_seen": "2026-11-12T04:36:44.680302+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58100,7 +58100,7 @@
       "sponsorship": null,
       "content_hash": "23360fa4576185bf9cd6290a2089a1b52cab1d4e955269f1ba9a7414b4d6b92d",
       "first_discovered": "2026-10-13T04:05:37.400532+00:00",
-      "last_seen": "2026-10-30T23:02:19.675363+00:00",
+      "last_seen": "2026-11-12T04:37:14.317496+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58217,7 +58217,7 @@
       "sponsorship": null,
       "content_hash": "e0d80f4a128641090d8b3ded2857ecccd2a559db44ea1ac9f33fddad2a752e2b",
       "first_discovered": "2026-10-13T04:05:40.402455+00:00",
-      "last_seen": "2026-10-30T23:02:05.830330+00:00",
+      "last_seen": "2026-11-12T04:36:54.877368+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58239,7 +58239,7 @@
       "sponsorship": null,
       "content_hash": "871fc99fd32e23ca5bb3520d6b48ec38feec4c2eeb6a10f9c13a3fa5b8592aae",
       "first_discovered": "2026-10-13T04:05:40.668692+00:00",
-      "last_seen": "2026-10-30T23:02:20.229211+00:00",
+      "last_seen": "2026-11-12T04:37:13.906753+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58309,7 +58309,7 @@
       "sponsorship": null,
       "content_hash": "115052a551fe52a1e747dda521b93c53ec2be472ce60662c1a4eb76b14f3c7c5",
       "first_discovered": "2026-10-13T04:05:48.068642+00:00",
-      "last_seen": "2026-10-30T23:02:22.058538+00:00",
+      "last_seen": "2026-11-12T04:37:14.812475+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58424,7 +58424,7 @@
       "sponsorship": null,
       "content_hash": "1437265ac465b9572233f1f02c6a2c025249dda9b4cdffb6621f397f5fea1248",
       "first_discovered": "2026-10-13T04:05:51.499169+00:00",
-      "last_seen": "2026-10-30T23:02:21.126838+00:00",
+      "last_seen": "2026-11-12T04:37:13.310953+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58493,7 +58493,7 @@
       "sponsorship": null,
       "content_hash": "fc8ca0a3864490e2c7a466767d572d5163ea7c2c0878ff318194ec990ad355a8",
       "first_discovered": "2026-10-13T04:05:53.954845+00:00",
-      "last_seen": "2026-10-30T23:02:27.518333+00:00",
+      "last_seen": "2026-11-12T04:37:15.783798+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58504,7 +58504,7 @@
       "title": "Security Engineer II, Stores AppSec",
       "location": "USA, Virtual",
       "url": "https://www.amazon.jobs/en/jobs/10524054/security-engineer-ii-stores-appsec",
-      "description": "Description Application deadline: Oct 31, 2026 Amazon\u2019s Stores AppSec Team is seeking a Security Engineer to help keep Amazon secure for its customers. In this role, you will attack Amazon\u2019s services, applications, and websites to discover security issues and report them to our internal technology teams. This position will provide you with challenging opportunities, both technologically and as a leader, but will also be a great deal of fun if hacking Amazon alongside a team of highly skilled individuals sounds exciting to you. A Security Engineer at Amazon is expected to be strong in multiple domains. Engineers in this role work closely with teams throughout Information Security, as well as provide technical leadership and advice to teams and leaders throughout Amazon. You will be in direct contact with teams in a variety of business verticals, giving you first hand knowledge about how Amazon is built and how it operates at a deep, technical level. Additionally, you will leverage the knowledge you gain about Amazon to find new ways to break services, processes, and technologies throughout the company. Engineers in this role must show exemplary judgment in making technical trade-offs between short-term fixes and long-term security and business goals. You will demonstrate resilience and navigate ambiguous situations with composure and tact. You will be expected to provide thought leadership for the organization as you discover, invent, and innovate throughout the course of your duties. Above all else, a strong sense of customer obsession is necessary to focus on the ultimate goal of keeping Amazon and its customers secure. Key job responsibilities Your team has an emphasis on fast paced, highly visible engagements. You will be comfortable with a high level of ambiguity, exercising strong ownership, and be able to make high judgement decisions focusing on what is best for Amazon's Customers. Additionally, you should thrive in navigating complex stakeholder engagements a skill integral to the teams success. In this role, you will primarily be: - Conducting high quality application security reviews and penetration tests independently, or as part of a team - Creating detailed engagement plans and thoroughly documenting findings, gaps, and remediation recommendations - Contributing to team tooling, innovation, and improvements - Communicating and collaborating with partner teams, service owners, Information Security, and senior leadership to influence, prioritize, and drive the resolution of discovered security findings About the team Diverse Experiences Amazon Security values diverse experiences. Even if you do not meet all of the qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying. Why Amazon Security? At Amazon, security is central to maintaining customer trust and delivering delightful customer experiences. Our organization is responsible for creating and maintaining a high bar for security across all of Amazon\u2019s products and services. We offer talented security professionals the chance to accelerate their careers with opportunities to build experience in a wide variety of areas including cloud, devices, retail, entertainment, healthcare, operations, and physical stores. Inclusive Team Culture In Amazon Security, it\u2019s in our nature to learn and be curious. Ongoing DEI events and learning experiences inspire us to continue learning and to embrace our uniqueness. Addressing the toughest security challenges requires that we seek out and celebrate a diversity of ideas, perspectives, and voices. Training & Career Growth We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, training, and other career-advancing resources here to help you develop into a better-rounded professional. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why flexible work hours and arrangements are part of our culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve.\nBasic Qualifications - 3+ years of programming in Python, Ruby, Go, Swift, Java, .Net, C++ or similar object oriented language experience - 2+ years of scripting, programming, and security code review in a common programming language (non-internship) experience - 2+ years of troubleshooting systems issues, analyzing logs, or automating basic tasks using command line tools (non-internship) experience - Bachelor's degree in a STEM field (Science, Technology, Engineering, Mathematics), or 2+ years of IT Security experience - Knowledge of networking protocols such as HTTP, DNS and TCP/IP - Knowledge of industry-based security vulnerabilities and remediation techniques\nPreferred Qualifications - 2+ years of any combination of the following: threat modeling experience, secure coding, identity management and authentication, software development, cryptography, system administration and network security experience - Knowledge of command line tools to troubleshoot protocols, analyze log outputs, or automate basic tasks - Experience with AWS products and services - Experience in scripting, programming, or security code reviewing in a common language, such as Python, Java, or C++ - Experience performing security activities across one or more phases of the software development lifecycle (SDLC), such as security design review, threat modeling, secure code review, and security testing Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company\u2019s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, ,  - 159,300.00 - 202,400.00 USD annually",
+      "description": "Description Application deadline: Nov 15, 2026 Amazon\u2019s Stores AppSec Team is seeking a Security Engineer to help keep Amazon secure for its customers. In this role, you will attack Amazon\u2019s services, applications, and websites to discover security issues and report them to our internal technology teams. This position will provide you with challenging opportunities, both technologically and as a leader, but will also be a great deal of fun if hacking Amazon alongside a team of highly skilled individuals sounds exciting to you. A Security Engineer at Amazon is expected to be strong in multiple domains. Engineers in this role work closely with teams throughout Information Security, as well as provide technical leadership and advice to teams and leaders throughout Amazon. You will be in direct contact with teams in a variety of business verticals, giving you first hand knowledge about how Amazon is built and how it operates at a deep, technical level. Additionally, you will leverage the knowledge you gain about Amazon to find new ways to break services, processes, and technologies throughout the company. Engineers in this role must show exemplary judgment in making technical trade-offs between short-term fixes and long-term security and business goals. You will demonstrate resilience and navigate ambiguous situations with composure and tact. You will be expected to provide thought leadership for the organization as you discover, invent, and innovate throughout the course of your duties. Above all else, a strong sense of customer obsession is necessary to focus on the ultimate goal of keeping Amazon and its customers secure. Key job responsibilities Your team has an emphasis on fast paced, highly visible engagements. You will be comfortable with a high level of ambiguity, exercising strong ownership, and be able to make high judgement decisions focusing on what is best for Amazon's Customers. Additionally, you should thrive in navigating complex stakeholder engagements a skill integral to the teams success. In this role, you will primarily be: - Conducting high quality application security reviews and penetration tests independently, or as part of a team - Creating detailed engagement plans and thoroughly documenting findings, gaps, and remediation recommendations - Contributing to team tooling, innovation, and improvements - Communicating and collaborating with partner teams, service owners, Information Security, and senior leadership to influence, prioritize, and drive the resolution of discovered security findings About the team Diverse Experiences Amazon Security values diverse experiences. Even if you do not meet all of the qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying. Why Amazon Security? At Amazon, security is central to maintaining customer trust and delivering delightful customer experiences. Our organization is responsible for creating and maintaining a high bar for security across all of Amazon\u2019s products and services. We offer talented security professionals the chance to accelerate their careers with opportunities to build experience in a wide variety of areas including cloud, devices, retail, entertainment, healthcare, operations, and physical stores. Inclusive Team Culture In Amazon Security, it\u2019s in our nature to learn and be curious. Ongoing DEI events and learning experiences inspire us to continue learning and to embrace our uniqueness. Addressing the toughest security challenges requires that we seek out and celebrate a diversity of ideas, perspectives, and voices. Training & Career Growth We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, training, and other career-advancing resources here to help you develop into a better-rounded professional. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why flexible work hours and arrangements are part of our culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve.\nBasic Qualifications - 3+ years of programming in Python, Ruby, Go, Swift, Java, .Net, C++ or similar object oriented language experience - 2+ years of scripting, programming, and security code review in a common programming language (non-internship) experience - 2+ years of troubleshooting systems issues, analyzing logs, or automating basic tasks using command line tools (non-internship) experience - Bachelor's degree in a STEM field (Science, Technology, Engineering, Mathematics), or 2+ years of IT Security experience - Knowledge of networking protocols such as HTTP, DNS and TCP/IP - Knowledge of industry-based security vulnerabilities and remediation techniques\nPreferred Qualifications - 2+ years of any combination of the following: threat modeling experience, secure coding, identity management and authentication, software development, cryptography, system administration and network security experience - Knowledge of command line tools to troubleshoot protocols, analyze log outputs, or automate basic tasks - Experience with AWS products and services - Experience in scripting, programming, or security code reviewing in a common language, such as Python, Java, or C++ - Experience performing security activities across one or more phases of the software development lifecycle (SDLC), such as security design review, threat modeling, secure code review, and security testing Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company\u2019s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Pursuant to the San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, ,  - 159,300.00 - 202,400.00 USD annually",
       "posting_date": null,
       "experience": "Basic Qualifications - 3+ years of programming in Python, Ruby, Go, Swift, Java, ; Net, C++ or similar object oriented language experience - 2+ years of scripting, programming, and security code review in a common programming lan; guage (non-internship) experience - 2+ years of troubleshooting systems issues, analyzing logs, or automating basic tasks us; M field (Science, Technology, Engineering, Mathematics), or 2+ years of IT Security experience - Knowledge of networking protocols such as HTTP, DNS; Preferred Qualifications - 2+ years of any combination of the following: threat modeling experience, secure coding,",
       "classification": "Not Eligible",
@@ -58515,9 +58515,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "4e4406a71819dd69efe70c44918256f0cec343d63749368553083f06f18de187",
+      "content_hash": "4fe07f07fbca23d7c0282bc0baeedb9b647292176dd7757aa014a2bf8f12b2a3",
       "first_discovered": "2026-10-13T04:05:55.537869+00:00",
-      "last_seen": "2026-10-30T23:02:11.191988+00:00",
+      "last_seen": "2026-11-12T04:36:48.535519+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58747,7 +58747,7 @@
       "sponsorship": null,
       "content_hash": "bd5af0d476a67023167824f593243bb6872683b1f08f96de9e372502c2d3399c",
       "first_discovered": "2026-10-13T04:06:06.428543+00:00",
-      "last_seen": "2026-10-30T23:02:27.945966+00:00",
+      "last_seen": "2026-11-12T04:37:16.647496+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58908,7 +58908,7 @@
       "sponsorship": null,
       "content_hash": "3740c5f7983e7ce646619237f5b3788afa1f4f0dcbf95bc7fba0ab184ea4b856",
       "first_discovered": "2026-10-13T04:06:11.933328+00:00",
-      "last_seen": "2026-10-30T23:02:30.098418+00:00",
+      "last_seen": "2026-11-12T04:37:17.132807+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58978,7 +58978,7 @@
       "sponsorship": null,
       "content_hash": "2c2fc662cb456d098c9e8920cc29607fca270079ec17ce7b4a02f91bea5ee896",
       "first_discovered": "2026-10-13T04:06:15.192895+00:00",
-      "last_seen": "2026-10-30T23:02:31.003858+00:00",
+      "last_seen": "2026-11-12T04:36:44.098445+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59092,7 +59092,7 @@
       "sponsorship": null,
       "content_hash": "ba15ce4c18172fa6802d93c9d652b24fc1f76188b41c4a74b50e5c67096990aa",
       "first_discovered": "2026-10-13T04:06:18.496703+00:00",
-      "last_seen": "2026-10-30T23:02:31.344487+00:00",
+      "last_seen": "2026-11-12T04:37:17.698339+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59140,7 +59140,7 @@
       "sponsorship": null,
       "content_hash": "07465d859690fb94e77e5ca891dd9d4a307a78eac099f424174e3c98c8f66e14",
       "first_discovered": "2026-10-13T04:06:19.048503+00:00",
-      "last_seen": "2026-10-30T23:02:31.931027+00:00",
+      "last_seen": "2026-11-12T04:37:18.171878+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59187,7 +59187,7 @@
       "sponsorship": null,
       "content_hash": "a51428ef29aff98c2b568770b33090e59f736a443150b6b39a394178d9b347a4",
       "first_discovered": "2026-10-13T04:06:24.475317+00:00",
-      "last_seen": "2026-10-30T23:02:33.437780+00:00",
+      "last_seen": "2026-11-12T04:36:55.506258+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59210,7 +59210,7 @@
       "sponsorship": null,
       "content_hash": "d8cc94f947b0910e07a6904bd984f55638cfb08c6b63518a8265b4ad5ec2d597",
       "first_discovered": "2026-10-13T04:06:25.182547+00:00",
-      "last_seen": "2026-10-30T23:02:32.849490+00:00",
+      "last_seen": "2026-11-12T04:37:19.057633+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59256,7 +59256,7 @@
       "sponsorship": null,
       "content_hash": "5b53ac6d897f0ac106fc6040e1932708c6e2a27a547cd9ed3e67ee3b9722c83d",
       "first_discovered": "2026-10-13T04:06:27.070768+00:00",
-      "last_seen": "2026-10-30T23:02:38.380912+00:00",
+      "last_seen": "2026-11-12T04:37:24.805120+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59302,7 +59302,7 @@
       "sponsorship": null,
       "content_hash": "08bbeb806635c73d5327692babe9681917c60af36f5499b95f48fcac7f5fa190",
       "first_discovered": "2026-10-13T04:06:29.494781+00:00",
-      "last_seen": "2026-10-30T23:02:37.987791+00:00",
+      "last_seen": "2026-11-12T04:37:23.836718+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59394,7 +59394,7 @@
       "sponsorship": null,
       "content_hash": "0dbbcb384984d4d57989f3afeccefce6013bdc573a0c5c0846eb8c816fa8b5e0",
       "first_discovered": "2026-10-13T04:06:31.715374+00:00",
-      "last_seen": "2026-10-30T23:02:39.435445+00:00",
+      "last_seen": "2026-11-12T04:37:24.245168+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59417,7 +59417,7 @@
       "sponsorship": null,
       "content_hash": "e3c77c1d6217d61e8ff906cc6b2ed4e9e6019a884e3242afe1316ccf1cd62e41",
       "first_discovered": "2026-10-13T04:06:32.730302+00:00",
-      "last_seen": "2026-10-30T23:02:40.606195+00:00",
+      "last_seen": "2026-11-12T04:37:25.683652+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59485,7 +59485,7 @@
       "sponsorship": null,
       "content_hash": "e1e7335af6293145a6549297a8cca91f057d17b08ab0453d801cd463f6b85606",
       "first_discovered": "2026-10-13T04:06:35.315878+00:00",
-      "last_seen": "2026-10-30T23:02:41.348509+00:00",
+      "last_seen": "2026-11-12T04:37:26.152023+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59649,7 +59649,7 @@
       "sponsorship": null,
       "content_hash": "d4624720001ff51f707de637c1439f0e945782ea33bff9d22c8ba118598d8ac4",
       "first_discovered": "2026-10-13T04:06:44.612147+00:00",
-      "last_seen": "2026-10-30T23:02:41.786991+00:00",
+      "last_seen": "2026-11-12T04:37:27.015184+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59671,7 +59671,7 @@
       "sponsorship": null,
       "content_hash": "2f19933f833bbf46066bc2dd417078cad52d08415b412e66f3cecec4e7c9a725",
       "first_discovered": "2026-10-13T04:06:45.223867+00:00",
-      "last_seen": "2026-10-30T23:02:42.493577+00:00",
+      "last_seen": "2026-11-12T04:37:27.556753+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59717,7 +59717,7 @@
       "sponsorship": null,
       "content_hash": "23352e9b37cd866b380d151a0c5823de6f8aa4eeb95fde5250cc5b3881d124dc",
       "first_discovered": "2026-10-13T04:06:48.318471+00:00",
-      "last_seen": "2026-10-30T23:02:43.185517+00:00",
+      "last_seen": "2026-11-12T04:37:28.077017+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59787,7 +59787,7 @@
       "sponsorship": null,
       "content_hash": "335cac7a1fca45dcb91d13ec18d28b5755ec3e79575842cd2d01b427ac6d730c",
       "first_discovered": "2026-10-13T04:06:51.239735+00:00",
-      "last_seen": "2026-10-30T23:02:49.044273+00:00",
+      "last_seen": "2026-11-12T04:37:34.344056+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59809,7 +59809,7 @@
       "sponsorship": null,
       "content_hash": "c183145716f6ffac48b49788133186ac29d1050ce58e85ad5585eeaf56f4670c",
       "first_discovered": "2026-10-13T04:06:51.632102+00:00",
-      "last_seen": "2026-10-30T23:02:50.351062+00:00",
+      "last_seen": "2026-11-12T04:37:29.366410+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59832,7 +59832,7 @@
       "sponsorship": null,
       "content_hash": "de8d38bc57c15923460b314c1b8978011c79cd32e0d3517c6d4872e4ca813943",
       "first_discovered": "2026-10-13T04:06:52.008617+00:00",
-      "last_seen": "2026-10-30T23:02:43.913634+00:00",
+      "last_seen": "2026-11-12T04:37:28.824543+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59901,7 +59901,7 @@
       "sponsorship": null,
       "content_hash": "24dc9558ba7238c86e5d24064fbc8d1f52ff4a115c1778a3abbceed44f722713",
       "first_discovered": "2026-10-13T04:06:53.401840+00:00",
-      "last_seen": "2026-10-30T23:02:09.777897+00:00",
+      "last_seen": "2026-11-12T04:37:06.396950+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -59992,7 +59992,7 @@
       "sponsorship": null,
       "content_hash": "eb76a292d6539e3ec10d7ebddad14cd8ba8fe4a40ad79722005aee1b5a229f82",
       "first_discovered": "2026-10-13T04:06:57.632523+00:00",
-      "last_seen": "2026-10-30T23:02:48.413259+00:00",
+      "last_seen": "2026-11-12T04:37:33.925031+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60152,7 +60152,7 @@
       "sponsorship": null,
       "content_hash": "bc635ce5afe5b5d616b7f119a557e358c476e6fdd357e2e0db60948bd388e613",
       "first_discovered": "2026-10-13T04:07:04.705783+00:00",
-      "last_seen": "2026-10-30T23:02:49.492393+00:00",
+      "last_seen": "2026-11-12T04:37:34.945267+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60174,7 +60174,7 @@
       "sponsorship": null,
       "content_hash": "22fc3802b4e9dc4949d1b1aca2c287bb3614cad51165118ad1b4e190b0cac135",
       "first_discovered": "2026-10-13T04:07:05.284428+00:00",
-      "last_seen": "2026-11-01T15:27:04.259665+00:00",
+      "last_seen": "2026-11-12T04:36:56.716267+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60197,7 +60197,7 @@
       "sponsorship": null,
       "content_hash": "ce550c7b86e884ec77e251a2ab3f35aa4a26a309b9f5e147ce847e39dab243d3",
       "first_discovered": "2026-10-13T04:07:06.295704+00:00",
-      "last_seen": "2026-10-30T23:02:51.847211+00:00",
+      "last_seen": "2026-11-12T04:37:36.635416+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60219,7 +60219,7 @@
       "sponsorship": null,
       "content_hash": "4cff28c0820e339789c448af7322dfdd60574095baec00f7b0704f67a5ce8021",
       "first_discovered": "2026-10-13T04:07:07.264993+00:00",
-      "last_seen": "2026-10-30T23:02:51.359151+00:00",
+      "last_seen": "2026-11-12T04:37:35.472995+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60266,7 +60266,7 @@
       "sponsorship": null,
       "content_hash": "d6618525bbdf7d6f8439b4b503f15cf95da0980e7a923b8d7f30cff119b03e9b",
       "first_discovered": "2026-10-13T04:07:09.431829+00:00",
-      "last_seen": "2026-10-30T23:02:52.319126+00:00",
+      "last_seen": "2026-11-12T04:37:36.933166+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60360,7 +60360,7 @@
       "sponsorship": null,
       "content_hash": "51e456888a235af6ade96dd6df995ab2c2a722b8ccf7f978ae1434c67cb8d49e",
       "first_discovered": "2026-10-13T04:07:11.151373+00:00",
-      "last_seen": "2026-10-30T23:02:53.854431+00:00",
+      "last_seen": "2026-11-12T04:37:38.137181+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60383,7 +60383,7 @@
       "sponsorship": null,
       "content_hash": "504a73142e1405e2e7af37f0467bf35e1ac70ed2c9757f696f454fe1e550db8e",
       "first_discovered": "2026-10-13T04:07:11.533752+00:00",
-      "last_seen": "2026-10-30T23:02:53.149981+00:00",
+      "last_seen": "2026-11-12T04:37:37.489829+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60431,7 +60431,7 @@
       "sponsorship": null,
       "content_hash": "74aa2430d0752f32f75acd36ee0db9d56c82ad873bb4b8c5cf82ce9ab9815e87",
       "first_discovered": "2026-10-13T04:07:13.219634+00:00",
-      "last_seen": "2026-10-30T23:02:54.437373+00:00",
+      "last_seen": "2026-11-12T04:37:39.323618+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -60526,7 +60526,7 @@
       "sponsorship": null,
       "content_hash": "c1d21253ceadb3b0a6d3ed9f9f6a92a13b4c1930a9580f026056bd6e6b3bb696",
       "first_discovered": "2026-10-13T04:07:16.382741+00:00",
-      "last_seen": "2026-10-30T23:02:58.863072+00:00",
+      "last_seen": "2026-11-12T04:37:40.039194+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -62672,7 +62672,7 @@
       "sponsorship": null,
       "content_hash": "784fbb95122bc0610ba9bbfe429b1e20df41d66c4ce2def328786fc4966f589a",
       "first_discovered": "2026-10-13T09:33:15.375877+00:00",
-      "last_seen": "2026-11-11T23:57:44.655304+00:00",
+      "last_seen": "2026-11-12T04:38:06.170533+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -64443,7 +64443,7 @@
       "sponsorship": null,
       "content_hash": "b947c59225bd333371047170f05891eb997d5822e1ec151adaa1c434174a4bbe",
       "first_discovered": "2026-10-13T09:35:21.263723+00:00",
-      "last_seen": "2026-11-11T02:09:09.176053+00:00",
+      "last_seen": "2026-11-12T04:37:36.314157+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68952,7 +68952,7 @@
       "sponsorship": null,
       "content_hash": "1ba3a47552baf7db19f96fb3d93b1c5d2b83048f8c1d953fd9955cd15da9694b",
       "first_discovered": "2026-10-13T09:40:52.052090+00:00",
-      "last_seen": "2026-11-11T09:41:12.451399+00:00",
+      "last_seen": "2026-11-12T04:38:09.429195+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -70608,7 +70608,7 @@
       "sponsorship": null,
       "content_hash": "bc2b5358f296e7b20437f68c0cab8fb31ef2d1e4e6989b556045a0c50381eaa0",
       "first_discovered": "2026-10-13T09:42:10.191198+00:00",
-      "last_seen": "2026-11-11T02:12:20.320282+00:00",
+      "last_seen": "2026-11-12T04:37:39.616012+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71025,7 +71025,7 @@
       "sponsorship": null,
       "content_hash": "b65e43e55ec37f453da1bb92dec300c4087b89c96fa12f064e0c76c1e9c55395",
       "first_discovered": "2026-10-13T15:49:13.456046+00:00",
-      "last_seen": "2026-11-12T00:03:43.148351+00:00",
+      "last_seen": "2026-11-12T04:37:04.132691+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71048,7 +71048,7 @@
       "sponsorship": null,
       "content_hash": "b928cc25c039f8ba82a2623a3d2ed5029ae90c99304bf6283f01e14a9faeb5f6",
       "first_discovered": "2026-10-13T15:49:16.462340+00:00",
-      "last_seen": "2026-11-11T23:52:10.517602+00:00",
+      "last_seen": "2026-11-12T04:37:06.921364+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71324,7 +71324,7 @@
       "sponsorship": null,
       "content_hash": "4178a7f7bf8400d57d86abd426fc138e63fc7c49b931a1d62e120442f3a47f7b",
       "first_discovered": "2026-10-13T15:50:16.861679+00:00",
-      "last_seen": "2026-11-10T08:05:54.478496+00:00",
+      "last_seen": "2026-11-12T04:36:43.478957+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -72772,7 +72772,7 @@
       "sponsorship": null,
       "content_hash": "895965794c5d6a26b6b4e1c52b8381f4ab302d50653d2c69f9201449548bb34f",
       "first_discovered": "2026-10-13T15:54:13.712551+00:00",
-      "last_seen": "2026-10-30T23:02:18.330985+00:00",
+      "last_seen": "2026-11-12T04:37:08.780317+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73188,7 +73188,7 @@
       "sponsorship": null,
       "content_hash": "76cff1a936107af2e881f8889b44b32bf9865a4295e88a7c34424b4f99efc345",
       "first_discovered": "2026-10-13T15:56:10.089289+00:00",
-      "last_seen": "2026-10-30T23:02:59.913738+00:00",
+      "last_seen": "2026-11-12T04:38:32.704794+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73258,7 +73258,7 @@
       "sponsorship": null,
       "content_hash": "dfc295b170b6ebbe7871bdfa14604d621d11e4967642b16dd30fdb2d8914dd3e",
       "first_discovered": "2026-10-13T15:56:14.841898+00:00",
-      "last_seen": "2026-11-11T09:44:59.364761+00:00",
+      "last_seen": "2026-11-12T04:38:10.966944+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73280,7 +73280,7 @@
       "sponsorship": null,
       "content_hash": "4923522c7461d22602810deb9469c17e416ea146ec689926d8b298c15ec7d46e",
       "first_discovered": "2026-10-13T15:56:15.429291+00:00",
-      "last_seen": "2026-11-11T09:44:57.532476+00:00",
+      "last_seen": "2026-11-12T04:38:08.317388+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73325,7 +73325,7 @@
       "sponsorship": null,
       "content_hash": "956075540f7676486b4f7a0d7f7ee2ef183613b56a3674bfad4362949c301cc1",
       "first_discovered": "2026-10-13T15:56:15.994824+00:00",
-      "last_seen": "2026-11-11T09:45:02.899086+00:00",
+      "last_seen": "2026-11-12T04:38:18.107174+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73372,7 +73372,7 @@
       "sponsorship": null,
       "content_hash": "c359c450c5d11984dc89b264068705466719200aa671e438793c5bf54dd1185c",
       "first_discovered": "2026-10-13T15:56:17.528200+00:00",
-      "last_seen": "2026-11-11T09:45:02.008271+00:00",
+      "last_seen": "2026-11-12T04:38:16.202648+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73417,7 +73417,7 @@
       "sponsorship": null,
       "content_hash": "b80525ab18b0bb98e15a5bcda9caa43b644051ebc1682bb5653f9be7569a7311",
       "first_discovered": "2026-10-13T15:56:18.291507+00:00",
-      "last_seen": "2026-11-11T09:45:07.625910+00:00",
+      "last_seen": "2026-11-12T04:38:18.938703+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73487,7 +73487,7 @@
       "sponsorship": null,
       "content_hash": "275676ee4b63f3f14476a29708e0c107afd0cbb904b92f399e48c344cdb6f32d",
       "first_discovered": "2026-10-13T15:56:19.760722+00:00",
-      "last_seen": "2026-11-11T09:44:29.340245+00:00",
+      "last_seen": "2026-11-12T04:37:46.406700+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73602,7 +73602,7 @@
       "sponsorship": null,
       "content_hash": "f1f044ae83fcdc81cc70ae5d58bc1a00a6480f7bc94ec9fa82818910803cee88",
       "first_discovered": "2026-10-13T15:56:25.086264+00:00",
-      "last_seen": "2026-11-11T09:44:36.870290+00:00",
+      "last_seen": "2026-11-12T04:37:49.898887+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73649,7 +73649,7 @@
       "sponsorship": null,
       "content_hash": "32d3338eb3f531ca37773570ef774188bb6be9a0f481a632661d2f6ece32ea6b",
       "first_discovered": "2026-10-13T15:56:26.448976+00:00",
-      "last_seen": "2026-11-11T09:45:09.225669+00:00",
+      "last_seen": "2026-11-12T04:38:19.430550+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73695,7 +73695,7 @@
       "sponsorship": null,
       "content_hash": "4034c3130d90fe55304b9dfc4f9cf031d977f35dc3ba589a40cdd539a71e8e45",
       "first_discovered": "2026-10-13T15:56:27.556963+00:00",
-      "last_seen": "2026-11-11T09:44:51.123426+00:00",
+      "last_seen": "2026-11-12T04:38:06.486686+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73764,7 +73764,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "c40c339bf44ef7d3e81adb3df023a82700527b7e222c795fb0267cb5547580ff",
       "first_discovered": "2026-10-13T15:56:29.285135+00:00",
-      "last_seen": "2026-11-11T09:44:51.710487+00:00",
+      "last_seen": "2026-11-12T04:37:45.772595+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73832,7 +73832,7 @@
       "sponsorship": null,
       "content_hash": "35177706955e380ee9c0107c77ffcc59ec1c57251a6233bce1b1ac7b6f4f378c",
       "first_discovered": "2026-10-13T15:56:34.963006+00:00",
-      "last_seen": "2026-11-11T09:44:35.518428+00:00",
+      "last_seen": "2026-11-12T04:37:49.237841+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73855,7 +73855,7 @@
       "sponsorship": null,
       "content_hash": "11f35d2c5106a433ca46b0a380939b3de7c0a771f332184fd78e286e67c697ce",
       "first_discovered": "2026-10-13T15:56:35.381146+00:00",
-      "last_seen": "2026-11-11T09:45:08.777765+00:00",
+      "last_seen": "2026-11-12T04:38:19.963082+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73879,7 +73879,7 @@
       "sponsorship": null,
       "content_hash": "7e25dfacb5ebc8228beb3fe6a7d380e19affdd66dff9e9a2625fc0b7ce67e72a",
       "first_discovered": "2026-10-13T15:56:36.150582+00:00",
-      "last_seen": "2026-11-11T09:45:08.338057+00:00",
+      "last_seen": "2026-11-12T04:38:20.747088+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73902,7 +73902,7 @@
       "sponsorship": null,
       "content_hash": "fe4526a9286674e843d647b5b74a1bc0395c036a0da87cec152e896ec10be553",
       "first_discovered": "2026-10-13T15:56:36.685021+00:00",
-      "last_seen": "2026-11-11T09:45:10.735013+00:00",
+      "last_seen": "2026-11-12T04:38:21.747211+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73947,7 +73947,7 @@
       "sponsorship": null,
       "content_hash": "9add3ce75be571684a39b449ab1ae88d4a792c7c6f8c3040dfd0ac4f4f2b05eb",
       "first_discovered": "2026-10-13T15:56:37.600827+00:00",
-      "last_seen": "2026-11-02T20:41:51.342025+00:00",
+      "last_seen": "2026-11-12T04:38:22.031448+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -73994,7 +73994,7 @@
       "sponsorship": null,
       "content_hash": "e19099a8e26c0a551f7beab3c1c7da1c8091175713adf42d5cbecbdcd92ae394",
       "first_discovered": "2026-10-13T15:56:39.001716+00:00",
-      "last_seen": "2026-11-11T09:44:48.138459+00:00",
+      "last_seen": "2026-11-12T04:38:01.240411+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74018,7 +74018,7 @@
       "sponsorship": null,
       "content_hash": "2f512cd3d9eec92b3f8419432ea61ab4e774361b78a30f6dda1d57a5ead3510d",
       "first_discovered": "2026-10-13T15:56:43.362029+00:00",
-      "last_seen": "2026-11-02T20:41:53.104037+00:00",
+      "last_seen": "2026-11-12T04:38:26.678369+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74130,7 +74130,7 @@
       "sponsorship": null,
       "content_hash": "2c277291684d786f1c75b1fe8a303478886e0611a954b9cb74f9e20147ce98d2",
       "first_discovered": "2026-10-13T15:56:45.634458+00:00",
-      "last_seen": "2026-11-11T09:45:00.973254+00:00",
+      "last_seen": "2026-11-12T04:38:17.413221+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74153,7 +74153,7 @@
       "sponsorship": null,
       "content_hash": "3ebf92c5b37032bde2f2e08b4f407f3307cbc3136f7c9c1a2178c1dbd40d0648",
       "first_discovered": "2026-10-13T15:56:46.376885+00:00",
-      "last_seen": "2026-11-11T09:44:30.114606+00:00",
+      "last_seen": "2026-11-12T04:37:47.324730+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74176,7 +74176,7 @@
       "sponsorship": null,
       "content_hash": "875e6cf7e09bf39a7cb6f06d2d3b6083cbdb25964f3f7ed2f12e6cfaa7d2cce9",
       "first_discovered": "2026-10-13T15:56:46.886316+00:00",
-      "last_seen": "2026-11-02T20:42:00.292999+00:00",
+      "last_seen": "2026-11-12T04:38:27.142336+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74222,7 +74222,7 @@
       "sponsorship": null,
       "content_hash": "076ed2eca23597547ded71263821a25d0444a444dc8f50ef874caabd63dbdb33",
       "first_discovered": "2026-10-13T15:56:48.057831+00:00",
-      "last_seen": "2026-11-11T09:44:37.640641+00:00",
+      "last_seen": "2026-11-12T04:37:50.652257+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74288,7 +74288,7 @@
       "sponsorship": null,
       "content_hash": "6dbec575e3d8233c52f7961f9652ffbc08df30e71dedad261a8314cc6bc87ba6",
       "first_discovered": "2026-10-13T15:56:53.658143+00:00",
-      "last_seen": "2026-11-01T15:26:51.424815+00:00",
+      "last_seen": "2026-11-12T04:38:28.588006+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74332,7 +74332,7 @@
       "sponsorship": null,
       "content_hash": "6d921c1bb44fbee4f14d4eda3a6551b0a679612c1beaad9f918ec0a25b6e0212",
       "first_discovered": "2026-10-13T15:56:54.642733+00:00",
-      "last_seen": "2026-11-02T02:50:47.398353+00:00",
+      "last_seen": "2026-11-12T04:38:27.890068+00:00",
       "notified_hash": "6d921c1bb44fbee4f14d4eda3a6551b0a679612c1beaad9f918ec0a25b6e0212",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T15:56:55.386436+00:00"
@@ -74424,7 +74424,7 @@
       "sponsorship": null,
       "content_hash": "b96950e8cf799019f2be8ae0b87fea68cbc19569628e5931ab7983d1fb93d118",
       "first_discovered": "2026-10-13T15:56:57.845232+00:00",
-      "last_seen": "2026-11-11T09:44:38.399563+00:00",
+      "last_seen": "2026-11-12T04:37:55.235307+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74468,7 +74468,7 @@
       "sponsorship": null,
       "content_hash": "30891382255d9cff35d315fe6808907f719105f80fbba1a9ca96425301e7698d",
       "first_discovered": "2026-10-13T15:56:58.997637+00:00",
-      "last_seen": "2026-11-01T15:26:54.012611+00:00",
+      "last_seen": "2026-11-12T04:38:29.025519+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74490,7 +74490,7 @@
       "sponsorship": "Our employee-led and company-sponsored affinity groups promote inclusion and empower our people to take pride in what makes us unique",
       "content_hash": "7dad5eebc3db7294599c236ba5388583f2423e76a635cb9ab3fced51d565cee1",
       "first_discovered": "2026-10-13T15:57:03.320987+00:00",
-      "last_seen": "2026-11-01T15:26:59.685974+00:00",
+      "last_seen": "2026-11-12T04:38:29.727374+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74537,7 +74537,7 @@
       "sponsorship": null,
       "content_hash": "89f58898e1323dc877752e46b895c894fbed20502d9d92ddcdf000823d7196fe",
       "first_discovered": "2026-10-13T15:57:04.324156+00:00",
-      "last_seen": "2026-11-01T15:26:59.217146+00:00",
+      "last_seen": "2026-11-12T04:38:30.586492+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74560,7 +74560,7 @@
       "sponsorship": null,
       "content_hash": "e502481e8be8119a74ecea3b68cf1c763fbd1ee5e13197c7018e69a17990e307",
       "first_discovered": "2026-10-13T15:57:04.758161+00:00",
-      "last_seen": "2026-11-01T15:26:58.732366+00:00",
+      "last_seen": "2026-11-12T04:38:31.203403+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74582,7 +74582,7 @@
       "sponsorship": null,
       "content_hash": "d41a55708e6d7ee41edf3e71e3d3a258a9cc021bbb242903917af930b5447a2f",
       "first_discovered": "2026-10-13T15:57:05.604812+00:00",
-      "last_seen": "2026-11-11T09:45:00.541129+00:00",
+      "last_seen": "2026-11-12T04:38:16.922094+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -74652,7 +74652,7 @@
       "sponsorship": null,
       "content_hash": "6baceef43ab0eaac19e7c267083efc07a307c2302f348ab561a38cdd9c68cee6",
       "first_discovered": "2026-10-13T15:57:07.097975+00:00",
-      "last_seen": "2026-11-01T15:27:02.391432+00:00",
+      "last_seen": "2026-11-12T04:38:31.600866+00:00",
       "notified_hash": "6baceef43ab0eaac19e7c267083efc07a307c2302f348ab561a38cdd9c68cee6",
       "notification_status": "sent",
       "delivered_at": "2026-10-13T15:57:07.707592+00:00"
@@ -76307,7 +76307,7 @@
       "sponsorship": null,
       "content_hash": "e8ca1f5b554ea607aaa07333b8f40155ccaa8cf011f7435c0a5b1f4f570487f6",
       "first_discovered": "2026-10-13T15:58:14.719225+00:00",
-      "last_seen": "2026-11-10T16:09:00.900144+00:00",
+      "last_seen": "2026-11-12T04:36:42.825811+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76331,7 +76331,7 @@
       "sponsorship": null,
       "content_hash": "3d6171cf5bb8af1bdaabaca2c64da9d6da9fda1b8a17afbf1c20718d9bfc9fea",
       "first_discovered": "2026-10-13T15:58:15.126438+00:00",
-      "last_seen": "2026-11-10T16:09:01.999180+00:00",
+      "last_seen": "2026-11-12T04:36:43.761624+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77246,7 +77246,7 @@
       "sponsorship": null,
       "content_hash": "62712b947343a21a4329181d354133f45e3eea31bc102d72b851bc0d80f99605",
       "first_discovered": "2026-10-13T15:58:51.744493+00:00",
-      "last_seen": "2026-11-11T09:44:43.055634+00:00",
+      "last_seen": "2026-11-12T04:37:45.436867+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77428,7 +77428,7 @@
       "sponsorship": null,
       "content_hash": "8c391e10a91aab481711870cea77f8724e2ad93de0dced8f1e3b099a6079b141",
       "first_discovered": "2026-10-13T15:58:57.568600+00:00",
-      "last_seen": "2026-11-11T09:36:09.153851+00:00",
+      "last_seen": "2026-11-12T04:37:21.912376+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -79513,7 +79513,7 @@
       "sponsorship": null,
       "content_hash": "d878f60cb33d8125a5b178090b4890c89ed1bbeca6477e94e7679dab6452e668",
       "first_discovered": "2026-10-13T16:00:16.048077+00:00",
-      "last_seen": "2026-11-11T23:54:53.048274+00:00",
+      "last_seen": "2026-11-12T04:36:57.804197+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80325,7 +80325,7 @@
       "sponsorship": null,
       "content_hash": "3955c4c8fbfc47f15013598222172bf9737380a8367805eff23cd19e91c7640e",
       "first_discovered": "2026-10-13T21:03:07.095525+00:00",
-      "last_seen": "2026-10-30T23:02:17.353422+00:00",
+      "last_seen": "2026-11-12T04:36:47.032212+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80348,7 +80348,7 @@
       "sponsorship": null,
       "content_hash": "08bb065390f4c0e04f25f9c85b9f675fa134884ac5c42c67d5519c8aa7643bd1",
       "first_discovered": "2026-10-13T21:03:07.674502+00:00",
-      "last_seen": "2026-10-30T23:02:16.787751+00:00",
+      "last_seen": "2026-11-12T04:37:08.218737+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -80908,7 +80908,7 @@
       "sponsorship": null,
       "content_hash": "88f2bb09a709c902b4cfdaaf1dfbc19eba6912285cff3daf3bfcee0b53daa7fd",
       "first_discovered": "2026-10-14T00:29:01.206400+00:00",
-      "last_seen": "2026-11-11T17:40:56.746441+00:00",
+      "last_seen": "2026-11-12T04:38:27.591760+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -82661,7 +82661,7 @@
       "sponsorship": null,
       "content_hash": "c50fb4ba7ff6b890a89515298d212072cf30112cf5d157adf15c60f5a61e6934",
       "first_discovered": "2026-10-14T10:49:15.827564+00:00",
-      "last_seen": "2026-11-11T09:44:46.152291+00:00",
+      "last_seen": "2026-11-12T04:37:48.415868+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83429,7 +83429,7 @@
       "sponsorship": null,
       "content_hash": "67dc8d8095056703c9aaafe3c019e8a5f56c0d502a048d2978be53eb0871ce15",
       "first_discovered": "2026-10-14T19:53:40.599110+00:00",
-      "last_seen": "2026-11-10T08:01:42.257670+00:00",
+      "last_seen": "2026-11-12T04:37:51.437926+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83475,7 +83475,7 @@
       "sponsorship": null,
       "content_hash": "a354081ba7d690965d2755577eeb46422475f6237909f528387126bee5c837aa",
       "first_discovered": "2026-10-14T19:53:52.046056+00:00",
-      "last_seen": "2026-11-11T17:40:06.642013+00:00",
+      "last_seen": "2026-11-12T04:38:12.350938+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83634,7 +83634,7 @@
       "sponsorship": null,
       "content_hash": "94a8f8b549e04e25f6338efd3b658f65d220bae2835b7b06754e2b0a46d3ae29",
       "first_discovered": "2026-10-14T19:57:46.447274+00:00",
-      "last_seen": "2026-10-30T23:02:16.305066+00:00",
+      "last_seen": "2026-11-12T04:37:07.602025+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -83702,7 +83702,7 @@
       "sponsorship": null,
       "content_hash": "656575d185c2076880e5ef8f61c0a83d45c2bad12707fa6ddc6a3015f180e751",
       "first_discovered": "2026-10-14T20:01:56.887359+00:00",
-      "last_seen": "2026-11-11T09:44:40.332174+00:00",
+      "last_seen": "2026-11-12T04:37:56.784812+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85181,7 +85181,7 @@
       "sponsorship": null,
       "content_hash": "1a99fb83117f7437174313fece0a48b63abbfa87e22493147de44326e4138879",
       "first_discovered": "2026-10-15T19:38:11.271605+00:00",
-      "last_seen": "2026-10-30T23:01:59.323711+00:00",
+      "last_seen": "2026-11-12T04:36:58.115109+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92068,7 +92068,7 @@
       "sponsorship": null,
       "content_hash": "8e17a736ec6493e436639a0093486e709a2f33b7a767de28a116c097e78aedca",
       "first_discovered": "2026-10-19T22:04:11.631605+00:00",
-      "last_seen": "2026-11-11T09:44:56.449130+00:00",
+      "last_seen": "2026-11-12T04:38:09.132544+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92182,7 +92182,7 @@
       "sponsorship": null,
       "content_hash": "34dbe9b183942f9749f4d121ca031b7371705803dc78112de7f19886b0432093",
       "first_discovered": "2026-10-20T00:59:34.292394+00:00",
-      "last_seen": "2026-11-11T09:45:11.267601+00:00",
+      "last_seen": "2026-11-12T04:37:00.635320+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93848,7 +93848,7 @@
       "sponsorship": null,
       "content_hash": "be21e14e6519e9e5efac080a17fa4caf595329500281f20fe79be3a949800d5f",
       "first_discovered": "2026-10-20T22:53:26.541934+00:00",
-      "last_seen": "2026-11-11T09:44:27.436246+00:00",
+      "last_seen": "2026-11-12T04:37:45.100043+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -93917,7 +93917,7 @@
       "sponsorship": null,
       "content_hash": "834e148279e2624856d2e2e9bfa923aff97a19b5c80087503daa8bfd23bde5c6",
       "first_discovered": "2026-10-20T22:58:14.089209+00:00",
-      "last_seen": "2026-11-11T09:41:19.822186+00:00",
+      "last_seen": "2026-11-12T04:37:09.870730+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -95036,7 +95036,7 @@
       "sponsorship": null,
       "content_hash": "81cb28d03ca112130c72bb4d4f91f2faeac4f7d1b747ad84f404ab2469057457",
       "first_discovered": "2026-10-21T20:56:33.437277+00:00",
-      "last_seen": "2026-10-30T23:02:09.053367+00:00",
+      "last_seen": "2026-11-12T04:37:05.607453+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -95148,7 +95148,7 @@
       "sponsorship": null,
       "content_hash": "3d3912f2dd323bf5ff73b0ef923eb8d419d58eb96c274f13804c8a3bdadd190c",
       "first_discovered": "2026-10-22T02:11:47.176335+00:00",
-      "last_seen": "2026-10-30T23:02:10.455820+00:00",
+      "last_seen": "2026-11-12T04:37:07.304683+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -96307,7 +96307,7 @@
       "sponsorship": null,
       "content_hash": "9a2198297578294f5247f7213bb89f968e9e1668dd8081f765ab01136879eedb",
       "first_discovered": "2026-10-23T00:23:08.339979+00:00",
-      "last_seen": "2026-11-08T21:01:34.157961+00:00",
+      "last_seen": "2026-11-12T04:36:46.693942+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -97965,7 +97965,7 @@
       "sponsorship": null,
       "content_hash": "a9582345aee81c1cdb49e000cb72f84cd2d56cc6a18cd43c26eda9f8a226ab13",
       "first_discovered": "2026-10-24T09:52:01.773554+00:00",
-      "last_seen": "2026-11-11T09:44:38.930256+00:00",
+      "last_seen": "2026-11-12T04:37:55.636118+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -98818,7 +98818,7 @@
       "sponsorship": null,
       "content_hash": "e77a6206165e125b46e0b9212fff716af42efab24ece24a12196171d336786a1",
       "first_discovered": "2026-10-26T19:54:19.751034+00:00",
-      "last_seen": "2026-10-30T23:02:06.322378+00:00",
+      "last_seen": "2026-11-12T04:37:04.987726+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99101,7 +99101,7 @@
       "sponsorship": "Upon start, the selected candidate will be sponsored for a commensurate clearance for each government agency for which they perform AWS work",
       "content_hash": "6193a8aa27efb737a351fea3ccabb221c583a7299334bafbd997c00ad7460563",
       "first_discovered": "2026-10-26T23:38:51.901565+00:00",
-      "last_seen": "2026-11-11T09:45:00.011650+00:00",
+      "last_seen": "2026-11-12T04:38:11.714576+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99375,7 +99375,7 @@
       "sponsorship": null,
       "content_hash": "208735f631e3fcb0bd2f40b28dc56a4d6919a75c48878a8e2aa5e46939603d7f",
       "first_discovered": "2026-10-27T02:45:04.861963+00:00",
-      "last_seen": "2026-11-11T09:44:58.041267+00:00",
+      "last_seen": "2026-11-12T04:38:10.191992+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99517,7 +99517,7 @@
       "sponsorship": null,
       "content_hash": "140beafcdba8c33ff33b26184d1ea0ede7208efc49825c88c8a8be59620bd75d",
       "first_discovered": "2026-10-27T08:34:00.330596+00:00",
-      "last_seen": "2026-11-08T21:01:51.722427+00:00",
+      "last_seen": "2026-11-12T04:36:49.952841+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99540,7 +99540,7 @@
       "sponsorship": null,
       "content_hash": "131f3a7bd579c324e91ec27d69cff2f186e9789f301760119fbcc7add5b90f63",
       "first_discovered": "2026-10-27T08:34:07.928763+00:00",
-      "last_seen": "2026-11-08T21:02:04.534982+00:00",
+      "last_seen": "2026-11-12T04:36:52.587506+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -99913,7 +99913,7 @@
       "sponsorship": null,
       "content_hash": "f01da26a8fd7636ac2f2af6c5992af2402f1a4b26f54a49c1ca3c4fc1b2ceedb",
       "first_discovered": "2026-10-27T15:16:01.564426+00:00",
-      "last_seen": "2026-10-30T23:02:07.656287+00:00",
+      "last_seen": "2026-11-12T04:37:03.683775+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -100591,7 +100591,7 @@
       "sponsorship": null,
       "content_hash": "f408e470b31ca20905eadf1c6f590ce159e592ec1a36e5270a31079fc73d08f7",
       "first_discovered": "2026-10-28T02:53:50.665128+00:00",
-      "last_seen": "2026-11-10T08:03:06.647550+00:00",
+      "last_seen": "2026-11-12T04:37:33.136570+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -100638,7 +100638,7 @@
       "sponsorship": null,
       "content_hash": "9800991b5319d3b8c242b30486ac955e484c41915b04c708762ae189f5672b5e",
       "first_discovered": "2026-10-28T02:56:26.117619+00:00",
-      "last_seen": "2026-11-10T08:01:55.238438+00:00",
+      "last_seen": "2026-11-12T04:37:30.130845+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101173,7 +101173,7 @@
       "sponsorship": null,
       "content_hash": "fa5592464410df3dfb0310c251d1981ddf608ff52a65fa5a2b55837224f17cdc",
       "first_discovered": "2026-10-28T16:17:04.764973+00:00",
-      "last_seen": "2026-11-11T09:44:50.635636+00:00",
+      "last_seen": "2026-11-12T04:38:07.239306+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101197,7 +101197,7 @@
       "sponsorship": null,
       "content_hash": "c753ea58a2d29d2b047e81c93a83a46d6eb68a240ab2d82ec74f5efbfda2fd2e",
       "first_discovered": "2026-10-28T16:17:08.051520+00:00",
-      "last_seen": "2026-11-11T09:44:41.008491+00:00",
+      "last_seen": "2026-11-12T04:37:57.948034+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101220,7 +101220,7 @@
       "sponsorship": null,
       "content_hash": "e73cadde9cbffd86e96d58be17c032b526a9d2edc588dc97cddb1a1b89a20213",
       "first_discovered": "2026-10-28T16:17:09.667908+00:00",
-      "last_seen": "2026-11-11T09:44:50.220361+00:00",
+      "last_seen": "2026-11-12T04:38:06.838276+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101243,7 +101243,7 @@
       "sponsorship": null,
       "content_hash": "5927afa888b83ab7dc961941db5365dfc4f735804a8a262a0c106075b91986fe",
       "first_discovered": "2026-10-28T16:17:15.798991+00:00",
-      "last_seen": "2026-11-11T09:44:56.900501+00:00",
+      "last_seen": "2026-11-12T04:38:09.764135+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101314,7 +101314,7 @@
       "sponsorship": null,
       "content_hash": "1954d15f676f3cede774df3294db084f2b649b685760be576f4095868c13ac6b",
       "first_discovered": "2026-10-28T16:21:24.351601+00:00",
-      "last_seen": "2026-10-30T23:02:00.005267+00:00",
+      "last_seen": "2026-11-12T04:36:58.656195+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101338,7 +101338,7 @@
       "sponsorship": null,
       "content_hash": "e6226935db031a8e1221fd4c4682936ecb0228c17504a8e94c537ae991f557f4",
       "first_discovered": "2026-10-28T16:21:25.166422+00:00",
-      "last_seen": "2026-10-30T23:02:01.289573+00:00",
+      "last_seen": "2026-11-12T04:37:04.585335+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -101360,7 +101360,7 @@
       "sponsorship": null,
       "content_hash": "fb2d06ed382422967da22326bf3809503639ff2547e1374561f1a47afd9b3c86",
       "first_discovered": "2026-10-28T16:21:31.437300+00:00",
-      "last_seen": "2026-10-30T23:02:06.911604+00:00",
+      "last_seen": "2026-11-12T04:37:03.148869+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102606,7 +102606,7 @@
       "sponsorship": null,
       "content_hash": "75daab26077d8f992914cd1e9f4f6b2d6172dde01844f8497486744a42d9b311",
       "first_discovered": "2026-10-29T14:37:32.310621+00:00",
-      "last_seen": "2026-11-11T09:44:47.302330+00:00",
+      "last_seen": "2026-11-12T04:38:00.620566+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -102630,7 +102630,7 @@
       "sponsorship": null,
       "content_hash": "ea6b4d89dbf6670206981137dc6bf28e247686b42bfe766d5e796d46c038e5d7",
       "first_discovered": "2026-10-29T14:37:33.026746+00:00",
-      "last_seen": "2026-11-11T09:44:49.258560+00:00",
+      "last_seen": "2026-11-12T04:38:05.753932+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103666,7 +103666,7 @@
       "sponsorship": null,
       "content_hash": "bcaa36913086de8ab2a9b07e59cec93a295b6c96208c65a4449c97406bb10fa2",
       "first_discovered": "2026-10-30T13:14:26.261823+00:00",
-      "last_seen": "2026-11-11T09:44:46.897729+00:00",
+      "last_seen": "2026-11-12T04:37:58.313682+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103689,7 +103689,7 @@
       "sponsorship": null,
       "content_hash": "05f585595856ea6252321263d014a1d69fff8c038a3cea89a7a5fa66102acd6c",
       "first_discovered": "2026-10-30T13:14:29.818403+00:00",
-      "last_seen": "2026-11-11T09:44:46.557636+00:00",
+      "last_seen": "2026-11-12T04:37:58.774283+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103712,7 +103712,7 @@
       "sponsorship": null,
       "content_hash": "f8bb16aeeed9bf231888e4e11e2e1738016fce79442268805c692bcf11eccb12",
       "first_discovered": "2026-10-30T13:14:30.834511+00:00",
-      "last_seen": "2026-11-11T09:44:45.639607+00:00",
+      "last_seen": "2026-11-12T04:37:59.405330+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -104273,7 +104273,7 @@
       "sponsorship": null,
       "content_hash": "ef647fd383a99230f4fd0bf36fa252545f5ed4acc70d986ae24f80d6c468d090",
       "first_discovered": "2026-10-30T23:01:55.933274+00:00",
-      "last_seen": "2026-11-01T15:27:02.959846+00:00",
+      "last_seen": "2026-11-12T04:36:56.032916+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -104297,7 +104297,7 @@
       "sponsorship": null,
       "content_hash": "e4d5b8ce98cf118874b2108571e3f77198e2a81f85d7846ad4a28e3585c9330d",
       "first_discovered": "2026-10-30T23:01:58.036614+00:00",
-      "last_seen": "2026-10-30T23:01:58.036628+00:00",
+      "last_seen": "2026-11-12T04:36:57.422400+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -105906,7 +105906,7 @@
       "sponsorship": null,
       "content_hash": "dd673174d28dd2453bb3c2bcf84e4b1541e40c11f1be7a9a704b20012978b713",
       "first_discovered": "2026-11-02T02:49:58.717825+00:00",
-      "last_seen": "2026-11-11T09:44:39.584443+00:00",
+      "last_seen": "2026-11-12T04:37:56.291903+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -106976,7 +106976,7 @@
       "sponsorship": null,
       "content_hash": "97adff3928de2ccfceec99fe9685c0875a7f8f905b5fb3ad95a7371ece98e814",
       "first_discovered": "2026-11-03T02:53:00.017214+00:00",
-      "last_seen": "2026-11-11T17:41:07.749147+00:00",
+      "last_seen": "2026-11-12T04:38:18.588685+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108188,7 +108188,7 @@
       "sponsorship": null,
       "content_hash": "6983c6b1dea06d685ac7e9f3b39d723b7593804d224692b134b7eb18610eab8c",
       "first_discovered": "2026-11-03T23:42:45.246850+00:00",
-      "last_seen": "2026-11-11T09:44:27.032452+00:00",
+      "last_seen": "2026-11-12T04:37:44.585180+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108821,7 +108821,7 @@
       "sponsorship": null,
       "content_hash": "c7af66cd602cc8cb57b72e266a80054981cbcc46e8cada2e46e1d1d749975b29",
       "first_discovered": "2026-11-04T11:47:29.305748+00:00",
-      "last_seen": "2026-11-11T17:39:40.726376+00:00",
+      "last_seen": "2026-11-12T04:38:30.887738+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109649,7 +109649,7 @@
       "sponsorship": null,
       "content_hash": "87271fa6f54412367ebcfb56fc016bcbcecbd504928f863c50f40d887141feb9",
       "first_discovered": "2026-11-05T00:37:10.946485+00:00",
-      "last_seen": "2026-11-11T09:42:58.924599+00:00",
+      "last_seen": "2026-11-12T04:38:24.285912+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -109741,7 +109741,7 @@
       "sponsorship": null,
       "content_hash": "2a4ba554ee700bc8791616600b234831a0cae3510514f4c24e8e5d7257fadb62",
       "first_discovered": "2026-11-05T00:42:18.115224+00:00",
-      "last_seen": "2026-11-11T17:39:47.068584+00:00",
+      "last_seen": "2026-11-12T04:38:35.839788+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110874,7 +110874,7 @@
       "company": "Microsoft",
       "job_id": "1970393557050819",
       "title": "Principal Software Engineering Manager",
-      "location": "Redmond, WA,US, United States",
+      "location": "",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557050819?domain=microsoft.com",
       "description": "Lead, build, and grow a high-performing engineering team responsible for foundational Perception Platform capabilities, fostering an inclusive culture centered on technical excellence, customer impact, accountability, learning, collaboration, and strong engineering ownership. Define and drive the engineering strategy, architecture, and execution for production-grade AI platform capabilities spanning generative AI, retrieval and Retrieval-Augmented Generation (RAG), memory, reasoning, model interaction, agent orchestration, execution, evaluation, extensibility, security, and safety. This includes scalable RAG architectures covering ingestion, indexing, embeddings, semantic and hybrid retrieval, context construction, grounding, provenance, re-ranking, retrieval evaluation, and appropriate tenant and authorization boundaries. Provide technical leadership for agentic and multi-agent AI systems, including planning, reasoning, tool use, task decomposition and delegation, agent collaboration, state and memory management, human-in-the-loop patterns, failure recovery, and bounded autonomous execution. Design scalable, secure, multi-tenant platform architectures with clear engineering principles for tenant isolation, identity boundaries, authentication, authorization, configuration, data protection, deployment, and operations. Drive identity and access patterns across user, workload, service, and agent identities, including Role-Based Access Control (RBAC), delegated authorization, least-privilege access, and secure propagation of identity and authorization context across distributed and agentic workflows. Partner with Principal engineers, architects, and senior technical leaders to establish reusable platform abstractions and architectural patterns across compute, storage, networking, identity, configuration, deployment, observability, and service integration. Identify systemic dependencies and evolve existing production services toward reusable, configurable, loosely coupled, and scalable architectures that reduce tenant-specific dependencies and improve engineering leverage across teams. Drive an automation-first strategy for platform deployment and operations, including tenant provisioning, configuration, deployment, validation, upgrades, migrations, and operational readiness. Build for differences in tenant configuration, service availability, infrastructure topology, networking, identity, security, sovereignty, and compliance requirements while avoiding unnecessary tenant-specific coupling throughout the application stack. Ensure security, authorization, tenant isolation, quality, and reliability are maintained end-to-end across AI retrieval, reasoning, planning, and execution. Establish automated testing and validation mechanisms that verify functional correctness, tenant isolation, authorization, security, configuration, deployment readiness, compatibility, and reliability across heterogeneous environments, including validation of agent-generated plans and tool calls against applicable security, safety, authorization, and compliance policies. Own service health, reliability, security, observability, and live-site excellence for the team's platform capabilities. Establish monitoring, diagnostics, and operational practices that enable teams to understand platform health, detect systemic issues, isolate tenant-specific failures, troubleshoot distributed services and AI workflows, prevent incidents, rapidly mitigate issues, perform root cause analysis, learn from failures, and systematically eliminate recurring operational problems. Translate long-term technical strategy into clear priorities and execution plans, balancing customer commitments, platform investments, architectural improvements, operational excellence, security, technical debt, and engineering velocity. Use engineering signals, operational metrics, customer feedback, and business priorities to continuously improve platform reliability, engineering productivity, team effectiveness, and customer outcomes. Partner across engineering, product, design, security, privacy, compliance, infrastructure, and partner organizations to align dependencies, resolve ambiguity, manage technical risk, and drive complex cross-organizational initiatives to completion. Communicate technical strategy, architectural tradeoffs, risks, priorities, and execution status effectively to engineering teams, partner organizations, and senior leadership. Develop and retain strong engineering talent and future technical leaders through recruiting, coaching, mentoring, feedback, delegation, and meaningful growth opportunities. Create an environment where engineers can own complex problems, make high-quality technical decisions, and grow into broader roles. Establish and reinforce strong engineering standards and mechanisms across architecture, design reviews, coding quality, security, testing, deployment, operational readiness, and production excellence Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, Go, JavaScript, or Python These requirements include, but are not limited to, the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, Go, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, Go, JavaScript, or Python OR equivalent experience. Experience leading the design, development, and operation of large-scale multi-tenant distributed systems, cloud services, enterprise platforms, or AI-powered services in production environments. Strong architectural judgment and experience partnering with senior and Principal engineers to make complex technical decisions and drive architectural convergence across multiple teams. Experience leading systems with strong tenant isolation across identity, authorization, data, compute, configuration, and operational boundaries. Experience with Infrastructure as Code, automated provisioning, deployment systems, configuration management, and CI/CD for large-scale cloud services. Experience building organizational and technical strategies around reusable abstractions for cloud infrastructure, compute, storage, networking, identity, configuration, and platform dependencies. Experience with Kubernetes and containerized service architectures, including deployment, networking, scaling, configuration, capacity management, and operational troubleshooting. Experience building and operating highly available and resilient distributed services and designing for dependency failures, capacity constraints, infrastructure differences, and large-scale live-site operations. Experience with identity, authentication, authorization, RBAC, least-privilege principles, scoped permissions, delegated authorization, and multi-tenant isolation. Experience establishing observability, health monitoring, deployment validation, operational readiness, incident management, and engineering quality mechanisms for large-scale distributed services. Experience with Generative AI and AI systems, including model orchestration, retrieval/RAG, semantic search, memory, context management, tool use, evaluation, safety, agentic systems, or production operationalization. Experience identifying architectural coupling and leading organizations in evolving existing production systems toward reusable, configurable, and scalable platform architectures. Experience managing complex cross-team and cross-organizational engineering programs, including ambiguous requirements, architectural dependencies, competing priorities, and long-term platform investments. Strategic technical communication and leadership skills, with experience influencing engineering, product, security, privacy, compliance, infrastructure, and partner organizations. Demonstrated ability to balance technical strategy, people leadership, customer impact, operational excellence, and predictable execution while operating in a complex and rapidly evolving environment.",
       "posting_date": "2026-11-05T22:37:52",
@@ -110887,9 +110887,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "eb612cc6929b294d703eccb0b114372330e682300de8c499e6c02caf25e65a13",
+      "content_hash": "fb696e8ff3ea484adbc406d04a159e702e3c864f26b85926a0fd77231771bf0e",
       "first_discovered": "2026-11-06T02:42:06.709322+00:00",
-      "last_seen": "2026-11-11T23:53:57.154609+00:00",
+      "last_seen": "2026-11-12T04:37:19.336614+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -112217,7 +112217,7 @@
       "sponsorship": null,
       "content_hash": "7a17fe715122889902f8681e6057e33f2f87872636fe966ac844d5150e0caa84",
       "first_discovered": "2026-11-07T02:40:55.776047+00:00",
-      "last_seen": "2026-11-12T00:01:06.598873+00:00",
+      "last_seen": "2026-11-12T04:37:57.598495+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -112431,7 +112431,7 @@
       "sponsorship": null,
       "content_hash": "2829858a9278616c81d4ccba680562f601fcb4006ed92baa223fbb9bf64f61d6",
       "first_discovered": "2026-11-07T09:28:29.176905+00:00",
-      "last_seen": "2026-11-12T00:01:00.108763+00:00",
+      "last_seen": "2026-11-12T04:37:54.460698+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -113319,7 +113319,7 @@
       "sponsorship": null,
       "content_hash": "22241a8da3fc16ee76a959153af46643b72fc419bcff03b6ff779865494d5704",
       "first_discovered": "2026-11-10T01:01:23.834898+00:00",
-      "last_seen": "2026-11-11T09:44:35.004456+00:00",
+      "last_seen": "2026-11-12T04:37:48.829560+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -113342,7 +113342,7 @@
       "sponsorship": null,
       "content_hash": "532be528f2b24a353cf8ae12cf871cd28379214782858131a376159e227c35dc",
       "first_discovered": "2026-11-10T01:01:25.134011+00:00",
-      "last_seen": "2026-11-11T09:44:36.072357+00:00",
+      "last_seen": "2026-11-12T04:37:47.810877+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -114709,7 +114709,7 @@
       "sponsorship": null,
       "content_hash": "6b20e3158ef395d86a36eb55327e6652aaa13734a7d432df50090c50174a247c",
       "first_discovered": "2026-11-11T02:09:51.370489+00:00",
-      "last_seen": "2026-11-11T02:09:51.370504+00:00",
+      "last_seen": "2026-11-12T04:36:40.515544+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -114826,7 +114826,7 @@
       "sponsorship": null,
       "content_hash": "4c6df4a4172067ad3ed32fb05c3a28e5488971df19186be7da77906f6829bf91",
       "first_discovered": "2026-11-11T02:15:06.843680+00:00",
-      "last_seen": "2026-11-11T17:36:46.702949+00:00",
+      "last_seen": "2026-11-12T04:37:42.209432+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -115103,7 +115103,7 @@
       "sponsorship": null,
       "content_hash": "2cac705b681ec294616f3b30131d27a05958f088dfd7d5c17098028fe7347d17",
       "first_discovered": "2026-11-11T09:40:08.999398+00:00",
-      "last_seen": "2026-11-11T09:40:08.999410+00:00",
+      "last_seen": "2026-11-12T04:37:16.227795+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -115835,6 +115835,167 @@
       "notified_hash": "038de79311996b0fbf403f479a76a5f043865b4225f921c0a7a93a6f3bbcc677",
       "notification_status": "sent",
       "delivered_at": "2026-11-12T04:36:37.874337+00:00"
+    },
+    "Amazon:10600523": {
+      "company": "Amazon",
+      "job_id": "10600523",
+      "title": "Software Dev Engineer III - AMZ27727.1",
+      "location": "USA, CA, Cupertino",
+      "url": "https://www.amazon.jobs/en/jobs/10600523/software-dev-engineer-iii-amz27727-1",
+      "description": "Description Employer: Amazon Web Services, Inc. Position: Software Dev Engineer III - AMZ27727.1 Location: Cupertino, CA Multiple Positions Available: Drive the architecture and design of large-scale, multi-tiered, distributed software applications, tools, systems and services using object-oriented design, distributed programming, Java and C/C++. Gather business and functional requirements from external and/or internal customers and end-users, and translate requirements into technical specifications to build robust, scalable, supportable solutions that work well between a range of complex systems. Serve as technical lead throughout the full development lifecycle, end-to-end, from scoping, planning, conception, design, implementation and testing, to documentation, delivery and maintenance. Provide design reviews for other engineers, including feedback on architecture and design issues, as well as integration, performance and scalability. Manage resources on multiple technical projects and ensure schedules, milestones, and priorities are compatible with technology and business goals. (40 hours / week, 8:00am-5:00pm, Salary Range $193300 - $261500) Amazon.com is an Equal Opportunity \u2013 Affirmative Action Employer \u2013 Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation #0000\nBasic Qualifications Master's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field and three years of experience in the job offered, or as a Software Engineer, Software Developer, or a related occupation. Employer will accept a Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field and five years of experience in the job offered or a related occupation as equivalent to the Master's degree and three years of experience. Must have one year of experience in the following skill(s): providing technical leadership and project management for all aspects of the software development lifecycle; and designing and developing large-scale, multi-tiered, distributed software applications, tools, systems or services using Object Oriented Design, distributed programming, and: C#, C++, or Java. The pay range for this position in Cupertino, CA is $193300 - $261500 (yr); however, base pay offered may vary depending on job-related knowledge, skills, and experience.  A sign-on bonus and restricted stock units may be provided as part of the compensation package, in addition to a full range of medical, financial, and/or other benefits, dependent on the position offered. This information is provided by California Equal Pay Act. Base pay information is based on market location. Applicants should apply via Amazon's internal or external careers site. #0000\nPreferred Qualifications All applicants must meet all the above listed requirements. #0000 Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company\u2019s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.",
+      "posting_date": null,
+      "experience": "Unspecified",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Excluded level II or higher",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "e57f70b659850217c7af5c9e836c3a9e42a2324b50181164bb53c5ac38d7001a",
+      "first_discovered": "2026-11-12T04:36:45.617504+00:00",
+      "last_seen": "2026-11-12T04:36:45.617525+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10601721": {
+      "company": "Amazon",
+      "job_id": "10601721",
+      "title": "Software Engineer II, AWS DynamoDB",
+      "location": "USA, WA, Seattle",
+      "url": "https://www.amazon.jobs/en/jobs/10601721/software-engineer-ii-aws-dynamodb",
+      "description": "Description Want to help shape the future of one of the largest NoSQL database services on the planet? The Amazon DynamoDB team is looking for deeply technical, team-first-mentality software engineers who are willing to commit themselves to providing best in class database performance to AWS customers. DynamoDB is a key-value and document database that delivers single-digit-millisecond performance at any scale. As a fast-growing service at the core of the AWS Cloud, our business and engineering decisions have widespread impact across AWS, Amazon, and beyond. Many of the world's fastest growing businesses, such as Lyft, Airbnb, and Redfin, as well as enterprises, such as Samsung, Toyota, and Capital One, depend on the scale and performance of DynamoDB to support their mission-critical workloads. DynamoDB engineers are constantly challenged to think of unique and innovative solutions. The quality bar is high. As an engineer here, you will work on the hardest engineering problems in distributed systems at a massive scale and on multiple dimensions. You will exercise your intellectual curiosity, work with motivated teams of sharp individuals, and get insightful guidance from senior and principal engineers. Key job responsibilities This is a hands-on position in which you will own everything from end to end: requirements gathering, designs, design reviews, implementations, code reviews, incremental feature launches, operations, mentoring, and the driving of continuous improvement. About the team AWS values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying. Why AWS? Amazon Web Services (AWS) is the world\u2019s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating \u2014 that\u2019s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. Inclusive Team Culture Here at AWS, it\u2019s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity (CORE) and AmazeCon  conferences, inspire us to never stop embracing our uniqueness. Mentorship & Career Growth We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve in the cloud.\nBasic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience - Experience programming with at least one software programming language\nPreferred Qualifications - 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience - Bachelor's degree in computer science or equivalent Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Seattle - 143,700.00 - 194,400.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of no; Preferred Qualifications - 3+ years of full software development life cycle, including coding standards, code revie",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded level II or higher",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "a17e537c05f6f7284252256787683a2720ea9024b416884505fc3ff3a144597f",
+      "first_discovered": "2026-11-12T04:36:46.062360+00:00",
+      "last_seen": "2026-11-12T04:36:46.062372+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10597783": {
+      "company": "Amazon",
+      "job_id": "10597783",
+      "title": "Systems Development Engineer, ADC2S - USACO",
+      "location": "USA, WA, Seattle",
+      "url": "https://www.amazon.jobs/en/jobs/10597783/systems-development-engineer-adc2s-usaco",
+      "description": "Description ADC2S is seeking a talented DevOps/Systems Development Engineer to own automating operational and business practices. You should be a self-starter with a bias towards independent problem solving. This will include identifying and resolving issues, as well as automating and improving repetitive processes. You will become intimate with the architecture of our systems and be responsible for diving deep into code, while developing solutions for our customers and services. You\u2019ll drive prioritization of operational issues, and drive automation design & scaling requirements in support of the wider organization. You must be detail oriented, have superior verbal and written communication skills, strong organizational skills, able to juggle multiple tasks at once, able to work independently and can maintain professionalism under pressure. You must be able to identify problems before they happen and implement solutions that detect and prevent outages. You must be able to accurately prioritize projects, make sound judgments, work to improve the customer experience, and get the right things done. This position requires that the candidate selected must currently possess and maintain an active TS/SCI security clearance with polygraph. The position further requires the candidate to opt into a commensurate clearance for each government agency for which they perform AWS work. Key job responsibilities You'll be part of a world-class team in a fast-paced environment that has the entrepreneurial feel of a start-up. This is an opportunity to operate and engineer systems on a massive scale, and to gain top-notch experience in cloud computing. You'll be surrounded by people who are smart, passionate about cloud computing, and believe that world class service is critical to customer success. You'll become a master at EC2 platform diagnosis, response, measurement, and automation. You will design and build the operational scalability that sustains the platform's insane growth. You will be able to measure your success by its visible impact on the efficiency and effectiveness of government services for our nation. About the team Why AWS Amazon Web Services (AWS) is the world\u2019s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating \u2014 that\u2019s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses. AWS Infrastructure Services (AIS) AWS Infrastructure Services owns the design, planning, delivery, and operation of all AWS global infrastructure. In other words, we\u2019re the people who keep the cloud running. We support all AWS data centers and all of the servers, storage, networking, power, and cooling equipment that ensure our customers have continual access to the innovation they rely on. We work on the most challenging problems, with thousands of variables impacting the supply chain \u2014 and we\u2019re looking for talented people who want to help. Inclusive Team Culture Here at AWS, it\u2019s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences. Ongoing events and learning experiences, including our Conversations on Race and Ethnicity (CORE) and AmazeCon conferences, inspire us to never stop embracing our uniqueness. Work/Life Balance We value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there\u2019s nothing we can\u2019t achieve in the cloud. Mentorship and Career Growth We\u2019re continuously raising our performance bar as we strive to become Earth\u2019s Best Employer. That\u2019s why you\u2019ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional. Diverse Experiences Amazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn\u2019t followed a traditional path, or includes alternative experiences, don\u2019t let it stop you from applying.\nBasic Qualifications - Associate's degree or above, or CND (Certified Network Defender) or GSEC (GIAC Security Essentials) - Experience in automating, deploying, and supporting infrastructure - Experience programming with at least one modern language such as Python, Ruby, Golang, Java, C++, C#, Rust - Experience with Linux/Unix - Current, active US Government Security Clearance of TS/SCI with Polygraph\nPreferred Qualifications - Experience with CI/CD pipelines build processes - 7+ years of administrative experience in networking, storage systems, operating systems and hands-on systems engineering experience - Experience working in an Agile environment using the Scrum methodology Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Seattle - 99,100.00 - 160,000.00 USD annually",
+      "posting_date": null,
+      "experience": "cations - Experience with CI/CD pipelines build processes - 7+ years of administrative experience in networking, storage systems, operating systems ",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "109f52f197d67bd3285c027d59ca8965df72321889455ea5f2a3491dfd787ecc",
+      "first_discovered": "2026-11-12T04:36:47.439577+00:00",
+      "last_seen": "2026-11-12T04:36:47.439589+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10597749": {
+      "company": "Amazon",
+      "job_id": "10597749",
+      "title": "Software Development Engineer , Inventory Accounting",
+      "location": "USA, WA, Redmond",
+      "url": "https://www.amazon.jobs/en/jobs/10597749/software-development-engineer-inventory-accounting",
+      "description": "Description Amazon Leo is launching satellite-based connectivity in 100+ countries. Every country launch requires integration across tax, accounting, disbursement, legal, trade, and core commerce \u2014 thousands of test cases, dozens of teams, months of sequential human work. This team operates in a high-velocity environment, adapting and extending Amazon's established first-mile and middle-mile logistics and accounting infrastructure while engineering new capabilities purpose-built for Leo's commerce platform, which is launching across 100+ countries. The Inventory Accounting team owns the end-to-end platform responsible for tracking Leo hardware inventory procured by end customers and fulfilled through Amazon's first-mile and middle-mile logistics network, ensuring ledger accuracy and regulatory compliance. The team manages 40+ distinct accounting scenarios per country, encompassing inventory custody transitions across both forward fulfillment and reverse logistics flows. Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum. Key job responsibilities Key Job Responsibilities: *Design and deliver a scalable, end-to-end platform supporting Leo commerce logistics operations across global markets. *Design and implement distributed orchestration systems that coordinate across dozens of domain-specific internal and external services, ensuring reliable end-to-end workflow execution at scale. *Establish the AI/ML foundation layer, including knowledge base architectures and intelligent automation frameworks, to accelerate developer productivity and reduce time-to-market for new country launches. *Tackle novel, ambiguous technical challenges at the intersection of artificial intelligence, large-scale distributed systems, and financial domain complexity, delivering production-grade solutions with high operational bar. A day in the life As a Software Development Engineer (SDE II) on the Inventory Accounting team, you will own the design, development, and cross team collaboration of end-to-end e-commerce lifecycle systems, spanning requirements definition, implementation, financial configuration, test automation, and production validation. You will enable Amazon Leo to scale country and feature launches across 100+ global markets without proportional headcount growth, driving operational efficiency through engineering excellence.\nBasic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience - 1+ years of software development engineer or related occupational experience - 1+ years of designing and developing large-scale, multi-tiered, multi-threaded, embedded or distributed software applications, tools, systems, and services using: C#, C++, Java, or Perl experience - 1+ years of Object Oriented Design experience - Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field - Experience programming with at least one software programming language\nPreferred Qualifications - 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience - Bachelor's degree in computer science or equivalent Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Redmond - 143,700.00 - 194,400.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of no; ility and scaling) of new and existing systems experience - 1+ years of software development engineer or related occupational experience - 1+ years ; ms, and services using: C#, C++, Java, or Perl experience - 1+ years of Object Oriented Design experience - Bachelor's degree or foreign equivalent ; Preferred Qualifications - 3+ years of full software development life cycle, including coding standards, code revie",
+      "classification": "Not Eligible",
+      "reasons": [
+        "US citizenship is required",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "a212392fd39152ab29b5ff576c28c7e30574d196fd4f0cfe8b81d693d31cafd7",
+      "first_discovered": "2026-11-12T04:36:47.975286+00:00",
+      "last_seen": "2026-11-12T04:36:47.975305+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10597294": {
+      "company": "Amazon",
+      "job_id": "10597294",
+      "title": "Design Verification Engineer, Amazon Leo",
+      "location": "USA, TX, Austin USA, CA, Irvine USA, CA, San Diego; USA, TX, Austin; USA, CA, Irvine; USA, CA, San Diego",
+      "url": "https://www.amazon.jobs/en/jobs/10597294/design-verification-engineer-amazon-leo",
+      "description": "Description Amazon Leo is Amazon\u2019s low Earth orbit satellite network. Our mission is to deliver fast, reliable internet connectivity to customers beyond the reach of existing networks. From individual households to schools, hospitals, businesses, and government agencies, Amazon Leo will serve people and organizations operating in locations without reliable connectivity. The Role: Be part of Amazon Leo\u2019s sub-team responsible for defining and implementing the digital chip SOCs for communications via Low Earth Orbit satellites and Amazon gateways. This is a unique opportunity to define a groundbreaking wireless solution with few legacy constraints. The team works with customer requirements and wireless system teams to define modems, high-speed interfaces, embedded processors, and DSP solutions in latest CMOS generation technologies. In this role you will: \u00b7Implement a state of the art verification environment for IP, subsystem and SOC to facilitate testing of the DUT against reference models. \u00b7 Develop detailed test plans and write tests, run regressions, collect coverage matrices and report progress to the program \u00b7 Understand and debug system level communication scenarios on pre silicon and post silicon environments. \u00b7 Work with the design and communication systems team and participate in system level verification using test benches constructed using UVM, SystemC and DPI-C \u00b7 Develop a highly automated environment to triage regression fails and report issues to stake holders. Export Control Requirement: Due to applicable export control laws and regulations, candidates must be a U.S. citizen or national, U.S. permanent resident (i.e., current Green Card holder), or lawfully admitted into the U.S. as a refugee or granted asylum.\nBasic Qualifications - Bachelor's degree in Electrical Engineering or a related field - 1+ year of UVM, C, System C, and scripting experience - 2+ years in verification preferably in communication systems\nPreferred Qualifications - Master's or Ph.D degree in Electrical / Communications Engineering - 2+ years in digital verification, preferably in communication systems - Proficiency in leveraging AI/LLM tools to accelerate verification workflows including AI-assisted test plan, test case generation, debug, human in loop coverage sign off review. - Familiarity with Matlab - Modem design verification experience - System C or Matlab model : development or DV integration experience - Familiarity with formal verification techniques - Strong written and verbal skills Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company\u2019s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, CA, Irvine - 122,600.00 - 170,000.00 USD annually USA, CA, San Diego - 122,600.00 - 170,000.00 USD annually USA, TX, Austin - 114,600.00 - 160,400.00 USD annually",
+      "posting_date": null,
+      "experience": "lor's degree in Electrical Engineering or a related field - 1+ year of UVM, C, System C, and scripting experience - 2+ years in verification prefer; D degree in Electrical / Communications Engineering - 2+ years in digital verification, preferably in communication systems - Proficiency in l",
+      "classification": "Not Eligible",
+      "reasons": [
+        "US citizenship is required",
+        "Title is not a software development role"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "07933c93ac92fc7d8f4c05e6d9168c9fc5af197f4ede12e9eafbe2416d81464f",
+      "first_discovered": "2026-11-12T04:36:53.072405+00:00",
+      "last_seen": "2026-11-12T04:36:53.072419+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10593799": {
+      "company": "Amazon",
+      "job_id": "10593799",
+      "title": "Business Intel Engineer II - AMZ22536.4",
+      "location": "USA, WA, Seattle",
+      "url": "https://www.amazon.jobs/en/jobs/10593799/business-intel-engineer-ii-amz22536-4",
+      "description": "Description Employer: Amazon.com Services LLC Position: Business Intel Engineer II - AMZ22536.4 Location: Seattle, WA Multiple Positions Available: To support senior management by designing and maintaining complex business intelligence architectures driving critical talent decisions for Amazon's executive leadership. Research, design, and develop advanced predictive models enabling data-driven succession planning, talent mobility optimization, and hiring quality assessment. Utilize database technologies including SQL, ETL, Redshift, S3, AWS Aurora and Glue to build QuickSight dashboards and automated data pipelines integrating talent data from multiple sources. Perform sophisticated statistical analysis including clustering, regression, and panel data modeling using R, SAS, STATA, and SPSS to identify succession planning patterns and develop predictive models for attrition risk and hiring quality. Establish scalable, automated processes for large-scale data analyses, model development, and implementation. Work on cutting-edge GenAI/ML integration for proactive analytics, developing talent recommendations and insights that help de-risk global recruiting decisions. (40 hours / week, 8:00am-5:00pm, Salary Range $136488 - $160000) Amazon.com is an Equal Opportunity \u2013 Affirmative Action Employer \u2013 Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation #0000\nBasic Qualifications Master's degree or foreign equivalent in Computer Science, Engineering, Mathematics, Statistics, Economics, or a related field and six months of experience in the job offered, or as a Data Engineer, Data Analyst, or a related occupation. Must have at least 6 months of experience in the following skill(s): using SQL, ETL or Oracle; processing large, multi-dimensional datasets from multiple sources; performing statistical analysis; and developing automated reporting. The pay range for this position in Seattle, WA is $136488 - $160000 (yr); however, base pay offered may vary depending on job-related knowledge, skills, and experience.  A sign-on bonus and restricted stock units may be provided as part of the compensation package, in addition to a full range of medical, financial, and/or other benefits, dependent on the position offered. This information is provided by Washington Equal Pay Act. Base pay information is based on market location. Applicants should apply via Amazon's internal or external careers site. #0000\nPreferred Qualifications All applicants must meet all the above listed requirements. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.",
+      "posting_date": null,
+      "experience": "Unspecified",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Excluded level II or higher",
+        "No clear entry-level or at-most-two-years experience evidence"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "b5aaad7da16b8e220855be667daa26c063916e29e7c95dba64a98c30b0ea6fe7",
+      "first_discovered": "2026-11-12T04:36:53.584145+00:00",
+      "last_seen": "2026-11-12T04:36:53.584160+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10593804": {
+      "company": "Amazon",
+      "job_id": "10593804",
+      "title": "Quality Assurance Engineer I - AMZ24481.6",
+      "location": "USA, TX, Austin",
+      "url": "https://www.amazon.jobs/en/jobs/10593804/quality-assurance-engineer-i-amz24481-6",
+      "description": "Description Employer: Amazon.com Services LLC Position: Quality Assurance Engineer I - AMZ24481.6 Location: Austin, TX Multiple Positions Available: 1. Develop and maintain testing strategies, including manual and automation testing 2. Review designs and specifications and use this information to design test plans 3. Ensure comprehensive test coverage by working closely with the product and engineering teams to prioritize testing execution and report on test execution progress and results 4. Gather and report relevant and actionable quality metrics 5. Promote QA productivity through automation, tools, and other best practices. (40 hours / week, 8:00am-5:00pm, Salary Range $84100 - $147200) Amazon.com is an Equal Opportunity \u2013 Affirmative Action Employer \u2013 Minority / Female / Disability / Veteran / Gender Identity / Sexual Orientation #0000\nBasic Qualifications Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, Information Systems or a related field and 1 year of experience in the job offered, or a related occupation. Experience must include: 1) 1 year of experience in developing tests for large-scale software systems using Java or Shell Scripts in a Windows, UNIX, or Linux environment 2) 1 year of experience in documenting and coordinating the deployment of manual and automated tests for complex systems. #0000\nPreferred Qualifications All applicants must meet all the above listed requirements. Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner.",
+      "posting_date": null,
+      "experience": "ng, Mathematics, Information Systems or a related field and 1 year of experience in the job offered, or a related occupation;  Experience must include: 1) 1 year of experience in developing tests for large-scale software systems using Java o; r Shell Scripts in a Windows, UNIX, or Linux environment 2) 1 year of experience in documenting and coordinating the deployment of manual and auto",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "fa849aa60cfb3ac751cdca5b95638ecfc9607881408e363aa6546007946bab93",
+      "first_discovered": "2026-11-12T04:36:54.046409+00:00",
+      "last_seen": "2026-11-12T04:36:54.046420+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     }
   },
   "sources": {
@@ -115867,8 +116028,8 @@
       "recovery_pending": true
     },
     "Microsoft": {
-      "status": "Incomplete",
-      "last_scan": "2026-11-12T00:09:02.135448+00:00",
+      "status": "Restricted",
+      "last_scan": "2026-11-12T04:38:58.357094+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
