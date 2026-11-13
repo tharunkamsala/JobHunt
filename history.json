@@ -35120,7 +35120,7 @@
       "sponsorship": null,
       "content_hash": "aa8354830a69ebb0a6ff331970aab92eae8e8f34b8a522d78884f61abaddc1e8",
       "first_discovered": "2026-10-13T02:59:23.933287+00:00",
-      "last_seen": "2026-11-12T21:05:35.822170+00:00",
+      "last_seen": "2026-11-13T02:08:52.969160+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -35979,7 +35979,7 @@
       "sponsorship": null,
       "content_hash": "b3a543dabc0b2e3e463e41cabef0f305c8cac72626493fdf0b5ff4fbf9229523",
       "first_discovered": "2026-10-13T02:59:48.026984+00:00",
-      "last_seen": "2026-11-12T13:29:25.869224+00:00",
+      "last_seen": "2026-11-13T02:09:05.921181+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42085,7 +42085,7 @@
       "sponsorship": null,
       "content_hash": "2f4d43915b1d7917fc9371f610eb3e789b04f79e009b1ec8b5a45114220e809d",
       "first_discovered": "2026-10-13T03:06:41.879109+00:00",
-      "last_seen": "2026-11-12T13:33:03.592766+00:00",
+      "last_seen": "2026-11-13T02:11:12.997751+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -42177,7 +42177,7 @@
       "sponsorship": null,
       "content_hash": "1a1aeef248c83c88bff077f6fe421a18663f07e185349369b19477c257026f58",
       "first_discovered": "2026-10-13T03:06:44.073864+00:00",
-      "last_seen": "2026-11-12T13:33:00.207293+00:00",
+      "last_seen": "2026-11-13T02:11:12.485390+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -55230,7 +55230,7 @@
       "sponsorship": null,
       "content_hash": "125e23a7d258e60bf395570d820087670bf02393b484c8714ea3ebd801edb006",
       "first_discovered": "2026-10-13T04:01:27.774055+00:00",
-      "last_seen": "2026-11-12T13:33:01.645712+00:00",
+      "last_seen": "2026-11-13T02:11:13.665771+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -58677,7 +58677,7 @@
       "sponsorship": null,
       "content_hash": "1f6128a1b116d6ea7bcc5b68bac00430e74b0b5240182eee3b67da2722484488",
       "first_discovered": "2026-10-13T04:05:59.171304+00:00",
-      "last_seen": "2026-11-12T13:32:56.492334+00:00",
+      "last_seen": "2026-11-13T02:11:11.367011+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -64466,7 +64466,7 @@
       "sponsorship": null,
       "content_hash": "2664a86a7a31a24a185775b6d9479d5bcf36e2f959a0ef53f6a30365d69c5217",
       "first_discovered": "2026-10-13T09:35:27.109229+00:00",
-      "last_seen": "2026-11-12T21:02:00.152410+00:00",
+      "last_seen": "2026-11-13T02:09:53.153237+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66530,7 +66530,7 @@
       "sponsorship": null,
       "content_hash": "ddbb5ed91cb5fab13670d280cec148ccd0145c258a46fca4fc48639de59cb231",
       "first_discovered": "2026-10-13T09:38:03.886022+00:00",
-      "last_seen": "2026-11-12T13:32:45.298287+00:00",
+      "last_seen": "2026-11-13T02:11:04.794317+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66554,7 +66554,7 @@
       "sponsorship": null,
       "content_hash": "cf87a7347397a6519b9021c316da8cf93b6b1cf78d5217b61560561270135975",
       "first_discovered": "2026-10-13T09:38:04.153764+00:00",
-      "last_seen": "2026-11-12T13:32:46.076466+00:00",
+      "last_seen": "2026-11-13T02:11:06.148124+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -66626,7 +66626,7 @@
       "sponsorship": null,
       "content_hash": "926221019d4e5ad3b0dea1774b10db9ad5adce302ea08f30941ccfc5b91b146f",
       "first_discovered": "2026-10-13T09:38:14.228195+00:00",
-      "last_seen": "2026-11-12T13:32:58.483142+00:00",
+      "last_seen": "2026-11-13T02:11:06.946533+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -67702,7 +67702,7 @@
       "sponsorship": null,
       "content_hash": "7c6a218756d2b02b3d8cd0ec225d4e7519b8d6c9c4540a3c244d58cd530a1fc6",
       "first_discovered": "2026-10-13T09:39:37.669627+00:00",
-      "last_seen": "2026-11-12T13:32:57.115956+00:00",
+      "last_seen": "2026-11-13T02:11:08.265114+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -68306,7 +68306,7 @@
       "sponsorship": null,
       "content_hash": "be12833ec117d9c349b631a36c83ed6edb0e7fd15707de3da7e5ed83f3f6dd57",
       "first_discovered": "2026-10-13T09:40:27.167180+00:00",
-      "last_seen": "2026-11-12T13:32:54.606670+00:00",
+      "last_seen": "2026-11-13T02:11:09.704510+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -71415,7 +71415,7 @@
       "sponsorship": null,
       "content_hash": "cb4e0012d42c41bd90b4dbbd0aea7797fa7536d6512db4db7e79e75980d9e2ab",
       "first_discovered": "2026-10-13T15:50:33.111677+00:00",
-      "last_seen": "2026-11-12T13:27:56.128419+00:00",
+      "last_seen": "2026-11-13T02:09:02.555328+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76355,7 +76355,7 @@
       "sponsorship": null,
       "content_hash": "9d6481a4049b4a84f3eead2dc47e481483750fa35ad5e98493919142b330a74b",
       "first_discovered": "2026-10-13T15:58:15.946250+00:00",
-      "last_seen": "2026-11-04T11:55:08.252768+00:00",
+      "last_seen": "2026-11-13T02:09:19.605458+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76379,7 +76379,7 @@
       "sponsorship": null,
       "content_hash": "58ff66d3050fd4eaa95b4b4d1ab08a8e81e2532c98e41e3ca27b1f30d4d455f4",
       "first_discovered": "2026-10-13T15:58:16.525013+00:00",
-      "last_seen": "2026-11-04T11:55:09.931063+00:00",
+      "last_seen": "2026-11-13T02:09:20.082197+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76424,7 +76424,7 @@
       "sponsorship": null,
       "content_hash": "ba65523838e148dc4d28c7edaa6959a997ca2d43fb7c93fe99476ac0eefe497b",
       "first_discovered": "2026-10-13T15:58:21.421558+00:00",
-      "last_seen": "2026-11-04T11:55:16.115349+00:00",
+      "last_seen": "2026-11-13T02:09:22.576700+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76469,7 +76469,7 @@
       "sponsorship": null,
       "content_hash": "249af1e3cac7b25d79a673d68b7f291f95e8a0437f32909fcd1022c83efa9408",
       "first_discovered": "2026-10-13T15:58:22.451893+00:00",
-      "last_seen": "2026-11-04T11:55:10.774069+00:00",
+      "last_seen": "2026-11-13T02:09:21.730392+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76515,7 +76515,7 @@
       "sponsorship": null,
       "content_hash": "d0e6307b6e3bf6101907c1f7f1d7f83d424137c9e18356f5808d5c8d93f81ab5",
       "first_discovered": "2026-10-13T15:58:23.883936+00:00",
-      "last_seen": "2026-11-04T11:55:19.030189+00:00",
+      "last_seen": "2026-11-13T02:09:29.082133+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76559,7 +76559,7 @@
       "sponsorship": null,
       "content_hash": "ed21810c1234e7903c173c8c2574928887e4ad10f9cc9fb81c50efe787a164ec",
       "first_discovered": "2026-10-13T15:58:24.863914+00:00",
-      "last_seen": "2026-11-04T11:54:53.368044+00:00",
+      "last_seen": "2026-11-13T02:09:08.989973+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76581,7 +76581,7 @@
       "sponsorship": null,
       "content_hash": "c886ca4d5e747190360564067d0daf32ee20b4d04ac0f13fcd51eab98d4e499f",
       "first_discovered": "2026-10-13T15:58:25.313076+00:00",
-      "last_seen": "2026-11-04T11:55:17.918905+00:00",
+      "last_seen": "2026-11-13T02:09:30.454537+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76651,7 +76651,7 @@
       "sponsorship": null,
       "content_hash": "2bcbd3e498548130c50e532c9723e31d3ed04967d533604ec6fbbd30b086c09c",
       "first_discovered": "2026-10-13T15:58:30.535426+00:00",
-      "last_seen": "2026-11-04T11:55:21.156814+00:00",
+      "last_seen": "2026-11-13T02:09:31.032447+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76674,7 +76674,7 @@
       "sponsorship": null,
       "content_hash": "5c42a2a086bf103b6eea7a2288ad35b6a31cfc7625159752d0e6e86b838f105e",
       "first_discovered": "2026-10-13T15:58:31.013377+00:00",
-      "last_seen": "2026-11-04T11:55:19.796246+00:00",
+      "last_seen": "2026-11-13T02:09:31.406655+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76698,7 +76698,7 @@
       "sponsorship": null,
       "content_hash": "251d0d4d1b074ea82aa1eab33e9c6b3fb830e3af711a8debabada010fbeab52d",
       "first_discovered": "2026-10-13T15:58:31.552910+00:00",
-      "last_seen": "2026-11-04T11:54:50.241725+00:00",
+      "last_seen": "2026-11-13T02:08:48.696379+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76766,7 +76766,7 @@
       "sponsorship": null,
       "content_hash": "4e66aa054f089269b79ead9f4f11aa297fbd1f805827e5003d080ae6d88d5035",
       "first_discovered": "2026-10-13T15:58:33.379166+00:00",
-      "last_seen": "2026-11-04T11:54:21.212466+00:00",
+      "last_seen": "2026-11-13T02:08:53.683601+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76813,7 +76813,7 @@
       "sponsorship": null,
       "content_hash": "c3098efa54aac4ac874a3765adcaebb7a63584b5f9ddd2f50a93b37bcb322ee7",
       "first_discovered": "2026-10-13T15:58:34.596092+00:00",
-      "last_seen": "2026-11-04T11:55:00.585023+00:00",
+      "last_seen": "2026-11-13T02:09:15.842130+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76870,7 +76870,7 @@
       "title": "Operations Engineer, RSR Start Up",
       "location": "USA, AZ, Tempe USA, WA, Bellevue USA, VA, Arlington USA, GA, Atlanta USA, CO, DENVER USA, MN, Minneapolis USA, IL, Chicago USA, TX, Irving; USA, AZ, Tempe; USA, WA, Bellevue; USA, VA, Arlington; USA, GA, Atlanta; USA, CO, DENVER; USA, MN, Minneapolis; USA, IL, Chicago; USA, TX, Irving",
       "url": "https://www.amazon.jobs/en/jobs/10565634/operations-engineer-rsr-start-up",
-      "description": "Description Application deadline: Nov 6, 2026 Amazon created one of the most sophisticated supply chains in the world. From the introduction of Amazon Prime, to the use of advanced technology for package delivery; Amazon consistently drives change from the front of the pack. As an Operations Engineer, you will lead and manage the lifecycle of challenging cross-functional projects, developing and delivering the next generation of sortation and distribution solutions. You are a customer obsessed leader that will play an integral part in planning and implementation of the facility network infrastructure including new builds, retrofits, expansions and program initiatives. Partnering with internal customers and internal/external stakeholders to engage as a team and ensure a timely handover will be part of your critical tasks. Key competencies of this position include insisting on the highest standards ensuring that contracted resources meet schedule, budgetary, safety and driving quality targets; analyzing and deep diving systems performance, inventing and simplifying solutions that allow for improved processes and results; and providing technical expertise to internal customers and stakeholders. Key job responsibilities \u2022Work independently with internal and external teams to successfully manage the lifecycle of the challenging projects, and act as owner in delivering on projects objectives and targets. Projects may span organizations or geographies in support of business objectives. \u2022Actively participate in firm engineering reviews, and make tangible impact on the proposed solutions on an individual system or its components, on the overall systems architecture, and on facility processes . \u2022Partner with internal teams, stakeholders and external vendors to set project priorities, establish milestones, and drive schedules to meet deadlines. Proactively assess stakeholders\u2019 dependencies and milestones, problem-solve and drive solutions to mitigate the impact from the issues. \u2022Lead and coordinate all execution efforts in delivering systems and automated equipment designs per established standards and guidelines. Perform equipment/systems installation, throughput and safety qualifications. Simplify, optimize, remove bottlenecks and provide feedback while resolving difficult system problems or technical deficiencies. \u2022Lead effective meetings by setting the objectives, putting the right people in the room and driving detailed business and technical discussions/alignment. Document meetings discussions, decisions and future steps ensuring alignment on expectations with internal partner teams and outside vendors. \u2022Promptly and accurately communicate project status, risk analysis and risk mitigation plans. Effectively answer project questions in detail, and regularly produce clear and concise summaries for the projects to leadership/management team. \u2022Competently articulate system and/or equipment designs, including layouts, technical specifications and functional capabilities, to internal customers and partner teams. \u2022Efficiently manage change order controls, purchase orders, and invoice validation/approvals. \u2022Excel at building strong working relationships with internal and external stakeholders across multiple projects \u2022Identify and lead process improvement initiatives that improve the Engineering and cross-teams\u2019 efficiencies, optimizing the teams\u2019 value and delivery. Through collaboration, generate high-quality, cost-effective solutions in compressed periods of time. \u2022Travel up to 80% domestically although travel intensity can be variable and consist of up to three weeks in a row, including weekends. A day in the life You are managing quality of implementation through multiple projects that can vary in scope, complexity and duration. Daily tasks may comprise of site coordination with operations teams and contractors on project execution activities or changes; deep diving project progress, schedule and resources, while identifying barriers, creating solutions and driving resolutions. You may be facilitating the planning and/or implementation meetings with projects\u2019 stakeholders, ensuring alignment in objectives, expectations, and the next steps; you would capture and publish detailed notes after each meeting to drive ownership and follow-through on the actions and decisions. Reviewing/approving audit mechanisms and documentation is one of the essential tasks, and you may be tracking the programmatic week on week installation opportunities with the internal automation teams. You may be brainstorming and developing workaround solutions while mitigating the project delays or design issues. As a part of the acceptance testing you may be performing systems installation quality, safety, throughput and performance qualifications, frequently communicating the progress to internal and external stakeholders. In addition, you may be supporting/training other engineering team members, utilizing the knowledge of Amazon\u2019s safety, mechanical, electrical and controls installation standard and guidelines. About the team At Amazon, we are all Owners and leverage unique opportunities presented to us by owning everything from firm engineering to project execution and final hand-off to our customers. We are a diverse, upbeat, creative team of engineers and managers working on a daily basis to ensure that our internal customers have capabilities to deliver on the Customer Promise. We not only build, but we are also consistently improving our capabilities at Amazon. Continuous improvement is the ongoing enhancement of our systems designs, through incremental and breakthrough developments. We are continually raising the quality bar, and are never satisfied. We seek to improve through captured lessons learned, that are incorporated back into our mechanisms as a way to perpetually improve upon the next design and processes iterations. We continually learn, grow and develop throughout the organization and our Subject Matter Expertise is leveraged globally. We are the Team! We collaborate, support, help and leverage each other in delivering on the business objectives.\nBasic Qualifications - Bachelor's degree or equivalent - Experience with Microsoft Office products & applications - Experience in construction or project management\nPreferred Qualifications - Knowledge of MS Excel, AutoCAD, MS Project, and software for technical document writing such as Visio, Word, or PowerPoint - 2+ years of vendor management experience - Knowledge of Six Sigma, Lean manufacturing efforts, transportation/logistics and/or fulfillment/distribution centers Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, AZ, Tempe - 60,700.00 - 85,000.00 USD annually USA, CO, DENVER - 60,700.00 - 85,000.00 USD annually USA, GA, Atlanta - 60,700.00 - 85,000.00 USD annually USA, IL, Chicago - 60,700.00 - 85,000.00 USD annually USA, MN, Minneapolis - 60,700.00 - 85,000.00 USD annually USA, TX, Irving - 60,700.00 - 85,000.00 USD annually USA, VA, Arlington - 60,700.00 - 85,000.00 USD annually USA, WA, Bellevue - 80,200.00 - 85,000.00 USD annually",
+      "description": "Description Application deadline: Nov 16, 2026 Amazon created one of the most sophisticated supply chains in the world. From the introduction of Amazon Prime, to the use of advanced technology for package delivery; Amazon consistently drives change from the front of the pack. As an Operations Engineer, you will lead and manage the lifecycle of challenging cross-functional projects, developing and delivering the next generation of sortation and distribution solutions. You are a customer obsessed leader that will play an integral part in planning and implementation of the facility network infrastructure including new builds, retrofits, expansions and program initiatives. Partnering with internal customers and internal/external stakeholders to engage as a team and ensure a timely handover will be part of your critical tasks. Key competencies of this position include insisting on the highest standards ensuring that contracted resources meet schedule, budgetary, safety and driving quality targets; analyzing and deep diving systems performance, inventing and simplifying solutions that allow for improved processes and results; and providing technical expertise to internal customers and stakeholders. Key job responsibilities \u2022Work independently with internal and external teams to successfully manage the lifecycle of the challenging projects, and act as owner in delivering on projects objectives and targets. Projects may span organizations or geographies in support of business objectives. \u2022Actively participate in firm engineering reviews, and make tangible impact on the proposed solutions on an individual system or its components, on the overall systems architecture, and on facility processes . \u2022Partner with internal teams, stakeholders and external vendors to set project priorities, establish milestones, and drive schedules to meet deadlines. Proactively assess stakeholders\u2019 dependencies and milestones, problem-solve and drive solutions to mitigate the impact from the issues. \u2022Lead and coordinate all execution efforts in delivering systems and automated equipment designs per established standards and guidelines. Perform equipment/systems installation, throughput and safety qualifications. Simplify, optimize, remove bottlenecks and provide feedback while resolving difficult system problems or technical deficiencies. \u2022Lead effective meetings by setting the objectives, putting the right people in the room and driving detailed business and technical discussions/alignment. Document meetings discussions, decisions and future steps ensuring alignment on expectations with internal partner teams and outside vendors. \u2022Promptly and accurately communicate project status, risk analysis and risk mitigation plans. Effectively answer project questions in detail, and regularly produce clear and concise summaries for the projects to leadership/management team. \u2022Competently articulate system and/or equipment designs, including layouts, technical specifications and functional capabilities, to internal customers and partner teams. \u2022Efficiently manage change order controls, purchase orders, and invoice validation/approvals. \u2022Excel at building strong working relationships with internal and external stakeholders across multiple projects \u2022Identify and lead process improvement initiatives that improve the Engineering and cross-teams\u2019 efficiencies, optimizing the teams\u2019 value and delivery. Through collaboration, generate high-quality, cost-effective solutions in compressed periods of time. \u2022Travel up to 80% domestically although travel intensity can be variable and consist of up to three weeks in a row, including weekends. A day in the life You are managing quality of implementation through multiple projects that can vary in scope, complexity and duration. Daily tasks may comprise of site coordination with operations teams and contractors on project execution activities or changes; deep diving project progress, schedule and resources, while identifying barriers, creating solutions and driving resolutions. You may be facilitating the planning and/or implementation meetings with projects\u2019 stakeholders, ensuring alignment in objectives, expectations, and the next steps; you would capture and publish detailed notes after each meeting to drive ownership and follow-through on the actions and decisions. Reviewing/approving audit mechanisms and documentation is one of the essential tasks, and you may be tracking the programmatic week on week installation opportunities with the internal automation teams. You may be brainstorming and developing workaround solutions while mitigating the project delays or design issues. As a part of the acceptance testing you may be performing systems installation quality, safety, throughput and performance qualifications, frequently communicating the progress to internal and external stakeholders. In addition, you may be supporting/training other engineering team members, utilizing the knowledge of Amazon\u2019s safety, mechanical, electrical and controls installation standard and guidelines. About the team At Amazon, we are all Owners and leverage unique opportunities presented to us by owning everything from firm engineering to project execution and final hand-off to our customers. We are a diverse, upbeat, creative team of engineers and managers working on a daily basis to ensure that our internal customers have capabilities to deliver on the Customer Promise. We not only build, but we are also consistently improving our capabilities at Amazon. Continuous improvement is the ongoing enhancement of our systems designs, through incremental and breakthrough developments. We are continually raising the quality bar, and are never satisfied. We seek to improve through captured lessons learned, that are incorporated back into our mechanisms as a way to perpetually improve upon the next design and processes iterations. We continually learn, grow and develop throughout the organization and our Subject Matter Expertise is leveraged globally. We are the Team! We collaborate, support, help and leverage each other in delivering on the business objectives.\nBasic Qualifications - Bachelor's degree or equivalent - Experience with Microsoft Office products & applications - Experience in construction or project management\nPreferred Qualifications - Knowledge of MS Excel, AutoCAD, MS Project, and software for technical document writing such as Visio, Word, or PowerPoint - 2+ years of vendor management experience - Knowledge of Six Sigma, Lean manufacturing efforts, transportation/logistics and/or fulfillment/distribution centers Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, AZ, Tempe - 60,700.00 - 85,000.00 USD annually USA, CO, DENVER - 60,700.00 - 85,000.00 USD annually USA, GA, Atlanta - 60,700.00 - 85,000.00 USD annually USA, IL, Chicago - 60,700.00 - 85,000.00 USD annually USA, MN, Minneapolis - 60,700.00 - 85,000.00 USD annually USA, TX, Irving - 60,700.00 - 85,000.00 USD annually USA, VA, Arlington - 60,700.00 - 85,000.00 USD annually USA, WA, Bellevue - 80,200.00 - 85,000.00 USD annually",
       "posting_date": null,
       "experience": "nical document writing such as Visio, Word, or PowerPoint - 2+ years of vendor management experience - Knowledge of Six Sigma, Lean manufacturing ef",
       "classification": "Not Eligible",
@@ -76880,9 +76880,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "1bb995ba8451496fc03dcde3159d93bcb65645aed4542b083ae17af434204f6a",
+      "content_hash": "0e857541d1b2604e0b6f46ca27ca8067193d104c5fc4b42d628f0cba841902dc",
       "first_discovered": "2026-10-13T15:58:40.076813+00:00",
-      "last_seen": "2026-11-04T11:54:48.361126+00:00",
+      "last_seen": "2026-11-13T02:08:50.583059+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -76973,7 +76973,7 @@
       "sponsorship": null,
       "content_hash": "53e95757dff259ce2fac176235750679da3e8c4ddf33aecaac3a79f4fac76edb",
       "first_discovered": "2026-10-13T15:58:41.783276+00:00",
-      "last_seen": "2026-11-04T11:55:25.465750+00:00",
+      "last_seen": "2026-11-13T02:09:33.396255+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77039,7 +77039,7 @@
       "sponsorship": null,
       "content_hash": "e425edb7c4ba45d9cf8dcdcf08cd6d228b9cc462f440db01818ec2ae39ca77c6",
       "first_discovered": "2026-10-13T15:58:43.571318+00:00",
-      "last_seen": "2026-11-04T11:54:47.645799+00:00",
+      "last_seen": "2026-11-13T02:09:04.396298+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77062,7 +77062,7 @@
       "sponsorship": null,
       "content_hash": "7b2333d7299efd2346418a5031216fbf638ebe9535435a71d45da3e71ed99a5f",
       "first_discovered": "2026-10-13T15:58:43.918893+00:00",
-      "last_seen": "2026-11-04T11:55:27.442910+00:00",
+      "last_seen": "2026-11-13T02:09:33.993367+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77085,7 +77085,7 @@
       "sponsorship": null,
       "content_hash": "a8088505ced07b5ff91a84210d0958a8ba7362e255df250cadcdf821c04edabf",
       "first_discovered": "2026-10-13T15:58:44.698256+00:00",
-      "last_seen": "2026-11-04T11:55:33.248595+00:00",
+      "last_seen": "2026-11-13T02:09:34.782216+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77108,7 +77108,7 @@
       "sponsorship": null,
       "content_hash": "11e92845b8695beff48d5b6a89e7f9411081fab34466d35c3d545789212272e4",
       "first_discovered": "2026-10-13T15:58:45.270478+00:00",
-      "last_seen": "2026-11-04T11:55:31.927699+00:00",
+      "last_seen": "2026-11-13T02:09:35.633757+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77154,7 +77154,7 @@
       "sponsorship": null,
       "content_hash": "fa7e0e525a6182470659c9079dfe52bb7e48b849a88edb6ea763f19f6f3a6ecf",
       "first_discovered": "2026-10-13T15:58:49.786582+00:00",
-      "last_seen": "2026-11-04T11:55:34.223988+00:00",
+      "last_seen": "2026-11-13T02:09:36.083237+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77176,7 +77176,7 @@
       "sponsorship": null,
       "content_hash": "fff468418149ab4780956507eb1a806727f6c7e06bab0717cbb9e310a9e85e34",
       "first_discovered": "2026-10-13T15:58:50.357789+00:00",
-      "last_seen": "2026-11-04T11:54:39.034280+00:00",
+      "last_seen": "2026-11-13T02:09:05.122374+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77223,7 +77223,7 @@
       "sponsorship": null,
       "content_hash": "1576bc90dd986fd14728bd9f49a519b11c81020d3516999f1e8cfa9d014f0b9c",
       "first_discovered": "2026-10-13T15:58:51.439852+00:00",
-      "last_seen": "2026-11-04T11:54:51.073495+00:00",
+      "last_seen": "2026-11-13T02:09:06.456062+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77246,7 +77246,7 @@
       "sponsorship": null,
       "content_hash": "62712b947343a21a4329181d354133f45e3eea31bc102d72b851bc0d80f99605",
       "first_discovered": "2026-10-13T15:58:51.744493+00:00",
-      "last_seen": "2026-11-12T04:37:45.436867+00:00",
+      "last_seen": "2026-11-13T02:09:35.291530+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77269,7 +77269,7 @@
       "sponsorship": null,
       "content_hash": "03814daa6ed65fc54b1c53befb1e4a927043c289dc97d1a6f0451351ae92922f",
       "first_discovered": "2026-10-13T15:58:52.111994+00:00",
-      "last_seen": "2026-11-04T11:55:37.000524+00:00",
+      "last_seen": "2026-11-13T02:09:42.738302+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77315,7 +77315,7 @@
       "sponsorship": null,
       "content_hash": "b49a4eacecbb24ded4d63992e07a3ecd2231742cf6aaebb38ff254474a5761cc",
       "first_discovered": "2026-10-13T15:58:53.196432+00:00",
-      "last_seen": "2026-11-04T11:55:40.868252+00:00",
+      "last_seen": "2026-11-13T02:08:51.302077+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77360,7 +77360,7 @@
       "sponsorship": null,
       "content_hash": "61ed602a91da6f31c79c5afa239e4bee440bc6b9e382dc5d49d61130efdc022e",
       "first_discovered": "2026-10-13T15:58:54.424983+00:00",
-      "last_seen": "2026-11-04T11:55:39.977116+00:00",
+      "last_seen": "2026-11-13T02:09:42.274539+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77451,7 +77451,7 @@
       "sponsorship": null,
       "content_hash": "ce129971fb7e8f6068f29d1089546372ee78aa2e30a1556acca2cc480213db63",
       "first_discovered": "2026-10-13T15:58:59.345076+00:00",
-      "last_seen": "2026-11-04T11:55:03.433835+00:00",
+      "last_seen": "2026-11-13T02:09:16.780057+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77474,7 +77474,7 @@
       "sponsorship": "NOTE: Amazon does not sponsor for immigration, including for H-1B, TN, and other non-immigrant visas, for this role",
       "content_hash": "017b517a1cceeb4d0fe947ea40882c760b2274a9e84d00a7c6f63b2a8a50d6ee",
       "first_discovered": "2026-10-13T15:58:59.786803+00:00",
-      "last_seen": "2026-11-04T11:54:54.095959+00:00",
+      "last_seen": "2026-11-13T02:09:15.418837+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77497,7 +77497,7 @@
       "sponsorship": null,
       "content_hash": "30a763f00c60be50a6844af91cf7531e19ae53f526877fa616798d79d1f3ab24",
       "first_discovered": "2026-10-13T15:59:00.337940+00:00",
-      "last_seen": "2026-11-04T11:55:41.633876+00:00",
+      "last_seen": "2026-11-13T02:09:44.926348+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77566,7 +77566,7 @@
       "sponsorship": null,
       "content_hash": "2edcebea98fd48c68202efa31aeed6aa11c29c21982f87f2d664334681ca481b",
       "first_discovered": "2026-10-13T15:59:01.698333+00:00",
-      "last_seen": "2026-11-04T11:55:38.427437+00:00",
+      "last_seen": "2026-11-13T02:09:43.782584+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77589,7 +77589,7 @@
       "sponsorship": null,
       "content_hash": "8d335c4349923432c2c0984c610c1d58d671316605ac988c21278f653b14cefc",
       "first_discovered": "2026-10-13T15:59:02.107599+00:00",
-      "last_seen": "2026-11-04T11:55:43.046696+00:00",
+      "last_seen": "2026-11-13T02:09:47.875508+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77613,7 +77613,7 @@
       "sponsorship": null,
       "content_hash": "40f250d32d36ab9c0944cbcfd9cc5f07fcb1218619449ef28683a5f6f2ed9d1e",
       "first_discovered": "2026-10-13T15:59:02.704484+00:00",
-      "last_seen": "2026-11-04T11:55:47.886169+00:00",
+      "last_seen": "2026-11-13T02:08:49.936727+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77684,7 +77684,7 @@
       "sponsorship": null,
       "content_hash": "3a80b3d368d3a2796c8dafa2868fa84de113d7a718ad5742d1cb95463695b643",
       "first_discovered": "2026-10-13T15:59:03.968528+00:00",
-      "last_seen": "2026-11-04T11:55:04.149146+00:00",
+      "last_seen": "2026-11-13T02:09:18.812972+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77754,7 +77754,7 @@
       "sponsorship": null,
       "content_hash": "491df59f730e14ae949fc4847b386fa86c41fe1e2bae78b9aaa4f0c9e9ac62cc",
       "first_discovered": "2026-10-13T15:59:08.937145+00:00",
-      "last_seen": "2026-11-04T11:55:48.861574+00:00",
+      "last_seen": "2026-11-13T02:09:47.497055+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77871,7 +77871,7 @@
       "sponsorship": null,
       "content_hash": "140c197230a06ec959825fb797352b021b274955a09ae2199e7d6e804246396d",
       "first_discovered": "2026-10-13T15:59:11.453890+00:00",
-      "last_seen": "2026-11-04T11:55:50.646952+00:00",
+      "last_seen": "2026-11-13T02:09:48.397205+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77916,7 +77916,7 @@
       "sponsorship": null,
       "content_hash": "0975e3fada1855326bf4e5addb0cc7e489c9f2825b9e8067034b8533844e4f89",
       "first_discovered": "2026-10-13T15:59:12.365423+00:00",
-      "last_seen": "2026-11-04T11:55:53.397363+00:00",
+      "last_seen": "2026-11-13T02:09:48.886967+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -77963,7 +77963,7 @@
       "sponsorship": null,
       "content_hash": "ba1e4c1b0684b5479d83bcff37bf124f1071fbe2edfc640aaa8532d550801ff8",
       "first_discovered": "2026-10-13T15:59:13.130470+00:00",
-      "last_seen": "2026-11-04T11:55:54.098913+00:00",
+      "last_seen": "2026-11-13T02:09:50.765598+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -78079,7 +78079,7 @@
       "sponsorship": null,
       "content_hash": "fc49f901cbf71a2d8a64bcf8e89be0ff2c01f19714a7e1d0dbef0cfca1f10da7",
       "first_discovered": "2026-10-13T15:59:18.949716+00:00",
-      "last_seen": "2026-11-04T11:55:54.640257+00:00",
+      "last_seen": "2026-11-13T02:09:51.204939+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -78150,7 +78150,7 @@
       "sponsorship": null,
       "content_hash": "e2513d13974bb743197094c452c3f412c61389305b87dda2a6d51634c3782118",
       "first_discovered": "2026-10-13T15:59:20.721996+00:00",
-      "last_seen": "2026-11-04T11:56:05.639834+00:00",
+      "last_seen": "2026-11-13T02:09:58.776710+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -81019,7 +81019,7 @@
       "sponsorship": null,
       "content_hash": "a094c891661b2c736a141071545770d872d91f6def23575c9d148f714525370f",
       "first_discovered": "2026-10-14T00:35:18.491821+00:00",
-      "last_seen": "2026-11-04T11:55:07.506463+00:00",
+      "last_seen": "2026-11-13T02:09:19.109250+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85316,7 +85316,7 @@
       "sponsorship": null,
       "content_hash": "ec808267f90775229e69d45fe81d690d5ecd290f8765cedf3766cf9ed8130ecd",
       "first_discovered": "2026-10-15T19:43:10.227680+00:00",
-      "last_seen": "2026-11-04T11:54:52.598413+00:00",
+      "last_seen": "2026-11-13T02:09:07.776112+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85339,7 +85339,7 @@
       "sponsorship": null,
       "content_hash": "dbb6a973647d513b122e044312e6727f6753953d6f7041a97fc592ade0b00aee",
       "first_discovered": "2026-10-15T19:43:12.995982+00:00",
-      "last_seen": "2026-11-04T11:54:36.445127+00:00",
+      "last_seen": "2026-11-13T02:09:02.029919+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -85363,7 +85363,7 @@
       "sponsorship": null,
       "content_hash": "cd09e8624666179b88f928d6eef809808651c56d1b1060762a22d3496896752e",
       "first_discovered": "2026-10-15T19:43:31.655062+00:00",
-      "last_seen": "2026-11-04T11:55:23.352871+00:00",
+      "last_seen": "2026-11-13T02:09:32.542395+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -87824,7 +87824,7 @@
       "sponsorship": null,
       "content_hash": "854e2034dcb738adaa522159cf56b9a92a5ca740f5435fa279be27d5d7c4e1de",
       "first_discovered": "2026-10-17T23:45:48.694895+00:00",
-      "last_seen": "2026-11-04T11:55:55.508640+00:00",
+      "last_seen": "2026-11-13T02:09:57.100546+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92665,7 +92665,7 @@
       "sponsorship": null,
       "content_hash": "146a60cd4e29bce9d80cb962652273e8ee43498946c8e5727b506b8dac66f354",
       "first_discovered": "2026-10-20T10:44:29.718320+00:00",
-      "last_seen": "2026-11-04T11:54:38.513327+00:00",
+      "last_seen": "2026-11-13T02:09:07.169565+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -92688,7 +92688,7 @@
       "sponsorship": null,
       "content_hash": "e866217c7fae085c80247d9d64dc88d8b6ece6c0a5a00f81ccc2d69c26d0b79c",
       "first_discovered": "2026-10-20T10:44:30.613560+00:00",
-      "last_seen": "2026-11-04T11:55:01.508884+00:00",
+      "last_seen": "2026-11-13T02:09:16.333456+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -97423,7 +97423,7 @@
       "location": "Redmond, WA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557007439?domain=microsoft.com",
       "description": "Drive architecture and technical direction for the Agent Connectivity Platform, translating complex requirements into scalable, secure, and maintainable designs. Design, build, and operate core platform services spanning connectors, connection management, authentication, authorization, and agent access to enterprise and third-party systems. Own delivery end to end, from requirements and design through implementation, testing, rollout, and production operations. Write high-quality, extensible code and raise engineering standards through design reviews, code reviews, and hands-on technical mentorship. Lead by example in AI-first development, applying AI tools to accelerate implementation, testing, troubleshooting, and operations while maintaining quality and security. Define success metrics and use prototypes, experiments, and production telemetry to validate designs, assess customer impact, and guide release decisions. Build security, compliance, tenant isolation, and governance into platform architecture and connection lifecycles. Serve as a Designated Responsible Individual (DRI), participate in on-call rotations, lead incident diagnosis and mitigation, and drive improvements that prevent recurrence. Improve platform availability, reliability, performance, observability, and cost efficiency through engineering investments and operational learning. Influence technical decisions across teams and share reusable patterns that simplify integration and improve the developer experience. Define the evals strategy and platform for agentic systems, establishing rigorous benchmarks, automated quality measurement, regression detection, and release criteria that make agent quality measurable and continuously improvable. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python These requirements include but are not limited to the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Experience building agent-facing tools or services, including familiarity with Model Context Protocol (MCP) or related interoperability patterns. Experience designing and operating multi-tenant services with enterprise security, governance, and compliance requirements. 3+ years of professional experience using generative AI to accelerate software development, improve operations, and assess customer satisfaction.",
-      "posting_date": "2026-11-02T15:55:41",
+      "posting_date": "2026-11-11T18:42:52",
       "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not li;  3+ years of professional experience using generative AI to accelerate software developme",
       "classification": "Not Eligible",
       "reasons": [
@@ -97432,9 +97432,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "e022e9f0fc61d3b18dd2422ebd9952ddae29525e4d68a309a92ddb5d84394248",
+      "content_hash": "0fb014114ee2e19309d483acd30f816b1d3d8fd86128786c307b6b7dac7095f4",
       "first_discovered": "2026-10-23T22:28:44.767865+00:00",
-      "last_seen": "2026-11-10T01:05:24.237343+00:00",
+      "last_seen": "2026-11-13T02:09:27.845869+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103196,7 +103196,7 @@
       "sponsorship": null,
       "content_hash": "1fb5ec5dbf3a9b0d57a005a3ffccfaa8039aaa2936772fe45d76de244e620147",
       "first_discovered": "2026-10-30T00:13:03.642841+00:00",
-      "last_seen": "2026-11-11T09:34:42.033049+00:00",
+      "last_seen": "2026-11-13T02:09:32.121360+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103264,7 +103264,7 @@
       "sponsorship": null,
       "content_hash": "01988dc778d1f514cdae454751f9d0f7be95be75bdcc98c14e3e71a499b15661",
       "first_discovered": "2026-10-30T00:16:04.454179+00:00",
-      "last_seen": "2026-11-04T11:54:29.665503+00:00",
+      "last_seen": "2026-11-13T02:09:01.101608+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -103879,7 +103879,7 @@
       "sponsorship": null,
       "content_hash": "616d1c1ae8e379f7f80cc9cc9be57de3a7264be6885a5776372a86d0a52b9bc5",
       "first_discovered": "2026-10-30T18:50:19.662390+00:00",
-      "last_seen": "2026-11-11T09:44:52.694263+00:00",
+      "last_seen": "2026-11-13T02:09:39.932486+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -105882,7 +105882,7 @@
       "sponsorship": null,
       "content_hash": "7bb921b604bc78cc93c20507ec0acc40d7662143fe869bd4d296f906a2e65f90",
       "first_discovered": "2026-11-02T02:47:30.712187+00:00",
-      "last_seen": "2026-11-04T11:54:31.783075+00:00",
+      "last_seen": "2026-11-13T02:09:01.562833+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -106837,7 +106837,7 @@
       "sponsorship": null,
       "content_hash": "c8a700e43e80467bbb8c336514ec8b33a395528f76dc08980cb202304e4d81a2",
       "first_discovered": "2026-11-02T20:39:25.871383+00:00",
-      "last_seen": "2026-11-04T11:54:29.015591+00:00",
+      "last_seen": "2026-11-13T02:09:00.367459+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108693,9 +108693,9 @@
       "title": "Principal Software Engineer",
       "location": "Redmond, WA,US, United States; Mountain View, CA,US, United States",
       "url": "https://apply.careers.microsoft.com/careers/job/1970393557051064?domain=microsoft.com",
-      "description": "Working across COSMIC, M365, and partner security organizations, you will turn ambiguous security and compliance requirements into durable platform architecture, establish engineering standards, drive multi-team execution, and raise the security capability of the broader organization through technical leadership and mentorship. Own the security architecture, technical strategy, implementation, rollout, and operation of foundational COSMIC security services across globally distributed, high-scale infrastructure. Design and build highly available certificate lifecycle systems, including enrollment, issuance, secure delivery, validation, renewal, revocation, expiry prevention, trust distribution, and root and intermediate CA rotation. Build resilient key and secrets management capabilities, including KMS integration, encryption at rest, key-version transitions, automated reconciliation and validation, hardware-backed protection where appropriate, auditability, and emergency recovery. Advance identity and authorization for multi-tenant Kubernetes and cloud-native infrastructure using workload identity, scoped managed identities, namespace and workload isolation, mutual TLS, least-privilege RBAC, policy enforcement, and secure secret delivery. Own trust and issuer-change readiness across public and sovereign environments, including cryptographic agility, operating-system and container trust behavior, compatibility validation, migration guidance, and uninterrupted fleet availability. Threat model complex distributed systems and investigate cross-tenant or cross-workload privilege boundaries; translate findings into secure-by-default APIs, platform guardrails, enforcement points, migration plans, and safely deployable remediation. Establish security invariants, service-level objectives, inventories, expiry alerts, telemetry, detection, audit, and post-change validation that continuously demonstrate the health and integrity of certificate, key, identity, and secrets systems. Lead production readiness and operations through ring-based deployment, feature gating, compatibility and failure testing, automated rollback, blast-radius containment, incident response, on-call excellence, troubleshooting guidance, and durable follow-up. Drive end-to-end security features across control planes, resource provisioning, agents and controllers, Kubernetes custom resources, cloud authorization, and workload consumption paths, with meaningful integration and regression testing. Lead cross-team architecture and execution across platform, identity, cloud infrastructure, security response, and partner engineering; clarify ownership boundaries, resolve long-range dependencies, contribute production code and design documents, and mentor engineers in security and distributed-systems practices. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python These requirements include but are not limited to the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. 3+ years of experience designing, building, or operating security-critical software or infrastructure in areas such as PKI, certificates, cryptographic key management, secrets management, identity, authentication, or authorization. Experience designing and operating distributed systems or cloud services with high availability, reliability, observability, and incident-response requirements. Direct experience and knowledge of X.509, certificate authorities, certificate path validation, revocation, TLS/mTLS, cryptographic primitives, trust models, and secure key custody. Experience with managed HSMs, KMS platforms, secret stores, certificate automation, Secrets Store CSI Driver, SPIFFE/SPIRE, service mesh security, or workload identity systems. Experience securing multi-tenant Kubernetes, container platforms, controllers/operators, custom resources, control planes, or infrastructure spanning multiple regions, tenants, and fault domains. Demonstrated ability to lead architecture and deliver multi-team security initiatives from problem definition through production adoption and sustained operations. Experience with zero-trust architecture, least-privilege design, namespace and workload isolation, policy-as-code, admission control, secure bootstrap, or supply-chain security. Experience designing migrations for trust anchors, certificate issuers, protocols, algorithms, identities, or key material across public and sovereign environments while maintaining compatibility and service availability. Solid threat-modeling, security review, debugging, and incident-investigation skills, including the ability to reason about failure modes, abuse paths, and systemic risk. Experience using inventories, reconciliation, telemetry, security signals, audits, exercises, and measurable controls to prevent expiry, detect partial rollout, and improve operational outcomes. Ability to communicate complex security decisions clearly, influence senior stakeholders, build alignment across teams, and mentor engineers in security engineering practices.",
-      "posting_date": "2026-11-03T22:02:47",
-      "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not li;  3+ years of experience designing, building, or operating security-critical software or i",
+      "description": "Set technical direction for compute provisioning and fleet-management infrastructure, translating ambiguous requirements into a coherent architecture, modernization roadmap, and execution plan. Architect and deliver reliable resource-provider APIs, distributed control planes, and orchestration systems for provisioning and managing compute resources at fleet scale. Solve complex distributed systems problems across provisioning, capacity, deployment, recovery, and optimization, balancing performance, compute efficiency, fault isolation, and resiliency. Build agent-ready interfaces, including MCP tools and a shared fleet knowledge and action layer, that give agents consistent access to resource state, operational context, and controlled management capabilities. Design and deliver long-running, event-driven, and customer-concierge agents that use platform capabilities to provision resources, investigate issues, recover services, and optimize fleet operations. Establish identity and authorization, policy enforcement, bounded actions, observability, rollback, and human-approval mechanisms that make agent-led operations safe, auditable, and recoverable. Lead architecture and delivery across infrastructure, service, and partner teams; resolve technical tradeoffs, align interfaces and dependencies, and drive shared commitments from design through production. Use production telemetry, customer feedback, fault testing, and agent evaluations to improve provisioning reliability, recovery outcomes, resource utilization, and operational safety. Stay hands-on in design, implementation, and production troubleshooting while mentoring engineers and creating leverage through simple abstractions, reusable components, and clear technical guidance. Champion operational excellence by reducing toil and enabling hands-free recovery and optimization where safe, with clear escalation paths when human judgment is needed. Bachelor's Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python These requirements include but are not limited to the following specialized security screenings: Master's Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Experience architecting and shipping large-scale distributed systems or cloud compute infrastructure, such as provisioning systems, resource-management services, or distributed control planes. Demonstrated technical leadership across multiple teams, including setting architectural direction, modernizing existing systems, and delivering through complex dependencies. Experience building reliable orchestration, automated recovery, or resource-optimization systems; experience with production AI agents or agent-ready APIs and tools is a plus. Experience designing resilient systems that handle partial failures and safely coordinate long-running operations, with strong identity, authorization, observability, and recovery mechanisms. Demonstrated hands-on engineering depth and a track record of simplifying complex infrastructure through durable abstractions, maintainable code, and sound distributed systems design. Experience using production telemetry, experimentation, fault testing, and customer signals to improve reliability, performance, resource efficiency, and operational outcomes. Ability to communicate technical strategy and tradeoffs clearly, build alignment across system and team boundaries, and mentor engineers through complex design and delivery challenges.",
+      "posting_date": "2026-11-12T20:11:49",
+      "experience": "s Degree in Computer Science or related technical field AND 6+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 8+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 12+ years technical engineering experience with coding in languages including, but not li",
       "classification": "Not Eligible",
       "reasons": [
         "Excluded seniority or internship",
@@ -108703,9 +108703,9 @@
       ],
       "graduation_years": [],
       "sponsorship": null,
-      "content_hash": "8db5355cd9cc0bfa6a6b56fb86296dc35a23781a5c528f1149310d567a3337fb",
+      "content_hash": "f9580bce75a29f0dd6607ca1cdc232e403a61d65b4807e168e236085cc427bd1",
       "first_discovered": "2026-11-04T11:46:16.405345+00:00",
-      "last_seen": "2026-11-12T13:26:52.438751+00:00",
+      "last_seen": "2026-11-13T02:09:49.891102+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -108751,7 +108751,7 @@
       "sponsorship": null,
       "content_hash": "7a2ff3cdd6adc65ac7b0e651381032f6be0edf3a2888c596c27cb5861f90da3c",
       "first_discovered": "2026-11-04T11:46:42.838357+00:00",
-      "last_seen": "2026-11-12T21:09:02.337884+00:00",
+      "last_seen": "2026-11-13T02:09:46.104040+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -110704,7 +110704,7 @@
       "sponsorship": null,
       "content_hash": "0f688fd78527e6b5b33a0ecd9794f273eaab167cb575630248e5afa58a76618f",
       "first_discovered": "2026-11-05T22:13:42.656434+00:00",
-      "last_seen": "2026-11-12T21:07:31.650901+00:00",
+      "last_seen": "2026-11-13T02:08:57.869500+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -113483,7 +113483,7 @@
       "sponsorship": null,
       "content_hash": "af40645dc75e60d3d0e9fd94385f2d36e046acff61682e2c380d3c09e160adec",
       "first_discovered": "2026-11-10T07:54:56.853406+00:00",
-      "last_seen": "2026-11-12T21:00:41.506423+00:00",
+      "last_seen": "2026-11-13T02:10:22.980644+00:00",
       "notified_hash": null,
       "notification_status": "pending",
       "delivered_at": null
@@ -115831,7 +115831,7 @@
       "sponsorship": null,
       "content_hash": "038de79311996b0fbf403f479a76a5f043865b4225f921c0a7a93a6f3bbcc677",
       "first_discovered": "2026-11-12T04:36:36.990476+00:00",
-      "last_seen": "2026-11-12T13:29:28.873019+00:00",
+      "last_seen": "2026-11-13T02:09:14.811563+00:00",
       "notified_hash": "038de79311996b0fbf403f479a76a5f043865b4225f921c0a7a93a6f3bbcc677",
       "notification_status": "sent",
       "delivered_at": "2026-11-12T04:36:37.874337+00:00"
@@ -116697,6 +116697,98 @@
       "notified_hash": "29f5305af5f9b01da2cb79e794a0008bce10eceed38c9eb15445267b42447f7b",
       "notification_status": "sent",
       "delivered_at": "2026-11-13T02:08:47.263377+00:00"
+    },
+    "Amazon:10596493": {
+      "company": "Amazon",
+      "job_id": "10596493",
+      "title": "Front End Engineer, Amazon Quick",
+      "location": "USA, WA, Seattle",
+      "url": "https://www.amazon.jobs/en/jobs/10596493/front-end-engineer-amazon-quick",
+      "description": "Description Our team \u2014 Quick Core Experience \u2014 owns the platform layer behind Amazon Quick, an agentic, AI-powered digital workspace. We deliver the critical infrastructure every feature depends on: asset metadata services (indexing, search, list, favorites), real-time customization, the core design system, and enterprise governance adherence across web, mobile, and desktop experiences in Quick. Quick is where generative AI meets the enterprise workplace. Chat, custom agents, research, BI, workflow automation \u2014 all unified, fast, discoverable, and governed at scale. The platform we build is what makes that possible. We're looking for a Front End engineer energized by hard problems on both sides of the stack. You design and operate large-scale distributed systems, and you love crafting scalable front-end experiences. You'll own real problems: high-throughput indexing pipelines that unify writes across dozens of producer teams, real-time customization services scaling across regions and tenants, and the search and discovery experiences that make the platform feel effortless. You bring a strong sense of ownership, a high bar for code quality, and genuine passion for design and architecture. You don't just know how to solve problems \u2014 you build solutions to address them. You challenge yourself and others to constantly find better solutions. You partner with product managers, UX designers, and fellow engineers to turn ambiguous customer needs into shipped, polished features. This role offers wide scope, real ownership, and the chance to shape Enterprise governance layers we add in Quick, that every team in the product depends on. Key job responsibilities The ideal candidate will be passionate about solving complex and broad business problems of cloud marketplaces with simple and straightforward solutions, applying appropriate technologies and software engineering best practices, building solutions that scale and perform well. They will own the design and implementation of major deliverables end-to-end. This position requires passion towards Agentic development, and/or curiosity towards leveraging AI tools in AI-SDLC, and collaboration with other engineers on the team, principal engineers, product managers, and partner teams. You should be comfortable dealing with ambiguity and should have a desire to create, iterate and improve.\nBasic Qualifications - 3+ years of non-internship professional front end, web or mobile software development using JavaScript, HTML and CSS experience - Experience developing with MVC/MVM frameworks (e.g. React.JS, AngularJS, Vue) - 2+ years of front-end developer creating prototypes or wire-frames for enterprise web applications or workflows experience\nPreferred Qualifications - 3+ years of agile software development methodology experience - Experience with common front-end technologies such as HTML, CSS, JS, TypeScript, and Node Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, WA, Seattle - 143,700.00 - 194,400.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of non-internship professional front end, web or mobile software development us; JS, AngularJS, Vue) - 2+ years of front-end developer creating prototypes or wire-frames for enterprise web ap; Preferred Qualifications - 3+ years of agile software development methodology experience - Experience with common f",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Title is not a software development role",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "577c3c38d4c5faa6227a20b2615f490901f05b42618d3415d09c2e0e9864f92e",
+      "first_discovered": "2026-11-13T02:08:52.169286+00:00",
+      "last_seen": "2026-11-13T02:08:52.169307+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393557053504": {
+      "company": "Microsoft",
+      "job_id": "1970393557053504",
+      "title": "Software Engineer II - CTJ - Poly",
+      "location": "Reston, VA,US, United States; Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557053504?domain=microsoft.com",
+      "description": "Design, implement, test, and maintain cloud\u2011scale services and platform components used in security\u2011critical and highly regulated environments. Collaborate closely with partner teams such as security, operations, program management, and compliance to deliver end\u2011to\u2011end solutions. Investigate and resolve live\u2011site issues, contributing to operational excellence and service reliability and participate in 24x7 on-call rotations to support service health, respond to incidents, and help restore service quickly and safely. Apply secure\u2011by\u2011design principles throughout the development lifecycle, including threat modeling and defense\u2011in\u2011depth practices. Demonstrate a growth mindset by learning new technologies, seeking feedback, and gradually taking on broader technical ownership. Bachelor's Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python These requirements include, but are not limited to the following specialized security screenings: The successful candidate must have an active U.S. Government Top Secret Clearance with access to Sensitive Compartmented Information (SCI) based on a Single Scope Background Investigation (SSBI) with Polygraph. Failure to maintain or obtain the appropriate U.S. Government clearance and/or customer screening requirements may result in employment action up to and including termination. Clearance Verification: This position requires successful verification of the stated security clearance to meet federal government customer requirements. You will be asked to provide clearance verification information prior to an offer of employment. Citizenship & Citizenship Verification: This position requires verification of U.S. citizenship due to citizenship-based legal restrictions. Master's Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR Bachelor's Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not limited to, C, C++, C#, Java, JavaScript, or Python OR equivalent experience. Experience building and supporting large-scale production services, including logging, monitoring, alerting, and ensuring reliability and availability. Experience with security disciplines such as event collection, monitoring, detection engineering, or vulnerability management in cloud environments. Proficient communication skills and proven ability to collaborate with multidisciplinary teams, including Software Engineers, Program Managers, and Data Scientists. Experience building and supporting large-scale production services, including logging, monitoring, alerting, and ensuring reliability and availability.",
+      "posting_date": "2026-11-12T16:12:17",
+      "experience": "s Degree in Computer Science or related technical field AND 2+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 3+ years technical engineering experience with coding in languages including, but not li; s Degree in Computer Science or related technical field AND 5+ years technical engineering experience with coding in languages including, but not li",
+      "classification": "Not Eligible",
+      "reasons": [
+        "US citizenship is required",
+        "Excluded level II or higher",
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "d4dfa7457830ebf4ca05f458df48c6d2e8046db9d582a9311ae73692a1051298",
+      "first_discovered": "2026-11-13T02:09:18.369612+00:00",
+      "last_seen": "2026-11-13T02:09:18.369627+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Microsoft:1970393557072824": {
+      "company": "Microsoft",
+      "job_id": "1970393557072824",
+      "title": "Senior Software Engineer - Linux Platform Engineer (CoreAI)",
+      "location": "Redmond, WA,US, United States",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557072824?domain=microsoft.com",
+      "description": "Mike to add. Mike to add. Software Engineering IC4 - The typical base pay range for this role across the U.S. is USD $119,800 - $234,700 per year. There is a different range applicable to specific work locations, within the San Francisco Bay area and New York City metropolitan area, and the base pay range for this role in those locations is USD $160,200 - $261,000 per year. Certain roles may be eligible for benefits and other compensation.",
+      "posting_date": "2026-11-12T19:24:14",
+      "experience": "Unspecified",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Excluded seniority or internship",
+        "No clear entry-level or at-most-two-years experience evidence"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "b70e4793a92ff163674e79615b31df96ad06d62ede83bf9322d8d06bbe079d6a",
+      "first_discovered": "2026-11-13T02:09:23.194784+00:00",
+      "last_seen": "2026-11-13T02:09:23.194806+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
+    },
+    "Amazon:10477426": {
+      "company": "Amazon",
+      "job_id": "10477426",
+      "title": "Software Development Engineer, Creator Marketplace",
+      "location": "USA, CA, Culver City",
+      "url": "https://www.amazon.jobs/en/jobs/10477426/software-development-engineer-creator-marketplace",
+      "description": "Description At Audible, we believe stories have the power to transform lives. It\u2019s why we work with some of the world\u2019s leading creators to produce and share audio storytelling with our millions of global listeners. We are dreamers and inventors who come from a wide range of backgrounds and experiences to empower and inspire each other. Imagine your future with us. ABOUT THIS ROLE As a Software Development Engineer, it\u2019s up to you to research, define, design and refine the tech that keeps us one step ahead of listeners. Anticipate. Innovate. Bring challenging ideas and we\u2019ll support you with the latest tech, tools and systems that you need to succeed. You\u2019ll be essential in ensuring the team can reach their potential; working closely with them, reviewing their work, mentoring, and supporting them to develop. Together, you\u2019ll build and maintain our platform to bring thousands of stories to millions of listeners and unleash the power of the human voice. ABOUT THE TEAM This is an opportunity to join a growing team in a brand new Audible hub in Culver City, Los Angeles. Audible\u2019s Creator Marketplace customers are talented storytellers, voice actors, producers, publishers and our internal content teams. Our teams build innovative tools to automate the entire content production pipeline that lets the experts focus on creation while helping them bring their art to millions of listeners. We are customer obsessed and the tools we build are intuitive & easy to use, and ensure that technology aids the creativity to provide the best in class experience to listeners. By focusing on our creators, we also create value to Audible\u2019s global consumers by helping them to discover new content, talent and stories they love and share. True to Audible's People Principles, we are committed to the success of our people. We define success as not only career advancement but also personal growth and well-being. We actively support our employees through various programs, including mentoring and coaching opportunities, training initiatives, and flexible work arrangements that promote a healthy work-life balance. At Audible, we cherish the diverse backgrounds and perspectives within our team, recognizing that they are essential for fostering robust conversations and finding the right solutions for our customers. We encourage each individual to bring their unique experiences to the table, knowing that diversity fuels our creativity, enriches our collaborative efforts, and leads to better outcomes. By embracing differing viewpoints, we unlock the full potential of our team and create a culture of inclusion and respect. We have exciting opportunities that will challenge you to leverage your technical expertise and make a significant impact. As a technical role model and high-impact contributor, you will have the chance to work alongside a team of exceptionally talented individuals who share your passion for innovation and success. Together, you will create transformative experiences for our audience. ABOUT YOU You feel pride in every step forward, however big or small. We look for individuals who take ownership of their work, show initiative, and set high standards. Setting high standards means consistently striving for excellence, pushing the boundaries of what is possible, and delivering exceptional results. At Audible, we believe that every failure is an opportunity to learn and grow. We foster an environment that encourages individuals to embrace failure as a natural part of the learning process. We see it as an opportunity to analyze, adapt, and improve, ultimately driving innovation and personal development. As a Software Development Engineer, you will... - Design, develop, and test software components and applications for one of the largest creator and provider of audiobooks in the world - Collaborate with stakeholders to imagine, design, develop, test, and launch software that impacts our customers and inspires your peers - Be proficient in a broad range of data structures and algorithms, knowing when it is (and isn\u2019t) appropriate to use them - Independently clarify technical requirements, assessing development estimates and apply a broad range of design approaches - Review code of other team members and provide constructive direction - Mentor and lead developers by cultivating curiosity and deep technical understanding ABOUT AUDIBLE Audible is the leading producer and provider of audio storytelling. We spark listeners\u2019 imaginations, offering immersive, cinematic experiences full of inspiration and insight to enrich our customers daily lives. We are a global company with an entrepreneurial spirit. We are dreamers and inventors who are passionate about the positive impact Audible can make for our customers and our neighbors. This spirit courses throughout Audible, supporting a culture of creativity and inclusion built on our People Principles and our mission to build more equitable communities in the cities we call home.\nBasic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience - Experience programming with at least one software programming language\nPreferred Qualifications - 3+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience - Bachelor's degree in computer science or equivalent Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company\u2019s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you\u2019re applying in isn\u2019t listed, please contact your Recruiting Partner. The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits . USA, CA, Culver City - 143,700.00 - 194,400.00 USD annually",
+      "posting_date": null,
+      "experience": "Basic Qualifications - 3+ years of non-internship professional software development experience - 2+ years of no; Preferred Qualifications - 3+ years of full software development life cycle, including coding standards, code revie",
+      "classification": "Not Eligible",
+      "reasons": [
+        "Required experience exceeds two years"
+      ],
+      "graduation_years": [],
+      "sponsorship": null,
+      "content_hash": "e93f1e1515e1be7c7ea4071b119557df0b55eb4b99a2a1f8136f5ba22a02a01d",
+      "first_discovered": "2026-11-13T02:09:57.883030+00:00",
+      "last_seen": "2026-11-13T02:09:57.883051+00:00",
+      "notified_hash": null,
+      "notification_status": "pending",
+      "delivered_at": null
     }
   },
   "sources": {
@@ -116723,14 +116815,14 @@
     },
     "NVIDIA": {
       "status": "Incomplete",
-      "last_scan": "2026-11-12T21:18:02.035194+00:00",
+      "last_scan": "2026-11-13T02:11:24.509144+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
     },
     "Microsoft": {
-      "status": "Incomplete",
-      "last_scan": "2026-11-12T21:18:24.600986+00:00",
+      "status": "Restricted",
+      "last_scan": "2026-11-13T02:14:03.925733+00:00",
       "baseline_complete": false,
       "baseline_initialized": true,
       "recovery_pending": true
